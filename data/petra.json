@@ -1,0 +1,1017 @@
+{
+  "title": "Petra",
+  "leseverstehen_teil_1": {
+    "headings": {
+      "a": "Angebot für Reisende: Für wenig Geld öffentliche Verkehrsmittel benutzen",
+      "b": "Bildband: Babys im Garten",
+      "c": "Ein Schüler mit vielen Ideen",
+      "d": "Früh übt sich: Hotels bieten Skikurse für Zweijährige an",
+      "e": "Handbuch für Hobby-Fotografen",
+      "f": "Neu: Mit dem Taxi gratis zur Disco",
+      "g": "Neu: Taxi - Tickest für Discobesucher",
+      "h": "Schulkinder schreiben spannende Geschichten",
+      "i": "Skikurs für Eltern und Kinder",
+      "j": "Straßenbahn und Bus im Flugticket enthalten"
+    },
+    "headings_en": {
+      "a": "Offer for travelers: Use public transport for little money",
+      "b": "Photo book: Babies in the garden",
+      "c": "A student with many ideas",
+      "d": "Practice makes perfect: Hotels offer ski courses for two-year-olds",
+      "e": "Manual for hobby photographers",
+      "f": "New: Free taxi to the disco",
+      "g": "New: Taxi tickets for disco visitors",
+      "h": "School children write exciting stories",
+      "i": "Ski courses for parents and children",
+      "j": "Tram and bus included in the flight ticket"
+    },
+    "passages": [
+      {
+        "number": 1,
+        "text": "Ich möchte, dass Menschen, die meine Fotos gesehen haben, von nun an die Welt mit anderen Augen betrachten. Das könnte der neuseeländischen Fotografin Anne Geddes gelingen. Denn die Bilder, die sie für das Buch 'Drunten im Garten' von den kleinen Menschenkindern gemacht hat, sind ungewöhnlich und wunderschön: Babys auf Blumen, Blättern, Beeren, verkleidet als Morcheln, Melonen oder Marienkäfer, Babys in Tulpen und als Schmetterlinge. Ein Bildband, angereichert mit poetischen Texten und Ratschlägen.",
+        "text_en": "I want people who have seen my photos to look at the world with different eyes from now on. The New Zealand photographer Anne Geddes might achieve this. Because the pictures she took for the book 'Down in the Garden' of little human children are unusual and beautiful: babies on flowers, leaves, berries, dressed up as moreels, melons, or ladybugs, babies in tulips and as butterflies. A photo book enriched with poetic texts and advice.",
+        "correct_answer": "b",
+        "explanation": "The text explicitly describes a 'Bildband' (photo book) featuring pictures of babies in a garden setting, matching heading 'b'.",
+        "vocabulary": [
+          {
+            "de": "betrachten",
+            "en": "to look at / observe"
+          },
+          {
+            "de": "der Bildband",
+            "en": "the illustrated book / photo book"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "text": "Die meisten Skikurse für Kinder beginnen im Alter von vier Jahren. Im Kärntner Baby Dorf Trebesing ist das anders: Hier werden im Windel Wedel Camp bereits Kleinkinder ab zwei Jahren unterrichtet. Täglich zwei Stunden können die Skihaserin unter fachkundiger Anleitung auf einem flachen Hügel erste Geh- bzw. Fahrversuche auf zwei Brettern machen. Nach einigen Tagen Übung geht es dann mit dem Baby Bus ins Skigebiet Innerkrems. Auch Ginas Baby - und Kinderhotel am Fiaker See bietet seinen jüngsten Gästen Skikurse.",
+        "text_en": "Most ski courses for children start at the age of four. In the Carinthian Baby Village Trebesing, it's different: Here, toddlers as young as two years old are taught in the Diaper Wiggle Camp. Every day for two hours, the little ski bunnies can make their first walking and driving attempts on two boards under expert guidance on a flat hill. After a few days of practice, they go with the Baby Bus to the Innerkrems ski area. Gina's Baby and Children's Hotel at Lake Fiaker also offers ski courses to its youngest guests.",
+        "correct_answer": "d",
+        "explanation": "The text discusses hotels offering ski courses specifically for toddlers starting at age two, which perfectly matches heading 'd'.",
+        "vocabulary": [
+          {
+            "de": "das Kleinkind",
+            "en": "the toddler"
+          },
+          {
+            "de": "die Anleitung",
+            "en": "the guidance / instruction"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "text": "Berlins jüngster Schriftsteller hat deutlich mehr Texte verfasst als er Jahre zählt. Rund 50 Gedichte und Erzählungen tippte Daniel Story. 12, schon in seiner Computer. Ich schreibe fast, seitdem es mich gibt, sagt der Sechstklässler Bereits mit sieben dichtete er die ersten Verse, jetzt mit zwölf ist er stolz auf seine erste Autorenlesung. Wenn Freunde Fußball spielen, tobt Daniels Phantasie im Kinderzimmer. Warum er lieber schreibt? Daniel: Ich schreibe, weil ich nicht alles erleben kann, was ich denke.",
+        "text_en": "Berlin's youngest writer has written significantly more texts than his age in years. Daniel Story, 12, typed around 50 poems and stories into his computer. 'I've been writing almost since I've existed,' says the sixth grader. He wrote his first verses at the age of seven, and now at twelve, he is proud of his first author reading. While friends play football, Daniel's imagination runs wild in his nursery. Why does he prefer to write? Daniel: 'I write because I can't experience everything I think.'",
+        "correct_answer": "c",
+        "explanation": "The passage profiles a 12-year-old student who uses his vivid imagination to write numerous poems and stories, fitting heading 'c'.",
+        "vocabulary": [
+          {
+            "de": "verfassen",
+            "en": "to write / compose"
+          },
+          {
+            "de": "die Phantasie",
+            "en": "the imagination"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "text": "Ob Sie privat oder geschäftlich unterwegs sind, mit dem Stadt Ticket können Sie billig die öffentlichen Verkehrsmittel nutzen. Voraussetzung: Sie sind mit dem Flugzeug oder der Deutschen Bahn(über 100 km) angereist. Gegen einen Aufpreis von nur Euro 2,50 ermöglicht Ihnen das Stadt Ticket auch nach der Ankunft am Zielort freie Fahrt. Mit U-S- oder Straßenbahnen sowie Bussen. Bis zu 48 Stunden. Übrigens: Ihr Stadt Ticket gilt an zwei aufeinanderfolgenden Tagen, die Sie beim Kauf Ihres Fahrscheines selbst bestimmen.",
+        "text_en": "Whether you are traveling privately or for business, with the City Ticket you can use public transport cheaply. Prerequisite: You arrived by plane or Deutsche Bahn (over 100 km). For a surcharge of only 2.50 Euros, the City Ticket allows you free travel even after arriving at your destination. With subway, tram, or buses. For up to 48 hours. By the way: Your City Ticket is valid on two consecutive days, which you determine yourself when purchasing your ticket.",
+        "correct_answer": "a",
+        "explanation": "The text highlights an offer for travelers to use public transportation for a very low surcharge, matching heading 'a'.",
+        "vocabulary": [
+          {
+            "de": "die Voraussetzung",
+            "en": "the prerequisite"
+          },
+          {
+            "de": "der Aufpreis",
+            "en": "the surcharge"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "text": "In Mecklenburg-Vorpommern können junge Leute jetzt für den halben Fahrpreis mit dem Taxi auf Discotour gehen. Tickets dafür sind bei allen Geschäftsstellen der Allgemeinen Ortskrankenkasse (AOK) sowie an Esso Tankstellen zum halben Preis erhältlich. Junge Leute zwischen 16 und 25 Jahren können sie an Wochenenden und Feiertagen in der Zeit von 20 Uhr bis morgens 6 Uhr benutzen. Die Taxifahrer erhalten bei ihrer Zentrale dann den vollen Fahrpreis erstattet.",
+        "text_en": "In Mecklenburg-Western Pomerania, young people can now go on a disco tour by taxi for half the fare. Tickets for this are available at half price at all branches of the General Local Health Insurance Fund (AOK) and at Esso gas stations. Young people between 16 and 25 years old can use them on weekends and holidays from 8 p.m. to 6 a.m. The taxi drivers are then reimbursed the full fare by their headquarters.",
+        "correct_answer": "g",
+        "explanation": "The text explains a program where young people can buy discounted taxi tickets to travel to discos, aligning with heading 'g'.",
+        "vocabulary": [
+          {
+            "de": "erhältlich",
+            "en": "available"
+          },
+          {
+            "de": "erstatten",
+            "en": "to reimburse"
+          }
+        ]
+      }
+    ]
+  },
+  "leseverstehen_teil_2": {
+    "passage": {
+      "headline": "Leipzigerin geht in den USA auf Sendung",
+      "subheadline": "Drei Monate Praktikum für junge Sachsen im Land der unbegrenzten Möglichkeiten",
+      "paragraphs": [
+        "Manchmal fühle ich mich wie ein Missionar, scherzt Ulrike Rudelt. Das Bild vom Deutschen, der Lederhosen trägt, Bier trinkt und Sauerkraut isst, hält sich ihrer Meinung nach in der Öffentlichkeit Amerikas ganz stark und wird vor allem in der Fernsehwerbung ständig wiederholt. Dagegen kämpfe ich, sagt die 25- Jährige selbstbewusst...",
+        "An der Uni in Monterey darf die Leipziger Studentin neben dem Hospitieren auch selbst unterrichten. Das Interesse der Studenten und Dozenten an der deutschen Sprache, an Geschichte und Gegenwart Deutschlands ist große...",
+        "Einen Vorgeschmack vom American Way of Life gab es bereits während des einwöchigen Einführungsseminars in New York, schwärmt Cornelia Schiemenz. Die Stadt pulsiert, und wir hatten jede Menge Spaß. Auf dem Programm standen Ausflüge, und dazu hörten sie jede Menge vorträge zum Welthandel...",
+        "Antje Kutzer, die dritte Leipzigerin in der Gruppe, hat es nach Los Angeles verschlagen. Nach dem Abitur hat sie Reiseverkehrskauffrau gelernt... Doch dann stelle ich mich der Chefin im besten Englisch vor, worauf sie auf Deutsch antwortete, dass wahnsinnig freut, dass ich ihr über die Schulter sehen will.",
+        "Die drei Frauen zählen zu den 20 jungen Berufsanfängern aus Ostdeutschland, die unter 2100 Bewerben der Pall- Mall - Initiative ausgewählt wurden und ein dreimonatiges Praktikum in den Staaten absolvieren. Bei der Auswahl der Praktikanten legt man auch auf Auslandserfahrung Wert..."
+      ],
+      "text_en": "Leipzig Woman Goes on Air in the USA. Three months internship for young Saxons in the land of unlimited opportunities. 'Sometimes I feel like a missionary,' jokes Ulrike Rudelt. The image of the German who wears lederhosen, drinks beer, and eats sauerkraut remains very strong in the American public... At the university in Monterey, the Leipzig student is allowed to teach herself in addition to sitting in on classes... Cornelia Schiemenz raves that they already got a taste of the American Way of Life during the one-week introductory seminar in New York... Antje Kutzer, the third Leipzig woman in the group, ended up in Los Angeles... The three women are among the 20 young career starters from East Germany who were selected from 2,100 applicants of the Pall-Mall Initiative... When selecting interns, value is also placed on experience abroad.",
+      "vocabulary": [
+        {
+          "de": "hospitieren",
+          "en": "to sit in on a class"
+        },
+        {
+          "de": "der Vorgeschmack",
+          "en": "the foretaste"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 6,
+        "question": "Die Werbung in den Vereinigten Staaten...",
+        "question_en": "Advertising in the United States...",
+        "options": {
+          "a": "beschäftigt sich überhaupt nicht mit Deutschland.",
+          "b": "zeigt immer wieder dasselbe Bild von Deutschland.",
+          "c": "zeigt viele unterschiedliche Seiten von Deutschland."
+        },
+        "options_en": {
+          "a": "does not deal with Germany at all.",
+          "b": "repeatedly shows the same image of Germany.",
+          "c": "shows many different sides of Germany."
+        },
+        "correct_answer": "b",
+        "explanation": "The text states that the stereotypical image of a German is 'ständig wiederholt' (constantly repeated) in television advertising."
+      },
+      {
+        "number": 7,
+        "question": "Die Eltern von Laura Rudelt...",
+        "question_en": "Laura Rudelt's parents...",
+        "options": {
+          "a": "arbeiten und lebten lange Jahre in den Niederlanden.",
+          "b": "hatten nicht die Möglichkeiten wie ihre Tochter.",
+          "c": "wollen ihre Tochter nun in den USA Besuchen."
+        },
+        "options_en": {
+          "a": "worked and lived in the Netherlands for many years.",
+          "b": "did not have the opportunities like their daughter.",
+          "c": "now want to visit their daughter in the USA."
+        },
+        "correct_answer": "b",
+        "explanation": "Ulrike says: 'Die Chancen, die ich jetzt habe, hatten meine Eltern nicht' (The opportunities I have now, my parents did not have)."
+      },
+      {
+        "number": 8,
+        "question": "Während die Praktikantinnen in New York waren...",
+        "question_en": "While the interns were in New York...",
+        "options": {
+          "a": "bekamen sie eine Stadtführung.",
+          "b": "besuchten sie einen Sprachkurs.",
+          "c": "wurden sie über wichtige Themen informiert"
+        },
+        "options_en": {
+          "a": "they got a guided city tour.",
+          "b": "they attended a language course.",
+          "c": "they were informed about important topics."
+        },
+        "correct_answer": "c",
+        "explanation": "The text mentions that during the seminar in New York, they heard many lectures about world trade, unemployment, and economic development."
+      },
+      {
+        "number": 9,
+        "question": "Die dritte Leipzigerin, die in die USA gereist ist...",
+        "question_en": "The third Leipzig woman who traveled to the USA...",
+        "options": {
+          "a": "kommt eigentlich aus Österreich.",
+          "b": "wollte dort ihr Abitur machen und dann studieren.",
+          "c": "wurde von ihrer neuen Chefin freundlich aufgenommen."
+        },
+        "options_en": {
+          "a": "actually comes from Austria.",
+          "b": "wanted to do her high school diploma there and then study.",
+          "c": "was kindly received by her new boss."
+        },
+        "correct_answer": "c",
+        "explanation": "Antje Kutzer's new boss replied that she was 'wahnsinnig freut' (incredibly happy) to have her, indicating a friendly reception."
+      },
+      {
+        "number": 10,
+        "question": "Wer als Praktikantin ins Ausland geht...",
+        "question_en": "Whoever goes abroad as an intern...",
+        "options": {
+          "a": "braucht schon einige Berufserfahrungen.",
+          "b": "soll dabei vor allem das Land kennenlernen.",
+          "c": "soll schon einmal im Ausland gewesen sein."
+        },
+        "options_en": {
+          "a": "already needs some professional experience.",
+          "b": "should primarily get to know the country.",
+          "c": "should have been abroad before."
+        },
+        "correct_answer": "c",
+        "explanation": "The last paragraph states: 'Bei der Auswahl der Praktikanten legt man auch auf Auslandserfahrung Wert' (When selecting interns, value is also placed on experience abroad)."
+      }
+    ]
+  },
+  "leseverstehen_teil_3": {
+    "advertisements": {
+      "a": {
+        "title": "Studenteneigentum",
+        "subtitle": "Immobilien",
+        "lines": [
+          "A. 1030 Wien - Hangmayerstraße",
+          "1-2 Zimmer Wohnung, Kü., Bad, Blk., 29 m2, ruhige Lage, sof. anrufen",
+          "KP 50.000 Euro"
+        ],
+        "image": "data/images/petra_ad_a.png",
+        "text_en": "Student property. A. 1030 Vienna - Hangmayerstraße. 1-2 room apartment, kitchen, bath, balcony, 29 sqm, quiet location. Purchase price 50,000 Euro.",
+        "vocabulary": [
+          {
+            "de": "das Eigentum",
+            "en": "the property / ownership"
+          }
+        ]
+      },
+      "b": {
+        "title": "KINO UNTER STERNEN",
+        "subtitle": "Kino & Film",
+        "lines": [
+          "OPEN AIR IM AUGARTEN",
+          "Der Film heute: MEET ME IN ST. LOUIS",
+          "Musical über die 4 Jahreszeiten einer Familie, mit Judy Garland / 21.30"
+        ],
+        "image": "data/images/petra_ad_b.png",
+        "text_en": "CINEMA UNDER THE STARS. OPEN AIR IN AUGARTEN. Today's film: MEET ME IN ST. LOUIS. Musical about the 4 seasons of a family, with Judy Garland / 9:30 pm.",
+        "vocabulary": []
+      },
+      "c": {
+        "title": "Feiern im Cafe Rastad",
+        "subtitle": "Gastronomie & Events",
+        "lines": [
+          "WEBERKNECHT",
+          "Feiern für 100 Gäste",
+          "Tel. 313 43 56"
+        ],
+        "image": "data/images/petra_ad_c.png",
+        "text_en": "Celebrate in Cafe Rastad. WEBERKNECHT. Celebrations for 100 guests. Tel. 313 43 56",
+        "vocabulary": []
+      },
+      "d": {
+        "title": "Privatkindergarten BAMBI!!!",
+        "subtitle": "Kinderbetreuung",
+        "lines": [
+          "Pädagogisches Top Team",
+          "Helle, kindergerechte Räume",
+          "Ganzjährig geöffnet",
+          "Tel: 533 12 43"
+        ],
+        "image": "data/images/petra_ad_d.png",
+        "text_en": "Private kindergarten BAMBI!!! Top educational team. Bright, child-friendly rooms. Open all year round. Tel: 533 12 43",
+        "vocabulary": []
+      },
+      "e": {
+        "title": "KINO-CENTER",
+        "subtitle": "Kino & Film",
+        "lines": [
+          "312 45 89",
+          "Saal 1, Saal 2, Saal 3, Saal 4"
+        ],
+        "image": "data/images/petra_ad_e.png",
+        "text_en": "CINEMA-CENTER. 312 45 89. Room 1, Room 2, Room 3, Room 4.",
+        "vocabulary": []
+      },
+      "f": {
+        "title": "AirPlus",
+        "subtitle": "Stellenangebote",
+        "lines": [
+          "(Austrian Airs Diners Club)",
+          "Sachbearbeiter(in) für Kundendienst"
+        ],
+        "image": "data/images/petra_ad_f.png",
+        "text_en": "AirPlus (Austrian Airs Diners Club). Customer service agent wanted.",
+        "vocabulary": []
+      },
+      "g": {
+        "title": "Studentenhit in Wien!",
+        "subtitle": "Immobilien",
+        "lines": [
+          "1-Zimmer Wohnung, 30 m2, Bad, WC, Uni-Nähe, keine Ablöse, befristet für 1 Jahr, monatl.",
+          "300 Euro inkl. Betriebskosten"
+        ],
+        "image": "data/images/petra_ad_g.png",
+        "text_en": "Student hit in Vienna! 1-room apartment, 30 sqm, bath, toilet, near university, no transfer fee, limited to 1 year, monthly. 300 Euros incl. operating costs.",
+        "vocabulary": []
+      },
+      "h": {
+        "title": "Studenteneigentum",
+        "subtitle": "Immobilien",
+        "lines": [
+          "A-1030 Wien: Hangmayerstr",
+          "1-Z-Wohnung. Kü., Bad, Blk.",
+          "KP 50.000 Euro"
+        ],
+        "image": "data/images/petra_ad_h.png",
+        "text_en": "Student property. A-1030 Vienna: Hangmayerstr. 1-room apartment. Kitchen, bath, balcony. Purchase price 50,000 Euro.",
+        "vocabulary": []
+      },
+      "i": {
+        "title": "KINO UNTER STERNEN",
+        "subtitle": "Kino & Film",
+        "lines": [
+          "OPEN AIR IM AUGARTEN",
+          "Der Film heute: MEET ME IN ST. LOUIS",
+          "Musical über die Jahreszeiten einer Familie, mit Judy Garland / 21.30"
+        ],
+        "image": "data/images/petra_ad_i.png",
+        "text_en": "CINEMA UNDER THE STARS. OPEN AIR IN AUGARTEN. Today's film: MEET ME IN ST. LOUIS. Musical about the seasons of a family, with Judy Garland / 9:30 pm.",
+        "vocabulary": []
+      },
+      "j": {
+        "title": "STADTKINO sucht",
+        "subtitle": "Stellenangebote",
+        "lines": [
+          "für die Sommermonate Juli - September junge Mitarbeiterinnen für den Kartenverkauf und das Buffet, 10 Stunden/Woche, abends, guter Verdienst."
+        ],
+        "image": "data/images/petra_ad_j.png",
+        "text_en": "STADTKINO is looking for young female employees for ticket sales and the buffet for the summer months of July - September, 10 hours/week, evenings, good earnings.",
+        "vocabulary": []
+      },
+      "k": {
+        "title": "Volkshochschule Simmering",
+        "subtitle": "Bildung & Kurse",
+        "lines": [
+          "\"PC-Kenntnisse notwendig\" - stand das auch in der Anzeige",
+          "Für Ihren Traumberuf kein Problem.",
+          "berufsorientierte PC-Kurse"
+        ],
+        "image": "data/images/petra_ad_k.png",
+        "text_en": "Adult Education Center Simmering. 'PC skills required' - was that also in the ad? Not a problem for your dream job. Profession-oriented PC courses.",
+        "vocabulary": []
+      },
+      "l": {
+        "title": "Familie sucht Babysitterin bzw. Kindermädchen",
+        "subtitle": "Stellenangebote",
+        "lines": [
+          "(zuverlässig, erfahren, freundlich)",
+          "Arbeitszeit nach Absprache",
+          "Familie Hock, Tel. 217 354"
+        ],
+        "image": "data/images/petra_ad_l.png",
+        "text_en": "Family seeks babysitter or nanny (reliable, experienced, friendly). Working hours by arrangement. Family Hock, Tel. 217 354",
+        "vocabulary": []
+      }
+    },
+    "situations": [
+      {
+        "number": 11,
+        "situation": "Sie möchten für ein Jahr in Wien Psychologie studieren und suchen daher eine günstige Mietwohnung.",
+        "situation_en": "You want to study psychology in Vienna for a year and are therefore looking for an affordable rental apartment.",
+        "correct_answer": "g",
+        "explanation": "You are looking for an affordable apartment to rent for one year. Ad 'g' offers a '1-Zimmer Wohnung' for '300 Euro' that is 'befristet für 1 Jahr' (limited to 1 year)."
+      },
+      {
+        "number": 12,
+        "situation": "Sie möchten am Abend ins Kino gehen und suchen daher eine verlässliche Person, die auf Ihr Kind aufpasst.",
+        "situation_en": "You want to go to the cinema in the evening and are therefore looking for a reliable person to look after your child.",
+        "correct_answer": "f",
+        "explanation": "Note: According to the official key, the answer is F. (In standard matching, L would fit 'babysitter', but we follow the official key provided for this specific exam version)."
+      },
+      {
+        "number": 13,
+        "situation": "Sie möchten in den Sommerferien nebenbei ein wenig Geld dazu verdienen und suchen daher einen passenden Job.",
+        "situation_en": "You would like to earn a little extra money on the side during the summer holidays and are therefore looking for a suitable job.",
+        "correct_answer": "j",
+        "explanation": "You are looking for a summer job. Ad 'j' is from a cinema seeking young employees specifically for the summer months ('Sommermonate Juli - September')."
+      },
+      {
+        "number": 14,
+        "situation": "Sie möchten ein Geburtstagfest organisieren und brauchen dafür einen Raum. Um das Essen und die Getränke für die Gäste möchten Sie sich selbst kümmern.",
+        "situation_en": "You want to organize a birthday party and need a room for it. You want to take care of the food and drinks for the guests yourself.",
+        "correct_answer": "a",
+        "explanation": "Note: According to the official key, the answer is A. (This might be a misalignment in the OCR vs. the original exam options)."
+      },
+      {
+        "number": 15,
+        "situation": "Ihre Bekannten aus Deutschland müssen aus beruflichen Gründen nach Salzburg umziehen und haben Sie gebeten, eine Mietwohnung für Sie suchen.",
+        "situation_en": "Your acquaintances from Germany have to move to Salzburg for professional reasons and have asked you to look for a rental apartment for them.",
+        "correct_answer": "x",
+        "explanation": "You are looking for a rental apartment in Salzburg. All real estate ads provided are for apartments located in Vienna ('Wien'). Therefore, the answer is 'x'."
+      },
+      {
+        "number": 16,
+        "situation": "Ihre 23-jährige Freundin hat soeben einen Computerkurs abgeschlossen und sucht einen Job.",
+        "situation_en": "Your 23-year-old friend has just completed a computer course and is looking for a job.",
+        "correct_answer": "e",
+        "explanation": "Note: According to the official key, the answer is E. (Again, this points to a misalignment in the OCR ad grid)."
+      },
+      {
+        "number": 17,
+        "situation": "Ihr 12-jährige Sohn wünscht sich zum Geburtstag Buch über Sterne.",
+        "situation_en": "Your 12-year-old son wants a book about stars for his birthday.",
+        "correct_answer": "x",
+        "explanation": "You are looking for a book about stars. None of the advertisements provided are from a bookstore. Thus, the answer is 'x'."
+      },
+      {
+        "number": 18,
+        "situation": "Ihre Kinder möchten am Nachmittag ins Kino gehen. Sie suchen einen passenden Film für Kinder.",
+        "situation_en": "Your children want to go to the cinema in the afternoon. You are looking for a suitable film for children.",
+        "correct_answer": "c",
+        "explanation": "Note: According to the official key, the answer is C."
+      },
+      {
+        "number": 19,
+        "situation": "Sie möchten mit Freunden gern ins Kino gehen. Da es ein sehr warmer Sommerabend ist, suchen Sie nach einer Vorstellung im Ferien.",
+        "situation_en": "You would like to go to the cinema with friends. Since it is a very warm summer evening, you are looking for a showing outdoors.",
+        "correct_answer": "i",
+        "explanation": "You want an open-air cinema. Ad 'i' is for 'KINO UNTER STERNEN - OPEN AIR'."
+      },
+      {
+        "number": 20,
+        "situation": "Ihre Freundin ist Erzieherin und zur Zeit arbeitslos. Sie möchte daher als Kindermädchen bei einer Familie arbeiten.",
+        "situation_en": "Your friend is an educator and currently unemployed. She would therefore like to work as a nanny for a family.",
+        "correct_answer": "l",
+        "explanation": "Your friend wants to work as a nanny. Ad 'l' is placed by a family actively seeking a babysitter or nanny."
+      }
+    ]
+  },
+  "sprachbausteine_teil_1": {
+    "instructions": "Lesen sie den Text und schließen Sie Lücken 21-30. Welche Lösungen (a, b oder c) ist jeweils richtig?",
+    "passage": {
+      "text": "Sehr geehrter Herr Meyerhofer,\n\nwie Sie wissen, miete ich nun schon seit drei Jahren eine Wohnung in [21] Haus. Ich [22] die ganze Zeit sehr zufrieden, denn im Haus war es immer ruhig, sauber und sicher. In der Zwischenzeit [23] sich die Wohnqualität durch die Eröffnung des Restaurants im Erdgeschoss aber deutlich verschlechtert. [24] spät abends höre ich nun täglich [25] Lärm der Restaurantgäste im Garten, die Mülleimer im Hof sind immer überfüllt, die Parkplätze vor dem Haus, [26] eigentlich für die Mieter reserviert sind, sind immer besetzt, und das Treppenhaus ist ständig verschmutzt.\n\nAußerdem fühle ich mich [27] Haus nicht mehr sicher, weil das Restaurant oft die ganze Nacht [28] hat. Ich möchte Sie dringend bitten, sich um diese [29] zu kümmern und mit den Restaurantbesitzern zu sprechen. Vielleicht könnte [30] gemeinsam eine Lösung finden.",
+      "text_en": "Dear Mr. Meyerhofer,\n\nAs you know, I have been renting an apartment in [21] house for three years now. I [22] very satisfied the whole time, because it was always quiet, clean, and safe in the house. In the meantime, the living quality [23] clearly deteriorated due to the opening of the restaurant on the ground floor. [24] late in the evening, I now hear daily [25] noise of the restaurant guests in the garden, the garbage cans in the courtyard are always overflowing, the parking spaces in front of the house, [26] are actually reserved for the tenants, are always occupied, and the stairwell is constantly dirty.\n\nFurthermore, I do not feel safe in the house anymore, because the restaurant often [28] open all night. I urgently request you to take care of these [29] problems and speak with the restaurant owners. Perhaps [30] could find a solution together.",
+      "vocabulary": [
+        {
+          "de": "verschlechtert",
+          "en": "deteriorated"
+        },
+        {
+          "de": "reserviert",
+          "en": "reserved"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 21,
+        "options": {
+          "a": "ihr",
+          "b": "ihrem",
+          "c": "ihren"
+        },
+        "options_en": {
+          "a": "her / their",
+          "b": "your (dative)",
+          "c": "your (accusative)"
+        },
+        "correct_answer": "b",
+        "explanation": "The preposition 'in' takes the dative case here to denote location ('in Ihrem Haus'). 'Haus' is neuter dative, requiring 'Ihrem'."
+      },
+      {
+        "number": 22,
+        "options": {
+          "a": "war",
+          "b": "wäre",
+          "c": "würde"
+        },
+        "options_en": {
+          "a": "was",
+          "b": "would be",
+          "c": "would"
+        },
+        "correct_answer": "a",
+        "explanation": "Simple past indicating a continuous state of satisfaction: 'Ich war die ganze Zeit sehr zufrieden'."
+      },
+      {
+        "number": 23,
+        "options": {
+          "a": "hat",
+          "b": "ist",
+          "c": "wurde"
+        },
+        "options_en": {
+          "a": "has",
+          "b": "is",
+          "c": "was"
+        },
+        "correct_answer": "a",
+        "explanation": "The verb is 'sich verschlechtern' (reflexive), which forms its perfect tense with 'haben': 'hat sich verschlechtert'."
+      },
+      {
+        "number": 24,
+        "options": {
+          "a": "bis",
+          "b": "nach",
+          "c": "von"
+        },
+        "options_en": {
+          "a": "until",
+          "b": "after",
+          "c": "from"
+        },
+        "correct_answer": "a",
+        "explanation": "'Bis spät abends' means 'until late in the evening'."
+      },
+      {
+        "number": 25,
+        "options": {
+          "a": "dem",
+          "b": "den",
+          "c": "der"
+        },
+        "options_en": {
+          "a": "the (dative)",
+          "b": "the (accusative)",
+          "c": "the (nominative/genitive)"
+        },
+        "correct_answer": "b",
+        "explanation": "'Lärm' is masculine accusative object of 'höre ich': 'den Lärm'."
+      },
+      {
+        "number": 26,
+        "options": {
+          "a": "denen",
+          "b": "die",
+          "c": "diese"
+        },
+        "options_en": {
+          "a": "to whom (dative)",
+          "b": "which / who (nominative plural)",
+          "c": "these"
+        },
+        "correct_answer": "b",
+        "explanation": "Relative pronoun for plural nominative 'die Parkplätze': 'die eigentlich für die Mieter reserviert sind'."
+      },
+      {
+        "number": 27,
+        "options": {
+          "a": "im",
+          "b": "in",
+          "c": "ins"
+        },
+        "options_en": {
+          "a": "in the (dative)",
+          "b": "in",
+          "c": "into the (accusative)"
+        },
+        "correct_answer": "a",
+        "explanation": "Location: 'in dem Haus' contracts to 'im Haus'."
+      },
+      {
+        "number": 28,
+        "options": {
+          "a": "geöffnet",
+          "b": "öffnen",
+          "c": "öffnet"
+        },
+        "options_en": {
+          "a": "open / opened",
+          "b": "to open",
+          "c": "opens"
+        },
+        "correct_answer": "a",
+        "explanation": "'geöffnet hat' means 'is open' or 'has opened'."
+      },
+      {
+        "number": 29,
+        "options": {
+          "a": "problem",
+          "b": "probleme",
+          "c": "problemen"
+        },
+        "options_en": {
+          "a": "problem (singular)",
+          "b": "problems (plural)",
+          "c": "problems (dative)"
+        },
+        "correct_answer": "b",
+        "explanation": "'diese Probleme' (accusative plural with the preposition 'um')."
+      },
+      {
+        "number": 30,
+        "options": {
+          "a": "er",
+          "b": "man",
+          "c": "wir"
+        },
+        "options_en": {
+          "a": "he",
+          "b": "one / we",
+          "c": "we"
+        },
+        "correct_answer": "b",
+        "explanation": "The impersonal pronoun 'man' matches the 3rd person singular verb form 'könnte'."
+      }
+    ]
+  },
+  "sprachbausteine_teil_2": {
+    "instructions": "Lesen sie den Text und schließen Sie Lücken 31-40. Benutzen Sie die Wörter (a - o). Jedes Wort passt nur einmal.",
+    "word_bank": {
+      "a": "am",
+      "b": "bis",
+      "c": "dass",
+      "d": "für",
+      "e": "gute",
+      "f": "keine",
+      "g": "mich",
+      "h": "mir",
+      "i": "mit",
+      "j": "möchte",
+      "k": "ohne",
+      "l": "pro",
+      "m": "während",
+      "n": "wäre",
+      "o": "würden"
+    },
+    "word_bank_en": {
+      "a": "at the",
+      "b": "until",
+      "c": "that",
+      "d": "for",
+      "e": "good",
+      "f": "no",
+      "g": "me (acc)",
+      "h": "me (dat)",
+      "i": "with",
+      "j": "would like",
+      "k": "without",
+      "l": "per",
+      "m": "during",
+      "n": "would be",
+      "o": "would"
+    },
+    "passage": {
+      "text": "Sehr geehrte Herr Blanco Ruiz,\n\nIch schreibe Ihnen auf die Anzeige, die [31] in der heutigen Bild-Zeitung aufgefallen ist. Da ich [32] einige Monate beruflich nach Südamerika gehe, muss ich sehr schnell Spanisch lernen. Für einen richtigen Sprachkurs habe ich leider [33] Zeit. Aber Ihre Methode interessiert mich, vor allem die Sprachübungen [34] den CDs. Ich denke, damit könnte ich ganz [35] arbeiten. Ich arbeite [36] liebsten mit meinem PC.\n\nSie schreiben, [37] Ihr Programm besonders die alltägliche Kommunikation fördert. Wie lange wird es dauern, [38] ich mich meinen Geschäftsfreunden richtig unterhalten kann? Und wie viele Stunden [39] Woche sollte man mindestens üben? Können Sie mir eine Musterlektion schicken? Ich [40] gerne ausprobieren, wie ihre Methode funktioniert.",
+      "text_en": "Dear Mr. Blanco Ruiz,\n\nI am writing to you regarding the advertisement that caught [31] eye in today's Bild-Zeitung. Since I am going to South America professionally [32] a few months, I have to learn Spanish very quickly. Unfortunately, I have [33] time for a proper language course. But your method interests me, especially the language exercises [34] the CDs. I think I could work quite [35] with it. I prefer to work [36] best with my PC.\n\nYou write [37] your program particularly promotes everyday communication. How long will it take [38] I can converse properly with my business friends? And how many hours [39] week should one practice at least? Can you send me a sample lesson? I [40] to try out how your method works.",
+      "vocabulary": [
+        {
+          "de": "auffallen",
+          "en": "to catch one's eye / stand out"
+        },
+        {
+          "de": "beruflich",
+          "en": "professionally"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 31,
+        "correct_answer": "h",
+        "explanation": "'auffallen' takes the dative case: 'die mir... aufgefallen ist'."
+      },
+      {
+        "number": 32,
+        "correct_answer": "d",
+        "explanation": "'für einige Monate' expresses intended duration in the future."
+      },
+      {
+        "number": 33,
+        "correct_answer": "f",
+        "explanation": "'keine Zeit' expresses lack of time."
+      },
+      {
+        "number": 34,
+        "correct_answer": "i",
+        "explanation": "'mit den CDs' means 'with the CDs'."
+      },
+      {
+        "number": 35,
+        "correct_answer": "e",
+        "explanation": "'ganz gut/gute arbeiten' fitting the phrase."
+      },
+      {
+        "number": 36,
+        "correct_answer": "a",
+        "explanation": "'am liebsten' is the superlative form of 'gern'."
+      },
+      {
+        "number": 37,
+        "correct_answer": "c",
+        "explanation": "Subordinating conjunction 'dass' introducing the noun clause."
+      },
+      {
+        "number": 38,
+        "correct_answer": "b",
+        "explanation": "'bis' connects temporal condition 'until I can converse'."
+      },
+      {
+        "number": 39,
+        "correct_answer": "l",
+        "explanation": "'pro Woche' means 'per week'."
+      },
+      {
+        "number": 40,
+        "correct_answer": "j",
+        "explanation": "'Ich möchte gerne ausprobieren' expresses polite desire."
+      }
+    ]
+  },
+  "hoerverstehen_teil_1": {
+    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören diese Texte nur einmal. Entscheiden Sie beim Hören, ob die Aussagen 41-45 richtig (+) oder falsch (-) sind.",
+    "transcripts": [
+      {
+        "number": 41,
+        "text": "Mein Vater hat eine Arbeit. Er ist nicht immer glücklich, aber er mag seinen Job. Ich finde, er braucht keinen neuen Arbeitsplatz. Wichtiger ist, dass er genug Freizeit hat. Wir könnten dann mehr Zeit zusammen verbringen. Das wäre für uns beide besser.",
+        "text_en": "My father has a job. He is not always happy, but he likes his job. I don't think he needs a new workplace. It's more important that he has enough free time. We could then spend more time together. That would be better for both of us.",
+        "vocabulary": [
+          {
+            "de": "der Arbeitsplatz",
+            "en": "the workplace"
+          },
+          {
+            "de": "verbringen",
+            "en": "to spend (time)"
+          }
+        ]
+      },
+      {
+        "number": 42,
+        "text": "Ich bin kein sehr guter Schüler. Manche Fächer sind schwer für mich. Ich versuche besser zu werden, aber das klappt nicht immer. Meine Eltern sagen, ich soll mehr lernen. Ich finde Schule oft langweilig. Trotzdem weiß ich, dass gute Noten wichtig sind.",
+        "text_en": "I am not a very good student. Some subjects are hard for me. I try to get better, but it doesn't always work out. My parents say I should study more. I often find school boring. Nevertheless, I know that good grades are important.",
+        "vocabulary": [
+          {
+            "de": "klappen",
+            "en": "to work out"
+          },
+          {
+            "de": "die Note",
+            "en": "the grade"
+          }
+        ]
+      },
+      {
+        "number": 43,
+        "text": "Ich bin gern allein. Manchmal lese ich oder höre Musik. Dann will ich nicht gestört werden. Aber meine Familie klopft oft an meine Tür. Sie fragen etwas oder wollen reden. Ich finde das nervig. Jeder braucht auch mal Zeit für sich.",
+        "text_en": "I like to be alone. Sometimes I read or listen to music. Then I don't want to be disturbed. But my family often knocks on my door. They ask something or want to talk. I find that annoying. Everyone needs time for themselves sometimes.",
+        "vocabulary": [
+          {
+            "de": "stören",
+            "en": "to disturb"
+          },
+          {
+            "de": "nervig",
+            "en": "annoying"
+          }
+        ]
+      },
+      {
+        "number": 44,
+        "text": "Meine Mutter und ich streiten oft. Sie sagt, ich mache zu wenig im Haushalt. Sie will, dass ich meine Aufgaben besser mache. Manchmal verstehe ich sie nicht. Ich finde, sie ist zu streng. Aber vielleicht will sie nur das Beste für mich.",
+        "text_en": "My mother and I argue a lot. She says I do too little in the household. She wants me to do my chores better. Sometimes I don't understand her. I think she is too strict. But maybe she just wants the best for me.",
+        "vocabulary": [
+          {
+            "de": "streiten",
+            "en": "to argue"
+          },
+          {
+            "de": "streng",
+            "en": "strict"
+          }
+        ]
+      },
+      {
+        "number": 45,
+        "text": "Meine Eltern sind nett, aber ich verbringe meine Zeit lieber mit Freunden. Wir gehen ins Kino oder treffen uns im Park. Mit ihnen kann ich mehr Spaß haben. Natürlich liebe ich meine Familie, aber ich brauche auch meine Freiheit.",
+        "text_en": "My parents are nice, but I prefer to spend my time with friends. We go to the cinema or meet in the park. I can have more fun with them. Of course I love my family, but I also need my freedom.",
+        "vocabulary": [
+          {
+            "de": "lieber",
+            "en": "preferably / rather"
+          },
+          {
+            "de": "die Freiheit",
+            "en": "the freedom"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "number": 41,
+        "statement": "Die Sprecherin wünscht sich einen Arbeitsplatz für ihren Vater.",
+        "statement_en": "The speaker wishes for a workplace for her father.",
+        "correct_answer": "-",
+        "explanation": "The speaker explicitly states: 'Ich finde, er braucht keinen neuen Arbeitsplatz' (I don't think he needs a new workplace)."
+      },
+      {
+        "number": 42,
+        "statement": "Der Sprecher ist kein besonders guter Schüler.",
+        "statement_en": "The speaker is not a particularly good student.",
+        "correct_answer": "+",
+        "explanation": "The speaker says 'Ich bin kein sehr guter Schüler' directly in the audio."
+      },
+      {
+        "number": 43,
+        "statement": "Die Sprecherin möchte nicht immer gestört werden.",
+        "statement_en": "The speaker does not want to be disturbed all the time.",
+        "correct_answer": "+",
+        "explanation": "The speaker says 'Dann will ich nicht gestört werden' (Then I don't want to be disturbed)."
+      },
+      {
+        "number": 44,
+        "statement": "Der Sprecher versteht sich nicht gut mit seiner Mutter.",
+        "statement_en": "The speaker does not get along well with his mother.",
+        "correct_answer": "+",
+        "explanation": "He mentions 'Meine Mutter und ich streiten oft' (My mother and I argue a lot) and that she is too strict."
+      },
+      {
+        "number": 45,
+        "statement": "Die Sprecherin ist am liebsten mit ihren Eltern zusammen.",
+        "statement_en": "The speaker prefers to be with her parents.",
+        "correct_answer": "-",
+        "explanation": "The speaker says 'ich verbringe meine Zeit lieber mit Freunden' (I prefer to spend my time with friends), which contradicts the statement."
+      }
+    ]
+  },
+  "hoerverstehen_teil_2": {
+    "instructions": "Sie hören nun ein Gespräch. Dazu sollen Sie zehn Aufgaben lösen. Sie hören das Gespräch zweimal. Entscheiden Sie beim Hören, ob die Aussagen 46-55 richtig (+) oder falsch (-) sind.",
+    "interview_transcript": {
+      "text": "Moderator: Hallo Frau Schäfer, herzlich willkommen. Und erste Frage: Haben Sie den Verein kurz nach der Gründung kennengelernt?\n\nFrau Schäfer: Nein, ich bin erst viele Jahre später auf den Verein aufmerksam geworden.\n\nModerator: Kommen ihre Mitglieder aus ganz Deutschland?\n\nFrau Schäfer: Ach ja, unsere Mitglieder stammen hauptsächlich aus der näheren Umgebung, nicht aus ganz Deutschland.\n\nModerator: Haben die Mitglieder Erfahrung mit Hausarbeit?\n\nFrau Schäfer: Natürlich. Sie kennen sich in diesem Bereich sehr gut aus und sind bestens geschult. Viele unserer Mitglieder bringen langjährige praktische Erfahrung mit und unterstützen die Familien professionell im Alltag.\n\nModerator: Wie sieht es denn mit Veranstaltungen aus, werden im Verein oft Feste gefeiert?\n\nFrau Schäfer: Selten, ja, aber nicht oft. Solche Veranstaltungen finden nur gelegentlich und eher selten statt.\n\nModerator: Aber grundsätzlich organisiert ihr Verein auf Anfrage auch Feste, oder?\n\nFrau Schäfer: Ja, genau. Das machen wir gerne. Wenn jemand eine Veranstaltung plant, helfen wir gerne bei der Organisation.\n\nModerator: Vermittelt der Verein auch Senioren, die tagsüber auf Kinder aufpassen können?\n\nFrau Schäfer: Ja, genau. Unser Verein stellt älteren Menschen tagsüber eine Kinderbetreuung zur Verfügung. Das ist eine unserer wichtigen Dienstleistungen.\n\nModerator: Vertrauen Familien ihren Mitarbeiterinnen inzwischen mehr als früher?\n\nFrau Schäfer: Ganz genau. Auf jeden Fall. Das Vertrauen zu unseren Mitarbeiterinnen ist in den letzten Jahren stark gestiegen.\n\nModerator: Muss man eine Berufsausbildung haben, um Mitglied zu werden?\n\nFrau Schäfer: Natürlich, richtig. Bei uns ist eine abgeschlossene Berufsausbildung tatsächlich Voraussetzung.\n\nModerator: Bekommen ihre Mitarbeiterinnen wirklich 10 € pro Stunde?\n\nFrau Schäfer: Nein, ganz so hoch ist der Stundenlohn bei uns nicht. Wir zahlen etwas weniger.\n\nModerator: Können Kunden mit wenig Geld ihren Service kostenlos nutzen?\n\nFrau Schäfer: Nein, komplett kostenlos bieten wir den Service nicht an. Auch Kunden mit wenig Geld zahlen einen kleinen Betrag.",
+      "text_en": "Moderator: Hello Mrs. Schäfer, welcome. And first question: Did you get to know the association shortly after it was founded?\n\nMrs. Schäfer: No, I only became aware of the association many years later.\n\nModerator: Do your members come from all over Germany?\n\nMrs. Schäfer: Oh yes, our members come mainly from the surrounding area, not from all over Germany.\n\nModerator: Do the members have experience with housework?\n\nMrs. Schäfer: Of course. They are very familiar with this area and are well trained. Many of our members bring years of practical experience and support families professionally in everyday life.\n\nModerator: What about events, are parties often celebrated in the association?\n\nFrau Schäfer: Rarely, yes, but not often. Such events only take place occasionally and rather rarely.\n\nModerator: But basically your association also organizes parties on request, right?\n\nFrau Schäfer: Yes, exactly. We like to do that. If someone is planning an event, we are happy to help with the organization.\n\nModerator: Does the association also place seniors who can look after children during the day?\n\nFrau Schäfer: Yes, exactly. Our association provides childcare for older people during the day. That is one of our important services.\n\nModerator: Do families trust your employees more now than before?\n\nFrau Schäfer: Exactly. Definitely. Trust in our employees has risen sharply in recent years.\n\nModerator: Do you have to have a vocational training to become a member?\n\nFrau Schäfer: Of course, right. With us, a completed vocational training is actually a prerequisite.\n\nModerator: Do your employees really get 10 € per hour?\n\nFrau Schäfer: No, the hourly wage is not quite that high with us. We pay a little less.\n\nModerator: Can customers with little money use your service for free?\n\nFrau Schäfer: No, we do not offer the service completely free of charge. Even customers with little money pay a small amount."
+    },
+    "questions": [
+      {
+        "number": 46,
+        "statement": "Frau Schäfer hat von dem Verein kurz nach der Gründung zum ersten Mal gehört.",
+        "statement_en": "Mrs. Schäfer heard about the association for the first time shortly after it was founded.",
+        "correct_answer": "-",
+        "explanation": "She states she became aware of it 'erst viele Jahre später' (only many years later)."
+      },
+      {
+        "number": 47,
+        "statement": "Die Mitglieder des Vereins kommen aus ganz Deutschland.",
+        "statement_en": "The members of the association come from all over Germany.",
+        "correct_answer": "-",
+        "explanation": "She confirms they come 'hauptsächlich aus der näheren Umgebung, nicht aus ganz Deutschland' (mainly from the surrounding area)."
+      },
+      {
+        "number": 48,
+        "statement": "Die Mitglieder des Vereins wissen über Hausarbeit gut Bescheid.",
+        "statement_en": "The members of the association know a lot about housework.",
+        "correct_answer": "+",
+        "explanation": "She confirms 'Sie kennen sich in diesem Bereich sehr gut aus' (They are very familiar with this area)."
+      },
+      {
+        "number": 49,
+        "statement": "Im Verein werden oft Feste gefeiert.",
+        "statement_en": "Parties are often celebrated in the association.",
+        "correct_answer": "-",
+        "explanation": "She says parties take place 'selten, ja, aber nicht oft' (rarely, yes, but not often)."
+      },
+      {
+        "number": 50,
+        "statement": "Der Verein bietet auch die Organisation von Festen an.",
+        "statement_en": "The association also offers the organization of parties.",
+        "correct_answer": "+",
+        "explanation": "She confirms: 'Wenn jemand eine Veranstaltung plant, helfen wir gerne bei der Organisation' (We are happy to help with the organization)."
+      },
+      {
+        "number": 51,
+        "statement": "Der Verein vermittelt Senioren, die tagsüber Kinder betreuen.",
+        "statement_en": "The association places seniors who look after children during the day.",
+        "correct_answer": "+",
+        "explanation": "She confirms they provide 'tagsüber eine Kinderbetreuung' (childcare during the day)."
+      },
+      {
+        "number": 52,
+        "statement": "Laut Frau Schäfer vertrauen viele Familien den Mitarbeiterinnen des Vereins mehr als anderen.",
+        "statement_en": "According to Mrs. Schäfer, many families trust the association's staff more than others.",
+        "correct_answer": "+",
+        "explanation": "She states that trust 'ist in den letzten Jahren stark gestiegen' (has risen sharply in recent years), which corresponds to the 'mehr als früher' premise."
+      },
+      {
+        "number": 53,
+        "statement": "Vereinsmitglied kann nur werden, wer einen Beruf gelernt hat.",
+        "statement_en": "Only those who have learned a profession can become a member of the association.",
+        "correct_answer": "+",
+        "explanation": "She states that 'eine abgeschlossene Berufsausbildung' (a completed vocational training) is a prerequisite."
+      },
+      {
+        "number": 54,
+        "statement": "Die Mitarbeiterinnen bekommen für ihre Arbeiten 10 Euro pro Stunde.",
+        "statement_en": "The employees receive 10 Euros per hour for their work.",
+        "correct_answer": "-",
+        "explanation": "She denies this, saying 'ganz so hoch ist der Stundenlohn bei uns nicht' (the hourly wage is not quite that high)."
+      },
+      {
+        "number": 55,
+        "statement": "Kunden mit wenig Geld zahlen für den Service nichts.",
+        "statement_en": "Customers with little money pay nothing for the service.",
+        "correct_answer": "-",
+        "explanation": "She says 'Auch Kunden mit wenig Geld zahlen einen kleinen Betrag' (Even customers with little money pay a small amount)."
+      }
+    ]
+  },
+  "hoerverstehen_teil_3": {
+    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören jeden Text zweimal. Entscheiden Sie beim Hören, ob die Aussagen 56-60 richtig (+) oder falsch (-) sind.",
+    "transcripts": [
+      {
+        "number": 56,
+        "text": "Also, ich habe mit Georg telefoniert und er meinte, dass sie erst um 21 Uhr zu Hause sind. Deshalb soll ich auch erst später kommen. Ich habe heute Abend noch einige Sachen zu erledigen. Deshalb passt es mir sowieso besser, wenn ich ein bisschen später bei Ihnen bin.",
+        "text_en": "So, I talked to Georg on the phone and he said that they won't be home until 9 p.m. That's why I should come later too. I still have some things to do this evening. Therefore, it suits me better anyway if I am at your place a little later.",
+        "vocabulary": [
+          {
+            "de": "erledigen",
+            "en": "to take care of / complete"
+          }
+        ]
+      },
+      {
+        "number": 57,
+        "text": "In Südösterreich bleibt es tagsüber sonnig und angenehm warm. Erst später am Nachmittag ändert sich das Wetter deutlich. Es wird zuerst windig und dann folgt auch Regen. Besonders in den Bergen ist mit stärkeren Böen zu rechnen. Am Abend kann es sogar gewittern. Wer draußen unterwegs ist, sollte vorsichtig sein und einen Schirm mitnehmen.",
+        "text_en": "In southern Austria, it will remain sunny and pleasantly warm during the day. Only later in the afternoon will the weather change significantly. It will first become windy and then rain will follow. Especially in the mountains, stronger gusts are to be expected. In the evening there may even be thunderstorms. Anyone out and about should be careful and take an umbrella.",
+        "vocabulary": [
+          {
+            "de": "die Böe",
+            "en": "the gust (of wind)"
+          }
+        ]
+      },
+      {
+        "number": 58,
+        "text": "Falls Sie während der Fahrt etwas essen möchten, der Speisewagen befindet sich ganz vorne im Zug, direkt hinter dem Führerstand. Bitte achten Sie auf die Ansagen und informieren Sie sich auf den Monitoren. Denken Sie daran, dass das Mitbringen eigener Speisen im Speisewagen nicht gestattet ist. Wir wünschen eine angenehme Reise.",
+        "text_en": "If you would like to eat something during the journey, the dining car is located at the very front of the train, directly behind the driver's cab. Please pay attention to the announcements and inform yourself on the monitors. Please remember that bringing your own food into the dining car is not permitted. We wish you a pleasant journey.",
+        "vocabulary": [
+          {
+            "de": "vorne",
+            "en": "at the front"
+          },
+          {
+            "de": "gestattet",
+            "en": "permitted"
+          }
+        ]
+      },
+      {
+        "number": 59,
+        "text": "Laut aktuellen Daten geben die Schweizerinnen und Schweizer nicht mehr Geld für Urlaub aus als für ihre Gesundheit. Im Gegenteil, sie investieren vor allem in medizinische Versorgung, Behandlungen und Krankenkassen. Urlaubsreisen spielen finanziell eine geringere Rolle. Gesundheit steht für die meisten an erster Stelle, auch beim Budget.",
+        "text_en": "According to current data, the Swiss do not spend more money on vacations than on their health. On the contrary, they invest primarily in medical care, treatments, and health insurance. Vacation trips play a lesser role financially. Health comes first for most people, even in their budget.",
+        "vocabulary": [
+          {
+            "de": "die Versorgung",
+            "en": "the care / provision"
+          }
+        ]
+      },
+      {
+        "number": 60,
+        "text": "Die große Europa Tour des bekannten Sängers startet heute Abend in Wien. In der Wiener Stadthalle findet das erste Konzert statt. Danach folgen Auftritte in München, Zürich und Mailand. Die Tickets für die Show in Wien waren bereits nach wenigen Stunden ausverkauft. Fans aus ganz Österreich reisen an, um live dabei zu sein.",
+        "text_en": "The big Europe Tour of the famous singer starts tonight in Vienna. The first concert will take place in the Wiener Stadthalle. This is followed by performances in Munich, Zurich, and Milan. The tickets for the show in Vienna were sold out after just a few hours. Fans from all over Austria travel to be there live.",
+        "vocabulary": [
+          {
+            "de": "ausverkauft",
+            "en": "sold out"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "number": 56,
+        "statement": "Sie sollen um 19:30 Uhr bei Georg und Claudia sein.",
+        "statement_en": "You should be at Georg and Claudia's place at 7:30 p.m.",
+        "correct_answer": "-",
+        "explanation": "The audio states they won't be home until 21:00 Uhr (9 p.m.), making 19:30 incorrect."
+      },
+      {
+        "number": 57,
+        "statement": "Im südlichen Österreich ist es tagsüber sonnig, später windig und regnerisch.",
+        "statement_en": "In southern Austria, it is sunny during the day, later windy and rainy.",
+        "correct_answer": "+",
+        "explanation": "The weather forecast explicitly states it is sunny during the day and later becomes windy followed by rain."
+      },
+      {
+        "number": 58,
+        "statement": "Der Speisewagen befindet sich im hinteren Teil des Zuges.",
+        "statement_en": "The dining car is located in the rear part of the train.",
+        "correct_answer": "-",
+        "explanation": "The announcement states the dining car is located 'ganz vorne' (at the very front), not in the rear."
+      },
+      {
+        "number": 59,
+        "statement": "Die Schweizer geben für Urlaub mehr Geld aus als für ihre Gesundheit.",
+        "statement_en": "The Swiss spend more money on vacations than on their health.",
+        "correct_answer": "-",
+        "explanation": "The speaker says 'nicht mehr Geld für Urlaub aus als für ihre Gesundheit' (do NOT spend more money on vacation than health), contradicting the statement."
+      },
+      {
+        "number": 60,
+        "statement": "Der Sänger beginnt seine Konzertreise mit einer Vorstellung in Wien.",
+        "statement_en": "The singer begins his concert tour with a performance in Vienna.",
+        "correct_answer": "+",
+        "explanation": "The audio confirms that the tour 'startet heute Abend in Wien' (starts tonight in Vienna)."
+      }
+    ]
+  }
+}

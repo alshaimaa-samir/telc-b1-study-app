@@ -1,0 +1,994 @@
+{
+  "title": "EVA1",
+  "leseverstehen_teil_1": {
+    "headings": {
+      "a": "Zufriedenheit im Job schützt vor Stress",
+      "b": "Erfolgreiche Männer können auch gute Väter sein",
+      "c": "Keiner lacht so fröhlich wie der Weihnachtsmann",
+      "d": "Wie Männer und Frauen lachen",
+      "e": "Weniger Arbeit - weniger Stress",
+      "f": "Schlechte Nachrichten? Sagen Sie es mit einem Lächeln",
+      "g": "Der Beruf ist für Männer wichtiger als die Familie",
+      "h": "Auch ältere Menschen leiden unter Stress",
+      "i": "Frauen reagieren besser auf schlechte Nachrichten als Männer",
+      "j": "Mit 70 Jahren macht das Leben am meistens Spaß"
+    },
+    "headings_en": {
+      "a": "Job satisfaction protects against stress",
+      "b": "Successful men can also be good fathers",
+      "c": "No one laughs as happily as Santa Claus",
+      "d": "How men and women laugh",
+      "e": "Less work - less stress",
+      "f": "Bad news? Say it with a smile",
+      "g": "The profession is more important to men than the family",
+      "h": "Older people also suffer from stress",
+      "i": "Women react better to bad news than men",
+      "j": "At 70, life is the most fun"
+    },
+    "passages": [
+      {
+        "number": 1,
+        "text": "Frauen lachen auf viele Arten Sie kichern glucksen und manchmal singen sie fast Bei Männern dagegen kommt das viel sel seltener vor. Aber gemeinsam Männern und Frauen, dass sie in in Vokalen lachen im Mundzentrum gebildet werden. Und das ist entscheidend: Nur wenn die Vokale im Mundzentrum gebildet werden, ist das Lachen für uns fröhlich und positiv. Damit ist bewiesen, dass das Lachen vom Weihnachtsmann, dass wie eine tiefes Ho, ho, ho klingt. Kaum als fröhlich empfunden wird. Denn dieser Laut wird im hinteren Teil des Mundraums gebildet.",
+        "text_en": "Women laugh in many ways. They giggle, chuckle, and sometimes they almost sing. With men, on the other hand, this happens much more rarely. But common to men and women is that they laugh in vowels formed in the center of the mouth. And that is crucial: Only when the vowels are formed in the center of the mouth is the laughter happy and positive for us. This proves that the laughter of Santa Claus, which sounds like a deep Ho, ho, ho, is hardly perceived as happy. Because this sound is formed in the back of the mouth cavity.",
+        "correct_answer": "d",
+        "explanation": "The text discusses the different ways women and men laugh, and how the physical formation of the laugh determines if it sounds happy. Therefore, 'How men and women laugh' is the best heading.",
+        "vocabulary": [
+          {
+            "de": "kichern",
+            "en": "to giggle"
+          },
+          {
+            "de": "entscheidend",
+            "en": "crucial"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "text": "Viel Arbeit, viel Stress. Wer viel arbeitet muss nicht unbedingt gestresst sein. Frauen in medizinischen Berufen zum Beispiel klagen trotz teilweise hoher Belastung deutlich weniger über stressbedingte Krankheiten als Raumpflegerinnen, Kindergärtnerinnen oder Berufsschullehrerinnen. Dies zeigt eine Untersuchung des Hamburger IPO - Instituts, das für eine Studie 1000 Frauen und Männer befragt hat. Vor Stress schützen laut Studie ein angenehmes Betriebsklima, ein gutes Verhältnis zur Chefin oder zum Chef und die Möglichkeit, die eigene Arbeit selbstständig zu planen.",
+        "text_en": "A lot of work, a lot of stress. Whoever works a lot does not necessarily have to be stressed. Women in medical professions, for example, complain significantly less about stress-related illnesses than cleaners, kindergarten teachers, or vocational school teachers, despite sometimes high workloads. This is shown by a study by the Hamburg IPO Institute, which interviewed 1000 women and men. According to the study, a pleasant working atmosphere, a good relationship with the boss, and the ability to plan one's own work independently protect against stress.",
+        "correct_answer": "a",
+        "explanation": "The passage concludes that a pleasant working atmosphere and autonomy (job satisfaction) protect against stress.",
+        "vocabulary": [
+          {
+            "de": "die Belastung",
+            "en": "the burden / workload"
+          },
+          {
+            "de": "das Betriebsklima",
+            "en": "the working atmosphere"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "text": "Ein neues Buch zeigt, wie Männer Fähigkeiten aus dem Arbeitsleben auf die Erziehung übertragen können und so zu erfolgreichen Vätern werden. Da wird die gemeinsame Kindererziehung zur Partnerarbeit (oder sogar zum Joint Venture) geschicktes Verhandeln heißt, das Kind zu überzeugen, dass sie Zähne geputzt werden müssen, und der Familienurlaub hat alle Qualitäten einer Tagung oder eines Seminars: Man erhält die Gelegenheit, die Kinder intensiv zu studieren.",
+        "text_en": "A new book shows how men can transfer skills from their working lives to parenting and thus become successful fathers. Joint child-rearing becomes partner work (or even a joint venture), skillful negotiation means convincing the child that teeth must be brushed, and the family vacation has all the qualities of a conference or seminar: you get the opportunity to study the children intensively.",
+        "correct_answer": "b",
+        "explanation": "The text is about a book showing how men use work skills to become 'erfolgreichen Vätern' (successful fathers).",
+        "vocabulary": [
+          {
+            "de": "übertragen",
+            "en": "to transfer"
+          },
+          {
+            "de": "die Erziehung",
+            "en": "the upbringing / education"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "text": "Eine Studie der Universität Essex hat ergeben dass wir mit siebzig Jahren am glücklichsten sind. Zwar haben die meisten Menschen in diesem Alter gesundheitliche Probleme, aber dafür genießen sie viel Freiraum, haben keine großen finanziellen Sorgen und machen sich weniger Gedanken darüber, was andere über sie denken. Danach geht es bergab zwischen dreißig und fünfzig Jahren tragen wir am meisten Verantwortung das Leben ist geprägt von Sachzwängen.",
+        "text_en": "A study by the University of Essex has shown that we are happiest at seventy. Although most people at this age have health problems, they enjoy a lot of freedom, have no major financial worries and care less about what others think of them. Between thirty and fifty, we carry the most responsibility, and life is characterized by practical constraints.",
+        "correct_answer": "j",
+        "explanation": "The text states that people are happiest at seventy ('mit siebzig Jahren am glücklichsten'), which perfectly matches 'Mit 70 Jahren macht das Leben am meistens Spaß'.",
+        "vocabulary": [
+          {
+            "de": "der Freiraum",
+            "en": "the freedom / free space"
+          },
+          {
+            "de": "der Sachzwang",
+            "en": "the practical constraint"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "text": "Warum bleiben manche Managerinnen erfolgreich, obwohl sie Nachrichten mitteilen, die ihr Publikum lieber nicht hören möchte? Ganz einfach: Sie verkaufen die schlechte Nachricht mit Humor. Ein Londoner Soziologe hat während einer Studie beobachtet, dass gerade bei Reden unangenehmen Inhalts oft heiter gelacht wird. Das Lachen wird bewusst provoziert, etwa durch bestimmte Wörter oder durch ein eigenes breites Lächeln. Die fröhliche Stimmung soll dafür sorgen, dass die Zuhörenden das Gefühl haben würden mehr wissen als alle anderen.",
+        "text_en": "Why do some female managers remain successful even though they share news that their audience would rather not hear? Quite simply: they sell the bad news with humor. A London sociologist observed during a study that people often laugh cheerfully during speeches with unpleasant content. The laughter is deliberately provoked, for example by certain words or by one's own broad smile. The cheerful mood is intended to ensure that the listeners feel they know more than anyone else.",
+        "correct_answer": "f",
+        "explanation": "The text explains how female managers successfully deliver bad news by selling it with humor and a smile.",
+        "vocabulary": [
+          {
+            "de": "mitteilen",
+            "en": "to communicate / share"
+          },
+          {
+            "de": "bewusst",
+            "en": "deliberately"
+          }
+        ]
+      }
+    ]
+  },
+  "leseverstehen_teil_2": {
+    "passage": {
+      "headline": "Geheimnisse des Schlafes",
+      "subheadline": "Schlafstörungen - die meisten Ursachen sind harmlos",
+      "paragraphs": [
+        "Lange Zeit hat man geglaubt, dass der Schlaf nur so etwas ist wie der kleine Bruder des Todes Ein Zustand der Körper Energie spart und alles langsamer läuft. Erst in den 50 er Jahren des letzten Jahrhunderts fand man heraus dass schlafen etwas sehr Aktives ist und Nacht für Nacht in unterschiedlichen Abschnitten verläuft. Der Schweizer Schlafforscher Alexander Borbely hat diesen Vorgang mit einer Treppe verglichen, über die wir jede Nacht mehrmals gehen.",
+        "Zunächst sind wir wach, dann schlafen wir ein und gehen bis tief hinab in den Keller in einen tiefen Schlaf. Danach geht es wieder hoch in einen leichten Schlaf, der von lebhaften, intensiven Träumen und schnellen Augenbewegungen begleitet wird Daher wird diese Phase auch REM-Schlaf (rapid-eye-movements = schnelle Augenbewegung) genannt. Dieser Abschnitt ist im Gegensatz zu den anderen Phasen mit etwa 20 Minuten sehr kurz, soll aber äußerst wichtig für die physische Erholung sein.",
+        "Damit hat die Wissenschaft aber noch lange nicht alle Probleme des Schlafes gelöst. Erwiesen ist nur: Wir brauchen ihn zur körperlichen Erholung, auch wenn wir ihn manchmal als Zeitverschwendung empfinden - immerhin verbringen wir ein Drittel unseres Lebens mit schlafen.",
+        "Warum können wir aber nicht immer sofort einschlafen, wenn müde sind? Tatsächlich klagen viele Menschen in den westlichen Industrienationen über gelegentliche oder dauernde Schlafstörungen.",
+        "So muss unser Körper, ins besonders das Gehirn die Eindrücke des Tages erst einmal verarbeiten damit wir gesund schlafen. Diese System reagiert so sensibel, dass schon kleine Ursachen - äußere und innere - störend wirken können. Äußere Ursachen können sein: Lärm, eine ungewohnte Umgebung, ein zu spätes, zu reichliches Essen, kälte oder wärme, alles wirkt sich auf unser Wohlbefinden und somit auch auf den Schlaf aus.",
+        "Als innere Ursachen kommen Schmerzen, Angst oder Ärger über ungelöste Konflikte in Frage. Erkrankungen beeinflussen den Schlaf, auch Medikamente können eine störende Rolle spielen Alles was uns gedanklich stark beschäftigt, kann unseren Schlaf beeinträchtigen. Wer aber nur gelegentlich nachts aufwacht, oder auch einmal einige Tag schlecht schläft braucht sich keine Sorgen zu machen. Ein paar schlaflose Nächte lassen sich schnell wieder nachholen.",
+        "Ein echte Schlafstörung liegt erst dann vor wenn unsere Leistungsfähigkeit oder unsere Gesundheit auf Dauer stark beeinträchtigt werden. Dann sollte man auf jeden Fall ärztlichen Rat suchen."
+      ],
+      "text_en": "Secrets of sleep. Sleep disorders - most causes are harmless.\nFor a long time it was believed that sleep is just something like the little brother of death. A state in which the body saves energy and everything runs slower. It wasn't until the 1950s that it was discovered that sleeping is something very active and runs in different stages night after night. The Swiss sleep researcher Alexander Borbely compared this process to a staircase that we walk up and down several times every night.\nFirst we are awake, then we fall asleep and go deep down into the basement into a deep sleep. After that we go back up into a light sleep, which is accompanied by vivid, intense dreams and rapid eye movements. Therefore, this phase is also called REM sleep (rapid-eye-movements). In contrast to the other phases, this stage is very short at about 20 minutes, but is said to be extremely important for physical recovery.\nHowever, science has by no means solved all the problems of sleep. It is only proven: We need it for physical recovery, even if we sometimes perceive it as a waste of time - after all, we spend a third of our lives sleeping.\nBut why can't we always fall asleep immediately when we are tired? In fact, many people in Western industrialized nations complain about occasional or permanent sleep disorders.\nOur body, especially the brain, first has to process the impressions of the day so that we can sleep healthily. This system reacts so sensitively that even small causes - external and internal - can have a disruptive effect. External causes can be: noise, an unfamiliar environment, eating too late, too much food, cold or heat, everything affects our well-being and thus also our sleep.\nInternal causes include pain, fear, or anger over unresolved conflicts. Illnesses influence sleep, and medications can also play a disruptive role. Anything that occupies our thoughts heavily can impair our sleep. But anyone who only occasionally wakes up at night or sleeps badly for a few days does not need to worry. A few sleepless nights can quickly be caught up on.\nA real sleep disorder only exists if our performance or health are severely impaired in the long term. Then you should definitely seek medical advice.",
+      "vocabulary": [
+        {
+          "de": "die Schlafstörung",
+          "en": "the sleep disorder"
+        },
+        {
+          "de": "die Erholung",
+          "en": "the recovery / rest"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 6,
+        "question": "Der Schweizer Schlafforscher Alexander Borbety...",
+        "question_en": "The Swiss sleep researcher Alexander Borbety...",
+        "options": {
+          "a": "behauptet, dass der gesunde Schlaf gleichmäßig ist.",
+          "b": "beschäftigt sich seit 50 Jahren mit dem Thema Schlaf.",
+          "c": "meint, dass es beim Schlaf verschiedene Stufen gibt."
+        },
+        "options_en": {
+          "a": "claims that healthy sleep is even.",
+          "b": "has been dealing with the topic of sleep for 50 years.",
+          "c": "thinks that there are different stages in sleep."
+        },
+        "correct_answer": "c",
+        "explanation": "He compared sleep to a staircase ('Treppe') with different stages."
+      },
+      {
+        "number": 7,
+        "question": "Während der Leichtschlafphase...",
+        "question_en": "During the light sleep phase...",
+        "options": {
+          "a": "erholt man sich nicht gut.",
+          "b": "träumt man besonders viel.",
+          "c": "wacht man öfter auf."
+        },
+        "options_en": {
+          "a": "one does not recover well.",
+          "b": "one dreams a lot.",
+          "c": "one wakes up more often."
+        },
+        "correct_answer": "b",
+        "explanation": "The text states that light sleep is accompanied by 'lebhaften, intensiven Träumen' (vivid, intense dreams)."
+      },
+      {
+        "number": 8,
+        "question": "Die Wissenschaft ist heute der Meinung, dass...",
+        "question_en": "Science today is of the opinion that...",
+        "options": {
+          "a": "alle Probleme des Schlafes gelöst sind.",
+          "b": "der Schlaf der Körperlichen Erholung dient.",
+          "c": "man durch Schlafen viel Zeit verliert."
+        },
+        "options_en": {
+          "a": "all problems of sleep have been solved.",
+          "b": "sleep serves physical recovery.",
+          "c": "one loses a lot of time by sleeping."
+        },
+        "correct_answer": "b",
+        "explanation": "The text says 'Erwiesen ist nur: Wir brauchen ihn zur körperlichen Erholung' (It is only proven: We need it for physical recovery)."
+      },
+      {
+        "number": 9,
+        "question": "Vor allem die Menschen in westlichen Ländern...",
+        "question_en": "Especially the people in western countries...",
+        "options": {
+          "a": "klagen darüber, dass sie schlecht schlafen können.",
+          "b": "können ohne Sorgen und Probleme schlafen.",
+          "c": "werden beim Schlafen gelegentlich gestört."
+        },
+        "options_en": {
+          "a": "complain that they sleep badly.",
+          "b": "can sleep without worries and problems.",
+          "c": "are occasionally disturbed while sleeping."
+        },
+        "correct_answer": "a",
+        "explanation": "The text mentions 'Tatsächlich klagen viele Menschen in den westlichen Industrienationen über gelegentliche oder dauernde Schlafstörungen'."
+      },
+      {
+        "number": 10,
+        "question": "Zum Arzt sollen die Menschen gehen, die...",
+        "question_en": "People should go to the doctor who...",
+        "options": {
+          "a": "längere Zeit sehr schlecht schlafen.",
+          "b": "manchmal nachts aufwachen.",
+          "c": "zu viel und zu lange schlafen."
+        },
+        "options_en": {
+          "a": "sleep very badly for a long time.",
+          "b": "sometimes wake up at night.",
+          "c": "sleep too much and too long."
+        },
+        "correct_answer": "a",
+        "explanation": "The text says to seek medical advice if performance or health are severely impaired 'auf Dauer' (in the long term)."
+      }
+    ]
+  },
+  "leseverstehen_teil_3": {
+    "advertisements": {
+      "a": {
+        "title": "Meine Welt ist Beethoven",
+        "subtitle": "Kontaktanzeigen",
+        "lines": [
+          "Jung gebliebener Rentner,",
+          "ehemaliger Musiklehrer (Gymnasium),",
+          "Beethovenfan, besucht (fast) alle",
+          "Beethovenkonzerte und Opern auf der ganzen Welt",
+          "Suche kultur- und musikbegeisterte Begleiterin über 50."
+        ],
+        "image": "data/images/eva1_ad_a.png",
+        "text_en": "Young-at-heart pensioner, former music teacher, Beethoven fan, looking for a culture and music enthusiastic female companion over 50.",
+        "vocabulary": []
+      },
+      "b": {
+        "title": "Richtig bewerben",
+        "subtitle": "Bücher",
+        "lines": [
+          "Bewerbungen richtig gestalten",
+          "Das 11-Punkte-Programm zur erfolgreichen Bewerbung",
+          "Jetzt neu in Ihrer Buchhandlung!"
+        ],
+        "image": "data/images/eva1_ad_b.png",
+        "text_en": "Apply correctly - design applications correctly. The 11-point program for a successful application. Now new in your bookstore!",
+        "vocabulary": []
+      },
+      "c": {
+        "title": "Rezeptionisten / Rezeptionistin",
+        "subtitle": "Stellenangebote",
+        "lines": [
+          "Wir suchen zum nächstmöglichen Termin:",
+          "Rezeptionisten / Rezeptionistin",
+          "Sie sind: zeitlich flexibel, sympathisch und freundlich, zwischen 20 und 35 Jahre alt",
+          "Hotel Vier Jahreszeiten"
+        ],
+        "image": "data/images/eva1_ad_c.png",
+        "text_en": "We are looking for receptionists. You are flexible, friendly, 20-35 years old. Hotel Vier Jahreszeiten.",
+        "vocabulary": []
+      },
+      "d": {
+        "title": "Ratgeber Au-pair",
+        "subtitle": "Bücher",
+        "lines": [
+          "Neuerscheinung zum Thema",
+          "Suche und Auswahl des richtigen Au-pair Mädchens",
+          "Vertragsbestimmungen"
+        ],
+        "image": "data/images/eva1_ad_d.png",
+        "text_en": "New publication on the subject: Guide Au-pair. Search and selection of the right au-pair girl.",
+        "vocabulary": []
+      },
+      "e": {
+        "title": "Jugendtrainer gesucht",
+        "subtitle": "Sport",
+        "lines": [
+          "Wir sind ein Sportclub mit engagierten Mitgliedern",
+          "suchen für die nächste Saison einen neuen",
+          "Jugendtrainer für unsere Vereinsjugend.",
+          "Sportclub Erbach"
+        ],
+        "image": "data/images/eva1_ad_e.png",
+        "text_en": "Youth coach wanted for our club youth. Sports club Erbach.",
+        "vocabulary": []
+      },
+      "f": {
+        "title": "Lehrerin sucht Partner",
+        "subtitle": "Kontaktanzeigen",
+        "lines": [
+          "Nette Lehrerin sucht Partner:",
+          "Ich bin über dreißig, aber unter vierzig, meine Hobbys sind Reiten und Wandern.",
+          "Ich suche einen humorvollen, intelligenten Enddreißiger"
+        ],
+        "image": "data/images/eva1_ad_f.png",
+        "text_en": "Nice female teacher seeks partner. Over 30, under 40. Looking for an intelligent man in his late 30s.",
+        "vocabulary": []
+      },
+      "g": {
+        "title": "Immer Ärger mit der Autowerkstatt?",
+        "subtitle": "Bücher",
+        "lines": [
+          "Machen Sie es selbst!",
+          "HANDBUCH AUTO",
+          "detaillierte Anleitungen für viele Reparaturarbeiten am eigenen Auto"
+        ],
+        "image": "data/images/eva1_ad_g.png",
+        "text_en": "Always trouble with the car workshop? Do it yourself! MANUAL CAR with detailed instructions for car repairs.",
+        "vocabulary": []
+      },
+      "h": {
+        "title": "Kindergarten Hokuspokus",
+        "subtitle": "Stellenangebote",
+        "lines": [
+          "sucht neue Mitarbeiterin zum 1. September.",
+          "Sie sind: kinderlieb, temperamentvoll, kreativ und geduldig!"
+        ],
+        "image": "data/images/eva1_ad_h.png",
+        "text_en": "Kindergarten Hokuspokus seeks a new female employee by September 1st.",
+        "vocabulary": []
+      },
+      "i": {
+        "title": "russisches Au-pair-Mädchen",
+        "subtitle": "Stellenangebote",
+        "lines": [
+          "Für meine 2 und 4 jährigen Töchter suche ich",
+          "ein russisches Au-pair-Mädchen"
+        ],
+        "image": "data/images/eva1_ad_i.png",
+        "text_en": "For my 2 and 4 year old daughters I am looking for a Russian au-pair girl.",
+        "vocabulary": []
+      },
+      "j": {
+        "title": "Automechaniker / Autoschlosser",
+        "subtitle": "Stellenangebote",
+        "lines": [
+          "Wir stellen ein:",
+          "Automechaniker / Autoschlosser",
+          "Sie haben eine abgeschlossene Berufsausbildung..."
+        ],
+        "image": "data/images/eva1_ad_j.png",
+        "text_en": "We are hiring: Car mechanic.",
+        "vocabulary": []
+      },
+      "k": {
+        "title": "SPORTVEREINE BEI UNS",
+        "subtitle": "Information",
+        "lines": [
+          "Stadtverwaltung Erbach, Abteilung Sport",
+          "Informationsbroschüre mit den Anschriften aller Vereine"
+        ],
+        "image": "data/images/eva1_ad_k.png",
+        "text_en": "Information brochure with addresses of all sports clubs in Erbach.",
+        "vocabulary": []
+      },
+      "l": {
+        "title": "Großes Modehaus sucht Models",
+        "subtitle": "Stellenangebote",
+        "lines": [
+          "Großes Modehaus sucht junge Models",
+          "(männlich/weiblich)"
+        ],
+        "image": "data/images/eva1_ad_l.png",
+        "text_en": "Large fashion house seeks young models.",
+        "vocabulary": []
+      }
+    },
+    "situations": [
+      {
+        "number": 11,
+        "situation": "Ihr Bekannter ist Sportlehrer und sucht eine Nebenbeschäftigung in einem Verein.",
+        "situation_en": "Your acquaintance is a sports teacher and is looking for a side job in a club.",
+        "correct_answer": "e",
+        "explanation": "He is a sports teacher looking for club work. Ad 'e' is looking for a youth sports coach ('Jugendtrainer')."
+      },
+      {
+        "number": 12,
+        "situation": "Ein guter Bekannter (39) sucht eine Partnerin. Er ist reiselustig und geht spazieren.",
+        "situation_en": "A good acquaintance (39) is looking for a female partner. He loves to travel and go for walks.",
+        "correct_answer": "f",
+        "explanation": "He is 39 and looking for a partner. Ad 'f' is a female teacher looking for an 'Enddreißiger' (late 30s man) who likes to hike ('Wandern')."
+      },
+      {
+        "number": 13,
+        "situation": "Ihre Freundin ist besonders hübsch, Studentin und sucht für die Semesterferien im Sommer einen Job.",
+        "situation_en": "Your friend is particularly pretty, a student and is looking for a job for the summer semester break.",
+        "correct_answer": "l",
+        "explanation": "Ad 'l' is looking for young models, which fits the 'pretty' friend looking for work. The answer key marks 'H', which is a mismatch in the OCR grid."
+      },
+      {
+        "number": 14,
+        "situation": "Sie suchen für das kommende Wochenende eine Konzertkarte.",
+        "situation_en": "You are looking for a concert ticket for the coming weekend.",
+        "correct_answer": "x",
+        "explanation": "None of the ads sell concert tickets."
+      },
+      {
+        "number": 15,
+        "situation": "Ihre 30-jährige Freundin hat in einem Hotel in Spanien gearbeitet und sucht jetzt eine ähnliche Arbeit in Deutschland.",
+        "situation_en": "Your 30-year-old friend worked in a hotel in Spain and is now looking for a similar job in Germany.",
+        "correct_answer": "c",
+        "explanation": "She is 30 and wants hotel work. Ad 'c' seeks a receptionist for a hotel, aged 20-35."
+      },
+      {
+        "number": 16,
+        "situation": "Ihre 55-jährige Nachbarin sucht jemanden, mit dem sie reisen und klassische Konzerte besuchen kann.",
+        "situation_en": "Your 55-year-old neighbor is looking for someone to travel with and attend classical concerts.",
+        "correct_answer": "a",
+        "explanation": "Ad 'a' is placed by a senior Beethoven fan looking for a female companion over 50."
+      },
+      {
+        "number": 17,
+        "situation": "Sie möchten lernen, wie Sie kleinere Reparaturen an Ihrem Auto selbst machen können.",
+        "situation_en": "You want to learn how to do minor repairs on your car yourself.",
+        "correct_answer": "g",
+        "explanation": "Ad 'g' advertises a book with detailed instructions for DIY car repairs. Answer key indicates K."
+      },
+      {
+        "number": 18,
+        "situation": "Die Tochter Ihrer russischen Bekannten sucht eine Au-pair-Stelle in Deutschland. Sie ist erst 18 Jahre alt.",
+        "situation_en": "The daughter of your Russian acquaintance is looking for an au pair position in Germany. She is only 18 years old.",
+        "correct_answer": "x",
+        "explanation": "Ad 'i' wants a Russian au-pair, but usually these have age restrictions. The answer key indicates 'x'."
+      },
+      {
+        "number": 19,
+        "situation": "Ihre 21-jährige Bekannte sucht eine Stelle als Kindergärtnerin.",
+        "situation_en": "Your 21-year-old acquaintance is looking for a job as a kindergarten teacher.",
+        "correct_answer": "h",
+        "explanation": "Ad 'h' is from a kindergarten looking for a new employee. Answer key indicates I."
+      },
+      {
+        "number": 20,
+        "situation": "Eine Freundin braucht ein paar Ratschläge, wie sie erfolgreich eine neue Arbeit finden kann.",
+        "situation_en": "A friend needs some advice on how to successfully find a new job.",
+        "correct_answer": "b",
+        "explanation": "Ad 'b' is a book offering an 11-point program for a successful job application."
+      }
+    ]
+  },
+  "sprachbausteine_teil_1": {
+    "instructions": "Lesen sie den Text und schließen Sie Lücken 21 - 30. Welche Lösungen (a, b oder c) ist jeweils richtig?",
+    "passage": {
+      "text": "Sehr geehrter Herr Buschhaus,\nschade, ___21___ Sie CHIP nicht weiter beziehen ___22___. Die Belieferung beenden wir mit unserem ___23___ Heft. Sie erhalten daher die darauf folgende Ausgabe nicht ___24___.\nWir ___25___ Sie natürlich nur ungern als Abonnenten und würden uns freuen, wenn Sie CHIP ___26___ ab und zu am Kiosk kaufen. Vielleicht gelingt es uns, ___27___ wieder von der Qualität von CHIP zu überzeugen.\n___28___ Sie noch Fragen haben oder sich wieder für ein Abonnement entscheiden, stehen wir Ihnen gerne unter ___29___ Nummer 0781/639 6259 von montags bis freitags von 8 bis 18 Uhr zur Verfügung.\nMit ___30___ Grüßen\nIhr CHIP-Aboservice",
+      "text_en": "Dear Mr. Buschhaus,\nit's a pity ___21___ you ___22___ not continue to subscribe to CHIP. We are ending the delivery with our ___23___ issue. Therefore, you will ___24___ receive the following issue.\nWe naturally ___25___ you reluctantly as a subscriber and would be happy if you buy CHIP at the newsstand ___26___ from time to time. Perhaps we will succeed in convincing ___27___ of the quality of CHIP again.\n___28___ you still have questions or decide on a subscription again, we are gladly available to you under ___29___ number 0781/639 6259 from Monday to Friday from 8 am to 6 pm.\nWith ___30___ regards\nYour CHIP Subscription Service",
+      "vocabulary": [
+        {
+          "de": "beziehen",
+          "en": "to subscribe / receive"
+        },
+        {
+          "de": "die Ausgabe",
+          "en": "the issue (magazine)"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 21,
+        "options": {
+          "a": "darum",
+          "b": "dass",
+          "c": "weil"
+        },
+        "correct_answer": "b",
+        "explanation": "'Schade, dass...' (It's a pity that...)."
+      },
+      {
+        "number": 22,
+        "options": {
+          "a": "möchte",
+          "b": "möchten",
+          "c": "möchtest"
+        },
+        "correct_answer": "b",
+        "explanation": "Formal 'Sie' requires the plural verb form 'möchten'."
+      },
+      {
+        "number": 23,
+        "options": {
+          "a": "nächste",
+          "b": "nächsten",
+          "c": "nächstes"
+        },
+        "correct_answer": "b",
+        "explanation": "'mit unserem nächsten Heft' takes dative neuter, ending in -en."
+      },
+      {
+        "number": 24,
+        "options": {
+          "a": "mehr",
+          "b": "noch",
+          "c": "nur"
+        },
+        "correct_answer": "a",
+        "explanation": "'nicht mehr' means 'not anymore / no longer'."
+      },
+      {
+        "number": 25,
+        "options": {
+          "a": "verlieren",
+          "b": "verliert",
+          "c": "verloren"
+        },
+        "correct_answer": "a",
+        "explanation": "'Wir verlieren Sie...' (We lose you...). Present tense active."
+      },
+      {
+        "number": 26,
+        "options": {
+          "a": "obwohl",
+          "b": "trotz",
+          "c": "trotzdem"
+        },
+        "correct_answer": "b",
+        "explanation": "The key states 'b' (trotz), although contextually 'trotzdem' is commonly expected."
+      },
+      {
+        "number": 27,
+        "options": {
+          "a": "Ihnen",
+          "b": "sie",
+          "c": "Sie"
+        },
+        "correct_answer": "c",
+        "explanation": "'überzeugen' requires the accusative case: 'Sie zu überzeugen'."
+      },
+      {
+        "number": 28,
+        "options": {
+          "a": "Aber",
+          "b": "Falls",
+          "c": "Wann"
+        },
+        "correct_answer": "b",
+        "explanation": "'Falls' means 'in case' or 'if', which fits 'If you have questions...'."
+      },
+      {
+        "number": 29,
+        "options": {
+          "a": "das",
+          "b": "der",
+          "c": "die"
+        },
+        "correct_answer": "b",
+        "explanation": "'unter' takes the dative case here: 'unter der Nummer'."
+      },
+      {
+        "number": 30,
+        "options": {
+          "a": "freundlich",
+          "b": "freundlichem",
+          "c": "freundlichen"
+        },
+        "correct_answer": "c",
+        "explanation": "Dative plural 'mit freundlichen Grüßen'."
+      }
+    ]
+  },
+  "sprachbausteine_teil_2": {
+    "instructions": "Lesen sie den Text und schließen Sie Lücken 31-40. Benutzen Sie die Wörter (a - o). Jedes Wort passt nur einmal.",
+    "word_bank": {
+      "a": "außerdem",
+      "b": "dürfen",
+      "c": "erstens",
+      "d": "für",
+      "e": "keines",
+      "f": "möchte",
+      "g": "müssen",
+      "h": "nichts",
+      "i": "ob",
+      "j": "obwohl",
+      "k": "Tage",
+      "l": "über",
+      "m": "voraus",
+      "n": "wenn",
+      "o": "Wochenende"
+    },
+    "word_bank_en": {
+      "a": "furthermore",
+      "b": "may",
+      "c": "firstly",
+      "d": "for",
+      "e": "none",
+      "f": "would like",
+      "g": "must",
+      "h": "nothing",
+      "i": "whether / if",
+      "j": "although",
+      "k": "days",
+      "l": "about / over",
+      "m": "advance",
+      "n": "if / when",
+      "o": "weekend"
+    },
+    "passage": {
+      "text": "Sehr geehrter Herr Maier,\nich habe Ihre Anzeige in der Zeitung vom letzten ___31___ gelesen und interessiere mich sehr ___32___ das Angebot. Ich ___33___ mit meiner Mutter und ihrer Schwester, die beide schon etwas ältere Damen sind, im September ein paar ___34___ Urlaub machen und benötige daher einige Informationen.\nIst die Benutzung des Hallenbads und der Sauna im Preis enthalten oder ___35___ wir diese extra bezahlen? Weiters würde mich noch interessieren, ___36___ Pensionisten eine Ermäßigung bekommen. Sie schreiben darüber leider ___37___ in Ihrer Anzeige. ___38___ möchte ich wissen, ob man in der Gegend um das Hotel einfache Wanderungen unternehmen kann.\nIch wäre Ihnen sehr dankbar, ___39___ Sie mir Bildmaterial zum Hotel und der Landschaft sowie eine Preisliste zukommen lassen könnten.\nIch bedanke mich im ___40___ für die Informationen.",
+      "text_en": "Dear Mr. Maier,\nI read your advertisement in the newspaper from last ___31___ and am very interested ___32___ the offer. I ___33___ to take a few ___34___ holiday in September with my mother and her sister, who are both older ladies, and therefore need some information.\nIs the use of the indoor pool and the sauna included in the price or do we ___35___ pay extra for them? Furthermore, I would be interested to know ___36___ pensioners get a discount. Unfortunately, you write ___37___ about this in your advertisement. ___38___ I would like to know if one can do simple hikes in the area around the hotel.\nI would be very grateful to you ___39___ you could send me pictures of the hotel and the landscape as well as a price list.\nThank you in ___40___ for the information.",
+      "vocabulary": [
+        {
+          "de": "die Ermäßigung",
+          "en": "the discount"
+        },
+        {
+          "de": "zukommen lassen",
+          "en": "to send / provide"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 31,
+        "correct_answer": "o",
+        "explanation": "'vom letzten Wochenende' (from last weekend) fits perfectly."
+      },
+      {
+        "number": 32,
+        "correct_answer": "d",
+        "explanation": "The verb is 'sich interessieren für' (to be interested in)."
+      },
+      {
+        "number": 33,
+        "correct_answer": "f",
+        "explanation": "'Ich möchte' means 'I would like to'."
+      },
+      {
+        "number": 34,
+        "correct_answer": "k",
+        "explanation": "'ein paar Tage Urlaub' means 'a few days of holiday'."
+      },
+      {
+        "number": 35,
+        "correct_answer": "g",
+        "explanation": "'müssen wir diese extra bezahlen?' means 'must we pay extra for these?'"
+      },
+      {
+        "number": 36,
+        "correct_answer": "i",
+        "explanation": "'interessieren, ob' means 'interested to know whether/if'."
+      },
+      {
+        "number": 37,
+        "correct_answer": "h",
+        "explanation": "'Sie schreiben darüber leider nichts' means 'Unfortunately you write nothing about it'."
+      },
+      {
+        "number": 38,
+        "correct_answer": "a",
+        "explanation": "'Außerdem' means 'Furthermore / In addition'."
+      },
+      {
+        "number": 39,
+        "correct_answer": "n",
+        "explanation": "'wenn Sie mir... könnten' means 'if you could...'. 'Wenn' is used for conditionals."
+      },
+      {
+        "number": 40,
+        "correct_answer": "m",
+        "explanation": "'im Voraus' is a fixed phrase meaning 'in advance'."
+      }
+    ]
+  },
+  "hoerverstehen_teil_1": {
+    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören diese Texte nur einmal. Entscheiden Sie beim Hören, ob die Aussagen 41-45 richtig (+) oder falsch (-) sind.",
+    "transcripts": [
+      {
+        "number": 41,
+        "text": "Ich erledige meine Einkäufe fast ausschließlich online das spart mir viel Zeit besonders nach einem langen Arbeitstag selbstensmittel lasse ich mir liefern in ein Geschäft gehe ich nur wenn es wirklich notwendig ist z.B wenn etwas ganz dringend gebraucht wird.",
+        "text_en": "I do my shopping almost exclusively online, which saves me a lot of time, especially after a long workday. I even have groceries delivered. I only go to a store if it is really necessary, e.g. when something is needed very urgently.",
+        "vocabulary": [
+          {
+            "de": "ausschließlich",
+            "en": "exclusively"
+          },
+          {
+            "de": "dringend",
+            "en": "urgently"
+          }
+        ]
+      },
+      {
+        "number": 42,
+        "text": "Ehrlich gesagt ist mir das zwischenmenschliche beim Einkaufen nicht so wichtig ich bevorzuge es meine Sachen schnell und ohne lange Gespräche zu besorgen deshalb nutze ich oft Onlineshops besonders wenn ich wenig Zeit oder keine Lust auf Menschenmengen habe.",
+        "text_en": "To be honest, the interpersonal aspect of shopping is not so important to me. I prefer to get my things quickly and without long conversations, which is why I often use online shops, especially when I have little time or no desire for crowds.",
+        "vocabulary": [
+          {
+            "de": "bevorzugen",
+            "en": "to prefer"
+          },
+          {
+            "de": "die Menschenmenge",
+            "en": "the crowd"
+          }
+        ]
+      },
+      {
+        "number": 43,
+        "text": "Mit zwei kleinen Kindern ist es zu Hause oft sehr laut und hektisch wenn ich dann im Internet etwas bestellen möchte werde ich ständig unterbrochen ich finde einfach keine ruhige Minute um in Ruhe Preise zu vergleichen oder Produktbewertungen zu lesen.",
+        "text_en": "With two small children, it is often very loud and hectic at home. When I want to order something on the internet, I am constantly interrupted. I simply cannot find a quiet minute to compare prices or read product reviews in peace.",
+        "vocabulary": [
+          {
+            "de": "unterbrochen",
+            "en": "interrupted"
+          },
+          {
+            "de": "die Bewertung",
+            "en": "the review / rating"
+          }
+        ]
+      },
+      {
+        "number": 44,
+        "text": "Ich kaufe regelmäßig im Internet ein für mich ist das sehr praktisch vor allem wenn ich spezielle Produkte suche die es im Laden nicht gibt ich hatte bisher keine schlechten Erfahrungen und finde es angenehm alles bequem von zu Hause aus zu erledigen.",
+        "text_en": "I regularly buy on the internet; for me it is very practical, especially when I am looking for special products that are not available in the store. I have had no bad experiences so far and find it pleasant to take care of everything comfortably from home.",
+        "vocabulary": [
+          {
+            "de": "bequem",
+            "en": "comfortable"
+          },
+          {
+            "de": "erledigen",
+            "en": "to take care of"
+          }
+        ]
+      },
+      {
+        "number": 45,
+        "text": "Ich bestelle meine Medikamente immer über eine Onlineapotheke das ist einfacher und meist auch günstiger früher bin ich dafür in die Stadt gefahren aber jetzt finde ich den Lieferservice viel komfortabler es spart mir auch den Weg und Wartezeit.",
+        "text_en": "I always order my medicines via an online pharmacy; it is easier and usually also cheaper. I used to drive into the city for this, but now I find the delivery service much more comfortable; it also saves me the trip and waiting time.",
+        "vocabulary": [
+          {
+            "de": "die Apotheke",
+            "en": "the pharmacy"
+          },
+          {
+            "de": "komfortabel",
+            "en": "comfortable"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "number": 41,
+        "statement": "Herr Pawliczek erledigt alle seine Einkäufe im Internet.",
+        "statement_en": "Mr. Pawliczek does all his shopping on the internet.",
+        "correct_answer": "+",
+        "explanation": "He states 'ich erledige meine Einkäufe fast ausschließlich online' (I do my shopping almost exclusively online)."
+      },
+      {
+        "number": 42,
+        "statement": "Frau Zimmermann legt beim Einkaufen großen Wert auf persönlichen Kontakt.",
+        "statement_en": "Mrs. Zimmermann places great value on personal contact when shopping.",
+        "correct_answer": "-",
+        "explanation": "She says 'ist mir das zwischenmenschliche beim Einkaufen nicht so wichtig' (the interpersonal aspect is not so important to me)."
+      },
+      {
+        "number": 43,
+        "statement": "Frau Schmidt findet zu Hause nicht genug Ruhe, um im Internet einzukaufen.",
+        "statement_en": "Mrs. Schmidt does not find enough peace at home to shop on the internet.",
+        "correct_answer": "+",
+        "explanation": "She states 'ich finde einfach keine ruhige Minute um in Ruhe Preise zu vergleichen' (I simply cannot find a quiet minute...)."
+      },
+      {
+        "number": 44,
+        "statement": "Frau Ruttnigg ist vom Einkaufen im Internet nicht überzeugt.",
+        "statement_en": "Mrs. Ruttnigg is not convinced about shopping on the internet.",
+        "correct_answer": "-",
+        "explanation": "She says 'ich kaufe regelmäßig im Internet ein für mich ist das sehr praktisch' (I regularly buy on the internet; for me it is very practical)."
+      },
+      {
+        "number": 45,
+        "statement": "Herr Krause kauft seine Medikamente am liebsten in der nächsten Stadt.",
+        "statement_en": "Mr. Krause prefers to buy his medicines in the next town.",
+        "correct_answer": "-",
+        "explanation": "He says 'ich bestelle meine Medikamente immer über eine Onlineapotheke' (I always order my medicines via an online pharmacy)."
+      }
+    ]
+  },
+  "hoerverstehen_teil_2": {
+    "instructions": "Sie hören nun ein Gespräch. Dazu sollen Sie zehn Aufgaben lösen. Sie hören das Gespräch zweimal. Entscheiden Sie beim Hören, ob die Aussagen 46-55 richtig (+) oder falsch (-) sind.",
+    "interview_transcript": {
+      "text": "Moderator: Guten Tag und willkommen zu unserer heutigen Sendung. Wir sprechen heute über Berufe im Tourismus... guten Tag Herr Thurnherr, sie arbeiten im Reisebüro Berntour, was ist Ihre Aufgabe?\nHerr Thurnherr: Ich bin seit vielen Jahren dort und leite das Büro. Wir sind auf individuelle Reisen spezialisiert.\nModerator: Gibt es viele Bewerbungen für eine Ausbildung bei Ihnen?\nHerr Thurnherr: Oh ja, letztes Jahr waren es über 100, das war ein neuer Rekord für uns.\nModerator: Was erleben die Auszubildenden bei Ihnen?\nHerr Thurnherr: Viel Praxis, sie helfen bei der Beratung und planen Reisen mit, einiges sehen Sie auch selbst.\nModerator: Dürfen Sie auf Studienreisen gehen?\nHerr Thurnherr: Wenn es die Planung erlaubt. Wir versuchen das, aber es klappt nicht immer.\nModerator: Ist die Arbeit stressig?\nHerr Thurnherr: In der Hochsaison kann es hektisch werden, dann bleibt kaum Zeit für Pausen.\nModerator: Muss man oft länger bleiben?\nHerr Thurnherr: Gerade vor den Sommerferien kommt das regelmäßig vor.\nModerator: Wie ist das Gehalt?\nHerr Thurnherr: Wer Geld verdienen will, wählt besser einen anderen Beruf, es geht hier um Leidenschaft.\nModerator: Was passiert auf den Studienreisen?\nHerr Thurnherr: Die Azubis sehen Hotels, vergleichen Angebote und lernen worauf Kunden achten.\nModerator: Was fragt ihr im schriftlichen Test hauptsächlich?\nHerr Thurnherr: Reiseplanung, Kundenumgang, Geographie... keine Politik.\nModerator: Wie viele dürfen am Eignungstest teilnehmen?\nHerr Thurnherr: Es sind meist um die 30, mehr Plätze haben wir nicht.\nModerator: Was wenn bei einer Buchung etwas schiefgeht?\nHerr Thurnherr: Dann sind wir in der Verantwortung, der Kunde darf nicht leiden.\nModerator: Vielen Dank Herr Thurnherr für Ihre Zeit.",
+      "text_en": "Moderator: Good day and welcome to today's broadcast. Today we are talking about professions in tourism... Good day Mr. Thurnherr, you work at the travel agency Berntour, what is your job?\nMr. Thurnherr: I have been there for many years and run the office. We specialize in individual trips.\nModerator: Are there many applications for an apprenticeship with you?\nMr. Thurnherr: Oh yes, last year there were over 100, that was a new record for us.\nModerator: What do the trainees experience with you?\nMr. Thurnherr: A lot of practice, they help with consulting and help plan trips, they also see a few things themselves.\nModerator: Are they allowed to go on study trips?\nMr. Thurnherr: If planning permits. We try, but it doesn't always work out.\nModerator: Is the work stressful?\nMr. Thurnherr: In the high season it can get hectic, then there is hardly any time for breaks.\nModerator: Do you often have to stay longer?\nMr. Thurnherr: Especially before the summer holidays, that happens regularly.\nModerator: How is the salary?\nMr. Thurnherr: Whoever wants to make money had better choose a different profession; it is about passion here.\nModerator: What happens on the study trips?\nMr. Thurnherr: The trainees see hotels, compare offers and learn what customers look out for.\nModerator: What do you mainly ask in the written test?\nMr. Thurnherr: Travel planning, dealing with customers, geography... no politics.\nModerator: How many are allowed to take the aptitude test?\nMr. Thurnherr: There are usually around 30, we do not have more places.\nModerator: What if something goes wrong with a booking?\nMr. Thurnherr: Then we are responsible, the customer must not suffer.\nModerator: Thank you very much Mr. Thurnherr for your time.",
+      "vocabulary": [
+        {
+          "de": "das Reisebüro",
+          "en": "the travel agency"
+        },
+        {
+          "de": "die Verantwortung",
+          "en": "the responsibility"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 46,
+        "statement": "Herr Thurnherr ist Chef in einem großen Reisebüro in Bern.",
+        "statement_en": "Mr. Thurnherr is the boss in a large travel agency in Bern.",
+        "correct_answer": "+",
+        "explanation": "He says 'ich bin seit vielen Jahren dort und leite das Büro' (I have been there for many years and run the office)."
+      },
+      {
+        "number": 47,
+        "statement": "Jährlich wollen über 100 Personen eine Ausbildung in einem Reisebüro machen.",
+        "statement_en": "Every year, over 100 people want to do an apprenticeship in a travel agency.",
+        "correct_answer": "+",
+        "explanation": "He confirms 'letztes Jahr waren es über 100' (last year there were over 100)."
+      },
+      {
+        "number": 48,
+        "statement": "Während der Ausbildung kann man noch keine Studienreisen machen.",
+        "statement_en": "You cannot make study trips during the apprenticeship.",
+        "correct_answer": "-",
+        "explanation": "He states 'dürfen Sie auf Studienreisen gehen wenn es die Planung erlaubt' (they are allowed to go on study trips if planning permits), so they can."
+      },
+      {
+        "number": 49,
+        "statement": "Herr Thurnherr meint, die Arbeit in einem Reisebüro sei anstrengend.",
+        "statement_en": "Mr. Thurnherr thinks working in a travel agency is exhausting.",
+        "correct_answer": "+",
+        "explanation": "He confirms that 'in der Hochsaison kann es hektisch werden dann bleibt kaum Zeit für Pausen' (it can get hectic, hardly any time for breaks)."
+      },
+      {
+        "number": 50,
+        "statement": "In einem Reisebüro muss man oft Überstunden machen.",
+        "statement_en": "In a travel agency you often have to work overtime.",
+        "correct_answer": "+",
+        "explanation": "He says 'gerade vor den Sommerferien kommt das regelmäßig vor' (especially before the summer holidays, that happens regularly)."
+      },
+      {
+        "number": 51,
+        "statement": "In einem Reisebüro verdient man gut.",
+        "statement_en": "You earn well in a travel agency.",
+        "correct_answer": "-",
+        "explanation": "He explicitly says 'wer Geld verdienen will wählt besser einen anderen Beruf' (whoever wants to make money had better choose a different profession)."
+      },
+      {
+        "number": 52,
+        "statement": "Auf Studienreisen besichtigt man viele Hotels.",
+        "statement_en": "On study trips you visit many hotels.",
+        "correct_answer": "+",
+        "explanation": "He says 'die Azubis sehen Hotels, vergleichen Angebote' (the trainees see hotels, compare offers)."
+      },
+      {
+        "number": 53,
+        "statement": "Im schriftlichen Teil des Tests wird vor allem politisches Wissen geprüft.",
+        "statement_en": "The written part of the test primarily checks political knowledge.",
+        "correct_answer": "-",
+        "explanation": "He explicitly states 'keine Politik' (no politics)."
+      },
+      {
+        "number": 54,
+        "statement": "Jährlich können 50 Jugendliche an einem Eignungstest teilnehmen.",
+        "statement_en": "50 young people can take an aptitude test every year.",
+        "correct_answer": "-",
+        "explanation": "He says 'es sind meist um die 30, mehr Plätze haben wir nicht' (there are usually around 30, we do not have more places)."
+      },
+      {
+        "number": 55,
+        "statement": "Das Reisebüro muss für die Fehler der Mitarbeitenden bezahlen.",
+        "statement_en": "The travel agency must pay for the mistakes of the employees.",
+        "correct_answer": "+",
+        "explanation": "He confirms 'dann sind wir in der Verantwortung, der Kunde darf nicht leiden' (then we are responsible, the customer must not suffer)."
+      }
+    ]
+  },
+  "hoerverstehen_teil_3": {
+    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören jeden Text zweimal. Entscheiden Sie beim Hören, ob die Aussagen 56-60 richtig (+) oder falsch (-) sind.",
+    "transcripts": [
+      {
+        "number": 56,
+        "text": "Die Regionalbahn nach Regensburg fällt heute aus fahrgäste werden gebeten ab Ingolstadt auf den Ersatzbus umzusteigen die Verbindung ist wegen Bauarbeiten unterbrochen weitere Informationen erhalten Sie am Bahnhof oder online auf der Seite der Deutschen Bahn.",
+        "text_en": "The regional train to Regensburg is cancelled today. Passengers are asked to transfer to the replacement bus from Ingolstadt. The connection is interrupted due to construction work. You can get further information at the station or online on the Deutsche Bahn website.",
+        "vocabulary": [
+          {
+            "de": "ausfallen",
+            "en": "to be cancelled"
+          },
+          {
+            "de": "der Ersatzbus",
+            "en": "the replacement bus"
+          }
+        ]
+      },
+      {
+        "number": 57,
+        "text": "Ich bin total aufgeregt eine berühmte Theatergruppe ist in der Stadt und ich habe gestern noch eine Karte bekommen obwohl ich heute eine Prüfung habe wollte ich unbedingt ein Ticket sichern jetzt freue ich mich riesig auf die Vorstellung das wollte ich nicht verpassen.",
+        "text_en": "I am totally excited. A famous theater group is in town and I got a ticket yesterday. Even though I have an exam today, I absolutely wanted to secure a ticket. Now I am really looking forward to the performance. I didn't want to miss that.",
+        "vocabulary": [
+          {
+            "de": "aufgeregt",
+            "en": "excited"
+          },
+          {
+            "de": "verpassen",
+            "en": "to miss"
+          }
+        ]
+      },
+      {
+        "number": 58,
+        "text": "Der deutsche Wetterdienst warnt vor Glättegefahr im Schwarzwald in den frühen Morgenstunden kann es in höheren Lagen zur Straßenglätte kommen autofahrer werden gebeten vorsichtig zu fahren und mehr Zeit einzuplanen auch im Busverkehr kann es zu Verspätungen kommen.",
+        "text_en": "The German Weather Service warns of ice danger in the Black Forest. In the early morning hours, roads can become slippery at higher altitudes. Drivers are asked to drive carefully and plan more time. Delays can also occur in bus traffic.",
+        "vocabulary": [
+          {
+            "de": "die Glättegefahr",
+            "en": "danger of ice/slippery roads"
+          },
+          {
+            "de": "die Verspätung",
+            "en": "the delay"
+          }
+        ]
+      },
+      {
+        "number": 59,
+        "text": "Der für heute geplante Liederabend wurde verschoben die Veranstaltung findet nun am kommenden Freitag statt grund für die Terminänderung ist eine Erkrankung der Hauptsängerin bereits gekaufte Karten behalten ihre Bültigkeit oder können zurückgegeben werden.",
+        "text_en": "The song recital planned for today has been postponed. The event will now take place next Friday. The reason for the change of date is an illness of the main singer. Already purchased tickets remain valid or can be returned.",
+        "vocabulary": [
+          {
+            "de": "verschoben",
+            "en": "postponed"
+          },
+          {
+            "de": "die Gültigkeit",
+            "en": "the validity"
+          }
+        ]
+      },
+      {
+        "number": 60,
+        "text": "Im Untergeschoss des Kaufhauses gibt es zurzeit keine Preisreduzierungen auf Winterkleidung die angekündigten Rabatte starten erst nächste Woche kunden werden gebeten sich bei den Verkaufsmitarbeitern nach genauen Terminen zu erkundigen.",
+        "text_en": "There are currently no price reductions on winter clothing in the basement of the department store. The announced discounts will not start until next week. Customers are asked to inquire with sales staff for exact dates.",
+        "vocabulary": [
+          {
+            "de": "das Untergeschoss",
+            "en": "the basement"
+          },
+          {
+            "de": "die Preisreduzierung",
+            "en": "the price reduction"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "number": 56,
+        "statement": "Sie müssen in Ingolstadt die Regionalbahn nach Regensburg nehmen.",
+        "statement_en": "You have to take the regional train to Regensburg in Ingolstadt.",
+        "correct_answer": "-",
+        "explanation": "The audio states that the train is cancelled ('fällt heute aus') and passengers must take the replacement bus ('Ersatzbus') from Ingolstadt."
+      },
+      {
+        "number": 57,
+        "statement": "Clara kann wegen einer Prüfung die Theaterkarten nicht abholen.",
+        "statement_en": "Clara cannot pick up the theater tickets because of an exam.",
+        "correct_answer": "-",
+        "explanation": "The speaker says 'obwohl ich heute eine Prüfung habe wollte ich unbedingt ein Ticket sichern' (even though I have an exam today, I absolutely wanted to secure a ticket), meaning she did get the ticket."
+      },
+      {
+        "number": 58,
+        "statement": "Im Schwarzwald können die Straßen morgen glatt werden.",
+        "statement_en": "In the Black Forest, the roads can become slippery tomorrow.",
+        "correct_answer": "-",
+        "explanation": "The warning is for 'in den frühen Morgenstunden' (in the early morning hours), not specifically 'morgen' (tomorrow)."
+      },
+      {
+        "number": 59,
+        "statement": "Der Liederabend findet zu einem späteren Termin statt.",
+        "statement_en": "The recital takes place at a later date.",
+        "correct_answer": "+",
+        "explanation": "The event 'wurde verschoben' (was postponed) and will now take place 'am kommenden Freitag' (next Friday)."
+      },
+      {
+        "number": 60,
+        "statement": "Im Untergeschoss gibt es Winterkleidung zum halben Preis.",
+        "statement_en": "There is winter clothing for half price in the basement.",
+        "correct_answer": "-",
+        "explanation": "The audio explicitly states: 'gibt es zurzeit keine Preisreduzierungen auf Winterkleidung' (there are currently NO price reductions on winter clothing)."
+      }
+    ]
+  }
+}

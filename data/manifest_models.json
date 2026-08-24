@@ -1,0 +1,23 @@
+[
+  {
+    "id": "eva1",
+    "number": 1,
+    "title": "EVA1",
+    "file": "data/eva1.json",
+    "is_available": true
+  },
+  {
+    "id": "petra",
+    "number": 2,
+    "title": "Petra",
+    "file": "data/petra.json",
+    "is_available": true
+  },
+  {
+    "id": "sophie",
+    "number": 3,
+    "title": "SOPHIE",
+    "file": "data/sophie.json",
+    "is_available": true
+  }
+]

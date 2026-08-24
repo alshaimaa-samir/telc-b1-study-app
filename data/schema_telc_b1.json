@@ -1,0 +1,602 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Telc B1 Exam Model Schema",
+  "type": "object",
+  "required": [
+    "title",
+    "leseverstehen_teil_1",
+    "leseverstehen_teil_2",
+    "leseverstehen_teil_3",
+    "sprachbausteine_teil_1",
+    "sprachbausteine_teil_2",
+    "hoerverstehen_teil_1",
+    "hoerverstehen_teil_2",
+    "hoerverstehen_teil_3"
+  ],
+  "properties": {
+    "title": {
+      "type": "string",
+      "example": "Petra"
+    },
+    "leseverstehen_teil_1": {
+      "type": "object",
+      "required": [
+        "headings",
+        "passages"
+      ],
+      "properties": {
+        "headings": {
+          "type": "object",
+          "description": "Headings mapped to keys 'a' through 'j'",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "headings_en": {
+          "type": "object",
+          "description": "English translations for headings 'a' through 'j'",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "passages": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "number",
+              "text",
+              "correct_answer",
+              "explanation"
+            ],
+            "properties": {
+              "number": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 5
+              },
+              "text": {
+                "type": "string"
+              },
+              "text_en": {
+                "type": "string"
+              },
+              "correct_answer": {
+                "type": "string",
+                "pattern": "^[a-j]$"
+              },
+              "explanation": {
+                "type": "string"
+              },
+              "vocabulary": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "de": {
+                      "type": "string"
+                    },
+                    "en": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "leseverstehen_teil_2": {
+      "type": "object",
+      "required": [
+        "passage",
+        "questions"
+      ],
+      "properties": {
+        "passage": {
+          "type": "object",
+          "required": [
+            "headline",
+            "paragraphs"
+          ],
+          "properties": {
+            "headline": {
+              "type": "string"
+            },
+            "subheadline": {
+              "type": "string"
+            },
+            "paragraphs": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "text_en": {
+              "type": "string"
+            },
+            "vocabulary": {
+              "type": "array"
+            }
+          }
+        },
+        "questions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "number",
+              "question",
+              "options",
+              "correct_answer",
+              "explanation"
+            ],
+            "properties": {
+              "number": {
+                "type": "integer",
+                "minimum": 6,
+                "maximum": 10
+              },
+              "question": {
+                "type": "string"
+              },
+              "question_en": {
+                "type": "string"
+              },
+              "options": {
+                "type": "object",
+                "properties": {
+                  "a": {
+                    "type": "string"
+                  },
+                  "b": {
+                    "type": "string"
+                  },
+                  "c": {
+                    "type": "string"
+                  }
+                }
+              },
+              "options_en": {
+                "type": "object"
+              },
+              "correct_answer": {
+                "type": "string",
+                "pattern": "^[a-c]$"
+              },
+              "explanation": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "leseverstehen_teil_3": {
+      "type": "object",
+      "required": [
+        "advertisements",
+        "situations"
+      ],
+      "properties": {
+        "advertisements": {
+          "type": "object",
+          "description": "Classified advertisements mapped 'a' through 'l'",
+          "additionalProperties": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "subtitle": {
+                "type": "string"
+              },
+              "lines": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "image": {
+                "type": "string"
+              },
+              "text_en": {
+                "type": "string"
+              },
+              "vocabulary": {
+                "type": "array"
+              }
+            }
+          }
+        },
+        "situations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "number",
+              "situation",
+              "correct_answer",
+              "explanation"
+            ],
+            "properties": {
+              "number": {
+                "type": "integer",
+                "minimum": 11,
+                "maximum": 20
+              },
+              "situation": {
+                "type": "string"
+              },
+              "situation_en": {
+                "type": "string"
+              },
+              "correct_answer": {
+                "type": "string",
+                "pattern": "^[a-lx]$"
+              },
+              "explanation": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "sprachbausteine_teil_1": {
+      "type": "object",
+      "required": [
+        "instructions",
+        "passage",
+        "questions"
+      ],
+      "properties": {
+        "instructions": {
+          "type": "string"
+        },
+        "passage": {
+          "type": "object",
+          "required": [
+            "text"
+          ],
+          "properties": {
+            "text": {
+              "type": "string",
+              "description": "Letter with blanks formatted as ___21___ through ___30___"
+            },
+            "text_en": {
+              "type": "string"
+            },
+            "vocabulary": {
+              "type": "array"
+            }
+          }
+        },
+        "questions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "number",
+              "options",
+              "correct_answer",
+              "explanation"
+            ],
+            "properties": {
+              "number": {
+                "type": "integer",
+                "minimum": 21,
+                "maximum": 30
+              },
+              "options": {
+                "type": "object",
+                "properties": {
+                  "a": {
+                    "type": "string"
+                  },
+                  "b": {
+                    "type": "string"
+                  },
+                  "c": {
+                    "type": "string"
+                  }
+                }
+              },
+              "options_en": {
+                "type": "object"
+              },
+              "correct_answer": {
+                "type": "string",
+                "pattern": "^[a-c]$"
+              },
+              "explanation": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "sprachbausteine_teil_2": {
+      "type": "object",
+      "required": [
+        "instructions",
+        "word_bank",
+        "passage",
+        "questions"
+      ],
+      "properties": {
+        "instructions": {
+          "type": "string"
+        },
+        "word_bank": {
+          "type": "object",
+          "description": "15 words mapped 'a' through 'o'",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+        "word_bank_en": {
+          "type": "object"
+        },
+        "passage": {
+          "type": "object",
+          "required": [
+            "text"
+          ],
+          "properties": {
+            "text": {
+              "type": "string",
+              "description": "Text with blanks formatted as ___31___ through ___40___"
+            },
+            "text_en": {
+              "type": "string"
+            },
+            "vocabulary": {
+              "type": "array"
+            }
+          }
+        },
+        "questions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "number",
+              "correct_answer",
+              "explanation"
+            ],
+            "properties": {
+              "number": {
+                "type": "integer",
+                "minimum": 31,
+                "maximum": 40
+              },
+              "correct_answer": {
+                "type": "string",
+                "pattern": "^[a-o]$"
+              },
+              "explanation": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "hoerverstehen_teil_1": {
+      "type": "object",
+      "required": [
+        "instructions",
+        "transcripts",
+        "questions"
+      ],
+      "properties": {
+        "instructions": {
+          "type": "string"
+        },
+        "transcripts": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "number",
+              "text"
+            ],
+            "properties": {
+              "number": {
+                "type": "integer",
+                "minimum": 41,
+                "maximum": 45
+              },
+              "text": {
+                "type": "string"
+              },
+              "text_en": {
+                "type": "string"
+              },
+              "vocabulary": {
+                "type": "array"
+              }
+            }
+          }
+        },
+        "questions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "number",
+              "statement",
+              "correct_answer",
+              "explanation"
+            ],
+            "properties": {
+              "number": {
+                "type": "integer",
+                "minimum": 41,
+                "maximum": 45
+              },
+              "statement": {
+                "type": "string"
+              },
+              "statement_en": {
+                "type": "string"
+              },
+              "correct_answer": {
+                "type": "string",
+                "enum": [
+                  "+",
+                  "-"
+                ]
+              },
+              "explanation": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "hoerverstehen_teil_2": {
+      "type": "object",
+      "required": [
+        "instructions",
+        "interview_transcript",
+        "questions"
+      ],
+      "properties": {
+        "instructions": {
+          "type": "string"
+        },
+        "interview_transcript": {
+          "type": "object",
+          "required": [
+            "text"
+          ],
+          "properties": {
+            "text": {
+              "type": "string"
+            },
+            "text_en": {
+              "type": "string"
+            },
+            "vocabulary": {
+              "type": "array"
+            }
+          }
+        },
+        "questions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "number",
+              "statement",
+              "correct_answer",
+              "explanation"
+            ],
+            "properties": {
+              "number": {
+                "type": "integer",
+                "minimum": 46,
+                "maximum": 55
+              },
+              "statement": {
+                "type": "string"
+              },
+              "statement_en": {
+                "type": "string"
+              },
+              "correct_answer": {
+                "type": "string",
+                "enum": [
+                  "+",
+                  "-"
+                ]
+              },
+              "explanation": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "hoerverstehen_teil_3": {
+      "type": "object",
+      "required": [
+        "instructions",
+        "transcripts",
+        "questions"
+      ],
+      "properties": {
+        "instructions": {
+          "type": "string"
+        },
+        "transcripts": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "number",
+              "text"
+            ],
+            "properties": {
+              "number": {
+                "type": "integer",
+                "minimum": 56,
+                "maximum": 60
+              },
+              "text": {
+                "type": "string"
+              },
+              "text_en": {
+                "type": "string"
+              },
+              "vocabulary": {
+                "type": "array"
+              }
+            }
+          }
+        },
+        "questions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "number",
+              "statement",
+              "correct_answer",
+              "explanation"
+            ],
+            "properties": {
+              "number": {
+                "type": "integer",
+                "minimum": 56,
+                "maximum": 60
+              },
+              "statement": {
+                "type": "string"
+              },
+              "statement_en": {
+                "type": "string"
+              },
+              "correct_answer": {
+                "type": "string",
+                "enum": [
+                  "+",
+                  "-"
+                ]
+              },
+              "explanation": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
