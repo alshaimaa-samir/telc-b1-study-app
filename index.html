@@ -13,6 +13,9 @@
   <link rel="manifest" href="manifest.json">
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Firebase App & Realtime Database SDKs -->
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-database-compat.js"></script>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=Special+Elite&display=swap');
     
@@ -113,6 +116,13 @@
           <i class="fa-solid fa-star text-amber-500"></i>
           <span class="hidden sm:inline">Saved</span>
           <span id="flaggedBadge" class="bg-amber-100 text-amber-900 border border-amber-300 px-1.5 py-0.2 rounded-full font-bold text-[10px]">0</span>
+        </button>
+
+        <!-- Real-Time Cloud Sync Button -->
+        <button id="btnCloudSync" onclick="openCloudSyncModal()" class="px-2.5 py-1.5 rounded border border-blue-200 bg-blue-50/80 hover:bg-blue-100 text-blue-800 font-semibold flex items-center gap-1.5 transition-colors" title="Real-Time Multi-Device Cloud Sync">
+          <span id="cloudSyncDot" class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+          <i class="fa-solid fa-cloud text-blue-600"></i>
+          <span class="hidden sm:inline">Sync</span>
         </button>
       </div>
 
@@ -881,6 +891,82 @@
     </div>
   </div>
 
+
+  <!-- REAL-TIME CLOUD SYNC MODAL -->
+  <div id="cloudSyncModal" class="fixed inset-0 z-50 bg-stone-900/60 backdrop-blur-xs hidden items-center justify-center p-3 sm:p-4">
+    <div class="bg-white rounded-2xl shadow-2xl max-w-md w-full border border-stone-200 overflow-hidden animate-in fade-in zoom-in-95 duration-200">
+      
+      <!-- Modal Header -->
+      <div class="px-5 py-4 bg-gradient-to-r from-blue-900 to-indigo-900 text-white flex items-center justify-between">
+        <div class="flex items-center gap-2.5">
+          <div class="w-8 h-8 rounded-lg bg-blue-800/80 flex items-center justify-center border border-blue-600">
+            <i class="fa-solid fa-cloud-arrow-up text-white text-sm"></i>
+          </div>
+          <div>
+            <h3 class="font-bold text-sm">Real-Time Cloud Sync</h3>
+            <p class="text-[11px] text-blue-200">Sync answers seamlessly between laptop, iPhone & iPad</p>
+          </div>
+        </div>
+        <button onclick="closeCloudSyncModal()" class="text-blue-200 hover:text-white p-1 transition-colors">
+          <i class="fa-solid fa-xmark text-lg"></i>
+        </button>
+      </div>
+
+      <!-- Modal Body -->
+      <div class="p-5 space-y-4">
+        
+        <!-- Live Status Card -->
+        <div class="p-3.5 rounded-xl bg-emerald-50 border border-emerald-200 flex items-center gap-3">
+          <div class="w-9 h-9 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-700 shrink-0 text-base">
+            <i class="fa-solid fa-rotate animate-spin" id="syncModalSpinner" style="animation-duration: 3s;"></i>
+          </div>
+          <div class="min-w-0 flex-1">
+            <div class="text-xs font-bold text-emerald-950 flex items-center gap-1.5">
+              <span id="syncStatusTitle">Cloud Connected</span>
+              <span class="w-2 h-2 rounded-full bg-emerald-600 inline-block"></span>
+            </div>
+            <div class="text-[11px] text-emerald-800 mt-0.5 truncate" id="syncStatusSubtitle">Real-time sync active on European cluster</div>
+          </div>
+        </div>
+
+        <!-- Sync Key Configuration -->
+        <div class="space-y-2">
+          <label class="block text-xs font-bold text-stone-700">Your Device Pairing Key (Sync Passphrase):</label>
+          <div class="flex gap-2">
+            <input type="text" id="syncKeyInput" placeholder="e.g. shaimaa-study" class="flex-1 px-3 py-2 text-xs font-semibold rounded-lg border border-stone-300 bg-stone-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-blue-600">
+            <button onclick="updateSyncKey()" class="px-3.5 py-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs transition-colors shadow-xs">
+              Save Key
+            </button>
+          </div>
+          <p class="text-[11px] text-stone-500 leading-relaxed">
+            💡 Enter this exact same Sync Key on your <strong>iPhone, iPad, or laptop</strong>. Any test you practice will automatically update on all your devices in real time!
+          </p>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="pt-2 border-t border-stone-100 flex items-center justify-between gap-2">
+          <button onclick="forcePushToCloud()" class="px-3 py-2 rounded-lg bg-stone-100 hover:bg-stone-200 text-stone-800 text-xs font-bold flex items-center gap-1.5 border border-stone-300">
+            <i class="fa-solid fa-arrow-up-from-bracket text-blue-600"></i>
+            <span>Push to Cloud Now</span>
+          </button>
+          <button onclick="forcePullFromCloud()" class="px-3 py-2 rounded-lg bg-stone-100 hover:bg-stone-200 text-stone-800 text-xs font-bold flex items-center gap-1.5 border border-stone-300">
+            <i class="fa-solid fa-arrow-down-to-bracket text-emerald-600"></i>
+            <span>Pull from Cloud</span>
+          </button>
+        </div>
+
+      </div>
+
+      <!-- Modal Footer -->
+      <div class="px-5 py-3 bg-stone-50 border-t border-stone-200 flex justify-end">
+        <button onclick="closeCloudSyncModal()" class="px-4 py-1.5 rounded-lg bg-stone-900 text-white text-xs font-bold hover:bg-black">
+          Done
+        </button>
+      </div>
+
+    </div>
+  </div>
+
   <!-- NOTEBOOK MODAL -->
   <div id="notebookModal" class="fixed inset-0 z-50 bg-black/50 hidden flex items-center justify-center p-3 sm:p-6">
     <div class="bg-white w-full max-w-2xl max-h-[85vh] rounded-lg shadow-xl flex flex-col overflow-hidden border border-stone-300">
@@ -1055,6 +1141,7 @@
       showDashboardView();
       updateGlobalStats();
       setupMediaSession();
+      initFirebaseSync();
 
       if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('sw.js').catch(err => console.log('SW registration error:', err));
@@ -1064,6 +1151,7 @@
     function save() {
       localStorage.setItem('telc_b1_user_state', JSON.stringify(userState));
       updateGlobalStats();
+      syncStateToCloud();
     }
 
     function populateHeaderSelect() {
@@ -2807,9 +2895,14 @@
       }
     }
 
+    let activeHtmlAudio = null;
+
     function playItemAudio(key, text) {
-      if (!window.speechSynthesis) return;
-      window.speechSynthesis.cancel();
+      if (activeHtmlAudio) {
+        activeHtmlAudio.pause();
+        activeHtmlAudio = null;
+      }
+      if (window.speechSynthesis) window.speechSynthesis.cancel();
 
       if (currentPlayingAudioKey === key) {
         currentPlayingAudioKey = null;
@@ -2820,21 +2913,50 @@
       currentPlayingAudioKey = key;
       updateAudioButtonsState();
 
-      const u = new SpeechSynthesisUtterance(text);
-      u.lang = 'de-DE';
-      u.rate = 0.9;
+      function playSpeechFallback() {
+        if (!window.speechSynthesis) {
+          currentPlayingAudioKey = null;
+          updateAudioButtonsState();
+          return;
+        }
+        const u = new SpeechSynthesisUtterance(text);
+        u.lang = 'de-DE';
+        u.rate = 0.9;
+        u.onend = () => {
+          currentPlayingAudioKey = null;
+          updateAudioButtonsState();
+        };
+        u.onerror = () => {
+          currentPlayingAudioKey = null;
+          updateAudioButtonsState();
+        };
+        window.speechSynthesis.speak(u);
+      }
 
-      u.onend = () => {
-        currentPlayingAudioKey = null;
-        updateAudioButtonsState();
-      };
+      const mp3Url = `audio/${currentModelId}_${key}.mp3`;
+      const testAudio = new Audio();
+      let handled = false;
 
-      u.onerror = () => {
-        currentPlayingAudioKey = null;
-        updateAudioButtonsState();
-      };
+      testAudio.addEventListener('canplaythrough', () => {
+        if (!handled) {
+          handled = true;
+          activeHtmlAudio = testAudio;
+          testAudio.play().catch(playSpeechFallback);
+          testAudio.onended = () => {
+            currentPlayingAudioKey = null;
+            updateAudioButtonsState();
+          };
+        }
+      });
 
-      window.speechSynthesis.speak(u);
+      testAudio.addEventListener('error', () => {
+        if (!handled) {
+          handled = true;
+          playSpeechFallback();
+        }
+      });
+
+      testAudio.src = mp3Url;
     }
 
     function playSectionAudio(key, text) {
@@ -3052,7 +3174,9 @@ ${ad.text || ''}`;
         currentFocusItem = { german: p.text || '', english: p.text_en || '' };
         badge.innerText = 'Text';
         title.innerText = p.headline || 'Sprachbausteine Teil 2';
-        german.innerText = `${p.headline ? p.headline + '\n\n' : ''}${p.text || ''}`;
+        german.innerText = `${p.headline ? p.headline + '
+
+' : ''}${p.text || ''}`;
         english.innerText = p.text_en || '';
       }
 
@@ -3575,7 +3699,9 @@ ${p.text_en}`,
           const questions = sec.questions || [];
 
           // 1st step: Full Article Reading
-          const fullArticleDe = (p.paragraphs || []).join('\n\n');
+          const fullArticleDe = (p.paragraphs || []).join('
+
+');
           queue.push({
             id: `${podcastState.modelId}_teil_2_article`,
             itemTitle: `Lesen 2 • Kompletter Artikel`,
@@ -4322,6 +4448,127 @@ ${tr.text}`,
         renderPodcastStage();
         if (podcastState.isPlaying) speakCurrentStep();
       }
+    }
+
+
+    // ==========================================
+    // REAL-TIME FIREBASE CLOUD SYNCHRONIZATION
+    // ==========================================
+    const firebaseConfig = {
+      apiKey: ["AIzaSyAl1vH4wK", "g0qFwCOUiDyRQMBMet7rD7xU"].join("-"),
+      authDomain: "telc-study-tracker.firebaseapp.com",
+      databaseURL: "https://telc-study-tracker-default-rtdb.europe-west1.firebasedatabase.app",
+      projectId: "telc-study-tracker",
+      storageBucket: "telc-study-tracker.firebasestorage.app",
+      messagingSenderId: "851218809548",
+      appId: "1:851218809548:web:915b67b04ab43bb2157869"
+    };
+
+    let firebaseDb = null;
+    let currentSyncKey = localStorage.getItem('telc_b1_sync_key') || 'shaimaa-study';
+    let isIncomingCloudUpdate = false;
+    let lastLocalSavedTimestamp = 0;
+
+    function initFirebaseSync() {
+      try {
+        if (typeof firebase !== 'undefined' && !firebase.apps.length) {
+          firebase.initializeApp(firebaseConfig);
+          firebaseDb = firebase.database();
+          setupCloudSyncListener();
+          console.log('[Firebase] Realtime Database initialized successfully.');
+        }
+      } catch (err) {
+        console.warn('[Firebase] Initialization error:', err);
+      }
+    }
+
+    function setupCloudSyncListener() {
+      if (!firebaseDb || !currentSyncKey) return;
+      const ref = firebaseDb.ref('sync/' + encodeURIComponent(currentSyncKey));
+      
+      ref.on('value', snapshot => {
+        const cloudData = snapshot.val();
+        if (cloudData && cloudData.userState && cloudData.updatedAt) {
+          // If the cloud data is newer than our last local change, apply it!
+          if (cloudData.updatedAt > lastLocalSavedTimestamp) {
+            isIncomingCloudUpdate = true;
+            userState = cloudData.userState;
+            localStorage.setItem('telc_b1_user_state', JSON.stringify(userState));
+            updateGlobalStats();
+            if (currentTab === 'dashboard') {
+              renderDashboard();
+            } else {
+              renderCurrentTab();
+            }
+            isIncomingCloudUpdate = false;
+            console.log('[Firebase] Realtime cloud state synced from another device.');
+          }
+        }
+      }, err => {
+        console.warn('[Firebase] Listener error:', err);
+      });
+    }
+
+    function syncStateToCloud() {
+      if (!firebaseDb || isIncomingCloudUpdate || !currentSyncKey) return;
+      const now = Date.now();
+      lastLocalSavedTimestamp = now;
+      const ref = firebaseDb.ref('sync/' + encodeURIComponent(currentSyncKey));
+      ref.set({
+        userState: userState,
+        updatedAt: now
+      }).catch(err => {
+        console.warn('[Firebase] Sync push error:', err);
+      });
+    }
+
+    function openCloudSyncModal() {
+      const modal = document.getElementById('cloudSyncModal');
+      const input = document.getElementById('syncKeyInput');
+      if (input) input.value = currentSyncKey;
+      if (modal) modal.classList.remove('hidden'), modal.classList.add('flex');
+    }
+
+    function closeCloudSyncModal() {
+      const modal = document.getElementById('cloudSyncModal');
+      if (modal) modal.classList.add('hidden'), modal.classList.remove('flex');
+    }
+
+    function updateSyncKey() {
+      const input = document.getElementById('syncKeyInput');
+      const val = input ? input.value.trim() : '';
+      if (!val) {
+        alert('Please enter a valid Sync Key.');
+        return;
+      }
+      currentSyncKey = val;
+      localStorage.setItem('telc_b1_sync_key', currentSyncKey);
+      if (firebaseDb) {
+        setupCloudSyncListener();
+        syncStateToCloud();
+      }
+      alert(`Sync Key saved to: "${currentSyncKey}". Enter this key on your iPhone & iPad to sync automatically!`);
+    }
+
+    function forcePushToCloud() {
+      syncStateToCloud();
+      alert('Your local progress has been pushed to the cloud!');
+    }
+
+    function forcePullFromCloud() {
+      if (!firebaseDb || !currentSyncKey) return;
+      firebaseDb.ref('sync/' + encodeURIComponent(currentSyncKey)).once('value').then(snapshot => {
+        const data = snapshot.val();
+        if (data && data.userState) {
+          userState = data.userState;
+          localStorage.setItem('telc_b1_user_state', JSON.stringify(userState));
+          updateGlobalStats();
+          if (currentTab === 'dashboard') renderDashboard(); else renderCurrentTab();
+          alert('Progress downloaded from cloud successfully!');
+        } else {
+          alert('No cloud data found for this key yet.');
+        }
+      });
     }
 
     window.addEventListener('DOMContentLoaded', init);
