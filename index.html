@@ -119,10 +119,10 @@
         </button>
 
         <!-- Real-Time Cloud Sync Button -->
-        <button id="btnCloudSync" onclick="openCloudSyncModal()" class="px-2.5 py-1.5 rounded border border-blue-200 bg-blue-50/80 hover:bg-blue-100 text-blue-800 font-semibold flex items-center gap-1.5 transition-colors" title="Real-Time Multi-Device Cloud Sync">
+        <button id="btnCloudSync" onclick="openCloudSyncModal()" class="px-2.5 py-1.5 rounded border border-blue-300 bg-blue-50 hover:bg-blue-100 text-blue-900 font-bold flex items-center gap-1.5 transition-colors shadow-2xs" title="Real-Time Multi-Device Cloud Sync">
           <span id="cloudSyncDot" class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
           <i class="fa-solid fa-cloud text-blue-600"></i>
-          <span class="hidden sm:inline">Sync</span>
+          <span>Sync</span>
         </button>
       </div>
 
@@ -144,6 +144,11 @@
               <button onclick="openScoringGuideModal()" class="px-2 py-0.5 rounded-md bg-stone-100 hover:bg-stone-200 text-stone-700 text-[11px] font-semibold border border-stone-300 flex items-center gap-1 transition-colors shadow-2xs" title="View Official Telc B1 Scoring System">
                 <i class="fa-solid fa-circle-info text-blue-600"></i>
                 <span>Telc B1 Scoring & Grades</span>
+              </button>
+              <button onclick="openCloudSyncModal()" class="px-2 py-0.5 rounded-md bg-blue-50 hover:bg-blue-100 text-blue-800 text-[11px] font-bold border border-blue-300 flex items-center gap-1.5 transition-colors shadow-2xs" title="Real-Time Multi-Device Cloud Sync">
+                <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                <i class="fa-solid fa-cloud text-blue-600"></i>
+                <span>Multi-Device Cloud Sync</span>
               </button>
             </div>
             <p class="text-xs text-stone-500 mt-0.5">Official Telc Deutsch B1 written exam score tracking (225.0 Pkt total)</p>
@@ -1082,7 +1087,7 @@
         console.log("Live directory listing auto-discovery fallback:", e);
       }
 
-      // 2. Fallback to manifest_models.json
+      // 2. Fallback to manifest_models.json if directory listing is not exposed
       if (!modelsList || modelsList.length === 0) {
         try {
           const res = await fetch('data/manifest_models.json?t=' + Date.now());
@@ -3174,9 +3179,7 @@ ${ad.text || ''}`;
         currentFocusItem = { german: p.text || '', english: p.text_en || '' };
         badge.innerText = 'Text';
         title.innerText = p.headline || 'Sprachbausteine Teil 2';
-        german.innerText = `${p.headline ? p.headline + '
-
-' : ''}${p.text || ''}`;
+        german.innerText = (p.headline ? (p.headline + '\n\n') : '') + (p.text || '');
         english.innerText = p.text_en || '';
       }
 
@@ -3699,9 +3702,7 @@ ${p.text_en}`,
           const questions = sec.questions || [];
 
           // 1st step: Full Article Reading
-          const fullArticleDe = (p.paragraphs || []).join('
-
-');
+          const fullArticleDe = (p.paragraphs || []).join('\n\n');
           queue.push({
             id: `${podcastState.modelId}_teil_2_article`,
             itemTitle: `Lesen 2 • Kompletter Artikel`,

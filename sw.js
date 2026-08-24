@@ -1,4 +1,4 @@
-const CACHE_NAME = 'telc-b1-v1';
+const CACHE_NAME = 'telc-b1-v2';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
@@ -11,10 +11,11 @@ const ASSETS_TO_CACHE = [
 ];
 
 self.addEventListener('install', event => {
+  self.skipWaiting();
   event.waitUntil(
     caches.open(CACHE_NAME).then(cache => {
       return cache.addAll(ASSETS_TO_CACHE);
-    }).then(() => self.skipWaiting())
+    })
   );
 });
 
@@ -31,6 +32,21 @@ self.addEventListener('activate', event => {
 self.addEventListener('fetch', event => {
   if (event.request.method !== 'GET') return;
   
+  // Network first for HTML to always get latest UI updates
+  if (event.request.headers.get('accept') && event.request.headers.get('accept').includes('text/html')) {
+    event.respondWith(
+      fetch(event.request).then(response => {
+        if (response && response.status === 200) {
+          const resClone = response.clone();
+          caches.open(CACHE_NAME).then(cache => cache.put(event.request, resClone));
+        }
+        return response;
+      }).catch(() => caches.match(event.request))
+    );
+    return;
+  }
+
+  // Cache first for data & static assets
   event.respondWith(
     caches.match(event.request).then(cachedResponse => {
       if (cachedResponse) {
@@ -51,10 +67,6 @@ self.addEventListener('fetch', event => {
           cache.put(event.request, responseToCache);
         });
         return networkResponse;
-      }).catch(() => {
-        if (event.request.headers.get('accept') && event.request.headers.get('accept').includes('text/html')) {
-          return caches.match('./index.html');
-        }
       });
     })
   );
