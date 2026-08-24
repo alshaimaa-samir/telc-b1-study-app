@@ -1001,6 +1001,7 @@
     let currentModelId = '';
     let currentModelData = null;
     let allModelsDataCache = {};
+    let allModelsRawData = {};
     let currentTab = 'teil_1';
     let currentAppView = 'dashboard';
     let showSubtitles = false;
@@ -1110,11 +1111,13 @@
         applySidebarCollapse();
       } catch(e) {}
 
-      // Pre-cache all discovered models so answers and scores are immediately ready
+      // Pre-cache all discovered models so answers, scores, and test transitions are instantaneous
       for (const m of modelsList) {
         try {
-          const res = await fetch(m.file + '?t=' + Date.now());
+          const fPath = m.file || `data/${m.id}.json`;
+          const res = await fetch(fPath + '?t=' + Date.now());
           const json = await res.json();
+          allModelsRawData[m.id] = json;
           allModelsDataCache[m.id] = extractCorrectAnswersFromModel(json);
         } catch(e) {
           console.warn('Could not cache model', m.id, e);
@@ -1194,28 +1197,31 @@
       
       document.getElementById('dashboardView').classList.add('hidden');
       document.getElementById('testView').classList.remove('hidden');
-       const mNav = document.getElementById('mobileSectionNav'); if (mNav) mNav.classList.remove('hidden');
+      const mNav = document.getElementById('mobileSectionNav'); if (mNav) mNav.classList.remove('hidden');
       document.getElementById('headerModelSelectContainer').classList.remove('hidden');
-      document.getElementById('headerModelSelect').value = modelId;
+      
+      const sel = document.getElementById('headerModelSelect');
+      if (sel) sel.value = modelId;
       document.getElementById('btnNavDashboard').classList.remove('bg-stone-200', 'text-stone-900');
       
-      const modelInfo = modelsList.find(m => m.id === modelId) || { title: modelId };
-
-      try {
-        const filePath = modelInfo.file || `data/${modelId}.json`;
-        const res = await fetch(filePath);
-        currentModelData = await res.json();
-      } catch (err) {
+      if (allModelsRawData[modelId]) {
+        currentModelData = allModelsRawData[modelId];
+      } else {
+        const modelInfo = modelsList.find(m => m.id === modelId) || { file: `data/${modelId}.json` };
         try {
-          const res = await fetch(`data/${modelId}.json`);
+          const res = await fetch((modelInfo.file || `data/${modelId}.json`) + '?t=' + Date.now());
           currentModelData = await res.json();
-        } catch (e) {
+          allModelsRawData[modelId] = currentModelData;
+          allModelsDataCache[modelId] = extractCorrectAnswersFromModel(currentModelData);
+        } catch (err) {
+          console.warn('Error loading test model data:', modelId, err);
           currentModelData = null;
         }
       }
 
       renderCurrentTab();
       updateTestStats();
+      window.scrollTo({ top: 0, behavior: 'instant' });
     }
 
     let currentDashboardTab = 'exams'; // 'exams' or 'sections'
@@ -1258,7 +1264,7 @@
     }
 
     function openSectionInModel(modelId, sectionId) {
-      switchTab(sectionId);
+      currentTab = sectionId;
       loadModelTest(modelId);
     }
 
@@ -1282,7 +1288,7 @@
 
           const modelKeyMap = allModelsDataCache[m.id] || {};
 
-          Object.entries(userState.answers).forEach(([k, userAns]) => {
+          Object.entries(userState.answers || {}).forEach(([k, userAns]) => {
             if (k.startsWith(m.id + '_')) {
               totalAnswered++;
               const subKey = k.replace(m.id + '_', '');
@@ -1600,6 +1606,10 @@
     }
 
     async function updateGlobalStats() {
+      if (!userState) userState = { answers: {}, flagged: {} };
+      if (!userState.answers) userState.answers = {};
+      if (!userState.flagged) userState.flagged = {};
+
       let totalAns = 0;
       let totalCorrect = 0;
       let totalTestsComplete = 0;
@@ -1616,7 +1626,7 @@
         modelAnswerCounts[m.id] = 0;
         const modelKeyMap = allModelsDataCache[m.id] || {};
         if (userState.answers) {
-          Object.entries(userState.answers).forEach(([k, userAns]) => {
+          Object.entries(userState.answers || {}).forEach(([k, userAns]) => {
             if (k.startsWith(m.id + '_') && userAns && typeof userAns === 'string' && userAns.trim() !== '') {
               totalAns++;
               modelAnswerCounts[m.id]++;
@@ -1636,7 +1646,7 @@
         }
       });
 
-      const flaggedCount = Object.keys(userState.flagged).length;
+      const flaggedCount = Object.keys(userState.flagged || {}).length;
       const fBadge = document.getElementById('flaggedBadge');
       if (fBadge) fBadge.innerText = flaggedCount;
 
@@ -3399,13 +3409,17 @@ ${ad.text || ''}`;
     }
 
     function getSectionAnswerCounts() {
+      if (!userState) userState = { answers: {}, flagged: {} };
+      if (!userState.answers) userState.answers = {};
+      if (!userState.flagged) userState.flagged = {};
+
       const counts = {
         teil_1: 0, teil_2: 0, teil_3: 0,
         sprachbausteine_1: 0, sprachbausteine_2: 0,
         hoerverstehen_1: 0, hoerverstehen_2: 0, hoerverstehen_3: 0
       };
 
-      Object.keys(userState.answers).forEach(k => {
+      Object.keys(userState.answers || {}).forEach(k => {
         if (k.startsWith(currentModelId)) {
           if (k.includes('teil_1')) counts.teil_1++;
           else if (k.includes('teil_2')) counts.teil_2++;
@@ -3462,7 +3476,7 @@ ${ad.text || ''}`;
       let currentEarnedPoints = 0;
       const modelKeyMap = allModelsDataCache[currentModelId] || extractCorrectAnswersFromModel(currentModelData) || {};
 
-      Object.entries(userState.answers).forEach(([k, userAns]) => {
+      Object.entries(userState.answers || {}).forEach(([k, userAns]) => {
         if (k.startsWith(currentModelId + '_')) {
           const subKey = k.replace(currentModelId + '_', '');
           const correctAns = modelKeyMap[subKey];
@@ -4493,7 +4507,9 @@ ${tr.text}`,
           // If the cloud data is newer than our last local change, apply it!
           if (cloudData.updatedAt > lastLocalSavedTimestamp) {
             isIncomingCloudUpdate = true;
-            userState = cloudData.userState;
+            userState = cloudData.userState || {};
+            if (!userState.answers) userState.answers = {};
+            if (!userState.flagged) userState.flagged = {};
             localStorage.setItem('telc_b1_user_state', JSON.stringify(userState));
             updateGlobalStats();
             if (currentTab === 'dashboard') {
@@ -4561,7 +4577,9 @@ ${tr.text}`,
       firebaseDb.ref('sync/' + encodeURIComponent(currentSyncKey)).once('value').then(snapshot => {
         const data = snapshot.val();
         if (data && data.userState) {
-          userState = data.userState;
+          userState = data.userState || {};
+          if (!userState.answers) userState.answers = {};
+          if (!userState.flagged) userState.flagged = {};
           localStorage.setItem('telc_b1_user_state', JSON.stringify(userState));
           updateGlobalStats();
           if (currentTab === 'dashboard') renderDashboard(); else renderCurrentTab();
