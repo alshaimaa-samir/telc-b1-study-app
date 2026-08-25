@@ -543,33 +543,72 @@
       <!-- Studio Content (Teleprompter + Controls) -->
       <div class="p-5 sm:p-6 overflow-y-auto flex-1 space-y-5 bg-stone-50/30">
         
-        <!-- Target Selection Row -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 p-3 rounded-xl bg-white border border-stone-200 text-xs">
-          <div>
-            <label class="font-bold text-stone-700 block mb-1">Select Practice Test:</label>
-            <select id="podcastModelSelect" onchange="changePodcastModel(this.value)" class="w-full py-1.5 px-2.5 rounded border border-stone-300 bg-stone-50 font-medium focus:outline-none">
-              <!-- Injected by JS -->
-            </select>
+        <!-- Target Selection & Section Checkboxes -->
+        <div class="p-4 rounded-xl bg-white border border-stone-200 text-xs space-y-3 shadow-2xs">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-2.5 border-b border-stone-100">
+            <div class="flex items-center gap-2">
+              <label class="font-bold text-stone-700 whitespace-nowrap">Model Test:</label>
+              <select id="podcastModelSelect" onchange="changePodcastModel(this.value)" class="py-1.5 px-2.5 rounded-lg border border-stone-300 bg-stone-50 font-bold text-stone-900 focus:outline-none cursor-pointer">
+                <!-- Injected by JS -->
+              </select>
+            </div>
+            
+            <!-- Quick Presets -->
+            <div class="flex flex-wrap items-center gap-1">
+              <span class="text-[11px] text-stone-500 mr-1 font-semibold">Presets:</span>
+              <button onclick="setPodcastPreset('all')" class="px-2 py-1 rounded bg-stone-100 hover:bg-stone-200 text-stone-800 text-[11px] font-bold transition-colors">All 8</button>
+              <button onclick="setPodcastPreset('reading')" class="px-2 py-1 rounded bg-stone-100 hover:bg-stone-200 text-stone-800 text-[11px] font-bold transition-colors">📖 Reading (1–20)</button>
+              <button onclick="setPodcastPreset('grammar')" class="px-2 py-1 rounded bg-amber-50 hover:bg-amber-100 text-amber-900 text-[11px] font-bold transition-colors">✍️ Grammar (21–40)</button>
+              <button onclick="setPodcastPreset('listening')" class="px-2 py-1 rounded bg-blue-50 hover:bg-blue-100 text-blue-900 text-[11px] font-bold transition-colors">🎧 Listening (41–60)</button>
+            </div>
           </div>
+
+          <!-- Interactive Section Checkbox Grid -->
           <div>
-            <label class="font-bold text-stone-700 block mb-1">Test Section / Module:</label>
-            <select id="podcastSectionSelect" onchange="changePodcastSection(this.value)" class="w-full py-2 px-2.5 rounded-lg border border-stone-300 bg-stone-50 font-medium focus:outline-none text-xs sm:text-sm cursor-pointer">
-              <option value="all" class="font-bold">Entire Test (All 60 Questions • 1–60)</option>
-              
-              <option value="all_reading" class="font-bold text-stone-900 bg-stone-100/80">📖 Module 1: Leseverstehen (Reading • 1–20)</option>
-              <option value="teil_1">&nbsp;&nbsp;&nbsp;&nbsp;↳ Teil 1: Zuordnung (Headings 1–5)</option>
-              <option value="teil_2">&nbsp;&nbsp;&nbsp;&nbsp;↳ Teil 2: Artikel (Article & Questions 6–10)</option>
-              <option value="teil_3">&nbsp;&nbsp;&nbsp;&nbsp;↳ Teil 3: Anzeigen (Ads & Situations 11–20)</option>
+            <div class="flex items-center justify-between mb-1.5">
+              <label class="font-bold text-stone-700 text-xs">Included Exam Sections:</label>
+              <span id="podcastSelectedCountBadge" class="text-[11px] font-bold px-2 py-0.5 rounded-full bg-stone-900 text-white">8 of 8 selected</span>
+            </div>
+            
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-2" id="podcastSectionCheckboxes">
+              <!-- Reading 1, 2, 3 -->
+              <label class="flex items-center gap-2 p-2 rounded-lg border border-stone-200 hover:bg-stone-50 cursor-pointer select-none transition-all">
+                <input type="checkbox" id="chkPodcastSec-teil_1" value="teil_1" onchange="togglePodcastSection('teil_1', this.checked)" checked class="rounded border-stone-300 text-stone-900 focus:ring-0">
+                <span class="font-semibold text-stone-800 leading-tight text-[11px]">📖 Lesen 1 <span class="text-stone-400 font-normal block">(1–5)</span></span>
+              </label>
+              <label class="flex items-center gap-2 p-2 rounded-lg border border-stone-200 hover:bg-stone-50 cursor-pointer select-none transition-all">
+                <input type="checkbox" id="chkPodcastSec-teil_2" value="teil_2" onchange="togglePodcastSection('teil_2', this.checked)" checked class="rounded border-stone-300 text-stone-900 focus:ring-0">
+                <span class="font-semibold text-stone-800 leading-tight text-[11px]">📖 Lesen 2 <span class="text-stone-400 font-normal block">(6–10)</span></span>
+              </label>
+              <label class="flex items-center gap-2 p-2 rounded-lg border border-stone-200 hover:bg-stone-50 cursor-pointer select-none transition-all">
+                <input type="checkbox" id="chkPodcastSec-teil_3" value="teil_3" onchange="togglePodcastSection('teil_3', this.checked)" checked class="rounded border-stone-300 text-stone-900 focus:ring-0">
+                <span class="font-semibold text-stone-800 leading-tight text-[11px]">📖 Lesen 3 <span class="text-stone-400 font-normal block">(11–20)</span></span>
+              </label>
 
-              <option value="all_grammar" class="font-bold text-amber-900 bg-amber-50/60">✍️ Module 2: Sprachbausteine (21–40)</option>
-              <option value="sprachbausteine_1">&nbsp;&nbsp;&nbsp;&nbsp;↳ Teil 1: Brief (Letter Cloze 21–30)</option>
-              <option value="sprachbausteine_2">&nbsp;&nbsp;&nbsp;&nbsp;↳ Teil 2: Wortschatz (Word Bank 31–40)</option>
+              <!-- Grammar 1, 2 -->
+              <label class="flex items-center gap-2 p-2 rounded-lg border border-stone-200 hover:bg-stone-50 cursor-pointer select-none transition-all">
+                <input type="checkbox" id="chkPodcastSec-sprachbausteine_1" value="sprachbausteine_1" onchange="togglePodcastSection('sprachbausteine_1', this.checked)" checked class="rounded border-stone-300 text-amber-800 focus:ring-0">
+                <span class="font-semibold text-stone-800 leading-tight text-[11px]">✍️ Sprachb. 1 <span class="text-stone-400 font-normal block">(21–30)</span></span>
+              </label>
+              <label class="flex items-center gap-2 p-2 rounded-lg border border-stone-200 hover:bg-stone-50 cursor-pointer select-none transition-all">
+                <input type="checkbox" id="chkPodcastSec-sprachbausteine_2" value="sprachbausteine_2" onchange="togglePodcastSection('sprachbausteine_2', this.checked)" checked class="rounded border-stone-300 text-amber-800 focus:ring-0">
+                <span class="font-semibold text-stone-800 leading-tight text-[11px]">✍️ Sprachb. 2 <span class="text-stone-400 font-normal block">(31–40)</span></span>
+              </label>
 
-              <option value="all_listening" class="font-bold text-blue-900 bg-blue-50/60">🎧 Module 3: Hörverstehen (Listening • 41–60)</option>
-              <option value="hoerverstehen_1">&nbsp;&nbsp;&nbsp;&nbsp;↳ Teil 1: Ansagen (Announcements 41–45)</option>
-              <option value="hoerverstehen_2">&nbsp;&nbsp;&nbsp;&nbsp;↳ Teil 2: Interview (Radio Interview 46–55)</option>
-              <option value="hoerverstehen_3">&nbsp;&nbsp;&nbsp;&nbsp;↳ Teil 3: Gespräche (Dialogues 56–60)</option>
-            </select>
+              <!-- Listening 1, 2, 3 -->
+              <label class="flex items-center gap-2 p-2 rounded-lg border border-stone-200 hover:bg-stone-50 cursor-pointer select-none transition-all">
+                <input type="checkbox" id="chkPodcastSec-hoerverstehen_1" value="hoerverstehen_1" onchange="togglePodcastSection('hoerverstehen_1', this.checked)" checked class="rounded border-stone-300 text-blue-800 focus:ring-0">
+                <span class="font-semibold text-stone-800 leading-tight text-[11px]">🎧 Hören 1 <span class="text-stone-400 font-normal block">(41–45)</span></span>
+              </label>
+              <label class="flex items-center gap-2 p-2 rounded-lg border border-stone-200 hover:bg-stone-50 cursor-pointer select-none transition-all">
+                <input type="checkbox" id="chkPodcastSec-hoerverstehen_2" value="hoerverstehen_2" onchange="togglePodcastSection('hoerverstehen_2', this.checked)" checked class="rounded border-stone-300 text-blue-800 focus:ring-0">
+                <span class="font-semibold text-stone-800 leading-tight text-[11px]">🎧 Hören 2 <span class="text-stone-400 font-normal block">(46–55)</span></span>
+              </label>
+              <label class="flex items-center gap-2 p-2 rounded-lg border border-stone-200 hover:bg-stone-50 cursor-pointer select-none transition-all">
+                <input type="checkbox" id="chkPodcastSec-hoerverstehen_3" value="hoerverstehen_3" onchange="togglePodcastSection('hoerverstehen_3', this.checked)" checked class="rounded border-stone-300 text-blue-800 focus:ring-0">
+                <span class="font-semibold text-stone-800 leading-tight text-[11px]">🎧 Hören 3 <span class="text-stone-400 font-normal block">(56–60)</span></span>
+              </label>
+            </div>
           </div>
         </div>
 
@@ -2934,8 +2973,8 @@
       `;
     }
 
-    // AUDIO UTILITIES FOR LISTENING MODULE
-        function playHoerverstehen2FullAudio() {
+    // AUDIO UTILITIES FOR LISTENING & READING MODULES
+    function playHoerverstehen2FullAudio() {
       const sec = getSectionData('hoerverstehen_2');
       if (sec) {
         const itTr = sec.interview_transcript || sec.dialogue || {};
@@ -2956,26 +2995,61 @@
           const tr = sec.transcripts.find(t => t.number === itemNumber);
           if (tr) text = tr.text || tr.script || '';
         }
-        if (text) playItemAudio(`${secName}_${itemNumber}`, text);
+        if (text) playItemAudio(`${secName}_${itemNumber}_de`, text, `${secName}_${itemNumber}`);
       }
     }
 
     let activeHtmlAudio = null;
 
-    function playItemAudio(key, text) {
+    function getAudioCandidates(key, fallbackKey) {
+      const candidates = [];
+      const mId = currentModelId;
+      if (!key) return candidates;
+
+      // 1. Primary candidate
+      if (!key.endsWith('.mp3')) {
+        candidates.push(`audio/${mId}_${key}.mp3`);
+      } else {
+        candidates.push(`audio/${key}`);
+      }
+
+      // 2. Candidate with _de suffix (e.g. hoerverstehen_1_41 -> hoerverstehen_1_41_de.mp3)
+      if (!key.endsWith('_de') && !key.endsWith('_exp') && !key.endsWith('_full') && !key.endsWith('_passage')) {
+        candidates.push(`audio/${mId}_${key}_de.mp3`);
+      }
+
+      // 3. Fallback candidate if provided
+      if (fallbackKey && fallbackKey !== key) {
+        candidates.push(`audio/${mId}_${fallbackKey}.mp3`);
+        if (!fallbackKey.endsWith('_de')) {
+          candidates.push(`audio/${mId}_${fallbackKey}_de.mp3`);
+        }
+      }
+
+      // 4. Candidate without model prefix if already formatted
+      if (key.includes('/')) {
+        candidates.push(key);
+      }
+
+      return [...new Set(candidates)];
+    }
+
+    function playItemAudio(key, text, uiKey) {
+      const activeUiKey = uiKey || key.replace('_de', '');
+
       if (activeHtmlAudio) {
         activeHtmlAudio.pause();
         activeHtmlAudio = null;
       }
       if (window.speechSynthesis) window.speechSynthesis.cancel();
 
-      if (currentPlayingAudioKey === key) {
+      if (currentPlayingAudioKey === activeUiKey) {
         currentPlayingAudioKey = null;
         updateAudioButtonsState();
         return;
       }
 
-      currentPlayingAudioKey = key;
+      currentPlayingAudioKey = activeUiKey;
       updateAudioButtonsState();
 
       function playSpeechFallback() {
@@ -2998,30 +3072,32 @@
         window.speechSynthesis.speak(u);
       }
 
-      const mp3Url = `audio/${currentModelId}_${key}.mp3`;
-      const testAudio = new Audio();
-      let handled = false;
+      const candidates = getAudioCandidates(key, uiKey);
 
-      testAudio.addEventListener('canplaythrough', () => {
-        if (!handled) {
-          handled = true;
-          activeHtmlAudio = testAudio;
-          testAudio.play().catch(playSpeechFallback);
-          testAudio.onended = () => {
+      function tryPlayCandidate(idx) {
+        if (idx >= candidates.length) {
+          console.warn('[TTS Fallback] No matching MP3 found in candidates:', candidates);
+          playSpeechFallback();
+          return;
+        }
+
+        const mp3Url = candidates[idx];
+        const audio = new Audio(mp3Url);
+
+        audio.play().then(() => {
+          console.log('[Audio Player] Playing MP3:', mp3Url);
+          activeHtmlAudio = audio;
+          audio.onended = () => {
             currentPlayingAudioKey = null;
             updateAudioButtonsState();
           };
-        }
-      });
+        }).catch((err) => {
+          console.log(`[Audio Player] Candidate ${mp3Url} failed, trying next candidate...`);
+          tryPlayCandidate(idx + 1);
+        });
+      }
 
-      testAudio.addEventListener('error', () => {
-        if (!handled) {
-          handled = true;
-          playSpeechFallback();
-        }
-      });
-
-      testAudio.src = mp3Url;
+      tryPlayCandidate(0);
     }
 
     function playSectionAudio(key, text) {
@@ -3191,7 +3267,7 @@
 
       if (sectionId === 'teil_1') {
         const p = secData.passages.find(x => x.number === identifier);
-        currentFocusItem = { german: p.text, english: p.text_en };
+        currentFocusItem = { german: p.text, english: p.text_en, audioKey: `teil_1_${p.number}_de` };
         badge.innerText = `Text ${p.number}`;
         title.innerText = 'Part 1 Focus View';
         german.innerText = p.text;
@@ -3205,7 +3281,7 @@
 
       } else if (sectionId === 'teil_2') {
         const p = secData.passage;
-        currentFocusItem = { german: p.paragraphs.join('\n\n'), english: p.text_en };
+        currentFocusItem = { german: p.paragraphs.join('\n\n'), english: p.text_en, audioKey: 'teil_2_passage' };
         badge.innerText = 'Part 2';
         title.innerText = p.headline;
         german.innerText = p.paragraphs.join('\n\n');
@@ -3216,7 +3292,7 @@
         const adText = (ad.lines && ad.lines.length > 0) ? ad.lines.join('\n') : `${ad.title}
 ${ad.subtitle || ''}
 ${ad.text || ''}`;
-        currentFocusItem = { german: adText, english: ad.text_en || '' };
+        currentFocusItem = { german: adText, english: ad.text_en || '', audioKey: `teil_3_${identifier}` };
         badge.innerText = `${identifier.toLowerCase()}.`;
         title.innerText = ad.title || `${identifier.toLowerCase()}`;
         german.innerText = (ad.lines && ad.lines.length > 0) ? ad.lines.join('\n') : `${ad.subtitle ? ad.subtitle + '\n\n' : ''}${ad.text || ''}`;
@@ -3229,14 +3305,14 @@ ${ad.text || ''}`;
         }
       } else if (sectionId === 'sprachbausteine_1') {
         const letter = secData.passage || secData.letter || {};
-        currentFocusItem = { german: letter.text || '', english: letter.text_en || '' };
+        currentFocusItem = { german: letter.text || '', english: letter.text_en || '', audioKey: 'sprachbausteine_1_letter' };
         badge.innerText = 'Brief';
         title.innerText = 'Sprachbausteine Teil 1 - Brief';
         german.innerText = letter.text || '';
         english.innerText = letter.text_en || '';
       } else if (sectionId === 'sprachbausteine_2') {
         const p = secData.passage || {};
-        currentFocusItem = { german: p.text || '', english: p.text_en || '' };
+        currentFocusItem = { german: p.text || '', english: p.text_en || '', audioKey: 'sprachbausteine_2_text' };
         badge.innerText = 'Text';
         title.innerText = p.headline || 'Sprachbausteine Teil 2';
         german.innerText = (p.headline ? (p.headline + '\n\n') : '') + (p.text || '');
@@ -3247,17 +3323,21 @@ ${ad.text || ''}`;
     }
 
     function closeFocusModal() {
+      if (activeHtmlAudio) {
+        activeHtmlAudio.pause();
+        activeHtmlAudio = null;
+      }
       if (window.speechSynthesis) window.speechSynthesis.cancel();
       document.getElementById('focusModal').classList.add('hidden');
     }
 
     function playCurrentAudio() {
-      if (!currentFocusItem || !window.speechSynthesis) return;
-      window.speechSynthesis.cancel();
-      const u = new SpeechSynthesisUtterance(currentFocusItem.german);
-      u.lang = 'de-DE';
-      u.rate = 0.9;
-      window.speechSynthesis.speak(u);
+      if (!currentFocusItem) return;
+      if (currentFocusItem.audioKey) {
+        playItemAudio(currentFocusItem.audioKey, currentFocusItem.german, 'modalFocus');
+        return;
+      }
+      playItemAudio('focus_text', currentFocusItem.german, 'modalFocus');
     }
 
     function openGoogleTranslate() {
@@ -3598,9 +3678,6 @@ ${ad.text || ''}`;
       }
     }
 
-    // ==========================================
-    // PODCAST & AUDIO STUDY ENGINE
-    // ==========================================
     function setupMediaSession() {
       try {
         if ('mediaSession' in navigator) {
@@ -3617,7 +3694,9 @@ ${ad.text || ''}`;
     async function openPodcastModal() {
       document.getElementById('podcastModal').classList.remove('hidden');
       podcastState.modelId = currentModelId || (modelsList.length > 0 ? modelsList[0].id : '');
-      document.getElementById('podcastModelSelect').value = podcastState.modelId;
+      const sel = document.getElementById('podcastModelSelect');
+      if (sel) sel.value = podcastState.modelId;
+      updatePodcastCheckboxesUI();
       await buildPodcastQueue();
       renderPodcastStage();
     }
@@ -3635,24 +3714,42 @@ ${ad.text || ''}`;
       renderPodcastStage();
     }
 
-    async function changePodcastSection(sec) {
-      podcastState.section = sec;
-      await buildPodcastQueue();
-      renderPodcastStage();
+    function togglePodcastSection(secId, isChecked) {
+      if (isChecked) {
+        if (!podcastState.selectedSections.includes(secId)) {
+          podcastState.selectedSections.push(secId);
+        }
+      } else {
+        podcastState.selectedSections = podcastState.selectedSections.filter(s => s !== secId);
+      }
+      updatePodcastCheckboxesUI();
+      buildPodcastQueue().then(() => renderPodcastStage());
     }
 
-    function setPodcastFlow(flow) {
-      podcastState.flow = flow;
-      const bFull = document.getElementById('flowBtnFull');
-      const bSent = document.getElementById('flowBtnSentence');
-      if (flow === 'full') {
-        bFull.className = 'py-1.5 px-2 rounded border text-center font-semibold bg-stone-900 text-white transition-colors';
-        bSent.className = 'py-1.5 px-2 rounded border text-center font-semibold bg-stone-50 hover:bg-stone-100 text-stone-700 transition-colors';
-      } else {
-        bSent.className = 'py-1.5 px-2 rounded border text-center font-semibold bg-stone-900 text-white transition-colors';
-        bFull.className = 'py-1.5 px-2 rounded border text-center font-semibold bg-stone-50 hover:bg-stone-100 text-stone-700 transition-colors';
+    function setPodcastPreset(preset) {
+      if (preset === 'all') {
+        podcastState.selectedSections = ['teil_1', 'teil_2', 'teil_3', 'sprachbausteine_1', 'sprachbausteine_2', 'hoerverstehen_1', 'hoerverstehen_2', 'hoerverstehen_3'];
+      } else if (preset === 'reading') {
+        podcastState.selectedSections = ['teil_1', 'teil_2', 'teil_3'];
+      } else if (preset === 'grammar') {
+        podcastState.selectedSections = ['sprachbausteine_1', 'sprachbausteine_2'];
+      } else if (preset === 'listening') {
+        podcastState.selectedSections = ['hoerverstehen_1', 'hoerverstehen_2', 'hoerverstehen_3'];
       }
-      buildPodcastQueue();
+      updatePodcastCheckboxesUI();
+      buildPodcastQueue().then(() => renderPodcastStage());
+    }
+
+    function updatePodcastCheckboxesUI() {
+      const allSecs = ['teil_1', 'teil_2', 'teil_3', 'sprachbausteine_1', 'sprachbausteine_2', 'hoerverstehen_1', 'hoerverstehen_2', 'hoerverstehen_3'];
+      allSecs.forEach(secId => {
+        const chk = document.getElementById(`chkPodcastSec-${secId}`);
+        if (chk) chk.checked = podcastState.selectedSections.includes(secId);
+      });
+      const badge = document.getElementById('podcastSelectedCountBadge');
+      if (badge) {
+        badge.innerText = `${podcastState.selectedSections.length} of 8 selected`;
+      }
     }
 
     function updateSpeechRate(val) {
@@ -3672,7 +3769,7 @@ ${ad.text || ''}`;
 
       const queue = [];
       const mData = podcastState.modelData;
-      const secChoice = podcastState.section;
+      const selSecs = podcastState.selectedSections || [];
       const modelTitle = mData.title || podcastState.modelId;
 
       function getSec(secKey) {
@@ -3694,56 +3791,89 @@ ${ad.text || ''}`;
       }
 
       // 1. READING PART 1 (Headings 1–5)
-      if (secChoice === 'teil_1' || secChoice === 'all_reading' || secChoice === 'all') {
+      if (selSecs.includes('teil_1')) {
         const sec = getSec('teil_1');
         if (sec && sec.passages) {
           const headings = sec.headings || {};
           const headings_en = sec.headings_en || {};
 
+          // Item 0: Headings Overview (A to J)
+          if (Object.keys(headings).length > 0) {
+            const overviewLines = [
+              "Modul 1: Leseverstehen. Teil 1: Zuordnung von Überschriften.",
+              "Review all 10 available headings from A to J:\n"
+            ];
+            Object.keys(headings).sort().forEach(k => {
+              const deH = headings[k];
+              const enH = headings_en[k] || '';
+              overviewLines.push(`• Überschrift ${k.toUpperCase()}: ${deH}${enH ? ` — In English: ${enH}` : ''}`);
+            });
+
+            queue.push({
+              id: `${podcastState.modelId}_teil_1_headings_overview`,
+              itemTitle: 'Lesen 1 • Überschriften A–J',
+              displayTitle: `${modelTitle} • Lesen 1 • Überschriften A–J`,
+              steps: [{
+                type: 'headings_overview',
+                tag: '📋 Headings Overview (A–J)',
+                tagClass: 'bg-stone-900 text-white font-bold',
+                text: overviewLines.join('\n'),
+                mp3Key: 'teil_1_headings_overview',
+                lang: 'de-DE'
+              }]
+            });
+          }
+
+          // Individual Passages 1 to 5
           sec.passages.forEach(p => {
             const steps = [];
             const correctKey = p.correct_answer ? p.correct_answer.toLowerCase() : '';
             const headingText = headings[correctKey] || '';
             const headingEnText = headings_en[correctKey] || '';
 
+            // Step 1: German Passage
             steps.push({
               type: 'german_text',
               tag: `🇩🇪 Lesen 1 • Text ${p.number}`,
               tagClass: 'bg-blue-50 text-blue-800 border border-blue-200',
-              text: `Leseverstehen Teil 1, Text ${p.number}:
-
-${p.text}`,
+              text: `Leseverstehen Teil 1, Text ${p.number}:\n\n${p.text}`,
+              mp3Key: `teil_1_${p.number}_de`,
               lang: 'de-DE'
             });
 
+            // Step 2: English Translation
             if (p.text_en) {
               steps.push({
                 type: 'english_translation',
                 tag: `🇬🇧 Text ${p.number} (English)`,
                 tagClass: 'bg-emerald-50 text-emerald-800 border border-emerald-200',
-                text: `Reading Part 1, Text ${p.number} in English:
-
-${p.text_en}`,
+                text: `Reading Part 1, Text ${p.number} in English:\n\n${p.text_en}`,
+                mp3Key: `teil_1_${p.number}_en`,
                 lang: 'en-US'
               });
             }
 
-            if (correctKey && headingText) {
+            // Step 3: Key Vocabulary
+            if (p.vocabulary && p.vocabulary.length > 0) {
+              steps.push({
+                type: 'vocabulary',
+                tag: '📚 Key Vocabulary',
+                tagClass: 'bg-amber-50 text-amber-800 border border-amber-200',
+                text: `Key Vocabulary for Text ${p.number}:`,
+                rawVocab: p.vocabulary,
+                mp3Key: `teil_1_${p.number}_vocab`,
+                lang: 'de-DE'
+              });
+            }
+
+            // Step 4: Solution & Explanation
+            if (correctKey) {
               steps.push({
                 type: 'answer_reveal',
-                tag: '🎯 Solution & Heading',
+                tag: `🎯 Solution: Überschrift ${correctKey.toUpperCase()}`,
                 tagClass: 'bg-purple-50 text-purple-800 border border-purple-200',
-                text: `Lösung für Text ${p.number}: Überschrift ${correctKey}. ${headingText}.${headingEnText ? ` In English: ${headingEnText}.` : ''}`,
-                lang: 'en-US'
-              });
-            }
-
-            if (p.explanation) {
-              steps.push({
-                type: 'explanation',
-                tag: '💡 English Rationale',
-                tagClass: 'bg-indigo-50 text-indigo-800 border border-indigo-200',
-                text: `Explanation for Text ${p.number}: ${p.explanation}`,
+                text: `Lösung für Text ${p.number}: Überschrift ${correctKey.toUpperCase()}. ${headingText}.${headingEnText ? `\nIn English: ${headingEnText}.` : ''}${p.explanation ? `\n\nExplanation: ${p.explanation}` : ''}`,
+                mp3Key: `teil_1_${p.number}_sol`,
                 lang: 'en-US'
               });
             }
@@ -3759,14 +3889,14 @@ ${p.text_en}`,
       }
 
       // 2. READING PART 2 (Article & Questions 6–10)
-      if (secChoice === 'teil_2' || secChoice === 'all_reading' || secChoice === 'all') {
+      if (selSecs.includes('teil_2')) {
         const sec = getSec('teil_2');
         if (sec && sec.passage) {
           const p = sec.passage;
           const questions = sec.questions || [];
-
-          // 1st step: Full Article Reading
           const fullArticleDe = (p.paragraphs || []).join('\n\n');
+
+          // Item 0: Full Article Reading
           queue.push({
             id: `${podcastState.modelId}_teil_2_article`,
             itemTitle: `Lesen 2 • Kompletter Artikel`,
@@ -3776,36 +3906,31 @@ ${p.text_en}`,
                 type: 'german_text',
                 tag: `🇩🇪 Artikel: ${p.headline || 'Leseverstehen 2'}`,
                 tagClass: 'bg-blue-50 text-blue-800 border border-blue-200',
-                text: `${p.headline || 'Leseverstehen Teil 2'}
-
-${fullArticleDe}`,
+                text: `Leseverstehen Teil 2:\n\nTitel: ${p.headline || 'Artikel'}\n\n${fullArticleDe}`,
+                mp3Key: 'teil_2_passage',
                 lang: 'de-DE'
               },
               ...(p.text_en ? [{
                 type: 'english_translation',
                 tag: `🇬🇧 English Translation: ${p.headline || 'Article'}`,
                 tagClass: 'bg-emerald-50 text-emerald-800 border border-emerald-200',
-                text: `English Translation:
-
-${p.text_en}`,
+                text: `English Translation:\n\nTitle: ${p.headline || 'Article'}\n\n${p.text_en}`,
+                mp3Key: 'teil_2_passage_en',
                 lang: 'en-US'
               }] : [])
             ]
           });
 
-          // Subsequent steps: Questions 6–10
+          // Subsequent items: Questions 6–10
           questions.forEach(q => {
             const qSteps = [];
             const correctKey = q.correct_answer ? q.correct_answer.toLowerCase() : '';
             const correctText = (q.options && q.options[correctKey]) || '';
 
-            let germanQText = `Frage ${q.number}: ${q.question}.
-
-`;
+            let germanQText = `Frage ${q.number}: ${q.question}.\n\n`;
             if (q.options) {
               Object.entries(q.options).forEach(([optK, optV]) => {
-                germanQText += `Option ${optK.toLowerCase()}: ${optV}.
-`;
+                germanQText += `Option ${optK.toUpperCase()}: ${optV}.\n`;
               });
             }
 
@@ -3814,26 +3939,18 @@ ${p.text_en}`,
               tag: `🇩🇪 Lesen 2 • Frage ${q.number}`,
               tagClass: 'bg-blue-50 text-blue-800 border border-blue-200',
               text: germanQText,
+              mp3Key: `teil_2_${q.number}_de`,
               lang: 'de-DE'
             });
 
             qSteps.push({
               type: 'answer_reveal',
-              tag: '🎯 Correct Option',
+              tag: `🎯 Solution: Option ${correctKey.toUpperCase()}`,
               tagClass: 'bg-purple-50 text-purple-800 border border-purple-200',
-              text: `Lösung für Frage ${q.number}: Option ${correctKey}. ${correctText}.`,
+              text: `Lösung für Frage ${q.number}: Option ${correctKey.toUpperCase()}, ${correctText}.${q.explanation ? `\n\nExplanation: ${q.explanation}` : ''}`,
+              mp3Key: `teil_2_${q.number}_sol`,
               lang: 'en-US'
             });
-
-            if (q.explanation) {
-              qSteps.push({
-                type: 'explanation',
-                tag: '💡 Explanation',
-                tagClass: 'bg-indigo-50 text-indigo-800 border border-indigo-200',
-                text: `Explanation for Question ${q.number}: ${q.explanation}`,
-                lang: 'en-US'
-              });
-            }
 
             queue.push({
               id: `${podcastState.modelId}_teil_2_${q.number}`,
@@ -3846,7 +3963,7 @@ ${p.text_en}`,
       }
 
       // 3. READING PART 3 (Ads & Situations 11–20)
-      if (secChoice === 'teil_3' || secChoice === 'all_reading' || secChoice === 'all') {
+      if (selSecs.includes('teil_3')) {
         const sec = getSec('teil_3');
         if (sec && sec.situations) {
           const ads = sec.advertisements || {};
@@ -3860,39 +3977,21 @@ ${p.text_en}`,
               type: 'german_text',
               tag: `🇩🇪 Lesen 3 • Situation ${s.number}`,
               tagClass: 'bg-blue-50 text-blue-800 border border-blue-200',
-              text: `Leseverstehen Teil 3, Situation ${s.number}: ${s.situation}`,
+              text: `Leseverstehen Teil 3, Situation ${s.number}:\n\n${s.situation}${s.situation_en ? `\n\nIn English: ${s.situation_en}` : ''}`,
+              mp3Key: `teil_3_${s.number}_de`,
               lang: 'de-DE'
             });
 
-            if (s.situation_en) {
-              sSteps.push({
-                type: 'english_translation',
-                tag: `🇬🇧 Situation ${s.number} (English)`,
-                tagClass: 'bg-emerald-50 text-emerald-800 border border-emerald-200',
-                text: `Situation ${s.number} in English: ${s.situation_en}`,
-                lang: 'en-US'
-              });
-            }
-
             sSteps.push({
               type: 'answer_reveal',
-              tag: '🎯 Matching Ad',
+              tag: correctKey === 'x' ? '🎯 Keine passende Anzeige (X)' : `🎯 Anzeige ${correctKey.toUpperCase()}`,
               tagClass: 'bg-purple-50 text-purple-800 border border-purple-200',
               text: correctKey === 'x' 
-                ? `Lösung für Situation ${s.number}: Keine Anzeige passt. Antwort: x.` 
-                : `Lösung für Situation ${s.number}: Anzeige ${correctKey}. ${adObj.title || ''}.`,
+                ? `Lösung für Situation ${s.number}: Keine Anzeige passt (Option X).${s.explanation ? `\n\nExplanation: ${s.explanation}` : ''}` 
+                : `Lösung für Situation ${s.number}: Anzeige ${correctKey.toUpperCase()}${adObj.title ? `, ${adObj.title}` : ''}.${s.explanation ? `\n\nExplanation: ${s.explanation}` : ''}`,
+              mp3Key: `teil_3_${s.number}_sol`,
               lang: 'en-US'
             });
-
-            if (s.explanation) {
-              sSteps.push({
-                type: 'explanation',
-                tag: '💡 Explanation',
-                tagClass: 'bg-indigo-50 text-indigo-800 border border-indigo-200',
-                text: `Explanation: ${s.explanation}`,
-                lang: 'en-US'
-              });
-            }
 
             queue.push({
               id: `${podcastState.modelId}_teil_3_${s.number}`,
@@ -3905,7 +4004,7 @@ ${p.text_en}`,
       }
 
       // 4. GRAMMAR PART 1 (Letter Cloze 21–30)
-      if (secChoice === 'sprachbausteine_1' || secChoice === 'all_grammar' || secChoice === 'all') {
+      if (selSecs.includes('sprachbausteine_1')) {
         const sec = getSec('sprachbausteine_1');
         if (sec) {
           const passage = sec.passage || sec.letter || {};
@@ -3914,25 +4013,23 @@ ${p.text_en}`,
           if (passage.text) {
             queue.push({
               id: `${podcastState.modelId}_sprachbausteine_1_letter`,
-              itemTitle: `Sprachbausteine 1 • Kompletter Brief`,
+              itemTitle: `Sprachbausteine 1 • Brief`,
               displayTitle: `${modelTitle} • Sprachbausteine 1 • Brief`,
               steps: [
                 {
                   type: 'german_text',
                   tag: '✍️ Brief (Sprachbausteine Teil 1)',
                   tagClass: 'bg-amber-50 text-amber-800 border border-amber-200',
-                  text: `Sprachbausteine Teil 1, Brief:
-
-${passage.text}`,
+                  text: `Sprachbausteine Teil 1, Brief:\n\n${passage.text}`,
+                  mp3Key: 'sprachbausteine_1_letter_de',
                   lang: 'de-DE'
                 },
                 ...(passage.text_en ? [{
                   type: 'english_translation',
                   tag: '🇬🇧 English Translation: Letter',
                   tagClass: 'bg-emerald-50 text-emerald-800 border border-emerald-200',
-                  text: `English Translation:
-
-${passage.text_en}`,
+                  text: `English Translation:\n\n${passage.text_en}`,
+                  mp3Key: 'sprachbausteine_1_letter_en',
                   lang: 'en-US'
                 }] : [])
               ]
@@ -3945,30 +4042,13 @@ ${passage.text_en}`,
             const correctWord = q.options ? q.options[correctKey] : '';
 
             steps.push({
-              type: 'german_text',
-              tag: `✍️ Sprachbausteine • Lücke ${q.number}`,
-              tagClass: 'bg-amber-50 text-amber-800 border border-amber-200',
-              text: `Sprachbausteine Teil 1, Lücke ${q.number}. Option a.: ${q.options ? q.options.a : ''}. Option b.: ${q.options ? q.options.b : ''}. Option c.: ${q.options ? q.options.c : ''}.`,
-              lang: 'de-DE'
-            });
-
-            steps.push({
               type: 'answer_reveal',
-              tag: '🎯 Correct Grammar Option',
+              tag: `🎯 Lücke ${q.number}: Option ${correctKey.toUpperCase()} (${correctWord})`,
               tagClass: 'bg-purple-50 text-purple-800 border border-purple-200',
-              text: `Lösung für Lücke ${q.number}: Option ${correctKey}., ${correctWord}.`,
+              text: `Lösung für Lücke ${q.number}: Option ${correctKey.toUpperCase()}, ${correctWord}.${q.explanation ? `\n\nGrammar Rule: ${q.explanation}` : ''}`,
+              mp3Key: `sprachbausteine_1_${q.number}_sol`,
               lang: 'en-US'
             });
-
-            if (q.explanation) {
-              steps.push({
-                type: 'explanation',
-                tag: '💡 Grammar Rule',
-                tagClass: 'bg-indigo-50 text-indigo-800 border border-indigo-200',
-                text: `Grammar explanation for blank ${q.number}: ${q.explanation}`,
-                lang: 'en-US'
-              });
-            }
 
             queue.push({
               id: `${podcastState.modelId}_sprachbausteine_1_${q.number}`,
@@ -3981,35 +4061,54 @@ ${passage.text_en}`,
       }
 
       // 5. GRAMMAR PART 2 (Word Bank 31–40)
-      if (secChoice === 'sprachbausteine_2' || secChoice === 'all_grammar' || secChoice === 'all') {
+      if (selSecs.includes('sprachbausteine_2')) {
         const sec = getSec('sprachbausteine_2');
         if (sec) {
           const passage = sec.passage || {};
           const questions = sec.questions || sec.items || [];
-          const wb = sec.word_bank || sec.word_pool || {};
+          const wb = sec.word_bank || sec.word_pool || sec.options || {};
+
+          // Item 0: Word Bank Overview
+          if (Object.keys(wb).length > 0) {
+            const wbLines = ["Teil 2: Lückentext mit Wortschatz.", "Word Bank Options from A to O:\n"];
+            Object.keys(wb).sort().forEach(k => {
+              wbLines.push(`• Option ${k.toUpperCase()}: ${wb[k]}`);
+            });
+            queue.push({
+              id: `${podcastState.modelId}_sprachbausteine_2_wordbank_overview`,
+              itemTitle: `Sprachbausteine 2 • Wortschatz A–O`,
+              displayTitle: `${modelTitle} • Sprachbausteine 2 • Wortschatz A–O`,
+              steps: [{
+                type: 'wordbank_overview',
+                tag: '📚 Word Bank (A–O)',
+                tagClass: 'bg-amber-900 text-white font-bold',
+                text: wbLines.join('\n'),
+                mp3Key: 'sprachbausteine_2_wordbank_overview',
+                lang: 'de-DE'
+              }]
+            });
+          }
 
           if (passage.text) {
             queue.push({
               id: `${podcastState.modelId}_sprachbausteine_2_text`,
-              itemTitle: `Sprachbausteine 2 • Kompletter Text`,
+              itemTitle: `Sprachbausteine 2 • Text`,
               displayTitle: `${modelTitle} • Sprachbausteine 2 • Text`,
               steps: [
                 {
                   type: 'german_text',
                   tag: '✍️ Text (Sprachbausteine Teil 2)',
                   tagClass: 'bg-amber-50 text-amber-800 border border-amber-200',
-                  text: `Sprachbausteine Teil 2:
-
-${passage.text}`,
+                  text: `Sprachbausteine Teil 2:\n\n${(passage.headline ? passage.headline + '\n\n' : '') + passage.text}`,
+                  mp3Key: 'sprachbausteine_2_text_de',
                   lang: 'de-DE'
                 },
                 ...(passage.text_en ? [{
                   type: 'english_translation',
                   tag: '🇬🇧 English Translation',
                   tagClass: 'bg-emerald-50 text-emerald-800 border border-emerald-200',
-                  text: `English Translation:
-
-${passage.text_en}`,
+                  text: `English Translation:\n\n${passage.text_en}`,
+                  mp3Key: 'sprachbausteine_2_text_en',
                   lang: 'en-US'
                 }] : [])
               ]
@@ -4022,30 +4121,13 @@ ${passage.text_en}`,
             const correctWord = wb[correctKey] || '';
 
             steps.push({
-              type: 'german_text',
-              tag: `✍️ Wortschatz • Lücke ${q.number}`,
-              tagClass: 'bg-amber-50 text-amber-800 border border-amber-200',
-              text: `Sprachbausteine Teil 2, Lücke ${q.number}.`,
-              lang: 'de-DE'
-            });
-
-            steps.push({
               type: 'answer_reveal',
-              tag: '🎯 Correct Word',
+              tag: `🎯 Lücke ${q.number}: Wort ${correctKey.toUpperCase()} (${correctWord})`,
               tagClass: 'bg-purple-50 text-purple-800 border border-purple-200',
-              text: `Lösung für Lücke ${q.number}: Wort ${correctKey}, ${correctWord}.`,
+              text: `Lösung für Lücke ${q.number}: Wort ${correctKey.toUpperCase()}, ${correctWord}.${q.explanation ? `\n\nExplanation: ${q.explanation}` : ''}`,
+              mp3Key: `sprachbausteine_2_${q.number}_sol`,
               lang: 'en-US'
             });
-
-            if (q.explanation) {
-              steps.push({
-                type: 'explanation',
-                tag: '💡 Explanation',
-                tagClass: 'bg-indigo-50 text-indigo-800 border border-indigo-200',
-                text: `Explanation for blank ${q.number}: ${q.explanation}`,
-                lang: 'en-US'
-              });
-            }
 
             queue.push({
               id: `${podcastState.modelId}_sprachbausteine_2_${q.number}`,
@@ -4058,7 +4140,7 @@ ${passage.text_en}`,
       }
 
       // 6. LISTENING PART 1 (Announcements 41–45)
-      if (secChoice === 'hoerverstehen_1' || secChoice === 'all_listening' || secChoice === 'all') {
+      if (selSecs.includes('hoerverstehen_1')) {
         const sec = getSec('hoerverstehen_1');
         if (sec && sec.questions) {
           const transcripts = sec.transcripts || [];
@@ -4073,38 +4155,20 @@ ${passage.text_en}`,
                 type: 'german_text',
                 tag: `🎧 Hören 1 • Ansage ${q.number}`,
                 tagClass: 'bg-blue-50 text-blue-800 border border-blue-200',
-                text: `Hörverstehen Teil 1, Ansage ${q.number}:
-
-${tr.text}`,
+                text: `Hörverstehen Teil 1, Ansage ${q.number}:\n\n${tr.text}`,
+                mp3Key: `hoerverstehen_1_${q.number}_de`,
                 lang: 'de-DE'
               });
             }
 
             steps.push({
-              type: 'german_text',
-              tag: `❓ Aussage ${q.number}`,
-              tagClass: 'bg-stone-100 text-stone-900 border border-stone-300',
-              text: `Aussage ${q.number}: ${q.statement}`,
-              lang: 'de-DE'
-            });
-
-            steps.push({
               type: 'answer_reveal',
-              tag: '🎯 Evaluation (+ / -)',
+              tag: `🎯 Lösung: ${isTrue ? 'Richtig (+)' : 'Falsch (-)'}`,
               tagClass: 'bg-purple-50 text-purple-800 border border-purple-200',
-              text: `Lösung für Aussage ${q.number}: ${isTrue ? 'Richtig (+)' : 'Falsch (-)'}.`,
+              text: `Aussage ${q.number}: ${q.statement}${q.statement_en ? `\nIn English: ${q.statement_en}` : ''}\n\nLösung: ${isTrue ? 'Richtig (+)' : 'Falsch (-)'}.${q.explanation ? `\n\nExplanation: ${q.explanation}` : ''}`,
+              mp3Key: `hoerverstehen_1_${q.number}_sol`,
               lang: 'en-US'
             });
-
-            if (q.explanation) {
-              steps.push({
-                type: 'explanation',
-                tag: '💡 Explanation',
-                tagClass: 'bg-indigo-50 text-indigo-800 border border-indigo-200',
-                text: `Explanation for question ${q.number}: ${q.explanation}`,
-                lang: 'en-US'
-              });
-            }
 
             queue.push({
               id: `${podcastState.modelId}_hoerverstehen_1_${q.number}`,
@@ -4117,7 +4181,7 @@ ${tr.text}`,
       }
 
       // 7. LISTENING PART 2 (Interview 46–55)
-      if (secChoice === 'hoerverstehen_2' || secChoice === 'all_listening' || secChoice === 'all') {
+      if (selSecs.includes('hoerverstehen_2')) {
         const sec = getSec('hoerverstehen_2');
         if (sec && sec.questions) {
           const itTr = sec.interview_transcript || sec.dialogue || {};
@@ -4131,20 +4195,17 @@ ${tr.text}`,
               steps: [
                 {
                   type: 'german_text',
-                  tag: '🎧 Komplettes Interview (Hörverstehen 2)',
+                  tag: '🎧 Komplettes Radio-Interview',
                   tagClass: 'bg-blue-50 text-blue-800 border border-blue-200',
-                  text: `Hörverstehen Teil 2, Radio-Interview:
-
-${fullInterview}`,
+                  text: `Hörverstehen Teil 2, Radio-Interview:\n\n${fullInterview}`,
+                  mp3Key: 'hoerverstehen_2_full',
                   lang: 'de-DE'
                 },
                 ...(itTr.text_en ? [{
                   type: 'english_translation',
                   tag: '🇬🇧 Interview Translation (English)',
                   tagClass: 'bg-emerald-50 text-emerald-800 border border-emerald-200',
-                  text: `English Translation of Interview:
-
-${itTr.text_en}`,
+                  text: `English Translation of Interview:\n\n${itTr.text_en}`,
                   lang: 'en-US'
                 }] : [])
               ]
@@ -4156,30 +4217,13 @@ ${itTr.text_en}`,
             const isTrue = q.correct_answer === '+' || String(q.correct_answer).toLowerCase() === 'richtig';
 
             steps.push({
-              type: 'german_text',
-              tag: `❓ Hören 2 • Aussage ${q.number}`,
-              tagClass: 'bg-stone-100 text-stone-900 border border-stone-300',
-              text: `Aussage ${q.number}: ${q.statement}`,
-              lang: 'de-DE'
-            });
-
-            steps.push({
               type: 'answer_reveal',
-              tag: '🎯 Evaluation (+ / -)',
+              tag: `🎯 Lösung: ${isTrue ? 'Richtig (+)' : 'Falsch (-)'}`,
               tagClass: 'bg-purple-50 text-purple-800 border border-purple-200',
-              text: `Lösung für Aussage ${q.number}: ${isTrue ? 'Richtig (+)' : 'Falsch (-)'}.`,
+              text: `Aussage ${q.number}: ${q.statement}${q.statement_en ? `\nIn English: ${q.statement_en}` : ''}\n\nLösung: ${isTrue ? 'Richtig (+)' : 'Falsch (-)'}.${q.explanation ? `\n\nExplanation: ${q.explanation}` : ''}`,
+              mp3Key: `hoerverstehen_2_${q.number}_sol`,
               lang: 'en-US'
             });
-
-            if (q.explanation) {
-              steps.push({
-                type: 'explanation',
-                tag: '💡 Explanation',
-                tagClass: 'bg-indigo-50 text-indigo-800 border border-indigo-200',
-                text: `Explanation for question ${q.number}: ${q.explanation}`,
-                lang: 'en-US'
-              });
-            }
 
             queue.push({
               id: `${podcastState.modelId}_hoerverstehen_2_${q.number}`,
@@ -4192,7 +4236,7 @@ ${itTr.text_en}`,
       }
 
       // 8. LISTENING PART 3 (Dialogues 56–60)
-      if (secChoice === 'hoerverstehen_3' || secChoice === 'all_listening' || secChoice === 'all') {
+      if (selSecs.includes('hoerverstehen_3')) {
         const sec = getSec('hoerverstehen_3');
         if (sec && sec.questions) {
           const transcripts = sec.transcripts || [];
@@ -4207,31 +4251,37 @@ ${itTr.text_en}`,
                 type: 'german_text',
                 tag: `🎧 Hören 3 • Gespräch ${q.number}`,
                 tagClass: 'bg-blue-50 text-blue-800 border border-blue-200',
-                text: `Hörverstehen Teil 3, Gespräch ${q.number}:
-
-${tr.text}`,
+                text: `Hörverstehen Teil 3, Gespräch ${q.number}:\n\n${tr.text}`,
+                mp3Key: `hoerverstehen_3_${q.number}_de`,
                 lang: 'de-DE'
               });
             }
 
             steps.push({
-              type: 'german_text',
-              tag: `❓ Aussage ${q.number}`,
-              tagClass: 'bg-stone-100 text-stone-900 border border-stone-300',
-              text: `Aussage ${q.number}: ${q.statement}`,
-              lang: 'de-DE'
-            });
-
-            steps.push({
               type: 'answer_reveal',
-              tag: '🎯 Evaluation (+ / -)',
+              tag: `🎯 Lösung: ${isTrue ? 'Richtig (+)' : 'Falsch (-)'}`,
               tagClass: 'bg-purple-50 text-purple-800 border border-purple-200',
-              text: `Lösung für Aussage ${q.number}: ${isTrue ? 'Richtig (+)' : 'Falsch (-)'}.`,
+              text: `Gespräch ${q.number}: Aussage: ${q.statement}${q.statement_en ? `\nIn English: ${q.statement_en}` : ''}\n\nLösung: ${isTrue ? 'Richtig (+)' : 'Falsch (-)'}.${q.explanation ? `\n\nExplanation: ${q.explanation}` : ''}`,
+              mp3Key: `hoerverstehen_3_${q.number}_sol`,
               lang: 'en-US'
             });
 
-            if (q.explanation) {
-              steps.push({
+            queue.push({
+              id: `${podcastState.modelId}_hoerverstehen_3_${q.number}`,
+              itemTitle: `Hören 3 • Gespräch ${q.number}`,
+              displayTitle: `${modelTitle} • Hören 3 • Gespräch ${q.number}`,
+              steps: steps
+            });
+          });
+        }
+      }
+
+      podcastState.queue = queue;
+      podcastState.currentIndex = 0;
+      podcastState.currentStepIndex = 0;
+      podcastState.isPlaying = false;
+      updatePlayIcons(false);
+    }sh({
                 type: 'explanation',
                 tag: '💡 Explanation',
                 tagClass: 'bg-indigo-50 text-indigo-800 border border-indigo-200',
@@ -4254,7 +4304,7 @@ ${tr.text}`,
       podcastState.currentIndex = 0;
       podcastState.currentStepIndex = 0;
       podcastState.isPlaying = false;
-      document.getElementById('playPausePodcastBtn').innerHTML = '<i class="fa-solid fa-play"></i><span>Start Audio Study</span>';
+      updatePlayIcons(false);
     }
 
     function renderPodcastStage() {
@@ -4328,9 +4378,14 @@ ${tr.text}`,
       speakCurrentStep();
     }
 
+    let podcastActiveAudio = null;
+
     function pausePodcast() {
       podcastState.isPlaying = false;
       podcastState.isPaused = true;
+      if (podcastActiveAudio) {
+        podcastActiveAudio.pause();
+      }
       if (window.speechSynthesis) window.speechSynthesis.cancel();
       updatePlayIcons(false);
     }
@@ -4343,6 +4398,10 @@ ${tr.text}`,
       podcastState.isPlaying = false;
       podcastState.isPaused = false;
       podcastState.speechToken++;
+      if (podcastActiveAudio) {
+        podcastActiveAudio.pause();
+        podcastActiveAudio = null;
+      }
       if (window.speechSynthesis) window.speechSynthesis.cancel();
       updatePlayIcons(false);
       document.getElementById('miniPlayer').classList.add('hidden');
@@ -4351,12 +4410,11 @@ ${tr.text}`,
     function updatePlayIcons(playing) {
       const masterBtn = document.getElementById('podcastMasterPlayBtn');
       const miniBtn = document.getElementById('miniPlayBtn');
-      if (playing) {
-        masterBtn.innerHTML = '<i class="fa-solid fa-pause"></i>';
-        miniBtn.innerHTML = '<i class="fa-solid fa-pause text-xs"></i>';
-      } else {
-        masterBtn.innerHTML = '<i class="fa-solid fa-play ml-0.5"></i>';
-        miniBtn.innerHTML = '<i class="fa-solid fa-play text-xs"></i>';
+      if (masterBtn) {
+        masterBtn.innerHTML = playing ? '<i class="fa-solid fa-pause"></i>' : '<i class="fa-solid fa-play ml-0.5"></i>';
+      }
+      if (miniBtn) {
+        miniBtn.innerHTML = playing ? '<i class="fa-solid fa-pause text-xs"></i>' : '<i class="fa-solid fa-play text-xs"></i>';
       }
     }
 
@@ -4406,8 +4464,58 @@ ${tr.text}`,
       window.speechSynthesis.speak(uDe);
     }
 
+    function getPodcastStepAudioCandidates(itemId, step) {
+      const candidates = [];
+      if (!itemId || !step) return candidates;
+      
+      const mId = podcastState.modelId;
+      if (step.mp3Url) candidates.push(step.mp3Url);
+
+      if (step.mp3Key) {
+        if (!step.mp3Key.startsWith('audio/')) {
+          candidates.push(`audio/${mId}_${step.mp3Key}.mp3`);
+          candidates.push(`audio/${step.mp3Key}.mp3`);
+        } else {
+          candidates.push(step.mp3Key);
+        }
+
+        // Suffix alternatives
+        if (step.mp3Key.endsWith('_sol')) {
+          candidates.push(`audio/${mId}_${step.mp3Key.replace('_sol', '_exp')}.mp3`);
+        }
+        if (!step.mp3Key.endsWith('_de') && !step.mp3Key.endsWith('_en') && !step.mp3Key.endsWith('_exp') && !step.mp3Key.endsWith('_sol') && !step.mp3Key.endsWith('_vocab') && !step.mp3Key.endsWith('_overview')) {
+          candidates.push(`audio/${mId}_${step.mp3Key}_de.mp3`);
+        }
+      }
+
+      // Auto-derived candidates from itemId and step.type
+      if (step.type === 'german_text') {
+        candidates.push(`audio/${itemId}_de.mp3`);
+        candidates.push(`audio/${itemId}.mp3`);
+        if (itemId.includes('hoerverstehen_2')) {
+          candidates.push(`audio/${mId}_hoerverstehen_2_full.mp3`);
+        }
+        if (itemId.includes('teil_2_article')) {
+          candidates.push(`audio/${mId}_teil_2_passage.mp3`);
+        }
+      } else if (step.type === 'english_translation') {
+        candidates.push(`audio/${itemId}_en.mp3`);
+      } else if (step.type === 'vocabulary') {
+        candidates.push(`audio/${itemId}_vocab.mp3`);
+      } else if (step.type === 'answer_reveal' || step.type === 'explanation') {
+        candidates.push(`audio/${itemId}_sol.mp3`);
+        candidates.push(`audio/${itemId}_exp.mp3`);
+      }
+
+      return [...new Set(candidates)];
+    }
+
     function speakCurrentStep() {
       if (!podcastState.isPlaying) return;
+      if (podcastActiveAudio) {
+        podcastActiveAudio.pause();
+        podcastActiveAudio = null;
+      }
       if (window.speechSynthesis) window.speechSynthesis.cancel();
 
       const item = podcastState.queue[podcastState.currentIndex];
@@ -4473,31 +4581,72 @@ ${tr.text}`,
         return;
       }
 
-      // STANDARD UTTERANCE HANDLER
-      const u = new SpeechSynthesisUtterance(curStep.text);
-      u.lang = curStep.lang || 'de-DE';
-      u.rate = podcastState.rate || 0.9;
+      // MP3 WITH WEB SPEECH FALLBACK
+      const candidates = getPodcastStepAudioCandidates(item.id, curStep);
 
-      u.onend = () => {
-        if (!podcastState.isPlaying || token !== podcastState.speechToken) return;
-        
-        podcastState.currentStepIndex++;
-        const pauseTime = (curStep.type === 'german_text' && document.getElementById('chkIncludeAnswer').checked) ? 2000 : 900;
-        setTimeout(() => {
-          if (podcastState.isPlaying && token === podcastState.speechToken) {
-            speakCurrentStep();
-          }
-        }, pauseTime);
-      };
+      function playStepSpeechFallback() {
+        const u = new SpeechSynthesisUtterance(curStep.text);
+        u.lang = curStep.lang || 'de-DE';
+        u.rate = podcastState.rate || 0.9;
 
-      u.onerror = (e) => {
-        console.warn("Speech synthesis error:", e);
-      };
+        u.onend = () => {
+          if (!podcastState.isPlaying || token !== podcastState.speechToken) return;
+          
+          podcastState.currentStepIndex++;
+          const pauseTime = (curStep.type === 'german_text' && document.getElementById('chkIncludeAnswer').checked) ? 2000 : 900;
+          setTimeout(() => {
+            if (podcastState.isPlaying && token === podcastState.speechToken) {
+              speakCurrentStep();
+            }
+          }, pauseTime);
+        };
 
-      window.speechSynthesis.speak(u);
+        u.onerror = (e) => {
+          console.warn("Speech synthesis error:", e);
+        };
+
+        window.speechSynthesis.speak(u);
+      }
+
+      function tryPlayStepAudio(idx) {
+        if (idx >= candidates.length) {
+          playStepSpeechFallback();
+          return;
+        }
+
+        const mp3Url = candidates[idx];
+        const audio = new Audio(mp3Url);
+        audio.playbackRate = podcastState.rate || 1.0;
+
+        audio.play().then(() => {
+          podcastActiveAudio = audio;
+          audio.onended = () => {
+            if (!podcastState.isPlaying || token !== podcastState.speechToken) return;
+            podcastState.currentStepIndex++;
+            const pauseTime = (curStep.type === 'german_text' && document.getElementById('chkIncludeAnswer').checked) ? 2000 : 900;
+            setTimeout(() => {
+              if (podcastState.isPlaying && token === podcastState.speechToken) {
+                speakCurrentStep();
+              }
+            }, pauseTime);
+          };
+        }).catch((err) => {
+          tryPlayStepAudio(idx + 1);
+        });
+      }
+
+      if (candidates.length > 0) {
+        tryPlayStepAudio(0);
+      } else {
+        playStepSpeechFallback();
+      }
     }
 
     function podcastNext() {
+      if (podcastActiveAudio) {
+        podcastActiveAudio.pause();
+        podcastActiveAudio = null;
+      }
       if (podcastState.currentIndex < podcastState.queue.length - 1) {
         podcastState.currentIndex++;
         podcastState.currentStepIndex = 0;
@@ -4507,6 +4656,10 @@ ${tr.text}`,
     }
 
     function podcastPrev() {
+      if (podcastActiveAudio) {
+        podcastActiveAudio.pause();
+        podcastActiveAudio = null;
+      }
       if (podcastState.currentIndex > 0) {
         podcastState.currentIndex--;
         podcastState.currentStepIndex = 0;
