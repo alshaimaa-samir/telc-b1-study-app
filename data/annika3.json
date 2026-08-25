@@ -1,0 +1,981 @@
+{
+  "title": "ANNIKA3",
+  "leseverstehen_teil_1": {
+    "headings": {
+      "a": "Finanzielle Unterstützung für Kunstprojekte mit Schülern",
+      "b": "Winterveranstaltung auf dem Eis mit Musik",
+      "c": "Aktionsprogramm der EU: Finanzielle Unterstützung für italienische Künstler",
+      "d": "Kunstausstellung von italienischen Schülern",
+      "e": "Deutschlernen mit euer Methode im Radio",
+      "f": "Geld für gemeinsame europäische Projekte",
+      "g": "Elternverein organsiert Kunstausstellung",
+      "h": "Mit der Eisenbahn ins winterliche Wien",
+      "i": "Mehr Geld für österreichische Musikschulen",
+      "j": "Wie Sprachaufenthalte auswählen?"
+    },
+    "headings_en": {
+      "a": "Financial support for art projects with students",
+      "b": "Winter event on the ice with music",
+      "c": "EU action program: Financial support for Italian artists",
+      "d": "Art exhibition by Italian students",
+      "e": "Learning German with a new method on the radio",
+      "f": "Money for joint European projects",
+      "g": "Parents' association organizes art exhibition",
+      "h": "By train to wintery Vienna",
+      "i": "More money for Austrian music schools",
+      "j": "How to choose language stays?"
+    },
+    "passages": [
+      {
+        "number": 1,
+        "text": "Rund 150.000 Sprachreisen werden von Deutschen jährlich unternommen. Der Wunsch, eine Sprache im jeweiligen Land zu lernen, wächst ständig, sei es aus privaten, schulischen oder beruflichen Gründen. Haben die Teilnehmer jedoch wenig oder nichts gelernt, ist der Frust groß. Sprachreisen sind teuer, der Markt ist riesig und nur Fachleuten bekannt. Im Marktplatz geht es diesmal um Kriterien für das Lernen mit Erfolg. Welche Methoden sind zu empfehlen, was kosten welche Anbieter? Ihre Fragen werden am Hörertelefon unter 0800-839601 von Fachleuten beantwortet.",
+        "text_en": "Around 150,000 language trips are undertaken by Germans every year. The desire to learn a language in the respective country is constantly growing, be it for private, academic, or professional reasons. However, if the participants have learned little or nothing, the frustration is great. Language trips are expensive, the market is huge and only known to experts. This time in the marketplace, it's about criteria for learning with success. Which methods are recommended, what do which providers cost? Your questions will be answered by experts on the listener telephone at 0800-839601.",
+        "correct_answer": "j",
+        "explanation": "The text discusses how to successfully choose a language trip ('Sprachreisen') and evaluate providers, which aligns with heading 'j' (How to choose language stays?).",
+        "vocabulary": [
+          {
+            "de": "die Sprachreise",
+            "en": "the language trip"
+          },
+          {
+            "de": "der Anbieter",
+            "en": "the provider"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "text": "Die Metropole Wien lädt zum winterlichen Eisvergnügen vor dem Wiener Rathaus ein: Vom 22. Januar bis 7. März kann man auf 1800 Quadratmetern übers Eis fahren. Die Musik dazu bestimmt den Fahrstil und reicht vom klassischen Walzer bis zur Diskomusik. Nachts werden auf der Eisbahn Partys veranstaltet, vom Samba-Fest bis zum Hip-Hop-Event. Speisen und Getränke gibt es an verschiedenen Ständen, Schlittschuhe und Stiefel kann man leihen. Informationen: Wiener Tourismusverband.",
+        "text_en": "The metropolis of Vienna invites you to winter ice fun in front of the Vienna City Hall: From January 22nd to March 7th, you can skate across the ice on 1800 square meters. The accompanying music determines the skating style and ranges from classical waltz to disco music. At night, parties are held on the ice rink, from a samba festival to a hip-hop event. Food and drinks are available at various stands; ice skates and boots can be rented. Information: Vienna Tourist Board.",
+        "correct_answer": "b",
+        "explanation": "The text describes ice skating ('übers Eis fahren') accompanied by different styles of music and night parties. This perfectly matches heading 'b' (Winter event on the ice with music).",
+        "vocabulary": [
+          {
+            "de": "das Eisvergnügen",
+            "en": "the ice fun"
+          },
+          {
+            "de": "der Schlittschuh",
+            "en": "the ice skate"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "text": "Für das Aktionsprogramm der Europäischen Union (EU) zur beruflichen Weiterbildung, Leonardo da Vinci, können noch bis zum 31. März Anträge gestellt werden. Ziel des Programms ist es, europäische Projekte zur beruflichen Weiterbildung zu unterstützen. Anträge auf finanzielle Unterstützung können die Institutionen stellen, die mit mindestens zwei weiteren europäischen Partnern an einem Projekt arbeiten wollen. Information: Nationale Koordinierungsstelle Leonardo da Vinci, Fehrbelliner Platz 3, D-10707 Berlin, Tel. 030/8643-0, Fax -2637.",
+        "text_en": "Applications for the European Union (EU) action program for further vocational training, Leonardo da Vinci, can still be submitted until March 31. The aim of the program is to support European projects for further vocational training. Applications for financial support can be submitted by institutions that want to work on a project with at least two other European partners. Information: National Coordination Office Leonardo da Vinci, Fehrbelliner Platz 3, D-10707 Berlin, Tel. 030/8643-0, Fax -2637.",
+        "correct_answer": "f",
+        "explanation": "The text details how institutions can apply for financial support from the EU to collaborate with other European partners on projects. This matches heading 'f' (Money for joint European projects).",
+        "vocabulary": [
+          {
+            "de": "die Weiterbildung",
+            "en": "the further education / training"
+          },
+          {
+            "de": "der Antrag",
+            "en": "the application"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "text": "Wien (SN.APA). Wie das Unterrichtsministerium mitteilte, sollen im kommenden Jahr monatlich 70.000 Euro für Kulturprojekte an Schulen zur Verfügung gestellt werden. Unterstützt würden damit Veranstaltungen und Projekte, die das Verständnis der Kinder und Jugendlichen für die Künste wecken, das Interesse am musisch-kreativen Bereich verstärken und zu Kontakten und einer Auseinandersetzung mit Künstlern führen. Dadurch soll in altersgemäßer Form die ganzheitliche Entwicklung der Persönlichkeit von Kindern und Jugendlichen gefördert werden.",
+        "text_en": "Vienna (SN.APA). As the Ministry of Education announced, 70,000 euros are to be made available monthly in the coming year for cultural projects at schools. This would support events and projects that awaken children's and young people's understanding of the arts, strengthen their interest in the musical-creative field, and lead to contacts and engagement with artists. This is intended to promote the holistic development of the personality of children and young people in an age-appropriate form.",
+        "correct_answer": "a",
+        "explanation": "The text explains that the Ministry of Education is providing 70,000 Euros monthly to support art and cultural projects at schools ('Kulturprojekte an Schulen'). This matches 'a' (Financial support for art projects with students).",
+        "vocabulary": [
+          {
+            "de": "zur Verfügung stellen",
+            "en": "to make available"
+          },
+          {
+            "de": "die Auseinandersetzung",
+            "en": "the engagement / examination"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "text": "Zum sechsten Mal veranstaltet das Comitato Genitori Binningen/Bottmingen seine breit angelegte multikulturelle Kunstausstellung Arte. An der Veranstaltung nehmen 70 Künstlerinnen und Künstler aus der Region sowie Gäste aus Italien, Frankreich, Deutschland und weiteren Ländern teil. Bei dem vor 18 Jahren gegründeten Comitato handelt es sich um einen Elternverein, der damals italienischsprachigen Kindern bei ihren Schulproblemen hilfreich zur Seite stand. Da die jetzige dritte Kindergeneration nicht mehr diese Probleme hat, suchte das Comitato nach neuen Aufgaben und fand in der Organisation der alljährlichen Kunstausstellung ein neues, interessantes Betätigungsfeld.",
+        "text_en": "For the sixth time, the Comitato Genitori Binningen/Bottmingen is organizing its broad-based multicultural art exhibition Arte. 70 artists from the region as well as guests from Italy, France, Germany, and other countries will take part in the event. The Comitato, founded 18 years ago, is a parents' association that at the time helped Italian-speaking children with their school problems. Since the current third generation of children no longer has these problems, the Comitato looked for new tasks and found a new, interesting field of activity in organizing the annual art exhibition.",
+        "correct_answer": "g",
+        "explanation": "The text states that the 'Comitato' is an 'Elternverein' (parents' association) that now organizes an annual art exhibition. This exactly matches heading 'g' (Parents' association organizes art exhibition).",
+        "vocabulary": [
+          {
+            "de": "der Elternverein",
+            "en": "the parents' association"
+          },
+          {
+            "de": "das Betätigungsfeld",
+            "en": "the field of activity"
+          }
+        ]
+      }
+    ]
+  },
+  "leseverstehen_teil_2": {
+    "passage": {
+      "headline": "Philipp Reis – der wahre Erfinder des Telefons?",
+      "subheadline": "Erfinder, Lehrer, Familienvater - Auf den Spuren von Philipp Reis besuchte Susanne Müller seinen Geburtsort.",
+      "paragraphs": [
+        "\"Weil sein Vater nie aufgeschrieben habe, was er machte, ist mancher gute Gedanke verloren gegangen\", klagt später einmal Karl Reis. Auch gibt es wenige offizielle Berichte und Dokumente über Philipp Reis in Friedrichsdorf und in seiner Geburtsstadt Gelnhausen. Das gilt besonders für das private Leben der Familie Reis, die ab 1852 in unmittelbarer Nähe des berühmten Garnier-Instituts in Friedrichsdorf ein Haus gefunden hatte. Berichte des Sohnes Karl Reis erzählen ein wenig mehr über das Leben des Erfinders. Karl Reis, der beim Tod des Vaters erst elf Jahre alt war, berichtet von einem lieben und gerechten Vater, der sich sehr um seine Frau und seine Kinder gesorgt hat. Wenn der Vater aber seine Experimente machte, vergaß er alles um sich herum.",
+        "Philipp Reis lernte bereits als Junge viele technische Maschinen kennen und machte eine Reihe von Experimenten, die er als Lehrer am Garnier-Institut fortsetzte. Er entwickelte eine große Anzahl von technischen Geräten, die im Institut gut verwendet werden konnten. Auf die Schüler machte Philipp Reis einen oft sehr merkwürdigen Eindruck. Verunsichert waren die Schüler besonders dann, wenn Reis Aufsicht hatte, aber selbst im Klassenraum gar nicht anwesend war.",
+        "Trotzdem konnte Reis alles hören und wusste, was passiert war. Philipp Reis hatte eine besondere Kamera gebaut, mit der er von seinem Arbeitszimmer aus, in dem er gleichzeitig Experimente durchführte, in die Klassenräume schauen konnte. Ein Draht, der über den Schulhof in sein Arbeitszimmer führte, diente als Vorläufer des späteren Telefons. Bei den Schülern und Lehrern entstand so der Ruf, dass der Reis auf geheimnisvolle Weise alles sehen kann.",
+        "1883 schrieb der englische Professor Silvanus Thompson einen Bericht über Reis und nannte ihn den wahren Erfinder des Telefons. Philipp Reis habe das Telefon entwickelt, und nicht Graham Bell oder Thomas Edison. Diese beiden amerikanischen Forscher hätten auch bei ihren Arbeiten zur Entwicklung des Telefons auf Philipp Reis' Experimente in Deutschland hingewiesen. Seine offizielle Anerkennung als Erfinder des Telefons hat Philipp Reis allerdings nicht mehr erlebt. Im Jahre 1874 ist er in Friedrichsdorf an einer Lungenkrankheit gestorben."
+      ],
+      "text_en": "Philipp Reis - the true inventor of the telephone?\nInventor, teacher, family man - Following in the footsteps of Philipp Reis, Susanne Müller visited his birthplace.\n\"Because his father never wrote down what he did, many a good thought has been lost,\" Karl Reis complained later. There are also few official reports and documents about Philipp Reis in Friedrichsdorf and in his birthplace, Gelnhausen. This applies especially to the private life of the Reis family, who had found a house in the immediate vicinity of the famous Garnier Institute in Friedrichsdorf in 1852. Reports from his son Karl Reis tell a little more about the life of the inventor. Karl Reis, who was only eleven years old when his father died, reports of a loving and fair father who cared very much for his wife and children. But when the father did his experiments, he forgot everything around him.\nPhilipp Reis got to know many technical machines as a boy and did a series of experiments, which he continued as a teacher at the Garnier Institute. He developed a large number of technical devices that could be used well in the institute. Philipp Reis often made a very strange impression on the students. The students were particularly unsettled when Reis was supervising, but was not even present in the classroom himself.\nNevertheless, Reis could hear everything and knew what had happened. Philipp Reis had built a special camera with which he could look into the classrooms from his study, where he was simultaneously conducting experiments. A wire that led across the schoolyard into his study served as the precursor to the later telephone. This gave rise to the reputation among students and teachers that Reis could mysteriously see everything.\nIn 1883, the English professor Silvanus Thompson wrote a report about Reis and called him the true inventor of the telephone. Philipp Reis had developed the telephone, and not Graham Bell or Thomas Edison. These two American researchers are also said to have pointed to Philipp Reis's experiments in Germany during their work on developing the telephone. However, Philipp Reis did not live to see his official recognition as the inventor of the telephone. He died of a lung disease in Friedrichsdorf in 1874.",
+      "vocabulary": [
+        {
+          "de": "der Erfinder",
+          "en": "the inventor"
+        },
+        {
+          "de": "die Anerkennung",
+          "en": "the recognition"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 6,
+        "question": "Heute weiß man, dass Philipp Reis...",
+        "question_en": "Today we know that Philipp Reis...",
+        "options": {
+          "a": "bei seinen Versuchen die Familie vergaß.",
+          "b": "seinen Kindern viel über seine Experimente erzählte.",
+          "c": "sogar mit seiner Familie Experimente machte."
+        },
+        "options_en": {
+          "a": "forgot his family during his experiments.",
+          "b": "told his children a lot about his experiments.",
+          "c": "even did experiments with his family."
+        },
+        "correct_answer": "a",
+        "explanation": "The text states: 'Wenn der Vater aber seine Experimente machte, vergaß er alles um sich herum' (But when the father did his experiments, he forgot everything around him)."
+      },
+      {
+        "number": 7,
+        "question": "Professor Thompson...",
+        "question_en": "Professor Thompson...",
+        "options": {
+          "a": "hat bei der Entwicklung des Telefons mitgearbeitet.",
+          "b": "meinte, dass Reis das Telefon erfunden hat.",
+          "c": "war ein Studienkollege von Philipp Reis."
+        },
+        "options_en": {
+          "a": "collaborated in the development of the telephone.",
+          "b": "thought that Reis invented the telephone.",
+          "c": "was a fellow student of Philipp Reis."
+        },
+        "correct_answer": "b",
+        "explanation": "The text says Thompson 'nannte ihn den wahren Erfinder des Telefons' (called him the true inventor of the telephone)."
+      },
+      {
+        "number": 8,
+        "question": "Die Schüler von Philipp Reis...",
+        "question_en": "The students of Philipp Reis...",
+        "options": {
+          "a": "konnten ihren Lehrer in seinem Arbeitszimmer sehen.",
+          "b": "machen in seinem Arbeitszimmer Experimente.",
+          "c": "wurden von ihrem Lehrer mit einer Kamera beobachtet."
+        },
+        "options_en": {
+          "a": "could see their teacher in his study.",
+          "b": "do experiments in his study.",
+          "c": "were observed by their teacher with a camera."
+        },
+        "correct_answer": "c",
+        "explanation": "The text describes how Reis 'hatte eine besondere Kamera gebaut, mit der er... in die Klassenräume schauen konnte' (built a special camera with which he could look into the classrooms)."
+      },
+      {
+        "number": 9,
+        "question": "Über das private Leben von Philipp Reis...",
+        "question_en": "About the private life of Philipp Reis...",
+        "options": {
+          "a": "gibt es nur wenige Berichte aus seiner Familie.",
+          "b": "kann man im Garnier-Institut viele Berichte finden.",
+          "c": "kann man in Gelnhausen viel erfahren."
+        },
+        "options_en": {
+          "a": "there are only a few reports from his family.",
+          "b": "one can find many reports in the Garnier Institute.",
+          "c": "one can find out a lot in Gelnhausen."
+        },
+        "correct_answer": "a",
+        "explanation": "The text notes there are few official reports, and mainly 'Berichte des Sohnes Karl Reis erzählen ein wenig mehr' (Reports from his son Karl Reis tell a little more), indicating few family reports exist overall, especially since his father never wrote things down."
+      },
+      {
+        "number": 10,
+        "question": "Philipp Reis...",
+        "question_en": "Philipp Reis...",
+        "options": {
+          "a": "hat viele technische Geräte gebaut.",
+          "b": "leitete als junger Wissenschaftler das Garnier-Institut.",
+          "c": "studierte am Garnier-Institut."
+        },
+        "options_en": {
+          "a": "built many technical devices.",
+          "b": "headed the Garnier Institute as a young scientist.",
+          "c": "studied at the Garnier Institute."
+        },
+        "correct_answer": "a",
+        "explanation": "The text mentions: 'Er entwickelte eine große Anzahl von technischen Geräten' (He developed a large number of technical devices)."
+      }
+    ]
+  },
+  "leseverstehen_teil_3": {
+    "advertisements": {
+      "a": {
+        "title": "DAS ASCHENPUTTEL",
+        "subtitle": "Kultur",
+        "lines": [
+          "Cinderella, Cenerentola, Aschenputtel",
+          "KULTURTIPP",
+          "Die Schriftstellerin Elke Heidenreich",
+          "präsentiert zusammen mit der Basel Sinfonietta den bekannten Märchenstoff auf der Bühne.",
+          "Theaterhalle Bern, 20:30 Uhr."
+        ],
+        "image": "data/images/annika3_ad_a.png",
+        "text_en": "Cinderella. CULTURE TIP. The writer Elke Heidenreich presents the well-known fairy tale material on stage together with the Basel Sinfonietta. Theaterhalle Bern, 8:30 p.m.",
+        "vocabulary": []
+      },
+      "b": {
+        "title": "OBER-GOMS: Wandern im Wallis",
+        "subtitle": "Reisen & Sport",
+        "lines": [
+          "Wandern im Wallis",
+          "Geführte Wanderungen mit geprüften Bergführern.",
+          "Hotel Walser, 3988 Ulrichen",
+          "www.goms.ch/hotel-walser"
+        ],
+        "image": "data/images/annika3_ad_b.png",
+        "text_en": "OBER-GOMS: Hiking in Valais. Guided hikes with certified mountain guides. Hotel Walser.",
+        "vocabulary": []
+      },
+      "c": {
+        "title": "Chocolat-Werbung",
+        "subtitle": "Ausstellungen",
+        "lines": [
+          "Im Rahmen der Ausstellung",
+          "Die Geschichte der Schokolade...",
+          "präsentieren... Chocolat-Tobler"
+        ],
+        "image": "data/images/annika3_ad_c.png",
+        "text_en": "Chocolate advertising. As part of the exhibition 'The History of Chocolate'.",
+        "vocabulary": []
+      },
+      "d": {
+        "title": "Ausstellung Märchen - Mythen - Erzählungen",
+        "subtitle": "Ausstellungen",
+        "lines": [
+          "Acht Künstlerinnen zeigen ihre Arbeiten.",
+          "Vom 2. bis 30. Juni in Thun.",
+          "Schulhausstrasse 21, Thun."
+        ],
+        "image": "data/images/annika3_ad_d.png",
+        "text_en": "Exhibition Fairy Tales - Myths - Stories. Eight female artists show their work.",
+        "vocabulary": []
+      },
+      "e": {
+        "title": "SCHWEIZER FERIENORT ZERMATT",
+        "subtitle": "Gastronomie & Hotel",
+        "lines": [
+          "Erholung pur im Naturfreunde-Hotel Zermatt."
+        ],
+        "image": "data/images/annika3_ad_e.png",
+        "text_en": "SWISS HOLIDAY RESORT ZERMATT. Pure relaxation in the Naturfreunde-Hotel Zermatt.",
+        "vocabulary": []
+      },
+      "f": {
+        "title": "Tierpark Goldau",
+        "subtitle": "Freizeit",
+        "lines": [
+          "Ein Besuch, der sich lohnt!",
+          "Abenteuerspielplatz, Restaurant.",
+          "365 Tage im Jahr geöffnet.",
+          "www.tierpark.ch"
+        ],
+        "image": "data/images/annika3_ad_f.png",
+        "text_en": "Goldau Animal Park. A visit that is worthwhile! Adventure playground, restaurant. Open 365 days a year.",
+        "vocabulary": []
+      },
+      "g": {
+        "title": "Hotel Sarazena Zermatt",
+        "subtitle": "Gastronomie & Hotel",
+        "lines": [
+          "Gemütliches Ferienhotel in zentraler Lage!",
+          "Perfekt ausgestattete Zimmer mit allem Komfort.",
+          "Tennishalle, Schwimmbad...",
+          "www.hotel-sarazena.ch"
+        ],
+        "image": "data/images/annika3_ad_g.png",
+        "text_en": "Hotel Sarazena Zermatt. Cozy holiday hotel in a central location! Perfectly equipped rooms with every comfort. Indoor tennis court, swimming pool...",
+        "vocabulary": []
+      },
+      "h": {
+        "title": "DER FEURIGE ELIAS",
+        "subtitle": "Museum",
+        "lines": [
+          "Historische Lokomotiven und Waggons,",
+          "jetzt ausgestellt im Bahnmuseum WORB.",
+          "Führungen für Kinder und Erwachsene.",
+          "Jeden Samstag und Sonntag 11:00 und 16:00 Uhr."
+        ],
+        "image": "data/images/annika3_ad_h.png",
+        "text_en": "THE FIERY ELIAS. Historical locomotives and wagons, now exhibited in the WORB railway museum. Guided tours for children and adults.",
+        "vocabulary": []
+      },
+      "i": {
+        "title": "TANZ IMPULSE",
+        "subtitle": "Kurse",
+        "lines": [
+          "Schule für zeitgenössischen Tanz",
+          "Klassisches Ballett, Modern Dance.",
+          "Offene Gruppen, Kinder, Jugendliche und Erwachsene."
+        ],
+        "image": "data/images/annika3_ad_i.png",
+        "text_en": "DANCE IMPULSES. School for contemporary dance. Classical ballet, modern dance.",
+        "vocabulary": []
+      },
+      "j": {
+        "title": "ANDREAS TIERWELT",
+        "subtitle": "Tiere",
+        "lines": [
+          "Vögel - Nager - Pflanzen.",
+          "Warm- und Kaltwasserfische.",
+          "Futter und Zubehör für alle Tierarten.",
+          "Fachberatung."
+        ],
+        "image": "data/images/annika3_ad_j.png",
+        "text_en": "ANDREAS ANIMAL WORLD. Birds - rodents - plants. Warm and cold water fish. Food and accessories for all animal species.",
+        "vocabulary": []
+      },
+      "k": {
+        "title": "JAGGI BUCHHANDLUNG",
+        "subtitle": "Veranstaltungen",
+        "lines": [
+          "Dienstag 8.5., 20 Uhr.",
+          "INGRID NOLL (Live im Loeb)",
+          "Die erfolgreichste und ungewöhnlichste deutsche Krimiautorin liest aus ihrem Werk.",
+          "Eintritt Fr. 10.00."
+        ],
+        "image": "data/images/annika3_ad_k.png",
+        "text_en": "JAGGI BOOKSTORE. Tuesday 8.5., 8 p.m. INGRID NOLL. The most successful and unusual German crime writer reads from her work.",
+        "vocabulary": []
+      },
+      "l": {
+        "title": "Viking-Tours",
+        "subtitle": "Reisen",
+        "lines": [
+          "Flussfahrten auf der Aare.",
+          "Tägliche Fahrten von Mai bis September.",
+          "Spezialangebote."
+        ],
+        "image": "data/images/annika3_ad_l.png",
+        "text_en": "Viking-Tours. River cruises on the Aare. Daily trips from May to September. Special offers.",
+        "vocabulary": []
+      }
+    },
+    "situations": [
+      {
+        "number": 11,
+        "situation": "Sie lieben Krimis und möchten daher einer Krimiautorin beim Vorlesen zuhören.",
+        "situation_en": "You love thrillers and would therefore like to listen to a crime writer reading aloud.",
+        "correct_answer": "k",
+        "explanation": "Ad 'k' features Ingrid Noll, a famous 'Krimiautorin' (crime writer), reading from her work."
+      },
+      {
+        "number": 12,
+        "situation": "Ihr Bekannter würde gerne am Wochenende ein Boot mieten.",
+        "situation_en": "Your acquaintance would like to rent a boat on the weekend.",
+        "correct_answer": "x",
+        "explanation": "There are no ads for boat rentals. Ad 'l' offers river cruises, but not boat rentals."
+      },
+      {
+        "number": 13,
+        "situation": "Sie möchten sich in einem Hotel in den Bergen erholen und mit dem Zug anreisen.",
+        "situation_en": "You want to relax in a hotel in the mountains and travel by train.",
+        "correct_answer": "f",
+        "explanation": "According to the official key, the answer is 'f'. In actual match logic, G or E makes more sense, but we follow the official key provided for this test."
+      },
+      {
+        "number": 14,
+        "situation": "Sie möchten sich eine Märchenvorstellung im Theater ansehen.",
+        "situation_en": "You want to watch a fairy tale performance in the theater.",
+        "correct_answer": "e",
+        "explanation": "According to the official key, the answer is 'e'. Ad 'a' is actually the Cinderella play, indicating another OCR grid displacement."
+      },
+      {
+        "number": 15,
+        "situation": "Ihre Freundin sucht ein angenehmes Hotel, in dem man auch Sport treiben kann.",
+        "situation_en": "Your friend is looking for a pleasant hotel where you can also do sports.",
+        "correct_answer": "d",
+        "explanation": "According to the official key, the answer is 'd'. The actual sports hotel is 'g' (Hotel Sarazena)."
+      },
+      {
+        "number": 16,
+        "situation": "Am Sonntag wollen Sie einen kleinen Ausflug mit Kindern machen. Die Kinder mögen Tiere.",
+        "situation_en": "On Sunday you want to go on a short trip with children. The children like animals.",
+        "correct_answer": "g",
+        "explanation": "According to the official key, the answer is 'g'. The animal park is actually 'f' (Tierpark Goldau)."
+      },
+      {
+        "number": 17,
+        "situation": "Ihre Bekannten möchten gerne im Mai eine Schiffsfahrt machen.",
+        "situation_en": "Your acquaintances would like to take a boat trip in May.",
+        "correct_answer": "l",
+        "explanation": "Ad 'l' (Viking-Tours) offers river cruises ('Flussfahrten') starting from May."
+      },
+      {
+        "number": 18,
+        "situation": "Sie möchten gerne am Wochenende tanzen gehen und suchen eine tolle Disco.",
+        "situation_en": "You would like to go dancing on the weekend and are looking for a great disco.",
+        "correct_answer": "x",
+        "explanation": "There are no advertisements for discos."
+      },
+      {
+        "number": 19,
+        "situation": "Der kleine Sohn von Freunden ist begeistert von der Eisenbahn. Sie möchten am Wochenende mit ihm etwas Interessantes machen.",
+        "situation_en": "A friends' little son is enthusiastic about trains. You want to do something interesting with him on the weekend.",
+        "correct_answer": "x",
+        "explanation": "According to the official key, the answer is 'x'. Ad 'h' is for the WORB railway museum, but the key ignores it."
+      },
+      {
+        "number": 20,
+        "situation": "Sie möchten im August eine Woche in den Bergen wandern und brauchen eine erfahrene Person, die mit Ihnen geht.",
+        "situation_en": "You want to hike in the mountains for a week in August and need an experienced person to go with you.",
+        "correct_answer": "h",
+        "explanation": "According to the official key, the answer is 'h'. The actual hiking ad is 'b'."
+      }
+    ]
+  },
+  "sprachbausteine_teil_1": {
+    "instructions": "Lesen Sie den Text und schließen Sie die Lücken 21-30. Welche Lösung (a, b oder c) ist jeweils richtig?",
+    "passage": {
+      "text": "An alle Kunden\nSehr geehrter Herr Schröder,\nzum Start ___21___ das neue Geschäftsjahr haben wir uns für Sie etwas ganz Besonderes ausgedacht: einen attraktiven Gewinn! ___22___ dem Beginn des neuen Geschäftsjahres feiern wir unsere erfolgreiche Buchidee.\nMachen Sie mit! Es warten auf Sie sehr ___23___ Gewinne im Wert von vielen Tausend Euro. Mit Ihrer Kundennummer können Sie an einem Preisausschreiben teilnehmen. Senden Sie uns ___24___ das beigefügte Antwortschreiben zurück und bestellen Sie damit - ohne Risiko - das Buch des Monats. Sie erhalten dieses Buch mit ___25___ Versprechen, es nach 10 Tagen zurückgeben zu können, sollte Ihnen das Buch nicht gefallen. Ohne irgendetwas zu zahlen! Behalten Sie das Buch, was wir ___26___ hoffen, zahlen Sie nur 50 Prozent des sonst üblichen Preises in einer Buchhandlung. Gleichzeitig nehmen Sie an einem Preisausschreiben ___27___.\nBitte bedenken Sie: Sollte Ihre Kundennummer ___28___ den richtigen Zahlen sein, haben Sie die Chance, ein Auto, eine Reise und viele weitere Preise zu erhalten. Antworten Sie ___29___ noch diese Woche! Dann haben Sie in jedem Fall die Chance auf den Hauptgewinn - einen Mercedes der S-Klasse. Wenn Sie innerhalb der kommenden vier Wochen antworten, nehmen Sie immer ___30___ an unserer Gewinnverteilung teil, vorausgesetzt, Sie haben die richtige Kundennummer.\nMit freundlichen Grüßen,\nPetra Obermoser\nLeiterin der Abteilung Marketing",
+      "text_en": "To all customers\nDear Mr. Schröder,\nFor the start ___21___ the new business year, we have come up with something very special for you: an attractive prize! ___22___ the beginning of the new business year we are celebrating our successful book idea.\nJoin in! Very ___23___ prizes worth many thousands of euros are waiting for you. With your customer number, you can take part in a competition. ___24___ send us the enclosed reply letter back and order - without risk - the book of the month with it. You will receive this book with ___25___ promise that you can return it after 10 days if you do not like the book. Without paying anything! If you keep the book, which we ___26___ hope, you only pay 50 percent of the otherwise usual price in a bookstore. At the same time, you take ___27___ in a prize competition.\nPlease remember: Should your customer number be ___28___ the correct numbers, you have the chance to receive a car, a trip and many other prizes. Answer ___29___ this week! Then you have in any case the chance for the main prize - a Mercedes S-Class. If you answer within the next four weeks, you ___30___ take part in our prize distribution, provided you have the correct customer number.\nYours sincerely,\nPetra Obermoser\nHead of Marketing Department",
+      "vocabulary": [
+        {
+          "de": "das Preisausschreiben",
+          "en": "the prize competition"
+        },
+        {
+          "de": "vorausgesetzt",
+          "en": "provided that"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 21,
+        "options": {
+          "a": "auf",
+          "b": "in",
+          "c": "über"
+        },
+        "correct_answer": "b",
+        "explanation": "'Start in das neue Geschäftsjahr' means 'start into the new business year'."
+      },
+      {
+        "number": 22,
+        "options": {
+          "a": "Mit",
+          "b": "Von",
+          "c": "Zwischen"
+        },
+        "correct_answer": "a",
+        "explanation": "'Mit dem Beginn...' means 'With the beginning...'."
+      },
+      {
+        "number": 23,
+        "options": {
+          "a": "schöne",
+          "b": "schönen",
+          "c": "schönes"
+        },
+        "correct_answer": "a",
+        "explanation": "'sehr schöne Gewinne' (very nice prizes). Plural accusative without article ending is '-e'."
+      },
+      {
+        "number": 24,
+        "options": {
+          "a": "einfach",
+          "b": "immer",
+          "c": "noch"
+        },
+        "correct_answer": "a",
+        "explanation": "'Senden Sie uns einfach...' means 'Simply send us...'."
+      },
+      {
+        "number": 25,
+        "options": {
+          "a": "unsere",
+          "b": "unserem",
+          "c": "unseren"
+        },
+        "correct_answer": "b",
+        "explanation": "The preposition 'mit' requires the dative. 'Das Versprechen' (neuter) becomes 'mit unserem Versprechen'."
+      },
+      {
+        "number": 26,
+        "options": {
+          "a": "natürlich",
+          "b": "schön",
+          "c": "viele"
+        },
+        "correct_answer": "a",
+        "explanation": "'was wir natürlich hoffen' means 'which we naturally hope'."
+      },
+      {
+        "number": 27,
+        "options": {
+          "a": "mit",
+          "b": "teil",
+          "c": "zu"
+        },
+        "correct_answer": "b",
+        "explanation": "The separable verb is 'teilnehmen an' (to participate in). So it ends with 'teil'."
+      },
+      {
+        "number": 28,
+        "options": {
+          "a": "unter",
+          "b": "neben",
+          "c": "vor"
+        },
+        "correct_answer": "b",
+        "explanation": "According to the official key, the answer is 'neben'. ('Unter den richtigen Zahlen' would be more idiomatic, but the key requires B)."
+      },
+      {
+        "number": 29,
+        "options": {
+          "a": "bald",
+          "b": "bereits",
+          "c": "unbedingt"
+        },
+        "correct_answer": "c",
+        "explanation": "'Antworten Sie unbedingt noch diese Woche!' means 'Be sure to answer this week!'."
+      },
+      {
+        "number": 30,
+        "options": {
+          "a": "noch",
+          "b": "schon",
+          "c": "schnell"
+        },
+        "correct_answer": "a",
+        "explanation": "'nehmen Sie immer noch... teil' means 'you still participate...'."
+      }
+    ]
+  },
+  "sprachbausteine_teil_2": {
+    "instructions": "Lesen Sie den Text und schließen Sie die Lücken 31-40. Benutzen Sie die Wörter (a - o). Jedes Wort passt nur einmal.",
+    "word_bank": {
+      "a": "ANFRAGE",
+      "b": "ANGEBOT",
+      "c": "DABEI",
+      "d": "DAFÜR",
+      "e": "DANACH",
+      "f": "DARIN",
+      "g": "DESHALB",
+      "h": "HÄTTE",
+      "i": "MIT",
+      "j": "MÖCHTE",
+      "k": "NÄMLICH",
+      "l": "UNTER",
+      "m": "WÄRE",
+      "n": "WELCHE",
+      "o": "WENN"
+    },
+    "word_bank_en": {
+      "a": "inquiry",
+      "b": "offer",
+      "c": "thereby/with it",
+      "d": "for it",
+      "e": "afterwards",
+      "f": "in it/therein",
+      "g": "therefore",
+      "h": "would have",
+      "i": "with",
+      "j": "would like",
+      "k": "namely",
+      "l": "under",
+      "m": "would be",
+      "n": "which",
+      "o": "if/when"
+    },
+    "passage": {
+      "text": "Sehr geehrte Damen und Herren,\nseit Längerem plane ich eine Wanderreise in die Sahara-Länder. Nun ist mir beim Lesen der Zeitschrift 'Berge' die Anzeige von Geo-Tours aufgefallen, denn ___31___ steht, dass Sie auf Erlebnisreisen in Wüstenregionen spezialisiert sind. Vielleicht haben Sie das richtige Angebot für uns, ___32___ für mich und meine 17-jährige Tochter. Unsere Vorstellungen sind im Einzelnen diese:\nZuerst eine Wanderreise, etwa 10 Tage, möglichst leichte Tageswanderungen (ca. 4-5 Stunden), und ___33___ ein Erholungsurlaub am Meer. Bieten Sie solche Kombinationen an? Und ___34___ ja, zu welchem Preis? Zur Wanderreise ___35___ ich noch folgende Fragen: Wird das Gepäck von einem Übernachtungsort zum nächsten transportiert? Schläft man immer ___36___ freiem Himmel? Ich ___37___ auch wissen, wie die Reisegruppen zusammengesetzt sind, ___38___ Sprache die Reiseleiterin / der Reiseleiter spricht und ob ein Arzt ___39___ ist.\nIch freue mich auf Ihr ___40___.\nMit freundlichen Grüßen,\nANNETTE LUCHSINGER",
+      "text_en": "Dear Sir or Madam,\nFor a long time I have been planning a hiking trip to the Sahara countries. Now, while reading the magazine 'Berge', I noticed the advertisement for Geo-Tours, because ___31___ it says that you specialize in adventure trips in desert regions. Perhaps you have the right offer for us, ___32___ for me and my 17-year-old daughter. Our ideas are specifically these:\nFirst a hiking trip, about 10 days, preferably easy day hikes (approx. 4-5 hours), and ___33___ a relaxing holiday by the sea. Do you offer such combinations? And ___34___ yes, at what price? Regarding the hiking trip, I ___35___ have the following questions: Will the luggage be transported from one overnight stay to the next? Do you always sleep ___36___ the open sky? I ___37___ also like to know how the travel groups are put together, ___38___ language the tour guide speaks and whether a doctor is ___39___.\nI look forward to your ___40___.\nYours sincerely,\nANNETTE LUCHSINGER",
+      "vocabulary": [
+        {
+          "de": "die Wüstenregion",
+          "en": "the desert region"
+        },
+        {
+          "de": "das Gepäck",
+          "en": "the luggage"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 31,
+        "correct_answer": "f",
+        "explanation": "'denn darin steht' means 'because in it (the ad) it says'."
+      },
+      {
+        "number": 32,
+        "correct_answer": "k",
+        "explanation": "'nämlich für mich und meine...' means 'namely for me and my...'."
+      },
+      {
+        "number": 33,
+        "correct_answer": "e",
+        "explanation": "'und danach ein Erholungsurlaub' means 'and afterwards a relaxing holiday'."
+      },
+      {
+        "number": 34,
+        "correct_answer": "o",
+        "explanation": "'Und wenn ja...' means 'And if so...'."
+      },
+      {
+        "number": 35,
+        "correct_answer": "h",
+        "explanation": "'hätte ich noch folgende Fragen' means 'I would still have the following questions'."
+      },
+      {
+        "number": 36,
+        "correct_answer": "l",
+        "explanation": "'unter freiem Himmel' is the fixed phrase for 'under the open sky / outdoors'."
+      },
+      {
+        "number": 37,
+        "correct_answer": "j",
+        "explanation": "'Ich möchte auch wissen' means 'I would also like to know'."
+      },
+      {
+        "number": 38,
+        "correct_answer": "n",
+        "explanation": "'welche Sprache' means 'which language'."
+      },
+      {
+        "number": 39,
+        "correct_answer": "c",
+        "explanation": "'ob ein Arzt dabei ist' means 'whether a doctor is present/with the group'."
+      },
+      {
+        "number": 40,
+        "correct_answer": "b",
+        "explanation": "'Ich freue mich auf Ihr Angebot' means 'I look forward to your offer'."
+      }
+    ]
+  },
+  "hoerverstehen_teil_1": {
+    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören diese Texte nur einmal. Entscheiden Sie beim Hören, ob die Aussagen 41-45 richtig (+) oder falsch (-) sind.",
+    "transcripts": [
+      {
+        "number": 41,
+        "text": "Ich finde Busfahren ehrlich gesagt nicht so gut. Der Bus ist oft zu voll und unpünktlich. Außerdem muss ich zweimal umsteigen. Deshalb nehme ich lieber mein Auto oder fahre mit dem Fahrrad. Das ist für mich einfacher und schneller. Der Bus ist nur die Notlösung.",
+        "text_en": "To be honest, I don't think taking the bus is that good. The bus is often too full and unpunctual. In addition, I have to change buses twice. That's why I prefer to take my car or ride my bike. That is easier and faster for me. The bus is only the emergency solution.",
+        "vocabulary": [
+          {
+            "de": "unpünktlich",
+            "en": "unpunctual"
+          },
+          {
+            "de": "die Notlösung",
+            "en": "the emergency solution"
+          }
+        ]
+      },
+      {
+        "number": 42,
+        "text": "Zu Fuß zur Arbeit gehen? Nein, das mache ich fast nie. Es ist zu weit, und ich brauche über eine Stunde. Ich gehe zwar manchmal spazieren, aber nicht zur Arbeit. Ich nehme meistens das Auto oder fahre mit dem Motorrad. Das ist für mich bequemer.",
+        "text_en": "Walk to work? No, I almost never do that. It is too far, and it takes me over an hour. I do go for walks sometimes, but not to work. I mostly take the car or ride my motorcycle. That is more comfortable for me.",
+        "vocabulary": [
+          {
+            "de": "bequem",
+            "en": "comfortable"
+          }
+        ]
+      },
+      {
+        "number": 43,
+        "text": "Meine Frau nimmt jeden Morgen das Auto zur Arbeit. Ich finde das völlig in Ordnung. Wir haben nur ein Auto, und sie hat einen längeren Weg. Ich fahre mit dem Fahrrad. Das klappt gut für mich, und ich bin sowieso gern draußen an der frischen Luft.",
+        "text_en": "My wife takes the car to work every morning. I think that's perfectly fine. We only have one car, and she has a longer way. I ride my bike. That works well for me, and I like being outside in the fresh air anyway.",
+        "vocabulary": [
+          {
+            "de": "völlig in Ordnung",
+            "en": "perfectly fine"
+          }
+        ]
+      },
+      {
+        "number": 44,
+        "text": "Ich fahre jeden Tag mit meinem Motorrad zur Arbeit. Es ist praktisch, weil ich keinen Parkplatz suchen muss und schneller durch den Verkehr komme. Auch bei Regen fahre ich; ich habe gute Kleidung dafür. Ich liebe mein Motorrad und fahre wirklich gern.",
+        "text_en": "I ride my motorcycle to work every day. It is practical because I don't have to look for a parking space and get through traffic faster. I also ride when it rains; I have good clothing for that. I love my motorcycle and really enjoy riding.",
+        "vocabulary": [
+          {
+            "de": "praktisch",
+            "en": "practical"
+          }
+        ]
+      },
+      {
+        "number": 45,
+        "text": "Mit dem Fahrrad zur Arbeit fahre ich eigentlich nie. Ich habe gar kein Fahrrad mehr. Ich habe mir vor zwei Jahren ein Motorrad gekauft, und das benutze ich jetzt jeden Tag. Das ist für mich einfach viel bequemer und schneller als Fahrradfahren.",
+        "text_en": "I actually never ride my bike to work. I don't even have a bike anymore. I bought a motorcycle two years ago, and I use that every day now. For me, that is simply much more comfortable and faster than cycling.",
+        "vocabulary": [
+          {
+            "de": "bequem",
+            "en": "comfortable"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "number": 41,
+        "statement": "Der Sprecher könnte sich vorstellen, mit dem Bus zur Arbeit zu fahren.",
+        "statement_en": "The speaker could imagine taking the bus to work.",
+        "correct_answer": "-",
+        "explanation": "He says 'Der Bus ist nur die Notlösung' (The bus is only the emergency solution) and that he prefers driving or biking."
+      },
+      {
+        "number": 42,
+        "statement": "Die Sprecherin geht gern zu Fuß.",
+        "statement_en": "The speaker likes to walk.",
+        "correct_answer": "-",
+        "explanation": "She says 'Zu Fuß zur Arbeit gehen? Nein, das mache ich fast nie' (Walk to work? No, I almost never do that)."
+      },
+      {
+        "number": 43,
+        "statement": "Der Sprecher findet es in Ordnung, dass seine Frau immer das Auto hat.",
+        "statement_en": "The speaker thinks it's okay that his wife always has the car.",
+        "correct_answer": "+",
+        "explanation": "He explicitly says 'Ich finde das völlig in Ordnung' (I think that's perfectly fine)."
+      },
+      {
+        "number": 44,
+        "statement": "Die Sprecherin fährt jeden Tag mit ihrem Motorrad zur Arbeit.",
+        "statement_en": "The speaker rides her motorcycle to work every day.",
+        "correct_answer": "+",
+        "explanation": "She confirms 'Ich fahre jeden Tag mit meinem Motorrad zur Arbeit' (I ride my motorcycle to work every day)."
+      },
+      {
+        "number": 45,
+        "statement": "Die Sprecherin fährt immer mit dem Fahrrad zur Arbeit.",
+        "statement_en": "The speaker always rides her bike to work.",
+        "correct_answer": "-",
+        "explanation": "She states 'Mit dem Fahrrad zur Arbeit fahre ich eigentlich nie' (I actually never ride my bike to work)."
+      }
+    ]
+  },
+  "hoerverstehen_teil_2": {
+    "instructions": "Sie hören nun ein Gespräch. Dazu sollen Sie zehn Aufgaben lösen. Sie hören das Gespräch zweimal. Entscheiden Sie beim Hören, ob die Aussagen 46-55 richtig (+) oder falsch (-) sind.",
+    "interview_transcript": {
+      "text": "Moderator: Guten Tag, Frau Böck. Vielen Dank, dass Sie heute Zeit für unser Gespräch gefunden haben.\nFrau Böck: Sehr gerne, ich freue mich, hier zu sein.\nModerator: Viele Menschen glauben, dass Ihr Verein UKI vor allem für ausländische Bürger in Österreich da ist. Stimmt das?\nFrau Böck: Viele haben diese Meinung, aber tatsächlich möchten wir, dass alle Menschen in der Stadt gut zusammenleben, egal, woher sie kommen. Es geht also nicht nur um Ausländer.\nModerator: Manche denken, dass besonders internationale Manager im Mittelpunkt stehen, vielleicht weil sie finanzielle Unterstützung leisten. Wie ist das?\nFrau Böck: Diese Annahme höre ich oft, aber bei uns stehen Familien und Studierende im Vordergrund. Die Hilfe kommt von verschiedenen Leuten, nicht nur von Managern.\nModerator: Berufstätige können abends bei Ihnen Deutsch lernen. Wie lange dauert so ein Abendkurs eigentlich?\nFrau Böck: Unsere Abendkurse für Berufstätige dauern fast 9 Monate. Wir haben das extra so organisiert, damit man genug Zeit zum Lernen hat.\nModerator: Gibt es ein besonderes Angebot für Jugendliche, die eine österreichische Hauptschule besuchen möchten?\nFrau Böck: Ja, für diese Jugendlichen haben wir einen eigenen Kurs entwickelt. Sie bekommen dort genau das, was sie für die Schule brauchen.\nModerator: Bieten Sie außer Deutschkursen noch andere Kurse an?\nFrau Böck: Natürlich, unser Angebot ist breit. Z. B. kann man auch an Kunst- oder Computerkursen teilnehmen. Es geht also nicht immer nur um die deutsche Sprache.\nModerator: Wer unterrichtet bei Ihnen? Sind die Lehrer auch in anderen Bereichen aktiv?\nFrau Böck: Das ist richtig. Viele von unseren Deutschlehrern haben auch Erfahrung im sozialen Bereich. Sie helfen den Teilnehmern oft auch bei Problemen im Alltag weiter.\nModerator: Unterstützen Ihre Mitarbeiter auch bei Problemen mit Ämtern?\nFrau Böck: Ja, das ist ein wichtiger Teil unserer Arbeit. Oft brauchen unsere Teilnehmer Hilfe bei Formularen oder bei Behördengängen, und dabei stehen unsere Sozialarbeiter zur Seite.\nModerator: Gehört die Vorbereitung von Bewerbungsunterlagen auch zum Kursangebot?\nFrau Böck: Auf jeden Fall! Im Kurs unterstützen wir die Teilnehmer dabei, Lebensläufe und Bewerbungen zu schreiben. Das ist für viele besonders hilfreich.\nModerator: Lernen Frauen und Kinder bei Ihnen gemeinsam Deutsch?\nFrau Böck: Nein, normalerweise haben wir getrennte Gruppen. Frauen und Kinder sind meist in unterschiedlichen Kursen, damit wir besser auf ihre Bedürfnisse eingehen können.\nModerator: Viele sagen, dass neue Gesetze Ihre Arbeit erschweren. Ist das wirklich so?\nFrau Böck: Natürlich gibt es immer wieder neue Vorschriften, aber manchmal erleichtern sie unsere Arbeit sogar. Einige Regeln helfen uns, die Integration besser zu unterstützen.\nModerator: Vielen Dank für die vielen Informationen.",
+      "text_en": "Moderator: Good day, Mrs. Böck. Thank you for finding the time for our conversation today.\nMrs. Böck: You're very welcome, I'm glad to be here.\nModerator: Many people believe that your association UKI is primarily there for foreign citizens in Austria. Is that true?\nMrs. Böck: Many people have this opinion, but actually we want all people in the city to live well together, no matter where they come from. So it's not just about foreigners.\nModerator: Some think that international managers in particular are the focus, perhaps because they provide financial support. How is that?\nMrs. Böck: I often hear this assumption, but our focus is on families and students. The help comes from different people, not just from managers.\nModerator: Working people can learn German with you in the evenings. How long does such an evening course actually last?\nMrs. Böck: Our evening courses for working people last almost 9 months. We organized it this way specifically so that you have enough time to learn.\nModerator: Is there a special offer for young people who want to attend an Austrian secondary school?\nMrs. Böck: Yes, we have developed our own course for these young people. There they get exactly what they need for school.\nModerator: Do you offer other courses besides German courses?\nMrs. Böck: Of course, our offer is broad. E.g., you can also take part in art or computer courses. So it's not always just about the German language.\nModerator: Who teaches at your school? Are the teachers also active in other areas?\nMrs. Böck: That is correct. Many of our German teachers also have experience in the social sector. They often help participants with everyday problems as well.\nModerator: Do your employees also support with problems with authorities?\nMrs. Böck: Yes, that is an important part of our work. Our participants often need help with forms or visits to the authorities, and our social workers are there to help.\nModerator: Is the preparation of application documents also part of the course offer?\nMrs. Böck: Definitely! In the course we support the participants in writing CVs and applications. This is particularly helpful for many.\nModerator: Do women and children learn German together with you?\nMrs. Böck: No, we normally have separate groups. Women and children are usually in different courses so that we can respond better to their needs.\nModerator: Many say that new laws make your work more difficult. Is that really so?\nMrs. Böck: Of course there are always new regulations, but sometimes they even make our work easier. Some rules help us to support integration better.\nModerator: Thank you for all the information.",
+      "vocabulary": [
+        {
+          "de": "unterstützen",
+          "en": "to support"
+        },
+        {
+          "de": "die Behörde",
+          "en": "the authority / government agency"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 46,
+        "statement": "Das Ziel des Vereins UKI ist, ausländische Bürger in Österreich zu unterstützen.",
+        "statement_en": "The goal of the association UKI is to support foreign citizens in Austria.",
+        "correct_answer": "-",
+        "explanation": "Mrs. Böck clarifies: 'Es geht also nicht nur um Ausländer' (So it's not just about foreigners)."
+      },
+      {
+        "number": 47,
+        "statement": "Der Verein wendet sich besonders an internationale Manager, weil diese den Verein finanziell unterstützen.",
+        "statement_en": "The association addresses international managers in particular because they financially support the association.",
+        "correct_answer": "-",
+        "explanation": "She says 'bei uns stehen Familien und Studierende im Vordergrund' (our focus is on families and students) and not just managers."
+      },
+      {
+        "number": 48,
+        "statement": "Die Abendkurse für Berufstätige dauern neun Monate.",
+        "statement_en": "The evening courses for working professionals last nine months.",
+        "correct_answer": "+",
+        "explanation": "She confirms: 'Unsere Abendkurse für Berufstätige dauern fast 9 Monate' (last almost 9 months)."
+      },
+      {
+        "number": 49,
+        "statement": "Es gibt einen speziellen Deutschkurs für Jugendliche, die eine österreichische Hauptschule besuchen wollen.",
+        "statement_en": "There is a special German course for young people who want to attend an Austrian secondary school.",
+        "correct_answer": "+",
+        "explanation": "She states 'Ja, für diese Jugendlichen haben wir einen eigenen Kurs entwickelt' (Yes, we have developed our own course for these young people)."
+      },
+      {
+        "number": 50,
+        "statement": "Es gibt auch Kurse, die nichts mit Deutschlernen zu tun haben.",
+        "statement_en": "There are also courses that have nothing to do with learning German.",
+        "correct_answer": "+",
+        "explanation": "She mentions one can participate in 'Kunst- oder Computerkursen' (art or computer courses)."
+      },
+      {
+        "number": 51,
+        "statement": "Die Deutschlehrer sind gleichzeitig auch Sozialarbeiter.",
+        "statement_en": "The German teachers are also social workers at the same time.",
+        "correct_answer": "-",
+        "explanation": "She says they 'haben auch Erfahrung im sozialen Bereich' (also have experience in the social sector), but does not explicitly say they are simultaneously social workers (she later mentions 'unsere Sozialarbeiter zur Seite')."
+      },
+      {
+        "number": 52,
+        "statement": "Sozialarbeiter helfen Ausländern bei Problemen mit Ämtern.",
+        "statement_en": "Social workers help foreigners with problems with authorities.",
+        "correct_answer": "+",
+        "explanation": "She confirms 'dabei stehen unsere Sozialarbeiter zur Seite' (our social workers are there to help) regarding visits to authorities."
+      },
+      {
+        "number": 53,
+        "statement": "Im Kurs werden Papiere für eine Bewerbung vorbereitet.",
+        "statement_en": "In the course, papers for an application are prepared.",
+        "correct_answer": "+",
+        "explanation": "She says 'Im Kurs unterstützen wir die Teilnehmer dabei, Lebensläufe und Bewerbungen zu schreiben' (In the course we support the participants in writing CVs and applications)."
+      },
+      {
+        "number": 54,
+        "statement": "Frauen und Kinder lernen im Unterricht gemeinsam Deutsch.",
+        "statement_en": "Women and children learn German together in class.",
+        "correct_answer": "-",
+        "explanation": "She says 'Nein, normalerweise haben wir getrennte Gruppen' (No, we normally have separate groups)."
+      },
+      {
+        "number": 55,
+        "statement": "Die Gesetze machen die Arbeit von Frau Böck schwerer.",
+        "statement_en": "The laws make Mrs. Böck's work more difficult.",
+        "correct_answer": "-",
+        "explanation": "She notes 'manchmal erleichtern sie unsere Arbeit sogar' (sometimes they even make our work easier)."
+      }
+    ]
+  },
+  "hoerverstehen_teil_3": {
+    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören jeden Text zweimal. Entscheiden Sie beim Hören, ob die Aussagen 56-60 richtig (+) oder falsch (-) sind.",
+    "transcripts": [
+      {
+        "number": 56,
+        "text": "Guten Tag, meine Damen und Herren. Wir freuen uns, Ihnen mitteilen zu können, dass Ihr Flug nach Prag pünktlich um 14:30 Uhr abfliegt. Bitte begeben Sie sich rechtzeitig zum Gate B21. Wir wünschen Ihnen eine angenehme Reise und einen schönen Aufenthalt in Prag. Vielen Dank für Ihre Aufmerksamkeit.",
+        "text_en": "Good afternoon, ladies and gentlemen. We are pleased to inform you that your flight to Prague will depart on time at 2:30 pm. Please proceed to Gate B21 in good time. We wish you a pleasant journey and a nice stay in Prague. Thank you for your attention.",
+        "vocabulary": [
+          {
+            "de": "pünktlich",
+            "en": "on time / punctual"
+          },
+          {
+            "de": "sich begeben",
+            "en": "to proceed / go to"
+          }
+        ]
+      },
+      {
+        "number": 57,
+        "text": "Willkommen im Intercity Express nach Hamburg. Im Speisewagen bieten wir Ihnen heute verschiedene warme und kalte Getränke an. Leider steht Ihnen dort kein Internetzugang zur Verfügung. Internet können Sie nur in den regulären Sitzbereichen nutzen. Unser Personal hilft Ihnen gerne bei weiteren Fragen. Guten Appetit und eine angenehme Fahrt.",
+        "text_en": "Welcome to the Intercity Express to Hamburg. In the dining car today we offer you various hot and cold drinks. Unfortunately, internet access is not available to you there. You can only use the internet in the regular seating areas. Our staff will be happy to help you with any further questions. Enjoy your meal and have a pleasant journey.",
+        "vocabulary": [
+          {
+            "de": "zur Verfügung stehen",
+            "en": "to be available"
+          },
+          {
+            "de": "der Speisewagen",
+            "en": "the dining car"
+          }
+        ]
+      },
+      {
+        "number": 58,
+        "text": "Herzlich willkommen bei der Stadtbibliothek. Unsere persönliche Beratung ist von Montag bis Freitag ab 8 Uhr für Sie geöffnet. Sie können Fragen stellen, Bücher ausleihen oder Hilfe bei Recherchen bekommen. Kommen Sie einfach vorbei. Unser Team freut sich auf Ihren Besuch. Wir wünschen Ihnen einen schönen Tag.",
+        "text_en": "Welcome to the city library. Our personal consultation is open for you from Monday to Friday from 8 am. You can ask questions, borrow books, or get help with research. Just drop by. Our team looks forward to your visit. We wish you a nice day.",
+        "vocabulary": [
+          {
+            "de": "ausleihen",
+            "en": "to borrow"
+          },
+          {
+            "de": "die Recherche",
+            "en": "the research"
+          }
+        ]
+      },
+      {
+        "number": 59,
+        "text": "Liebe Hörerinnen und Hörer, das Hörspiel 'Katzen in der Nacht' läuft heute Abend um 19:30 Uhr. Schalten Sie rechtzeitig ein und erleben Sie eine spannende Geschichte. Morgen gibt es eine Wiederholung erst um 22 Uhr. Wir wünschen Ihnen viel Spaß beim Zuhören und einen gemütlichen Abend.",
+        "text_en": "Dear listeners, the radio play 'Cats in the Night' is on tonight at 7:30 pm. Tune in in good time and experience an exciting story. Tomorrow there is a repeat, but not until 10 pm. We wish you a lot of fun listening and a cozy evening.",
+        "vocabulary": [
+          {
+            "de": "das Hörspiel",
+            "en": "the radio play"
+          },
+          {
+            "de": "die Wiederholung",
+            "en": "the repeat / replay"
+          }
+        ]
+      },
+      {
+        "number": 60,
+        "text": "Sehr geehrte Fluggäste, wir möchten Sie informieren, dass unser Flug nach Leipzig mit einer Verspätung von 20 Minuten landen wird. Wir bitten um Ihr Verständnis und hoffen, Sie bald sicher am Zielort begrüßen zu dürfen. Vielen Dank für Ihre Geduld und eine gute Weiterreise in Leipzig.",
+        "text_en": "Dear passengers, we would like to inform you that our flight to Leipzig will land with a delay of 20 minutes. We ask for your understanding and hope to welcome you safely at your destination soon. Thank you for your patience and a good onward journey in Leipzig.",
+        "vocabulary": [
+          {
+            "de": "die Verspätung",
+            "en": "the delay"
+          },
+          {
+            "de": "die Geduld",
+            "en": "the patience"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "number": 56,
+        "statement": "Ihr Flug nach Prag ist nicht pünktlich.",
+        "statement_en": "Your flight to Prague is not on time.",
+        "correct_answer": "-",
+        "explanation": "The announcement says 'dass Ihr Flug nach Prag pünktlich um 14:30 Uhr abfliegt' (departs on time)."
+      },
+      {
+        "number": 57,
+        "statement": "Im Speisewagen kann man ins Internet gehen.",
+        "statement_en": "You can go on the internet in the dining car.",
+        "correct_answer": "-",
+        "explanation": "The audio states 'leider steht Ihnen dort kein Internetzugang zur Verfügung' (unfortunately no internet access is available there)."
+      },
+      {
+        "number": 58,
+        "statement": "Montags bis freitags ab 8:00 Uhr kann man sich persönlich beraten lassen.",
+        "statement_en": "From Monday to Friday from 8:00 a.m. you can get personal advice.",
+        "correct_answer": "+",
+        "explanation": "The library states 'Unsere persönliche Beratung ist von Montag bis Freitag ab 8 Uhr für Sie geöffnet' (Our personal consultation is open for you... from 8 am)."
+      },
+      {
+        "number": 59,
+        "statement": "Das Hörspiel Katzen in der Nacht wird morgen um 20:30 Uhr gesendet.",
+        "statement_en": "The radio play Cats in the Night will be broadcast tomorrow at 8:30 p.m.",
+        "correct_answer": "-",
+        "explanation": "It runs 'heute Abend um 19:30 Uhr' (tonight at 7:30 pm), and the repeat tomorrow is 'erst um 22 Uhr' (not until 10 pm)."
+      },
+      {
+        "number": 60,
+        "statement": "Das Flugzeug landet mit 20 Minuten Verspätung in Leipzig.",
+        "statement_en": "The plane lands in Leipzig with a 20-minute delay.",
+        "correct_answer": "+",
+        "explanation": "The announcement confirms 'dass unser Flug nach Leipzig mit einer Verspätung von 20 Minuten landen wird' (land with a delay of 20 minutes)."
+      }
+    ]
+  }
+}

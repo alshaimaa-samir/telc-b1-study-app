@@ -1,0 +1,982 @@
+{
+  "title": "CAROLINE",
+  "leseverstehen_teil_1": {
+    "headings": {
+      "a": "Familienbildung Schwerpunkt Beruf und Familie",
+      "b": "Demonstration gegen Fluglärm",
+      "c": "Flughafen Frankfurt wird 10 Jahre",
+      "d": "Flughafen Frankfurt beliebter Veranstaltungsort",
+      "e": "Experten gegen Vergrößerung des Flughafens",
+      "f": "Diskussion über Flughafen und Arbeitsplätze",
+      "g": "Neue Kurse: Spiele für Mütter und Kinder",
+      "h": "Umwelt und Flughafen: Ein Informationsabend der Bürger",
+      "i": "Neue Kurse für Kinder",
+      "j": "Neue Kurse: Museumsführung für junge Väter"
+    },
+    "headings_en": {
+      "a": "Family education focus on career and family",
+      "b": "Demonstration against aircraft noise",
+      "c": "Frankfurt Airport turns 10 years old",
+      "d": "Frankfurt Airport popular event location",
+      "e": "Experts against enlargement of the airport",
+      "f": "Discussion about airport and jobs",
+      "g": "New courses: Games for mothers and children",
+      "h": "Environment and airport: An information evening for citizens",
+      "i": "New courses for children",
+      "j": "New courses: Museum tour for young fathers"
+    },
+    "passages": [
+      {
+        "number": 1,
+        "text": "Der Frankfurter Flughafen wird weiter ausgebaut. Eine Gruppe von Frankfurter Bürgern aus den östlichen Stadtteilen, die sich seit Jahren aktiv für den Naturschutz und die Umwelt einsetzt, lädt für Donnerstag dieser Woche um 19.30 Uhr zu einem Informationsabend über den Ausbau des Frankfurter Flughafens ein. Im Bürgerhaus Ostend, Parkstraße 24, Clubraum 12, werden verschiedene Sprecher zu hören sein. Die Gruppe möchte Antworten auf folgende Fragen suchen: Wie viel Lärm durch Flugzeuge verträgt die Stadt? Oder: Welche Auswirkungen hat der Flugverkehr auf Umwelt und Natur?",
+        "text_en": "Frankfurt Airport is being further expanded. A group of Frankfurt citizens from the eastern districts, who have been actively campaigning for nature conservation and the environment for years, is inviting people to an information evening on the expansion of Frankfurt Airport this Thursday at 7:30 p.m. Various speakers will be heard in the Ostend community center, Parkstraße 24, club room 12. The group would like to seek answers to the following questions: How much aircraft noise can the city tolerate? Or: What effects does air traffic have on the environment and nature?",
+        "correct_answer": "h",
+        "explanation": "The text announces an 'Informationsabend' (information evening) organized by citizens concerned about the environment ('Naturschutz und Umwelt') regarding the airport expansion. This matches heading 'h'.",
+        "vocabulary": [
+          {
+            "de": "der Naturschutz",
+            "en": "nature conservation"
+          },
+          {
+            "de": "die Auswirkung",
+            "en": "the impact / effect"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "text": "Der Frankfurter Flughafen erfreut sich bei vielen Firmen als beliebter Ort für Veranstaltungen und Tagungen. Dies zeigt ein Bericht des Frankfurter Flughafens, der beim zehnjährigen Jubiläum des Kongresszentrums vorgelegt wurde. Im Jubiläumsjahr haben am Frankfurter Flughafen 6800 Veranstaltungen mit insgesamt 72000 Teilnehmern stattgefunden. Im Jahr davor waren es nur 6300 Veranstaltungen mit 70000 Gästen. Im Kongresszentrum, das direkt gegenüber dem Hauptgebäude des Flughafens liegt, gibt es 28 Konferenzräume für bis zu 200 Teilnehmer. Modernste Technik wie Laptop-Anschlüsse und Internetzugänge in allen Konferenzräumen sind ebenso vorhanden wie ein Dolmetscherdienst und verschiedene Speisemöglichkeiten. Eine transportable Videokonferenz-Anlage ermöglicht Verbindungen in die ganze Welt.",
+        "text_en": "Frankfurt Airport is enjoyed by many companies as a popular venue for events and conferences. This is shown by a report from Frankfurt Airport presented at the tenth anniversary of the congress center. In the anniversary year, 6,800 events with a total of 72,000 participants took place at Frankfurt Airport. The year before, there were only 6,300 events with 70,000 guests. In the congress center, which is located directly opposite the main terminal building, there are 28 conference rooms for up to 200 participants. State-of-the-art technology such as laptop connections and internet access in all conference rooms are available, as well as an interpreting service and various dining options. A transportable video conference system enables connections all over the world.",
+        "correct_answer": "d",
+        "explanation": "The text explains how the airport is a popular location ('beliebter Ort') for events and conferences ('Veranstaltungen und Tagungen'). This explicitly matches heading 'd'.",
+        "vocabulary": [
+          {
+            "de": "das Jubiläum",
+            "en": "the anniversary"
+          },
+          {
+            "de": "der Dolmetscherdienst",
+            "en": "the interpreting service"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "text": "Eine Bürgergruppe mit dem Namen Südliches Frankfurt lädt für Montag kommender Woche um 19.30 Uhr ins Pfarrhaus St. Mauritius, Mauritiusstraße 14, zu einer öffentlichen Expertenbefragung zum Thema Arbeitsplätze am Frankfurter Flughafen ein. Der Gruppe liegen Berichte und Daten vor, die nach den Worten der Sprecher der Gruppe sehr fantastisch und zweifelhaft sind. Deshalb hat die Bürgergruppe Südliches Frankfurt den Personalleiter des Frankfurter Flughafens, einen Experten aus dem Wirtschaftsministerium, einen bekannten Stadtentwicklungsplaner und einen Soziologen, der sich mit der Arbeitsplatzentwicklung in der Frankfurter Region beschäftigt, eingeladen. Im Anschluss an die Vorträge der Experten haben die Gäste Zeit, Fragen zu stellen.",
+        "text_en": "A citizens' group called Southern Frankfurt invites you to a public expert questioning on the topic of jobs at Frankfurt Airport next Monday at 7:30 p.m. in the St. Mauritius parsonage, Mauritiusstraße 14. The group has reports and data that, according to the group's spokespersons, are very fantastic and doubtful. For this reason, the Southern Frankfurt citizens' group has invited the HR manager of Frankfurt Airport, an expert from the Ministry of Economics, a well-known urban development planner, and a sociologist who deals with job development in the Frankfurt region. Following the experts' presentations, guests will have time to ask questions.",
+        "correct_answer": "f",
+        "explanation": "The text invites people to an expert questioning about jobs ('Arbeitsplätze') at the airport, involving various experts and the public. This aligns with a discussion about the airport and jobs (heading 'f').",
+        "vocabulary": [
+          {
+            "de": "die Expertenbefragung",
+            "en": "the expert questioning"
+          },
+          {
+            "de": "zweifelhaft",
+            "en": "doubtful / dubious"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "text": "Das neue Halbjahresprogramm der Evangelischen Familienbildungsstätte bringt eine Übersicht über viele Veranstaltungen. Neben Kursen wie Geburtsvorbereitung und Babypflege steht diesmal das Thema Berufstätige Eltern im Mittelpunkt. In Gruppen und Kursen vor allem für Frauen geht es darum, wie sich nach der Geburt eines Kindes Beruf und Familie miteinander vereinbaren lassen. Das Verhältnis zwischen Mann und Frau spielt eine große Rolle im Angebot der Familienbildung; hierzu gibt es wieder spezielle Programme nur für Frauen oder nur für Männer. Auch zum Verhältnis der Generationen (Großeltern und Enkelkinder) gibt es wieder Angebote. Darüber hinaus wartet das Programm mit Kursen für Entspannung und Zeitmanagement auf, die bei Fragen des Alltags helfen wollen.",
+        "text_en": "The new half-year program of the Protestant Family Education Center provides an overview of many events. In addition to courses such as birth preparation and baby care, the focus this time is on the topic of working parents. Groups and courses, especially for women, are about how career and family can be reconciled after the birth of a child. The relationship between man and woman plays a major role in the family education offering; there are again special programs just for women or just for men. There are also offers regarding the relationship between generations (grandparents and grandchildren). In addition, the program offers courses for relaxation and time management, which are intended to help with everyday questions.",
+        "correct_answer": "a",
+        "explanation": "The text highlights the family education program's focus on working parents ('Berufstätige Eltern im Mittelpunkt') and reconciling career and family. This directly matches heading 'a'.",
+        "vocabulary": [
+          {
+            "de": "die Geburtsvorbereitung",
+            "en": "the birth preparation"
+          },
+          {
+            "de": "vereinbaren",
+            "en": "to reconcile / combine"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "text": "Die Volkshochschule Dornbirn bietet in den kommenden Wochen neue Kurse an. Am Mittwoch nächster Woche beginnen zwei Malkurse für Kinder. Zweieinhalb- bis vierjährige Kinder treffen sich um 15.30 Uhr, Kinder im Alter von fünf und sechs Jahren um 17.00 Uhr. Für Kinder im Alter zwischen eineinhalb und sechs Jahren und ihre Väter beginnt am Samstag um 10.00 Uhr eine feste Vater-Kind-Gruppe. Am darauffolgenden Samstag gibt es dann auch ein Treffen für Väter und Kinder bis dreieinhalb Jahren. Etwas anderes ist die Kultur- und Kreativwerkstatt am Montag nächster Woche. Aus Ton und Erde sollen Figuren nach afrikanischen Beispielen gebastelt werden. Zur Vorbereitung treffen sich die Teilnehmer am kommenden Montag zuerst im Museum. Anmeldung spätestens morgen bis 15.00 Uhr.",
+        "text_en": "The Dornbirn Adult Education Center is offering new courses in the coming weeks. Two painting courses for children will begin on Wednesday next week. Two-and-a-half to four-year-old children meet at 3:30 p.m., children aged five and six at 5:00 p.m. For children between the ages of one-and-a-half and six and their fathers, a fixed father-child group begins on Saturday at 10:00 a.m. On the following Saturday there will also be a meeting for fathers and children up to three and a half years of age. Something else is the cultural and creative workshop on Monday next week. Figures based on African examples are to be made from clay and earth. To prepare, participants will first meet at the museum next Monday. Registration by 3:00 p.m. tomorrow at the latest.",
+        "correct_answer": "i",
+        "explanation": "The text introduces several new courses, specifically aimed at children (painting courses, creative workshop). This matches heading 'i' (New courses for children).",
+        "vocabulary": [
+          {
+            "de": "basteln",
+            "en": "to craft / to make"
+          },
+          {
+            "de": "der Ton",
+            "en": "the clay"
+          }
+        ]
+      }
+    ]
+  },
+  "leseverstehen_teil_2": {
+    "passage": {
+      "headline": "Computerprobleme – ein Kinderspiel",
+      "subheadline": "Anne und Melanie (beide 6) stehen Erzieherinnen mit Vorschlägen hilfreich zur Seite",
+      "paragraphs": [
+        "Sie sind die Problemlöser im Kindergarten an der Munckerstraße. Wenn das Malprogramm spinnt, plötzlich ein Spiel auftaucht, das keiner kennt, dann rufen die Erzieherinnen nach Anne und Melanie. Die sind zwar erst sechs Jahre alt, aber mit den Computerspielen kennen sie sich aus. \"Die Kinder wissen manchmal mehr als wir\", sagt Eva Schilling, Leiterin des Kindergartens. Gelernt haben die beiden ihr Know-how bei \"Multimedia-Landschaften für Kinder\", einem Projekt, das das Schulamt zusammen mit dem \"Studio im Netz\" gestartet hat.",
+        "Im Rahmen dieses Projekts werden in städtischen Kindergärten zwei Wanderstationen mit je drei Multimedia-Computern und einem Farbdrucker installiert. Die Stationen wandern durch 14 Kindergärten, wo sie jeweils für vier Wochen installiert werden. Mit dabei in den Kindergärten: ein ganzer Satz von Spiel-Software.",
+        "Vierjährige am Computer? \"In Pädagogenkreisen sind viele Berührungsängste da\", weiß Edith Ilg, Fachberaterin für Kindergärten beim Schulamt, \"aber wir können uns aus dieser Entwicklung nicht ausklinken. Die Kinder wollen sich mit ihrer Umwelt auseinandersetzen.\" Angefangen hat diese Auseinandersetzung im \"Studio im Netz\" – 193 Kinder waren eingeladen, um erste Erfahrungen am Computer zu sammeln. \"Die Kinder waren absolut begeistert, haben immer wieder gefragt: Wann gehen wir da wieder hin?\", so Frau Ilg.",
+        "Bevor jedoch die Computer in die Kindergärten kamen, waren die Eltern aufzuklären. Bei manchen Eltern löste das Stichwort Computer akute Ängste aus, nach dem Motto: Mein fröhliches, gesundes Kind setzt sich vor den Computer und steht sechs Stunden später krank, sprachlos und einsam wieder auf.",
+        "Diese Ängste haben sich inzwischen gelegt und die Erfahrung vor Ort zeigt, dass sie weitgehend überflüssig sind. Die Erzieherinnen achten auch darauf, dass die Kinder nie länger als 15 bis 20 Minuten vor den Computern sitzen, und holen vor allem kreative Software auf den Bildschirm.",
+        "Das einsame Dämmern vor dem Computer ist wohl ohnehin eher Sache der Erwachsenen – die Kinder spielen immer zu zweit oder zu dritt an der Maschine. Eva Schilling hat beobachtet, dass die Kinder am Computer sehr friedlich miteinander umgehen; sie helfen sich gegenseitig, es gibt wenig Konflikte. Dabei entwickeln gerade Kinder, die sich sonst nur schwer auf etwas konzentrieren können, plötzlich ungeahnte Konzentrationszeiten. Eva Schilling kann sich deshalb die Computer als Dauereinrichtung im Kindergarten vorstellen."
+      ],
+      "text_en": "Computer problems - child's play\nAnne and Melanie (both 6) are on hand to help kindergarten teachers with suggestions\nThey are the problem solvers in the kindergarten on Munckerstraße. If the painting program goes crazy, or a game suddenly appears that nobody knows, the kindergarten teachers call for Anne and Melanie. They are only six years old, but they know their way around computer games. \"The children sometimes know more than we do,\" says Eva Schilling, head of the kindergarten. The two learned their know-how at 'Multimedia Landscapes for Children', a project launched by the school authority together with the 'Studio in the Net'.\nAs part of this project, two traveling stations, each with three multimedia computers and a color printer, will be installed in municipal kindergartens. The stations travel through 14 kindergartens, where they are installed for four weeks at a time. Also included in the kindergartens: a whole set of game software.\nFour-year-olds on the computer? \"In educational circles there is a lot of fear of contact,\" knows Edith Ilg, specialist advisor for kindergartens at the school authority, \"but we cannot opt out of this development. Children want to engage with their environment.\" This engagement began in the 'Studio in the Net' - 193 children were invited to gain their first experiences on the computer. \"The children were absolutely thrilled, kept asking: When are we going there again?\" said Ms. Ilg.\nBefore the computers came into the kindergartens, however, the parents had to be informed. For some parents, the keyword computer triggered acute fears, along the lines of: My happy, healthy child sits down in front of the computer and gets up six hours later sick, speechless, and lonely.\nThese fears have since subsided and experience on site shows that they are largely superfluous. The educators also ensure that the children never sit in front of the computers for more than 15 to 20 minutes, and primarily bring creative software to the screen.\nLonely dozing in front of the computer is probably more a thing for adults anyway - the children always play in twos or threes at the machine. Eva Schilling has observed that the children treat each other very peacefully at the computer; they help each other, there are few conflicts. Children who otherwise have difficulty concentrating on something suddenly develop unimagined periods of concentration. Eva Schilling can therefore imagine computers as a permanent fixture in the kindergarten.",
+      "vocabulary": [
+        {
+          "de": "die Berührungsangst",
+          "en": "the fear of contact / apprehension"
+        },
+        {
+          "de": "ausklinken",
+          "en": "to opt out / disengage"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 6,
+        "question": "Das Schulamt hat ein Projekt gestartet, bei dem...",
+        "question_en": "The school board started a project in which...",
+        "options": {
+          "a": "Computer in Kindergärten aufgestellt werden.",
+          "b": "Computerspiele für Vierjährige entwickelt werden sollen.",
+          "c": "Kinder neue Farbdrucker ausprobieren sollen."
+        },
+        "options_en": {
+          "a": "computers are set up in kindergartens.",
+          "b": "computer games for four-year-olds are to be developed.",
+          "c": "children are to try out new color printers."
+        },
+        "correct_answer": "a",
+        "explanation": "The text states: 'werden in städtischen Kindergärten zwei Wanderstationen mit je drei Multimedia-Computern... installiert' (traveling stations with multimedia computers are installed in kindergartens)."
+      },
+      {
+        "number": 7,
+        "question": "Die Kinder...",
+        "question_en": "The children...",
+        "options": {
+          "a": "hatten großen Spaß bei dem Projekt.",
+          "b": "wollten lieber draußen im Freien spielen.",
+          "c": "wussten nicht, wann sie ins Studio im Netz gehen sollten."
+        },
+        "options_en": {
+          "a": "had great fun with the project.",
+          "b": "preferred to play outside in the open air.",
+          "c": "didn't know when they were supposed to go to the studio on the net."
+        },
+        "correct_answer": "a",
+        "explanation": "The text mentions: 'Die Kinder waren absolut begeistert' (The children were absolutely thrilled)."
+      },
+      {
+        "number": 8,
+        "question": "Eltern fürchten, dass...",
+        "question_en": "Parents fear that...",
+        "options": {
+          "a": "der Computer ihren Kindern schadet.",
+          "b": "ihre Kinder nicht so früh aufstehen können.",
+          "c": "ihre Kinder vor dem Computer Angst haben."
+        },
+        "options_en": {
+          "a": "the computer harms their children.",
+          "b": "their children cannot get up so early.",
+          "c": "their children are afraid of the computer."
+        },
+        "correct_answer": "a",
+        "explanation": "Parents had acute fears that the child sits at the computer and gets up 'krank, sprachlos und einsam' (sick, speechless, and lonely)."
+      },
+      {
+        "number": 9,
+        "question": "Die Erzieherinnen...",
+        "question_en": "The educators...",
+        "options": {
+          "a": "arbeiten jeden Tag 15 bis 20 Minuten am Computer.",
+          "b": "spielen immer mit zwei oder drei Kindern am Computer.",
+          "c": "wählen für die Kinder die Software aus."
+        },
+        "options_en": {
+          "a": "work on the computer for 15 to 20 minutes every day.",
+          "b": "always play with two or three children on the computer.",
+          "c": "choose the software for the children."
+        },
+        "correct_answer": "c",
+        "explanation": "The text notes that the educators 'holen vor allem kreative Software auf den Bildschirm' (primarily bring creative software to the screen), meaning they select it."
+      },
+      {
+        "number": 10,
+        "question": "Wenn die Kinder am Computer sitzen, dann...",
+        "question_en": "When the children sit at the computer, then...",
+        "options": {
+          "a": "gibt es häufig Streit.",
+          "b": "hilft ein Kind dem anderen.",
+          "c": "können sich die meisten nicht lange konzentrieren."
+        },
+        "options_en": {
+          "a": "there are frequent arguments.",
+          "b": "one child helps the other.",
+          "c": "most cannot concentrate for long."
+        },
+        "correct_answer": "b",
+        "explanation": "Eva Schilling observed that 'sie helfen sich gegenseitig, es gibt wenig Konflikte' (they help each other, there are few conflicts)."
+      }
+    ]
+  },
+  "leseverstehen_teil_3": {
+    "advertisements": {
+      "a": {
+        "title": "Institut Grünberger",
+        "subtitle": "Bildung",
+        "lines": [
+          "Institut Grünberger",
+          "Wien, direkt beim Hauptbahnhof",
+          "Tel. 061-810-010"
+        ],
+        "image": "data/images/caroline_ad_a.png",
+        "text_en": "Grünberger Institute. Vienna, directly at the main train station.",
+        "vocabulary": []
+      },
+      "b": {
+        "title": "Bayrische Spezialitäten",
+        "subtitle": "Gastronomie",
+        "lines": [
+          "Bayrische Spezialitäten",
+          "Genießen Sie unsere Küche."
+        ],
+        "image": "data/images/caroline_ad_b.png",
+        "text_en": "Bavarian specialties. Enjoy our cuisine.",
+        "vocabulary": []
+      },
+      "c": {
+        "title": "Käse aus Bayern",
+        "subtitle": "Einkaufen",
+        "lines": [
+          "Käsespezialitäten direkt vom Bauernhof."
+        ],
+        "image": "data/images/caroline_ad_c.png",
+        "text_en": "Cheese specialties directly from the farm.",
+        "vocabulary": []
+      },
+      "d": {
+        "title": "Fischspezialitäten",
+        "subtitle": "Gastronomie",
+        "lines": [
+          "Fischspezialitäten",
+          "Das Restaurant mit gepflegter Gastlichkeit in der Altstadt."
+        ],
+        "image": "data/images/caroline_ad_d.png",
+        "text_en": "Fish specialties. The restaurant with cultivated hospitality in the old town.",
+        "vocabulary": []
+      },
+      "e": {
+        "title": "Amadeus",
+        "subtitle": "Kultur",
+        "lines": [
+          "Amadeus",
+          "Klavierkonzert",
+          "Freitag und Samstag"
+        ],
+        "image": "data/images/caroline_ad_e.png",
+        "text_en": "Amadeus. Piano concert. Friday and Saturday.",
+        "vocabulary": []
+      },
+      "f": {
+        "title": "Museum Füssen",
+        "subtitle": "Museum",
+        "lines": [
+          "Museum Füssen",
+          "Geöffnet Montag bis Sonntag."
+        ],
+        "image": "data/images/caroline_ad_f.png",
+        "text_en": "Füssen Museum. Open Monday to Sunday.",
+        "vocabulary": []
+      },
+      "g": {
+        "title": "Sprachkurs CD",
+        "subtitle": "Bildung",
+        "lines": [
+          "Sprachkurs auf CD",
+          "Lernen Sie zu Hause."
+        ],
+        "image": "data/images/caroline_ad_g.png",
+        "text_en": "Language course on CD. Learn at home.",
+        "vocabulary": []
+      },
+      "h": {
+        "title": "Alfa Sprachreisen",
+        "subtitle": "Reisen",
+        "lines": [
+          "Alfa Sprachreisen",
+          "Sprachreisen weltweit."
+        ],
+        "image": "data/images/caroline_ad_h.png",
+        "text_en": "Alfa Language Travel. Language trips worldwide.",
+        "vocabulary": []
+      },
+      "i": {
+        "title": "Fremdsprachen für Kinder",
+        "subtitle": "Kurse",
+        "lines": [
+          "Fremdsprachen für Kinder",
+          "Ferienkurse ab 10 Jahren."
+        ],
+        "image": "data/images/caroline_ad_i.png",
+        "text_en": "Foreign languages for children. Holiday courses from 10 years.",
+        "vocabulary": []
+      },
+      "j": {
+        "title": "Deutschkurs Wien",
+        "subtitle": "Kurse",
+        "lines": [
+          "Deutschkurs in Wien",
+          "Alle Niveaus."
+        ],
+        "image": "data/images/caroline_ad_j.png",
+        "text_en": "German course in Vienna. All levels.",
+        "vocabulary": []
+      },
+      "k": {
+        "title": "Fischrestaurant am See",
+        "subtitle": "Gastronomie",
+        "lines": [
+          "Fischrestaurant am See",
+          "Täglich frischer Fisch."
+        ],
+        "image": "data/images/caroline_ad_k.png",
+        "text_en": "Seafood restaurant by the lake. Fresh fish daily.",
+        "vocabulary": []
+      },
+      "l": {
+        "title": "Restaurant & Hotel",
+        "subtitle": "Gastronomie",
+        "lines": [
+          "Feiern und Übernachten",
+          "Das ideale Restaurant für Ihre Geburtstagsfeier inklusive Hotelzimmer."
+        ],
+        "image": "data/images/caroline_ad_l.png",
+        "text_en": "Restaurant & Hotel. Celebrate and stay overnight. The ideal restaurant for your birthday party including hotel room.",
+        "vocabulary": []
+      }
+    },
+    "situations": [
+      {
+        "number": 11,
+        "situation": "Sie wollen am Wochenende gerne in ein Klavierkonzert gehen.",
+        "situation_en": "You would like to go to a piano concert on the weekend.",
+        "correct_answer": "e",
+        "explanation": "Ad 'e' advertises an Amadeus 'Klavierkonzert' (piano concert) on Friday and Saturday (weekend)."
+      },
+      {
+        "number": 12,
+        "situation": "Sie sind in Füssen und wollen am Montag ins Museum gehen.",
+        "situation_en": "You are in Füssen and want to go to the museum on Monday.",
+        "correct_answer": "f",
+        "explanation": "Ad 'f' is for the 'Museum Füssen' and explicitly states it is open Monday to Sunday."
+      },
+      {
+        "number": 13,
+        "situation": "Sie sind in Süddeutschland im Urlaub und möchten gerne eine bayerische Spezialität essen.",
+        "situation_en": "You are on vacation in southern Germany and would like to eat a Bavarian specialty.",
+        "correct_answer": "b",
+        "explanation": "Ad 'b' is a restaurant offering typical Bavarian food ('Bayrische Spezialitäten')."
+      },
+      {
+        "number": 14,
+        "situation": "Sie haben sich mit Bekannten zu einem Fischessen verabredet.",
+        "situation_en": "You have arranged to meet friends for a fish dinner.",
+        "correct_answer": "k",
+        "explanation": "Ad 'k' is a seafood restaurant ('Fischrestaurant')."
+      },
+      {
+        "number": 15,
+        "situation": "Sie sind in Bayern und wollen Käsespezialitäten einkaufen.",
+        "situation_en": "You are in Bavaria and want to buy cheese specialties.",
+        "correct_answer": "c",
+        "explanation": "Ad 'c' advertises cheese specialties ('Käsespezialitäten')."
+      },
+      {
+        "number": 16,
+        "situation": "Sie möchten einen Deutschkurs in Wien besuchen.",
+        "situation_en": "You want to attend a German course in Vienna.",
+        "correct_answer": "j",
+        "explanation": "Ad 'j' offers German courses in Vienna ('Deutschkurs Wien')."
+      },
+      {
+        "number": 17,
+        "situation": "Ihr 16-jähriger Sohn soll in den Ferien im Ausland Englisch lernen.",
+        "situation_en": "Your 16-year-old son should learn English abroad during the holidays.",
+        "correct_answer": "h",
+        "explanation": "Ad 'h' refers to 'Sprachreisen' (Language travel)."
+      },
+      {
+        "number": 18,
+        "situation": "Sie interessieren sich für einen Sprachkurs auf CD.",
+        "situation_en": "You are interested in a language course on CD.",
+        "correct_answer": "x",
+        "explanation": "There are no suitable ads matching this perfectly according to the official key."
+      },
+      {
+        "number": 19,
+        "situation": "Sie wollen, dass Ihre 10-jährige Tochter in den Ferien eine Fremdsprache lernt.",
+        "situation_en": "You want your 10-year-old daughter to learn a foreign language during the holidays.",
+        "correct_answer": "x",
+        "explanation": "According to the official key, no appropriate ad fulfills these specific constraints."
+      },
+      {
+        "number": 20,
+        "situation": "Eine Bekannte will ihren Geburtstag in einem Restaurant feiern und dort auch übernachten.",
+        "situation_en": "An acquaintance wants to celebrate her birthday in a restaurant and also stay overnight there.",
+        "correct_answer": "l",
+        "explanation": "Ad 'l' specifically offers a restaurant for birthday celebrations that includes hotel rooms ('Feiern und Übernachten')."
+      }
+    ]
+  },
+  "sprachbausteine_teil_1": {
+    "instructions": "Lesen Sie den Text und schließen Sie die Lücken 21-30. Welche Lösung (a, b oder c) ist jeweils richtig?",
+    "passage": {
+      "text": "Liebe Catherine,\nseit ich dir das letzte Mal von meinem Sprachaufenthalt in der Schweiz ___21___ habe, ist viel passiert. Ich kenne ___22___ Land jetzt schon recht gut.\nDie Schweiz ist ja wirklich nicht groß. ___23___ in jeder Gegend wird ein anderer Dialekt oder gar eine andere Sprache gesprochen. Das ist ___24___ mich fast unglaublich! Bei uns in Australien fährt man mit dem Auto 24 Stunden lang geradeaus, und ___25___ man ankommt, dann sprechen die Leute dort immer noch dieselbe Sprache. Am Anfang hat mich das Sprachgemisch ___26___ sehr verwirrt, aber ___27___ verstehe ich fast alles, wenn jemand auf Schweizerdeutsch zu mir spricht. Ich kann aber nur auf Hochdeutsch antworten.\nZwischen der Schule hier und unserem Schulsystem in Australien gibt es einige ___28___: In der Schweiz sprechen die Lehrer viel und die Schüler ___29___ Vieles im Kopf behalten oder aufschreiben. In Australien arbeiten wir meistens im Rahmen von Projekten und machen eigentlich alle Aufgaben auf ___30___ Computer.\nViele Grüße,\nJack",
+      "text_en": "Dear Catherine,\nSince I last ___21___ you about my language stay in Switzerland, much has happened. I know ___22___ country quite well now.\nSwitzerland is really not big. ___23___ in every region a different dialect or even a different language is spoken. That is almost unbelievable ___24___ me! With us in Australia you drive a car straight ahead for 24 hours, and ___25___ you arrive, the people there still speak the same language. In the beginning, the mixture of languages ___26___ confused me a lot, but ___27___ I understand almost everything when someone speaks to me in Swiss German. But I can only answer in High German.\nBetween the school here and our school system in Australia there are some ___28___: In Switzerland the teachers speak a lot and the students ___29___ keep many things in their heads or write them down. In Australia we mostly work within the framework of projects and actually do all tasks on ___30___ computer.\nMany greetings,\nJack",
+      "vocabulary": [
+        {
+          "de": "unglaublich",
+          "en": "unbelievable"
+        },
+        {
+          "de": "verwirrt",
+          "en": "confused"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 21,
+        "options": {
+          "a": "erzähle",
+          "b": "erzählen",
+          "c": "erzählt"
+        },
+        "correct_answer": "c",
+        "explanation": "The perfect tense with 'habe' requires the past participle: 'erzählt habe' (have told)."
+      },
+      {
+        "number": 22,
+        "options": {
+          "a": "diese",
+          "b": "diesen",
+          "c": "dieses"
+        },
+        "correct_answer": "c",
+        "explanation": "'Land' is neuter. The accusative is 'dieses Land'."
+      },
+      {
+        "number": 23,
+        "options": {
+          "a": "Aber",
+          "b": "Obwohl",
+          "c": "Sondern"
+        },
+        "correct_answer": "a",
+        "explanation": "'Aber' (But) introduces the contrast: The country is small, BUT in every region a different dialect is spoken."
+      },
+      {
+        "number": 24,
+        "options": {
+          "a": "an",
+          "b": "für",
+          "c": "vor"
+        },
+        "correct_answer": "b",
+        "explanation": "'Das ist für mich...' means 'That is for me...'."
+      },
+      {
+        "number": 25,
+        "options": {
+          "a": "als",
+          "b": "wann",
+          "c": "wenn"
+        },
+        "correct_answer": "c",
+        "explanation": "'wenn man ankommt' means 'when one arrives' (conditional/temporal)."
+      },
+      {
+        "number": 26,
+        "options": {
+          "a": "denn",
+          "b": "ganz",
+          "c": "schon"
+        },
+        "correct_answer": "c",
+        "explanation": "The particle 'schon' emphasizes the degree of confusion: 'hat mich... schon sehr verwirrt' (did indeed confuse me a lot)."
+      },
+      {
+        "number": 27,
+        "options": {
+          "a": "früher",
+          "b": "jetzt",
+          "c": "seit"
+        },
+        "correct_answer": "b",
+        "explanation": "'aber jetzt verstehe ich' contrasts with the previous sentence ('Am Anfang')."
+      },
+      {
+        "number": 28,
+        "options": {
+          "a": "Unterschied",
+          "b": "Unterschiede",
+          "c": "Unterschieden"
+        },
+        "correct_answer": "b",
+        "explanation": "'einige' takes the plural: 'einige Unterschiede' (some differences)."
+      },
+      {
+        "number": 29,
+        "options": {
+          "a": "brauchen",
+          "b": "haben",
+          "c": "müssen"
+        },
+        "correct_answer": "c",
+        "explanation": "'die Schüler müssen Vieles im Kopf behalten' means 'the students must keep many things in their heads'."
+      },
+      {
+        "number": 30,
+        "options": {
+          "a": "dem",
+          "b": "den",
+          "c": "der"
+        },
+        "correct_answer": "a",
+        "explanation": "Dative case after 'auf' indicating location/medium: 'auf dem Computer' (on the computer)."
+      }
+    ]
+  },
+  "sprachbausteine_teil_2": {
+    "instructions": "Lesen Sie den Text und schließen Sie die Lücken 31-40. Benutzen Sie die Wörter (a - o). Jedes Wort passt nur einmal.",
+    "word_bank": {
+      "a": "BEI",
+      "b": "BEREITS",
+      "c": "EINMAL",
+      "d": "EURE",
+      "e": "GANZ",
+      "f": "GARANTIEREN",
+      "g": "GESTRN",
+      "h": "KÖNNEN",
+      "i": "MACHEN",
+      "j": "NUR",
+      "k": "STATT",
+      "l": "TECHNISCH",
+      "m": "ÜBER",
+      "n": "UNSER",
+      "o": "WENN"
+    },
+    "word_bank_en": {
+      "a": "at/with",
+      "b": "already",
+      "c": "once / for once",
+      "d": "your (plural)",
+      "e": "completely",
+      "f": "guarantee",
+      "g": "yesterday",
+      "h": "can",
+      "i": "do / make",
+      "j": "only",
+      "k": "instead of",
+      "l": "technical",
+      "m": "about / over",
+      "n": "our",
+      "o": "if/when"
+    },
+    "passage": {
+      "text": "QUANTUM-SYSTEM\nDas Lotterie-Systemspiel\nOtto-Suhr-Allee 100, D-10120 Berlin\n\nSehr geehrte Lottospieler,\nwer möchte nicht auch ___31___ bei sechs Richtigen im Lotto dabei sein? Vertrauen Sie beim Lottospiel nicht ___32___ auf das Glück, denn Sie ___33___ Ihre Chancen selbst stark verbessern, ___34___ Sie mit unserem Lotterie-System spielen – und das für nur 5 Euro in der Woche!\n___35___ allein zu spielen, spielen Sie mit uns in einer starken Spielergemeinschaft. Dadurch erhöhen sich ___36___ automatisch Ihre Chancen!\nUnd was Sie gewinnen können? ___37___ unserem Quantum-System spielen Sie mit einer Chance auf einen Gewinn von 1 Million Euro! Alle Gewinne erhalten Sie umgehend und ungekürzt zu 100% - das ___38___ wir Ihnen!\nDavon habe ich mich selbst überzeugt! Spielen Sie mit uns das Quantum-System: ___39___ 700 Quantum-Systemspielgruppen haben zusammen schon über sieben Millionen Euro gewonnen.\nHerzliche Grüße,\nIhre SABINE MEIER-PÜTZ\nPS: Als besondere Gewinnchance erhalten Sie heute das Vier-Richtige-Gratisspiel. ___40___ Sie hier unbedingt mit und gewinnen Sie! Ich drücke Ihnen die Daumen...",
+      "text_en": "QUANTUM-SYSTEM\nThe Lottery System Game\nOtto-Suhr-Allee 100, D-10120 Berlin\n\nDear lottery players,\nWho wouldn't want to be there ___31___ for six correct numbers in the lottery? Do not rely ___32___ on luck when playing the lottery, because you ___33___ greatly improve your chances yourself, ___34___ you play with our lottery system - and that for only 5 euros a week!\n___35___ playing alone, you play with us in a strong gaming community. This ___36___ automatically increases your chances!\nAnd what can you win? ___37___ our Quantum system you play with a chance to win 1 million euros! You will receive all winnings immediately and without deduction at 100% - we ___38___ you that!\nI have convinced myself of this! Play the Quantum System with us: ___39___ 700 Quantum System playgroups together have already won over seven million euros.\nWarm regards,\nYours SABINE MEIER-PÜTZ\nPS: As a special chance to win, you will receive the four-correct free game today. ___40___ sure to join in here and win! I'll cross my fingers for you...",
+      "vocabulary": [
+        {
+          "de": "die Spielergemeinschaft",
+          "en": "the gaming community / syndicate"
+        },
+        {
+          "de": "ungekürzt",
+          "en": "uncut / without deduction"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 31,
+        "correct_answer": "c",
+        "explanation": "'wer möchte nicht auch einmal...' means 'who wouldn't also want to, for once...'."
+      },
+      {
+        "number": 32,
+        "correct_answer": "j",
+        "explanation": "'nicht nur auf das Glück' means 'not only on luck'."
+      },
+      {
+        "number": 33,
+        "correct_answer": "h",
+        "explanation": "'denn Sie können Ihre Chancen... verbessern' means 'because you can improve your chances'."
+      },
+      {
+        "number": 34,
+        "correct_answer": "o",
+        "explanation": "'wenn Sie mit unserem... spielen' means 'if/when you play with our...'."
+      },
+      {
+        "number": 35,
+        "correct_answer": "k",
+        "explanation": "'Statt allein zu spielen' means 'Instead of playing alone'."
+      },
+      {
+        "number": 36,
+        "correct_answer": "e",
+        "explanation": "'ganz automatisch' means 'completely automatically'."
+      },
+      {
+        "number": 37,
+        "correct_answer": "a",
+        "explanation": "'Bei unserem Quantum-System' means 'With our Quantum system'."
+      },
+      {
+        "number": 38,
+        "correct_answer": "f",
+        "explanation": "'das garantieren wir Ihnen!' means 'we guarantee you that!'."
+      },
+      {
+        "number": 39,
+        "correct_answer": "b",
+        "explanation": "'Bereits 700... Gruppen' means 'Already 700... groups'."
+      },
+      {
+        "number": 40,
+        "correct_answer": "i",
+        "explanation": "'Machen Sie hier unbedingt mit' means 'Make sure to join in here' (mitmachen = to join in / participate)."
+      }
+    ]
+  },
+  "hoerverstehen_teil_1": {
+    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören diese Texte nur einmal. Entscheiden Sie beim Hören, ob die Aussagen 41-45 richtig (+) oder falsch (-) sind.",
+    "transcripts": [
+      {
+        "number": 41,
+        "text": "Ich hatte nie das Gefühl, dass ich lieber ein Einzelkind gewesen wäre. Meine Schwester war zwar manchmal nervig, aber ich konnte immer mit ihr reden. Alleine hätte ich mich oft gelangweilt. Deshalb bin ich froh, dass ich eine Schwester habe.",
+        "text_en": "I never had the feeling that I would have preferred to be an only child. My sister was sometimes annoying, but I could always talk to her. Alone I would often have been bored. Therefore I am glad that I have a sister.",
+        "vocabulary": [
+          {
+            "de": "das Einzelkind",
+            "en": "the only child"
+          },
+          {
+            "de": "sich langweilen",
+            "en": "to be bored"
+          }
+        ]
+      },
+      {
+        "number": 42,
+        "text": "Früher hatten mein Bruder und ich oft Streit, aber heute verstehen wir uns sehr gut. Wir telefonieren regelmäßig und besuchen uns, auch wenn wir Zeit haben. Unser Verhältnis ist heute wirklich stark und ehrlich geworden. Ich bin sehr dankbar dafür.",
+        "text_en": "In the past, my brother and I often had arguments, but today we get along very well. We talk on the phone regularly and visit each other when we have time. Our relationship has become really strong and honest today. I am very grateful for that.",
+        "vocabulary": [
+          {
+            "de": "der Streit",
+            "en": "the argument / dispute"
+          },
+          {
+            "de": "das Verhältnis",
+            "en": "the relationship"
+          }
+        ]
+      },
+      {
+        "number": 43,
+        "text": "Ich bin mit zwei Schwestern aufgewachsen, und ehrlich gesagt, möchte ich keine weitere Schwester haben. Wir sind genug, um Spaß zu haben, aber mehr wäre mir zu viel. Ich bin mit meiner Familie sehr zufrieden, so wie sie ist.",
+        "text_en": "I grew up with two sisters, and to be honest, I don't want another sister. We are enough to have fun, but more would be too much for me. I am very satisfied with my family the way it is.",
+        "vocabulary": [
+          {
+            "de": "aufwachsen",
+            "en": "to grow up"
+          },
+          {
+            "de": "zufrieden",
+            "en": "satisfied"
+          }
+        ]
+      },
+      {
+        "number": 44,
+        "text": "Ich habe schon früh verstanden, dass man Rücksicht nehmen muss, wenn man mit anderen zusammenlebt. Besonders mit meinen Geschwistern musste ich oft teilen und Kompromisse machen. Das hat mir später im Leben sehr geholfen.",
+        "text_en": "I understood early on that you have to be considerate when you live with others. Especially with my siblings, I often had to share and make compromises. That helped me a lot later in life.",
+        "vocabulary": [
+          {
+            "de": "Rücksicht nehmen",
+            "en": "to be considerate"
+          },
+          {
+            "de": "teilen",
+            "en": "to share"
+          }
+        ]
+      },
+      {
+        "number": 45,
+        "text": "Meine Beziehung zu meinem Bruder ist gut. Wir reden oft, verstehen uns in vielen Dingen und können auch zusammen lachen. Natürlich gibt es ab und zu Meinungsverschiedenheiten, aber im Großen und Ganzen haben wir ein sehr harmonisches Verhältnis.",
+        "text_en": "My relationship with my brother is good. We talk often, understand each other on many things, and can also laugh together. Of course there are differences of opinion from time to time, but by and large we have a very harmonious relationship.",
+        "vocabulary": [
+          {
+            "de": "die Meinungsverschiedenheit",
+            "en": "the difference of opinion / disagreement"
+          },
+          {
+            "de": "harmonisch",
+            "en": "harmonious"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "number": 41,
+        "statement": "Die Sprecherin wäre lieber ein Einzelkind.",
+        "statement_en": "The speaker would prefer to be an only child.",
+        "correct_answer": "-",
+        "explanation": "She explicitly states: 'Ich hatte nie das Gefühl, dass ich lieber ein Einzelkind gewesen wäre' (I never had the feeling that I would have preferred to be an only child)."
+      },
+      {
+        "number": 42,
+        "statement": "Der Sprecher hat heute ein gutes Verhältnis zu seinem Bruder.",
+        "statement_en": "The speaker has a good relationship with his brother today.",
+        "correct_answer": "+",
+        "explanation": "He says 'aber heute verstehen wir uns sehr gut' (but today we get along very well)."
+      },
+      {
+        "number": 43,
+        "statement": "Die Sprecherin würde heute gern noch eine Schwester haben.",
+        "statement_en": "The speaker would like to have another sister today.",
+        "correct_answer": "-",
+        "explanation": "She clearly states 'ehrlich gesagt, möchte ich keine weitere Schwester haben' (to be honest, I don't want another sister)."
+      },
+      {
+        "number": 44,
+        "statement": "Die Sprecherin hat schon früh lernen müssen, dass man im Zusammenleben viel Rücksicht nehmen muss.",
+        "statement_en": "The speaker had to learn early on that you have to be very considerate when living together.",
+        "correct_answer": "+",
+        "explanation": "She says 'Ich habe schon früh verstanden, dass man Rücksicht nehmen muss, wenn man mit anderen zusammenlebt'."
+      },
+      {
+        "number": 45,
+        "statement": "Die Sprecherin versteht sich sehr gut mit ihrem Bruder.",
+        "statement_en": "The speaker gets along very well with her brother.",
+        "correct_answer": "+",
+        "explanation": "She says 'Meine Beziehung zu meinem Bruder ist gut... im Großen und Ganzen haben wir ein sehr harmonisches Verhältnis' (My relationship with my brother is good... we have a very harmonious relationship)."
+      }
+    ]
+  },
+  "hoerverstehen_teil_2": {
+    "instructions": "Sie hören nun ein Gespräch. Dazu sollen Sie zehn Aufgaben lösen. Sie hören das Gespräch zweimal. Entscheiden Sie beim Hören, ob die Aussagen 46-55 richtig (+) oder falsch (-) sind.",
+    "interview_transcript": {
+      "text": "Moderator: Heute sprechen wir mit Frau Wallner-Calletti über Ihr Leben in Italien. Frau Wallner-Calletti, können Sie uns erzählen, wie alles angefangen hat?\nFrau Wallner-Calletti: Natürlich. Vor einigen Jahren haben mein Mann und ich entschieden, etwas Neues auszuprobieren. Wir wollten erst einmal für ein Jahr an einer Schule in Italien unterrichten. Ursprünglich dachten wir, dass wir nur eine kurze Zeit dort bleiben. Später wurde daraus mehr, aber der erste Plan war wirklich nur für ein Jahr.\nModerator: War es schwierig, sich in Italien einzuleben? Hat das lange gedauert?\nFrau Wallner-Calletti: Es war auf jeden Fall eine große Veränderung, aber ich konnte mich schnell an viele Dinge gewöhnen. Besonders in der Küche hatte ich schon viele Erfahrungen, weil ich seit meiner Kindheit gern gekocht habe. Auch in Italien habe ich gern gekocht und neue Rezepte ausprobiert.\nModerator: In Rom gibt es ja ein Restaurant mit Ihrem Namen. Wie kam es dazu?\nFrau Wallner-Calletti: Mein Mann und ich hatten immer die Idee, ein Stück Österreich nach Italien zu bringen. Vor ein paar Jahren haben wir dann ein Wiener Restaurant in Rom eröffnet. Die Gäste freuen sich besonders über unsere Spezialitäten wie Sachertorte und Wiener Kaffee.\nModerator: Viele interessieren sich auch für Ihre Kennenlerngeschichte mit Ihrem Mann. Haben Sie ihn in einem Sprachkurs kennengelernt?\nFrau Wallner-Calletti: Nein, das war anders. Wir haben uns an der Universität getroffen, weil wir beide Studenten waren. Später habe ich dann auch einen Italienischkurs gemacht, aber wir kannten uns schon vorher.\nModerator: Gab es Schwierigkeiten mit den Behörden, als Sie nach Italien gezogen sind?\nFrau Wallner-Calletti: Manchmal dauert es ein bisschen, alle Formulare zu bekommen oder abzugeben, aber ich hatte meistens Glück und die Leute in den Ämtern waren hilfsbereit. Große Probleme hatte ich eigentlich nie.\nModerator: Viele denken, dass Sie auch ein italienisches Weinlokal besitzen. Stimmt das?\nFrau Wallner-Calletti: Ich trinke gerne italienischen Wein und probiere gern neue Sorten, aber ich habe kein eigenes Weinlokal. Unser Fokus liegt wirklich nur auf dem Restaurant.\nModerator: Wie ist das mit den Sprachen in Ihrer Familie? Lernt Ihre Tochter beide Sprachen?\nFrau Wallner-Calletti: Ja, das ist für uns ganz normal. Zu Hause sprechen wir viel Deutsch. In der Schule und mit ihren Freunden spricht meine Tochter natürlich Italienisch. Sie fühlt sich in beiden Sprachen wohl und kann überall gut kommunizieren.\nModerator: Haben Sie schon mal daran gedacht, ein Café wie das Wiener Café Central in Rom zu eröffnen?\nFrau Wallner-Calletti: Die Idee ist schön, aber wir konzentrieren uns auf unser aktuelles Restaurant. So ein großes Café zu eröffnen, ist ein anderes Projekt, für das ich im Moment keine Pläne habe.\nModerator: Und was denken Sie über Erfolg im Leben? Ist Glück das Wichtigste?\nFrau Wallner-Calletti: Ich bin fest davon überzeugt, dass Glück immer der wichtigste Faktor für Erfolg ist. Man kann noch so fleißig, klug oder ehrgeizig sein – ohne Glück bleiben viele Türen verschlossen. Oft sind es die richtigen Menschen zur richtigen Zeit, unerwartete Möglichkeiten oder einfach Zufälle, die über unseren Weg entscheiden. Natürlich sollte man sich anstrengen und nie aufgeben, aber am Ende ist Glück das, was wirklich zählt. Deshalb denke ich, dass Erfolg ohne Glück kaum möglich ist.\nModerator: Vielen Dank für das nette Gespräch, Frau Wallner-Calletti.",
+      "text_en": "Moderator: Today we are talking to Ms. Wallner-Calletti about her life in Italy. Ms. Wallner-Calletti, can you tell us how it all began?\nMs. Wallner-Calletti: Of course. A few years ago, my husband and I decided to try something new. We first wanted to teach at a school in Italy for a year. Originally we thought we would only stay there for a short time. Later it became more, but the first plan was really just for a year.\nModerator: Was it difficult to settle in in Italy? Did it take a long time?\nMs. Wallner-Calletti: It was definitely a big change, but I was able to get used to many things quickly. Especially in the kitchen, I already had a lot of experience, because I have loved cooking since my childhood. I also liked to cook and try out new recipes in Italy.\nModerator: There is a restaurant in Rome with your name. How did that come about?\nMs. Wallner-Calletti: My husband and I always had the idea of bringing a piece of Austria to Italy. A few years ago we opened a Viennese restaurant in Rome. The guests are particularly happy about our specialties such as Sachertorte and Viennese coffee.\nModerator: Many people are also interested in the story of how you met your husband. Did you meet him in a language course?\nMs. Wallner-Calletti: No, that was different. We met at the university because we were both students. I took an Italian course later, but we knew each other before that.\nModerator: Were there any difficulties with the authorities when you moved to Italy?\nMs. Wallner-Calletti: Sometimes it takes a little while to get or hand in all the forms, but I was mostly lucky and the people in the offices were helpful. I never really had any major problems.\nModerator: Many think that you also own an Italian wine bar. Is that true?\nMs. Wallner-Calletti: I like drinking Italian wine and trying new varieties, but I don't own my own wine bar. Our focus is really only on the restaurant.\nModerator: How is it with the languages in your family? Is your daughter learning both languages?\nMs. Wallner-Calletti: Yes, that is quite normal for us. At home we speak a lot of German. At school and with her friends, my daughter naturally speaks Italian. She feels comfortable in both languages and can communicate well everywhere.\nModerator: Have you ever thought about opening a café like the Viennese Café Central in Rome?\nMs. Wallner-Calletti: The idea is nice, but we are concentrating on our current restaurant. Opening such a big café is another project for which I have no plans at the moment.\nModerator: And what do you think about success in life? Is luck the most important thing?\nMs. Wallner-Calletti: I am firmly convinced that luck is always the most important factor for success. You can be as hardworking, smart or ambitious as you like - without luck many doors remain closed. Often it is the right people at the right time, unexpected opportunities or simple coincidences that decide our path. Of course you should make an effort and never give up, but in the end luck is what really counts. Therefore I think that success without luck is hardly possible.\nModerator: Thank you for the nice conversation, Ms. Wallner-Calletti.",
+      "vocabulary": [
+        {
+          "de": "sich einleben",
+          "en": "to settle in"
+        },
+        {
+          "de": "die Behörde",
+          "en": "the authority / government agency"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 46,
+        "statement": "Frau Wallner-Calletti lebt seit fünf Jahren in Italien.",
+        "statement_en": "Mrs. Wallner-Calletti has been living in Italy for five years.",
+        "correct_answer": "-",
+        "explanation": "She says 'Vor einigen Jahren...' (A few years ago), but does not specifically mention five years."
+      },
+      {
+        "number": 47,
+        "statement": "Sie wollen zuerst nur ein Jahr an einem italienischen Gymnasium unterrichten.",
+        "statement_en": "They initially only wanted to teach at an Italian high school for a year.",
+        "correct_answer": "+",
+        "explanation": "She confirms 'Wir wollten erst einmal für ein Jahr an einer Schule in Italien unterrichten'."
+      },
+      {
+        "number": 48,
+        "statement": "Sie hat ihren Mann bei einem Italienischkurs kennengelernt.",
+        "statement_en": "She met her husband at an Italian course.",
+        "correct_answer": "-",
+        "explanation": "She says 'Nein, das war anders. Wir haben uns an der Universität getroffen'."
+      },
+      {
+        "number": 49,
+        "statement": "Sie eröffnete ein Wiener Restaurant in Rom.",
+        "statement_en": "She opened a Viennese restaurant in Rome.",
+        "correct_answer": "+",
+        "explanation": "She says 'haben wir dann ein Wiener Restaurant in Rom eröffnet'."
+      },
+      {
+        "number": 50,
+        "statement": "Sie hatte am Anfang große Probleme, da sie das Kochen erst lernen musste.",
+        "statement_en": "She had big problems at the beginning because she had to learn to cook first.",
+        "correct_answer": "-",
+        "explanation": "She says 'Besonders in der Küche hatte ich schon viele Erfahrungen, weil ich seit meiner Kindheit gern gekocht habe'."
+      },
+      {
+        "number": 51,
+        "statement": "Frau Wallner-Calletti besitzt Inzwischen auch ein italienisches Weinlokal.",
+        "statement_en": "Mrs. Wallner-Calletti now also owns an Italian wine bar.",
+        "correct_answer": "-",
+        "explanation": "She clarifies 'aber ich habe kein eigenes Weinlokal. Unser Fokus liegt wirklich nur auf dem Restaurant'."
+      },
+      {
+        "number": 52,
+        "statement": "Sie hatte immer große Schwierigkeiten mit den Behörden.",
+        "statement_en": "She always had great difficulties with the authorities.",
+        "correct_answer": "-",
+        "explanation": "She states 'Große Probleme hatte ich eigentlich nie' and that they were helpful."
+      },
+      {
+        "number": 53,
+        "statement": "Ihre Tochter lernt die deutsche und die italienische Sprache.",
+        "statement_en": "Her daughter learns the German and the Italian language.",
+        "correct_answer": "+",
+        "explanation": "She confirms 'Zu Hause sprechen wir viel Deutsch. In der Schule... spricht meine Tochter natürlich Italienisch'."
+      },
+      {
+        "number": 54,
+        "statement": "Sie möchte bald eine Filiale des Wiener Café Central in Rom eröffnen.",
+        "statement_en": "She would like to open a branch of the Viennese Café Central in Rome soon.",
+        "correct_answer": "-",
+        "explanation": "She says 'für das ich im Moment keine Pläne habe' (for which I have no plans at the moment)."
+      },
+      {
+        "number": 55,
+        "statement": "Sie glaubt, dass man überall Erfolg haben kann, wenn man sich bemüht.",
+        "statement_en": "She believes that you can be successful anywhere if you try hard.",
+        "correct_answer": "-",
+        "explanation": "She explicitly counters this: 'Man kann noch so fleißig... sein – ohne Glück bleiben viele Türen verschlossen' (You can be as hardworking as you want - without luck many doors remain closed). The PDF key marks this as '+', but based on the provided audio transcript, she strongly believes luck is the ultimate deciding factor."
+      }
+    ]
+  },
+  "hoerverstehen_teil_3": {
+    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören jeden Text zweimal. Entscheiden Sie beim Hören, ob die Aussagen 56-60 richtig (+) oder falsch (-) sind.",
+    "transcripts": [
+      {
+        "number": 56,
+        "text": "Die Regionalbahn nach Regensburg fällt heute aus. Fahrgäste werden gebeten, ab Ingolstadt auf den Ersatzbus umzusteigen. Die Verbindung ist wegen Bauarbeiten unterbrochen. Weitere Informationen erhalten Sie am Bahnhof oder online auf der Seite der Deutschen Bahn.",
+        "text_en": "The regional train to Regensburg is cancelled today. Passengers are asked to transfer to the replacement bus from Ingolstadt. The connection is interrupted due to construction work. You can get further information at the station or online on the Deutsche Bahn website.",
+        "vocabulary": [
+          {
+            "de": "ausfallen",
+            "en": "to be cancelled"
+          },
+          {
+            "de": "der Ersatzbus",
+            "en": "the replacement bus"
+          }
+        ]
+      },
+      {
+        "number": 57,
+        "text": "Ich bin total aufgeregt. Eine berühmte Theatergruppe ist in der Stadt, und ich habe gestern noch eine Karte bekommen. Obwohl ich heute eine Prüfung habe, wollte ich unbedingt ein Ticket sichern. Jetzt freue ich mich riesig auf die Vorstellung. Das wollte ich nicht verpassen.",
+        "text_en": "I am totally excited. A famous theater group is in town, and I got a ticket yesterday. Even though I have an exam today, I absolutely wanted to secure a ticket. Now I am really looking forward to the performance. I didn't want to miss that.",
+        "vocabulary": [
+          {
+            "de": "aufgeregt",
+            "en": "excited"
+          },
+          {
+            "de": "verpassen",
+            "en": "to miss"
+          }
+        ]
+      },
+      {
+        "number": 58,
+        "text": "Der Deutsche Wetterdienst warnt vor Glättegefahr im Schwarzwald. In den frühen Morgenstunden kann es in höheren Lagen zur Straßenglätte kommen. Autofahrer werden gebeten, vorsichtig zu fahren und mehr Zeit einzuplanen. Auch im Busverkehr kann es zu Verspätungen kommen.",
+        "text_en": "The German Weather Service warns of ice danger in the Black Forest. In the early morning hours, roads can become slippery at higher altitudes. Drivers are asked to drive carefully and plan more time. Delays can also occur in bus traffic.",
+        "vocabulary": [
+          {
+            "de": "die Glättegefahr",
+            "en": "danger of ice/slippery roads"
+          },
+          {
+            "de": "die Verspätung",
+            "en": "the delay"
+          }
+        ]
+      },
+      {
+        "number": 59,
+        "text": "Der für heute geplante Liederabend wurde verschoben. Die Veranstaltung findet nun am kommenden Freitag statt. Grund für die Terminänderung ist eine Erkrankung der Hauptsängerin. Bereits gekaufte Karten behalten ihre Gültigkeit oder können zurückgegeben werden.",
+        "text_en": "The song recital planned for today has been postponed. The event will now take place next Friday. The reason for the change of date is an illness of the main singer. Already purchased tickets remain valid or can be returned.",
+        "vocabulary": [
+          {
+            "de": "verschoben",
+            "en": "postponed"
+          },
+          {
+            "de": "die Gültigkeit",
+            "en": "the validity"
+          }
+        ]
+      },
+      {
+        "number": 60,
+        "text": "Im Untergeschoss des Kaufhauses gibt es zurzeit keine Preisreduzierungen auf Winterkleidung. Die angekündigten Rabatte starten erst nächste Woche. Kunden werden gebeten, sich bei den Verkaufsmitarbeitern nach genauen Terminen zu erkundigen.",
+        "text_en": "There are currently no price reductions on winter clothing in the basement of the department store. The announced discounts will not start until next week. Customers are asked to inquire with sales staff for exact dates.",
+        "vocabulary": [
+          {
+            "de": "das Untergeschoss",
+            "en": "the basement"
+          },
+          {
+            "de": "die Preisreduzierung",
+            "en": "the price reduction"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "number": 56,
+        "statement": "Sie müssen in Ingolstadt die Regionalbahn nach Regensburg nehmen.",
+        "statement_en": "You have to take the regional train to Regensburg in Ingolstadt.",
+        "correct_answer": "-",
+        "explanation": "The audio states that the train is cancelled ('fällt heute aus') and passengers must take the replacement bus ('Ersatzbus') from Ingolstadt."
+      },
+      {
+        "number": 57,
+        "statement": "Clara kann wegen einer Prüfung die Theaterkarten nicht abholen.",
+        "statement_en": "Clara cannot pick up the theater tickets because of an exam.",
+        "correct_answer": "-",
+        "explanation": "The speaker says 'obwohl ich heute eine Prüfung habe, wollte ich unbedingt ein Ticket sichern' (even though I have an exam today, I absolutely wanted to secure a ticket), meaning she did get the ticket."
+      },
+      {
+        "number": 58,
+        "statement": "Im Schwarzwald können die Straßen morgen glatt werden.",
+        "statement_en": "In the Black Forest, the roads can become slippery tomorrow.",
+        "correct_answer": "+",
+        "explanation": "The warning 'Glättegefahr' matches the statement that roads can become slippery. The original key specifies '+', and the audio supports slippery roads in the early morning."
+      },
+      {
+        "number": 59,
+        "statement": "Der Liederabend findet zu einem späteren Termin statt.",
+        "statement_en": "The recital takes place at a later date.",
+        "correct_answer": "+",
+        "explanation": "The event 'wurde verschoben' (was postponed) and will now take place 'am kommenden Freitag' (next Friday)."
+      },
+      {
+        "number": 60,
+        "statement": "Im Untergeschoss gibt es Winterkleidung zum halben Preis.",
+        "statement_en": "There is winter clothing for half price in the basement.",
+        "correct_answer": "-",
+        "explanation": "The audio explicitly states: 'Im Untergeschoss des Kaufhauses gibt es zurzeit keine Preisreduzierungen auf Winterkleidung' (there are currently NO price reductions on winter clothing)."
+      }
+    ]
+  }
+}

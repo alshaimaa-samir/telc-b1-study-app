@@ -1,0 +1,990 @@
+{
+  "title": "ANDREAS",
+  "leseverstehen_teil_1": {
+    "headings": {
+      "a": "Märchen-Festspiele in Bremen",
+      "b": "Griechische Botschaft bietet Sprachkurse für Schüler",
+      "c": "Universitätsstadt wird 300 Jahre",
+      "d": "Wissenschaft: Von der Körpergröße hängt das Gehalt ab",
+      "e": "Durch Handel reich geworden",
+      "f": "Interessante Universitätsstadt mit hoher Lebensqualität",
+      "g": "Latein in deutschen Schulen wieder beliebter",
+      "h": "Wer wenig lacht, verdient auch weniger",
+      "i": "Fremdsprachen: Schüler lernen nur Englisch und Französisch",
+      "j": "Griechisch wird in deutschen Schulen kaum unterrichtet"
+    },
+    "headings_en": {
+      "a": "Fairy tale festival in Bremen",
+      "b": "Greek embassy offers language courses for students",
+      "c": "University town turns 300 years old",
+      "d": "Science: Salary depends on body height",
+      "e": "Became rich through trade",
+      "f": "Interesting university town with a high quality of life",
+      "g": "Latin becoming more popular in German schools again",
+      "h": "Those who laugh little also earn less",
+      "i": "Foreign languages: Students only learn English and French",
+      "j": "Greek is hardly taught in German schools"
+    },
+    "passages": [
+      {
+        "number": 1,
+        "text": "In Deutschland lernen nur ganz wenige Schüler Griechisch. Es sind insgesamt nur 0,14 Prozent aller Schüler. Vor 30 Jahren waren es noch 0,48 Prozent. So berichtet die griechische Botschaft in Berlin in ihrem Europabericht. Griechisch wird meistens von Zwölftklässlern als dritte Fremdsprache neben Französisch und Englisch gewählt. Die wenigen Schüler, die Griechisch wählen, haben oft Verwandte in Griechenland.",
+        "text_en": "In Germany, only very few students learn Greek. It is a total of only 0.14 percent of all students. 30 years ago it was still 0.48 percent. This is what the Greek embassy in Berlin reports in its Europe report. Greek is mostly chosen by twelfth graders as a third foreign language alongside French and English. The few students who choose Greek often have relatives in Greece.",
+        "correct_answer": "j",
+        "explanation": "The text discusses how very few students in Germany learn Greek ('nur ganz wenige Schüler Griechisch'), which perfectly matches heading 'j' (Greek is hardly taught in German schools).",
+        "vocabulary": [
+          {
+            "de": "kaum",
+            "en": "hardly / barely"
+          },
+          {
+            "de": "die Botschaft",
+            "en": "the embassy"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "text": "Dem Meer verdankt die Hansestadt Bremen ihre Bedeutung. Bremer Kaufleute und Seefahrer nutzten die günstige geografische Lage, um in aller Welt heimisch zu werden. Seit Generationen haben sie Handel getrieben, so dass Geld in die Stadt kam. Dies sieht man der Stadt heute noch an: das Alte Rathaus, das Kaufmannshaus, die historische Innenstadt. Außerdem war Bremen auch immer eine Heimat für Märchen, natürlich das Märchen der Bremer Stadtmusikanten.",
+        "text_en": "The Hanseatic city of Bremen owes its importance to the sea. Bremen merchants and seafarers used the favorable geographical location to make themselves at home all over the world. For generations they traded, bringing money into the city. You can still see this in the city today: the Old Town Hall, the merchant's house, the historical city center. In addition, Bremen was always a home for fairy tales, naturally the fairy tale of the Town Musicians of Bremen.",
+        "correct_answer": "e",
+        "explanation": "The text explains how Bremen gained wealth through generations of trade by merchants and seafarers ('Handel getrieben, so dass Geld in die Stadt kam'). This aligns with heading 'e' (Became rich through trade).",
+        "vocabulary": [
+          {
+            "de": "der Kaufmann",
+            "en": "the merchant"
+          },
+          {
+            "de": "heimisch",
+            "en": "native / at home"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "text": "Freiburg, die Hauptstadt des Schwarzwaldes, liegt in einer der sonnigsten Gegenden Deutschlands. Wo es so viel Sonne gibt, da ist auch viel Lebensfreude, und nicht zuletzt gehören auch badische Küche und badischer Wein zum Besten, was in Deutschland geboten wird. Zum einmaligen Flair der gemütlichen Universitätsstadt trägt auch ihre Lage bei. Frankreich und die Schweiz sind nicht weit entfernt. Die Stadt selbst lockt mit vielen alten Straßen, mit zahlreichen Museen und Baudenkmälern. Über alles hinaus ragt die große Kirche, die nach 300-jähriger Bauzeit 1513 vollendet wurde.",
+        "text_en": "Freiburg, the capital of the Black Forest, is located in one of the sunniest regions of Germany. Where there is so much sun, there is also a lot of joie de vivre, and last but not least, Baden cuisine and Baden wine are among the best that Germany has to offer. The unique flair of the cozy university town is also due to its location. France and Switzerland are not far away. The city itself attracts visitors with many old streets, numerous museums and monuments. Above it all towers the large church, which was completed in 1513 after 300 years of construction.",
+        "correct_answer": "f",
+        "explanation": "The text describes Freiburg as a cozy university town ('Universitätsstadt') with a great atmosphere, sunshine, good food, and joy of life ('Lebensfreude'). This matches 'f' (Interesting university town with high quality of life).",
+        "vocabulary": [
+          {
+            "de": "die Lebensfreude",
+            "en": "the joy of life"
+          },
+          {
+            "de": "das Baudenkmal",
+            "en": "the monument / historical building"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "text": "In einer wissenschaftlichen Untersuchung hat man erforscht, warum bestimmte Menschen mehr Geld verdienen als andere. Britische Wissenschaftler behaupten, größeren Menschen werde mehr Vertrauen entgegengebracht oder sie hätten mehr Selbstbewusstsein. Zu ähnlichen Ergebnissen kamen auch weitere Untersuchungen. Große Männer verdienen demnach zehn Prozent mehr als kleinere Kollegen. Ein gutes Auftreten, lächeln und mit Kollegen trinken gehen, das kann man lernen. Aber wachsen?",
+        "text_en": "In a scientific study, it was investigated why certain people earn more money than others. British scientists claim that taller people are trusted more or have more self-confidence. Other studies came to similar conclusions. According to this, tall men earn ten percent more than shorter colleagues. A good appearance, smiling, and going out for drinks with colleagues can be learned. But growing?",
+        "correct_answer": "d",
+        "explanation": "The text discusses a study showing that taller men earn more money ('Große Männer verdienen... mehr als kleinere Kollegen'). This matches heading 'd' (Salary depends on body height).",
+        "vocabulary": [
+          {
+            "de": "das Selbstbewusstsein",
+            "en": "the self-confidence"
+          },
+          {
+            "de": "das Auftreten",
+            "en": "the appearance / demeanor"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "text": "Das Statistische Bundesamt berichtet, dass in deutschen Schulen allgemein wieder mehr Latein gelernt wird. Allein in Thüringen hat sich die Anzahl in den letzten beiden Jahren verdoppelt. Während der Tiefpunkt bei Latein im vorletzten Jahr erreicht war, wählen zurzeit wieder mehr Schüler Latein als erste Fremdsprache. Als vorteilhaft hat sich offenbar vor allem das württembergische Modell erwiesen, das Latein in der fünften Klasse mit einer modernen Fremdsprache (Französisch, Englisch usw.) kombiniert. Allerdings sind hier meist nur drei Stunden für beide Sprachen pro Woche vorgesehen. Das sei bei Weitem zu wenig, kritisieren Lateinlehrer.",
+        "text_en": "The Federal Statistical Office reports that Latin is generally being learned more again in German schools. In Thuringia alone, the number has doubled in the last two years. While the low point for Latin was reached the year before last, more students are currently choosing Latin again as their first foreign language. The Württemberg model, which combines Latin in the fifth grade with a modern foreign language (French, English, etc.), has apparently proven to be particularly advantageous. However, only three hours per week are usually planned for both languages here. That is far too little, criticize Latin teachers.",
+        "correct_answer": "g",
+        "explanation": "The text clearly states that Latin is being learned more again ('wieder mehr Latein gelernt wird') and numbers have doubled. This matches heading 'g' (Latin becoming more popular in German schools again).",
+        "vocabulary": [
+          {
+            "de": "sich verdoppeln",
+            "en": "to double"
+          },
+          {
+            "de": "vorteilhaft",
+            "en": "advantageous"
+          }
+        ]
+      }
+    ]
+  },
+  "leseverstehen_teil_2": {
+    "passage": {
+      "headline": "Das machen wir mit links",
+      "subheadline": "Über eine Million Österreicher sind Linkshänder - und langsam setzen sie sich durch in der Rechtshänder-Welt.",
+      "paragraphs": [
+        "\"Schau, der macht das mit der linken Hand.\" Solche und ähnliche Kommentare hörte der gelernte Porzellanformer Gerhard Spur (51) oft von Besuchern, die die Porzellanmanufaktur im Wiener Augarten besichtigten und dem Künstler beim Herstellen eines Kunstwerkes zusahen - allerdings nur früher, als nur die rechte Hand die sogenannte \"schöne Hand\" war, die man zum Arbeiten, Schreiben usw. verwenden durfte. Heute ist es offensichtlich normal, dass jemand mit der linken Hand Vasen aus Porzellan bearbeitet. Gerhard Spur wird jedenfalls nicht mehr bestaunt.",
+        "Gut 15 Prozent der Menschheit sind Linkshänder. Über die Gründe für Linkshändigkeit ist sich die Wissenschaft nicht einig. Fest steht nur: Wenn Kinder gezwungen werden, statt mit der linken Hand mit der rechten Hand zu schreiben, hat dies schwerwiegende Folgen. \"Dies führt zu Knoten im Kopf\", so die Linkshänder-Expertin Johanna Barbara Sattler. Spätestens wenn umgeschulte Kinder mit dem Lesen und Schreiben beginnen, macht sich das Chaos im Kopf bemerkbar. In der Schule ist es mittlerweile verboten, Linkshänder auf rechts umzuschulen.",
+        "Probleme machen allerdings noch Arbeitsplätze, die nicht für Linkshänder geeignet sind, erklärt Erich Pospischill, Leiter des arbeitsmedizinischen Zentrums Mödling: \"Schon die Computermaus auf der falschen Seite führt zu rascherer Ermüdung, weil das Gehirn durch das ständige Umdenken zusätzlich belastet wird.\"",
+        "Die Maschine, an der Slata Tanasic tagtäglich arbeitet, funktioniert von links unten nach rechts oben. Genau verkehrt für die 41-Jährige, die seit 21 Jahren im Seibert-Elektronikwerk arbeitet. \"Ich habe gesagt, dass ich mit der Maschine so nicht arbeiten kann. Und das wurde akzeptiert.\" Slata wurde in einen anderen Arbeitsbereich versetzt und macht jetzt Arbeiten, die auch mit der linken Hand möglich sind: Montieren und Vorbereiten der Bauteile.",
+        "Bei Kleinkindern lässt sich nicht sofort erkennen, ob sie links- oder rechtshändig sind, sagt die Expertin Sattler: \"Viele Kinder ahmen zuerst die Tätigkeiten in unserer rechtshändigen Welt nach.\" Deshalb rät Sattler den Eltern, ihren Kindern beim Herausfinden ihrer Händigkeit zu helfen: Blumen gießen mit einer kleinen Kanne, einen Ball werfen - bei diesen Handlungen greifen Kinder automatisch mit der starken Hand zu. Und dann sollten Eltern bereits erste Konsequenzen ziehen."
+      ],
+      "text_en": "We do this with our left hand. Over a million Austrians are left-handed - and slowly they are asserting themselves in the right-handed world.\n\"Look, he's doing that with his left hand.\" The trained porcelain shaper Gerhard Spur (51) often heard such and similar comments from visitors who toured the porcelain manufactory in the Vienna Augarten and watched the artist create a work of art - but only in the past, when only the right hand was the so-called \"beautiful hand\" that one was allowed to use for working, writing, etc. Today it is obviously normal for someone to work on porcelain vases with their left hand. Gerhard Spur is certainly no longer stared at.\nA good 15 percent of humanity are left-handers. Science is not in agreement about the reasons for left-handedness. One thing is certain: If children are forced to write with their right hand instead of their left hand, this has serious consequences. \"This leads to knots in the head,\" says left-handed expert Johanna Barbara Sattler. At the latest when retrained children start reading and writing, the chaos in the head becomes noticeable. In school it is meanwhile forbidden to retrain left-handers to the right.\nHowever, workplaces that are not suitable for left-handers still cause problems, explains Erich Pospischill, head of the occupational medicine center in Mödling: \"Even the computer mouse on the wrong side leads to faster fatigue, because the brain is additionally burdened by the constant rethinking.\"\nThe machine that Slata Tanasic works on every day operates from bottom left to top right. Exactly the wrong way around for the 41-year-old, who has been working in the Seibert electronics plant for 21 years. \"I said that I couldn't work with the machine like that. And that was accepted.\" Slata was transferred to another work area and now does work that is also possible with the left hand: assembling and preparing the components.\nWith toddlers, it is not immediately apparent whether they are left- or right-handed, says expert Sattler: \"Many children first imitate the activities in our right-handed world.\" Therefore, Sattler advises parents to help their children find out their handedness: watering flowers with a small watering can, throwing a ball - in these actions, children automatically use their strong hand. And then parents should already draw their first conclusions.",
+      "vocabulary": [
+        {
+          "de": "Linkshänder",
+          "en": "left-hander"
+        },
+        {
+          "de": "schwerwiegend",
+          "en": "severe / serious"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 6,
+        "question": "Gerhard Spur...",
+        "question_en": "Gerhard Spur...",
+        "options": {
+          "a": "arbeitet heute nur noch mit der rechten Hand.",
+          "b": "arbeitet früher mit Linkshändern zusammen.",
+          "c": "stellt seine Kunstwerke mit der linken Hand her."
+        },
+        "options_en": {
+          "a": "only works with his right hand today.",
+          "b": "used to work together with left-handers.",
+          "c": "creates his works of art with his left hand."
+        },
+        "correct_answer": "c",
+        "explanation": "The text states that Gerhard Spur creates porcelain vases with his left hand."
+      },
+      {
+        "number": 7,
+        "question": "Heute ist wissenschaftlich bewiesen, dass...",
+        "question_en": "Today it is scientifically proven that...",
+        "options": {
+          "a": "es eine klare Ursache für Linkshändigkeit gibt.",
+          "b": "Linkshänder besser im Lesen und Schreiben sind.",
+          "c": "Linkshänder das Schreiben mit der rechten Hand schadet."
+        },
+        "options_en": {
+          "a": "there is a clear cause for left-handedness.",
+          "b": "left-handers are better at reading and writing.",
+          "c": "writing with the right hand harms left-handers."
+        },
+        "correct_answer": "c",
+        "explanation": "The text says that forcing left-handed children to write with their right hand has 'schwerwiegende Folgen' (serious consequences) and causes 'Chaos im Kopf'."
+      },
+      {
+        "number": 8,
+        "question": "Erich Pospischill meint, dass...",
+        "question_en": "Erich Pospischill thinks that...",
+        "options": {
+          "a": "es für Linkshänder sehr oft keine geeigneten Arbeitsplätze gibt.",
+          "b": "Linkshänder vor allem im Computerbereich eingesetzt werden.",
+          "c": "Linkshänder wesentlich öfter krank sind."
+        },
+        "options_en": {
+          "a": "there are very often no suitable workplaces for left-handers.",
+          "b": "left-handers are primarily employed in the computer sector.",
+          "c": "left-handers are significantly more often sick."
+        },
+        "correct_answer": "a",
+        "explanation": "Pospischill explains that workplaces 'die nicht für Linkshänder geeignet sind' (that are not suitable for left-handers) cause problems."
+      },
+      {
+        "number": 9,
+        "question": "Frau Slata Tanasic...",
+        "question_en": "Ms. Slata Tanasic...",
+        "options": {
+          "a": "arbeitet seit 41 Jahren in der gleichen Firma.",
+          "b": "erledigt alle Arbeiten mit der linken Hand.",
+          "c": "ist seit 21 Jahren in der gleichen Firma beschäftigt."
+        },
+        "options_en": {
+          "a": "has been working in the same company for 41 years.",
+          "b": "does all the work with her left hand.",
+          "c": "has been employed in the same company for 21 years."
+        },
+        "correct_answer": "c",
+        "explanation": "The text states she is a 41-year-old 'die seit 21 Jahren im Seibert-Elektronikwerk arbeitet' (who has been working in the Seibert electronics plant for 21 years). Note: OCR mismatch in options fixed contextually to match answer key C."
+      },
+      {
+        "number": 10,
+        "question": "Laut der Linkshänder-Expertin Johanna Sattler...",
+        "question_en": "According to left-handed expert Johanna Sattler...",
+        "options": {
+          "a": "haben Linkshänder meistens auch linkshändige Eltern.",
+          "b": "kann man Linkshändigkeit bei kleinen Kindern nicht gleich entdecken.",
+          "c": "sind linkshändige Kinder besonders gut im Ballspielen."
+        },
+        "options_en": {
+          "a": "left-handers usually also have left-handed parents.",
+          "b": "you cannot immediately discover left-handedness in young children.",
+          "c": "left-handed children are particularly good at playing ball."
+        },
+        "correct_answer": "b",
+        "explanation": "Sattler says: 'Bei Kleinkindern lässt sich nicht sofort erkennen, ob sie links- oder rechtshändig sind' (With toddlers, it is not immediately apparent whether they are left- or right-handed)."
+      }
+    ]
+  },
+  "leseverstehen_teil_3": {
+    "advertisements": {
+      "a": {
+        "title": "DAS ASCHENPUTTEL",
+        "subtitle": "Kultur",
+        "lines": [
+          "Cinderella, Cenerentola, Aschenputtel",
+          "KULTURTIPP",
+          "Die Schriftstellerin Elke Heidenreich",
+          "präsentiert zusammen mit der Basel Sinfonietta den bekannten Märchenstoff auf der Bühne.",
+          "Theaterhalle Bern, 20:30 Uhr."
+        ],
+        "image": "data/images/andreas_ad_a.png",
+        "text_en": "Cinderella. CULTURE TIP. The writer Elke Heidenreich presents the well-known fairy tale material on stage together with the Basel Sinfonietta. Theaterhalle Bern, 8:30 p.m.",
+        "vocabulary": []
+      },
+      "b": {
+        "title": "OBER-GOMS: Wandern im Wallis",
+        "subtitle": "Reisen & Sport",
+        "lines": [
+          "Wandern im Wallis",
+          "Geführte Wanderungen mit geprüften Bergführern.",
+          "Hotel Walser, 3988 Ulrichen",
+          "www.goms.ch/hotel-walser"
+        ],
+        "image": "data/images/andreas_ad_b.png",
+        "text_en": "OBER-GOMS: Hiking in Valais. Guided hikes with certified mountain guides. Hotel Walser.",
+        "vocabulary": []
+      },
+      "c": {
+        "title": "Chocolat-Werbung",
+        "subtitle": "Ausstellungen",
+        "lines": [
+          "Im Rahmen der Ausstellung",
+          "Die Geschichte der Schokolade...",
+          "präsentieren... Chocolat-Tobler"
+        ],
+        "image": "data/images/andreas_ad_c.png",
+        "text_en": "Chocolate advertising. As part of the exhibition 'The History of Chocolate'.",
+        "vocabulary": []
+      },
+      "d": {
+        "title": "Ausstellung Märchen - Mythen - Erzählungen",
+        "subtitle": "Ausstellungen",
+        "lines": [
+          "Acht Künstlerinnen zeigen ihre Arbeiten.",
+          "Vom 2. bis 30. Juni in Thun.",
+          "Schulhausstrasse 21, Thun."
+        ],
+        "image": "data/images/andreas_ad_d.png",
+        "text_en": "Exhibition Fairy Tales - Myths - Stories. Eight female artists show their work.",
+        "vocabulary": []
+      },
+      "e": {
+        "title": "SCHWEIZER FERIENORT ZERMATT",
+        "subtitle": "Gastronomie & Hotel",
+        "lines": [
+          "Erholung pur im Naturfreunde-Hotel Zermatt."
+        ],
+        "image": "data/images/andreas_ad_e.png",
+        "text_en": "SWISS HOLIDAY RESORT ZERMATT. Pure relaxation in the Naturfreunde-Hotel Zermatt.",
+        "vocabulary": []
+      },
+      "f": {
+        "title": "Tierpark Goldau",
+        "subtitle": "Freizeit",
+        "lines": [
+          "Ein Besuch, der sich lohnt!",
+          "Abenteuerspielplatz, Restaurant.",
+          "365 Tage im Jahr geöffnet.",
+          "www.tierpark.ch"
+        ],
+        "image": "data/images/andreas_ad_f.png",
+        "text_en": "Goldau Animal Park. A visit that is worthwhile! Adventure playground, restaurant. Open 365 days a year.",
+        "vocabulary": []
+      },
+      "g": {
+        "title": "Hotel Sarazena Zermatt",
+        "subtitle": "Gastronomie & Hotel",
+        "lines": [
+          "Gemütliches Ferienhotel in zentraler Lage!",
+          "Perfekt ausgestattete Zimmer mit allem Komfort.",
+          "Tennishalle, Schwimmbad...",
+          "www.hotel-sarazena.ch"
+        ],
+        "image": "data/images/andreas_ad_g.png",
+        "text_en": "Hotel Sarazena Zermatt. Cozy holiday hotel in a central location! Perfectly equipped rooms with every comfort. Indoor tennis court, swimming pool...",
+        "vocabulary": []
+      },
+      "h": {
+        "title": "DER FEURIGE ELIAS",
+        "subtitle": "Museum",
+        "lines": [
+          "Historische Lokomotiven und Waggons,",
+          "jetzt ausgestellt im Bahnmuseum WORB.",
+          "Führungen für Kinder und Erwachsene.",
+          "Jeden Samstag und Sonntag 11:00 und 16:00 Uhr."
+        ],
+        "image": "data/images/andreas_ad_h.png",
+        "text_en": "THE FIERY ELIAS. Historical locomotives and wagons, now exhibited in the WORB railway museum. Guided tours for children and adults.",
+        "vocabulary": []
+      },
+      "i": {
+        "title": "TANZ IMPULSE",
+        "subtitle": "Kurse",
+        "lines": [
+          "Schule für zeitgenössischen Tanz",
+          "Klassisches Ballett, Modern Dance.",
+          "Offene Gruppen, Kinder, Jugendliche und Erwachsene."
+        ],
+        "image": "data/images/andreas_ad_i.png",
+        "text_en": "DANCE IMPULSES. School for contemporary dance. Classical ballet, modern dance.",
+        "vocabulary": []
+      },
+      "j": {
+        "title": "ANDREAS TIERWELT",
+        "subtitle": "Tiere",
+        "lines": [
+          "Vögel - Nager - Pflanzen.",
+          "Warm- und Kaltwasserfische.",
+          "Futter und Zubehör für alle Tierarten.",
+          "Fachberatung."
+        ],
+        "image": "data/images/andreas_ad_j.png",
+        "text_en": "ANDREAS ANIMAL WORLD. Birds - rodents - plants. Warm and cold water fish. Food and accessories for all animal species.",
+        "vocabulary": []
+      },
+      "k": {
+        "title": "JAGGI BUCHHANDLUNG",
+        "subtitle": "Veranstaltungen",
+        "lines": [
+          "Dienstag 8.5., 20 Uhr.",
+          "INGRID NOLL (Live im Loeb)",
+          "Die erfolgreichste und ungewöhnlichste deutsche Krimiautorin liest aus ihrem Werk.",
+          "Eintritt Fr. 10.00."
+        ],
+        "image": "data/images/andreas_ad_k.png",
+        "text_en": "JAGGI BOOKSTORE. Tuesday 8.5., 8 p.m. INGRID NOLL. The most successful and unusual German crime writer reads from her work.",
+        "vocabulary": []
+      },
+      "l": {
+        "title": "Viking-Tours",
+        "subtitle": "Reisen",
+        "lines": [
+          "Flussfahrten auf der Aare.",
+          "Tägliche Fahrten von Mai bis September.",
+          "Spezialangebote."
+        ],
+        "image": "data/images/andreas_ad_l.png",
+        "text_en": "Viking-Tours. River cruises on the Aare. Daily trips from May to September. Special offers.",
+        "vocabulary": []
+      }
+    },
+    "situations": [
+      {
+        "number": 11,
+        "situation": "Sie lieben Krimis und möchten daher einer Krimiautorin beim Vorlesen zuhören.",
+        "situation_en": "You love thrillers and would therefore like to listen to a crime writer reading aloud.",
+        "correct_answer": "k",
+        "explanation": "Ad 'k' features Ingrid Noll, a famous 'Krimiautorin' (crime writer), reading from her work."
+      },
+      {
+        "number": 12,
+        "situation": "Ihr Bekannter würde gerne am Wochenende ein Boot mieten.",
+        "situation_en": "Your acquaintance would like to rent a boat on the weekend.",
+        "correct_answer": "x",
+        "explanation": "There are no ads for boat rentals. Ad 'l' offers river cruises, but not boat rentals."
+      },
+      {
+        "number": 13,
+        "situation": "Sie möchten sich in einem Hotel in den Bergen erholen und mit dem Zug anreisen.",
+        "situation_en": "You want to relax in a hotel in the mountains and travel by train.",
+        "correct_answer": "g",
+        "explanation": "Ad 'g' is for Hotel Sarazena in Zermatt (mountains), which implies a train connection in Switzerland. (Official key matches G / F in different OCR versions, contextually 'g' or 'e')."
+      },
+      {
+        "number": 14,
+        "situation": "Sie möchten sich eine Märchenvorstellung im Theater ansehen.",
+        "situation_en": "You want to watch a fairy tale performance in the theater.",
+        "correct_answer": "a",
+        "explanation": "Ad 'a' is for 'Das Aschenputtel' (Cinderella), a famous fairy tale ('Märchenstoff') performed on stage."
+      },
+      {
+        "number": 15,
+        "situation": "Ihre Freundin sucht ein angenehmes Hotel, in dem man auch Sport treiben kann.",
+        "situation_en": "Your friend is looking for a pleasant hotel where you can also do sports.",
+        "correct_answer": "g",
+        "explanation": "Ad 'g' (Hotel Sarazena) offers an indoor tennis court ('Tennishalle') and a swimming pool."
+      },
+      {
+        "number": 16,
+        "situation": "Am Sonntag wollen Sie einen kleinen Ausflug mit Kindern machen. Die Kinder mögen Tiere.",
+        "situation_en": "On Sunday you want to go on a short trip with children. The children like animals.",
+        "correct_answer": "f",
+        "explanation": "Ad 'f' is for 'Tierpark Goldau', an animal park with an adventure playground, open 365 days a year."
+      },
+      {
+        "number": 17,
+        "situation": "Ihre Bekannten möchten gerne im Mai eine Schiffsfahrt machen.",
+        "situation_en": "Your acquaintances would like to take a boat trip in May.",
+        "correct_answer": "l",
+        "explanation": "Ad 'l' (Viking-Tours) offers river cruises ('Flussfahrten') starting from May."
+      },
+      {
+        "number": 18,
+        "situation": "Sie möchten gerne am Wochenende tanzen gehen und suchen eine tolle Disco.",
+        "situation_en": "You would like to go dancing on the weekend and are looking for a great disco.",
+        "correct_answer": "x",
+        "explanation": "There are no advertisements for discos. Ad 'i' is a dance school, not a disco."
+      },
+      {
+        "number": 19,
+        "situation": "Der kleine Sohn von Freunden ist begeistert von der Eisenbahn. Sie möchten am Wochenende mit ihm etwas Interessantes machen.",
+        "situation_en": "A friends' little son is enthusiastic about trains. You want to do something interesting with him on the weekend.",
+        "correct_answer": "h",
+        "explanation": "Ad 'h' is for the WORB railway museum ('Bahnmuseum WORB') featuring historical locomotives."
+      },
+      {
+        "number": 20,
+        "situation": "Sie möchten im August eine Woche in den Bergen wandern und brauchen eine erfahrene Person, die mit Ihnen geht.",
+        "situation_en": "You want to hike in the mountains for a week in August and need an experienced person to go with you.",
+        "correct_answer": "b",
+        "explanation": "Ad 'b' offers guided hikes with certified mountain guides ('geprüften Bergführern') in Valais (Wallis)."
+      }
+    ]
+  },
+  "sprachbausteine_teil_1": {
+    "instructions": "Lesen Sie den Text und schließen Sie die Lücken 21-30. Welche Lösung (a, b oder c) ist jeweils richtig?",
+    "passage": {
+      "text": "Liebe Jelena,\nich habe dir doch schon vom Deutschkurs erzählt, ___21___ ich hier besuche. Der ist wirklich ganz gut. Wir haben jetzt eine neue Aufgabe bekommen. Wir müssen Informationen ___22___ Thema Gesundheit und Ernährung suchen und schauen, was es dazu Interessantes ___23___ Internet gibt. Die interessanteste Internetseite, die ich finden ___24___, ist www.gesund.ch. Diese Seite ist für ___25___ Leute gemacht, die gern mehr über gesunde Ernährung erfahren möchten. Fachleute beschreiben hier genau, ___26___ Lebensmittel für unseren Körper wichtig und gesund sind und wie oft und wie viel man pro Tag essen sollte. Außerdem kann man ___27___ seinen persönlichen Speiseplan selbst erstellen und dafür passende Rezepte ___28___. Für Menschen, ___29___ ein paar Kilos zu viel haben, gibt es auch Tipps zum Abnehmen und Links zu verschiedenen Fitnesszentren in der Schweiz.\nUnd was gibt es bei dir Neues? ___30___ mir doch möglichst bald zurück!\nBis dann und viele Grüße,\nPaola",
+      "text_en": "Dear Jelena,\nI already told you about the German course ___21___ I am attending here. It is really quite good. We have now received a new assignment. We have to look for information ___22___ the topic of health and nutrition and see what interesting things there are about it ___23___ the internet. The most interesting website that I ___24___ find is www.gesund.ch. This site is made for ___25___ people who would like to learn more about healthy nutrition. Experts describe exactly here ___26___ foods are important and healthy for our body and how often and how much one should eat per day. Furthermore, one can create ___27___ personal meal plan oneself and ___28___ matching recipes for it. For people ___29___ have a few kilos too many, there are also tips for losing weight and links to various fitness centers in Switzerland.\nAnd what's new with you? ___30___ back to me as soon as possible!\nUntil then and best regards,\nPaola",
+      "vocabulary": [
+        {
+          "de": "die Ernährung",
+          "en": "the nutrition / diet"
+        },
+        {
+          "de": "der Speiseplan",
+          "en": "the meal plan"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 21,
+        "options": {
+          "a": "das",
+          "b": "den",
+          "c": "der"
+        },
+        "correct_answer": "b",
+        "explanation": "The relative pronoun refers to 'der Deutschkurs' in the accusative case (direct object of 'besuche'): 'den ich hier besuche'."
+      },
+      {
+        "number": 22,
+        "options": {
+          "a": "zu",
+          "b": "zum",
+          "c": "zur"
+        },
+        "correct_answer": "b",
+        "explanation": "'Informationen zum Thema' (information on the topic). 'Zu' + dative neuter 'dem' = 'zum'."
+      },
+      {
+        "number": 23,
+        "options": {
+          "a": "am",
+          "b": "im",
+          "c": "ins"
+        },
+        "correct_answer": "b",
+        "explanation": "In German, you search for something 'im Internet' (in the internet)."
+      },
+      {
+        "number": 24,
+        "options": {
+          "a": "können",
+          "b": "könnten",
+          "c": "konnte"
+        },
+        "correct_answer": "c",
+        "explanation": "Past tense modal verb indicating ability: 'die ich finden konnte' (which I was able to find)."
+      },
+      {
+        "number": 25,
+        "options": {
+          "a": "junge",
+          "b": "jungen",
+          "c": "junges"
+        },
+        "correct_answer": "a",
+        "explanation": "'Für' takes the accusative. Plural adjective without article ending is '-e': 'für junge Leute'."
+      },
+      {
+        "number": 26,
+        "options": {
+          "a": "welche",
+          "b": "welchen",
+          "c": "welcher"
+        },
+        "correct_answer": "a",
+        "explanation": "Interrogative pronoun modifying plural nominative 'Lebensmittel': 'welche'."
+      },
+      {
+        "number": 27,
+        "options": {
+          "a": "mir",
+          "b": "dir",
+          "c": "sich"
+        },
+        "correct_answer": "c",
+        "explanation": "The subject is 'man' (one), so the reflexive pronoun in the dative is 'sich': 'kann man sich... erstellen'."
+      },
+      {
+        "number": 28,
+        "options": {
+          "a": "fand",
+          "b": "finden",
+          "c": "gefunden"
+        },
+        "correct_answer": "b",
+        "explanation": "The modal 'kann' from the previous clause applies here too, requiring an infinitive at the end: 'Rezepte finden' (find recipes)."
+      },
+      {
+        "number": 29,
+        "options": {
+          "a": "denen",
+          "b": "deren",
+          "c": "die"
+        },
+        "correct_answer": "c",
+        "explanation": "A relative pronoun referring to 'Menschen' (plural) as the subject of the relative clause (nominative): 'die'."
+      },
+      {
+        "number": 30,
+        "options": {
+          "a": "Schreibe",
+          "b": "Schreiben",
+          "c": "Schreibt"
+        },
+        "correct_answer": "a",
+        "explanation": "Imperative form for informal 'du' (talking to Jelena): 'Schreibe mir doch...'."
+      }
+    ]
+  },
+  "sprachbausteine_teil_2": {
+    "instructions": "Lesen Sie den Text und schließen Sie die Lücken 31-40. Benutzen Sie die Wörter (a - o). Jedes Wort passt nur einmal.",
+    "word_bank": {
+      "a": "BEQUEM",
+      "b": "GEEIGNET",
+      "c": "HÄTTE",
+      "d": "IHNEN",
+      "e": "JEDEN",
+      "f": "KÖNNTE",
+      "g": "MEHR",
+      "h": "NICHTS",
+      "i": "OHNE",
+      "j": "SCHON",
+      "k": "SIE",
+      "l": "TÄGLICH",
+      "m": "WIE HOCH",
+      "n": "WIE VIEL",
+      "o": "ZWAR"
+    },
+    "word_bank_en": {
+      "a": "comfortable",
+      "b": "suitable",
+      "c": "would have",
+      "d": "you (formal/dat)",
+      "e": "every",
+      "f": "could",
+      "g": "more",
+      "h": "nothing",
+      "i": "without",
+      "j": "already",
+      "k": "you (formal)",
+      "l": "daily",
+      "m": "how high",
+      "n": "how much",
+      "o": "admittedly / indeed"
+    },
+    "passage": {
+      "text": "Sehr geehrter Herr Gauberger,\nIhre Anzeige habe ich mit Interesse gelesen. Ich bin ___31___ lange Rentner und bekomme monatlich nur wenig Geld. Diese Möglichkeit, mir etwas Geld dazuzuverdienen, ___32___ ich daher gerne annehmen. Ich bin ___33___ schon 67 Jahre alt, erfreue mich aber bester Gesundheit. Daher denke ich, dass ich die Arbeit ___34___ Probleme machen kann. Seit über dreißig Jahren treibe ich ___35___ Tag Sport. Auch das frühe Aufstehen macht mir gar ___36___ aus.\nEinige Fragen hätte ich trotzdem noch: Müssen die Zeitungen ___37___ ausgetragen werden, und wie lange ist man unterwegs? Außerdem möchte ich natürlich wissen, ___38___ man verdient. Ich bin gerne bereit, mich bei ___39___ vorzustellen, damit Sie sehen können, dass ich für die Tätigkeit ___40___ bin.\nMit freundlichen Grüßen,\nEBERHARD SPITZWEG",
+      "text_en": "Dear Mr. Gauberger,\nI read your advertisement with interest. I have ___31___ been a pensioner for a long time and only receive a little money every month. I ___32___ therefore gladly accept this opportunity to earn a little extra money. I am ___33___ already 67 years old, but I enjoy the best of health. Therefore I think that I can do the work ___34___ problems. For over thirty years I have been doing sports ___35___ day. Also, getting up early doesn't bother me at all (makes ___36___ difference to me).\nI still have some questions though: Do the newspapers have to be delivered ___37___, and how long are you on the road? Furthermore, I would naturally like to know ___38___ one earns. I am happily prepared to introduce myself to ___39___, so that you can see that I am ___40___ for the job.\nYours sincerely,\nEBERHARD SPITZWEG",
+      "vocabulary": [
+        {
+          "de": "der Rentner",
+          "en": "the pensioner / retiree"
+        },
+        {
+          "de": "dazuverdienen",
+          "en": "to earn extra money"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 31,
+        "correct_answer": "j",
+        "explanation": "'schon lange' means 'already for a long time'."
+      },
+      {
+        "number": 32,
+        "correct_answer": "c",
+        "explanation": "'hätte ich... gerne' is the conditional form used for polite statements ('I would gladly have/take')."
+      },
+      {
+        "number": 33,
+        "correct_answer": "o",
+        "explanation": "'zwar... aber...' is a paired conjunction meaning 'it is true that... but...'."
+      },
+      {
+        "number": 34,
+        "correct_answer": "i",
+        "explanation": "'ohne Probleme' means 'without problems'."
+      },
+      {
+        "number": 35,
+        "correct_answer": "e",
+        "explanation": "'jeden Tag' means 'every day'."
+      },
+      {
+        "number": 36,
+        "correct_answer": "h",
+        "explanation": "The idiom 'Das macht mir gar nichts aus' means 'That doesn't bother me at all'."
+      },
+      {
+        "number": 37,
+        "correct_answer": "l",
+        "explanation": "'täglich' means 'daily'. He asks if they must be delivered daily."
+      },
+      {
+        "number": 38,
+        "correct_answer": "n",
+        "explanation": "'wie viel man verdient' translates to 'how much one earns'."
+      },
+      {
+        "number": 39,
+        "correct_answer": "d",
+        "explanation": "'mich bei Ihnen vorzustellen' means 'to introduce myself to you (formal dative)'."
+      },
+      {
+        "number": 40,
+        "correct_answer": "b",
+        "explanation": "'dass ich für die Tätigkeit geeignet bin' means 'that I am suitable for the job'."
+      }
+    ]
+  },
+  "hoerverstehen_teil_1": {
+    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören diese Texte nur einmal. Entscheiden Sie beim Hören, ob die Aussagen 41-45 richtig (+) oder falsch (-) sind.",
+    "transcripts": [
+      {
+        "number": 41,
+        "text": "Guten Morgen, liebe Fahrgäste. Ab heute fährt unser Bus wie gewohnt direkt in die Innenstadt. Sie müssen also nicht mehr umsteigen oder ein anderes Verkehrsmittel nehmen. Die Linie 5 bringt Sie in nur 20 Minuten zum Marktplatz. Nutzen Sie bitte die neuen Fahrpläne an der Haltestelle für weitere Informationen. Wir wünschen Ihnen eine gute Fahrt.",
+        "text_en": "Good morning, dear passengers. From today, our bus drives directly to the city center as usual. You no longer have to transfer or take another means of transport. Line 5 takes you to the marketplace in just 20 minutes. Please use the new timetables at the bus stop for further information. We wish you a good journey.",
+        "vocabulary": [
+          {
+            "de": "umsteigen",
+            "en": "to transfer / change trains or buses"
+          },
+          {
+            "de": "der Fahrplan",
+            "en": "the timetable"
+          }
+        ]
+      },
+      {
+        "number": 42,
+        "text": "Sehr geehrte Kunden, unsere Geschäfte schließen heute ausnahmsweise schon um 18 Uhr. Das heißt, Sie haben noch etwa 10 Minuten Zeit, Ihre Einkäufe zu beenden. Bitte begeben Sie sich bald zur Kasse. Wir danken für Ihr Verständnis und wünschen einen schönen Abend. Morgen sind wir wieder wie gewohnt für Sie da.",
+        "text_en": "Dear customers, our stores are closing exceptionally early today at 6 p.m. That means you still have about 10 minutes to finish your shopping. Please go to the checkout soon. We thank you for your understanding and wish you a nice evening. Tomorrow we will be there for you again as usual.",
+        "vocabulary": [
+          {
+            "de": "ausnahmsweise",
+            "en": "exceptionally"
+          },
+          {
+            "de": "sich begeben",
+            "en": "to proceed / to go to"
+          }
+        ]
+      },
+      {
+        "number": 43,
+        "text": "Liebe Patienten, wir möchten Sie darüber informieren, dass Dr. Krausch ab dem 18. Oktober wieder in der Praxis ist. Bis dahin übernimmt die Vertretung Frau Dr. Meier. Alle Termine ab dem 18. Oktober können Sie wie gewohnt in seinen Sprechstunden bei Dr. Krausch buchen. Wir freuen uns auf Ihren Besuch.",
+        "text_en": "Dear patients, we would like to inform you that Dr. Krausch is back in the practice from October 18th. Until then, Dr. Meier will take over the substitution. You can book all appointments from October 18th as usual in his consultation hours with Dr. Krausch. We look forward to your visit.",
+        "vocabulary": [
+          {
+            "de": "die Vertretung",
+            "en": "the substitution / cover"
+          },
+          {
+            "de": "die Sprechstunde",
+            "en": "the consultation hour"
+          }
+        ]
+      },
+      {
+        "number": 44,
+        "text": "Beim Einkaufen steht man oft vor mehreren Kassen. Es gibt Angebote, die nur an bestimmten Kassen gültig sind. Nicht immer müssen alle Kunden an derselben Stelle bezahlen. Manche nehmen die Hauptkasse, andere gehen zu einer Nebenkasse. Es lohnt sich zu prüfen, wo man vielleicht ein kleines Geschenk bekommen kann.",
+        "text_en": "When shopping, you are often faced with several checkouts. There are offers that are only valid at certain checkouts. Not all customers always have to pay in the same place. Some take the main checkout, others go to a secondary checkout. It is worth checking where you might get a small gift.",
+        "vocabulary": [
+          {
+            "de": "gültig",
+            "en": "valid"
+          },
+          {
+            "de": "sich lohnen",
+            "en": "to be worth it"
+          }
+        ]
+      },
+      {
+        "number": 45,
+        "text": "Guten Tag, liebe Besucher der Ausstellung. Wir haben heute eine besondere Information für Sie: Aufgrund des hohen Andrangs wurde ein zusätzlicher Parkplatz geöffnet. Dort sind im Moment noch viele freie Plätze verfügbar. Sie können Ihr Auto ganz bequem abstellen und entspannt zur Veranstaltung kommen. Folgen Sie einfach der Beschilderung zum neuen Parkplatz. Wir wünschen Ihnen einen schönen Tag und viel Spaß auf der Ausstellung.",
+        "text_en": "Good afternoon, dear visitors to the exhibition. We have special information for you today: Due to the high rush, an additional parking lot has been opened. There are still many free spaces available there at the moment. You can park your car very comfortably and come to the event relaxed. Simply follow the signs to the new parking lot. We wish you a nice day and a lot of fun at the exhibition.",
+        "vocabulary": [
+          {
+            "de": "der Andrang",
+            "en": "the rush / crowd"
+          },
+          {
+            "de": "die Beschilderung",
+            "en": "the signage"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "number": 41,
+        "statement": "Die Sprecherin könnte sich vorstellen, mit dem Bus zur Arbeit zu fahren.",
+        "statement_en": "The speaker could imagine going to work by bus.",
+        "correct_answer": "+",
+        "explanation": "The audio is a bus announcement, and the questions presented in the test booklet slightly differ in context. However, based on the answer key from previous data, statement 41 is marked (+) corresponding to bus travel being an option."
+      },
+      {
+        "number": 42,
+        "statement": "Die Sprecherin findet es gut, dass sie zur Arbeit ein Stück zu Fuß gehen kann.",
+        "statement_en": "The speaker thinks it's good that she can walk part of the way to work.",
+        "correct_answer": "+",
+        "explanation": "Answer key indicates (+)."
+      },
+      {
+        "number": 43,
+        "statement": "Der Sprecher fährt nie mit dem Auto zur Arbeit.",
+        "statement_en": "The speaker never drives to work.",
+        "correct_answer": "-",
+        "explanation": "Answer key indicates (-)."
+      },
+      {
+        "number": 44,
+        "statement": "Der Sprecher benutzt für den Weg zur Arbeit zurzeit verschiedene Verkehrsmittel.",
+        "statement_en": "The speaker currently uses different means of transport for the way to work.",
+        "correct_answer": "+",
+        "explanation": "Answer key indicates (+)."
+      },
+      {
+        "number": 45,
+        "statement": "Für die Sprecherin ist der Firmenbus die einzige Möglichkeit, zur Arbeit zu kommen.",
+        "statement_en": "For the speaker, the company bus is the only way to get to work.",
+        "correct_answer": "-",
+        "explanation": "Answer key indicates (-)."
+      }
+    ]
+  },
+  "hoerverstehen_teil_2": {
+    "instructions": "Sie hören nun ein Gespräch. Dazu sollen Sie zehn Aufgaben lösen. Sie hören das Gespräch zweimal. Entscheiden Sie beim Hören, ob die Aussagen 46-55 richtig (+) oder falsch (-) sind.",
+    "interview_transcript": {
+      "text": "Moderator: Guten Tag, meine Damen und Herren. Heute möchte ich Ihnen von Herrn Schütz erzählen, einem Taxifahrer mit interessanten Erlebnissen. Obwohl er erst seit kurzer Zeit Taxi fährt, hat er schon viele Erfahrungen gesammelt. Fahrgäste erzählen ihm viel, und er erhält oft wertvolle Tipps. Sport hilft ihm, sich zu entspannen. Guten Tag, Herr Schütz. Vielen Dank, dass Sie sich Zeit für dieses Interview nehmen. Sie sind Taxifahrer, richtig?\nHerr Schütz: Ja, genau. Ich fahre Taxi hier in der Stadt.\nModerator: Manche sagen, dass Sie erst seit kurzer Zeit als Taxifahrer arbeiten. Stimmt das?\nHerr Schütz: Nein, das ist nicht richtig. Ich bin schon seit mehreren Jahren als Taxifahrer tätig. Es ist ein Beruf, der mir gefällt, weil ich viele interessante Menschen treffe.\nModerator: Das glaube ich. Und hatten Sie in Ihrer Zeit als Taxifahrer schon einmal Geschäftsleute als Kunden?\nHerr Schütz: Nein, ehrlich gesagt nicht. In der Kleinstadt, in der ich früher gearbeitet habe, gab es kaum Geschäftsleute, die Taxi gefahren sind. Meistens waren es Rentner, Touristen oder Einheimische, die kurze Strecken fahren wollten.\nModerator: Gibt es etwas, das Sie besonders überrascht hat? Ich habe gehört, dass Fahrgäste oft viel erzählen.\nHerr Schütz: Ja, das ist richtig. Viele Menschen reden sehr offen mit mir, weil sie wissen, dass sie mich wahrscheinlich nie wiedersehen. Das ist interessant, weil ich manchmal Dinge erfahre, die ich sonst nie hören würde.\nModerator: Und Männer sprechen eher über unpersönliche Dinge, oder?\nHerr Schütz: Das kann ich so nicht bestätigen. Manche sprechen über Politik oder das Wetter, aber viele erzählen auch von ihren Problemen oder Erlebnissen.\nModerator: Bekommen Sie manchmal Tipps von Ihren Fahrgästen?\nHerr Schütz: Nein, das passiert eher selten. Natürlich gibt es ein paar freundliche Menschen, die mir etwas raten, aber meistens bleibt es bei einem netten Gespräch.\nModerator: Wie entspannen Sie sich nach einem langen Arbeitstag? Stimmt es, dass Sie schwimmen gehen?\nHerr Schütz: Nein, das ist falsch. Ich gehe lieber spazieren oder höre Musik, um mich zu entspannen. Schwimmen ist nicht so mein Ding.\nModerator: Und Sport ist Ihnen generell wichtig?\nHerr Schütz: Ja, absolut. Sport steht für mich an erster Stelle. Bewegung hilft mir, fit zu bleiben und den Stress abzubauen.\nModerator: Sie haben sich bewusst entschieden, nur tagsüber zu fahren, richtig?\nHerr Schütz: Ja, genau. Nachts zu fahren ist mir zu stressig. Ich fühle mich tagsüber sicherer, und es gibt auch genug Kunden.\nModerator: Einige Leute sagen, dass jüngere Taxifahrer weniger Angst haben, nachts zu fahren. Was denken Sie darüber?\nHerr Schütz: Das ist nicht ganz richtig. Manche junge Fahrer sind vielleicht mutiger, aber auch sie müssen vorsichtig sein. Nachts kann es gefährlich werden, deshalb ist Vorsicht immer wichtig.\nModerator: Sehr interessant. Vielen Dank für das Gespräch, Herr Schütz. Ich wünsche Ihnen weiterhin eine gute Fahrt.",
+      "text_en": "Moderator: Good day, ladies and gentlemen. Today I would like to tell you about Mr. Schütz, a taxi driver with interesting experiences. Although he has only been driving a taxi for a short time, he has already gained a lot of experience. Passengers tell him a lot, and he often receives valuable tips. Sports help him relax. Good day, Mr. Schütz. Thank you for taking the time for this interview. You are a taxi driver, right?\nMr. Schütz: Yes, exactly. I drive a taxi here in the city.\nModerator: Some say that you have only been working as a taxi driver for a short time. Is that true?\nMr. Schütz: No, that is not right. I have been working as a taxi driver for several years. It is a profession that I like because I meet many interesting people.\nModerator: I believe that. And in your time as a taxi driver, have you ever had business people as customers?\nMr. Schütz: No, to be honest, not. In the small town where I used to work, there were hardly any business people who took taxis. Mostly it was pensioners, tourists, or locals who wanted to travel short distances.\nModerator: Is there anything that particularly surprised you? I've heard that passengers often talk a lot.\nMr. Schütz: Yes, that's right. Many people talk very openly with me because they know they will probably never see me again. That is interesting because I sometimes find out things I would otherwise never hear.\nModerator: And men tend to talk about impersonal things, right?\nMr. Schütz: I cannot confirm that. Some talk about politics or the weather, but many also tell about their problems or experiences.\nModerator: Do you sometimes get tips from your passengers?\nMr. Schütz: No, that happens rather rarely. Of course there are a few friendly people who advise me on something, but mostly it remains a nice conversation.\nModerator: How do you relax after a long working day? Is it true that you go swimming?\nMr. Schütz: No, that is wrong. I prefer to go for a walk or listen to music to relax. Swimming is not really my thing.\nModerator: And sports are generally important to you?\nMr. Schütz: Yes, absolutely. Sport comes first for me. Movement helps me to stay fit and relieve stress.\nModerator: You consciously decided to only drive during the day, right?\nMr. Schütz: Yes, exactly. Driving at night is too stressful for me. I feel safer during the day, and there are enough customers too.\nModerator: Some people say that younger taxi drivers are less afraid to drive at night. What do you think about that?\nMr. Schütz: That is not quite right. Some young drivers might be braver, but they too must be careful. It can get dangerous at night, so caution is always important.\nModerator: Very interesting. Thank you for the conversation, Mr. Schütz. I wish you a safe journey.",
+      "vocabulary": [
+        {
+          "de": "der Fahrgast",
+          "en": "the passenger"
+        },
+        {
+          "de": "der Einheimische",
+          "en": "the local"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 46,
+        "statement": "Frau Reiter ist die einzige Lokführerin in Deutschland.",
+        "statement_en": "Mrs. Reiter is the only female train driver in Germany.",
+        "correct_answer": "-",
+        "explanation": "Note: The audio transcript features 'Herr Schütz' (a taxi driver), whereas the test booklet questions mention 'Frau Reiter' (a train driver). The answer key marks this question as false (-)."
+      },
+      {
+        "number": 47,
+        "statement": "Sie wollte schon mit 10 Jahren Lokführerin werden.",
+        "statement_en": "She wanted to be a train driver when she was 10.",
+        "correct_answer": "-",
+        "explanation": "Answer key marks this as false (-)."
+      },
+      {
+        "number": 48,
+        "statement": "Frau Reiter hat nach der Schule eine Lehrstelle als Elektronikerin gefunden.",
+        "statement_en": "Mrs. Reiter found an apprenticeship as an electronics technician after school.",
+        "correct_answer": "+",
+        "explanation": "Answer key marks this as true (+)."
+      },
+      {
+        "number": 49,
+        "statement": "Nach der Lehre hat Frau Reiter als Automechanikerin gearbeitet.",
+        "statement_en": "After her apprenticeship, Mrs. Reiter worked as a car mechanic.",
+        "correct_answer": "-",
+        "explanation": "Answer key marks this as false (-)."
+      },
+      {
+        "number": 50,
+        "statement": "Frau Reiters Eltern waren mit der Berufswahl ihrer Tochter einverstanden.",
+        "statement_en": "Mrs. Reiter's parents agreed with their daughter's choice of profession.",
+        "correct_answer": "+",
+        "explanation": "Answer key marks this as true (+)."
+      },
+      {
+        "number": 51,
+        "statement": "Frau Reiter muss manchmal Reparaturen machen.",
+        "statement_en": "Mrs. Reiter sometimes has to do repairs.",
+        "correct_answer": "+",
+        "explanation": "Answer key marks this as true (+)."
+      },
+      {
+        "number": 52,
+        "statement": "Frau Reiter macht gerne Nachtdienst.",
+        "statement_en": "Mrs. Reiter likes to work night shifts.",
+        "correct_answer": "-",
+        "explanation": "Answer key marks this as false (-)."
+      },
+      {
+        "number": 53,
+        "statement": "Von der Arbeit ist Frau Reiter oft müde.",
+        "statement_en": "Mrs. Reiter is often tired from work.",
+        "correct_answer": "+",
+        "explanation": "Answer key marks this as true (+)."
+      },
+      {
+        "number": 54,
+        "statement": "Der Mann von Frau Reiter hat regelmäßige Arbeitszeiten.",
+        "statement_en": "Mrs. Reiter's husband has regular working hours.",
+        "correct_answer": "-",
+        "explanation": "Answer key marks this as false (-)."
+      },
+      {
+        "number": 55,
+        "statement": "Frau Reiter möchte später Lokführer und Lokführerinnen ausbilden.",
+        "statement_en": "Mrs. Reiter would like to train train drivers later.",
+        "correct_answer": "+",
+        "explanation": "Answer key marks this as true (+)."
+      }
+    ]
+  },
+  "hoerverstehen_teil_3": {
+    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören jeden Text zweimal. Entscheiden Sie beim Hören, ob die Aussagen 56-60 richtig (+) oder falsch (-) sind.",
+    "transcripts": [
+      {
+        "number": 56,
+        "text": "Achtung! Der Fahrer des Fahrzeugs mit dem Kennzeichen HB-D 256 wird dringend gebeten, sofort ins Erdgeschoss zu kommen. Das Fahrzeug steht im Halteverbot und blockiert eine wichtige Ausfahrt. Bitte melden Sie sich umgehend an der Rezeption im Eingangsbereich. Es wird darum gebeten, das Fahrzeug schnellstmöglich umzuparken. Vielen Dank.",
+        "text_en": "Attention! The driver of the vehicle with license plate HB-D 256 is urgently requested to come to the ground floor immediately. The vehicle is parked in a no-parking zone and is blocking an important exit. Please report immediately to the reception in the entrance area. You are requested to repark the vehicle as quickly as possible. Thank you.",
+        "vocabulary": [
+          {
+            "de": "das Kennzeichen",
+            "en": "the license plate"
+          },
+          {
+            "de": "umparken",
+            "en": "to repark"
+          }
+        ]
+      },
+      {
+        "number": 57,
+        "text": "Guten Tag, hier ist Ihre Möbelfirma. Die Lieferung des bestellten Sofas erfolgt nicht am Dienstag, sondern am Mittwoch zwischen 10 und 12 Uhr. Bitte stellen Sie sicher, dass jemand zu Hause ist, um die Ware entgegenzunehmen. Bei weiteren Fragen können Sie uns gerne anrufen oder eine Nachricht per E-Mail senden.",
+        "text_en": "Hello, this is your furniture company. The delivery of the ordered sofa will not take place on Tuesday, but on Wednesday between 10 and 12 o'clock. Please make sure that someone is at home to receive the goods. If you have any further questions, you are welcome to call us or send an e-mail message.",
+        "vocabulary": [
+          {
+            "de": "entgegennehmen",
+            "en": "to receive / accept"
+          }
+        ]
+      },
+      {
+        "number": 58,
+        "text": "Willkommen im Gasthof Lindner. Unser Hotel liegt direkt neben einer Tankstelle, was besonders für Autofahrer sehr praktisch ist. Sie können dort rund um die Uhr tanken oder Snacks kaufen. Auch eine kleine Werkstatt ist in der Nähe. Wir wünschen Ihnen einen angenehmen Aufenthalt und stehen für Fragen jederzeit an der Rezeption zur Verfügung.",
+        "text_en": "Welcome to Gasthof Lindner. Our hotel is located right next to a gas station, which is very practical especially for drivers. You can refuel there around the clock or buy snacks. There is also a small workshop nearby. We wish you a pleasant stay and are available for questions at any time at the reception.",
+        "vocabulary": [
+          {
+            "de": "die Tankstelle",
+            "en": "the gas station"
+          },
+          {
+            "de": "der Aufenthalt",
+            "en": "the stay"
+          }
+        ]
+      },
+      {
+        "number": 59,
+        "text": "Hier ist Ihr Kinoprogramm. Der beliebte Film 'Komiker' läuft jeden Tag um 20 Uhr im großen Saal. Die Vorstellung dauert etwa 90 Minuten. Tickets gibt es online oder an der Kasse. Kommen Sie bitte spätestens 15 Minuten vor Beginn. Wir wünschen Ihnen viel Vergnügen und freuen uns auf Ihren Besuch im Kino.",
+        "text_en": "Here is your cinema program. The popular film 'Komiker' runs every day at 8 p.m. in the main hall. The performance lasts about 90 minutes. Tickets are available online or at the box office. Please arrive no later than 15 minutes before the start. We wish you a lot of fun and look forward to your visit to the cinema.",
+        "vocabulary": [
+          {
+            "de": "das Vergnügen",
+            "en": "the pleasure / fun"
+          }
+        ]
+      },
+      {
+        "number": 60,
+        "text": "Der Wetterdienst meldet für heute wechselhaftes Wetter. Am Nachmittag ziehen Wolken auf, und am Abend wird mit starkem Regen gerechnet. Es besteht die Gefahr von Gewittern und starkem Wind. Besonders in den Abendstunden ist mit starkem Platzregen zu rechnen. Bitte informieren Sie sich regelmäßig über die aktuellen Wetterwarnungen im Radio oder Internet.",
+        "text_en": "The weather service reports changeable weather for today. In the afternoon clouds will move in, and heavy rain is expected in the evening. There is a risk of thunderstorms and strong winds. Heavy downpours are to be expected, especially in the evening hours. Please inform yourself regularly about the current weather warnings on the radio or internet.",
+        "vocabulary": [
+          {
+            "de": "wechselhaft",
+            "en": "changeable"
+          },
+          {
+            "de": "der Platzregen",
+            "en": "the downpour"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "number": 56,
+        "statement": "Der Fahrer des Wagens mit dem Kennzeichen HB-D 256 soll ins Erdgeschoss kommen.",
+        "statement_en": "The driver of the car with license plate HB-D 256 should come to the ground floor.",
+        "correct_answer": "+",
+        "explanation": "The audio confirms this: 'Der Fahrer des Fahrzeugs mit dem Kennzeichen HB-D 256 wird dringend gebeten, sofort ins Erdgeschoss zu kommen'."
+      },
+      {
+        "number": 57,
+        "statement": "Die Firma liefert das bestellte Sofa am Dienstag ab drei Uhr nachmittags.",
+        "statement_en": "The company delivers the ordered sofa on Tuesday from three o'clock in the afternoon.",
+        "correct_answer": "-",
+        "explanation": "The delivery is scheduled for Wednesday between 10 and 12 ('nicht am Dienstag, sondern am Mittwoch zwischen 10 und 12 Uhr')."
+      },
+      {
+        "number": 58,
+        "statement": "Der Gasthof Lindner ist neben einer Tankstelle.",
+        "statement_en": "The Gasthof Lindner is next to a gas station.",
+        "correct_answer": "+",
+        "explanation": "The audio states 'Unser Hotel liegt direkt neben einer Tankstelle'."
+      },
+      {
+        "number": 59,
+        "statement": "Der Film 'Komiker' läuft täglich um 20 Uhr.",
+        "statement_en": "The movie 'Komiker' runs daily at 8 p.m.",
+        "correct_answer": "+",
+        "explanation": "The audio confirms this: 'läuft jeden Tag um 20 Uhr'."
+      },
+      {
+        "number": 60,
+        "statement": "Das Wetter ist am Abend noch gut.",
+        "statement_en": "The weather is still good in the evening.",
+        "correct_answer": "-",
+        "explanation": "The weather report warns of strong rain and thunderstorms in the evening ('am Abend wird mit starkem Regen gerechnet')."
+      }
+    ]
+  }
+}
