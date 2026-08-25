@@ -65,29 +65,50 @@
   {
     "id": "tamara",
     "number": 10,
-    "title": "tamara",
+    "title": "Tamara",
     "file": "data/tamara.json",
     "is_available": true
   },
   {
     "id": "thomas",
     "number": 11,
-    "title": "thomas",
+    "title": "Thomas",
     "file": "data/thomas.json",
     "is_available": true
   },
   {
     "id": "vera",
     "number": 12,
-    "title": "vera",
+    "title": "Vera",
     "file": "data/vera.json",
     "is_available": true
   },
   {
     "id": "viktor",
     "number": 13,
-    "title": "viktor",
+    "title": "Viktor",
     "file": "data/viktor.json",
+    "is_available": true
+  },
+  {
+    "id": "andreas",
+    "number": 14,
+    "title": "Andreas",
+    "file": "data/andreas.json",
+    "is_available": true
+  },
+  {
+    "id": "annika3",
+    "number": 15,
+    "title": "Annika3",
+    "file": "data/annika3.json",
+    "is_available": true
+  },
+  {
+    "id": "caroline",
+    "number": 16,
+    "title": "caroline",
+    "file": "data/caroline.json",
     "is_available": true
   },
 ]
