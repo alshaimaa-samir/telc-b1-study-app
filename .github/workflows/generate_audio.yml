@@ -1,0 +1,50 @@
+name: Generate AI Audio (OpenAI TTS)
+
+on:
+  workflow_dispatch:
+    inputs:
+      voice:
+        description: 'OpenAI TTS Voice'
+        required: true
+        default: 'alloy'
+        type: choice
+        options:
+          - alloy
+          - onyx
+          - nova
+          - echo
+          - fable
+          - shimmer
+
+permissions:
+  contents: write
+
+jobs:
+  generate_audio:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Generate AI Audio MP3s
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          python3 scripts/generate_ai_audio.py --voice ${{ github.event.inputs.voice }}
+
+      - name: Commit and Push Audio Files
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add audio/
+          if git diff --staged --quiet; then
+            echo "No new audio files to commit."
+          else
+            git commit -m "feat(audio): batch generate audio MP3s [voice: ${{ github.event.inputs.voice }}]"
+            git push
+          fi
