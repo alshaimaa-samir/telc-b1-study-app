@@ -2,7 +2,7 @@
   {
     "id": "eva1",
     "number": 1,
-    "title": "EVA1",
+    "title": "Eva1",
     "file": "data/eva1.json",
     "is_available": true
   },
@@ -16,22 +16,78 @@
   {
     "id": "sophie",
     "number": 3,
-    "title": "SOPHIE",
+    "title": "Sophie",
     "file": "data/sophie.json",
     "is_available": true
   },
   {
     "id": "iris1",
     "number": 4,
-    "title": "IRIS1",
+    "title": "Iris1",
     "file": "data/iris1.json",
     "is_available": true
   },
   {
     "id": "jan",
-    "number": 4,
+    "number": 5,
     "title": "Jan",
     "file": "data/jan.json",
     "is_available": true
-  }
+  },
+  {
+    "id": "jennifer",
+    "number": 6,
+    "title": "Jennifer",
+    "file": "data/jennifer.json",
+    "is_available": true
+  },
+  {
+    "id": "nadia2",
+    "number": 7,
+    "title": "Nadia2",
+    "file": "data/nadia2.json",
+    "is_available": true
+  },
+  {
+    "id": "nicole",
+    "number": 8,
+    "title": "Nicole",
+    "file": "data/nicole.json",
+    "is_available": true
+  },
+  {
+    "id": "sonja3",
+    "number": 9,
+    "title": "Sonja3",
+    "file": "data/sonja3.json",
+    "is_available": true
+  },
+  {
+    "id": "tamara",
+    "number": 10,
+    "title": "tamara",
+    "file": "data/tamara.json",
+    "is_available": true
+  },
+  {
+    "id": "thomas",
+    "number": 11,
+    "title": "thomas",
+    "file": "data/thomas.json",
+    "is_available": true
+  },
+  {
+    "id": "vera",
+    "number": 12,
+    "title": "vera",
+    "file": "data/vera.json",
+    "is_available": true
+  },
+  {
+    "id": "viktor",
+    "number": 13,
+    "title": "viktor",
+    "file": "data/viktor.json",
+    "is_available": true
+  },
 ]
