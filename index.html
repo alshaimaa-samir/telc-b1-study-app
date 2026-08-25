@@ -1071,65 +1071,67 @@
         }
       } catch (e) { console.warn(e); }
 
-      // 1. Dynamic Auto-Discovery of all exam JSON files in data/
+      // 1. Load exam models from manifest_models.json
       try {
-        const dirRes = await fetch('data/');
-        if (dirRes.ok) {
-          const dirHtml = await dirRes.text();
-          const parser = new DOMParser();
-          const doc = parser.parseFromString(dirHtml, 'text/html');
-          const links = Array.from(doc.querySelectorAll('a'));
-          const rawFiles = [];
-          links.forEach(a => {
-            const href = a.getAttribute('href') || '';
-            const cleanHref = href.split('?')[0].split('#')[0];
-            if (cleanHref.endsWith('.json') && cleanHref !== 'manifest_models.json' && cleanHref !== 'schema_telc_b1.json') {
-              rawFiles.push(cleanHref);
-            }
-          });
-          const uniqueFiles = Array.from(new Set(rawFiles));
-          if (uniqueFiles.length > 0) {
-            const loaded = [];
-            let idx = 1;
-            for (const filename of uniqueFiles) {
-              const id = filename.replace('.json', '');
-              try {
-                const fRes = await fetch('data/' + filename + '?t=' + Date.now());
-                const fJson = await fRes.json();
-                loaded.push({
-                  id: id,
-                  number: idx++,
-                  title: fJson.title || id.toUpperCase(),
-                  file: 'data/' + filename,
-                  is_available: true
-                });
-              } catch(err) {
-                loaded.push({
-                  id: id,
-                  number: idx++,
-                  title: id.toUpperCase(),
-                  file: 'data/' + filename,
-                  is_available: true
-                });
-              }
-            }
-            if (loaded.length > 0) {
-              modelsList = loaded;
-            }
-          }
-        }
-      } catch (e) {
-        console.log("Live directory listing auto-discovery fallback:", e);
-      }
-
-      // 2. Fallback to manifest_models.json if directory listing is not exposed
-      if (!modelsList || modelsList.length === 0) {
-        try {
-          const res = await fetch('data/manifest_models.json?t=' + Date.now());
+        const res = await fetch('data/manifest_models.json?t=' + Date.now());
+        if (res.ok) {
           const data = await res.json();
           modelsList = (Array.isArray(data) ? data : []).filter(m => m.is_available !== false);
-        } catch (err) {
-          console.warn('Could not fetch manifest_models.json:', err);
+        }
+      } catch (err) {
+        console.warn('Could not fetch manifest_models.json:', err);
+      }
+
+      // 2. Localhost fallback: attempt live directory auto-discovery only if manifest is empty and running locally
+      if ((!modelsList || modelsList.length === 0) && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')) {
+        try {
+          const dirRes = await fetch('data/');
+          if (dirRes.ok) {
+            const dirHtml = await dirRes.text();
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(dirHtml, 'text/html');
+            const links = Array.from(doc.querySelectorAll('a'));
+            const rawFiles = [];
+            links.forEach(a => {
+              const href = a.getAttribute('href') || '';
+              const cleanHref = href.split('?')[0].split('#')[0];
+              if (cleanHref.endsWith('.json') && cleanHref !== 'manifest_models.json' && cleanHref !== 'schema_telc_b1.json') {
+                rawFiles.push(cleanHref);
+              }
+            });
+            const uniqueFiles = Array.from(new Set(rawFiles));
+            if (uniqueFiles.length > 0) {
+              const loaded = [];
+              let idx = 1;
+              for (const filename of uniqueFiles) {
+                const id = filename.replace('.json', '');
+                try {
+                  const fRes = await fetch('data/' + filename + '?t=' + Date.now());
+                  const fJson = await fRes.json();
+                  loaded.push({
+                    id: id,
+                    number: idx++,
+                    title: fJson.title || id.toUpperCase(),
+                    file: 'data/' + filename,
+                    is_available: true
+                  });
+                } catch(err) {
+                  loaded.push({
+                    id: id,
+                    number: idx++,
+                    title: id.toUpperCase(),
+                    file: 'data/' + filename,
+                    is_available: true
+                  });
+                }
+              }
+              if (loaded.length > 0) {
+                modelsList = loaded;
+              }
+            }
+          }
+        } catch (e) {
+          console.log("Local directory listing fallback:", e);
         }
       }
 
