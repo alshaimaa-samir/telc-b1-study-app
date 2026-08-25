@@ -4281,30 +4281,6 @@ ${ad.text || ''}`;
       podcastState.currentStepIndex = 0;
       podcastState.isPlaying = false;
       updatePlayIcons(false);
-    }sh({
-                type: 'explanation',
-                tag: '💡 Explanation',
-                tagClass: 'bg-indigo-50 text-indigo-800 border border-indigo-200',
-                text: `Explanation for question ${q.number}: ${q.explanation}`,
-                lang: 'en-US'
-              });
-            }
-
-            queue.push({
-              id: `${podcastState.modelId}_hoerverstehen_3_${q.number}`,
-              itemTitle: `Hören 3 • Gespräch ${q.number}`,
-              displayTitle: `${modelTitle} • Hören 3 • Gespräch ${q.number}`,
-              steps: steps
-            });
-          });
-        }
-      }
-
-      podcastState.queue = queue;
-      podcastState.currentIndex = 0;
-      podcastState.currentStepIndex = 0;
-      podcastState.isPlaying = false;
-      updatePlayIcons(false);
     }
 
     function renderPodcastStage() {
