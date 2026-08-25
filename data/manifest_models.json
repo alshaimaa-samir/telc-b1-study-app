@@ -19,5 +19,19 @@
     "title": "SOPHIE",
     "file": "data/sophie.json",
     "is_available": true
+  },
+  {
+    "id": "iris1",
+    "number": 4,
+    "title": "IRIS1",
+    "file": "data/iris1.json",
+    "is_available": true
+  },
+  {
+    "id": "jan",
+    "number": 4,
+    "title": "Jan",
+    "file": "data/jan.json",
+    "is_available": true
   }
 ]
