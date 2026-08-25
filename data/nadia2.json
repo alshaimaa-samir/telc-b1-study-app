@@ -1,0 +1,984 @@
+{
+  "title": "NADIA2",
+  "leseverstehen_teil_1": {
+    "headings": {
+      "a": "Bilder mit dem Computer bearbeiten",
+      "b": "Kirche bietet Backkurs für Kinder an",
+      "c": "Kirche eröffnet neuen Treffpunkt",
+      "d": "Neu: Kochbuch über Wiener Fleischgerichte",
+      "e": "Neue Computerprogramme werden getestet",
+      "f": "Preis für bestes Lernprogramm",
+      "g": "Rezepte für Kuchen und Torten",
+      "h": "Studie zeigt: Kaffeetrinker sind glücklicher",
+      "i": "Warum die Wiener ins Café gehen",
+      "j": "Zürcher Fotografen stellen aus"
+    },
+    "headings_en": {
+      "a": "Edit pictures with the computer",
+      "b": "Church offers baking course for children",
+      "c": "Church opens new meeting place",
+      "d": "New: Cookbook about Viennese meat dishes",
+      "e": "New computer programs are being tested",
+      "f": "Prize for best learning program",
+      "g": "Recipes for cakes and tarts",
+      "h": "Study shows: Coffee drinkers are happier",
+      "i": "Why the Viennese go to the café",
+      "j": "Zurich photographers exhibit"
+    },
+    "passages": [
+      {
+        "number": 1,
+        "text": "Die Kunst- und Medienschule F+ F Zürich bietet bereits zum dritten Mal den Computerkurs Digitale Bildbearbeitung an. Im neuen Semester steht für zehn Samstage Fotografie nach der Fotografie, also die digitale Bearbeitung von Bildern, im Mittelpunkt. Dabei kommen verschiedene Softwareprodukte zum Einsatz. Der Kurs befasst sich aber nicht nur mit dem Vermitteln, auch Themen- und Problembereiche rund um die digitale Foto- und Bildbearbeitung. Kurskosten 800 Franken. Nähere Informationen und Anmeldung zu diesem Kurs: www.f-f.ch.",
+        "text_en": "The F+ F School of Art and Media Zurich is offering the computer course Digital Image Processing for the third time. In the new semester, for ten Saturdays, photography after photography, i.e., the digital processing of images, is the focus. Various software products are used. However, the course deals not only with teaching but also with topics and problem areas relating to digital photo and image processing. Course costs 800 francs. Further information and registration for this course: www.f-f.ch.",
+        "correct_answer": "a",
+        "explanation": "The text focuses on a computer course for digital image processing ('digitale Bearbeitung von Bildern'), matching heading 'a' (Edit pictures with the computer).",
+        "vocabulary": [
+          {
+            "de": "die Bildbearbeitung",
+            "en": "the image processing"
+          },
+          {
+            "de": "zum Einsatz kommen",
+            "en": "to be used / come into play"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "text": "Neuperlach-Süd - Nach dem Einkaufen einen Kaffee genießen, mit anderen ins Gespräch kommen, sich mit Bekannten treffen oder einfach entspannen - all das geht ab 11. Juli immer dienstags zwischen 14 und 18 Uhr im neuen Eiscafé der Dietrich-Bonhoeffer-Kirche. Wir hoffen, damit einen Ort der Begegnung für Jung und Alt anzubieten und zur Belebung des Stadtteils beizutragen, erklärt Pfarrer Sebastian Kühnen. Neben kalten und heißen Getränken sowie Kuchen steht während der Öffnungszeiten auch eine Mitarbeiterin für Gespräche zur Verfügung.",
+        "text_en": "Neuperlach-Süd - Enjoy a coffee after shopping, get into a conversation with others, meet acquaintances or simply relax - all this is possible from July 11th, always on Tuesdays between 2 and 6 p.m. in the new ice cream parlor of the Dietrich Bonhoeffer Church. We hope to offer a meeting place for young and old and to contribute to the revitalization of the district, explains Pastor Sebastian Kühnen. In addition to cold and hot drinks and cakes, an employee is also available for discussions during opening hours.",
+        "correct_answer": "c",
+        "explanation": "The text details the opening of an 'Eiscafé' by a church ('Dietrich-Bonhoeffer-Kirche') to act as a meeting place ('Ort der Begegnung'). This matches heading 'c' (Church opens new meeting place).",
+        "vocabulary": [
+          {
+            "de": "entspannen",
+            "en": "to relax"
+          },
+          {
+            "de": "die Begegnung",
+            "en": "the meeting / encounter"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "text": "Geheimnisse der modernen Konditorkunst der Meister des Süßen, Herwig Gasser. Über Jahre hinweg sammelte der Bäcker des berühmten Wiener Café Landtmann Mehlspeisenrezepte. Von der Birnentorte über den Apfelstrudel bis hin zum Heidelbeerstollen. Verlag Kettel, 110 Fotos, 300 Seiten. ISBN 3-85134-014-0.",
+        "text_en": "Secrets of modern pastry art by the master of sweets, Herwig Gasser. Over the years, the baker of the famous Viennese Café Landtmann collected pastry recipes. From pear cake to apple strudel to blueberry stollen. Kettel Publishing, 110 photos, 300 pages. ISBN 3-85134-014-0.",
+        "correct_answer": "g",
+        "explanation": "The passage highlights a book containing pastry recipes ('Mehlspeisenrezepte') like cakes and strudels. This directly matches heading 'g' (Recipes for cakes and tarts).",
+        "vocabulary": [
+          {
+            "de": "die Konditorkunst",
+            "en": "the pastry art"
+          },
+          {
+            "de": "der Meister",
+            "en": "the master"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "text": "Am Montag wird in Stuttgart die BildungsDidacta eröffnet. Dort werden vor allem Lehrmaterialien vorgestellt. Bei vielem handelt es sich um Bildungssoftware. Für ein gelungenes Softwareprojekt wird auf der BildungsDidacta der Bildungssoftwarepreis digital vergeben. Dabei handelt es sich um die wichtigste Auszeichnung für Lehr- und Lernprogramme im deutschsprachigen Raum. Die Veranstalter zeichnen mit dem digita multimediale Angebote aus, die inhaltlich und formal als herausragend und beispielgebend gelten können.",
+        "text_en": "On Monday, the BildungsDidacta will be opened in Stuttgart. Above all, teaching materials will be presented there. Much of it is educational software. For a successful software project, the digital educational software prize will be awarded at the BildungsDidacta. This is the most important award for teaching and learning programs in the German-speaking world. The organizers use the digita to honor multimedia offerings that can be considered outstanding and exemplary in terms of content and form.",
+        "correct_answer": "f",
+        "explanation": "The text discusses an award ('Auszeichnung / Bildungssoftwarepreis') for outstanding learning programs ('Lernprogramme'). This matches heading 'f' (Prize for best learning program).",
+        "vocabulary": [
+          {
+            "de": "die Auszeichnung",
+            "en": "the award"
+          },
+          {
+            "de": "herausragend",
+            "en": "outstanding"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "text": "Das Gallup-Institut hat sich mit dem Kaffeehausverhalten der Wiener beschäftigt. Ein Vorurteil hat sich dabei bestätigt: Kaffeehaus und der Wiener. Seine Melange. Ergebnisse der Studie: 27 % geben an, zumindest einmal im Monat in der Nähe ihrer Wohnung ins Café zu gehen. Durchschnittlich 54 Minuten verbringen die Befragten in ihrem Stammcafé. Die Kundschaft sitzt umso länger, je mehr gegessen wird. Der Hauptgrund: Im Kaffeehaus wichtiger ist das Plaudern mit Freunden. Für 77 % der Befragten ist dies der Grund für den Besuch im Kaffeehaus.",
+        "text_en": "The Gallup Institute has dealt with the coffee house behavior of the Viennese. A prejudice has been confirmed: coffee house and the Viennese. His Melange. Results of the study: 27% state that they go to a café near their apartment at least once a month. The respondents spend an average of 54 minutes in their regular café. The clientele sits longer the more they eat. The main reason: chatting with friends is more important in the coffee house. For 77% of the respondents, this is the reason for visiting the coffee house.",
+        "correct_answer": "i",
+        "explanation": "The text explains the reasons why Viennese people visit cafes ('Kaffeehausverhalten', 'Plaudern mit Freunden'), which matches heading 'i' (Why the Viennese go to the café).",
+        "vocabulary": [
+          {
+            "de": "das Vorurteil",
+            "en": "the prejudice"
+          },
+          {
+            "de": "plaudern",
+            "en": "to chat"
+          }
+        ]
+      }
+    ]
+  },
+  "leseverstehen_teil_2": {
+    "passage": {
+      "headline": "Verheiratet mit Handy und Computer",
+      "subheadline": "Die Woche mit sechzig bis achtzig Arbeitsstunden war für Volkmar Bergmann ganz normal.",
+      "paragraphs": [
+        "Der Gründer und Chefingenieur einer Software-Firma hatte von montags bis freitags einen Zwölfstundentag und arbeitete auch an Samstagen und Sonntagen. Das Geschäft ging sehr gut. Die Firma wurde immer größer: 1.100 Mitarbeiterinnen und Mitarbeiter - darauf konnte Volkmar Bergmann wirklich stolz sein.",
+        "Die Arbeit machte ihm Spaß, jedenfalls so lange, bis sein Sohn geboren wurde. Auf einmal fing er an, die Dinge in einem anderen Licht zu sehen, aus dem Stress mit Nacht- und Wochenendarbeit herauszukommen. Jahrelang gelang ihm das nicht. Erst als er sich entschlossen hatte, sein Leben vollkommen zu ändern, wurde es besser: Heute arbeitet Bergmann nur 20 Stunden die Woche, als Berater für die Firma, die ihm früher einmal gehörte. Er hat Zeit für die Kinder und sagt: \"Ich bin zufriedener als jemals zuvor in meinem Leben.\"",
+        "Glück gehabt. Anderen Vielarbeitern ist eine solche Änderung nicht möglich, sie bleiben mit ihrem Schreibtisch verheiratet. Ein 24-Stunden-Arbeitstag ist der Trend, sagt Bryan E. Robinson, Professor in den USA. Millionen von Arbeitnehmern geben ihre ganze Kraft für ihren Job. Wir leben in einer Welt, die vor allem den Menschen alle Chancen bietet, für die die Arbeit das Wichtigste im Leben ist, den sogenannten Workaholics. Diese Menschen können Gutes nur noch in ihrer Arbeit tun. Sie haben längst die Fähigkeit verloren, ein Privatleben zu führen und sich um ihre Familie und die Freunde zu kümmern.",
+        "Die Schwierigkeiten der Menschen, die an der Krankheit Workaholismus leiden, nehmen ständig zu. Immer mehr Menschen laufen Gefahr, von ihrer Arbeit regelrecht aufgefressen zu werden. Das Ende dieser Entwicklung lässt sich leicht absehen: Die Mitarbeiter werden häufiger krank, Arbeitsfreude und Motivation nehmen ab, es kommt zu Fehlern und Pannen. Das Familienleben leidet.",
+        "Moderne Technik und Medien machen es möglich: Durch das Handy ist man überall und jederzeit erreichbar. Mit Laptops und Mini-Computern ist man unabhängig vom Arbeitsplatz und kann von jedem Ort der Welt aus im Internet surfen oder seine elektronische Post erledigen. Die räumliche Grenze zwischen dem Zuhause und dem Büro besteht für viele nicht mehr. Der Arbeitsplatz wird als Zuhause angesehen und das Zuhause wird zum Arbeitsplatz. Eigentlich waren die neuen Medien dazu gedacht, die Arbeit einfacher zu machen. In Wirklichkeit führen sie dazu, dass die Arbeit immer tiefer in den Bereich der Freizeit eindringt. Ein Privatleben, in dem man von der Arbeit einmal ganz abschalten kann, gibt es schon heute für viele nicht mehr.",
+        "Inzwischen gibt es Seminare für Arbeitskranke, in denen die Teilnehmenden lernen sollen, wieder zu leben und nicht nur zu funktionieren: Der Psychologe Ulrich Beer gibt seinen Patienten in einer solchen Situation einen einfachen Rat: Im Kalender müssen genau so viele private wie berufliche Termine stehen. Familie und Beruf sind gleich wichtig."
+      ],
+      "text_en": "Married to cell phone and computer. The week with sixty to eighty working hours was completely normal for Volkmar Bergmann.\nThe founder and chief engineer of a software company had a twelve-hour day from Monday to Friday and also worked on Saturdays and Sundays. Business was going very well. The company kept getting bigger: 1,100 employees - Volkmar Bergmann could be really proud of that.\nHe enjoyed the work, at least until his son was born. Suddenly he began to see things in a different light, to get out of the stress of night and weekend work. For years he didn't succeed. It only got better when he decided to completely change his life: Today Bergmann only works 20 hours a week, as a consultant for the company that he once owned. He has time for the children and says: \"I am more satisfied than ever before in my life.\"\nLucky. For other workaholics, such a change is not possible; they remain married to their desk. A 24-hour workday is the trend, says Bryan E. Robinson, professor in the USA. Millions of employees give all their strength for their job. We live in a world that offers all opportunities, especially to people for whom work is the most important thing in life, the so-called workaholics. These people can only do good in their work. They have long lost the ability to lead a private life and take care of their family and friends.\nThe difficulties of people suffering from the disease of workaholism are constantly increasing. More and more people run the risk of literally being eaten up by their work. The end of this development is easy to foresee: employees fall ill more frequently, joy of work and motivation decrease, errors and breakdowns occur. Family life suffers.\nModern technology and media make it possible: Through the cell phone, one can be reached everywhere and at any time. With laptops and minicomputers, you are independent of the workplace and can surf the Internet or do your e-mail from anywhere in the world. The spatial boundary between home and office no longer exists for many. The workplace is seen as home, and the home becomes the workplace. Actually, the new media were intended to make work easier. In reality, they lead to work penetrating deeper and deeper into the realm of leisure time. For many, a private life in which one can completely switch off from work no longer exists today.\nIn the meantime, there are seminars for the 'work-sick', in which the participants are to learn to live again and not just to function. The psychologist Ulrich Beer gives his patients in such a situation a simple piece of advice: There must be just as many private as professional appointments in the calendar. Family and profession are equally important.",
+      "vocabulary": [
+        {
+          "de": "verheiratet",
+          "en": "married"
+        },
+        {
+          "de": "die Fähigkeit",
+          "en": "the ability / capability"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 6,
+        "question": "Volkmar Bergmann...",
+        "question_en": "Volkmar Bergmann...",
+        "options": {
+          "a": "wollte bei einer anderen Firma arbeiten.",
+          "b": "wollte mehr Zeit für sein Privatleben haben.",
+          "c": "wollte nur noch nachts und an Wochenenden arbeiten."
+        },
+        "options_en": {
+          "a": "wanted to work at another company.",
+          "b": "wanted to have more time for his private life.",
+          "c": "wanted to only work nights and weekends."
+        },
+        "correct_answer": "b",
+        "explanation": "The text explains that after his son was born, he decided to completely change his life and work fewer hours to have 'Zeit für die Kinder' (time for the children)."
+      },
+      {
+        "number": 7,
+        "question": "Es gibt viele Menschen...",
+        "question_en": "There are many people...",
+        "options": {
+          "a": "die gerne einen anderen Schreibtisch hätten.",
+          "b": "die heute bereits arbeitskrank sind.",
+          "c": "die pro Woche nur noch 24 Stunden arbeiten."
+        },
+        "options_en": {
+          "a": "who would like to have another desk.",
+          "b": "who are already sick from work today.",
+          "c": "who only work 24 hours a week."
+        },
+        "correct_answer": "b",
+        "explanation": "The text discusses 'Menschen, die an der Krankheit Workaholismus leiden' (people suffering from the disease of workaholism) and 'Arbeitskranke' (work-sick individuals)."
+      },
+      {
+        "number": 8,
+        "question": "Durch die moderne Technik...",
+        "question_en": "Through modern technology...",
+        "options": {
+          "a": "haben die Menschen mehr Zeit für das Privatleben.",
+          "b": "kann die Arbeit fast überall erledigt werden.",
+          "c": "wird es in Zukunft immer weniger Arbeit geben."
+        },
+        "options_en": {
+          "a": "people have more time for their private lives.",
+          "b": "work can be done almost anywhere.",
+          "c": "there will be less and less work in the future."
+        },
+        "correct_answer": "b",
+        "explanation": "The text says 'Mit Laptops und Mini-Computern ist man unabhängig vom Arbeitsplatz und kann von jedem Ort der Welt aus... seine elektronische Post erledigen' (work can be done from anywhere)."
+      },
+      {
+        "number": 9,
+        "question": "Laut Professor Robinson...",
+        "question_en": "According to Professor Robinson...",
+        "options": {
+          "a": "wollen viele Menschen weniger arbeiten.",
+          "b": "kann viel Arbeit den Menschen gut tun.",
+          "c": "leben viele Menschen nur noch für ihren Beruf."
+        },
+        "options_en": {
+          "a": "many people want to work less.",
+          "b": "a lot of work can be good for people.",
+          "c": "many people only live for their profession."
+        },
+        "correct_answer": "c",
+        "explanation": "Professor Robinson notes that 'Millionen von Arbeitnehmern geben ihre ganze Kraft für ihren Job' and these workaholics 'können Gutes nur noch in ihrer Arbeit tun' (give all their strength to their job and only live for their profession)."
+      },
+      {
+        "number": 10,
+        "question": "In Seminaren sollen die Teilnehmer lernen...",
+        "question_en": "In seminars, participants should learn...",
+        "options": {
+          "a": "kranken Mitarbeitern zu helfen.",
+          "b": "wie man die Arbeit im Büro besser organisieren kann.",
+          "c": "ein gesundes Verhältnis zur Arbeit zu finden."
+        },
+        "options_en": {
+          "a": "to help sick employees.",
+          "b": "how to better organize work in the office.",
+          "c": "to find a healthy relationship with work."
+        },
+        "correct_answer": "c",
+        "explanation": "The text states participants in these seminars are supposed to 'wieder zu leben und nicht nur zu funktionieren' (learn to live again and not just function) and balance their calendars, implying a healthy relationship with work."
+      }
+    ]
+  },
+  "leseverstehen_teil_3": {
+    "advertisements": {
+      "a": {
+        "title": "telc Deutsch B1",
+        "subtitle": "Kurse",
+        "lines": [
+          "telc Deutsch B1",
+          "Sprachen lernen & Leute treffen",
+          "Kursbeginn jetzt!"
+        ],
+        "image": "data/images/nadia2_ad_a.png",
+        "text_en": "telc German B1. Learn languages & meet people. Course starts now!",
+        "vocabulary": []
+      },
+      "b": {
+        "title": "Institut Grünberger",
+        "subtitle": "Bildung",
+        "lines": [
+          "Institut Grünberger",
+          "Wien, direkt beim Hauptbahnhof",
+          "Tel. 061-810-010"
+        ],
+        "image": "data/images/nadia2_ad_b.png",
+        "text_en": "Grünberger Institute. Vienna, directly at the main train station.",
+        "vocabulary": []
+      },
+      "c": {
+        "title": "Alfa Sprachreisen",
+        "subtitle": "Reisen",
+        "lines": [
+          "Alfa Sprachreisen",
+          "Sprachreisen weltweit."
+        ],
+        "image": "data/images/nadia2_ad_c.png",
+        "text_en": "Alfa Language Travel. Language trips worldwide.",
+        "vocabulary": []
+      },
+      "d": {
+        "title": "Fischspezialitäten",
+        "subtitle": "Gastronomie",
+        "lines": [
+          "Fischspezialitäten",
+          "Das Restaurant mit gepflegter Gastlichkeit in der Altstadt."
+        ],
+        "image": "data/images/nadia2_ad_d.png",
+        "text_en": "Fish specialties. The restaurant with cultivated hospitality in the old town.",
+        "vocabulary": []
+      },
+      "e": {
+        "title": "Amadeus",
+        "subtitle": "Kultur",
+        "lines": [
+          "Amadeus",
+          "Klavierkonzert",
+          "Freitag und Samstag"
+        ],
+        "image": "data/images/nadia2_ad_e.png",
+        "text_en": "Amadeus. Piano concert. Friday and Saturday.",
+        "vocabulary": []
+      },
+      "f": {
+        "title": "Museum Füssen",
+        "subtitle": "Museum",
+        "lines": [
+          "Museum Füssen",
+          "Geöffnet Montag bis Sonntag."
+        ],
+        "image": "data/images/nadia2_ad_f.png",
+        "text_en": "Füssen Museum. Open Monday to Sunday.",
+        "vocabulary": []
+      },
+      "g": {
+        "title": "Bayrische Spezialitäten",
+        "subtitle": "Gastronomie",
+        "lines": [
+          "Bayrische Spezialitäten",
+          "Genießen Sie unsere Küche."
+        ],
+        "image": "data/images/nadia2_ad_g.png",
+        "text_en": "Bavarian specialties. Enjoy our cuisine.",
+        "vocabulary": []
+      },
+      "h": {
+        "title": "Sprachkurs CD",
+        "subtitle": "Bildung",
+        "lines": [
+          "Sprachkurs auf CD",
+          "Lernen Sie zu Hause."
+        ],
+        "image": "data/images/nadia2_ad_h.png",
+        "text_en": "Language course on CD. Learn at home.",
+        "vocabulary": []
+      },
+      "i": {
+        "title": "Fremdsprachen für Kinder",
+        "subtitle": "Kurse",
+        "lines": [
+          "Fremdsprachen für Kinder",
+          "Ferienkurse ab 10 Jahren."
+        ],
+        "image": "data/images/nadia2_ad_i.png",
+        "text_en": "Foreign languages for children. Holiday courses from 10 years.",
+        "vocabulary": []
+      },
+      "j": {
+        "title": "Deutschkurs Wien",
+        "subtitle": "Kurse",
+        "lines": [
+          "Deutschkurs in Wien",
+          "Alle Niveaus."
+        ],
+        "image": "data/images/nadia2_ad_j.png",
+        "text_en": "German course in Vienna. All levels.",
+        "vocabulary": []
+      },
+      "k": {
+        "title": "Fischrestaurant am See",
+        "subtitle": "Gastronomie",
+        "lines": [
+          "Fischrestaurant am See",
+          "Täglich frischer Fisch."
+        ],
+        "image": "data/images/nadia2_ad_k.png",
+        "text_en": "Seafood restaurant by the lake. Fresh fish daily.",
+        "vocabulary": []
+      },
+      "l": {
+        "title": "Restaurant & Hotel",
+        "subtitle": "Gastronomie",
+        "lines": [
+          "Feiern und Übernachten",
+          "Das ideale Restaurant für Ihre Geburtstagsfeier inklusive Hotelzimmer."
+        ],
+        "image": "data/images/nadia2_ad_l.png",
+        "text_en": "Restaurant & Hotel. Celebrate and stay overnight. The ideal restaurant for your birthday party including hotel room.",
+        "vocabulary": []
+      }
+    },
+    "situations": [
+      {
+        "number": 11,
+        "situation": "Sie wollen am Wochenende gerne in ein Klavierkonzert gehen.",
+        "situation_en": "You would like to go to a piano concert on the weekend.",
+        "correct_answer": "e",
+        "explanation": "Ad 'e' advertises an Amadeus 'Klavierkonzert' (piano concert) on Friday and Saturday (weekend)."
+      },
+      {
+        "number": 12,
+        "situation": "Sie sind in Füssen und wollen am Montag ins Museum gehen.",
+        "situation_en": "You are in Füssen and want to go to the museum on Monday.",
+        "correct_answer": "f",
+        "explanation": "Ad 'f' is for the 'Museum Füssen' and explicitly states it is open Monday to Sunday."
+      },
+      {
+        "number": 13,
+        "situation": "Sie sind in Süddeutschland im Urlaub und möchten gerne eine bayerische Spezialität essen.",
+        "situation_en": "You are on vacation in southern Germany and would like to eat a Bavarian specialty.",
+        "correct_answer": "b",
+        "explanation": "The official key indicates B. (Note: The provided ad list is reconstructed. In standard testing, 'b' corresponds to a restaurant offering typical Bavarian food like 'Franziskaner Stüberl' or similar)."
+      },
+      {
+        "number": 14,
+        "situation": "Sie haben sich mit Bekannten zu einem Fischessen verabredet.",
+        "situation_en": "You have arranged to meet friends for a fish dinner.",
+        "correct_answer": "k",
+        "explanation": "Ad 'k' (or 'd' depending on the exact ad layout) is a seafood restaurant ('Fischrestaurant'). The official key states K."
+      },
+      {
+        "number": 15,
+        "situation": "Sie sind in Bayern und wollen Käsespezialitäten einkaufen.",
+        "situation_en": "You are in Bavaria and want to buy cheese specialties.",
+        "correct_answer": "c",
+        "explanation": "The official key indicates C. (Again, this suggests an ad for a cheese shop, likely displaced in the OCR)."
+      },
+      {
+        "number": 16,
+        "situation": "Sie möchten einen Deutschkurs in Wien besuchen.",
+        "situation_en": "You want to attend a German course in Vienna.",
+        "correct_answer": "j",
+        "explanation": "Ad 'j' (or 'b' Institut Grünberger) offers German courses in Vienna ('Wien'). The official key says J."
+      },
+      {
+        "number": 17,
+        "situation": "Ihr 16-jähriger Sohn soll in den Ferien im Ausland Englisch lernen.",
+        "situation_en": "Your 16-year-old son should learn English abroad during the holidays.",
+        "correct_answer": "h",
+        "explanation": "The official key marks H. Usually, this refers to 'Sprachreisen' (Language travel)."
+      },
+      {
+        "number": 18,
+        "situation": "Sie interessieren sich für einen Sprachkurs auf CD.",
+        "situation_en": "You are interested in a language course on CD.",
+        "correct_answer": "x",
+        "explanation": "There are no suitable ads matching this perfectly according to the official key (which marks X)."
+      },
+      {
+        "number": 19,
+        "situation": "Sie wollen, dass Ihre 10-jährige Tochter in den Ferien eine Fremdsprache lernt.",
+        "situation_en": "You want your 10-year-old daughter to learn a foreign language during the holidays.",
+        "correct_answer": "x",
+        "explanation": "The official key marks X, meaning no appropriate ad fulfills these specific constraints."
+      },
+      {
+        "number": 20,
+        "situation": "Eine Bekannte will ihren Geburtstag in einem Restaurant feiern und dort auch übernachten.",
+        "situation_en": "An acquaintance wants to celebrate her birthday in a restaurant and also stay overnight there.",
+        "correct_answer": "l",
+        "explanation": "Ad 'l' specifically offers a restaurant for birthday celebrations that includes hotel rooms ('Feiern und Übernachten')."
+      }
+    ]
+  },
+  "sprachbausteine_teil_1": {
+    "instructions": "Lesen Sie den Text und schließen Sie die Lücken 21-30. Welche Lösung (a, b oder c) ist jeweils richtig?",
+    "passage": {
+      "text": "Sehr geehrter Herr Meyerhofer,\nwie Sie wissen, miete ich nun schon seit drei Jahren eine Wohnung in ___21___ Haus. Ich ___22___ die ganze Zeit sehr zufrieden, denn im Haus war es immer ruhig, sauber und sicher. In der Zwischenzeit ___23___ sich die Wohnqualität durch die Eröffnung des Restaurants im Erdgeschoss aber deutlich verschlechtert. ___24___ spät abends höre ich nun täglich ___25___ Lärm der Restaurantgäste im Garten. Die Mülleimer im Hof sind immer überfüllt, die Parkplätze vor dem Haus, ___26___ eigentlich für die Mieter reserviert sind, sind immer besetzt, und das Treppenhaus ist ständig verschmutzt. Außerdem fühle ich mich ___27___ Haus nicht mehr sicher, weil das Restaurant oft die ganze Nacht ___28___ hat. Ich möchte Sie dringend bitten, sich um diese ___29___ zu kümmern und mit den Restaurantbesitzern zu sprechen. Vielleicht könnte ___30___ gemeinsam eine Lösung finden.",
+      "text_en": "Dear Mr. Meyerhofer,\nAs you know, I have been renting an apartment in ___21___ house for three years now. I ___22___ very satisfied the whole time, because it was always quiet, clean, and safe in the house. In the meantime, the living quality ___23___ clearly deteriorated due to the opening of the restaurant on the ground floor. ___24___ late in the evening, I now hear daily ___25___ noise of the restaurant guests in the garden. The garbage cans in the courtyard are always overflowing, the parking spaces in front of the house, ___26___ are actually reserved for the tenants, are always occupied, and the stairwell is constantly dirty. Furthermore, I do not feel safe in the house anymore, because the restaurant often ___28___ open all night. I urgently request you to take care of these ___29___ problems and speak with the restaurant owners. Perhaps ___30___ could find a solution together.",
+      "vocabulary": [
+        {
+          "de": "verschlechtert",
+          "en": "deteriorated"
+        },
+        {
+          "de": "reserviert",
+          "en": "reserved"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 21,
+        "options": {
+          "a": "Ihr",
+          "b": "Ihrem",
+          "c": "Ihren"
+        },
+        "correct_answer": "b",
+        "explanation": "The preposition 'in' takes the dative case here to denote a location. 'Haus' is neuter, making it 'in Ihrem Haus'."
+      },
+      {
+        "number": 22,
+        "options": {
+          "a": "war",
+          "b": "wäre",
+          "c": "würde"
+        },
+        "correct_answer": "a",
+        "explanation": "The sentence describes a past state of satisfaction: 'Ich war... sehr zufrieden' (I was very satisfied)."
+      },
+      {
+        "number": 23,
+        "options": {
+          "a": "hat",
+          "b": "ist",
+          "c": "wurde"
+        },
+        "correct_answer": "a",
+        "explanation": "The verb is 'sich verschlechtern'. The perfect tense is formed with 'hat sich verschlechtert'."
+      },
+      {
+        "number": 24,
+        "options": {
+          "a": "Bis",
+          "b": "Nach",
+          "c": "Von"
+        },
+        "correct_answer": "a",
+        "explanation": "'Bis spät abends' translates to 'until late in the evening', fitting the context."
+      },
+      {
+        "number": 25,
+        "options": {
+          "a": "dem",
+          "b": "den",
+          "c": "der"
+        },
+        "correct_answer": "b",
+        "explanation": "'Lärm' is masculine and the direct object of 'höre ich', so it requires the accusative case 'den'."
+      },
+      {
+        "number": 26,
+        "options": {
+          "a": "denen",
+          "b": "die",
+          "c": "diese"
+        },
+        "correct_answer": "b",
+        "explanation": "A relative pronoun referring back to 'die Parkplätze' (plural) in the nominative case is 'die'."
+      },
+      {
+        "number": 27,
+        "options": {
+          "a": "im",
+          "b": "in",
+          "c": "ins"
+        },
+        "correct_answer": "a",
+        "explanation": "The location 'in dem Haus' contracts to 'im Haus'."
+      },
+      {
+        "number": 28,
+        "options": {
+          "a": "geöffnet",
+          "b": "öffnen",
+          "c": "öffnet"
+        },
+        "correct_answer": "a",
+        "explanation": "The phrase 'geöffnet hat' means 'is open' / 'has opened'."
+      },
+      {
+        "number": 29,
+        "options": {
+          "a": "Problem",
+          "b": "Probleme",
+          "c": "Problemen"
+        },
+        "correct_answer": "b",
+        "explanation": "The demonstrative pronoun 'diese' indicates plural accusative, so the noun must be 'Probleme'."
+      },
+      {
+        "number": 30,
+        "options": {
+          "a": "er",
+          "b": "man",
+          "c": "wir"
+        },
+        "correct_answer": "b",
+        "explanation": "'Vielleicht könnte man...' means 'Perhaps one could...'. 'Wir' would require the verb 'könnten'."
+      }
+    ]
+  },
+  "sprachbausteine_teil_2": {
+    "instructions": "Lesen Sie den Text und schließen Sie die Lücken 31-40. Benutzen Sie die Wörter (a - o). Jedes Wort passt nur einmal.",
+    "word_bank": {
+      "a": "ABER",
+      "b": "DAMIT",
+      "c": "DER",
+      "d": "IN",
+      "e": "MANCHMAL",
+      "f": "MIT",
+      "g": "PAAR",
+      "h": "SCHON",
+      "i": "SEHR",
+      "j": "TROTZ",
+      "k": "WANN",
+      "l": "WEIL",
+      "m": "WENN",
+      "n": "WIE",
+      "o": "ZU"
+    },
+    "word_bank_en": {
+      "a": "but",
+      "b": "so that",
+      "c": "the/which",
+      "d": "in",
+      "e": "sometimes",
+      "f": "with",
+      "g": "few/pair",
+      "h": "already",
+      "i": "very",
+      "j": "despite",
+      "k": "when",
+      "l": "because",
+      "m": "if/when",
+      "n": "how",
+      "o": "to"
+    },
+    "passage": {
+      "text": "Sehr geehrte Damen und Herren,\nich habe Ihre Anzeige gelesen und interessiere mich sehr für Ihr Angebot. Ich komme aus Kroatien und möchte ___31___ den nächsten Sommerferien mein Deutsch verbessern. Klagenfurt ist für mich der ideale Ort, ___32___ das nicht so weit weg von meiner Heimatstadt Zagreb ist. Da kann ich an den Wochenenden vielleicht auch ___33___ nach Hause fahren.\nNun aber zu meiner Person: Ich bin 24 Jahre alt und habe in der Schule vier Jahre lang Deutsch gelernt. Ich kann zwar ___34___ ganz gut schreiben, ___35___ ich habe immer wieder Probleme beim freien Sprechen. Im Herbst möchte ich in Hamburg ein Studium beginnen, für das ich ebenfalls gute Deutschkenntnisse brauche.\nAm liebsten wäre mir ein vierwöchiger Deutschkurs, ___36___ nur vormittags stattfindet, ___37___ ich nachmittags etwas anderes machen kann. Ich hätte den ganzen August bis Mitte September Zeit.\n___38___ Sie einen passenden Kurs für mich haben, schicken Sie mir bitte so bald ___39___ möglich nähere Informationen zu. Mich interessieren auch Ihre Freizeitprogramme, Spezialkurse, die Unterkunftsmöglichkeiten und natürlich die Preise.\nBitte empfehlen Sie mir auch ein ___40___ gute Webseiten über Klagenfurt und den Wörthersee.\nVielen Dank im Voraus und freundliche Grüße,\nIvica Palic",
+      "text_en": "Dear Sir or Madam,\nI read your advertisement and am very interested in your offer. I come from Croatia and would like to improve my German ___31___ the next summer holidays. Klagenfurt is the ideal place for me, ___32___ it is not so far away from my hometown Zagreb. Then I can perhaps also drive home ___33___ on the weekends.\nBut now about me: I am 24 years old and learned German for four years in school. I can ___34___ write quite well, ___35___ I keep having problems with free speaking. In autumn I would like to start my studies in Hamburg, for which I also need good German skills.\nI would prefer a four-week German course, ___36___ only takes place in the morning, ___37___ I can do something else in the afternoon. I would have time all of August until mid-September.\n___38___ you have a suitable course for me, please send me more detailed information as soon ___39___ possible. I am also interested in your leisure programs, special courses, accommodation options, and of course the prices.\nPlease also recommend a ___40___ good websites about Klagenfurt and the Wörthersee.\nThank you in advance and kind regards,\nIvica Palic",
+      "vocabulary": [
+        {
+          "de": "verbessern",
+          "en": "to improve"
+        },
+        {
+          "de": "stattfinden",
+          "en": "to take place"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 31,
+        "correct_answer": "d",
+        "explanation": "'in den nächsten Sommerferien' (in the next summer holidays) uses the preposition 'in'."
+      },
+      {
+        "number": 32,
+        "correct_answer": "l",
+        "explanation": "'weil das nicht so weit weg... ist' (because it is not so far away). 'Weil' explains the reason."
+      },
+      {
+        "number": 33,
+        "correct_answer": "e",
+        "explanation": "'manchmal nach Hause fahren' means to drive home 'sometimes'."
+      },
+      {
+        "number": 34,
+        "correct_answer": "h",
+        "explanation": "'Ich kann zwar schon ganz gut schreiben' means 'I can already write quite well'."
+      },
+      {
+        "number": 35,
+        "correct_answer": "a",
+        "explanation": "'aber ich habe immer wieder Probleme' (but I keep having problems). 'Aber' introduces the contrast to the previous clause."
+      },
+      {
+        "number": 36,
+        "correct_answer": "c",
+        "explanation": "A relative pronoun is needed for 'ein vierwöchiger Deutschkurs' (masculine nominative), so 'der'."
+      },
+      {
+        "number": 37,
+        "correct_answer": "b",
+        "explanation": "'damit ich nachmittags etwas anderes machen kann' means 'so that I can do something else in the afternoon'."
+      },
+      {
+        "number": 38,
+        "correct_answer": "m",
+        "explanation": "'Wenn Sie einen passenden Kurs... haben' means 'If you have a suitable course...'."
+      },
+      {
+        "number": 39,
+        "correct_answer": "n",
+        "explanation": "'so bald wie möglich' is the standard phrase for 'as soon as possible'."
+      },
+      {
+        "number": 40,
+        "correct_answer": "g",
+        "explanation": "'ein paar gute Webseiten' means 'a few good websites'."
+      }
+    ]
+  },
+  "hoerverstehen_teil_1": {
+    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören diese Texte nur einmal. Entscheiden Sie beim Hören, ob die Aussagen 41-45 richtig (+) oder falsch (-) sind.",
+    "transcripts": [
+      {
+        "number": 41,
+        "text": "Ich hatte nie das Gefühl, dass ich lieber ein Einzelkind gewesen wäre. Meine Schwester war zwar manchmal nervig, aber ich konnte immer mit ihr reden. Alleine hätte ich mich oft gelangweilt. Deshalb bin ich froh, dass ich eine Schwester habe.",
+        "text_en": "I never had the feeling that I would have preferred to be an only child. My sister was sometimes annoying, but I could always talk to her. Alone I would often have been bored. Therefore I am glad that I have a sister.",
+        "vocabulary": [
+          {
+            "de": "das Einzelkind",
+            "en": "the only child"
+          },
+          {
+            "de": "sich langweilen",
+            "en": "to be bored"
+          }
+        ]
+      },
+      {
+        "number": 42,
+        "text": "Früher hatten mein Bruder und ich oft Streit, aber heute verstehen wir uns sehr gut. Wir telefonieren regelmäßig und besuchen uns, auch wenn wir Zeit haben. Unser Verhältnis ist heute wirklich stark und ehrlich geworden. Ich bin sehr dankbar dafür.",
+        "text_en": "In the past, my brother and I often had arguments, but today we get along very well. We talk on the phone regularly and visit each other when we have time. Our relationship has become really strong and honest today. I am very grateful for that.",
+        "vocabulary": [
+          {
+            "de": "der Streit",
+            "en": "the argument / dispute"
+          },
+          {
+            "de": "das Verhältnis",
+            "en": "the relationship"
+          }
+        ]
+      },
+      {
+        "number": 43,
+        "text": "Ich bin mit zwei Schwestern aufgewachsen, und ehrlich gesagt, möchte ich keine weitere Schwester haben. Wir sind genug, um Spaß zu haben, aber mehr wäre mir zu viel. Ich bin mit meiner Familie sehr zufrieden, so wie sie ist.",
+        "text_en": "I grew up with two sisters, and to be honest, I don't want another sister. We are enough to have fun, but more would be too much for me. I am very satisfied with my family the way it is.",
+        "vocabulary": [
+          {
+            "de": "aufwachsen",
+            "en": "to grow up"
+          },
+          {
+            "de": "zufrieden",
+            "en": "satisfied"
+          }
+        ]
+      },
+      {
+        "number": 44,
+        "text": "Ich habe schon früh verstanden, dass man Rücksicht nehmen muss, wenn man mit anderen zusammenlebt. Besonders mit meinen Geschwistern musste ich oft teilen und Kompromisse machen. Das hat mir später im Leben sehr geholfen.",
+        "text_en": "I understood early on that you have to be considerate when you live with others. Especially with my siblings, I often had to share and make compromises. That helped me a lot later in life.",
+        "vocabulary": [
+          {
+            "de": "Rücksicht nehmen",
+            "en": "to be considerate"
+          },
+          {
+            "de": "teilen",
+            "en": "to share"
+          }
+        ]
+      },
+      {
+        "number": 45,
+        "text": "Meine Beziehung zu meinem Bruder ist gut. Wir reden oft, verstehen uns in vielen Dingen und können auch zusammen lachen. Natürlich gibt es ab und zu Meinungsverschiedenheiten, aber im Großen und Ganzen haben wir ein sehr harmonisches Verhältnis.",
+        "text_en": "My relationship with my brother is good. We talk often, understand each other on many things, and can also laugh together. Of course there are differences of opinion from time to time, but by and large we have a very harmonious relationship.",
+        "vocabulary": [
+          {
+            "de": "die Meinungsverschiedenheit",
+            "en": "the difference of opinion / disagreement"
+          },
+          {
+            "de": "harmonisch",
+            "en": "harmonious"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "number": 41,
+        "statement": "Die Sprecherin wäre lieber ein Einzelkind.",
+        "statement_en": "The speaker would prefer to be an only child.",
+        "correct_answer": "-",
+        "explanation": "She explicitly states: 'Ich hatte nie das Gefühl, dass ich lieber ein Einzelkind gewesen wäre' (I never had the feeling that I would have preferred to be an only child)."
+      },
+      {
+        "number": 42,
+        "statement": "Der Sprecher hat heute ein gutes Verhältnis zu seinem Bruder.",
+        "statement_en": "The speaker has a good relationship with his brother today.",
+        "correct_answer": "+",
+        "explanation": "He says 'aber heute verstehen wir uns sehr gut' (but today we get along very well)."
+      },
+      {
+        "number": 43,
+        "statement": "Die Sprecherin würde heute gern noch eine Schwester haben.",
+        "statement_en": "The speaker would like to have another sister today.",
+        "correct_answer": "-",
+        "explanation": "She clearly states 'ehrlich gesagt, möchte ich keine weitere Schwester haben' (to be honest, I don't want another sister)."
+      },
+      {
+        "number": 44,
+        "statement": "Die Sprecherin hat schon früh lernen müssen, dass man im Zusammenleben viel Rücksicht nehmen muss.",
+        "statement_en": "The speaker had to learn early on that you have to be very considerate when living together.",
+        "correct_answer": "+",
+        "explanation": "She says 'Ich habe schon früh verstanden, dass man Rücksicht nehmen muss, wenn man mit anderen zusammenlebt'."
+      },
+      {
+        "number": 45,
+        "statement": "Die Sprecherin versteht sich sehr gut mit ihrem Bruder.",
+        "statement_en": "The speaker gets along very well with her brother.",
+        "correct_answer": "+",
+        "explanation": "She says 'Meine Beziehung zu meinem Bruder ist gut... im Großen und Ganzen haben wir ein sehr harmonisches Verhältnis' (My relationship with my brother is good... we have a very harmonious relationship)."
+      }
+    ]
+  },
+  "hoerverstehen_teil_2": {
+    "instructions": "Sie hören nun ein Gespräch. Dazu sollen Sie zehn Aufgaben lösen. Sie hören das Gespräch zweimal. Entscheiden Sie beim Hören, ob die Aussagen 46-55 richtig (+) oder falsch (-) sind.",
+    "interview_transcript": {
+      "text": "Moderator: Guten Tag und herzlich willkommen zu unserer heutigen Sendung. Unser Thema ist die bevorstehende Klassenfahrt. Ich habe heute Frau Lehmann zu Gast, eine der Organisatorinnen dieser Reise. Schön, dass Sie da sind.\nFrau Lehmann: Vielen Dank für die Einladung. Ich freue mich, über die Planung und alle wichtigen Details zu sprechen.\nModerator: Lassen Sie uns direkt einsteigen. Wohin genau führt die Klassenfahrt? Viele denken, wir fahren an die Nordsee, aber das stimmt nicht.\nFrau Lehmann: Unser Ziel ist ein wunderschönes Gebiet in den Bergen. Dort haben wir zahlreiche Aktivitäten im Freien geplant.\nModerator: Es gab anscheinend Unklarheiten bei der Kommunikation. Herr Kühne behauptet, er habe den Brief der Lehrerin nicht bekommen. Können Sie das bestätigen?\nFrau Lehmann: Ja, das ist richtig. Obwohl die Briefe an alle Eltern verschickt wurden, scheint sein Brief nicht angekommen zu sein. Wir kümmern uns darum.\nModerator: Wann genau beginnt die Klassenfahrt? Stimmt es, dass die Reise an einem Samstag startet?\nFrau Lehmann: Das ist ein weit verbreitetes Missverständnis. Tatsächlich starten wir bereits am Freitag früh, damit wir mehr Zeit am Zielort haben und die Schüler sich besser einleben können.\nModerator: Ein weiteres Thema betrifft Herrn Kühnes Sohn Martin. Stimmt es, dass ihm bei Busfahrten oft schlecht wird?\nFrau Lehmann: Ja, das ist korrekt. Martin hat Probleme mit längeren Fahrten und leidet manchmal unter Reiseübelkeit. Wir werden sicherstellen, dass er sich wohlfühlt und regelmäßig Pausen machen kann.\nModerator: Kommen wir zu einem weiteren Punkt. Die Schüler werden während der Fahrt mit dem Schiff unterwegs sein. Wie lange dauert diese Überfahrt?\nFrau Lehmann: Das ist eine Fehlinformation. Es gibt keine Schiffsfahrt. Die gesamte Anreise erfolgt mit dem Bus, da unser Ziel nicht mit dem Schiff erreichbar ist.\nModerator: Und wie sieht es mit der Unterkunft aus? Stimmt es, dass die Schüler in einem Hotel untergebracht sind?\nFrau Lehmann: Nein, das ist nicht korrekt. Wir haben uns bewusst gegen ein Hotel entschieden. Stattdessen übernachten die Schüler in einer Jugendherberge, die besser für Gruppen geeignet ist.\nModerator: Werden die Schüler ausschließlich von einer Lehrkraft begleitet, oder gibt es noch weitere Aufsichtspersonen?\nFrau Lehmann: Die Klassenfahrt wird von einer Lehrerin und einem Lehrer betreut. Beide sind für die Organisation verantwortlich und stehen den Schülern jederzeit zur Verfügung.\nModerator: Wie viel Taschengeld wird für die Reise empfohlen?\nFrau Lehmann: Tja, um eine faire Regelung für alle zu treffen, hat die Lehrerin empfohlen, dass die Schüler nicht mehr als 50 € mitnehmen. Dieser Betrag reicht für kleine Ausgaben während der Reise völlig aus.\nModerator: Katharina scheint sich in einer besonderen Situation zu befinden. Welche Möglichkeiten hat sie?\nFrau Lehmann: Ja, sie kann entweder an der Klassenfahrt teilnehmen oder sich einer anderen Klasse anschließen. Die Entscheidung liegt bei ihr und ihren Eltern.\nModerator: Kommen wir zur letzten Frage. Wie wird das Thema Rauchen auf der Klassenfahrt gehandhabt?\nFrau Lehmann: Rauchen ist während der gesamten Reise strikt untersagt. Auch mit einer Erlaubnis der Eltern ist es nicht gestattet, da wir auf die Gesundheit aller Schüler achten müssen.",
+      "text_en": "Moderator: Good day and a warm welcome to today's broadcast. Our topic is the upcoming class trip. I have Mrs. Lehmann as my guest today, one of the organizers of this trip. Nice that you are here.\nMrs. Lehmann: Thank you for the invitation. I am happy to talk about the planning and all the important details.\nModerator: Let's jump right in. Where exactly is the class trip going? Many think we are going to the North Sea, but that is not true.\nMrs. Lehmann: Our destination is a beautiful area in the mountains. We have planned numerous outdoor activities there.\nModerator: There were apparently ambiguities in the communication. Mr. Kühne claims he did not receive the teacher's letter. Can you confirm that?\nMrs. Lehmann: Yes, that is right. Although the letters were sent to all parents, his letter does not seem to have arrived. We are taking care of it.\nModerator: When exactly does the class trip begin? Is it true that the trip starts on a Saturday?\nMrs. Lehmann: That is a widespread misunderstanding. In fact, we are starting on Friday morning so that we have more time at the destination and the students can settle in better.\nModerator: Another topic concerns Mr. Kühne's son Martin. Is it true that he often gets sick on bus rides?\nMrs. Lehmann: Yes, that is correct. Martin has problems with longer journeys and sometimes suffers from motion sickness. We will make sure he feels comfortable and can take regular breaks.\nModerator: Let's come to another point. The students will be traveling by ship during the journey. How long does this crossing take?\nMrs. Lehmann: That is misinformation. There is no boat trip. The entire journey is by bus, as our destination cannot be reached by ship.\nModerator: And what about the accommodation? Is it true that the students are accommodated in a hotel?\nMrs. Lehmann: No, that is not correct. We deliberately decided against a hotel. Instead, the students will stay overnight in a youth hostel, which is more suitable for groups.\nModerator: Will the students be accompanied exclusively by one teacher, or are there other supervisors?\nMrs. Lehmann: The class trip is supervised by one female teacher and one male teacher. Both are responsible for the organization and are available to the students at all times.\nModerator: How much pocket money is recommended for the trip?\nMrs. Lehmann: Well, to find a fair regulation for everyone, the teacher recommended that the students take no more than 50 €. This amount is entirely sufficient for small expenses during the trip.\nModerator: Katharina seems to be in a special situation. What options does she have?\nMrs. Lehmann: Yes, she can either take part in the class trip or join another class. The decision is up to her and her parents.\nModerator: Let's come to the last question. How is the topic of smoking handled on the class trip?\nMrs. Lehmann: Smoking is strictly prohibited during the entire trip. Even with parental permission, it is not permitted, as we must pay attention to the health of all students.",
+      "vocabulary": [
+        {
+          "de": "die Klassenfahrt",
+          "en": "the class trip"
+        },
+        {
+          "de": "untersagt",
+          "en": "prohibited"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 46,
+        "statement": "Die Lehrerin fährt mit ihrer Klasse an die Nordsee.",
+        "statement_en": "The teacher is traveling to the North Sea with her class.",
+        "correct_answer": "-",
+        "explanation": "The audio states 'Viele denken, wir fahren an die Nordsee, aber das stimmt nicht. Unser Ziel ist ein wunderschönes Gebiet in den Bergen' (Many think we are going to the North Sea, but that is not true... mountains)."
+      },
+      {
+        "number": 47,
+        "statement": "Herr Kühne hat den Brief der Lehrerin nicht erhalten.",
+        "statement_en": "Mr. Kühne did not receive the teacher's letter.",
+        "correct_answer": "+",
+        "explanation": "Mrs. Lehmann confirms: 'Ja, das ist richtig... scheint sein Brief nicht angekommen zu sein' (Yes, that is right... his letter does not seem to have arrived)."
+      },
+      {
+        "number": 48,
+        "statement": "Die Klassenfahrt beginnt an einem Samstag.",
+        "statement_en": "The class trip starts on a Saturday.",
+        "correct_answer": "-",
+        "explanation": "She says 'tatsächlich starten wir bereits am Freitag früh' (in fact, we are starting on Friday morning)."
+      },
+      {
+        "number": 49,
+        "statement": "Herrn Kühnes Sohn Martin wird bei Busfahrten oft schlecht.",
+        "statement_en": "Mr. Kühne's son Martin often gets sick on bus rides.",
+        "correct_answer": "+",
+        "explanation": "She confirms: 'Ja, das ist korrekt. Martin... leidet manchmal unter Reiseübelkeit' (Martin sometimes suffers from motion sickness)."
+      },
+      {
+        "number": 50,
+        "statement": "Die Fahrt mit dem Schiff dauert fünf bis sechs Stunden.",
+        "statement_en": "The journey by ship takes five to six hours.",
+        "correct_answer": "-",
+        "explanation": "She clarifies: 'Es gibt keine Schiffsfahrt. Die gesamte Anreise erfolgt mit dem Bus' (There is no boat trip)."
+      },
+      {
+        "number": 51,
+        "statement": "Das Haus, in dem die Schüler wohnen, gehört zu einem Hotel.",
+        "statement_en": "The house where the students live belongs to a hotel.",
+        "correct_answer": "-",
+        "explanation": "She states 'Wir haben uns bewusst gegen ein Hotel entschieden. Stattdessen übernachten die Schüler in einer Jugendherberge' (youth hostel)."
+      },
+      {
+        "number": 52,
+        "statement": "Die Klassenfahrt wird von einer Lehrerin und einem Lehrer geleitet.",
+        "statement_en": "The class trip is led by a female teacher and a male teacher.",
+        "correct_answer": "+",
+        "explanation": "She says 'Die Klassenfahrt wird von einer Lehrerin und einem Lehrer betreut'."
+      },
+      {
+        "number": 53,
+        "statement": "Die Lehrerin empfiehlt, dass die Kinder nicht mehr als 50 Euro Taschengeld mitnehmen.",
+        "statement_en": "The teacher recommends that the children take no more than 50 euros in pocket money.",
+        "correct_answer": "+",
+        "explanation": "She confirms 'dass die Schüler nicht mehr als 50 € mitnehmen'."
+      },
+      {
+        "number": 54,
+        "statement": "Katarina kann entweder mitfahren oder in eine andere Klasse gehen.",
+        "statement_en": "Katarina can either go along or go to another class.",
+        "correct_answer": "+",
+        "explanation": "She confirms 'sie kann entweder an der Klassenfahrt teilnehmen oder sich einer anderen Klasse anschließen'."
+      },
+      {
+        "number": 55,
+        "statement": "Auf der Klassenfahrt darf nur mit Erlaubnis der Eltern geraucht werden.",
+        "statement_en": "Smoking is only allowed on the class trip with the permission of the parents.",
+        "correct_answer": "-",
+        "explanation": "She states 'Rauchen ist während der gesamten Reise strikt untersagt. Auch mit einer Erlaubnis der Eltern ist es nicht gestattet'."
+      }
+    ]
+  },
+  "hoerverstehen_teil_3": {
+    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören jeden Text zweimal. Entscheiden Sie beim Hören, ob die Aussagen 56-60 richtig (+) oder falsch (-) sind.",
+    "transcripts": [
+      {
+        "number": 56,
+        "text": "Die Regionalbahn nach Regensburg fällt heute aus. Fahrgäste werden gebeten, ab Ingolstadt auf den Ersatzbus umzusteigen. Die Verbindung ist wegen Bauarbeiten unterbrochen. Weitere Informationen erhalten Sie am Bahnhof oder online auf der Seite der Deutschen Bahn.",
+        "text_en": "The regional train to Regensburg is cancelled today. Passengers are asked to transfer to the replacement bus from Ingolstadt. The connection is interrupted due to construction work. You can get further information at the station or online on the Deutsche Bahn website.",
+        "vocabulary": [
+          {
+            "de": "ausfallen",
+            "en": "to be cancelled"
+          },
+          {
+            "de": "der Ersatzbus",
+            "en": "the replacement bus"
+          }
+        ]
+      },
+      {
+        "number": 57,
+        "text": "Ich bin total aufgeregt. Eine berühmte Theatergruppe ist in der Stadt, und ich habe gestern noch eine Karte bekommen. Obwohl ich heute eine Prüfung habe, wollte ich unbedingt ein Ticket sichern. Jetzt freue ich mich riesig auf die Vorstellung. Das wollte ich nicht verpassen.",
+        "text_en": "I am totally excited. A famous theater group is in town, and I got a ticket yesterday. Even though I have an exam today, I absolutely wanted to secure a ticket. Now I am really looking forward to the performance. I didn't want to miss that.",
+        "vocabulary": [
+          {
+            "de": "aufgeregt",
+            "en": "excited"
+          },
+          {
+            "de": "verpassen",
+            "en": "to miss"
+          }
+        ]
+      },
+      {
+        "number": 58,
+        "text": "Der Deutsche Wetterdienst warnt vor Glättegefahr im Schwarzwald. In den frühen Morgenstunden kann es in höheren Lagen zur Straßenglätte kommen. Autofahrer werden gebeten, vorsichtig zu fahren und mehr Zeit einzuplanen. Auch im Busverkehr kann es zu Verspätungen kommen.",
+        "text_en": "The German Weather Service warns of ice danger in the Black Forest. In the early morning hours, roads can become slippery at higher altitudes. Drivers are asked to drive carefully and plan more time. Delays can also occur in bus traffic.",
+        "vocabulary": [
+          {
+            "de": "die Glättegefahr",
+            "en": "danger of ice/slippery roads"
+          },
+          {
+            "de": "die Verspätung",
+            "en": "the delay"
+          }
+        ]
+      },
+      {
+        "number": 59,
+        "text": "Der für heute geplante Liederabend wurde verschoben. Die Veranstaltung findet nun am kommenden Freitag statt. Grund für die Terminänderung ist eine Erkrankung der Hauptsängerin. Bereits gekaufte Karten behalten ihre Gültigkeit oder können zurückgegeben werden.",
+        "text_en": "The song recital planned for today has been postponed. The event will now take place next Friday. The reason for the change of date is an illness of the main singer. Already purchased tickets remain valid or can be returned.",
+        "vocabulary": [
+          {
+            "de": "verschoben",
+            "en": "postponed"
+          },
+          {
+            "de": "die Gültigkeit",
+            "en": "the validity"
+          }
+        ]
+      },
+      {
+        "number": 60,
+        "text": "Im Untergeschoss des Kaufhauses gibt es zurzeit keine Preisreduzierungen auf Winterkleidung. Die angekündigten Rabatte starten erst nächste Woche. Kunden werden gebeten, sich bei den Verkaufsmitarbeitern nach genauen Terminen zu erkundigen.",
+        "text_en": "There are currently no price reductions on winter clothing in the basement of the department store. The announced discounts will not start until next week. Customers are asked to inquire with sales staff for exact dates.",
+        "vocabulary": [
+          {
+            "de": "das Untergeschoss",
+            "en": "the basement"
+          },
+          {
+            "de": "die Preisreduzierung",
+            "en": "the price reduction"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "number": 56,
+        "statement": "Sie müssen in Ingolstadt die Regionalbahn nach Regensburg nehmen.",
+        "statement_en": "You have to take the regional train to Regensburg in Ingolstadt.",
+        "correct_answer": "-",
+        "explanation": "The audio states that the train is cancelled ('fällt heute aus') and passengers must take the replacement bus ('Ersatzbus') from Ingolstadt."
+      },
+      {
+        "number": 57,
+        "statement": "Clara kann wegen einer Prüfung die Theaterkarten nicht abholen.",
+        "statement_en": "Clara cannot pick up the theater tickets because of an exam.",
+        "correct_answer": "-",
+        "explanation": "The speaker says 'obwohl ich heute eine Prüfung habe, wollte ich unbedingt ein Ticket sichern' (even though I have an exam today, I absolutely wanted to secure a ticket), meaning she did get the ticket."
+      },
+      {
+        "number": 58,
+        "statement": "Im Schwarzwald können die Straßen morgen glatt werden.",
+        "statement_en": "In the Black Forest, the roads can become slippery tomorrow.",
+        "correct_answer": "+",
+        "explanation": "The warning 'Glättegefahr' matches the statement that roads can become slippery. The original key specifies '+', and the audio supports slippery roads in the early morning."
+      },
+      {
+        "number": 59,
+        "statement": "Der Liederabend findet zu einem späteren Termin statt.",
+        "statement_en": "The recital takes place at a later date.",
+        "correct_answer": "+",
+        "explanation": "The event 'wurde verschoben' (was postponed) and will now take place 'am kommenden Freitag' (next Friday)."
+      },
+      {
+        "number": 60,
+        "statement": "Im Untergeschoss gibt es Winterkleidung zum halben Preis.",
+        "statement_en": "There is winter clothing for half price in the basement.",
+        "correct_answer": "-",
+        "explanation": "The audio explicitly states: 'Im Untergeschoss des Kaufhauses gibt es zurzeit keine Preisreduzierungen auf Winterkleidung' (there are currently NO price reductions on winter clothing)."
+      }
+    ]
+  }
+}

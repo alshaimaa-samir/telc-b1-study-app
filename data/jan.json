@@ -1,0 +1,957 @@
+{
+  "title": "JAN",
+  "leseverstehen_teil_1": {
+    "headings": {
+      "a": "Hinweis für Besucher der Bregenzer Festspiele",
+      "b": "Abendwanderungen ab 89 Euro",
+      "c": "Musikveranstaltungen am Nachmittag",
+      "d": "Ihre Zeitung folgt Ihnen in den Urlaub",
+      "e": "Schlechtes Wetter: Festspiele abgesagt",
+      "f": "Rekord: 70.000 Besucher im Bücherdorf",
+      "g": "Wandern ohne Gepäck",
+      "h": "Neues für Literaturinteressierte",
+      "i": "Neue Zeitung für Ihre Urlaubsplanung",
+      "j": "Laute Musik stört den Nachbarn"
+    },
+    "headings_en": {
+      "a": "Note for visitors to the Bregenz Festival",
+      "b": "Evening hikes from 89 euros",
+      "c": "Music events in the afternoon",
+      "d": "Your newspaper follows you on vacation",
+      "e": "Bad weather: Festival canceled",
+      "f": "Record: 70,000 visitors in the book village",
+      "g": "Hiking without luggage",
+      "h": "News for those interested in literature",
+      "i": "New newspaper for your holiday planning",
+      "j": "Loud music disturbs the neighbor"
+    },
+    "passages": [
+      {
+        "number": 1,
+        "text": "Abonnenten-Service: Wenn Sie verreisen, wünschen wir ihnen erholsame und angenehme Ferienlage Bitte denken Sie daran, sich ihre Zeitung in den Urlaubtort nachsenden zu lassen. Denn mit den Neuigkeiten von zu Hause und aus aller Weil lässt sich die schönste Zeit des Jahres erst richtig genießen ganz Europa kostenlos, Die Höhe des Bezeugendes bleibt unverändert. Ausführliche Informationen und entsprechende Coupons finden Sie in unserem großen Reise Service - Anzeigen oder rufen Sie uns einfach an: Telefon 01 30-18 58 50 zum Nulltarif. Hannoversche Allgemeine Neue Presse",
+        "text_en": "Subscriber Service: If you travel, we wish you a relaxing and pleasant holiday. Please remember to have your newspaper forwarded to your holiday destination. Because with news from home and from all over the world, the most beautiful time of the year can be truly enjoyed - free of charge throughout Europe. The amount of the subscription fee remains unchanged. You will find detailed information and corresponding coupons in our large travel service advertisements, or simply give us a call: Telephone 01 30-18 58 50 toll-free. Hannoversche Allgemeine Neue Presse",
+        "correct_answer": "d",
+        "explanation": "The text explains how subscribers can have their newspaper forwarded to their holiday destination ('sich ihre Zeitung in den Urlaubsort nachsenden zu lassen'). This matches heading 'd' (Ihre Zeitung folgt Ihnen in den Urlaub).",
+        "vocabulary": [
+          {
+            "de": "nachsenden",
+            "en": "to forward / send on"
+          },
+          {
+            "de": "der Nulltarif",
+            "en": "toll-free / free of charge"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "text": "Im Luftkurort Stadtkylf in der Mittelgebirgslandschaft des Oberen Kullas werden dreitägige Wanderungen ohne Gepäck veranstaltet. Die Rundwanderung im deutsch-belgischen Naturpark führt abends zu reservierten Zimmern. Die Betriebe übernehmen den Gepäcktransport zum nächsten Tagesziel. Die Wanderungen werden ganzjährig angeboten. In den Wanderprogramm sind drei Übernachtungen mit Frühstück dreimal Gepäcktransport, eine Wanderkarte, eine Wegbeschreibung und ein Wanderpass enthalten. Der Pauschalbetrag beträgt pro Person 89 Euro. Auskünfte: Verkehrsverein Erholungsgebiet Oberes Kylltal.",
+        "text_en": "In the climatic health resort of Stadtkyll in the low mountain landscape of the Upper Kyll, three-day hikes without luggage are organized. The circular hike in the German-Belgian nature park leads to reserved rooms in the evening. The businesses take over the luggage transport to the next daily destination. The hikes are offered all year round. The hiking program includes three overnight stays with breakfast, three times luggage transport, a hiking map, a route description, and a hiking pass. The flat rate is 89 euros per person. Information: Tourist office recreation area Upper Kyll valley.",
+        "correct_answer": "g",
+        "explanation": "The text advertises hikes where the luggage is transported to the next destination ('Wanderungen ohne Gepäck'). This matches heading 'g' (Wandern ohne Gepäck).",
+        "vocabulary": [
+          {
+            "de": "der Gepäcktransport",
+            "en": "luggage transport"
+          },
+          {
+            "de": "der Pauschalbetrag",
+            "en": "flat rate / package price"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "text": "Für den einen ist es musikalischer Hochgenuss für den anderen schlicht Lärm. Gemeint ist Musik, die aus Lautsprechen, Radios oder durch Musikinstrumente durch geöffnet Türen und Fenster bei sommerlichen Temperaturen ins Freie dringt. Die Gemeinde weist darauf hin, dass der Mittagsruhe von 13 bis 15 Uhr und nachts von 22 bis 7 Uhr keine musikalische Ruhestörung erfolgen darf. Gartengeräte mit Motoren dürfen montags bis freitags nur von 8 bis 13 und von 15 bis 19 Uhr benutzt werden, an Sonnabenden von 9 bis 13 Uhr. An Sonn- und Feiertagen dürfen die Geräte nicht zum Einsatz kommen.",
+        "text_en": "For one person it is a great musical delight, for another simply noise. This refers to music that penetrates outside from loudspeakers, radios, or musical instruments through open doors and windows in summer temperatures. The municipality points out that no musical disturbance of the peace may take place during the midday rest from 1 to 3 p.m. and at night from 10 p.m. to 7 a.m. Garden tools with motors may only be used Monday to Friday from 8 a.m. to 1 p.m. and from 3 p.m. to 7 p.m., on Saturdays from 9 a.m. to 1 p.m. The devices may not be used on Sundays and public holidays.",
+        "correct_answer": "j",
+        "explanation": "The text details rules regarding loud music and noise disturbance ('Ruhestörung') during quiet hours. This fits heading 'j' (Laute Musik stört den Nachbarn).",
+        "vocabulary": [
+          {
+            "de": "der Hochgenuss",
+            "en": "great delight / treat"
+          },
+          {
+            "de": "die Ruhestörung",
+            "en": "disturbance of the peace"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "text": "Das erste deutsche Bücherdorf hat in Mühlbeck/ Fredersdorf (Sachsen - Anhalt) seit Ende September seine Tore geöffnet. In acht Antiquarten warten über 70 000 Bücher aus allen Bereichen der Literatur auf Interessenten. Das in reizvoller landschaftlicher Umgebung liegende Bücherdorf nahe Bitterfeld - unweit der A19 und des Flughafens Leipzig - ist aus allen Teilen Deutschlands leicht zu erreich. Geöffnet sind die Antiquariate auch am Samstag und Sonntag. In Europa gibt es bereits acht solcher Bücherdörfer in Belgien, Frankreich, Großbritannien, den Niederlanden, Norwegen und der Schweiz. Initiatorin des deutschen Bücherdorfes ist Heidi Dehne.",
+        "text_en": "The first German book village opened its doors in Mühlbeck/Fredersdorf (Saxony-Anhalt) at the end of September. Over 70,000 books from all areas of literature are waiting for interested parties in eight antiquarian bookshops. The book village, located in charming scenic surroundings near Bitterfeld - not far from the A19 and Leipzig Airport - is easy to reach from all parts of Germany. The antiquarian bookshops are also open on Saturday and Sunday. There are already eight such book villages in Europe in Belgium, France, Great Britain, the Netherlands, Norway and Switzerland. The initiator of the German book village is Heidi Dehne.",
+        "correct_answer": "h",
+        "explanation": "The text introduces a new 'Bücherdorf' (book village) with 70,000 books. This is of interest to literature fans, matching 'h' (Neues für Literaturinteressierte). Heading 'f' is a trap, as it mentions 70,000 *visitors*, but the text says 70,000 *books*.",
+        "vocabulary": [
+          {
+            "de": "das Antiquariat",
+            "en": "antiquarian bookshop / secondhand bookshop"
+          },
+          {
+            "de": "der Interessent",
+            "en": "interested party / prospective buyer"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "text": "Die Bregenzer Festspiele sind bemüht, die Vorstellungen auch bei zweifelhafter Witterung bzw. leichtem Regen auf der Seebühne abzuhalten, weshalb es zu Verzögerungen des Beginns oder zu Unterbrechungen kommen kann. Sollte die Seeaufführung nicht stattfinden können, wird eine halbszenische Version von Porgy and Bess im Festspielhaus gegeben. Wir empfehlen unseren Gästen, bei unsicherer Wetterlage regenfester Kleidung den Vorzug zu geben und auf Schirme zu verzichten, da diese die Sicht beeinträchtigen. Das Spiel auf dem See wird ohne Pause gespielt. Die Spieldauer beträgt ca. 2 Std. 45 Min.",
+        "text_en": "The Bregenz Festival tries to hold the performances on the lake stage even in doubtful weather or light rain, which is why there may be delays to the start or interruptions. If the lake performance cannot take place, a semi-staged version of Porgy and Bess will be given in the Festspielhaus. We recommend our guests to give preference to rainproof clothing in uncertain weather conditions and to do without umbrellas, as these impair the view. The play on the lake is played without an intermission. The playing time is approx. 2 hours 45 mins.",
+        "correct_answer": "a",
+        "explanation": "The text provides guidelines and information for attendees of the Bregenz Festival regarding the weather and umbrellas. This matches 'a' (Hinweis für Besucher der Bregenzer Festspiele).",
+        "vocabulary": [
+          {
+            "de": "zweifelhaft",
+            "en": "doubtful"
+          },
+          {
+            "de": "verzichten auf",
+            "en": "to do without / abstain from"
+          }
+        ]
+      }
+    ]
+  },
+  "leseverstehen_teil_2": {
+    "passage": {
+      "headline": "Beruf am Flughafen: Kinderbetreuerin",
+      "subheadline": "Dem Kind zuliebe in Kloten warten",
+      "paragraphs": [
+        "Auf keinem anderen Flughafen sei der Aufenthalt familienfreundlicher als in Kloten, sagen viele Eltern. Weil die Wartezeit im Flug vergeht - dank der 18 Kinderbetreuerinnen. Von Gabriella Hofer",
+        "24000 Kinder aus der ganzen Welt wurden letztes Jahr auf dem Flughafen Zürich-Kloten betreut. Die 18 Mitarbeiterinnen, die sich im Schichtbetrieb ablösen, stehen den Eltern und ihren Kindern täglich von 6.30 bis 22 Uhr mit Rat und Tat zur Seite. Die vielsprachigen Betreuerinnen - viele von ihnen sind ausgebildete Krankenschwestern, Kleinkindererzieherinnen oder Flugbegleiterinnen - verfügen auch über Erste-Hilfe-Kenntnisse. Der Flughafen Zürich-Kloten ist der einzige in Europa, der seinen kleinsten Gästen in beiden Terminals einen eigenen Aufenthaltsraum bietet.",
+        "Aufenthalt und Betreuung sind kostenlos. In beiden Räumen stehen vier Wickeltische mit Papierwindeln, eine Küche zum Aufwärmen der Kindermahlzeiten, sechs Bettchen, ein Laufgitter, Nachttöpfe und Toiletten für Kleinkinder zur Verfügung. Außerdem gibt es zahlreiche Stofftierchen, Schaukelpferdchen, Bauklötze, Puppenstuben, einen großen Stall, Bilderbücher, Spiele und vieles mehr.",
+        "Es ist ein Erlebnis für die Kinder, mit Kindern zu spielen, die eine andere Muttersprache sprechen oder aus einem anderen Kulturkreis kommen, weiß Alice Martin (40). Die ehemalige Kinderschwester, selber Mutter eines sechsjährigen Sohnes, gehört seit 14 Jahren zum Team der Betreuerinnen. Zusammen mit 17 Kolleginnen ist sie abwechselnd in den beiden Kinderspielzimmern den Terminals A und B beschäftigt.",
+        "Bevor Alice Martin 1994 von der Flughafendirektion angestellt wurde, war sie viele Jahre auf einer Geburtenabteilung und später noch in einem Behindertenheim beschäftigt. Die Kontakte zu den jetzt von ihr betreuten Kindern seien nicht mehr so intensiv wie früher im Spital oder im Heim, dafür biete ihr die heutige Tätigkeit mehr Abwechslung.",
+        "Die kinderliebende Frau reist selber gern und viel. Auch ihre Fremdsprachenkenntnisse kommen ihr hier zugute. Alice Martin spricht neben ihrer Muttersprache Englisch, Französisch und Spanisch. Sehr bereichernd sei, dass sie in ihrer täglichen Arbeit andere Kulturen kennenlerne."
+      ],
+      "text_en": "Profession at the airport: Childcare worker. Waiting in Kloten for the child's sake.\nOn no other airport is the stay more family-friendly than in Kloten, say many parents. Because the waiting time flies by - thanks to the 18 childcare workers. By Gabriella Hofer\n24,000 children from all over the world were cared for at Zurich-Kloten Airport last year. The 18 female employees, who relieve each other in shifts, assist parents and their children daily from 6:30 a.m. to 10:00 p.m. with words and deeds. The multilingual caregivers - many of whom are trained nurses, early childhood educators or flight attendants - also have first aid skills. Zurich-Kloten Airport is the only one in Europe that offers its smallest guests their own lounge in both terminals.\nThe stay and care are free of charge. In both rooms, four changing tables with paper diapers, a kitchen for warming up children's meals, six little beds, a playpen, chamber pots and toilets for toddlers are available. In addition, there are numerous stuffed animals, rocking horses, building blocks, dollhouses, a large stable, picture books, games and much more.\nIt is an experience for the children to play with children who speak a different native language or come from a different cultural background, knows Alice Martin (40). The former children's nurse, herself the mother of a six-year-old son, has been part of the team of caregivers for 14 years. Together with 17 female colleagues, she is employed alternately in the two children's playrooms in Terminals A and B.\nBefore Alice Martin was hired by the airport management in 1994, she had worked for many years in a maternity ward and later in a home for the disabled. The contacts with the children she cares for now are no longer as intensive as before in the hospital or home, but her current job offers her more variety.\nThe child-loving woman likes to travel a lot herself. Her foreign language skills are also to her advantage here. In addition to her native language, Alice Martin speaks English, French and Spanish. It is very enriching, she says, that she gets to know other cultures in her daily work.",
+      "vocabulary": [
+        {
+          "de": "mit Rat und Tat zur Seite stehen",
+          "en": "to assist with words and deeds"
+        },
+        {
+          "de": "abwechslungsreich",
+          "en": "varied / diverse"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 6,
+        "question": "Die Kinderbetreuerinnen kümmern sich um...",
+        "question_en": "The childcare workers look after...",
+        "options": {
+          "a": "Kinder, die auf dem Flughafen warten müssen.",
+          "b": "Kinder, die im Flugzeug krank wurden.",
+          "c": "Kinder, die ohne Eltern fliegen müssen."
+        },
+        "options_en": {
+          "a": "children who have to wait at the airport.",
+          "b": "children who became ill on the plane.",
+          "c": "children who have to fly without parents."
+        },
+        "correct_answer": "a",
+        "explanation": "The text explains they assist parents and children to help the 'Wartezeit' (waiting time) fly by."
+      },
+      {
+        "number": 7,
+        "question": "Der Flughafen Zürich-Kloten ist besonders familienfreundlich,...",
+        "question_en": "Zurich-Kloten Airport is particularly family-friendly...",
+        "options": {
+          "a": "seit Alice Martin dort arbeitet.",
+          "b": "weil die Wartezeit kürzer ist als auf anderen Flughäfen.",
+          "c": "weil es Räume gibt, in denen Kinder spielen können."
+        },
+        "options_en": {
+          "a": "since Alice Martin has been working there.",
+          "b": "because the waiting time is shorter than at other airports.",
+          "c": "because there are rooms where children can play."
+        },
+        "correct_answer": "c",
+        "explanation": "The text mentions it is family-friendly because it 'seinen kleinsten Gästen in beiden Terminals einen eigenen Aufenthaltsraum bietet' (offers its smallest guests their own lounge in both terminals)."
+      },
+      {
+        "number": 8,
+        "question": "Frau Alice Martin hat eine Ausbildung als...",
+        "question_en": "Ms. Alice Martin has training as...",
+        "options": {
+          "a": "Flugbegleiterin.",
+          "b": "Kinderschwester.",
+          "c": "Pilotin."
+        },
+        "options_en": {
+          "a": "flight attendant.",
+          "b": "children's nurse.",
+          "c": "pilot."
+        },
+        "correct_answer": "b",
+        "explanation": "The text describes Alice Martin as 'Die ehemalige Kinderschwester' (the former children's nurse)."
+      },
+      {
+        "number": 9,
+        "question": "In den Aufenthaltsräumen spielen die Kinder...",
+        "question_en": "In the lounges, the children play...",
+        "options": {
+          "a": "am liebsten mit 18 Betreuerinnen.",
+          "b": "am liebsten mit Alice Martin.",
+          "c": "auch mit Kindern anderer Kulturen und Sprachen."
+        },
+        "options_en": {
+          "a": "preferably with 18 caregivers.",
+          "b": "preferably with Alice Martin.",
+          "c": "also with children of other cultures and languages."
+        },
+        "correct_answer": "c",
+        "explanation": "The text says: 'Es ist ein Erlebnis für die Kinder, mit Kindern zu spielen, die eine andere Muttersprache sprechen oder aus einem anderen Kulturkreis kommen' (It is an experience for children to play with children who speak a different native language or come from a different cultural circle)."
+      },
+      {
+        "number": 10,
+        "question": "Frau Alice Martin findet...",
+        "question_en": "Ms. Alice Martin finds...",
+        "options": {
+          "a": "die Arbeit auf dem Flughafen interessant und abwechslungsreich.",
+          "b": "die Arbeit auf dem Flughafen nicht so vielseitig wie die Arbeit im Spital.",
+          "c": "die Kontakte zu den Kindern auf dem Flughafen sehr intensiv."
+        },
+        "options_en": {
+          "a": "the work at the airport interesting and varied.",
+          "b": "the work at the airport not as varied as the work in the hospital.",
+          "c": "the contacts with the children at the airport very intensive."
+        },
+        "correct_answer": "a",
+        "explanation": "She notes that the contacts are less intensive than at the hospital, but 'dafür biete ihr die heutige Tätigkeit mehr Abwechslung' (but her current job offers her more variety)."
+      }
+    ]
+  },
+  "leseverstehen_teil_3": {
+    "advertisements": {
+      "a": {
+        "title": "Musical Melissa",
+        "subtitle": "Kultur",
+        "lines": [
+          "Das Musikalereignis in der Schweiz",
+          "Melissa",
+          "City Halle Winterthur",
+          "Mittwoch 19.30 Uhr und So 17.00 Uhr"
+        ],
+        "image": "data/images/jan_ad_a.png",
+        "text_en": "The musical event in Switzerland: Melissa. City Halle Winterthur. Wednesday 7:30 pm and Sun 5:00 pm.",
+        "vocabulary": []
+      },
+      "b": {
+        "title": "Crash-Kurse für Manager",
+        "subtitle": "Bildung",
+        "lines": [
+          "Crash-Kurse für Manager",
+          "Sprachkurse für Urlaub und Beruf",
+          "High-School-Programm"
+        ],
+        "image": "data/images/jan_ad_b.png",
+        "text_en": "Crash courses for managers. Language courses for holiday and profession. High-school program.",
+        "vocabulary": []
+      },
+      "c": {
+        "title": "Kirchenkonzert Zürich",
+        "subtitle": "Kultur",
+        "lines": [
+          "Rita Karin Meier, Hansjürg Leuthold, Ludvik Bozenta...",
+          "Sonntag 10. Januar 17:00 Uhr, Alte Mühle",
+          "Mittwoch 13. Januar 19:30 Uhr, Ref. Kirchengemeindehaus Zürich"
+        ],
+        "image": "data/images/jan_ad_c.png",
+        "text_en": "Church concert Zurich. Sunday Jan 10th 5:00 p.m., Wednesday Jan 13th 7:30 p.m. Admission free - collection.",
+        "vocabulary": []
+      },
+      "d": {
+        "title": "THERME VALS",
+        "subtitle": "Reisen & Erholung",
+        "lines": [
+          "Das Schweizer Spektakel. THERME VALS.",
+          "Hoch vom Dachberg (3000m) einfach gleiten über tief verschneite Hänge...",
+          "Auskunft: Hotel Therme"
+        ],
+        "image": "data/images/jan_ad_d.png",
+        "text_en": "The Swiss spectacle. THERME VALS. Glide high from the Dachberg over deep snow-covered slopes...",
+        "vocabulary": []
+      },
+      "e": {
+        "title": "Singles reisen gemeinsam",
+        "subtitle": "Reisen",
+        "lines": [
+          "Singles reisen gemeinsam",
+          "Wer hat Lust auf Frankreich? Wir sind drei unternehmungslustige Singles und suchen für eine vierzehntägige Tour durch Südfrankreich..."
+        ],
+        "image": "data/images/jan_ad_e.png",
+        "text_en": "Singles travel together. Who fancies France? We are three enterprising singles looking for a fourteen-day tour through southern France...",
+        "vocabulary": []
+      },
+      "f": {
+        "title": "TAKE OFF REISEN",
+        "subtitle": "Reisen",
+        "lines": [
+          "Preiswerte Flüge weltweit",
+          "London ab 149.-, Bangkok ab 389.-, New York ab 239.-",
+          "TAKE OFF REISEN"
+        ],
+        "image": "data/images/jan_ad_f.png",
+        "text_en": "Cheap flights worldwide. London from 149.-, Bangkok from 389.-, New York from 239.-. TAKE OFF TRAVEL.",
+        "vocabulary": []
+      },
+      "g": {
+        "title": "Ihre Wandertage in bester Alpenluft",
+        "subtitle": "Reisen & Sport",
+        "lines": [
+          "Ihre Wandertage in bester Alpenluft!",
+          "Wunderbare Fernsicht, Blick auf Meran...",
+          "Familie Walder"
+        ],
+        "image": "data/images/jan_ad_g.png",
+        "text_en": "Your hiking days in the best Alpine air! Wonderful distant view, view of Merano... Family Walder.",
+        "vocabulary": []
+      },
+      "h": {
+        "title": "DEUTSCHE UND ENGLISCHE BAROCKLIEDER",
+        "subtitle": "Kultur",
+        "lines": [
+          "DEUTSCHE UND ENGLISCHE BAROCKLIEDER",
+          "Georg Friedrich Händel",
+          "Montag, 18. Januar, 19:30 Uhr"
+        ],
+        "image": "data/images/jan_ad_h.png",
+        "text_en": "GERMAN AND ENGLISH BAROQUE SONGS. George Frideric Handel. Monday, January 18, 7:30 p.m.",
+        "vocabulary": []
+      },
+      "i": {
+        "title": "Euro-Schüler-Sprachreisen",
+        "subtitle": "Bildung & Reisen",
+        "lines": [
+          "Das Sprachreisen-Reisebüro in Deutschland",
+          "Angebote für mehr als 35 Veranstalter mit Kursorten in der ganzen Welt...",
+          "mit Sportmöglichkeiten. Euro-Schüler-Sprachreisen."
+        ],
+        "image": "data/images/jan_ad_i.png",
+        "text_en": "The language travel agency in Germany. Offers for more than 35 organizers with course locations all over the world... with sports facilities. Euro-Schüler-Sprachreisen.",
+        "vocabulary": []
+      },
+      "k": {
+        "title": "AUF IN'S ALLGÄU",
+        "subtitle": "Reisen & Sport",
+        "lines": [
+          "AUF IN'S ALLGÄU",
+          "ÜBERN INKL. HP PR IM DZ",
+          "Aktivferien im Allgäu, Wandern..."
+        ],
+        "image": "data/images/jan_ad_k.png",
+        "text_en": "OFF TO THE ALLGÄU. OVERNIGHT INCL. HB PER PERSON IN DOUBLE ROOM. Active holidays in the Allgäu, hiking...",
+        "vocabulary": []
+      },
+      "l": {
+        "title": "MIT SUPERLEARNING",
+        "subtitle": "Bildung",
+        "lines": [
+          "MIT SUPERLEARNING ALS BERUFSBEGLEITENDE LERNMETHODE",
+          "Englisch, Französisch, Spanisch in Zürich lernen...",
+          "sehr schnell Sprachen zu lernen."
+        ],
+        "image": "data/images/jan_ad_l.png",
+        "text_en": "WITH SUPERLEARNING AS AN OCCUPATIONAL LEARNING METHOD. Learn English, French, Spanish in Zurich... to learn languages very quickly.",
+        "vocabulary": []
+      }
+    },
+    "situations": [
+      {
+        "number": 11,
+        "situation": "Sie sind in der Schweiz und möchten sich ein paar Tage beim Baden erholen.",
+        "situation_en": "You are in Switzerland and would like to relax for a few days while bathing.",
+        "correct_answer": "d",
+        "explanation": "Ad 'd' (Therme Vals) offers thermal baths in Switzerland for relaxation."
+      },
+      {
+        "number": 12,
+        "situation": "Sie hören gerne klassische Musik, am liebsten Barocklieder. Sie möchten in ein Konzert gehen.",
+        "situation_en": "You like listening to classical music, preferably baroque songs. You want to go to a concert.",
+        "correct_answer": "h",
+        "explanation": "Ad 'h' advertises 'DEUTSCHE UND ENGLISCHE BAROCKLIEDER' (German and English baroque songs)."
+      },
+      {
+        "number": 13,
+        "situation": "Ihr Sohn möchte gerne in den Schulferien seine Fremdsprachenkenntnisse verbessern. Er möchte auch Sport treiben.",
+        "situation_en": "Your son would like to improve his foreign language skills during the school holidays. He also wants to do sports.",
+        "correct_answer": "i",
+        "explanation": "Ad 'i' (Euro-Schüler-Sprachreisen) offers language trips for students including sports facilities ('mit Sportmöglichkeiten')."
+      },
+      {
+        "number": 14,
+        "situation": "Sie reisen nicht gerne allein und suchen deshalb Reisepartner.",
+        "situation_en": "You do not like to travel alone and are therefore looking for travel partners.",
+        "correct_answer": "e",
+        "explanation": "Ad 'e' is titled 'Singles reisen gemeinsam' (Singles travel together) and looks for travel companions."
+      },
+      {
+        "number": 15,
+        "situation": "Sie möchten am Donnerstag Abend mit Ihrer Bekannten eine Musikveranstaltung besuchen.",
+        "situation_en": "You would like to attend a music event with your acquaintance on Thursday evening.",
+        "correct_answer": "a",
+        "explanation": "Ad 'a' is for the Musical Melissa. Note: The official key maps to A, despite the ad saying Wednesday and Sunday. This is likely an error in the original exam's logic, but we follow the official key A."
+      },
+      {
+        "number": 16,
+        "situation": "Ihre Familie möchte den nächsten Urlaub am Meer verbringen.",
+        "situation_en": "Your family would like to spend their next vacation by the sea.",
+        "correct_answer": "x",
+        "explanation": "None of the advertisements offer a holiday specifically by the sea."
+      },
+      {
+        "number": 17,
+        "situation": "Sie leben in Zürich und möchten dort möglichst schnell Englisch lernen.",
+        "situation_en": "You live in Zurich and want to learn English there as quickly as possible.",
+        "correct_answer": "l",
+        "explanation": "Ad 'l' offers 'SUPERLEARNING' to learn languages very quickly ('sehr schnell') in Zurich."
+      },
+      {
+        "number": 18,
+        "situation": "Sie bekommen Besuch von Ihrer Freundin. Sie möchte gerne tanzen gehen.",
+        "situation_en": "You get a visit from your friend. She would like to go dancing.",
+        "correct_answer": "x",
+        "explanation": "There are no advertisements for a disco or a dance club."
+      },
+      {
+        "number": 19,
+        "situation": "Sie möchten Freunde im Ausland besuchen und suchen ein Reisebüro.",
+        "situation_en": "You want to visit friends abroad and are looking for a travel agency.",
+        "correct_answer": "f",
+        "explanation": "Ad 'f' (TAKE OFF REISEN) offers cheap flights worldwide."
+      },
+      {
+        "number": 20,
+        "situation": "Sie sind sportlich und möchten im Sommer in den Bergen wandern gehen.",
+        "situation_en": "You are sporty and want to go hiking in the mountains in the summer.",
+        "correct_answer": "g",
+        "explanation": "Ad 'g' offers 'Ihre Wandertage in bester Alpenluft' (Your hiking days in the best Alpine air) with family Walder. (The official key maps to F in OCR but the text matches G contextually. Wait, looking at the key: 19 F, 20 G. Let's use G)."
+      }
+    ]
+  },
+  "sprachbausteine_teil_1": {
+    "instructions": "Lesen Sie den Text und schließen Sie die Lücken 21-30. Welche Lösung (a, b oder c) ist jeweils richtig?",
+    "passage": {
+      "text": "An alle Kunden\nSehr geehrter Herr Schröder,\nzum Start ___21___ das neue Geschäftsjahr haben wir uns für Sie etwas ganz Besonderes ausgedacht: einen attraktiven Gewinn! ___22___ dem Beginn des neuen Geschäftsjahres feiern wir unsere erfolgreiche Buchidee.\nMachen Sie mit! Es warten auf Sie sehr ___23___ Gewinne im Wert von vielen Tausend Euro. Mit Ihrer Kundennummer können Sie an einem Preisausschreiben teilnehmen. Senden Sie uns ___24___ das beigefügte Antwortschreiben zurück und bestellen Sie damit - ohne Risiko - das Buch des Monats. Sie erhalten dieses Buch mit ___25___ Versprechen, es nach 10 Tagen zurückgeben zu können, sollte Ihnen das Buch nicht gefallen. Ohne irgendetwas zu zahlen! Behalten Sie das Buch, was wir ___26___ hoffen, zahlen Sie nur 50 Prozent des sonst üblichen Preises in einer Buchhandlung. Gleichzeitig nehmen Sie an einem Preisausschreiben ___27___.\nBitte bedenken Sie: Sollte Ihre Kundennummer ___28___ den richtigen Zahlen sein, haben Sie die Chance, ein Auto, eine Reise und viele weitere Preise zu erhalten. Antworten Sie ___29___ noch diese Woche! Dann haben Sie in jedem Fall die Chance auf den Hauptgewinn - einen Mercedes der S-Klasse. Wenn Sie innerhalb der kommenden vier Wochen antworten, nehmen Sie immer ___30___ an unserer Gewinnverteilung teil, vorausgesetzt, Sie haben die richtige Kundennummer.\nMit freundlichen Grüßen,\nPetra Obermoser\nLeiterin der Abteilung Marketing",
+      "text_en": "To all customers\nDear Mr. Schröder,\nFor the start ___21___ the new business year, we have come up with something very special for you: an attractive prize! ___22___ the beginning of the new business year we are celebrating our successful book idea.\nJoin in! Very ___23___ prizes worth many thousands of euros are waiting for you. With your customer number, you can take part in a competition. ___24___ send us the enclosed reply letter back and order - without risk - the book of the month with it. You will receive this book with ___25___ promise that you can return it after 10 days if you do not like the book. Without paying anything! If you keep the book, which we ___26___ hope, you only pay 50 percent of the otherwise usual price in a bookstore. At the same time, you take ___27___ in a prize competition.\nPlease remember: Should your customer number be ___28___ the correct numbers, you have the chance to receive a car, a trip and many other prizes. Answer ___29___ this week! Then you have in any case the chance for the main prize - a Mercedes S-Class. If you answer within the next four weeks, you ___30___ take part in our prize distribution, provided you have the correct customer number.\nYours sincerely,\nPetra Obermoser\nHead of Marketing Department",
+      "vocabulary": [
+        {
+          "de": "das Preisausschreiben",
+          "en": "the prize competition"
+        },
+        {
+          "de": "vorausgesetzt",
+          "en": "provided that"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 21,
+        "options": {
+          "a": "auf",
+          "b": "in",
+          "c": "über"
+        },
+        "correct_answer": "b",
+        "explanation": "'Start in das neue Geschäftsjahr' means 'start into the new business year'."
+      },
+      {
+        "number": 22,
+        "options": {
+          "a": "Mit",
+          "b": "Von",
+          "c": "Zwischen"
+        },
+        "correct_answer": "a",
+        "explanation": "'Mit dem Beginn...' means 'With the beginning...'."
+      },
+      {
+        "number": 23,
+        "options": {
+          "a": "schöne",
+          "b": "schönen",
+          "c": "schönes"
+        },
+        "correct_answer": "a",
+        "explanation": "'sehr schöne Gewinne' (very nice prizes). Plural accusative without article ending is '-e'."
+      },
+      {
+        "number": 24,
+        "options": {
+          "a": "einfach",
+          "b": "immer",
+          "c": "noch"
+        },
+        "correct_answer": "a",
+        "explanation": "'Senden Sie uns einfach...' means 'Simply send us...'."
+      },
+      {
+        "number": 25,
+        "options": {
+          "a": "unsere",
+          "b": "unserem",
+          "c": "unseren"
+        },
+        "correct_answer": "b",
+        "explanation": "The preposition 'mit' requires the dative. 'Das Versprechen' (neuter) becomes 'mit unserem Versprechen'."
+      },
+      {
+        "number": 26,
+        "options": {
+          "a": "natürlich",
+          "b": "schön",
+          "c": "viele"
+        },
+        "correct_answer": "a",
+        "explanation": "'was wir natürlich hoffen' means 'which we naturally hope'."
+      },
+      {
+        "number": 27,
+        "options": {
+          "a": "mit",
+          "b": "teil",
+          "c": "zu"
+        },
+        "correct_answer": "b",
+        "explanation": "The separable verb is 'teilnehmen an' (to participate in). So it ends with 'teil'."
+      },
+      {
+        "number": 28,
+        "options": {
+          "a": "unter",
+          "b": "neben",
+          "c": "vor"
+        },
+        "correct_answer": "b",
+        "explanation": "According to the official key, the answer is 'neben'. ('Unter den richtigen Zahlen' would be more idiomatic, but the key requires B)."
+      },
+      {
+        "number": 29,
+        "options": {
+          "a": "bald",
+          "b": "bereits",
+          "c": "unbedingt"
+        },
+        "correct_answer": "c",
+        "explanation": "'Antworten Sie unbedingt noch diese Woche!' means 'Be sure to answer this week!'."
+      },
+      {
+        "number": 30,
+        "options": {
+          "a": "noch",
+          "b": "schon",
+          "c": "schnell"
+        },
+        "correct_answer": "a",
+        "explanation": "'nehmen Sie immer noch... teil' means 'you still participate...'."
+      }
+    ]
+  },
+  "sprachbausteine_teil_2": {
+    "instructions": "Lesen Sie den Text und schließen Sie die Lücken 31-40. Benutzen Sie die Wörter (a - o). Jedes Wort passt nur einmal.",
+    "word_bank": {
+      "a": "ALS",
+      "b": "ANFANGEN",
+      "c": "ARBEITEN",
+      "d": "ERZÄHLT",
+      "e": "FALLS",
+      "f": "INFORMIERT",
+      "g": "INTERESSIERT",
+      "h": "MÖCHTEN",
+      "i": "MÖGLICH",
+      "j": "NUR",
+      "k": "ÖFTER",
+      "l": "UNBEKANNT",
+      "m": "VOR",
+      "n": "WÜRDE",
+      "o": "ZWISCHEN"
+    },
+    "word_bank_en": {
+      "a": "as / than",
+      "b": "to begin",
+      "c": "to work",
+      "d": "told",
+      "e": "if / in case",
+      "f": "informed",
+      "g": "interested",
+      "h": "would like",
+      "i": "possible",
+      "j": "only",
+      "k": "more often",
+      "l": "unknown",
+      "m": "before / ago",
+      "n": "would",
+      "o": "between"
+    },
+    "passage": {
+      "text": "Neuendorf, den….\nSehr geehrte Frau Bauer,\nich habe Ihre Anzeige in der Neuen Presse gelesen und bin an dem Filmprojekt sehr ___31___.\nIch war schon ___32___ für einige Wochen im Ausland. Vor allem im Sommer habe ich während meines Studiums viele Sprachkurse besucht. Länger als ein halbes Jahr habe ich ___33___ einmal im Ausland gelebt, und zwar ___34___ zwei Jahren. Mein Chef machte mir damals das Angebot, acht Monate im Tochterunternehmen der Firma in Portugal zu ___35___, was ich dann auch getan habe.\nAm Anfang war es sehr schwer, weil ich niemanden kannte und alles sehr neu und ___36___ für mich war. Eigentlich wollte ich so schnell wie ___37___ wieder zurück. Aber dann habe ich nette Kollegen kennen gelernt, die mir auch über die Kultur und das Leben in Portugal ___38___ haben.\nIch glaube, dass meine Erfahrungen für viele andere Menschen, die auch im Ausland leben wollen, sehr interessant sein könnten, und ich ___39___ gerne auch vor der Kamera darüber erzählen. ___40___ Sie noch weitere Fragen an mich haben, können Sie mich gerne anrufen, meine Telefonnummer ist 07612/64788980.\nIch würde mich freuen, bald von Ihnen zu hören.\nMit freundlichen Grüßen,\nKAROLINE POINTNER",
+      "text_en": "Neuendorf, the…\nDear Ms. Bauer,\nI read your advertisement in the Neue Presse and am very ___31___ in the film project.\nI have already been abroad ___32___ for a few weeks. Especially in the summer during my studies I attended many language courses. I have ___33___ lived abroad for longer than half a year, namely ___34___ two years ago. My boss made me the offer at that time to ___35___ for eight months in the subsidiary of the company in Portugal, which I then also did.\nIn the beginning it was very difficult, because I didn't know anyone and everything was very new and ___36___ to me. Actually I wanted to go back as quickly as ___37___. But then I met nice colleagues who also ___38___ me about the culture and life in Portugal.\nI believe that my experiences could be very interesting for many other people who also want to live abroad, and I ___39___ also like to tell about it in front of the camera. ___40___ you have any further questions for me, you are welcome to call me, my phone number is 07612/64788980.\nI would be happy to hear from you soon.\nYours sincerely,\nKAROLINE POINTNER",
+      "vocabulary": [
+        {
+          "de": "das Tochterunternehmen",
+          "en": "the subsidiary company"
+        },
+        {
+          "de": "unbekannt",
+          "en": "unknown"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 31,
+        "correct_answer": "g",
+        "explanation": "'bin an dem Filmprojekt sehr interessiert' means 'am very interested in the film project'."
+      },
+      {
+        "number": 32,
+        "correct_answer": "k",
+        "explanation": "'Ich war schon öfter für einige Wochen im Ausland' means 'I have been abroad for a few weeks more often'."
+      },
+      {
+        "number": 33,
+        "correct_answer": "j",
+        "explanation": "'habe ich nur einmal im Ausland gelebt' means 'I have only lived abroad once'."
+      },
+      {
+        "number": 34,
+        "correct_answer": "m",
+        "explanation": "'und zwar vor zwei Jahren' means 'namely two years ago'."
+      },
+      {
+        "number": 35,
+        "correct_answer": "c",
+        "explanation": "'in Portugal zu arbeiten' means 'to work in Portugal'."
+      },
+      {
+        "number": 36,
+        "correct_answer": "l",
+        "explanation": "'und alles sehr neu und unbekannt für mich war' means 'and everything was very new and unknown to me'."
+      },
+      {
+        "number": 37,
+        "correct_answer": "i",
+        "explanation": "'so schnell wie möglich' is the standard phrase for 'as quickly as possible'."
+      },
+      {
+        "number": 38,
+        "correct_answer": "d",
+        "explanation": "'die mir auch über die Kultur... erzählt haben' means 'who also told me about the culture...'."
+      },
+      {
+        "number": 39,
+        "correct_answer": "n",
+        "explanation": "'und ich würde gerne auch vor der Kamera darüber erzählen' means 'and I would also like to talk about it in front of the camera'."
+      },
+      {
+        "number": 40,
+        "correct_answer": "e",
+        "explanation": "'Falls Sie noch weitere Fragen an mich haben' means 'In case you have any further questions for me'."
+      }
+    ]
+  },
+  "hoerverstehen_teil_1": {
+    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören diese Texte nur einmal. Entscheiden Sie beim Hören, ob die Aussagen 41-45 richtig (+) oder falsch (-) sind.",
+    "transcripts": [
+      {
+        "number": 41,
+        "text": "Kinder sollten, denke ich, früh eine Fremdsprache lernen. Wenn sie jung sind, merken sie sich neue Wörter leichter. Ich finde, sie haben dann auch weniger Angst, Fehler zu machen. Später wird es, denke ich, schwieriger. Deshalb bin ich dafür, dass Kinder früh mit dem Sprachenlernen anfangen.",
+        "text_en": "Children should, I think, learn a foreign language early. When they are young, they remember new words more easily. I think they also have less fear of making mistakes then. Later, I think, it gets more difficult. That's why I'm in favor of children starting to learn languages early.",
+        "vocabulary": [
+          {
+            "de": "sich merken",
+            "en": "to remember / memorize"
+          }
+        ]
+      },
+      {
+        "number": 42,
+        "text": "Es ist, denke ich, nicht immer gut, wenn Kinder sehr früh eine Fremdsprache lernen. Manche Kinder sind, glaube ich, noch nicht bereit dafür und haben Probleme mit beiden Sprachen. Ich finde, sie sollten erst ihre Muttersprache gut können und dann eine neue Sprache lernen.",
+        "text_en": "It is, I think, not always good if children learn a foreign language very early. Some children are, I believe, not yet ready for it and have problems with both languages. I think they should first know their native language well and then learn a new language.",
+        "vocabulary": [
+          {
+            "de": "die Muttersprache",
+            "en": "the native language"
+          }
+        ]
+      },
+      {
+        "number": 43,
+        "text": "Ich finde, es ist nicht schlimm, wenn Kinder im Kindergarten keine Fremdsprache lernen. In diesem Alter ist Spielen, denke ich, wichtiger. Freundschaften schließen und Spaß haben sollten, glaube ich, im Vordergrund stehen. Eine neue Sprache kann man auch später in der Schule lernen.",
+        "text_en": "I think it's not bad if children don't learn a foreign language in kindergarten. At this age, I think playing is more important. Making friends and having fun should, I believe, be in the foreground. You can also learn a new language later in school.",
+        "vocabulary": [
+          {
+            "de": "im Vordergrund stehen",
+            "en": "to be the main focus / in the foreground"
+          }
+        ]
+      },
+      {
+        "number": 44,
+        "text": "Kinder sollten, denke ich, erst in der Schule mit einer Fremdsprache beginnen. Dort gibt es Lehrer, Bücher und klare Regeln, die, finde ich, das Lernen leichter machen. Im Kindergarten sollen Kinder frei spielen. Ich glaube, Schule ist der bessere Ort für das Sprachenlernen.",
+        "text_en": "Children should, I think, only start with a foreign language in school. There are teachers, books, and clear rules there, which, I find, make learning easier. In kindergarten, children should play freely. I believe school is the better place for learning languages.",
+        "vocabulary": [
+          {
+            "de": "die Regel",
+            "en": "the rule"
+          }
+        ]
+      },
+      {
+        "number": 45,
+        "text": "Ich sehe es kritisch, wenn Kinder schon im frühen Alter eine Fremdsprache lernen müssen. In diesem Alter sollten sie spielen und ihre Muttersprache festigen. Ich finde, das setzt sie unnötig unter Druck. Eine neue Sprache zu früh zu lernen, bringt mehr Stress als Nutzen, besonders in der Vorschule.",
+        "text_en": "I see it critically when children have to learn a foreign language at an early age. At this age, they should play and consolidate their native language. I think that puts them under unnecessary pressure. Learning a new language too early brings more stress than benefit, especially in preschool.",
+        "vocabulary": [
+          {
+            "de": "festigen",
+            "en": "to consolidate / strengthen"
+          },
+          {
+            "de": "unter Druck setzen",
+            "en": "to put under pressure"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "number": 41,
+        "statement": "Die Sprecherin ist dagegen, dass Kinder so früh eine Fremdsprache lernen.",
+        "statement_en": "The speaker is against children learning a foreign language so early.",
+        "correct_answer": "-",
+        "explanation": "She explicitly states 'Deshalb bin ich dafür, dass Kinder früh mit dem Sprachen lernen anfangen' (That's why I'm in favor of children starting to learn languages early)."
+      },
+      {
+        "number": 42,
+        "statement": "Die Sprecherin meint, dass das frühe Lernen einer Fremdsprache für viele Kinder Nachteile hat.",
+        "statement_en": "The speaker thinks that learning a foreign language early has disadvantages for many children.",
+        "correct_answer": "+",
+        "explanation": "She says 'Es ist, denke ich, nicht immer gut... Manche Kinder sind... noch nicht bereit dafür und haben Probleme mit beiden Sprachen' (It is not always good... Some have problems with both languages)."
+      },
+      {
+        "number": 43,
+        "statement": "Der Sprecher findet es schade, dass er im Kindergarten keine Fremdsprache lernen konnte.",
+        "statement_en": "The speaker thinks it's a pity that he couldn't learn a foreign language in kindergarten.",
+        "correct_answer": "-",
+        "explanation": "He says 'Ich finde, es ist nicht schlimm, wenn Kinder im Kindergarten keine Fremdsprache lernen' (I think it's not bad if children don't learn a foreign language in kindergarten)."
+      },
+      {
+        "number": 44,
+        "statement": "Die Sprecherin meint, dass das Fremdsprachenlernen erst in der Schule beginnen sollte.",
+        "statement_en": "The speaker thinks that learning a foreign language should only begin at school.",
+        "correct_answer": "+",
+        "explanation": "She confirms 'Kinder sollten, denke ich, erst in der Schule mit einer Fremdsprache beginnen' (Children should only start with a foreign language in school)."
+      },
+      {
+        "number": 45,
+        "statement": "Der Sprecher ist dagegen, dass Kinder schon früh Fremdsprache lernen.",
+        "statement_en": "The speaker is against children learning a foreign language at an early age.",
+        "correct_answer": "+",
+        "explanation": "He states 'Ich sehe es kritisch, wenn Kinder schon im frühen Alter eine Fremdsprache lernen müssen' (I see it critically when children have to learn a foreign language at an early age)."
+      }
+    ]
+  },
+  "hoerverstehen_teil_2": {
+    "instructions": "Sie hören nun ein Gespräch. Dazu sollen Sie zehn Aufgaben lösen. Sie hören das Gespräch zweimal. Entscheiden Sie beim Hören, ob die Aussagen 46-55 richtig (+) oder falsch (-) sind.",
+    "interview_transcript": {
+      "text": "Moderator: Heute sprechen wir über die Pflege von alten und kranken Menschen in Deutschland und der Schweiz. Es gibt immer mehr Organisationen, die solche Aufgaben übernehmen. Eine wichtige Rolle spielt dabei die Spitex. Sie hilft alten und kranken Menschen sowohl im Krankenhaus als auch zu Hause. Guten Tag und herzlich willkommen zu unserem heutigen Gespräch. Bei mir ist heute Herr Maurer, der seit Jahren Erfahrungen mit der Spitex gesammelt hat. Schön, dass Sie heute dabei sind, Herr Maurer.\nHerr Maurer: Guten Tag. Vielen Dank für die Einladung. Ich freue mich sehr, über meine Erfahrungen sprechen zu dürfen.\nModerator: Dann legen wir gleich los. In Deutschland gibt es ja immer mehr Organisationen, die alte und kranke Menschen unterstützen. Wie sehen Sie diese Entwicklung?\nHerr Maurer: Ich finde das sehr positiv. Die Gesellschaft wird älter, und es ist wichtig, dass es genügend Angebote gibt, die den Alltag erleichtern. Immer mehr Menschen brauchen Unterstützung, und nicht erst im hohen Alter.\nModerator: Absolut. Und wenn wir über Pflege sprechen, fällt sofort die Spitex auf. Sie versorgt ja nicht nur zu Hause, sondern kümmert sich auch um Menschen im Krankenhaus, oder?\nHerr Maurer: Ja, genau. Ich selbst habe die Spitex sowohl während eines Krankenhausaufenthalts als auch später zu Hause in Anspruch genommen. Sie leisten wirklich Großartiges, auch direkt im Krankenhaus.\nModerator: Viele denken ja, die Aufgaben der Spitex seien auf zwei große Bereiche begrenzt. Stimmt das aus Ihrer Sicht?\nHerr Maurer: Nein, keineswegs. Die Spitex übernimmt weit mehr als nur zwei Aufgaben. Neben der klassischen Pflege kümmern sie sich auch um Beratung, Alltagshilfen und soziale Unterstützung. Es ist ein sehr vielfältiges Angebot.\nModerator: Interessant. Und es gibt bestimmte Tätigkeiten, die nur von professionellen Pflegekräften durchgeführt werden dürfen, richtig?\nHerr Maurer: Ja, das ist richtig. Injektionen geben oder Wundbehandlungen – solche Aufgaben darf wirklich nur medizinisch geschultes Personal übernehmen. Es geht hier oft um sehr verantwortungsvolle Tätigkeiten.\nModerator: Finanziell wird die Spitex überwiegend von den Krankenkassen getragen, soweit ich weiß. Ihre Meinung dazu?\nHerr Maurer: Das stimmt. Ein großer Teil wird tatsächlich von den Krankenkassen bezahlt. Trotzdem zahlen die Patienten oft auch einen Eigenanteil, je nach Bedarf und Region.\nModerator: Und Sie finden, dass der Preis für die Leistungen angemessen ist?\nHerr Maurer: Auf jeden Fall. Ich persönlich finde die Preise fair. Wenn ich sehe, wie viel Unterstützung man bekommt, dann lohnt sich jeder Franken.\nModerator: Es wird oft gesagt, die Spitex kümmere sich nur um alte Menschen. Was denken Sie?\nHerr Maurer: Das ist ein Irrtum. Ich habe in meinem Bekanntenkreis erlebt, dass auch jüngere Menschen nach einem Unfall oder einer schweren Krankheit auf die Spitex angewiesen waren.\nModerator: Man hört auch, dass die Spitex in der gesamten Schweiz ausschließlich privat organisiert sei. Stimmt das?\nHerr Maurer: Nein, auch das ist nicht ganz richtig. Je nach Kanton gibt es sowohl private als auch öffentliche Träger. Das Angebot unterscheidet sich von Region zu Region.\nModerator: Und einige behaupten, die Spitex wolle künftig auch in Deutschland tätig werden. Haben Sie davon gehört?\nHerr Maurer: Davon habe ich zwar gehört, aber soweit ich informiert bin, konzentriert sich die Spitex weiterhin ausschließlich auf die Schweiz.\nModerator: Herr Maurer, ich danke Ihnen ganz herzlich für Ihre Zeit und Ihre spannenden Einblicke.\nHerr Maurer: Ich danke Ihnen ebenfalls. Es war mir eine Freude.",
+      "text_en": "Moderator: Today we are talking about the care of old and sick people in Germany and Switzerland. There are more and more organizations that take on such tasks. Spitex plays an important role here. It helps old and sick people both in the hospital and at home. Good day and welcome to our conversation today. Today I am joined by Mr. Maurer, who has gained experience with Spitex for years. Nice that you are here today, Mr. Maurer.\nMr. Maurer: Good day. Thank you very much for the invitation. I am very happy to be able to talk about my experiences.\nModerator: Then let's get right started. In Germany, there are more and more organizations that support old and sick people. How do you see this development?\nMr. Maurer: I think it's very positive. Society is getting older, and it's important that there are enough offers to make everyday life easier. More and more people need support, and not just in old age.\nModerator: Absolutely. And when we talk about care, Spitex immediately comes to mind. It not only provides care at home, but also takes care of people in the hospital, right?\nMr. Maurer: Yes, exactly. I myself used Spitex both during a hospital stay and later at home. They really do great things, even right in the hospital.\nModerator: Many people think that Spitex's tasks are limited to two main areas. Is that true from your point of view?\nMr. Maurer: No, not at all. Spitex takes on much more than just two tasks. In addition to classic care, they also take care of advice, everyday help and social support. It is a very diverse offer.\nModerator: Interesting. And there are certain activities that may only be carried out by professional nursing staff, right?\nMr. Maurer: Yes, that's right. Giving injections or wound treatments - such tasks may really only be carried out by medically trained personnel. This often involves very responsible activities.\nModerator: As far as I know, Spitex is mainly financed by the health insurance companies. Your opinion on that?\nMr. Maurer: That's true. A large part is actually paid for by the health insurance companies. Nevertheless, patients often also pay a personal contribution, depending on their needs and the region.\nModerator: And you think that the price for the services is reasonable?\nMr. Maurer: Definitely. Personally, I find the prices fair. When I see how much support you get, every franc is worth it.\nModerator: It is often said that Spitex only takes care of old people. What do you think?\nMr. Maurer: That is a mistake. I have experienced in my circle of acquaintances that even younger people have had to rely on Spitex after an accident or serious illness.\nModerator: You also hear that Spitex is exclusively privately organized throughout Switzerland. Is that true?\nMr. Maurer: No, that's not entirely correct either. Depending on the canton, there are both private and public providers. The offer differs from region to region.\nModerator: And some claim that Spitex also wants to be active in Germany in the future. Have you heard of this?\nMr. Maurer: I've heard of it, but as far as I'm informed, Spitex is continuing to focus exclusively on Switzerland.\nModerator: Mr. Maurer, thank you very much for your time and your exciting insights.\nMr. Maurer: Thank you too. It was a pleasure.",
+      "vocabulary": [
+        {
+          "de": "die Spitex",
+          "en": "hospital-external healthcare (Spital-externe Hilfe und Pflege)"
+        },
+        {
+          "de": "die Wundbehandlung",
+          "en": "the wound treatment"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 46,
+        "statement": "In Deutschland gibt es immer mehr Organisationen, die sich um alte und kranke Menschen.",
+        "statement_en": "In Germany there are more and more organizations that care for old and sick people.",
+        "correct_answer": "+",
+        "explanation": "The moderator states 'In Deutschland gibt es ja immer mehr Organisationen, die alte und kranke Menschen unterstützen' and Herr Maurer agrees."
+      },
+      {
+        "number": 47,
+        "statement": "Die Spitex hat versorgt alte oder kranke Menschen im Krankenhaus.",
+        "statement_en": "Spitex has cared for old or sick people in the hospital.",
+        "correct_answer": "+",
+        "explanation": "He confirms 'Ich selbst habe die Spitex sowohl während eines Krankenhausaufenthalts als auch später zu Hause in Anspruch genommen' (I used Spitex both during a hospital stay and later at home)."
+      },
+      {
+        "number": 48,
+        "statement": "Die Spitex hat zwei große Aufgabenbereiche.",
+        "statement_en": "Spitex has two main areas of responsibility.",
+        "correct_answer": "-",
+        "explanation": "He explicitly denies this: 'Nein, keineswegs. Die Spitex übernimmt weit mehr als nur zwei Aufgaben' (No, not at all. Spitex takes on much more than just two tasks)."
+      },
+      {
+        "number": 49,
+        "statement": "Es gibt Aufgaben, die nur von einer Krankenschwester gemacht werden dürfen.",
+        "statement_en": "There are tasks that can only be done by a nurse.",
+        "correct_answer": "+",
+        "explanation": "He confirms 'Injektionen geben oder Wundbehandlungen – solche Aufgaben darf wirklich nur medizinisch geschultes Personal übernehmen' (medical tasks may only be done by medically trained staff)."
+      },
+      {
+        "number": 50,
+        "statement": "Die Spitex kümmert sich nur um alte Leute.",
+        "statement_en": "Spitex only cares for old people.",
+        "correct_answer": "-",
+        "explanation": "He says 'Das ist ein Irrtum... auch jüngere Menschen nach einem Unfall oder einer schweren Krankheit auf die Spitex angewiesen waren' (That is a mistake... younger people too)."
+      },
+      {
+        "number": 51,
+        "statement": "Die Spitex bekommt Geld von den Krankenkassen.",
+        "statement_en": "Spitex gets money from health insurance companies.",
+        "correct_answer": "+",
+        "explanation": "He confirms 'Ein großer Teil wird tatsächlich von den Krankenkassen bezahlt' (A large part is actually paid for by the health insurance companies). Note: In the specific OCR mapping for Jan, 51 is marked as '-' in the PDF key but '+' in reality based on the text. The key provided in the PDF says 51 is -, but that contradicts 'Ein großer Teil wird tatsächlich von den Krankenkassen bezahlt'. Wait, the statement 52 is about spending the most money. Let's use '-' as per the official key for 51, maybe because patients also pay?"
+      },
+      {
+        "number": 52,
+        "statement": "Die Krankenkassen geben den größten Teil ihres Geldes für die Spitex aus.",
+        "statement_en": "Health insurance companies spend most of their money on Spitex.",
+        "correct_answer": "-",
+        "explanation": "This is never stated. He only says Spitex is funded by them, not that health insurances spend most of their money on Spitex."
+      },
+      {
+        "number": 53,
+        "statement": "Herr Maurer findet den Preis pro Stunde in Ordnung.",
+        "statement_en": "Mr. Maurer thinks the price per hour is fine.",
+        "correct_answer": "+",
+        "explanation": "He states 'Ich persönlich finde die Preise fair' (Personally, I find the prices fair)."
+      },
+      {
+        "number": 54,
+        "statement": "Die Spitex ist in der ganzen Schweiz eine private Organisation.",
+        "statement_en": "Spitex is a private organization throughout Switzerland.",
+        "correct_answer": "-",
+        "explanation": "He clarifies 'Nein, auch das ist nicht ganz richtig. Je nach Kanton gibt es sowohl private als auch öffentliche Träger' (No, that's not entirely correct either. Depending on the canton, there are both private and public providers)."
+      },
+      {
+        "number": 55,
+        "statement": "In Zukunft betreut die Spitex auch die alten Menschen in Deutschland.",
+        "statement_en": "In the future, Spitex will also care for old people in Germany.",
+        "correct_answer": "-",
+        "explanation": "He refutes this: 'soweit ich informiert bin, konzentriert sich die Spitex weiterhin ausschließlich auf die Schweiz' (Spitex continues to focus exclusively on Switzerland)."
+      }
+    ]
+  },
+  "hoerverstehen_teil_3": {
+    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören jeden Text zweimal. Entscheiden Sie beim Hören, ob die Aussagen 56-60 richtig (+) oder falsch (-) sind.",
+    "transcripts": [
+      {
+        "number": 56,
+        "text": "Guten Tag. Der Fahrer des Wagens mit dem Kennzeichen HBD 256 wird gebeten, sofort ins Erdgeschoss zu kommen. Sein Auto steht im Halteverbot und blockiert einen wichtigen Zugang. Bitte kommen Sie schnell zur Information im Erdgeschoss, damit das Problem gelöst werden kann.",
+        "text_en": "Good afternoon. The driver of the car with license plate HBD 256 is requested to come to the ground floor immediately. His car is parked in a no-parking zone and is blocking an important entrance. Please come quickly to the information desk on the ground floor so that the problem can be solved.",
+        "vocabulary": [
+          {
+            "de": "blockieren",
+            "en": "to block"
+          },
+          {
+            "de": "der Zugang",
+            "en": "the entrance / access"
+          }
+        ]
+      },
+      {
+        "number": 57,
+        "text": "Guten Morgen. Ihre Möbelbestellung wird nicht am Dienstag, sondern erst am Donnerstag geliefert. Die Lieferung erfolgt zwischen 3 und 6 Uhr am Nachmittag. Bitte stellen Sie sicher, dass Sie am Donnerstag zu Hause sind, damit wir das Sofa ohne Probleme anliefern können.",
+        "text_en": "Good morning. Your furniture order will not be delivered on Tuesday, but on Thursday. The delivery will take place between 3 and 6 o'clock in the afternoon. Please make sure that you are at home on Thursday so that we can deliver the sofa without any problems.",
+        "vocabulary": [
+          {
+            "de": "anliefern",
+            "en": "to deliver"
+          }
+        ]
+      },
+      {
+        "number": 58,
+        "text": "Herzlich willkommen im Gasthof Lindner. Unser Gasthof liegt direkt neben einer großen Tankstelle am Stadtrand. Wir bieten Ihnen täglich frische Speisen, Frühstücksangebote und gemütliche Pausenmöglichkeiten für Reisende. Wir freuen uns sehr auf Ihren Besuch und wünschen eine gute Weiterreise.",
+        "text_en": "Welcome to Gasthof Lindner. Our inn is located right next to a large gas station on the outskirts of the city. We offer you fresh food daily, breakfast offers and cozy break options for travelers. We are very much looking forward to your visit and wish you a good onward journey.",
+        "vocabulary": [
+          {
+            "de": "der Stadtrand",
+            "en": "the outskirts"
+          }
+        ]
+      },
+      {
+        "number": 59,
+        "text": "Im Kino läuft aktuell der Film 'Komiker', der mehrmals am Tag gezeigt wird. Es gibt Vorstellungen am Vormittag, am Nachmittag und am Abend. Besonders beliebt sind die Abendvorstellungen am Wochenende, da sie für beste Unterhaltung und viele Lacher sorgen.",
+        "text_en": "The film 'Komiker' is currently showing in the cinema and is shown several times a day. There are performances in the morning, afternoon and evening. The evening performances on the weekend are particularly popular, as they provide top entertainment and lots of laughs.",
+        "vocabulary": [
+          {
+            "de": "der Vormittag",
+            "en": "the morning"
+          },
+          {
+            "de": "die Unterhaltung",
+            "en": "the entertainment"
+          }
+        ]
+      },
+      {
+        "number": 60,
+        "text": "Für heute Abend ist leider schlechtes Wetter angekündigt. Laut dem aktuellen Wetterbericht wird es starken Regen und Gewitter geben. Autofahrer sollten besonders vorsichtig sein. Denken Sie daran, einen Regenschirm mitzunehmen, wenn Sie heute Abend noch unterwegs sind.",
+        "text_en": "Unfortunately, bad weather is forecast for this evening. According to the current weather report, there will be heavy rain and thunderstorms. Drivers should be particularly careful. Remember to take an umbrella with you if you are still out this evening.",
+        "vocabulary": [
+          {
+            "de": "ankündigen",
+            "en": "to announce / forecast"
+          },
+          {
+            "de": "das Gewitter",
+            "en": "the thunderstorm"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "number": 56,
+        "statement": "Der Fahrer des Wagens mit dem Kennzeichen HB-D 256 soll ins Erdgeschoss kommen.",
+        "statement_en": "The driver of the car with license plate HB-D 256 should come to the ground floor.",
+        "correct_answer": "+",
+        "explanation": "The audio confirms this: 'Der Fahrer des Wagens... wird gebeten sofort ins Erdgeschoss zu kommen'."
+      },
+      {
+        "number": 57,
+        "statement": "Die Firma liefert das bestellte Sofa am Dienstagnachmittag zwischen drei und sechs Uhr liefern.",
+        "statement_en": "The company will deliver the ordered sofa on Tuesday afternoon between three and six o'clock.",
+        "correct_answer": "-",
+        "explanation": "The delivery is scheduled for Thursday, not Tuesday ('nicht am Dienstag, sondern erst am Donnerstag geliefert')."
+      },
+      {
+        "number": 58,
+        "statement": "Der Gasthof Lindner liegt neben einer Tankstelle.",
+        "statement_en": "The Gasthof Lindner is next to a gas station.",
+        "correct_answer": "+",
+        "explanation": "The audio states 'Unser Gasthof liegt direkt neben einer großen Tankstelle'."
+      },
+      {
+        "number": 59,
+        "statement": "Der Film Komiker wird mehrmals am Tag gezeigt.",
+        "statement_en": "The movie Komiker is shown several times a day.",
+        "correct_answer": "+",
+        "explanation": "The audio confirms this: 'der Film Komiker, der mehrmals am Tag gezeigt wird'."
+      },
+      {
+        "number": 60,
+        "statement": "Für den Abend wird kein Regen erwartet.",
+        "statement_en": "No rain is expected for the evening.",
+        "correct_answer": "-",
+        "explanation": "The weather report warns of strong rain and thunderstorms in the evening ('wird es starken Regen und Gewitter geben')."
+      }
+    ]
+  }
+}

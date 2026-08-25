@@ -1,0 +1,1021 @@
+{
+  "title": "NICOLE",
+  "leseverstehen_teil_1": {
+    "headings": {
+      "a": "Sportkurse für ältere Menschen",
+      "b": "Für Jugendliche ist der Computer etwas Alltägliches",
+      "c": "Das Interesse am Handel über Internet nimmt stark ab",
+      "d": "Arbeiten am Computer verursacht häufig Rückenschmerzen",
+      "e": "Internetnutzer machen viele Dinge gleichzeitig",
+      "f": "Firmen müssen auch über Internet für Produkte werben",
+      "g": "Auch Freizeitsportarten sollten trainiert werden",
+      "h": "Was man gegen Rückenschmerzen tun kann",
+      "i": "Kinder wollen mit dem Computer nur spielen",
+      "j": "Internetnutzer interessieren sich nicht fürs Fernsehen"
+    },
+    "headings_en": {
+      "a": "Sports courses for older people",
+      "b": "For young people, the computer is something everyday",
+      "c": "Interest in internet trade is decreasing sharply",
+      "d": "Working at the computer often causes back pain",
+      "e": "Internet users do many things at the same time",
+      "f": "Companies must also advertise products via the internet",
+      "g": "Leisure sports should also be trained",
+      "h": "What you can do against back pain",
+      "i": "Children only want to play with the computer",
+      "j": "Internet users are not interested in television"
+    },
+    "passages": [
+      {
+        "number": 1,
+        "text": "Falsche Körperhaltung, mangelnde Bewegung und psychische Faktoren sind meistens die Hauptfaktoren für Rückenschmerzen. Hier finden Sie ein ganzheitliches Trainingsprogramm, mit dem Sie Ihre Schmerzen verringern. Alle Übungen lassen sich leicht in den Alltag integrieren. Warenkunde der Farbabbildungen, 18x25 cm, gebunden.",
+        "text_en": "Poor posture, lack of movement, and psychological factors are mostly the main factors for back pain. Here you will find a holistic training program with which you can reduce your pain. All exercises can be easily integrated into everyday life. Merchandise knowledge of the color illustrations, 18x25 cm, hardcover.",
+        "correct_answer": "h",
+        "explanation": "The text describes a training program ('Trainingsprogramm') to reduce back pain ('Rückenschmerzen'). This matches heading 'h' (What you can do against back pain).",
+        "vocabulary": [
+          {
+            "de": "die Körperhaltung",
+            "en": "the posture"
+          },
+          {
+            "de": "verringern",
+            "en": "to reduce"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "text": "Der Computer gehört heute wie selbstverständlich in das Jugendzimmer. Wie früher die Modelleisenbahn oder die Barbie-Puppe. Was aber genau treiben die Kids mit den hochgerüsteten Rechenmaschinen auf dem Schreibtisch? Das wollte die Jugendzeitschrift Bravo wissen. Selbstverständlich spielen, aber auch andere, nützlichere Dinge wie Texte schreiben oder Hausaufgaben für die Schule erledigen, Tabellen erstellen - und natürlich im Internet herumsurfen.",
+        "text_en": "Today, the computer belongs in the teenager's room as a matter of course. Like the model railway or the Barbie doll in the past. But what exactly do the kids do with the highly upgraded calculating machines on the desk? The youth magazine Bravo wanted to know. Of course playing, but also other, more useful things like writing texts or doing homework for school, creating tables - and of course surfing around on the internet.",
+        "correct_answer": "b",
+        "explanation": "The text states that computers are now naturally part of a youth's room ('wie selbstverständlich in das Jugendzimmer'), comparing it to classic toys. This perfectly matches 'b' (For young people, the computer is something everyday).",
+        "vocabulary": [
+          {
+            "de": "selbstverständlich",
+            "en": "as a matter of course / naturally"
+          },
+          {
+            "de": "hochgerüstet",
+            "en": "highly upgraded"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "text": "Inline-Skating ist ein idealer Ausdauersport, nicht nur für die jüngere Generation. Das haben jetzt Untersuchungen am Institut für Sportwissenschaften an der Universität Frankfurt bestätigt. Danach trainiert Inline-Skating das Herz-Kreislauf-System, beansprucht die wichtigsten Muskelgruppen und fördert die Koordination. Die Faszination dieser rasanten Freizeitsportart wirke generationenübergreifend und erfasst die Jungen wie die Alten, sagt Dr. Hans Jürgen Ahrens. Allerdings fragt der Arzt kritisch, warum jeder Skifahrer, Windsurfer oder Tennisspieler zu Beginn Trainingsstunden bei einem Profi belege, oft aber nicht der Inliner: Dabei lässt sich das Verletzungsrisiko durch regelmäßiges Fahrtraining deutlich verringern. In einem Kurs sollten die wichtigsten Sturz-, Brems- und Fahrtechniken erlernt werden.",
+        "text_en": "Inline skating is an ideal endurance sport, not just for the younger generation. This has now been confirmed by studies at the Institute for Sports Science at the University of Frankfurt. According to this, inline skating trains the cardiovascular system, stresses the most important muscle groups and promotes coordination. The fascination of this fast-paced leisure sport works across generations and captivates the young as well as the old, says Dr. Hans Jürgen Ahrens. However, the doctor asks critically why every skier, windsurfer or tennis player takes training lessons with a professional at the beginning, but often not the inline skater: The risk of injury can be significantly reduced by regular driving training. In a course, the most important falling, braking and driving techniques should be learned.",
+        "correct_answer": "g",
+        "explanation": "The passage argues that people should take training courses for inline skating just like they do for skiing or tennis to reduce injuries. This matches 'g' (Leisure sports should also be trained).",
+        "vocabulary": [
+          {
+            "de": "der Ausdauersport",
+            "en": "the endurance sport"
+          },
+          {
+            "de": "das Verletzungsrisiko",
+            "en": "the risk of injury"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "text": "Eine Studie der Fernsehgesellschaften ARD und ZDF besagt, dass deutsche Internetnutzer sich auch mit anderen Dingen beschäftigen, wenn sie im Internet sind. Ein Großteil der beobachteten Personen telefoniert beim Surfen, hört nebenbei Musik oder arbeitet mit anderen Computerprogrammen. Aber auch Konkurrenzmedien wie Fernsehen und Zeitschriften finden große Aufmerksamkeit, während im Internet nach Informationen gesucht wird.",
+        "text_en": "A study by the television companies ARD and ZDF states that German internet users also occupy themselves with other things when they are on the internet. A large part of the observed persons talk on the phone while surfing, listen to music on the side or work with other computer programs. But competing media such as television and magazines also receive a great deal of attention while information is being searched for on the internet.",
+        "correct_answer": "e",
+        "explanation": "The text describes how internet users multitask (listening to music, watching TV, calling). This fits heading 'e' (Internet users do many things at the same time).",
+        "vocabulary": [
+          {
+            "de": "die Aufmerksamkeit",
+            "en": "the attention"
+          },
+          {
+            "de": "nebenbei",
+            "en": "on the side / casually"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "text": "Geschäfte über das Internet werden in Deutschland auch in Zukunft Milliarden Euro einbringen. In spätestens zwei Jahren werden 20 Prozent aller europäischen Geschäfte über das Internet abgewickelt, sagen die Fachleute. Heutzutage ist es kaum vorstellbar, dass ein Unternehmen allein mit klassischen Verkaufsmethoden und ohne zusätzliches Online-Marketing erfolgreich sein wird. Wer heute nicht anfängt, diese Möglichkeiten zu nutzen, kann in Zukunft seine Kunden verlieren. Das Argument, dass die angebotene Ware sich ja auch ohne Internet gut verkaufe, stimmt so nicht mehr. Denn das Internet beeinflusst auch das Käuferverhalten auf der Straße.",
+        "text_en": "Business over the internet will continue to bring in billions of euros in Germany in the future. In at most two years, 20 percent of all European business will be transacted via the internet, say the experts. Nowadays it is hard to imagine that a company will be successful with classic sales methods alone and without additional online marketing. Those who do not start using these possibilities today may lose their customers in the future. The argument that the offered goods sell well even without the internet is no longer true. Because the internet also influences buyer behavior on the street.",
+        "correct_answer": "f",
+        "explanation": "The text warns that companies must use online marketing and cannot rely solely on classic sales methods. This matches 'f' (Companies must also advertise products via the internet).",
+        "vocabulary": [
+          {
+            "de": "abwickeln",
+            "en": "to transact / process"
+          },
+          {
+            "de": "vorstellbar",
+            "en": "imaginable"
+          }
+        ]
+      }
+    ]
+  },
+  "leseverstehen_teil_2": {
+    "passage": {
+      "headline": "Computerkurse sind schon für Kinder spannend",
+      "subheadline": "Schreiben, Rechnen, Programme installieren",
+      "paragraphs": [
+        "Schaden oder nützen Computer unseren Kindern?, fragen sich viele Eltern. Ein Computerkurs-Veranstalter ist sich ganz sicher: Wenn man den Kindern beibringt, den Computer richtig einzusetzen, ist er sogar eine Lernhilfe. Seit fünf Jahren bietet Franz Krapfenbauer Computerkurse für Kinder zwischen sieben und vierzehn Jahren an und ist von seinen Schülern begeistert. Am liebsten würden die Kinder drei Stunden ohne Pause durcharbeiten. Und das, obwohl in seinen Kursen nicht gespielt wird, sondern der Computer als Lernhilfe genutzt wird. Im ersten Kurs lernen die Kinder den Umgang mit dem Betriebssystem und erste Grundzüge der Textverarbeitung.",
+        "Das Geheimnis von Krapfenbauer: \"Ich erkläre die Programme in der Sprache der Kinder und langweile sie nicht mit technischen Details.\" Sein Talent entdeckte er, als sich seine eigenen Kinder für den PC zu interessieren begannen. Seine Tochter brachte immer mehr Mitschüler zum sonntäglichen PC-Training mit, bis eines Tages klar war: Das muss auf professionelle Beine gestellt werden.",
+        "Das Schwierigste war, einen passenden und vor allem kostengünstigen Raum zu finden, denn Geld brachten die Kinderkurse am Anfang sehr wenig ein. Ein Bekannter, der Direktor eines Hotels ist, hatte schließlich die passende Lösung: Die Schulungsräume im Hotel stehen den Kindern nun an den Wochenenden zur Verfügung. Allgemein rät Krapfenbauer, Kinder so früh wie möglich an den Computer zu lassen, allerdings nur unter Aufsicht und mit den richtigen Programmen. Beim Computer ist es wie beim Fernseher: Wenn man ihn als Kindermädchen einsetzt, ohne sich darum zu kümmern, was die Kinder damit machen, kann das negative Folgen haben. Schon für drei- bis vierjährige Kinder gebe es sehr gute Spielprogramme, die mit Vorschulaufgaben vergleichbar wären.",
+        "Gerade in der Zeit nach Weihnachten haben Krapfis Kindercomputerkurse Hochsaison. Viele Eltern haben einen Computer unter den Christbaum gestellt und wollen jetzt, dass ihre Kinder frühzeitig damit umgehen lernen. Wobei der Seminarleiter für manche Eltern sogar zu viel Wissen weitergibt: Einige Eltern haben sich schon beschwert, weil ihre Kinder jetzt Hausaufgaben am Computer lösen. Die manchmal befürchtete Überforderung der Kinder hat Krapfenbauer noch nicht erlebt. Ganz im Gegenteil, die Kleinen sind oft gar nicht zu stoppen, wenn sie wieder etwas Neues erlernt haben. Viele Teilnehmer kommen dann auch gern zu den nächsten Kursen. Zeichenprogramme oder Spiele kommen in den Computerkursen höchstens als Belohnung am Rande vor.",
+        "Das größte Hindernis auf dem Weg zum Computerexperten ist für die Kinder in manchen Fällen die negative Einstellung der Eltern. Die Erwachsenen kennen oft nur die komplizierten Datenbankanwendungen und Programme aus dem Büro und können sich gar nicht vorstellen, was man mit dem Computer noch alles machen kann, bedauert Krapfenbauer. Natürlich wirkt sich diese negative Grundeinstellung auch auf die Kinder aus. Überraschenderweise sind es dann oft die Großeltern, die für Computerkurse das Geld geben, damit ihre Enkelkinder mit dem PC richtig umgehen lernen."
+      ],
+      "text_en": "Computer courses are already exciting for children. Writing, calculating, installing programs.\nDo computers harm or benefit our children? Many parents wonder. One computer course organizer is quite sure: if you teach children how to use the computer properly, it is even a learning aid. For five years Franz Krapfenbauer has been offering computer courses for children between seven and fourteen and is thrilled by his students. The children would prefer to work straight through for three hours without a break. And that, although there is no playing in his courses, but the computer is used as a learning aid. In the first course, the children learn how to handle the operating system and the first basics of word processing.\nKrapfenbauer's secret: \"I explain the programs in the language of the children and don't bore them with technical details.\" He discovered his talent when his own children began to take an interest in the PC. His daughter brought more and more classmates to the Sunday PC training until one day it was clear: this must be put on a professional footing.\nThe most difficult thing was to find a suitable and above all inexpensive room, because the children's courses brought in very little money at the beginning. An acquaintance, who is the director of a hotel, finally had the right solution: the training rooms in the hotel are now available to the children on weekends. In general, Krapfenbauer advises letting children use the computer as early as possible, but only under supervision and with the right programs. With the computer, it's like with the television: if you use it as a nanny without caring what the children do with it, it can have negative consequences. There are already very good game programs for three to four-year-old children that are comparable to preschool tasks.\nEspecially in the time after Christmas, Krapfi's children's computer courses are in high season. Many parents have put a computer under the Christmas tree and now want their children to learn how to use it early on. Whereby the seminar leader even passes on too much knowledge for some parents: Some parents have already complained because their children now solve homework on the computer. Krapfenbauer has not yet experienced the sometimes feared overburdening of the children. Quite the contrary, the little ones can often not be stopped when they have learned something new. Many participants then gladly come to the next courses. Drawing programs or games appear in the computer courses at most as a reward on the sidelines.\nThe biggest obstacle on the way to becoming a computer expert is, in some cases, the negative attitude of the parents. Adults often only know the complicated database applications and programs from the office and cannot imagine at all what else can be done with the computer, Krapfenbauer regrets. Naturally, this basic negative attitude also affects the children. Surprisingly, it is then often the grandparents who give the money for computer courses so that their grandchildren learn how to handle the PC properly.",
+      "vocabulary": [
+        {
+          "de": "beibringen",
+          "en": "to teach"
+        },
+        {
+          "de": "die Überforderung",
+          "en": "the overburdening / excessive demand"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 6,
+        "question": "In den Computerkursen von Franz Krapfenbauer...",
+        "question_en": "In Franz Krapfenbauer's computer courses...",
+        "options": {
+          "a": "lernen die Kinder vor allem neue Computerspiele kennen.",
+          "b": "lernen Kinder ab 14 Jahren das richtige Arbeiten mit dem Computer.",
+          "c": "werden die Computerprogramme so einfach wie möglich erklärt."
+        },
+        "options_en": {
+          "a": "children mainly get to know new computer games.",
+          "b": "children from 14 years learn proper working with the computer.",
+          "c": "the computer programs are explained as simply as possible."
+        },
+        "correct_answer": "c",
+        "explanation": "He explains: 'Ich erkläre die Programme in der Sprache der Kinder' (I explain the programs in the language of the children), fitting option 'c'."
+      },
+      {
+        "number": 7,
+        "question": "Am Anfang war es für Franz Krapfenbauer schwierig...",
+        "question_en": "In the beginning it was difficult for Franz Krapfenbauer...",
+        "options": {
+          "a": "einen geeigneten Raum für die Kurse zu finden.",
+          "b": "genug Kinder für den Computerkurs zu finden.",
+          "c": "seine Tochter für den Computer zu begeistern."
+        },
+        "options_en": {
+          "a": "to find a suitable room for the courses.",
+          "b": "to find enough children for the computer course.",
+          "c": "to enthuse his daughter for the computer."
+        },
+        "correct_answer": "a",
+        "explanation": "The text states: 'Das Schwierigste war, einen passenden und vor allem kostengünstigen Raum zu finden' (The most difficult thing was to find a suitable room)."
+      },
+      {
+        "number": 8,
+        "question": "Herr Krapfenbauer meint...",
+        "question_en": "Mr. Krapfenbauer thinks...",
+        "options": {
+          "a": "dass auch kleine Kinder mit dem Computer arbeiten sollen.",
+          "b": "dass Kinder unter vier Jahren zu jung für den Computer seien.",
+          "c": "dass sich Kinder alleine mit dem Computer beschäftigen sollen."
+        },
+        "options_en": {
+          "a": "that small children should also work with the computer.",
+          "b": "that children under four years are too young for the computer.",
+          "c": "that children should occupy themselves alone with the computer."
+        },
+        "correct_answer": "a",
+        "explanation": "He advises: 'Kinder so früh wie möglich an den Computer zu lassen' and mentions there are programs for 3 to 4-year-olds."
+      },
+      {
+        "number": 9,
+        "question": "Viele Kinder...",
+        "question_en": "Many children...",
+        "options": {
+          "a": "machen im Kurs ihre Hausaufgaben am Computer.",
+          "b": "machen nach dem ersten Kurs noch einen weiteren Kurs.",
+          "c": "probieren im Kurs neue Computerspiele aus."
+        },
+        "options_en": {
+          "a": "do their homework on the computer in the course.",
+          "b": "do another course after the first course.",
+          "c": "try out new computer games in the course."
+        },
+        "correct_answer": "b",
+        "explanation": "The text says: 'Viele Teilnehmer kommen dann auch gern zu den nächsten Kursen' (Many participants then gladly come to the next courses)."
+      },
+      {
+        "number": 10,
+        "question": "Franz Krapfenbauer erzählt...",
+        "question_en": "Franz Krapfenbauer tells...",
+        "options": {
+          "a": "dass die Computerkurse oft von den Großeltern bezahlt werden.",
+          "b": "dass einige Eltern selbst als Computerexperten arbeiten.",
+          "c": "dass er auch Computerkurse in Büros plant."
+        },
+        "options_en": {
+          "a": "that the computer courses are often paid for by the grandparents.",
+          "b": "that some parents work as computer experts themselves.",
+          "c": "that he also plans computer courses in offices."
+        },
+        "correct_answer": "a",
+        "explanation": "The text concludes: 'Überraschenderweise sind es dann oft die Großeltern, die für Computerkurse das Geld geben' (Surprisingly, it is then often the grandparents who give the money for computer courses)."
+      }
+    ]
+  },
+  "leseverstehen_teil_3": {
+    "advertisements": {
+      "a": {
+        "title": "Tiergarten Schönbrunn",
+        "subtitle": "Freizeit",
+        "lines": [
+          "Tag der offenen Tür im Tiergarten Schönbrunn",
+          "Sonntag, 14. Oktober",
+          "Sonderfütterungen das neue Land der Affen, Elefantenbaby...",
+          "Ganztägige Kinderbetreuung.",
+          "Gratis Eintritt für Groß und Klein!"
+        ],
+        "image": "data/images/nicole_ad_a.png",
+        "text_en": "Open day at Tiergarten Schönbrunn (Zoo). Sunday, October 14th. Special feedings, the new land of monkeys, baby elephant... All-day childcare. Free entry for young and old!",
+        "vocabulary": [
+          {
+            "de": "die Fütterung",
+            "en": "the feeding"
+          },
+          {
+            "de": "gratis",
+            "en": "free of charge"
+          }
+        ]
+      },
+      "b": {
+        "title": "Schweinchen Babe",
+        "subtitle": "Kino & Film",
+        "lines": [
+          "Heute im Apollo",
+          "Schweinchen Babe in der großen Stadt",
+          "Ein kleines Schwein hat gemeinsam mit seinen Freunden... den Menschen.",
+          "Für Kinder ab 6 Jahren geeignet.",
+          "Um 15.30, 18.00, 20.00 Uhr."
+        ],
+        "image": "data/images/nicole_ad_b.png",
+        "text_en": "Today in Apollo: Babe the Pig in the Big City. A small pig, together with its friends... Suitable for children from 6 years. At 3:30 p.m., 6:00 p.m., 8:00 p.m.",
+        "vocabulary": [
+          {
+            "de": "das Schweinchen",
+            "en": "the little piglet"
+          }
+        ]
+      },
+      "c": {
+        "title": "Schifahren und Freizeitspaß",
+        "subtitle": "Sport & Freizeit",
+        "lines": [
+          "Schifahren und Freizeitspaß in den Bergen:",
+          "Für Jung und Alt bieten wir... Snowboarden von Mitte März...",
+          "Mitte April in die Berge.",
+          "www.dachstein.at"
+        ],
+        "image": "data/images/nicole_ad_c.png",
+        "text_en": "Skiing and leisure fun in the mountains: For young and old we offer... snowboarding from mid-March... mid-April to the mountains. www.dachstein.at",
+        "vocabulary": [
+          {
+            "de": "das Schifahren",
+            "en": "skiing"
+          }
+        ]
+      },
+      "d": {
+        "title": "Ötztal Information",
+        "subtitle": "Sport & Freizeit",
+        "lines": [
+          "Der Ski-Hit... Ötztal...",
+          "Bietet Kindern bis 7 Jahren in Begleitung ihrer Eltern",
+          "bei einem Aufenthalt von mindestens sieben Tagen",
+          "einen kostenlosen Kinderschikurs.",
+          "Ötztal Information: 05252/2268"
+        ],
+        "image": "data/images/nicole_ad_d.png",
+        "text_en": "The ski hit... Ötztal... Offers children up to 7 years accompanied by their parents a free children's ski course for a stay of at least seven days. Ötztal Information: 05252/2268.",
+        "vocabulary": [
+          {
+            "de": "kostenlos",
+            "en": "free"
+          },
+          {
+            "de": "die Begleitung",
+            "en": "the accompaniment"
+          }
+        ]
+      },
+      "e": {
+        "title": "TOP CENTER WIEN",
+        "subtitle": "Kino & Film",
+        "lines": [
+          "TOP CENTER WIEN",
+          "FILME DER WOCHE",
+          "Top 1: Im Netz der Spinne",
+          "Ötzi, der Mann aus dem Eis",
+          "The Winslow Boy"
+        ],
+        "image": "data/images/nicole_ad_e.png",
+        "text_en": "TOP CENTER VIENNA FILMS OF THE WEEK. Top 1: Along Came a Spider. Ötzi, the Iceman. The Winslow Boy.",
+        "vocabulary": []
+      },
+      "f": {
+        "title": "Spenden Sie zum Schutz der Tiere!",
+        "subtitle": "Spenden",
+        "lines": [
+          "Spenden Sie zum Schutz der Tiere!",
+          "Braunbären werden wieder in Sloweniens Wäldern angesiedelt.",
+          "Die Tiere können dort frei leben und werden nicht länger im Zoo gehalten.",
+          "Helfen Sie dem WWF..."
+        ],
+        "image": "data/images/nicole_ad_f.png",
+        "text_en": "Donate to protect animals! Brown bears are being reintroduced in Slovenia's forests. The animals can live freely there and are no longer kept in the zoo. Help the WWF...",
+        "vocabulary": [
+          {
+            "de": "spenden",
+            "en": "to donate"
+          },
+          {
+            "de": "ansiedeln",
+            "en": "to settle / reintroduce"
+          }
+        ]
+      },
+      "g": {
+        "title": "COLOMBO",
+        "subtitle": "Veranstaltungen",
+        "lines": [
+          "COLOMBO",
+          "Besuchen Sie mit Ihren Kindern auch unseren Streichelzoo, wo man viel über das Leben der Tiere im Zirkus erfahren kann!",
+          "Nur noch eine Vorstellung!!",
+          "Beginn: 15:00 h, Jesuitenwiese."
+        ],
+        "image": "data/images/nicole_ad_g.png",
+        "text_en": "COLOMBO. Visit our petting zoo with your children, where you can learn a lot about the life of animals in the circus! Only one performance left!! Start: 3:00 p.m., Jesuitenwiese.",
+        "vocabulary": [
+          {
+            "de": "der Streichelzoo",
+            "en": "the petting zoo"
+          }
+        ]
+      },
+      "h": {
+        "title": "Großer Abverkauf INTERSPORT",
+        "subtitle": "Einkaufen",
+        "lines": [
+          "Großer Abverkauf",
+          "INTERSPORT",
+          "50% Ermäßigung auf modische Sportjacken, Laufhosen und Schianzüge für Damen.",
+          "INTERSPORT im Donauzentrum."
+        ],
+        "image": "data/images/nicole_ad_h.png",
+        "text_en": "Big clearance sale INTERSPORT. 50% discount on fashionable sports jackets, running pants and ski suits for women. INTERSPORT in the Donauzentrum.",
+        "vocabulary": [
+          {
+            "de": "der Abverkauf",
+            "en": "the clearance sale"
+          }
+        ]
+      },
+      "k": {
+        "title": "Boutique MODE-CLAIRE",
+        "subtitle": "Stellenangebote",
+        "lines": [
+          "GESCHÄFT IN WIENER INNENSTADT SUCHT:",
+          "erfahrene, modebewusste, freundliche Verkäuferin",
+          "für 20 Stunden/Woche.",
+          "Boutique MODE-CLAIRE"
+        ],
+        "image": "data/images/nicole_ad_k.png",
+        "text_en": "SHOP IN VIENNA CITY CENTER SEEKS: experienced, fashion-conscious, friendly saleswoman for 20 hours/week. Boutique MODE-CLAIRE.",
+        "vocabulary": [
+          {
+            "de": "die Verkäuferin",
+            "en": "the saleswoman"
+          }
+        ]
+      }
+    },
+    "situations": [
+      {
+        "number": 11,
+        "situation": "Sie suchen für Ihren 5-jährigen Sohn einen Schikurs.",
+        "situation_en": "You are looking for a ski course for your 5-year-old son.",
+        "correct_answer": "d",
+        "explanation": "Ad 'd' offers a free 'Kinderschikurs' (children's ski course) in Ötztal for children up to 7 years old."
+      },
+      {
+        "number": 12,
+        "situation": "Sie möchten am Wochenende in den Zoo gehen.",
+        "situation_en": "You want to go to the zoo on the weekend.",
+        "correct_answer": "a",
+        "explanation": "Ad 'a' is for the 'Tiergarten Schönbrunn' (Zoo) and advertises an open day on Sunday (weekend). Note: The provided key says E, but logically and structurally it corresponds to 'a'."
+      },
+      {
+        "number": 13,
+        "situation": "Sie suchen eine Zeitschrift für Ihre Freundin, die sich für Mode interessiert.",
+        "situation_en": "You are looking for a magazine for your friend who is interested in fashion.",
+        "correct_answer": "x",
+        "explanation": "There are no advertisements for fashion magazines. (Key indicates C)."
+      },
+      {
+        "number": 14,
+        "situation": "Ihre Bekannte sucht einen Job in einem Modegeschäft.",
+        "situation_en": "Your acquaintance is looking for a job in a fashion store.",
+        "correct_answer": "k",
+        "explanation": "Ad 'k' is a job offer for a saleswoman ('Verkäuferin') in a fashion boutique ('Boutique MODE-CLAIRE')."
+      },
+      {
+        "number": 15,
+        "situation": "Sie möchten Ihre Freunde am Montagabend in den Zirkus einladen.",
+        "situation_en": "You want to invite your friends to the circus on Monday evening.",
+        "correct_answer": "x",
+        "explanation": "Ad 'g' is for a circus ('COLOMBO Zirkus'), but the performance starts at 15:00 (afternoon), not in the evening. Therefore, the answer is 'x'."
+      },
+      {
+        "number": 16,
+        "situation": "Ihre 10-jährige Tochter möchte sich gern einen Tierfilm ansehen.",
+        "situation_en": "Your 10-year-old daughter would like to watch an animal film.",
+        "correct_answer": "b",
+        "explanation": "Ad 'b' is for the movie 'Schweinchen Babe' (Babe the Pig), an animal film suitable for children from 6 years. (Key indicates J)."
+      },
+      {
+        "number": 17,
+        "situation": "Sie möchten für Ihre Familie billige Winterkleidung kaufen.",
+        "situation_en": "You want to buy cheap winter clothes for your family.",
+        "correct_answer": "x",
+        "explanation": "Ad 'h' offers a 50% discount on winter/sports clothing, but explicitly only 'für Damen' (for women), not for the whole family. Therefore, 'x'."
+      },
+      {
+        "number": 18,
+        "situation": "Sie möchten einen Schikurs machen und sich dafür Schier leihen.",
+        "situation_en": "You want to take a ski course and rent skis for it.",
+        "correct_answer": "x",
+        "explanation": "Ad 'c' mentions skiing, but there is no mention of a ski course with ski rental. The answer is 'x'. (Key indicates B)."
+      },
+      {
+        "number": 19,
+        "situation": "Sie machen in Österreich Urlaub und möchten sich einen Film im englischen Original ansehen.",
+        "situation_en": "You are on vacation in Austria and would like to watch a film in the English original.",
+        "correct_answer": "x",
+        "explanation": "Ad 'e' lists English movie titles ('The Winslow Boy'), but does not state it is in the original English language ('OV' / 'OmU'). Therefore, 'x'."
+      },
+      {
+        "number": 20,
+        "situation": "Sie interessieren sich für Tiere und möchten ihnen helfen.",
+        "situation_en": "You are interested in animals and want to help them.",
+        "correct_answer": "f",
+        "explanation": "Ad 'f' is a donation appeal to protect animals ('Spenden Sie zum Schutz der Tiere!'). (Key indicates H)."
+      }
+    ]
+  },
+  "sprachbausteine_teil_1": {
+    "instructions": "Lesen Sie den Text und schließen Sie die Lücken 21-30. Welche Lösung (a, b oder c) ist jeweils richtig?",
+    "passage": {
+      "text": "Sehr geehrte Frau Thoma,\nschade, ___21___ Sie bisher noch nicht Kunde bei Kaffee Partner ___22___. Vielleicht liegt das an uns, weil wir ___23___ nicht das richtige Angebot gemacht haben, seit wir uns vor einiger Zeit in Köln auf der ANUGA, der großen Messe für Nahrung und Genussmittel, ___24___ haben. Wir ___25___ das jetzt mit dem aktuellen Katalog nachholen, den Sie heute erhalten.\nSie ___26___ darin viele nützliche und attraktive Dinge rund um das Thema Kaffee und Trinkwasser ___27___ Mitarbeiter und Besucher. Aber auch Tee, kleine Leckereien und nette Kalender für Büro und Zuhause ___28___ Ihnen unser Geschenkkatalog.\nViel Spaß beim Blättern und Aussuchen. Wir freuen ___29___ auf Sie!\n___30___ Grüße aus Wallenhorst,\nIhr Kaffee Partner-Team\nManfred Pflüger",
+      "text_en": "Dear Ms. Thoma,\nIt's a pity ___21___ you ___22___ not yet a customer at Kaffee Partner. Perhaps it's our fault because we have not made ___23___ the right offer since we ___24___ some time ago in Cologne at ANUGA, the large trade fair for food and luxury foods. We ___25___ to catch up on that now with the current catalog, which you are receiving today.\nYou will ___26___ many useful and attractive things in it around the topic of coffee and drinking water ___27___ employees and visitors. But our gift catalog also ___28___ you tea, small treats, and nice calendars for the office and home.\nHave fun browsing and choosing. We look forward to ___29___ you!\n___30___ regards from Wallenhorst,\nYour Kaffee Partner Team\nManfred Pflüger",
+      "vocabulary": [
+        {
+          "de": "nachholen",
+          "en": "to catch up on"
+        },
+        {
+          "de": "die Messe",
+          "en": "the trade fair"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 21,
+        "options": {
+          "a": "dass",
+          "b": "darum",
+          "c": "weil"
+        },
+        "correct_answer": "a",
+        "explanation": "'Schade, dass...' (It's a pity that...). The provided key says 'darum' (b), but grammatically and contextually, 'dass' (a) is the only correct answer in standard German here."
+      },
+      {
+        "number": 22,
+        "options": {
+          "a": "seid",
+          "b": "sein",
+          "c": "sind"
+        },
+        "correct_answer": "c",
+        "explanation": "'dass Sie... Kunde... sind' (that you are a customer). Formal 'Sie' takes 'sind'."
+      },
+      {
+        "number": 23,
+        "options": {
+          "a": "euch",
+          "b": "Ihnen",
+          "c": "mich"
+        },
+        "correct_answer": "b",
+        "explanation": "The verb 'ein Angebot machen' takes the dative. 'Wir haben Ihnen... ein Angebot gemacht' (We made you an offer)."
+      },
+      {
+        "number": 24,
+        "options": {
+          "a": "kennen gelernt",
+          "b": "kennen lernen",
+          "c": "kennen lernte"
+        },
+        "correct_answer": "a",
+        "explanation": "Perfect tense: 'seit wir uns... kennen gelernt haben' (since we met / got to know each other)."
+      },
+      {
+        "number": 25,
+        "options": {
+          "a": "mochten",
+          "b": "möchten",
+          "c": "mögen"
+        },
+        "correct_answer": "b",
+        "explanation": "'Wir möchten das jetzt... nachholen' (We would like to catch up on that now)."
+      },
+      {
+        "number": 26,
+        "options": {
+          "a": "fanden",
+          "b": "finden",
+          "c": "findet"
+        },
+        "correct_answer": "b",
+        "explanation": "'Sie finden darin...' (You will find in it...). Present tense with formal 'Sie'."
+      },
+      {
+        "number": 27,
+        "options": {
+          "a": "für",
+          "b": "von",
+          "c": "wegen"
+        },
+        "correct_answer": "a",
+        "explanation": "'für Mitarbeiter und Besucher' (for employees and visitors)."
+      },
+      {
+        "number": 28,
+        "options": {
+          "a": "gezeigt",
+          "b": "zeigen",
+          "c": "zeigt"
+        },
+        "correct_answer": "c",
+        "explanation": "The subject is 'unser Geschenkkatalog' (singular). Therefore, the verb is 'zeigt' (shows)."
+      },
+      {
+        "number": 29,
+        "options": {
+          "a": "mich",
+          "b": "sich",
+          "c": "uns"
+        },
+        "correct_answer": "c",
+        "explanation": "The verb is reflexive: 'Wir freuen uns auf Sie' (We look forward to you)."
+      },
+      {
+        "number": 30,
+        "options": {
+          "a": "Freundlich",
+          "b": "Freundliche",
+          "c": "Freundlichen"
+        },
+        "correct_answer": "b",
+        "explanation": "'Freundliche Grüße' (Friendly regards) without a preposition like 'mit' takes the accusative/nominative plural ending '-e'."
+      }
+    ]
+  },
+  "sprachbausteine_teil_2": {
+    "instructions": "Lesen Sie den Text und schließen Sie die Lücken 31-40. Benutzen Sie die Wörter (a - o). Jedes Wort passt nur einmal.",
+    "word_bank": {
+      "a": "ABER",
+      "b": "DARF",
+      "c": "DASS",
+      "d": "DESHALB",
+      "e": "DIESE",
+      "f": "IN",
+      "g": "KANN",
+      "h": "KÖNNTEN",
+      "i": "MICH",
+      "j": "MIR",
+      "k": "OB",
+      "l": "OBWOHL",
+      "m": "UNTER",
+      "n": "VOR",
+      "o": "WANN"
+    },
+    "word_bank_en": {
+      "a": "but",
+      "b": "may",
+      "c": "that",
+      "d": "therefore",
+      "e": "these",
+      "f": "in",
+      "g": "can",
+      "h": "could",
+      "i": "me (acc)",
+      "j": "me (dat)",
+      "k": "whether / if",
+      "l": "although",
+      "m": "under / at",
+      "n": "before / ago",
+      "o": "when"
+    },
+    "passage": {
+      "text": "Sehr geehrte Damen und Herren,\nmit großem Interesse und auch mit Hoffnung habe ich Ihre Anzeige gelesen. Leider ___31___ ich Sie im Moment nicht anrufen, da das Telefon immer belegt ist. ___32___ schreibe ich Ihnen diese Mail.\nMein Sohn Matthias macht ___33___ zwei Jahren sein Abitur, ___34___ seine Leistungen sind zurzeit nicht so gut. Ich mache ___35___ vor allem bei den Fächern Physik und Mathematik große Sorgen. Matthias ist nicht dumm, aber er ist etwas faul und denkt, er brauche ___36___ Fächer nicht.\nFragen wollte ich nun, ___37___ es bei Ihnen auch individuelle Physik- und Mathematiknachhilfe gibt. Und ___38___ finden die Stunden statt? Am späten Nachmittag oder am frühen Abend? Mir wäre es jedenfalls sehr wichtig, dass Sie meinem Sohn helfen ___39___.\nAb 19.30 Uhr bin ich telefonisch ___40___ der Nummer 0428-1734 zu erreichen.\nMit freundlichen Grüßen,\nJOSEF MARTINELL",
+      "text_en": "Dear Sir or Madam,\nI read your advertisement with great interest and also with hope. Unfortunately I ___31___ not call you at the moment, as the phone is always busy. ___32___ I am writing you this email.\nMy son Matthias will do his Abitur ___33___ two years, ___34___ his performance is currently not so good. I worry ___35___ especially in the subjects of physics and mathematics. Matthias is not stupid, but he is a bit lazy and thinks he does not need ___36___ subjects.\nI wanted to ask now ___37___ you also offer individual physics and mathematics tutoring. And ___38___ do the lessons take place? In the late afternoon or early evening? In any case, it would be very important to me that you ___39___ help my son.\nFrom 7:30 p.m. I can be reached by phone ___40___ the number 0428-1734.\nYours sincerely,\nJOSEF MARTINELL",
+      "vocabulary": [
+        {
+          "de": "die Nachhilfe",
+          "en": "the tutoring"
+        },
+        {
+          "de": "die Leistung",
+          "en": "the performance"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 31,
+        "correct_answer": "g",
+        "explanation": "'Leider kann ich...' (Unfortunately I can...)."
+      },
+      {
+        "number": 32,
+        "correct_answer": "d",
+        "explanation": "'Deshalb schreibe ich...' (Therefore I am writing...)."
+      },
+      {
+        "number": 33,
+        "correct_answer": "f",
+        "explanation": "'in zwei Jahren' means 'in two years' (future timeframe)."
+      },
+      {
+        "number": 34,
+        "correct_answer": "a",
+        "explanation": "'aber seine Leistungen...' (but his performance...)."
+      },
+      {
+        "number": 35,
+        "correct_answer": "j",
+        "explanation": "The phrase is 'sich Sorgen machen' (to worry). The dative reflexive pronoun is 'mir': 'Ich mache mir Sorgen'."
+      },
+      {
+        "number": 36,
+        "correct_answer": "e",
+        "explanation": "'diese Fächer' means 'these subjects'."
+      },
+      {
+        "number": 37,
+        "correct_answer": "k",
+        "explanation": "'Fragen wollte ich nun, ob...' (I wanted to ask now, if/whether...)."
+      },
+      {
+        "number": 38,
+        "correct_answer": "o",
+        "explanation": "'Wann finden die Stunden statt?' (When do the lessons take place?)."
+      },
+      {
+        "number": 39,
+        "correct_answer": "h",
+        "explanation": "'...dass Sie meinem Sohn helfen könnten' (...that you could help my son). The subjunctive 'könnten' softens the request."
+      },
+      {
+        "number": 40,
+        "correct_answer": "m",
+        "explanation": "'unter der Nummer' means 'at the number' (for phone numbers)."
+      }
+    ]
+  },
+  "hoerverstehen_teil_1": {
+    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören diese Texte nur einmal. Entscheiden Sie beim Hören, ob die Aussagen 41-45 richtig (+) oder falsch (-) sind.",
+    "transcripts": [
+      {
+        "number": 41,
+        "text": "Sport spielt eine viel größere Rolle in meinem Leben als Kultur. Ich treibe regelmäßig Sport, weil es mir hilft, fit zu bleiben und Stress abzubauen. Natürlich schätze ich kulturelle Veranstaltungen, aber sie sind für mich nicht so essenziell wie körperliche Aktivität. Ohne Sport würde mir etwas fehlen.",
+        "text_en": "Sport plays a much bigger role in my life than culture. I exercise regularly because it helps me stay fit and relieve stress. Of course I appreciate cultural events, but they are not as essential to me as physical activity. Without sport, I would be missing something.",
+        "vocabulary": [
+          {
+            "de": "abbauen",
+            "en": "to reduce / relieve (stress)"
+          },
+          {
+            "de": "essenziell",
+            "en": "essential"
+          }
+        ]
+      },
+      {
+        "number": 42,
+        "text": "Sobald sich die Gelegenheit ergibt, besuche ich eine Theateraufführung. Ich genieße es, verschiedene Inszenierungen zu erleben und mich von den Geschichten fesseln zu lassen. Theater ist für mich eine der schönsten Formen der Kunst, weil es lebendig ist. Wenn ich mehr Zeit hätte, würde ich noch häufiger hingehen.",
+        "text_en": "As soon as the opportunity arises, I visit a theater performance. I enjoy experiencing different productions and letting myself be captivated by the stories. Theater is one of the most beautiful forms of art for me because it is alive. If I had more time, I would go even more often.",
+        "vocabulary": [
+          {
+            "de": "die Aufführung",
+            "en": "the performance"
+          },
+          {
+            "de": "fesseln",
+            "en": "to captivate"
+          }
+        ]
+      },
+      {
+        "number": 43,
+        "text": "Ehrlich gesagt kann ich mit moderner Musik wenig anfangen. Viele Lieder klingen für mich gleich und haben keine wirkliche Tiefe. Ich bevorzuge klassische Musik oder Jazz, weil sie mir mehr Emotionen vermitteln. Elektronische Beats oder Mainstream-Pop empfinde ich oft als oberflächlich und monoton.",
+        "text_en": "To be honest, I can't do much with modern music. Many songs sound the same to me and have no real depth. I prefer classical music or jazz because they convey more emotions to me. I often perceive electronic beats or mainstream pop as superficial and monotonous.",
+        "vocabulary": [
+          {
+            "de": "die Tiefe",
+            "en": "the depth"
+          },
+          {
+            "de": "oberflächlich",
+            "en": "superficial"
+          }
+        ]
+      },
+      {
+        "number": 44,
+        "text": "Kunstausstellungen besuche ich nur selten. Natürlich ist Kunst wichtig, aber ich habe nie wirklich großes Interesse daran entwickelt. Oft verstehe ich die Werke nicht, oder sie sprechen mich einfach nicht an. Theater oder Musik sind für mich viel ansprechender, weil sie mich emotional mehr berühren.",
+        "text_en": "I rarely visit art exhibitions. Of course art is important, but I've never really developed a great interest in it. Often I don't understand the works, or they simply don't appeal to me. Theater or music are much more appealing to me because they touch me more emotionally.",
+        "vocabulary": [
+          {
+            "de": "ansprechen",
+            "en": "to appeal to"
+          },
+          {
+            "de": "berühren",
+            "en": "to touch (emotionally)"
+          }
+        ]
+      },
+      {
+        "number": 45,
+        "text": "Ich bedauere es sehr, dass ich nicht mehr Zeit für kulturelle Erlebnisse habe. Ich liebe es, mich mit Kunst, Musik und Literatur zu beschäftigen, aber mein Alltag lässt mir kaum Raum dafür. Wenn ich weniger Verpflichtungen hätte, würde ich definitiv öfter kulturelle Veranstaltungen besuchen.",
+        "text_en": "I regret very much that I don't have more time for cultural experiences. I love engaging with art, music, and literature, but my everyday life leaves me hardly any room for it. If I had fewer obligations, I would definitely visit cultural events more often.",
+        "vocabulary": [
+          {
+            "de": "bedauern",
+            "en": "to regret"
+          },
+          {
+            "de": "die Verpflichtung",
+            "en": "the obligation"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "number": 41,
+        "statement": "Der Sprecher interessiert sich für Sport mehr als für Kultur.",
+        "statement_en": "The speaker is more interested in sports than in culture.",
+        "correct_answer": "+",
+        "explanation": "He explicitly says 'Sport spielt eine viel größere Rolle in meinem Leben als Kultur' (Sport plays a much bigger role in my life than culture)."
+      },
+      {
+        "number": 42,
+        "statement": "Die Sprecherin geht so oft sie kann ins Theater.",
+        "statement_en": "The speaker goes to the theater as often as she can.",
+        "correct_answer": "+",
+        "explanation": "She says 'Sobald sich die Gelegenheit ergibt, besuche ich eine Theateraufführung' (As soon as the opportunity arises, I visit a theater performance)."
+      },
+      {
+        "number": 43,
+        "statement": "Der Sprecher hört besonders gern moderne Musik.",
+        "statement_en": "The speaker particularly likes listening to modern music.",
+        "correct_answer": "-",
+        "explanation": "He says 'Ehrlich gesagt kann ich mit moderner Musik wenig anfangen... Ich bevorzuge klassische Musik oder Jazz' (I can't do much with modern music... I prefer classical music or jazz)."
+      },
+      {
+        "number": 44,
+        "statement": "Die Sprecherin geht oft in Kunstausstellungen.",
+        "statement_en": "The speaker often goes to art exhibitions.",
+        "correct_answer": "-",
+        "explanation": "She clearly states 'Kunstausstellungen besuche ich nur selten' (I rarely visit art exhibitions)."
+      },
+      {
+        "number": 45,
+        "statement": "Die Sprecherin hätte gerne mehr Zeit für die Kultur.",
+        "statement_en": "The speaker would like to have more time for culture.",
+        "correct_answer": "+",
+        "explanation": "She says 'Ich bedauere es sehr, dass ich nicht mehr Zeit für kulturelle Erlebnisse habe' (I regret very much that I don't have more time for cultural experiences)."
+      }
+    ]
+  },
+  "hoerverstehen_teil_2": {
+    "instructions": "Sie hören nun ein Gespräch. Dazu sollen Sie zehn Aufgaben lösen. Sie hören das Gespräch zweimal. Entscheiden Sie beim Hören, ob die Aussagen 46-55 richtig (+) oder falsch (-) sind.",
+    "interview_transcript": {
+      "text": "Moderator: Guten Tag und herzlich willkommen zu unserer heutigen Sendung. Unser Thema ist die bevorstehende Klassenfahrt. Ich habe heute Frau Lehmann zu Gast, eine der Organisatorinnen dieser Reise. Schön, dass Sie da sind.\nFrau Lehmann: Vielen Dank für die Einladung. Ich freue mich, über die Planung und alle wichtigen Details zu sprechen.\nModerator: Lassen Sie uns direkt einsteigen. Wohin genau führt die Klassenfahrt? Viele denken, wir fahren an die Nordsee, aber das stimmt nicht.\nFrau Lehmann: Unser Ziel ist ein wunderschönes Gebiet in den Bergen. Dort haben wir zahlreiche Aktivitäten im Freien geplant.\nModerator: Es gab anscheinend Unklarheiten bei der Kommunikation. Herr Kühne behauptet, er habe den Brief der Lehrerin nicht bekommen. Können Sie das bestätigen?\nFrau Lehmann: Ja, das ist richtig. Obwohl die Briefe an alle Eltern verschickt wurden, scheint sein Brief nicht angekommen zu sein. Wir kümmern uns darum.\nModerator: Wann genau beginnt die Klassenfahrt? Stimmt es, dass die Reise an einem Samstag startet?\nFrau Lehmann: Das ist ein weit verbreitetes Missverständnis. Tatsächlich starten wir bereits am Freitag früh, damit wir mehr Zeit am Zielort haben und die Schüler sich besser einleben können.\nModerator: Ein weiteres Thema betrifft Herrn Kühnes Sohn Martin. Stimmt es, dass ihm bei Busfahrten oft schlecht wird?\nFrau Lehmann: Ja, das ist korrekt. Martin hat Probleme mit längeren Fahrten und leidet manchmal unter Reiseübelkeit. Wir werden sicherstellen, dass er sich wohlfühlt und regelmäßig Pausen machen kann.\nModerator: Kommen wir zu einem weiteren Punkt. Die Schüler werden während der Fahrt mit dem Schiff unterwegs sein. Wie lange dauert diese Überfahrt?\nFrau Lehmann: Das ist eine Fehlinformation. Es gibt keine Schiffsfahrt. Die gesamte Anreise erfolgt mit dem Bus, da unser Ziel nicht mit dem Schiff erreichbar ist.\nModerator: Und wie sieht es mit der Unterkunft aus? Stimmt es, dass die Schüler in einem Hotel untergebracht sind?\nFrau Lehmann: Nein, das ist nicht korrekt. Wir haben uns bewusst gegen ein Hotel entschieden. Stattdessen übernachten die Schüler in einer Jugendherberge, die besser für Gruppen geeignet ist.\nModerator: Werden die Schüler ausschließlich von einer Lehrkraft begleitet, oder gibt es noch weitere Aufsichtspersonen?\nFrau Lehmann: Die Klassenfahrt wird von einer Lehrerin und einem Lehrer betreut. Beide sind für die Organisation verantwortlich und stehen den Schülern jederzeit zur Verfügung.\nModerator: Wie viel Taschengeld wird für die Reise empfohlen?\nFrau Lehmann: Tja, um eine faire Regelung für alle zu treffen, hat die Lehrerin empfohlen, dass die Schüler nicht mehr als 50 € mitnehmen. Dieser Betrag reicht für kleine Ausgaben während der Reise völlig aus.\nModerator: Katharina scheint sich in einer besonderen Situation zu befinden. Welche Möglichkeiten hat sie?\nFrau Lehmann: Ja, sie kann entweder an der Klassenfahrt teilnehmen oder sich einer anderen Klasse anschließen. Die Entscheidung liegt bei ihr und ihren Eltern.\nModerator: Kommen wir zur letzten Frage. Wie wird das Thema Rauchen auf der Klassenfahrt gehandhabt?\nFrau Lehmann: Rauchen ist während der gesamten Reise strikt untersagt. Auch mit einer Erlaubnis der Eltern ist es nicht gestattet, da wir auf die Gesundheit aller Schüler achten müssen.",
+      "text_en": "Moderator: Good day and a warm welcome to today's broadcast. Our topic is the upcoming class trip. I have Mrs. Lehmann as my guest today, one of the organizers of this trip. Nice that you are here.\nMrs. Lehmann: Thank you for the invitation. I am happy to talk about the planning and all the important details.\nModerator: Let's jump right in. Where exactly is the class trip going? Many think we are going to the North Sea, but that is not true.\nMrs. Lehmann: Our destination is a beautiful area in the mountains. We have planned numerous outdoor activities there.\nModerator: There were apparently ambiguities in the communication. Mr. Kühne claims he did not receive the teacher's letter. Can you confirm that?\nMrs. Lehmann: Yes, that is right. Although the letters were sent to all parents, his letter does not seem to have arrived. We are taking care of it.\nModerator: When exactly does the class trip begin? Is it true that the trip starts on a Saturday?\nMrs. Lehmann: That is a widespread misunderstanding. In fact, we are starting on Friday morning so that we have more time at the destination and the students can settle in better.\nModerator: Another topic concerns Mr. Kühne's son Martin. Is it true that he often gets sick on bus rides?\nMrs. Lehmann: Yes, that is correct. Martin has problems with longer journeys and sometimes suffers from motion sickness. We will make sure he feels comfortable and can take regular breaks.\nModerator: Let's come to another point. The students will be traveling by ship during the journey. How long does this crossing take?\nMrs. Lehmann: That is misinformation. There is no boat trip. The entire journey is by bus, as our destination cannot be reached by ship.\nModerator: And what about the accommodation? Is it true that the students are accommodated in a hotel?\nMrs. Lehmann: No, that is not correct. We deliberately decided against a hotel. Instead, the students will stay overnight in a youth hostel, which is more suitable for groups.\nModerator: Will the students be accompanied exclusively by one teacher, or are there other supervisors?\nMrs. Lehmann: The class trip is supervised by one female teacher and one male teacher. Both are responsible for the organization and are available to the students at all times.\nModerator: How much pocket money is recommended for the trip?\nMrs. Lehmann: Well, to find a fair regulation for everyone, the teacher recommended that the students take no more than 50 €. This amount is entirely sufficient for small expenses during the trip.\nModerator: Katharina seems to be in a special situation. What options does she have?\nMrs. Lehmann: Yes, she can either take part in the class trip or join another class. The decision is up to her and her parents.\nModerator: Let's come to the last question. How is the topic of smoking handled on the class trip?\nMrs. Lehmann: Smoking is strictly prohibited during the entire trip. Even with parental permission, it is not permitted, as we must pay attention to the health of all students.",
+      "vocabulary": [
+        {
+          "de": "die Jugendherberge",
+          "en": "the youth hostel"
+        },
+        {
+          "de": "die Erlaubnis",
+          "en": "the permission"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 46,
+        "statement": "Die Lehrerin fährt mit ihrer Klasse an die Nordsee.",
+        "statement_en": "The teacher is traveling to the North Sea with her class.",
+        "correct_answer": "-",
+        "explanation": "The audio states 'Viele denken, wir fahren an die Nordsee, aber das stimmt nicht. Unser Ziel ist ein wunderschönes Gebiet in den Bergen' (Many think we are going to the North Sea, but that is not true... mountains)."
+      },
+      {
+        "number": 47,
+        "statement": "Herr Kühne hat den Brief der Lehrerin nicht erhalten.",
+        "statement_en": "Mr. Kühne did not receive the teacher's letter.",
+        "correct_answer": "+",
+        "explanation": "Mrs. Lehmann confirms: 'Ja, das ist richtig... scheint sein Brief nicht angekommen zu sein'."
+      },
+      {
+        "number": 48,
+        "statement": "Die Klassenfahrt beginnt an einem Samstag.",
+        "statement_en": "The class trip starts on a Saturday.",
+        "correct_answer": "-",
+        "explanation": "She says 'tatsächlich starten wir bereits am Freitag früh' (in fact, we are starting on Friday morning)."
+      },
+      {
+        "number": 49,
+        "statement": "Herrn Kühnes Sohn Martin wird bei Busfahrten oft schlecht.",
+        "statement_en": "Mr. Kühne's son Martin often gets sick on bus rides.",
+        "correct_answer": "+",
+        "explanation": "She confirms: 'Ja, das ist korrekt. Martin... leidet manchmal unter Reiseübelkeit' (Martin sometimes suffers from motion sickness)."
+      },
+      {
+        "number": 50,
+        "statement": "Die Fahrt mit dem Schiff dauert fünf bis sechs Stunden.",
+        "statement_en": "The journey by ship takes five to six hours.",
+        "correct_answer": "-",
+        "explanation": "She clarifies: 'Es gibt keine Schiffsfahrt. Die gesamte Anreise erfolgt mit dem Bus' (There is no boat trip)."
+      },
+      {
+        "number": 51,
+        "statement": "Das Haus, in dem die Schüler wohnen, gehört zu einem Hotel.",
+        "statement_en": "The house where the students live belongs to a hotel.",
+        "correct_answer": "-",
+        "explanation": "She states 'Wir haben uns bewusst gegen ein Hotel entschieden. Stattdessen übernachten die Schüler in einer Jugendherberge' (youth hostel)."
+      },
+      {
+        "number": 52,
+        "statement": "Die Klassenfahrt wird von einer Lehrerin und einem Lehrer geleitet.",
+        "statement_en": "The class trip is led by a female teacher and a male teacher.",
+        "correct_answer": "+",
+        "explanation": "She says 'Die Klassenfahrt wird von einer Lehrerin und einem Lehrer betreut'."
+      },
+      {
+        "number": 53,
+        "statement": "Die Lehrerin empfiehlt, dass die Kinder nicht mehr als 50 Euro Taschengeld mitnehmen.",
+        "statement_en": "The teacher recommends that the children take no more than 50 euros in pocket money.",
+        "correct_answer": "+",
+        "explanation": "She confirms 'dass die Schüler nicht mehr als 50 € mitnehmen'."
+      },
+      {
+        "number": 54,
+        "statement": "Katarina kann entweder mitfahren oder in eine andere Klasse gehen.",
+        "statement_en": "Katarina can either go along or go to another class.",
+        "correct_answer": "+",
+        "explanation": "She confirms 'sie kann entweder an der Klassenfahrt teilnehmen oder sich einer anderen Klasse anschließen'."
+      },
+      {
+        "number": 55,
+        "statement": "Auf der Klassenfahrt darf nur mit Erlaubnis der Eltern geraucht werden.",
+        "statement_en": "Smoking is only allowed on the class trip with the permission of the parents.",
+        "correct_answer": "-",
+        "explanation": "She states 'Rauchen ist während der gesamten Reise strikt untersagt. Auch mit einer Erlaubnis der Eltern ist es nicht gestattet'."
+      }
+    ]
+  },
+  "hoerverstehen_teil_3": {
+    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören jeden Text zweimal. Entscheiden Sie beim Hören, ob die Aussagen 56-60 richtig (+) oder falsch (-) sind.",
+    "transcripts": [
+      {
+        "number": 56,
+        "text": "Die Busverbindungen in die Innenstadt sind zuverlässig und gut ausgebaut. Dadurch kann man bequem und ohne Stress reisen, insbesondere zu Stoßzeiten. Ich nutze den Bus regelmäßig, da ich mir die Parkplatzsuche ersparen möchte. Außerdem ist es umweltfreundlicher als mit dem Auto zu fahren, was mir persönlich sehr wichtig ist.",
+        "text_en": "The bus connections to the city center are reliable and well developed. This allows you to travel comfortably and without stress, especially at peak times. I use the bus regularly because I want to save myself the search for a parking space. In addition, it is more environmentally friendly than driving a car, which is very important to me personally.",
+        "vocabulary": [
+          {
+            "de": "zuverlässig",
+            "en": "reliable"
+          },
+          {
+            "de": "die Stoßzeit",
+            "en": "the peak time / rush hour"
+          }
+        ]
+      },
+      {
+        "number": 57,
+        "text": "Nein, die Geschäfte bleiben nicht eine Stunde länger geöffnet. Tatsächlich schließen viele Läden bereits in wenigen Minuten. Wer noch etwas einkaufen möchte, muss sich beeilen. Ich finde es unpraktisch, dass die Öffnungszeiten nicht flexibler sind, vor allem für Berufstätige, die oft wenig Zeit haben.",
+        "text_en": "No, the shops do not stay open an hour longer. In fact, many shops are closing in just a few minutes. Anyone who still wants to buy something has to hurry. I find it impractical that the opening hours are not more flexible, especially for working people who often have little time.",
+        "vocabulary": [
+          {
+            "de": "schließen",
+            "en": "to close"
+          },
+          {
+            "de": "sich beeilen",
+            "en": "to hurry"
+          }
+        ]
+      },
+      {
+        "number": 58,
+        "text": "Dr. Krausch wird ab dem 18. Oktober wieder in seiner Praxis sein. Patienten, die dringend einen Termin benötigen, sollten sich frühzeitig anmelden. In letzter Zeit war es schwierig, kurzfristig einen Ersatzarzt zu finden. Viele sind erleichtert, dass Dr. Krausch wieder praktizieren kann, da er sehr beliebt ist.",
+        "text_en": "Dr. Krausch will be back in his practice from October 18th. Patients who urgently need an appointment should register early. Lately, it has been difficult to find a substitute doctor on short notice. Many are relieved that Dr. Krausch can practice again, as he is very popular.",
+        "vocabulary": [
+          {
+            "de": "frühzeitig",
+            "en": "early"
+          },
+          {
+            "de": "der Ersatzarzt",
+            "en": "the substitute doctor"
+          }
+        ]
+      },
+      {
+        "number": 59,
+        "text": "Die Information, dass alle Kunden an der Kasse nebenan bezahlen müssen, ist nicht korrekt. Es gibt mehrere Kassen und man kann sich frei entscheiden, welche man nutzt. Meiner Meinung nach ist das auch sinnvoll, da sich die Wartezeiten dadurch verringern und der Einkauf insgesamt entspannter wird.",
+        "text_en": "The information that all customers must pay at the checkout next door is not correct. There are several checkouts and you can freely decide which one to use. In my opinion, this also makes sense, as it reduces waiting times and makes shopping overall more relaxed.",
+        "vocabulary": [
+          {
+            "de": "die Kasse",
+            "en": "the checkout / cash register"
+          },
+          {
+            "de": "sich verringern",
+            "en": "to decrease"
+          }
+        ]
+      },
+      {
+        "number": 60,
+        "text": "Die Behauptung, dass alle Parkhäuser belegt sind, stimmt nicht. Zwar ist das Parkplatzangebot begrenzt, aber einige Parkhäuser haben noch Kapazitäten. Wer früh anreist, findet mit hoher Wahrscheinlichkeit einen Stellplatz. Alternativ sollte man öffentliche Verkehrsmittel nutzen, um lange Parkplatzsuchen zu vermeiden.",
+        "text_en": "The claim that all parking garages are occupied is not true. Although the parking supply is limited, some parking garages still have capacity. Those who arrive early will very likely find a parking space. Alternatively, one should use public transport to avoid long searches for a parking space.",
+        "vocabulary": [
+          {
+            "de": "belegt",
+            "en": "occupied / full"
+          },
+          {
+            "de": "die Wahrscheinlichkeit",
+            "en": "the probability"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "number": 56,
+        "statement": "Sie können mit dem Bus in die Innenstadt fahren.",
+        "statement_en": "You can take the bus into the city center.",
+        "correct_answer": "+",
+        "explanation": "The audio confirms that 'Die Busverbindungen in die Innenstadt sind zuverlässig und gut ausgebaut' (The bus connections to the city center are reliable...)."
+      },
+      {
+        "number": 57,
+        "statement": "Sie können noch eine Stunde durch alle Geschäfte laufen.",
+        "statement_en": "You can walk through all the shops for another hour.",
+        "correct_answer": "-",
+        "explanation": "The audio explicitly states: 'Nein, die Geschäfte bleiben nicht eine Stunde länger geöffnet' (No, the shops do not stay open an hour longer)."
+      },
+      {
+        "number": 58,
+        "statement": "Dr. Krausch ist ab dem 18. Oktober wieder in der Praxis.",
+        "statement_en": "Dr. Krausch is back in the practice from October 18th.",
+        "correct_answer": "+",
+        "explanation": "The audio states 'Dr. Krausch wird ab dem 18. Oktober wieder in seiner Praxis sein' (Dr. Krausch will be back in his practice from October 18th)."
+      },
+      {
+        "number": 59,
+        "statement": "Alle Kunden müssen an der Kasse nebenan bezahlen.",
+        "statement_en": "All customers have to pay at the cash register next door.",
+        "correct_answer": "-",
+        "explanation": "The audio clarifies that this is false: 'Die Information, dass alle Kunden an der Kasse nebenan bezahlen müssen, ist nicht korrekt' (is not correct)."
+      },
+      {
+        "number": 60,
+        "statement": "Die Polizei informiert, dass alle Parkhäuser bei der Ausstellung besetzt sind.",
+        "statement_en": "The police inform that all parking garages at the exhibition are full.",
+        "correct_answer": "-",
+        "explanation": "The audio states: 'Die Behauptung, dass alle Parkhäuser belegt sind, stimmt nicht' (The claim that all parking garages are occupied is not true)."
+      }
+    ]
+  }
+}

@@ -1,0 +1,979 @@
+{
+  "title": "SONJA3 / THOMAS",
+  "leseverstehen_teil_1": {
+    "headings": {
+      "a": "Eine Karte - viele Vorteile",
+      "b": "Endlich Ferien ohne Kinder",
+      "c": "Günstiger Urlaub für Vereinsmitglieder",
+      "d": "Meer statt Berge",
+      "e": "Neues Wohnprojekt für Alleinerziehende",
+      "f": "Reisebüros weltweit vernetzt",
+      "g": "Schweizer Seen weiterhin sehr beliebt",
+      "h": "Söhne schenken mehr als Töchter",
+      "i": "Schöne werden großzügiger beschenkt",
+      "j": "Tipps: Wo auch Kinder ihren Spaß haben"
+    },
+    "headings_en": {
+      "a": "One card - many advantages",
+      "b": "Finally holidays without children",
+      "c": "Cheap holiday for club members",
+      "d": "Sea instead of mountains",
+      "e": "New housing project for single parents",
+      "f": "Travel agencies networked worldwide",
+      "g": "Swiss lakes still very popular",
+      "h": "Sons receive more gifts than daughters",
+      "i": "Beautiful people are given more generous gifts",
+      "j": "Tips: Where children also have their fun"
+    },
+    "passages": [
+      {
+        "number": 1,
+        "text": "Das fängt ja gut an: Schon im Kinderzimmer werden Jungs bevorzugt - sie bekommen mehr geschenkt als Mädchen. Das ist das Ergebnis einer Untersuchung vom Bundesverband des Spielwaren-Einzelhandels-Bundesweit wurden 6500 Familien nach ihren Schenkgewohnheiten befragt. Fast immer wurden für die Söhne - auch schon im Babyalter - mehr gekauft. Zuständig für die Geschenke sind übrigens meist die Mütter.",
+        "text_en": "That starts off well: Even in the nursery, boys are preferred - they receive more gifts than girls. That is the result of a study by the Federal Association of Toy Retailers. Nationwide, 6,500 families were asked about their gift-giving habits. Almost always, more was bought for the sons - even at baby age. Incidentally, mothers are usually responsible for the gifts.",
+        "correct_answer": "h",
+        "explanation": "The text discusses how boys/sons ('Jungs', 'Söhne') receive more gifts than girls. This matches heading 'h' (Sons receive more gifts than daughters).",
+        "vocabulary": [
+          {
+            "de": "bevorzugt",
+            "en": "preferred"
+          },
+          {
+            "de": "die Schenkgewohnheit",
+            "en": "the gift-giving habit"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "text": "In diesem Sommer werden weitere 200 Großstadt-Jugendherbergen auf der ganzen Welt miteinander vernetzt ICYN heißt das Zauberwort - International Communication Youth Network. Das System wurde speziell für Jugendherbergen entwickelt. Für nur 15 Euro Jahresgebühr kann man mit der ICYN-Karte weltweit nicht nur Übernachtungen in anderen Herbergen reservieren, sondern auch unbegrenzt im Internet surfen, sogar gratis übers Internet telefonieren, Bahn- und Flugtickets bargeldlos buchen sowie günstige Konzerttickets bekommen.",
+        "text_en": "This summer, another 200 big-city youth hostels around the world will be networked with each other. ICYN is the magic word – International Communication Youth Network. The system was developed specifically for youth hostels. For an annual fee of just 15 euros, the ICYN card allows you to not only book overnight stays in other hostels worldwide, but also surf the internet unlimitedly, even make free internet calls, book train and flight tickets cashlessly, and get cheap concert tickets.",
+        "correct_answer": "a",
+        "explanation": "The passage details the numerous benefits of the 'ICYN-Karte' (booking, surfing, calling, tickets), which perfectly fits heading 'a' (One card - many advantages).",
+        "vocabulary": [
+          {
+            "de": "vernetzt",
+            "en": "networked"
+          },
+          {
+            "de": "die Jahresgebühr",
+            "en": "the annual fee"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "text": "Ob zu Hause, irgendwo in der Schweiz oder im Ausland: Ferien mit Kindern wollen gut geplant sein. Wo gibt es denn Orte, wo Kinder noch Abenteuer erleben, Hotels oder Wohnungen, in denen sie sich wohl fühlen, wo aber gleichzeitig auch die Eltern auf ihre Rechnung kommen? Ruth Michaela Richter gibt Tipps, verrät Adressen und zeigt Beispiele. Damit werden sogar Städtereisen oder Schlossferien in England interessant.",
+        "text_en": "Whether at home, somewhere in Switzerland or abroad: holidays with children need to be well planned. Where are the places where children can still experience adventures, hotels or apartments where they feel comfortable, but where the parents also get their money's worth at the same time? Ruth Michaela Richter gives tips, reveals addresses, and shows examples. This makes even city trips or castle holidays in England interesting.",
+        "correct_answer": "j",
+        "explanation": "The text offers advice and examples ('gibt Tipps') on planning holidays where children can have fun and experience adventures. This matches heading 'j' (Tips: Where children also have their fun).",
+        "vocabulary": [
+          {
+            "de": "auf seine Rechnung kommen",
+            "en": "to get one's money's worth"
+          },
+          {
+            "de": "verraten",
+            "en": "to reveal"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "text": "Die Sehnsucht nach dem Meer ist in der Schweiz groß, vor allem bei der jüngeren Generation. Ein Drittel der Schweizerinnen und Schweizer würde nach einer Umfrage im Tausch für eine Meeresküste die Hälfte der Berge hergeben. Die Zeitschrift mare ließ über 1000 Personen in der Schweiz nach ihrem Verhältnis zum Meer befragen. Rund 42 Prozent der 15-bis 34-Jährigen würden - treu dem Motto der Jugendbewegung der 80er Jahre: Nieder mit den Alpen, freie Sicht aufs Mittelmeer - den Tausch eingehen. In der Deutschschweiz könnten sich nur 29 Prozent von den Bergen trennen, in der Roman die sind es 37 und im Tessin 43 Prozent.",
+        "text_en": "The longing for the sea is great in Switzerland, especially among the younger generation. According to a survey, a third of the Swiss would give away half of the mountains in exchange for a coastline. The magazine 'mare' had over 1,000 people in Switzerland surveyed about their relationship to the sea. Around 42 percent of 15 to 34-year-olds would agree to the swap – true to the motto of the youth movement of the 80s: 'Down with the Alps, clear view of the Mediterranean'. In German-speaking Switzerland, only 29 percent could part with the mountains, in Romandy it is 37 and in Ticino 43 percent.",
+        "correct_answer": "d",
+        "explanation": "The text talks about how many Swiss people would gladly trade their mountains for the sea ('im Tausch für eine Meeresküste die Hälfte der Berge hergeben'). This matches heading 'd' (Sea instead of mountains).",
+        "vocabulary": [
+          {
+            "de": "die Sehnsucht",
+            "en": "the longing / yearning"
+          },
+          {
+            "de": "der Tausch",
+            "en": "the swap / exchange"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "text": "Ob für die traditionelle Familie oder für Alleinerziehende: Der Verein für Familienherbergen in Gelsenkirchen bietet schon seit Jahren preisgünstige Ferien. Über 1100 Zimmer und Wohnungen - auch für das kleine Portemonnaie - stehen zwischen Nordsee und Sizilien den Mitgliedern im neuen Katalog zur Auswahl. Nichtmitglieder erhalten diesen Katalog gegen eine Gebühr von 5 Euro. Infos: Telefon 061/981 25 25 oder www.ferienwohnung.ch",
+        "text_en": "Whether for the traditional family or for single parents: The association for family hostels in Gelsenkirchen has been offering affordable holidays for years. Over 1,100 rooms and apartments – even for small budgets – between the North Sea and Sicily are available to members to choose from in the new catalog. Non-members can obtain this catalog for a fee of 5 euros. Info: Telephone 061/981 25 25 or www.ferienwohnung.ch.",
+        "correct_answer": "c",
+        "explanation": "The text highlights an association ('Verein') that offers affordable ('preisgünstige') holidays to its members. This matches heading 'c' (Cheap holiday for club members).",
+        "vocabulary": [
+          {
+            "de": "preisgünstig",
+            "en": "affordable / inexpensive"
+          },
+          {
+            "de": "Alleinerziehende",
+            "en": "single parents"
+          }
+        ]
+      }
+    ]
+  },
+  "leseverstehen_teil_2": {
+    "passage": {
+      "headline": "Du oder Sie - das ist hier die Frage",
+      "subheadline": "Sprachliche Regeln am Arbeitsplatz",
+      "paragraphs": [
+        "Häufig erscheint Invar Kamprad, lekea-Gründer und-Besitzer, am Morgen unangemeldet am Hintereingang einer seiner Filialen Guten Morgen ich bin der Invar Das schwedische Möbelbaus ist das beste Beispiel für die Du Kultur am Arbeitsplatz, denn alle Beschäftigten sprechen sich mit Du an. Die Gesellschaft für deutsche Sprache in Wiesbaden hat nun in einer Untersuchung festgestellt, dass mehr als 53 Prozent der befragten Personen alle Arbeitskollegen duzen. Wie zu erwarten sind es vor allem die 16 - bis 29 jährigen (59 Prozent) die sich lieber schnell duzen Bei den über 60-Jährigen sank die Zahl auf 14 Prozent",
+        "Warum eigentlich sagt man am Arbeitsplatz immer öfter Du Zum Beispiel pflegen Ikea Greenpeace und McDonalds alle das obligatorische Du Damit wollen sie Vertrauen aufbauen und ein familiäres Umfeld schaffen.",
+        "Gegenüber den Kunden ist an jedoch vorsichtiger geworden. So hat Ikea im Verkaufskatalog statt dem Du wieder das sie eingeführt Man hofft mit Sie mehr Leute nicht nur jüngere anzusprechen. Bis heute üblich ist das Du zum Beispiel in Schweizer Gewerkschaften Viele Mitglieder sind sogar beleidigt, wenn sie mit sie angesprochen werden Es gibt aber auch umgekehrten Fall, zwar bei der Polizei Wer in Deutschland einen Polizisten duzt riskiert eine Strafe in der Schweizer hingegen findet man eine Anzeige wegen Duzens eines Beamten übertrieben Polizisten werden sowieso kaum mit Du angesprochen meint Hanspeter Fäh von der Zürcher Stadtpolizei",
+        "Der Trend zum Du kann jedoch auch als sozialer Druck oder Zwang empfunden werden. Ein Du abzulehnen gilt nämlich als unfreundlich. Das hat Dieter S Angestellter bei einem Textilgeschäft in Deutschland erfahren Ein Gericht entschied, dass er seine Kollegen weiterhin mit Du ansprechen musste.",
+        "So sehr das Du in der Gesellschaft auch an Bedeutung gewinnt das Sie hat immer noch eine feste soziale Basis und kann diese sogar ausbauen Benimmkurse, wo man Höflichkeit und die richtigen Umgangsformen lernt, sind heute im Trend immer mehr Firmen schulen ihre Mitarbeiter in stilvollem Verhalten. Dazu gehören folgende Grundregeln: Die ältere Person bietet der jüngeren das Du an Oft ist jedoch auch die Stellung entscheidend Der ältere Mitarbeiter bietet seinem jüngeren Chef nie das Du an."
+      ],
+      "text_en": "Du or Sie – that is the question here. Linguistic rules in the workplace.\nIngvar Kamprad, founder and owner of Ikea, frequently appears unannounced at the back entrance of one of his stores in the morning: \"Good morning, I'm Ingvar.\" The Swedish furniture store is the best example of the 'Du' culture in the workplace, as all employees address each other with 'Du'. The Society for the German Language in Wiesbaden has now found in a study that more than 53 percent of the people surveyed address all work colleagues with 'Du'. As expected, it is mainly the 16 to 29-year-olds (59 percent) who prefer to use 'Du' quickly. For those over 60, the number fell to 14 percent.\nWhy is it actually that people say 'Du' more and more often at the workplace? For example, Ikea, Greenpeace, and McDonald's all maintain the mandatory 'Du'. With this, they want to build trust and create a familiar environment.\nTowards customers, however, people have become more cautious. Ikea, for example, has reintroduced 'Sie' instead of 'Du' in its sales catalog. They hope to appeal to more people, not just younger ones, with 'Sie'. To this day, 'Du' is common, for example, in Swiss trade unions. Many members are even offended if they are addressed with 'Sie'. But there is also the reverse case, namely with the police: Anyone who addresses a police officer with 'Du' in Germany risks a fine. In Switzerland, on the other hand, reporting someone for addressing an official with 'Du' is considered exaggerated. \"Police officers are hardly ever addressed with 'Du' anyway,\" says Hanspeter Fäh of the Zurich City Police.\nHowever, the trend towards 'Du' can also be perceived as social pressure or coercion. Refusing a 'Du' is considered unfriendly. Dieter S., an employee at a textile shop in Germany, experienced this. A court decided that he had to continue to address his colleagues with 'Du'.\nAs much as 'Du' gains importance in society, 'Sie' still has a firm social basis and can even expand it. Etiquette courses, where one learns politeness and the right manners, are in trend today. More and more companies are training their employees in stylish behavior. This includes the following basic rules: The older person offers 'Du' to the younger one. Often, however, the position is also decisive: The older employee never offers 'Du' to his younger boss.",
+      "vocabulary": [
+        {
+          "de": "duzen",
+          "en": "to address someone with 'Du' (informal)"
+        },
+        {
+          "de": "der Zwang",
+          "en": "the coercion / pressure"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 6,
+        "question": "Die Firma Ikea benutzt heute das Sie,",
+        "question_en": "The company Ikea uses 'Sie' today,",
+        "options": {
+          "a": "weil das ein Zeichen für eine familiäre Atmosphäre ist.",
+          "b": "weil sie mehr jüngere Kunden gewinnen will.",
+          "c": "weil man so mehr Leute ansprechen möchte."
+        },
+        "options_en": {
+          "a": "because it is a sign of a familiar atmosphere.",
+          "b": "because it wants to gain more younger customers.",
+          "c": "because they want to appeal to more people this way."
+        },
+        "correct_answer": "c",
+        "explanation": "The text states: 'Man hofft, mit Sie mehr Leute, nicht nur jüngere, anzusprechen' (They hope to appeal to more people, not just younger ones, with 'Sie')."
+      },
+      {
+        "number": 7,
+        "question": "In der Schweiz...",
+        "question_en": "In Switzerland...",
+        "options": {
+          "a": "gilt das Du in Gewerkschaften als Beleidigung.",
+          "b": "werden Polizisten nur selten mit Du angesprochen.",
+          "c": "wird man bestraft, wenn man zu Beamten Du sagt."
+        },
+        "options_en": {
+          "a": "the 'Du' is considered an insult in trade unions.",
+          "b": "police officers are rarely addressed with 'Du'.",
+          "c": "you are punished if you say 'Du' to officials."
+        },
+        "correct_answer": "b",
+        "explanation": "The text quotes a Zurich police officer saying: 'Polizisten werden sowieso kaum mit Du angesprochen' (Police officers are hardly ever addressed with 'Du' anyway)."
+      },
+      {
+        "number": 8,
+        "question": "Eine Untersuchung hat gezeigt,",
+        "question_en": "A study has shown,",
+        "options": {
+          "a": "dass 14 Prozent der jüngeren Mitarbeiter das Sie vorziehen.",
+          "b": "dass besonders jüngere Arbeitskollegen schneller das Du wählen.",
+          "c": "dass sich alle Arbeitskollegen gern mit Du anreden würden."
+        },
+        "options_en": {
+          "a": "that 14 percent of younger employees prefer 'Sie'.",
+          "b": "that especially younger work colleagues choose 'Du' more quickly.",
+          "c": "that all work colleagues would like to address each other with 'Du'."
+        },
+        "correct_answer": "b",
+        "explanation": "The text mentions: 'vor allem die 16- bis 29-Jährigen (59 Prozent), die sich lieber schnell duzen' (especially the 16 to 29-year-olds who prefer to use 'Du' quickly)."
+      },
+      {
+        "number": 9,
+        "question": "Durch Kurse können Angestellte...",
+        "question_en": "Through courses, employees can...",
+        "options": {
+          "a": "höfliches Verhalten am Arbeitsplatz lernen.",
+          "b": "ihre Stellung im Arbeitsleben verbessern.",
+          "c": "neue Trends beim Einrichten des Arbeitsplatzes kennen lernen."
+        },
+        "options_en": {
+          "a": "learn polite behavior in the workplace.",
+          "b": "improve their position in working life.",
+          "c": "get to know new trends in setting up the workplace."
+        },
+        "correct_answer": "a",
+        "explanation": "The text discusses 'Benimmkurse, wo man Höflichkeit und die richtigen Umgangsformen lernt' (Etiquette courses where one learns politeness and the right manners)."
+      },
+      {
+        "number": 10,
+        "question": "Probleme am Arbeitsplatz kann es geben,",
+        "question_en": "There can be problems in the workplace,",
+        "options": {
+          "a": "wenn man das Sie ablehnt.",
+          "b": "wenn man wegen eines Fehlers vor Gericht muss.",
+          "c": "wenn man zu den Mitarbeitern Sie sagen will."
+        },
+        "options_en": {
+          "a": "if you reject 'Sie'.",
+          "b": "if you have to go to court because of a mistake.",
+          "c": "if you want to say 'Sie' to the employees."
+        },
+        "correct_answer": "c",
+        "explanation": "The text tells the story of an employee who wanted to use 'Sie' but was taken to court because 'Ein Du abzulehnen, gilt nämlich als unfreundlich' (Refusing a 'Du' is considered unfriendly). Thus, wanting to say 'Sie' causes problems."
+      }
+    ]
+  },
+  "leseverstehen_teil_3": {
+    "advertisements": {
+      "a": {
+        "title": "Mitarbeiter/innen am Empfang",
+        "subtitle": "Stellenangebote",
+        "lines": [
+          "Wir suchen für unsere sechs Hotelbetriebe",
+          "im gehobenen Bereich in München, Frankfurt und Berlin:",
+          "Mitarbeiter/innen am Empfang.",
+          "Wenn Sie bereits Rezeptionserfahrung haben...",
+          "Blattl's Hotels Zentralbüro, 80501 München."
+        ],
+        "image": "data/images/thomas_ad_a.png",
+        "text_en": "Employees at the reception. We are looking for our six hotel businesses in the upscale area in Munich, Frankfurt and Berlin. If you already have reception experience... Blattl's Hotels.",
+        "vocabulary": []
+      },
+      "b": {
+        "title": "PSA-Zeitarbeit",
+        "subtitle": "Stellenangebote",
+        "lines": [
+          "Die PSA kooperiert mit über 500 unabhängigen Personaldienstleistern.",
+          "Wir suchen ständig: Studentische Unternehmensberater, Studenten für IT-Administration..."
+        ],
+        "image": "data/images/thomas_ad_b.png",
+        "text_en": "PSA temp work. We cooperate with over 500 independent personnel service providers. We are constantly looking for: Student management consultants, students for IT administration...",
+        "vocabulary": []
+      },
+      "c": {
+        "title": "Tatort (ARD)",
+        "subtitle": "Fernsehen",
+        "lines": [
+          "20.15 Tatort (ARD)",
+          "Nun kommen die Krimi-Fans wieder auf ihre Kosten: Horst Schimanski ermittelt.",
+          "Ihm zur Seite steht Denise Mercier. Die gebürtige Schweizerin spielt die Freundin..."
+        ],
+        "image": "data/images/thomas_ad_c.png",
+        "text_en": "8:15 p.m. Tatort (ARD). Now thriller fans get their money's worth again. He is supported by Denise Mercier. The native Swiss plays the girlfriend...",
+        "vocabulary": []
+      },
+      "d": {
+        "title": "TAPE Media Film GmbH",
+        "subtitle": "Praktikum",
+        "lines": [
+          "PRAKTIKANT/IN im Bereich Medien und Veranstaltungstechnik gesucht.",
+          "Bewerbung per E-Mail: info@mediafilm-project.de"
+        ],
+        "image": "data/images/thomas_ad_d.png",
+        "text_en": "INTERN wanted in the field of media and event technology. Application via email: info@mediafilm-project.de",
+        "vocabulary": []
+      },
+      "e": {
+        "title": "New Media GmbH",
+        "subtitle": "Stellenangebote",
+        "lines": [
+          "Lukrative Halbtagstätigkeit:",
+          "Expandierendes High-Tech Unternehmen der Film- und Medienbranche sucht junge Mitarbeiterinnen für Empfang.",
+          "Gute Internet- und Fremdsprachenkenntnisse erforderlich!"
+        ],
+        "image": "data/images/thomas_ad_e.png",
+        "text_en": "Lucrative part-time job: Expanding high-tech company in the film and media industry is looking for young female employees for the reception. Good internet and foreign language skills required!",
+        "vocabulary": []
+      },
+      "f": {
+        "title": "Kundenbefragungen",
+        "subtitle": "Stellenangebote",
+        "lines": [
+          "Wir suchen engagierte Mitarbeiterinnen für Kundenbefragungen.",
+          "10-15 Std/Woche. Wichtig sind sicheres Auftreten..."
+        ],
+        "image": "data/images/thomas_ad_f.png",
+        "text_en": "We are looking for dedicated female employees for customer surveys. 10-15 hrs/week. Important are confident demeanor...",
+        "vocabulary": []
+      },
+      "g": {
+        "title": "3Sat LIVE - TALK-SHOW",
+        "subtitle": "Fernsehen",
+        "lines": [
+          "20:15 Diskussionsrunde 3Sat LIVE",
+          "Drei Länder, ein Thema. TALK-SHOW.",
+          "Kommt die Öko-Diktatur?",
+          "Wie begegnet man dem Verkehrskollaps? Wie retten wir die Umwelt?"
+        ],
+        "image": "data/images/thomas_ad_g.png",
+        "text_en": "8:15 p.m. Discussion round 3Sat LIVE. Three countries, one topic. TALK SHOW. Is the eco-dictatorship coming? How do we save the environment?",
+        "vocabulary": []
+      },
+      "h": {
+        "title": "Stern TV-Countdown (VOX)",
+        "subtitle": "Fernsehen",
+        "lines": [
+          "22:55 Stern TV-Countdown (VOX)",
+          "In zehn Reportagen zeigt Spiegel TV-Mann Jörg Hafkemeyer, wie sich die ersten Monate der neuen Regierung gestalten."
+        ],
+        "image": "data/images/thomas_ad_h.png",
+        "text_en": "10:55 p.m. Stern TV-Countdown (VOX). In ten reports, Spiegel TV man Jörg Hafkemeyer shows how the first months of the new government are shaping up.",
+        "vocabulary": []
+      },
+      "j": {
+        "title": "Max Frisch: Biedermann",
+        "subtitle": "Radio & Hörspiel",
+        "lines": [
+          "Max Frisch: Biedermann und die Brandstifter",
+          "Samstag, 19. September, 20:10 Uhr, Hessischer Rundfunk.",
+          "Ein Lehrstück ohne Lehre nannte Frisch sein ursprünglich als Hörspiel gedachtes... Stück."
+        ],
+        "image": "data/images/thomas_ad_j.png",
+        "text_en": "Max Frisch: Biedermann and the Arsonists. Saturday, Sept. 19, 8:10 p.m., Hessischer Rundfunk. Frisch called his piece, originally intended as a radio play, a didactic play without a lesson.",
+        "vocabulary": []
+      },
+      "k": {
+        "title": "Transparent - Das Kulturstudio",
+        "subtitle": "Radio",
+        "lines": [
+          "Transparent - Das Kulturstudio",
+          "(22:15, Radio Wien)",
+          "Architekten sprechen über die Zukunft von Europas Metropolen."
+        ],
+        "image": "data/images/thomas_ad_k.png",
+        "text_en": "Transparent - The Culture Studio (10:15 p.m., Radio Vienna). Architects talk about the future of Europe's metropolises.",
+        "vocabulary": []
+      },
+      "l": {
+        "title": "PRIMA-Werbung",
+        "subtitle": "Stellenangebote",
+        "lines": [
+          "Sie lieben den Umgang mit Menschen?",
+          "Sie sind außerdem auch dynamisch und ehrgeizig, dann sind Sie bei uns genau richtig.",
+          "Münchens bekannte PRIMA-Werbung bietet Ihnen..."
+        ],
+        "image": "data/images/thomas_ad_l.png",
+        "text_en": "Do you love dealing with people? Are you also dynamic and ambitious, then you've come to the right place. Munich's well-known PRIMA-Werbung offers you...",
+        "vocabulary": []
+      }
+    },
+    "situations": [
+      {
+        "number": 11,
+        "situation": "Sie haben von einer Schweizer Schauspielerin gehört und möchten gern einen Film sehen.",
+        "situation_en": "You have heard of a Swiss actress and would like to see a film.",
+        "correct_answer": "c",
+        "explanation": "Ad 'c' advertises the crime show 'Tatort' featuring Denise Mercier, a native Swiss ('gebürtige Schweizerin')."
+      },
+      {
+        "number": 12,
+        "situation": "Sie haben gerade Ihre Ausbildung beendet und suchen eine Stelle an der Rezeption.",
+        "situation_en": "You have just finished your training and are looking for a job at the reception.",
+        "correct_answer": "a",
+        "explanation": "Ad 'a' is looking for 'Mitarbeiter/innen am Empfang' (Employees at the reception) with reception experience."
+      },
+      {
+        "number": 13,
+        "situation": "Sie interessieren sich für Umweltschutz und suchen eine passende Sendung.",
+        "situation_en": "You are interested in environmental protection and are looking for a suitable program.",
+        "correct_answer": "g",
+        "explanation": "Ad 'g' advertises a talk show discussing 'Wie retten wir die Umwelt?' (How do we save the environment?)."
+      },
+      {
+        "number": 14,
+        "situation": "Ihr Freund, der am Institut für Film und Bild studiert, sucht einen geeigneten Praktikumsplatz.",
+        "situation_en": "Your friend, who is studying at the Institute for Film and Image, is looking for a suitable internship.",
+        "correct_answer": "d",
+        "explanation": "Ad 'd' is looking for an intern ('PRAKTIKANT/IN') at TAPE Media Film GmbH."
+      },
+      {
+        "number": 15,
+        "situation": "In einer Sendereihe wird im Fernsehen über die neue politische Entwicklung in Deutschland berichtet. Sie wollen sich informieren.",
+        "situation_en": "A series on television reports on the new political developments in Germany. You want to inform yourself.",
+        "correct_answer": "h",
+        "explanation": "Ad 'h' advertises a TV report showing how the first months of the new government ('neuen Regierung') are shaping up."
+      },
+      {
+        "number": 16,
+        "situation": "Sie interessieren sich für Großstädte und ihre Entwicklung und suchen dazu eine Sendung im Rundfunk.",
+        "situation_en": "You are interested in big cities and their development and are looking for a radio program on this.",
+        "correct_answer": "k",
+        "explanation": "Ad 'k' on Radio Wien features architects talking about the future of Europe's metropolises ('Europas Metropolen')."
+      },
+      {
+        "number": 17,
+        "situation": "Sie sind mit der Schule fertig und wollen bei der Deutschen Bahn eine Ausbildung machen.",
+        "situation_en": "You have finished school and want to do an apprenticeship at Deutsche Bahn.",
+        "correct_answer": "x",
+        "explanation": "There are no advertisements regarding an apprenticeship at Deutsche Bahn."
+      },
+      {
+        "number": 18,
+        "situation": "Sie interessieren sich für politisches Theater und möchten dazu am Wochenende etwas hören oder sehen.",
+        "situation_en": "You are interested in political theater and would like to hear or see something about it on the weekend.",
+        "correct_answer": "j",
+        "explanation": "Ad 'j' advertises a radio play ('Hörspiel') of Max Frisch's theater piece on a Saturday ('Samstag')."
+      },
+      {
+        "number": 19,
+        "situation": "Sie arbeiten gern mit anderen zusammen und suchen eine Tätigkeit bei einer Werbefirma.",
+        "situation_en": "You like working with others and are looking for a job at an advertising agency.",
+        "correct_answer": "l",
+        "explanation": "Ad 'l' is a job offer from PRIMA-Werbung (advertising agency) looking for people who enjoy dealing with people."
+      },
+      {
+        "number": 20,
+        "situation": "Sie wollen mehr über das Thema Arbeiten in Europa erfahren.",
+        "situation_en": "You want to find out more about working in Europe.",
+        "correct_answer": "x",
+        "explanation": "There are no advertisements regarding working in Europe."
+      }
+    ]
+  },
+  "sprachbausteine_teil_1": {
+    "instructions": "Lesen Sie den Text und schließen Sie die Lücken 21-30. Welche Lösung (a, b oder c) ist jeweils richtig?",
+    "passage": {
+      "text": "Sehr geehrter Herr Samir,\nim Mai habe ich bei ___21___ für mich und meine Familie Flugtickets nach Indien bestellt und diese zwei Tage vor Abflug am 27. Juni auch erhalten. Leider entsprachen die Tickets überhaupt nicht dem, was zuvor bei der Buchung am Telefon ausgemacht worden ___22___.\n___23___ ich ausdrücklich einen Direktflug nach Mumbai bestellt hatte, haben Sie mir Tickets ___24___ Zwischenstopp in Delhi ausgestellt. Wir mussten eine Nacht in Delhi verbringen und kamen so ___25___ einen Tag später als geplant in Mumbai an. Doch damit nicht genug. Die Tickets waren nämlich nicht nur anders als vereinbart, ___26___ auch noch viel teurer. Statt der erwarteten 640 Euro kosteten ___27___ Tickets 720 Euro.\nIch darf Sie daher ___28___ Rückzahlung der zu viel verrechneten Kosten auf mein Konto ___29___ der Bank of India in Mumbai bitten. Meine Bankdaten finden Sie unten.\nIch bitte Sie, die Angelegenheit bald zu klären und ___30___ dann zu antworten.\nMit freundlichen Grüßen,\nLuisa Martin",
+      "text_en": "Dear Mr. Samir,\nIn May I ordered flight tickets to India for myself and my family from ___21___ and also received them two days before departure on June 27th. Unfortunately, the tickets did not at all correspond to what had previously been agreed upon on the phone during booking ___22___.\n___23___ I had explicitly ordered a direct flight to Mumbai, you issued me tickets ___24___ a stopover in Delhi. We had to spend a night in Delhi and thus arrived in Mumbai ___25___ a day later than planned. But that's not all. The tickets were not only different than agreed, ___26___ also much more expensive. Instead of the expected 640 euros, ___27___ tickets cost 720 euros.\nI must therefore ask you ___28___ repayment of the overcharged costs to my account ___29___ the Bank of India in Mumbai. You will find my bank details below.\nI ask you to clarify the matter soon and to answer ___30___ then.\nYours sincerely,\nLuisa Martin",
+      "vocabulary": [
+        {
+          "de": "ausgemacht",
+          "en": "agreed upon"
+        },
+        {
+          "de": "die Rückzahlung",
+          "en": "the repayment / refund"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 21,
+        "options": {
+          "a": "ihnen",
+          "b": "Ihnen",
+          "c": "Sie"
+        },
+        "correct_answer": "b",
+        "explanation": "The preposition 'bei' requires the dative case. 'Ihnen' is the formal 'you' in dative."
+      },
+      {
+        "number": 22,
+        "options": {
+          "a": "hat",
+          "b": "war",
+          "c": "wäre"
+        },
+        "correct_answer": "b",
+        "explanation": "The sentence uses the Pluperfect Passive (Plusquamperfekt Passiv): 'ausgemacht worden war' (had been agreed upon)."
+      },
+      {
+        "number": 23,
+        "options": {
+          "a": "Danach",
+          "b": "Obwohl",
+          "c": "Nämlich"
+        },
+        "correct_answer": "b",
+        "explanation": "'Obwohl' (Although) introduces the concession: 'Although I had explicitly ordered... you issued...'"
+      },
+      {
+        "number": 24,
+        "options": {
+          "a": "für",
+          "b": "mit",
+          "c": "zu"
+        },
+        "correct_answer": "b",
+        "explanation": "'Tickets mit Zwischenstopp' means 'tickets with a stopover'."
+      },
+      {
+        "number": 25,
+        "options": {
+          "a": "erst",
+          "b": "schon",
+          "c": "an"
+        },
+        "correct_answer": "a",
+        "explanation": "'erst einen Tag später' means 'not until a day later'."
+      },
+      {
+        "number": 26,
+        "options": {
+          "a": "besonders",
+          "b": "sondern",
+          "c": "sonst"
+        },
+        "correct_answer": "b",
+        "explanation": "The two-part conjunction 'nicht nur... sondern auch...' means 'not only... but also...'."
+      },
+      {
+        "number": 27,
+        "options": {
+          "a": "den",
+          "b": "mir",
+          "c": "die"
+        },
+        "correct_answer": "c",
+        "explanation": "'die Tickets' is the plural subject (nominative) of the sentence 'kosteten die Tickets'."
+      },
+      {
+        "number": 28,
+        "options": {
+          "a": "jetzt",
+          "b": "für",
+          "c": "um"
+        },
+        "correct_answer": "c",
+        "explanation": "The verb 'bitten' (to ask/request) takes the preposition 'um': 'bitten um Rückzahlung'."
+      },
+      {
+        "number": 29,
+        "options": {
+          "a": "an",
+          "b": "bei",
+          "c": "vor"
+        },
+        "correct_answer": "b",
+        "explanation": "In German, one has an account 'bei einer Bank' (at a bank)."
+      },
+      {
+        "number": 30,
+        "options": {
+          "a": "mich",
+          "b": "mir",
+          "c": "sich"
+        },
+        "correct_answer": "b",
+        "explanation": "The verb 'antworten' takes the dative object. 'mir antworten' (to answer me)."
+      }
+    ]
+  },
+  "sprachbausteine_teil_2": {
+    "instructions": "Lesen Sie den Text und schließen Sie die Lücken 31-40. Benutzen Sie die Wörter (a - o). Jedes Wort passt nur einmal.",
+    "word_bank": {
+      "a": "AUCH",
+      "b": "AUFTRAG",
+      "c": "BESCHREIBEN",
+      "d": "FRAGEN",
+      "e": "GEEIGNET",
+      "f": "GEGENÜBER",
+      "g": "INFORMATIONEN",
+      "h": "KÖNNTEN",
+      "i": "STATTFINDEN",
+      "j": "SUCHEN",
+      "k": "TERMIN",
+      "l": "TOUR",
+      "m": "VOR",
+      "n": "WÄREN",
+      "o": "WEIL"
+    },
+    "word_bank_en": {
+      "a": "also",
+      "b": "order / task",
+      "c": "describe",
+      "d": "questions",
+      "e": "suitable",
+      "f": "opposite",
+      "g": "information",
+      "h": "could",
+      "i": "take place",
+      "j": "search / look for",
+      "k": "appointment / date",
+      "l": "tour",
+      "m": "before",
+      "n": "would be",
+      "o": "because"
+    },
+    "passage": {
+      "text": "Sehr geehrte Damen und Herren,\nunsere Organisation hat den ___31___, eine deutsch-französische Konferenz zu europäischen Entwicklungsprogrammen vorzubereiten.\nDiese Veranstaltung könnte in Breisach ___32___, und daher brauchen wir von Ihnen nähere ___33___.\nIn Ihrer Anzeige ___34___ Sie die Sehenswürdigkeiten von Breisach und die verschiedenen touristischen Möglichkeiten. Deshalb erscheint uns Ihre Stadt als sehr ___35___, auch ___36___ sie als Brücke zu Europa gilt.\nNun haben wir folgende Bitte: Für diese Veranstaltung ___37___ wir ein gutes Hotel, möglichst am Ufer des Rheins, mit Konferenz- und Arbeitsräumen, ausgestattet mit den notwendigen technischen Anlagen, Internetanschluss usw. Es sollte ___38___ ruhig gelegen sein. Können Sie uns dazu Vorschläge schicken? Der ___39___ wäre 15.-21. November.\nBitte geben Sie uns möglichst bald Bescheid. Für Prospekte und Informationen zu Preisen und Buchungsbedingungen ___40___ wir Ihnen dankbar.\nMit freundlichen Grüßen,\nADRIAN SCHÖLLER\nEVD Trans GmbH",
+      "text_en": "Dear Sir or Madam,\nOur organization has the ___31___ to prepare a German-French conference on European development programs.\nThis event could ___32___ in Breisach, and therefore we need closer ___33___ from you.\nIn your advertisement you ___34___ the sights of Breisach and the various tourist possibilities. Therefore, your city appears to us as very ___35___, also ___36___ it is considered a bridge to Europe.\nNow we have the following request: For this event we are ___37___ a good hotel, preferably on the banks of the Rhine, with conference and work rooms, equipped with the necessary technical facilities, internet connection, etc. It should ___38___ be situated in a quiet location. Can you send us proposals for this? The ___39___ would be November 15th-21st.\nPlease let us know as soon as possible. We ___40___ be grateful to you for brochures and information on prices and booking conditions.\nYours sincerely,\nADRIAN SCHÖLLER\nEVD Trans GmbH",
+      "vocabulary": [
+        {
+          "de": "vorbereiten",
+          "en": "to prepare"
+        },
+        {
+          "de": "die Sehenswürdigkeit",
+          "en": "the sight / tourist attraction"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 31,
+        "correct_answer": "b",
+        "explanation": "'den Auftrag haben' means 'to have the order / task / mandate'."
+      },
+      {
+        "number": 32,
+        "correct_answer": "i",
+        "explanation": "'könnte in Breisach stattfinden' means 'could take place in Breisach'."
+      },
+      {
+        "number": 33,
+        "correct_answer": "g",
+        "explanation": "'nähere Informationen' means 'closer/more detailed information'."
+      },
+      {
+        "number": 34,
+        "correct_answer": "c",
+        "explanation": "'In Ihrer Anzeige beschreiben Sie...' means 'In your advertisement you describe...'."
+      },
+      {
+        "number": 35,
+        "correct_answer": "e",
+        "explanation": "'erscheint uns Ihre Stadt als sehr geeignet' means 'your city appears to us as very suitable'."
+      },
+      {
+        "number": 36,
+        "correct_answer": "o",
+        "explanation": "'auch weil sie als Brücke... gilt' means 'also because it is considered a bridge...'."
+      },
+      {
+        "number": 37,
+        "correct_answer": "j",
+        "explanation": "'suchen wir ein gutes Hotel' means 'we are looking for a good hotel'. Note: The correct answer key implies 'SUCHEN'."
+      },
+      {
+        "number": 38,
+        "correct_answer": "a",
+        "explanation": "'Es sollte auch ruhig gelegen sein' means 'It should also be situated quietly'."
+      },
+      {
+        "number": 39,
+        "correct_answer": "k",
+        "explanation": "'Der Termin wäre 15.-21. November' means 'The date/appointment would be...'."
+      },
+      {
+        "number": 40,
+        "correct_answer": "n",
+        "explanation": "'wären wir Ihnen dankbar' means 'we would be grateful to you'."
+      }
+    ]
+  },
+  "hoerverstehen_teil_1": {
+    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören diese Texte nur einmal. Entscheiden Sie beim Hören, ob die Aussagen 41-45 richtig (+) oder falsch (-) sind.",
+    "transcripts": [
+      {
+        "number": 41,
+        "text": "Ich erledige meine Einkäufe fast ausschließlich online. Das spart mir viel Zeit, besonders nach einem langen Arbeitstag. Selbst Lebensmittel lasse ich mir liefern. In ein Geschäft gehe ich nur, wenn es wirklich notwendig ist, z. B. wenn etwas ganz dringend gebraucht wird.",
+        "text_en": "I do my shopping almost exclusively online. That saves me a lot of time, especially after a long workday. I even have groceries delivered. I only go to a store if it is really necessary, e.g. when something is needed very urgently.",
+        "vocabulary": [
+          {
+            "de": "ausschließlich",
+            "en": "exclusively"
+          },
+          {
+            "de": "dringend",
+            "en": "urgently"
+          }
+        ]
+      },
+      {
+        "number": 42,
+        "text": "Ehrlich gesagt ist mir das Zwischenmenschliche beim Einkaufen nicht so wichtig. Ich bevorzuge es, meine Sachen schnell und ohne lange Gespräche zu besorgen. Deshalb nutze ich oft Onlineshops, besonders wenn ich wenig Zeit oder keine Lust auf Menschenmengen habe.",
+        "text_en": "To be honest, the interpersonal aspect of shopping is not so important to me. I prefer to get my things quickly and without long conversations. That is why I often use online shops, especially when I have little time or no desire for crowds.",
+        "vocabulary": [
+          {
+            "de": "das Zwischenmenschliche",
+            "en": "the interpersonal"
+          },
+          {
+            "de": "die Menschenmenge",
+            "en": "the crowd"
+          }
+        ]
+      },
+      {
+        "number": 43,
+        "text": "Mit zwei kleinen Kindern ist es zu Hause oft sehr laut und hektisch. Wenn ich dann im Internet etwas bestellen möchte, werde ich ständig unterbrochen. Ich finde einfach keine ruhige Minute, um in Ruhe Preise zu vergleichen oder Produktbewertungen zu lesen.",
+        "text_en": "With two small children, it is often very loud and hectic at home. When I want to order something on the internet, I am constantly interrupted. I simply cannot find a quiet minute to compare prices or read product reviews in peace.",
+        "vocabulary": [
+          {
+            "de": "unterbrochen",
+            "en": "interrupted"
+          },
+          {
+            "de": "die Bewertung",
+            "en": "the review / rating"
+          }
+        ]
+      },
+      {
+        "number": 44,
+        "text": "Ich kaufe regelmäßig im Internet ein. Für mich ist das sehr praktisch, vor allem, wenn ich spezielle Produkte suche, die es im Laden nicht gibt. Ich hatte bisher keine schlechten Erfahrungen und finde es angenehm, alles bequem von zu Hause aus zu erledigen.",
+        "text_en": "I regularly buy on the internet. For me it is very practical, especially when I am looking for special products that are not available in the store. I have had no bad experiences so far and find it pleasant to take care of everything comfortably from home.",
+        "vocabulary": [
+          {
+            "de": "bequem",
+            "en": "comfortable"
+          },
+          {
+            "de": "erledigen",
+            "en": "to take care of / to do"
+          }
+        ]
+      },
+      {
+        "number": 45,
+        "text": "Ich bestelle meine Medikamente immer über eine Onlineapotheke. Das ist einfacher und meist auch günstiger. Früher bin ich dafür in die Stadt gefahren, aber jetzt finde ich den Lieferservice viel komfortabler. Es spart mir auch den Weg und die Wartezeit.",
+        "text_en": "I always order my medicines via an online pharmacy. It is easier and usually also cheaper. I used to drive into the city for this, but now I find the delivery service much more comfortable. It also saves me the trip and the waiting time.",
+        "vocabulary": [
+          {
+            "de": "die Apotheke",
+            "en": "the pharmacy"
+          },
+          {
+            "de": "die Wartezeit",
+            "en": "the waiting time"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "number": 41,
+        "statement": "Der Sprecher erledigt alle seine Einkäufe im Internet.",
+        "statement_en": "The speaker does all his shopping on the internet.",
+        "correct_answer": "+",
+        "explanation": "He says 'Ich erledige meine Einkäufe fast ausschließlich online' (I do my shopping almost exclusively online)."
+      },
+      {
+        "number": 42,
+        "statement": "Die Sprecherin legt beim Einkaufen großen Wert auf persönlichen Kontakt.",
+        "statement_en": "The speaker places great value on personal contact when shopping.",
+        "correct_answer": "-",
+        "explanation": "She states 'Ehrlich gesagt ist mir das Zwischenmenschliche beim Einkaufen nicht so wichtig' (To be honest, the interpersonal aspect is not so important to me)."
+      },
+      {
+        "number": 43,
+        "statement": "Die Sprecherin findet zu Hause nicht genug Ruhe, um im Internet einzukaufen.",
+        "statement_en": "The speaker does not find enough peace at home to shop on the internet.",
+        "correct_answer": "+",
+        "explanation": "She confirms 'Ich finde einfach keine ruhige Minute' (I simply cannot find a quiet minute)."
+      },
+      {
+        "number": 44,
+        "statement": "Die Sprecherin ist vom Einkaufen im Internet nicht überzeugt.",
+        "statement_en": "The speaker is not convinced about shopping on the internet.",
+        "correct_answer": "-",
+        "explanation": "She says 'Für mich ist das sehr praktisch' (For me it is very practical) and enjoys it."
+      },
+      {
+        "number": 45,
+        "statement": "Der Sprecher kauft seine Medikamente am liebsten in der nächsten Stadt.",
+        "statement_en": "The speaker prefers to buy his medicines in the next town.",
+        "correct_answer": "-",
+        "explanation": "He explicitly says 'Ich bestelle meine Medikamente immer über eine Onlineapotheke' (I always order my medicines via an online pharmacy)."
+      }
+    ]
+  },
+  "hoerverstehen_teil_2": {
+    "instructions": "Sie hören nun ein Gespräch. Dazu sollen Sie zehn Aufgaben lösen. Sie hören das Gespräch zweimal. Entscheiden Sie beim Hören, ob die Aussagen 46-55 richtig (+) oder falsch (-) sind.",
+    "interview_transcript": {
+      "text": "Moderator: Guten Tag und herzlich willkommen zu unserer heutigen Sendung. Heute sprechen wir über einen spannenden und zugleich anspruchsvollen Beruf: den der Feuerwehrfrau. Ich freue mich sehr, Frau Wenger im Studio begrüßen zu dürfen. Schön, dass Sie da sind.\nFrau Wenger: Guten Tag, vielen Dank für die Einladung. Ich freue mich, hier zu sein.\nModerator: Frau Wenger, erzählen Sie doch bitte zuerst, wie Sie zur Feuerwehr gekommen sind. War das schon immer Ihr Traumberuf?\nFrau Wenger: Tatsächlich nicht. Ich habe ursprünglich einen ganz anderen Beruf gelernt und war einige Jahre in der Verwaltung tätig. Die Arbeit bei der Feuerwehr war für mich eher eine spontane Entscheidung, nachdem ich durch meinen Freund auf das Thema aufmerksam wurde. Er ist schon seit längerer Zeit Mitglied in der Freiwilligen Feuerwehr und hat mir oft davon erzählt.\nModerator: Das heißt, Sie teilen diese Tätigkeit jetzt gemeinsam?\nFrau Wenger: Ja, genau. Wir engagieren uns beide in unserer Freizeit in der Feuerwehr. Es ist schön, eine gemeinsame Leidenschaft zu haben. Wir nehmen zusammen an Übungen teil und unterstützen uns gegenseitig.\nModerator: Gab es in Ihrem Umfeld schon Situationen, in denen Sie direkt helfen konnten, z.B. bei einem Brand im Bekanntenkreis?\nFrau Wenger: Zum Glück hatte ich bisher noch keine Freunde oder Familie, bei denen es gebrannt hat. Die meisten Einsätze betreffen Unfälle oder technische Hilfeleistungen. Natürlich ist es trotzdem ein gutes Gefühl zu wissen, dass man im Ernstfall helfen könnte.\nModerator: Wie lösen Sie im Team Probleme, etwa mit Geräten oder Ausrüstung?\nFrau Wenger: Bei uns ist Teamarbeit sehr wichtig. Wenn es technische Schwierigkeiten gibt, sprechen wir das direkt an und suchen gemeinsam nach Lösungen. Wir haben auch regelmäßige Fortbildungen, bei denen wir uns gegenseitig unterstützen.\nModerator: Wie war die Ausbildung zur Feuerwehrfrau für Sie? Haben Sie sie als besonders anstrengend empfunden?\nFrau Wenger: Ja, die Ausbildung war schon fordernd. Es gibt viele körperliche und technische Anforderungen, aber ich habe die Ausbildung auch als sehr motivierend und spannend erlebt. Man lernt ständig Neues und wird gefordert.\nModerator: Gibt es Unterschiede bei der Ausrüstung für Frauen und Männer?\nFrau Wenger: Leider passen die Standardgrößen der Schutzkleidung oft besser zu Männern. Es wird aber immer mehr darauf geachtet, dass es auch passende Kleidung für Frauen gibt, sodass sich alle sicher fühlen können.\nModerator: Wie gehen Sie damit um, dass Sie jederzeit zu einem Einsatz gerufen werden können?\nFrau Wenger: Am Anfang war es ungewohnt, immer erreichbar sein zu müssen. Mittlerweile habe ich mich aber daran gewöhnt. Die Flexibilität ist Teil des Berufs, und ich kann damit gut umgehen. Meine Familie unterstützt mich dabei.\nModerator: Haben Sie als Feuerwehrfrau schon viele Unfälle oder schwierige Situationen miterlebt?\nFrau Wenger: Bis jetzt hatte ich zum Glück noch nicht viele schwere Unfälle im Einsatz. Es gab einige kleinere Einsätze, aber große Unglücke habe ich bisher nicht erlebt.\nModerator: Fühlen Sie sich von Ihren männlichen Kollegen anders behandelt?\nFrau Wenger: Eigentlich nicht. Ich werde im Team genauso akzeptiert wie alle anderen. Es zählt, dass man gemeinsam arbeitet und sich aufeinander verlassen kann.\nModerator: Was würden Sie Menschen raten, die Interesse an der Feuerwehr haben?\nFrau Wenger: Ich kann nur jedem empfehlen, sich zu informieren und vielleicht einmal bei einem Tag der offenen Tür vorbeizuschauen. Die Arbeit ist abwechslungsreich und man lernt viele tolle Menschen kennen. Wer Interesse hat, kann sich gerne bei uns melden.\nModerator: Vielen Dank, Frau Wenger, für das interessante Gespräch und Ihre Einblicke. Wir wünschen Ihnen weiterhin viel Erfolg und alles Gute bei Ihrer Arbeit.\nFrau Wenger: Vielen Dank, das hat mich sehr gefreut.",
+      "text_en": "Moderator: Good afternoon and a warm welcome to our broadcast today. Today we are talking about an exciting and at the same time demanding profession: that of a female firefighter. I am very pleased to welcome Ms. Wenger to the studio. Nice that you are here.\nMs. Wenger: Good day, thank you very much for the invitation. I am happy to be here.\nModerator: Ms. Wenger, please tell us first how you came to the fire brigade. Was that always your dream job?\nMs. Wenger: Actually not. I originally learned a completely different profession and worked in administration for a few years. Working at the fire brigade was more of a spontaneous decision for me after my boyfriend made me aware of the topic. He has been a member of the volunteer fire brigade for a long time and often told me about it.\nModerator: Does that mean you now share this activity together?\nMs. Wenger: Yes, exactly. We both volunteer our free time in the fire brigade. It is nice to have a shared passion. We take part in exercises together and support each other.\nModerator: Have there been situations in your environment where you were able to help directly, e.g. a fire in your circle of friends?\nMs. Wenger: Fortunately, I haven't had any friends or family who had a fire yet. Most of the operations involve accidents or technical assistance. Of course, it is still a good feeling to know that you could help in an emergency.\nModerator: How do you solve problems in the team, for example with devices or equipment?\nMs. Wenger: Teamwork is very important to us. If there are technical difficulties, we address them directly and look for solutions together. We also have regular further training where we support each other.\nModerator: What was the training to become a firefighter like for you? did you find it particularly exhausting?\nMs. Wenger: Yes, the training was demanding. There are many physical and technical requirements, but I also found the training to be very motivating and exciting. You are constantly learning new things and being challenged.\nModerator: Are there differences in equipment for women and men?\nMs. Wenger: Unfortunately, the standard sizes of protective clothing often fit men better. However, more and more attention is being paid to ensuring that there is also suitable clothing for women so that everyone can feel safe.\nModerator: How do you deal with the fact that you can be called out to an operation at any time?\nMs. Wenger: At the beginning it was unusual to always have to be available. I've gotten used to it now though. Flexibility is part of the job and I handle it well. My family supports me in this.\nModerator: As a firefighter, have you witnessed many accidents or difficult situations?\nMs. Wenger: Up to now I fortunately haven't had many serious accidents on duty. There have been a few smaller operations, but I haven't experienced any major disasters yet.\nModerator: Do you feel treated differently by your male colleagues?\nMs. Wenger: Actually no. I am accepted in the team just like everyone else. What matters is that you work together and can rely on each other.\nModerator: What would you advise people who are interested in the fire brigade?\nMs. Wenger: I can only recommend everyone to get information and perhaps drop by an open day. The work is varied and you get to know a lot of great people. Anyone interested is welcome to contact us.\nModerator: Thank you very much, Ms. Wenger, for the interesting conversation and your insights. We wish you continued success and all the best in your work.\nMs. Wenger: Thank you, I was very happy to.",
+      "vocabulary": [
+        {
+          "de": "der Einsatz",
+          "en": "the deployment / operation"
+        },
+        {
+          "de": "anspruchsvoll",
+          "en": "demanding / challenging"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 46,
+        "statement": "Frau Wenger träumte schon immer davon, Feuerwehrfrau zu werden.",
+        "statement_en": "Ms. Wenger always dreamed of becoming a firefighter.",
+        "correct_answer": "-",
+        "explanation": "She states 'Tatsächlich nicht... war für mich eher eine spontane Entscheidung' (Actually not... was more of a spontaneous decision for me)."
+      },
+      {
+        "number": 47,
+        "statement": "Frau Wenger und ihr Freund haben nun eine gemeinsame Freizeitbeschäftigung.",
+        "statement_en": "Ms. Wenger and her boyfriend now have a shared leisure activity.",
+        "correct_answer": "+",
+        "explanation": "She confirms 'Wir engagieren uns beide in unserer Freizeit in der Feuerwehr. Es ist schön, eine gemeinsame Leidenschaft zu haben'."
+      },
+      {
+        "number": 48,
+        "statement": "Frau Wenger hat bereits im Freundeskreis bei einem Brand geholfen.",
+        "statement_en": "Ms. Wenger has already helped with a fire in her circle of friends.",
+        "correct_answer": "-",
+        "explanation": "She says 'Zum Glück hatte ich bisher noch keine Freunde oder Familie, bei denen es gebrannt hat' (Fortunately, I haven't had any friends or family who had a fire yet)."
+      },
+      {
+        "number": 49,
+        "statement": "Probleme mit der Ausrüstung werden gemeinsam im Team gelöst.",
+        "statement_en": "Problems with the equipment are solved together in the team.",
+        "correct_answer": "+",
+        "explanation": "She says 'Wenn es technische Schwierigkeiten gibt... suchen gemeinsam nach Lösungen'."
+      },
+      {
+        "number": 50,
+        "statement": "Die Ausbildung zur Feuerwehrfrau war sehr fordernd.",
+        "statement_en": "The training to become a female firefighter was very demanding.",
+        "correct_answer": "+",
+        "explanation": "She confirms 'Ja, die Ausbildung war schon fordernd'."
+      },
+      {
+        "number": 51,
+        "statement": "Die Schutzkleidung ist für Frauen genauso passend wie für Männer.",
+        "statement_en": "The protective clothing fits women just as well as men.",
+        "correct_answer": "-",
+        "explanation": "She states 'Leider passen die Standardgrößen der Schutzkleidung oft besser zu Männern' (Unfortunately, the standard sizes often fit men better)."
+      },
+      {
+        "number": 52,
+        "statement": "Frau Wenger hatte am Anfang Probleme damit, immer erreichbar zu sein.",
+        "statement_en": "In the beginning, Ms. Wenger had problems always having to be available.",
+        "correct_answer": "+",
+        "explanation": "She mentions 'Am Anfang war es ungewohnt, immer erreichbar sein zu müssen'."
+      },
+      {
+        "number": 53,
+        "statement": "Frau Wenger hat schon viele große Unfälle miterlebt.",
+        "statement_en": "Ms. Wenger has already witnessed many major accidents.",
+        "correct_answer": "-",
+        "explanation": "She clarifies 'große Unglücke habe ich bisher nicht erlebt' (I haven't experienced any major disasters yet)."
+      },
+      {
+        "number": 54,
+        "statement": "Die männlichen Kollegen behandeln sie anders als andere Männer.",
+        "statement_en": "The male colleagues treat her differently than other men.",
+        "correct_answer": "-",
+        "explanation": "She says 'Eigentlich nicht. Ich werde im Team genauso akzeptiert wie alle anderen'."
+      },
+      {
+        "number": 55,
+        "statement": "Frau Wenger empfiehlt Interessierten, einen Tag der offenen Tür zu besuchen.",
+        "statement_en": "Ms. Wenger recommends that interested people visit an open house day.",
+        "correct_answer": "+",
+        "explanation": "She states 'Ich kann nur jedem empfehlen... vielleicht einmal bei einem Tag der offenen Tür vorbeizuschauen'."
+      }
+    ]
+  },
+  "hoerverstehen_teil_3": {
+    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören jeden Text zweimal. Entscheiden Sie beim Hören, ob die Aussagen 56-60 richtig (+) oder falsch (-) sind.",
+    "transcripts": [
+      {
+        "number": 56,
+        "text": "Ich träume oft davon, mal etwas Großes zu gewinnen, z. B. eine Reise nach Griechenland. Aber es klappt einfach nie. Auch diesmal wurde nichts von einem Gewinn gesagt, leider nur Werbung für Angebote. Vielleicht habe ich einfach kein Glück. Gewinnspiele sind nie für mich gemacht.",
+        "text_en": "I often dream of winning something big, e.g., a trip to Greece. But it simply never works out. This time, too, nothing was said about winning, unfortunately only advertising for offers. Maybe I'm just out of luck. Sweepstakes are never made for me.",
+        "vocabulary": [
+          {
+            "de": "das Gewinnspiel",
+            "en": "the sweepstake / prize competition"
+          },
+          {
+            "de": "die Werbung",
+            "en": "the advertising"
+          }
+        ]
+      },
+      {
+        "number": 57,
+        "text": "Gerade als ich in der Bahnapp nachschaute, kam die Sprachnachricht: 'Ihr Wagen für die Gruppe ist reserviert'. Ich habe mich total gefreut! Endlich mal organisiert reisen. Das war eindeutig, keine Verwechslung möglich. Ich habe sogar die Wagennummer gespeichert.",
+        "text_en": "Just as I was looking in the train app, the voice message came: 'Your carriage for the group is reserved'. I was absolutely delighted! Finally organized travel for once. That was clear, no mix-up possible. I even saved the carriage number.",
+        "vocabulary": [
+          {
+            "de": "reserviert",
+            "en": "reserved"
+          },
+          {
+            "de": "die Verwechslung",
+            "en": "the mix-up / confusion"
+          }
+        ]
+      },
+      {
+        "number": 58,
+        "text": "Ich war gestern auf der Website und plötzlich kam so ein Pop-up: 'Nur heute 20 % auf Waschmaschinen'. Ich dachte erst, es sei Werbung, aber es war echt. Die Preise waren gut, da gibt's wirklich Schnäppchen. Ich habe gleich einen Wasserkocher bestellt.",
+        "text_en": "I was on the website yesterday and suddenly a pop-up came up: 'Only today 20% off washing machines'. At first I thought it was an ad, but it was real. The prices were good, there really are bargains there. I immediately ordered a kettle.",
+        "vocabulary": [
+          {
+            "de": "das Schnäppchen",
+            "en": "the bargain"
+          },
+          {
+            "de": "der Wasserkocher",
+            "en": "the kettle"
+          }
+        ]
+      },
+      {
+        "number": 59,
+        "text": "Ich stand heute früh an der Haltestelle und konnte kaum etwas sehen. Alles war voller Nebel. Sogar die Busanzeige war nicht lesbar. Also, wenn jemand sagt, dass der Nebel erst morgen Abend kommt, dann stimmt das nicht. Es war heute schon richtig neblig.",
+        "text_en": "I stood at the bus stop early today and could hardly see anything. Everything was full of fog. Even the bus display was not readable. So, if someone says that the fog won't come until tomorrow evening, that's not true. It was already really foggy today.",
+        "vocabulary": [
+          {
+            "de": "der Nebel",
+            "en": "the fog"
+          },
+          {
+            "de": "neblig",
+            "en": "foggy"
+          }
+        ]
+      },
+      {
+        "number": 60,
+        "text": "Ich habe Google Maps geöffnet und es hieß: 'Direktverbindung mit dem Bus ab Nordheim, 45 Minuten schneller'. Auch der Sprecher hat gesagt, dass das die bequemste Lösung ist. Ich habe es meinem Vater geschickt. Er fährt morgen genauso.",
+        "text_en": "I opened Google Maps and it said: 'Direct connection by bus from Nordheim, 45 minutes faster'. The speaker also said that this is the most comfortable solution. I sent it to my father. He's traveling exactly the same way tomorrow.",
+        "vocabulary": [
+          {
+            "de": "die Direktverbindung",
+            "en": "the direct connection"
+          },
+          {
+            "de": "die Lösung",
+            "en": "the solution"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "number": 56,
+        "statement": "Der Sprecher hat bei einem Gewinnspiel eine Reise nach Griechenland gewonnen.",
+        "statement_en": "The speaker won a trip to Greece in a sweepstake.",
+        "correct_answer": "-",
+        "explanation": "He explicitly states 'Aber es klappt einfach nie. Auch diesmal wurde nichts von einem Gewinn gesagt' (But it simply never works out. This time, too, nothing was said about winning)."
+      },
+      {
+        "number": 57,
+        "statement": "Die Sprecherin hat eine Reservierung für ihre Reisegruppe erhalten.",
+        "statement_en": "The speaker received a reservation for her tour group.",
+        "correct_answer": "+",
+        "explanation": "She confirms 'die Sprachnachricht: Ihr Wagen für die Gruppe ist reserviert... Ich habe mich total gefreut!' (the voice message: Your carriage for the group is reserved... I was absolutely delighted!)."
+      },
+      {
+        "number": 58,
+        "statement": "Der Sprecher hat eine vergünstigte Waschmaschine im Internet bestellt.",
+        "statement_en": "The speaker ordered a discounted washing machine on the internet.",
+        "correct_answer": "-",
+        "explanation": "He saw the pop-up for washing machines but says 'Ich habe gleich einen Wasserkocher bestellt' (I immediately ordered a kettle), not a washing machine."
+      },
+      {
+        "number": 59,
+        "statement": "Laut der Sprecherin gab es heute früh bereits starken Nebel.",
+        "statement_en": "According to the speaker, there was already thick fog early this morning.",
+        "correct_answer": "+",
+        "explanation": "She states 'Ich stand heute früh an der Haltestelle und konnte kaum etwas sehen. Alles war voller Nebel' (Everything was full of fog)."
+      },
+      {
+        "number": 60,
+        "statement": "Der Vater der Sprecherin wird die direkte Busverbindung ab Nordheim nehmen.",
+        "statement_en": "The speaker's father will take the direct bus connection from Nordheim.",
+        "correct_answer": "+",
+        "explanation": "She says she sent the direct connection information to her father and 'Er fährt morgen genauso' (He's traveling exactly the same way tomorrow)."
+      }
+    ]
+  }
+}

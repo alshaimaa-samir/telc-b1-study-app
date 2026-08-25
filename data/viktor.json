@@ -1,0 +1,977 @@
+{
+  "title": "VIKTOR",
+  "leseverstehen_teil_1": {
+    "headings": {
+      "a": "Nur wenige lesen im Zug",
+      "b": "Bahnfahren bei älteren Menschen immer beliebter",
+      "c": "Per Internet leichter ans Ziel",
+      "d": "Männer fahren besser",
+      "e": "Hilfe beim Reisen mit der Bahn",
+      "f": "Frauen finden den richtigen Weg",
+      "g": "Neuer Deutschkurs in Solothurn",
+      "h": "Jetzt wird auch im Zug gelernt",
+      "i": "Lesen im Zug ist beliebt",
+      "j": "Neue Verkehrsregeln für Autofahrer"
+    },
+    "headings_en": {
+      "a": "Only a few read on the train",
+      "b": "Train travel increasingly popular with older people",
+      "c": "Easier to reach the destination via the internet",
+      "d": "Men drive better",
+      "e": "Help when traveling by train",
+      "f": "Women find the right way",
+      "g": "New German course in Solothurn",
+      "h": "Learning is now also done on the train",
+      "i": "Reading on the train is popular",
+      "j": "New traffic rules for drivers"
+    },
+    "passages": [
+      {
+        "number": 1,
+        "text": "Frauen kommen genauso gut an ihr Ziel wie Männer, sie geben nur nicht so damit an. Das ergab eine Studie der Eberhard-Karls-Universität Tübingen mit 600 Testpersonen. Obwohl Frauen sich so gut zurechtfinden wie Männer. Wenn Frauen allein unterwegs sind, fragen sie öfter nach dem Weg und freuen sich, wenn ihnen Freunde helfen. Die Tübinger Forscher nennen das ein 'kommunikatives Orientierungsmodell'. Männer dagegen verfahren sich lieber dreimal, als einmal um Hilfe zu bitten. Dabei spielt offensichtlich die Erziehung eine Rolle.",
+        "text_en": "Women arrive at their destination just as well as men, they just don't show off about it as much. That was the result of a study by the Eberhard Karls University of Tübingen with 600 test subjects. Although women find their way around as well as men. When women are traveling alone, they ask for directions more often and are happy when friends help them. The Tübingen researchers call this a 'communicative orientation model'. Men, on the other hand, would rather get lost three times than ask for help once. Upbringing obviously plays a role here.",
+        "correct_answer": "f",
+        "explanation": "The text discusses how women navigate and find their way ('kommen genauso gut an ihr Ziel', 'sich so gut zurechtfinden'). This matches heading 'f' (Frauen finden den richtigen Weg).",
+        "vocabulary": [
+          {
+            "de": "angeben",
+            "en": "to show off"
+          },
+          {
+            "de": "sich verfahren",
+            "en": "to get lost (while driving)"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "text": "Bahnfahren ist entspannend und lädt zum Lesen ein. Deswegen liest auch etwa die Hälfte aller Reisenden während ihrer Bahnfahrt. Frauen sind dabei lesefreudiger als Männer: 63 Prozent von ihnen steigen mit dem Buch in den Zug. Wer unterwegs ist, verbringt im Durchschnitt etwa eine Stunde und 28 Minuten mit dem Lesen eines Buches oder einer Zeitung. Ein Zehntel aller Bahnreisenden gesteht, dass sie keine Buchleser sind. Dies sind die wesentlichen Ergebnisse einer Studie der Stiftung Lesen in Zusammenarbeit mit der Deutschen Bahn.",
+        "text_en": "Train travel is relaxing and invites you to read. That is why about half of all travelers read during their train journey. Women are more fond of reading than men: 63 percent of them get on the train with a book. Whoever is on the way spends an average of about one hour and 28 minutes reading a book or a newspaper. A tenth of all train travelers confess that they are not book readers. These are the main results of a study by the Reading Foundation in cooperation with Deutsche Bahn.",
+        "correct_answer": "i",
+        "explanation": "The text states that about half of travelers read during their train journey and spend considerable time doing so. This directly aligns with heading 'i' (Lesen im Zug ist beliebt).",
+        "vocabulary": [
+          {
+            "de": "lesefreudig",
+            "en": "fond of reading"
+          },
+          {
+            "de": "gestehen",
+            "en": "to confess"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "text": "Der frühere Verein junger Mädchen heißt nun 'Compagna' und hat sich zu einem modernen gemeinnützigen Dienstleistungsbetrieb gewandelt. Das wichtigste Ziel des Vereins ist es weiterhin, Menschen zu begleiten. Diese Dienstleistung richtet sich vor allem an Menschen, die auf Hilfe angewiesen sind: Alleinreisende, Kinder, alte und behinderte Menschen. Die Reisenden werden am Ausgangsbahnhof abgeholt und mit den öffentlichen Verkehrsmitteln bis zum Zielort begleitet.",
+        "text_en": "The former association of young girls is now called 'Compagna' and has transformed into a modern non-profit service company. The most important goal of the association is still to accompany people. This service is primarily aimed at people who rely on help: people traveling alone, children, the elderly, and disabled people. The travelers are picked up at the departure station and accompanied by public transport to their destination.",
+        "correct_answer": "e",
+        "explanation": "The text describes an association that helps and accompanies people traveling by public transport/train. This fits heading 'e' (Hilfe beim Reisen mit der Bahn).",
+        "vocabulary": [
+          {
+            "de": "gemeinnützig",
+            "en": "non-profit"
+          },
+          {
+            "de": "angewiesen sein auf",
+            "en": "to rely on / depend on"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "text": "Christine zum Stein, Leiterin der Volkshochschule Solothurn (VHS), ist begeistert: 'Super gelaufen' seien die Kurse, die die VHS in den Morgenzügen des Quartals angeboten hat. Weil sich das Pilotprojekt von VHS und RBS auf der Strecke Solothurn - Bern bestens bewährt hat, sollen künftig auch Pendlerinnen und Pendler in umgekehrter Richtung die Möglichkeit erhalten, während der Bahnfahrt Sprachen zu lernen. Zug ab Bern, mit einem Kurs in einer neuen Rechtschreibung. Ebenfalls angeboten werden Englisch, Italienisch und Französisch.",
+        "text_en": "Christine zum Stein, head of the Solothurn Adult Education Center (VHS), is enthusiastic: the courses that the VHS offered in the morning trains of the quarter went 'superbly'. Because the pilot project by VHS and RBS on the Solothurn - Bern route has proven highly successful, commuters in the opposite direction will in future also be given the opportunity to learn languages during the train journey. Train from Bern, with a course in new spelling. English, Italian and French are also offered.",
+        "correct_answer": "h",
+        "explanation": "The text is about language courses being held on commuter trains ('während der Bahnfahrt Sprachen zu lernen'). This matches heading 'h' (Jetzt wird auch im Zug gelernt).",
+        "vocabulary": [
+          {
+            "de": "der Pendler",
+            "en": "the commuter"
+          },
+          {
+            "de": "sich bewähren",
+            "en": "to prove oneself / to prove successful"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "text": "Sie sind in der Schweiz zu einem Fest eingeladen, aber auf der Einladung steht nur die Adresse? Kein Problem, auch ohne Auto: Seit einiger Zeit hat der Internet-Fahrplan der Schweizerischen Bundesbahnen (www.sbb.ch) einen großen Bruder. Bis jetzt konnte man nur Verbindungen von Bahnhöfen zu Bahnhöfen oder Haltestellen abfragen. Neuerdings ist das auch für den Weg von einer Adresse zu einer anderen möglich. Der elektronische Fahrplan führt Sie automatisch zum Haltepunkt des öffentlichen Verkehrs, der am nächsten bei der Zieladresse liegt. Das ist mit dem Verkehrsleitsystem für Autos vergleichbar, das Sie aber auch in der verkehrten Richtung durch Einbahnstraßen führen kann. Beim öffentlichen Verkehr kommt das glücklicherweise nicht vor.",
+        "text_en": "You have been invited to a party in Switzerland, but the invitation only has the address? No problem, even without a car: For some time now, the internet timetable of the Swiss Federal Railways (www.sbb.ch) has had a big brother. Until now, you could only query connections from stations to stations or stops. Recently, this has also been possible for the route from one address to another. The electronic timetable automatically guides you to the public transport stop that is closest to the destination address. This is comparable to the traffic control system for cars, which, however, can also lead you in the wrong direction through one-way streets. Fortunately, this does not happen with public transport.",
+        "correct_answer": "c",
+        "explanation": "The text explains how a new internet timetable helps users find routes directly to specific addresses ('Per Internet leichter ans Ziel'). This matches heading 'c'.",
+        "vocabulary": [
+          {
+            "de": "abfragen",
+            "en": "to query / request information"
+          },
+          {
+            "de": "das Verkehrsleitsystem",
+            "en": "the traffic control system"
+          }
+        ]
+      }
+    ]
+  },
+  "leseverstehen_teil_2": {
+    "passage": {
+      "headline": "MLM-Makler - ein neuer Beruf mit Zukunft",
+      "subheadline": "Neue Berufe: Raumberater für harmonisches Wohnen",
+      "paragraphs": [
+        "Räume nach der chinesischen Lehre Feng-Shui zu gestalten, damit sich die Menschen wohl fühlen - das ist der Beruf von Iris Eigenmann.",
+        "Seit knapp einem Jahr bin ich nun selbstständig und bin voller Energie. So stehe ich jeden Tag mit einem Lächeln auf und gehe abends wieder mit einem Lächeln ins Bett. Die diplomierte Raumberaterin Iris Eigenmann ist von ihrem Beruf sichtlich begeistert. Da viele mit dem Wort Feng-Shui nichts anfangen können, bezeichnet sie sich selbst als Raumberaterin für harmonisches Wohnen. Ihre Aufgabe ist es, Wohnungen, aber auch Büros und andere Arbeitsplätze so einzurichten, dass sich Menschen in diesen Räumen wohl fühlen können.",
+        "Ursprünglich ist Frau Eigenmann gelernte Hochbauzeichnerin und hat jahrelang Bauprojekte geleitet. Diese Erfahrungen mit Architektur und Wohnbau helfen ihr nun sehr bei ihrer Tätigkeit als Raumberaterin. Ihre Arbeit besteht darin, den optimalen Energiefluss eines Wohn- oder Arbeitsumfeldes zu finden. Sie macht individuelle Vorschläge für die Raumanordnung, die Farbwahl der Wände oder für die Verwendung von Baumaterialien. \"Ich habe alle Ideen zuerst bei mir zu Hause ausprobiert und war selbst überrascht von der positiven Wirkung\", erzählt sie begeistert.",
+        "Eine Raumberaterin arbeitet in der Regel folgendermaßen: Zuerst besprechen die Leute mit Frau Eigenmann, warum sie sich in ihrer Wohnung nicht wohl fühlen und wie sie ihren Wohnraum verbessern möchten. Dann bittet die Beraterin ihre Kunden, ihr einen genauen Plan der Wohnung zu schicken, auf dem sie die Möbelaufstellung und die genaue Ausrichtung des Hauses sehen kann. Daraufhin macht Frau Eigenmann einen detaillierten Wohnungsplan mit ausführlichen Erklärungen, wie man die Räume optimal einrichtet, um sich darin zufrieden zu fühlen. Für die Erstellung eines solchen Planes benötigt sie nach eigener Aussage je nach Größe der Wohnung oder des Gebäudes zwischen einem halben und einem ganzen Tag.",
+        "Anschließend geht Iris Eigenmann zu den Leuten nach Hause, um die Situation vor Ort zu analysieren und Verbesserungsmöglichkeiten aufzuzeigen.",
+        "Auch immer mehr Firmen suchen Rat bei einer Raumberaterin, meistens dann, wenn das Unternehmen nicht mehr so erfolgreich arbeitet. Iris Eigenmann versucht dann, das Arbeitsumfeld so zu verändern, dass sich Kunden und Angestellte wohler fühlen. Das führt in den meisten Fällen dazu, dass auch die Geschäfte wieder besser gehen. Der Preis für die Raumberatung wird je nach Aufwand mit dem Kunden gemeinsam bestimmt. Das Geld aber ist für Frau Eigenmann weniger wichtig als die Möglichkeit, den Menschen zu helfen und ihre positiven Erfahrungen weiterzugeben.",
+        "Das persönliche Ziel der Feng-Shui-Raumberaterin für die Zukunft ist es, vermehrt auch im sozialen Bereich zu wirken - zum Beispiel in Krankenhäusern oder Altersheimen. Sie meint, dass mit einfachen Maßnahmen dort die Lebensqualität der Menschen erheblich verbessert werden könnte."
+      ],
+      "text_en": "MLM broker - a new profession with a future\nNew professions: Room advisor for harmonious living\nDesigning rooms according to the Chinese teaching of Feng Shui so that people feel comfortable - that is the profession of Iris Eigenmann.\nI have been self-employed for just under a year now and am full of energy. So I get up every day with a smile and go to bed again in the evening with a smile. The qualified room advisor Iris Eigenmann is visibly enthusiastic about her profession. Since many cannot do anything with the word Feng Shui, she calls herself a room advisor for harmonious living. Her task is to furnish apartments, but also offices and other workplaces, in such a way that people can feel comfortable in these rooms.\nOriginally, Ms. Eigenmann is a trained structural draftswoman and has managed construction projects for years. These experiences with architecture and housing now help her a lot in her work as a room advisor. Her work consists of finding the optimal energy flow of a living or working environment. She makes individual suggestions for the room layout, the color choice of the walls, or for the use of building materials. \"I first tried out all ideas at home and was surprised myself by the positive effect,\" she says enthusiastically.\nA room advisor usually works as follows: First, people discuss with Ms. Eigenmann why they don't feel comfortable in their apartment and how they would like to improve their living space. Then the advisor asks her clients to send her an exact plan of the apartment, on which she can see the furniture arrangement and the exact orientation of the house. Then Ms. Eigenmann makes a detailed apartment plan with detailed explanations on how to optimally furnish the rooms in order to feel satisfied in them. According to her own statement, she needs between half a day and a whole day to create such a plan, depending on the size of the apartment or building.\nAfterwards, Iris Eigenmann goes to the people's homes to analyze the situation on site and point out possibilities for improvement.\nMore and more companies are also seeking advice from a room advisor, mostly when the company is no longer working as successfully. Iris Eigenmann then tries to change the working environment in such a way that customers and employees feel more comfortable. In most cases, this also leads to business improving again. The price for the room consultation is determined together with the customer depending on the effort. The money, however, is less important to Ms. Eigenmann than the opportunity to help people and pass on her positive experiences.\nThe personal goal of the Feng Shui room advisor for the future is to increasingly work in the social sector as well - for example in hospitals or retirement homes. She believes that the quality of life of the people there could be significantly improved with simple measures.",
+      "vocabulary": [
+        {
+          "de": "gestalten",
+          "en": "to design / shape"
+        },
+        {
+          "de": "die Ausrichtung",
+          "en": "the orientation / alignment"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 6,
+        "question": "Iris Eigenmann...",
+        "question_en": "Iris Eigenmann...",
+        "options": {
+          "a": "berät Kunden beim Aufstellen von Möbeln in Wohnungen und Büros.",
+          "b": "hilft Menschen bei der richtigen Berufswahl.",
+          "c": "zeichnet Pläne für eine große Baufirma."
+        },
+        "options_en": {
+          "a": "advises customers on setting up furniture in homes and offices.",
+          "b": "helps people make the right career choice.",
+          "c": "draws plans for a large construction company."
+        },
+        "correct_answer": "a",
+        "explanation": "The text says her task is 'Wohnungen, aber auch Büros und andere Arbeitsplätze so einzurichten...' (to furnish apartments, but also offices...)."
+      },
+      {
+        "number": 7,
+        "question": "Als Raumberaterin kümmert sich Iris Eigenmann darum,",
+        "question_en": "As a room advisor, Iris Eigenmann takes care that,",
+        "options": {
+          "a": "dass sich Menschen in Wohn- und Arbeitsräumen wohler fühlen.",
+          "b": "chinesische Möbel in Europa zu verkaufen.",
+          "c": "Materialien für neue Bauprojekte zu entwickeln."
+        },
+        "options_en": {
+          "a": "people feel more comfortable in living and working spaces.",
+          "b": "to sell Chinese furniture in Europe.",
+          "c": "to develop materials for new construction projects."
+        },
+        "correct_answer": "a",
+        "explanation": "The text states her goal is that 'sich Menschen in diesen Räumen wohl fühlen können'."
+      },
+      {
+        "number": 8,
+        "question": "Die Leute, die sich beraten lassen wollen,",
+        "question_en": "The people who want to be advised,",
+        "options": {
+          "a": "besprechen mit Frau Eigenmann zuerst ihre Wünsche.",
+          "b": "laden Frau Eigenmann zuerst in ihre Wohnung ein.",
+          "c": "schicken Frau Eigenmann zuerst einen Plan der Wohnung."
+        },
+        "options_en": {
+          "a": "first discuss their wishes with Ms. Eigenmann.",
+          "b": "first invite Ms. Eigenmann into their apartment.",
+          "c": "first send Ms. Eigenmann a plan of the apartment."
+        },
+        "correct_answer": "a",
+        "explanation": "The text details the process: 'Zuerst besprechen die Leute mit Frau Eigenmann, warum sie sich in ihrer Wohnung nicht wohl fühlen...' (First, people discuss with Ms. Eigenmann...)."
+      },
+      {
+        "number": 9,
+        "question": "Die Firmenkunden von Frau Eigenmann...",
+        "question_en": "Ms. Eigenmann's corporate clients...",
+        "options": {
+          "a": "bezahlen besonders wenig für die Beratung.",
+          "b": "sind meist erfolgreiche Unternehmen.",
+          "c": "wollen auch ihre wirtschaftliche Lage verbessern."
+        },
+        "options_en": {
+          "a": "pay particularly little for the consultation.",
+          "b": "are mostly successful companies.",
+          "c": "also want to improve their economic situation."
+        },
+        "correct_answer": "c",
+        "explanation": "The text notes that companies seek her advice 'wenn das Unternehmen nicht mehr so erfolgreich arbeitet' and the change leads to 'dass auch die Geschäfte wieder besser gehen', implying they want to improve their economic situation."
+      },
+      {
+        "number": 10,
+        "question": "Frau Eigenmann möchte in Zukunft...",
+        "question_en": "Ms. Eigenmann would like to in the future...",
+        "options": {
+          "a": "als Krankenschwester arbeiten.",
+          "b": "mit ihrer Arbeit das Leben alter und kranker Menschen verbessern.",
+          "c": "viel Geld verdienen."
+        },
+        "options_en": {
+          "a": "work as a nurse.",
+          "b": "improve the lives of old and sick people with her work.",
+          "c": "earn a lot of money."
+        },
+        "correct_answer": "b",
+        "explanation": "Her future goal is to work in the social sector 'zum Beispiel in Krankenhäusern oder Altersheimen' to improve their 'Lebensqualität' (quality of life)."
+      }
+    ]
+  },
+  "leseverstehen_teil_3": {
+    "advertisements": {
+      "a": {
+        "title": "Schreib- und Literaturwerkstatt",
+        "subtitle": "Bildung",
+        "lines": [
+          "VOLKSHOCHSCHULE: Schreib- und Literaturwerkstatt",
+          "Schreiben ist nicht schwer! Wir wollen das vermitteln.",
+          "Es wird eigenständiges Schreiben geübt. Außerdem werden wir aktuelle Texte und Bücher lesen und diskutieren.",
+          "Ab 26. Februar freitags... gebührenfrei."
+        ],
+        "image": "data/images/viktor_ad_a.png",
+        "text_en": "ADULT EDUCATION CENTER: Writing and Literature Workshop. Writing is not difficult! We want to convey that. Independent writing is practiced. In addition, we will read and discuss current texts and books.",
+        "vocabulary": []
+      },
+      "b": {
+        "title": "Antik- u. Sammlermarkt",
+        "subtitle": "Märkte",
+        "lines": [
+          "Antik- u. Sammlermarkt",
+          "am kommenden Sonntag, Parkhaus frei von 10 bis 16 Uhr.",
+          "Mit einem Spitzenangebot schönster Antiquitäten, alter Möbel, Kunst...",
+          "Auf zwei Verkaufsebenen im Isenburg-Zentrum."
+        ],
+        "image": "data/images/viktor_ad_b.png",
+        "text_en": "Antique and collectors market this coming Sunday... With a top offer of beautiful antiques, old furniture, art... On two sales levels in the Isenburg-Zentrum.",
+        "vocabulary": []
+      },
+      "c": {
+        "title": "Walter GmbH",
+        "subtitle": "Dienstleistungen",
+        "lines": [
+          "Defekte Wasserleitungen? Wasserschaden?",
+          "Heizung W... Probleme mit dem Waschmaschinenanschluss?",
+          "Ihr Fachmann vor Ort. Walter GmbH."
+        ],
+        "image": "data/images/viktor_ad_c.png",
+        "text_en": "Defective water pipes? Water damage? Heating... Problems with the washing machine connection? Your local specialist. Walter GmbH.",
+        "vocabulary": []
+      },
+      "d": {
+        "title": "auspuff sucht Euch!",
+        "subtitle": "Praktikum",
+        "lines": [
+          "auspuff sucht Euch!",
+          "Schüler + Studenten, mit Interesse daran alle Aufgaben rund um die Zeitung von 'auspuff'...",
+          "als Redaktionspraktikanten.",
+          "Mit Interesse an Themen wie Musik, Ausbildung, Veranstaltungen..."
+        ],
+        "image": "data/images/viktor_ad_d.png",
+        "text_en": "'auspuff' is looking for you! Pupils + students, with an interest in all tasks relating to the 'auspuff' newspaper... as editorial interns. With an interest in topics such as music, training, events...",
+        "vocabulary": []
+      },
+      "e": {
+        "title": "THERMOKOMFORT",
+        "subtitle": "Dienstleistungen",
+        "lines": [
+          "Alles aus einer Hand",
+          "Irgendwann ist Ihre Heizung dran...",
+          "Von der Planung über Angebot, Montage bis Wartung.",
+          "Wir haben für Sie Thermo Komfort.",
+          "Zuverlässige Lieferung, Fachgerechte Montage, Regelmäßige Wartung."
+        ],
+        "image": "data/images/viktor_ad_e.png",
+        "text_en": "Everything from a single source. Sometime it will be your heating's turn... From planning to offer, installation to maintenance. We have Thermo Comfort for you.",
+        "vocabulary": []
+      },
+      "f": {
+        "title": "Lagerverkauf",
+        "subtitle": "Einkaufen",
+        "lines": [
+          "Lagerverkauf",
+          "Jukebox, Schallplatten + CDs, Comics + Romane",
+          "donnerstags von 15.00-18.00 Uhr",
+          "66132 Bischmisheim"
+        ],
+        "image": "data/images/viktor_ad_f.png",
+        "text_en": "Warehouse sale. Jukebox, records + CDs, comics + novels. Thursdays from 3 p.m. to 6 p.m.",
+        "vocabulary": []
+      },
+      "g": {
+        "title": "Wir machen Häuser trocken!",
+        "subtitle": "Dienstleistungen",
+        "lines": [
+          "Wir machen Häuser trocken!",
+          "Nasse Wände, feuchte Keller?",
+          "Salpeter, Schimmel, Pilzbefall...",
+          "Trocknung aller Mauern! Abdichtung mit Garantie!",
+          "Fa. Peter Hinz."
+        ],
+        "image": "data/images/viktor_ad_g.png",
+        "text_en": "We make houses dry! Wet walls, damp basements? Saltpeter, mold, fungal attack... Drying of all walls! Waterproofing with guarantee! Fa. Peter Hinz.",
+        "vocabulary": []
+      },
+      "h": {
+        "title": "SCHNEIDERN FÜR ALLE",
+        "subtitle": "Kurse",
+        "lines": [
+          "Volkshochschule: SCHNEIDERN FÜR ALLE",
+          "Wir lernen schneidern, nähen und einsäumen mit allen Stoffen. Besonders Kinderkleidung.",
+          "Ab 21. Feb. immer montags..."
+        ],
+        "image": "data/images/viktor_ad_h.png",
+        "text_en": "Adult Education Center: TAILORING FOR EVERYONE. We learn to tailor, sew and hem with all fabrics. Especially children's clothing.",
+        "vocabulary": []
+      },
+      "i": {
+        "title": "Pianos und Flügel",
+        "subtitle": "Musikinstrumente",
+        "lines": [
+          "Pianos und Flügel",
+          "BECHSTEIN - YAMAHA - SEILER - ZIMMERMANN",
+          "Auch gebrauchte Klaviere.",
+          "Mietkauf, Finanzierung. MUSIKHAUS ARTHUR KNOPP."
+        ],
+        "image": "data/images/viktor_ad_i.png",
+        "text_en": "Pianos and grand pianos. BECHSTEIN - YAMAHA - SEILER - ZIMMERMANN. Also used pianos. Hire purchase, financing. MUSIKHAUS ARTHUR KNOPP.",
+        "vocabulary": []
+      },
+      "j": {
+        "title": "Telefonmarketing",
+        "subtitle": "Dienstleistungen",
+        "lines": [
+          "Telefonmarketing, Telefonservice",
+          "Wir sind für Sie und Ihre Kunden da!",
+          "Wir telefonieren für Ihren Erfolg.",
+          "Kuck und Schmidt, 20440 Hamburg."
+        ],
+        "image": "data/images/viktor_ad_j.png",
+        "text_en": "Telemarketing, telephone service. We are there for you and your customers! We make calls for your success.",
+        "vocabulary": []
+      },
+      "k": {
+        "title": "Einführung in das Saz-Spiel",
+        "subtitle": "Kurse",
+        "lines": [
+          "VOLKSHOCHSCHULE: Einführung in das Saz-Spiel",
+          "Deutschen und ausländischen Teilnehmern, sowohl Anfängern wie Fortgeschrittenen, wird das klassische asiatische Saiteninstrument Saz mit Theorie... beigebracht.",
+          "Gleichzeitig lernen Sie orientalische Volkslieder."
+        ],
+        "image": "data/images/viktor_ad_k.png",
+        "text_en": "ADULT EDUCATION CENTER: Introduction to playing the Saz. German and foreign participants... will be taught the classic Asian string instrument Saz...",
+        "vocabulary": []
+      },
+      "l": {
+        "title": "Miele Waschmaschinen",
+        "subtitle": "Einkaufen",
+        "lines": [
+          "Miele Waschmaschinen",
+          "Ausstellung, Beratung, Verkauf.",
+          "Montag bis Freitag geöffnet...",
+          "Werkkundendienst. Ganz in Ihrer Nähe."
+        ],
+        "image": "data/images/viktor_ad_l.png",
+        "text_en": "Miele washing machines. Exhibition, consultation, sale. Open Monday to Friday...",
+        "vocabulary": []
+      }
+    },
+    "situations": [
+      {
+        "number": 11,
+        "situation": "Sie interessiert sich für eine neue Waschmaschine.",
+        "situation_en": "You are interested in a new washing machine.",
+        "correct_answer": "l",
+        "explanation": "Ad 'l' advertises 'Miele Waschmaschinen' (Miele washing machines) including exhibition, consultation, and sale."
+      },
+      {
+        "number": 12,
+        "situation": "Ihr Freund sucht einen Praktikumsplatz bei einer Zeitung.",
+        "situation_en": "Your friend is looking for an internship at a newspaper.",
+        "correct_answer": "d",
+        "explanation": "Ad 'd' seeks editorial interns ('Redaktionspraktikanten') for the newspaper 'auspuff'."
+      },
+      {
+        "number": 13,
+        "situation": "Sie wollen ein neues Musikinstrument spielen lernen.",
+        "situation_en": "You want to learn to play a new musical instrument.",
+        "correct_answer": "k",
+        "explanation": "Ad 'k' offers an introductory course to playing the Saz ('Einführung in das Saz-Spiel'), an Asian string instrument."
+      },
+      {
+        "number": 14,
+        "situation": "In Ihrer Wohnung gibt es Probleme mit dem Wasser in Bad und Küche und Sie wollen das verändern.",
+        "situation_en": "There are problems with the water in the bathroom and kitchen in your apartment and you want to change that.",
+        "correct_answer": "c",
+        "explanation": "Ad 'c' offers services for 'Defekte Wasserleitungen? Wasserschaden?' (defective water pipes, water damage)."
+      },
+      {
+        "number": 15,
+        "situation": "Ihre Wohnung ist immer zu kalt und Sie wollen das ändern.",
+        "situation_en": "Your apartment is always too cold and you want to change that.",
+        "correct_answer": "e",
+        "explanation": "Ad 'e' from 'THERMOKOMFORT' provides services for heating ('Irgendwann ist Ihre Heizung dran...')."
+      },
+      {
+        "number": 16,
+        "situation": "Sie suchen einen Klavierlehrer für Ihre Tochter.",
+        "situation_en": "You are looking for a piano teacher for your daughter.",
+        "correct_answer": "x",
+        "explanation": "Ad 'i' sells pianos, but there are no ads for a piano teacher ('Klavierlehrer')."
+      },
+      {
+        "number": 17,
+        "situation": "Sie möchten lernen Kleider selber zu machen.",
+        "situation_en": "You want to learn to make clothes yourself.",
+        "correct_answer": "h",
+        "explanation": "Ad 'h' offers a course 'SCHNEIDERN FÜR ALLE' (tailoring for everyone) where you learn to sew and tailor clothes."
+      },
+      {
+        "number": 18,
+        "situation": "In Ihrer Wohnung gibt es Probleme mit feuchten Wänden.",
+        "situation_en": "There are problems with damp walls in your apartment.",
+        "correct_answer": "g",
+        "explanation": "Ad 'g' advertises 'Wir machen Häuser trocken! Nasse Wände, feuchte Keller?' (We make houses dry! Wet walls, damp basements?)."
+      },
+      {
+        "number": 19,
+        "situation": "Sie möchten einen schönen, alten Schrank kaufen.",
+        "situation_en": "You want to buy a beautiful, old closet/wardrobe.",
+        "correct_answer": "b",
+        "explanation": "Ad 'b' is an Antique market ('Antik- u. Sammlermarkt') selling 'alter Möbel' (old furniture)."
+      },
+      {
+        "number": 20,
+        "situation": "Sie wollen lernen, wie man kleine Geschichten auf Deutsch schreibt und suchen einen passenden Kurs.",
+        "situation_en": "You want to learn how to write small stories in German and are looking for a suitable course.",
+        "correct_answer": "a",
+        "explanation": "Ad 'a' offers a 'Schreib- und Literaturwerkstatt' (writing and literature workshop) practicing independent writing."
+      }
+    ]
+  },
+  "sprachbausteine_teil_1": {
+    "instructions": "Lesen Sie den Text und schließen Sie die Lücken 21-30. Welche Lösung (a, b oder c) ist jeweils richtig?",
+    "passage": {
+      "text": "Liebe Dominique,\nda ich dich telefonisch nicht erreiche, auch nicht per E-Mail, schreibe ich dir einen Brief. Es ist nämlich etwas ganz Besonderes ___21___: Stelle ___22___ vor, ich habe die Stelle bei der EU in Brüssel bekommen!\nDu weißt noch: Es gab ungefähr 300 Bewerber, und unter denen ___23___ die besten ausgesucht. Ich hatte mich auf das Vorstellungsgespräch schon ___24___ Zeit vorher vorbereitet. Trotzdem - ohne meine Sprachkenntnisse und meine Auslandserfahrung ___25___ ich die Stelle sicher nicht bekommen. Aber ein bisschen Glück braucht man auch, ___26___ so etwas gelingt.\nNun bitte ich dich ___27___ ein paar gute Tipps. Vielleicht kennst du auch jemanden, von ___28___ ich Informationen über das Leben in Belgien bekommen kann? Ich würde dich am liebsten kurz ___29___, um mit dir persönlich zu sprechen. Geht das vielleicht ___30___ zwei Wochen, z.B. am übernächsten Wochenende? Bitte gib mir Bescheid.\nHerzliche Grüße,\nKatie",
+      "text_en": "Dear Dominique,\nSince I cannot reach you by phone, not even by email, I am writing you a letter. Because something very special has ___21___: Imagine (to ___22___), I got the job at the EU in Brussels!\nYou remember: There were about 300 applicants, and from among them the best ones ___23___ selected. I had prepared for the job interview a ___24___ time beforehand. Nevertheless - without my language skills and my experience abroad, I ___25___ certainly not have got the job. But you also need a little bit of luck ___26___ something like that succeeds.\nNow I ask you ___27___ a few good tips. Maybe you also know someone from ___28___ I can get information about life in Belgium? I would love to ___29___ you briefly to speak with you personally. Would that perhaps be possible ___30___ two weeks, e.g. on the weekend after next? Please let me know.\nBest regards,\nKatie",
+      "vocabulary": [
+        {
+          "de": "ausgesucht",
+          "en": "selected / chosen"
+        },
+        {
+          "de": "gelingen",
+          "en": "to succeed"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 21,
+        "options": {
+          "a": "geschah",
+          "b": "geschehen",
+          "c": "geschieht"
+        },
+        "correct_answer": "b",
+        "explanation": "Perfect tense: 'ist... geschehen' (has happened)."
+      },
+      {
+        "number": 22,
+        "options": {
+          "a": "dich",
+          "b": "dir",
+          "c": "Du"
+        },
+        "correct_answer": "b",
+        "explanation": "The expression is 'Stell dir vor' (Imagine). It requires the dative reflexive pronoun."
+      },
+      {
+        "number": 23,
+        "options": {
+          "a": "halten",
+          "b": "wären",
+          "c": "wurden"
+        },
+        "correct_answer": "c",
+        "explanation": "Passive voice in the past (Präteritum Passiv): 'unter denen wurden die besten ausgesucht' (were selected)."
+      },
+      {
+        "number": 24,
+        "options": {
+          "a": "lange",
+          "b": "langem",
+          "c": "langer"
+        },
+        "correct_answer": "a",
+        "explanation": "Adjective ending for feminine accusative: 'schon lange Zeit vorher' (already a long time beforehand)."
+      },
+      {
+        "number": 25,
+        "options": {
+          "a": "habe",
+          "b": "hätte",
+          "c": "würde"
+        },
+        "correct_answer": "b",
+        "explanation": "Irrealis of the past (Konjunktiv II Vergangenheit): 'hätte ich die Stelle sicher nicht bekommen' (I certainly would not have gotten the job)."
+      },
+      {
+        "number": 26,
+        "options": {
+          "a": "als",
+          "b": "damit",
+          "c": "ob"
+        },
+        "correct_answer": "b",
+        "explanation": "Subordinating conjunction of purpose: 'damit so etwas gelingt' (so that something like that succeeds)."
+      },
+      {
+        "number": 27,
+        "options": {
+          "a": "für",
+          "b": "über",
+          "c": "um"
+        },
+        "correct_answer": "c",
+        "explanation": "The verb 'bitten' takes the preposition 'um': 'ich bitte dich um ein paar Tipps'."
+      },
+      {
+        "number": 28,
+        "options": {
+          "a": "dem",
+          "b": "den",
+          "c": "denen"
+        },
+        "correct_answer": "a",
+        "explanation": "Relative pronoun in the dative referring to 'jemanden' (someone, singular masculine): 'von dem'."
+      },
+      {
+        "number": 29,
+        "options": {
+          "a": "getroffen",
+          "b": "treffe",
+          "c": "treffen"
+        },
+        "correct_answer": "c",
+        "explanation": "Modal verb 'würde' requires the infinitive at the end: 'dich... treffen' (to meet you)."
+      },
+      {
+        "number": 30,
+        "options": {
+          "a": "bis",
+          "b": "in",
+          "c": "an"
+        },
+        "correct_answer": "b",
+        "explanation": "'in zwei Wochen' means 'in two weeks' (future timeframe)."
+      }
+    ]
+  },
+  "sprachbausteine_teil_2": {
+    "instructions": "Lesen Sie den Text und schließen Sie die Lücken 31-40. Benutzen Sie die Wörter (a - o). Jedes Wort passt nur einmal.",
+    "word_bank": {
+      "a": "AUF",
+      "b": "DAFÜR",
+      "c": "DARÜBER",
+      "d": "HÄTTE",
+      "e": "KANN",
+      "f": "KÖNNEN",
+      "g": "MÖCHTE",
+      "h": "SEHR",
+      "i": "SEIT",
+      "j": "SPRECHEN",
+      "k": "VOR",
+      "l": "WENIG",
+      "m": "WIE",
+      "n": "WIE VIELE",
+      "o": "WISSEN"
+    },
+    "word_bank_en": {
+      "a": "on/to",
+      "b": "for it",
+      "c": "about it",
+      "d": "would have",
+      "e": "can",
+      "f": "can (pl)",
+      "g": "would like",
+      "h": "very",
+      "i": "since",
+      "j": "speak",
+      "k": "before / ago",
+      "l": "little",
+      "m": "how",
+      "n": "how many",
+      "o": "to know"
+    },
+    "passage": {
+      "text": "Sehr geehrte Frau Campe,\nmein Deutschlehrer hat mich ___31___ informiert, dass Sie in St. Andreasburg Intensivkurse in Deutsch anbieten.\nIch lerne ___32___ zwei Jahren Deutsch in Yverdon, einer kleinen Stadt in der Westschweiz. Es gefällt mir hier, aber ich lebe in einer französischsprachigen Region und auch meine Arbeitskollegen ___33___ nur Französisch (oder Englisch) mit mir. So habe ich einfach zu ___34___ Gelegenheit, Deutsch zu sprechen. Deshalb interessiere ich mich ___35___ für Ihre Intensivkurse.\nDie Oberpfalz ___36___ ich schon seit langem einmal kennen lernen. Ich habe schon viel darüber gehört und gelesen, war aber selber noch nie dort.\nBevor ich mich für einen Sprachkurs in St. Andreasburg entscheide, ___37___ ich noch einige Fragen an Sie: ___38___ Teilnehmer sind in einer Klasse? Kann man nach dem Unterricht auch individuell mit dem Computer weiterlernen? Muss man für die Exkursionen extra bezahlen oder sind die Kosten ___39___ schon im Kursgeld enthalten?\nFür Ihre Antwort ___40___ meine Fragen bedanke ich mich vielmals.\nMit freundlichen Grüßen,\nNadia Grade",
+      "text_en": "Dear Ms. Campe,\nMy German teacher ___31___ informed me that you offer intensive German courses in St. Andreasburg.\nI have been learning German for ___32___ two years in Yverdon, a small town in western Switzerland. I like it here, but I live in a French-speaking region and my work colleagues also only ___33___ French (or English) to me. So I simply have too ___34___ opportunity to speak German. Therefore, I am ___35___ interested in your intensive courses.\nI ___36___ like to get to know the Upper Palatinate for a long time. I've already heard and read a lot about it, but have never been there myself.\nBefore I decide on a language course in St. Andreasburg, I ___37___ still have some questions for you: ___38___ participants are in a class? Can you also continue learning individually with the computer after the lessons? Do you have to pay extra for the excursions or are the costs ___39___ already included in the course fee?\nI thank you very much for your answer ___40___ my questions.\nYours sincerely,\nNadia Grade",
+      "vocabulary": [
+        {
+          "de": "die Gelegenheit",
+          "en": "the opportunity"
+        },
+        {
+          "de": "das Kursgeld",
+          "en": "the course fee"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 31,
+        "correct_answer": "c",
+        "explanation": "'hat mich darüber informiert' means 'has informed me about it'."
+      },
+      {
+        "number": 32,
+        "correct_answer": "i",
+        "explanation": "'seit zwei Jahren' means 'for two years' (ongoing action from the past)."
+      },
+      {
+        "number": 33,
+        "correct_answer": "j",
+        "explanation": "'meine Arbeitskollegen sprechen' means 'my work colleagues speak'."
+      },
+      {
+        "number": 34,
+        "correct_answer": "l",
+        "explanation": "'zu wenig Gelegenheit' means 'too little opportunity'."
+      },
+      {
+        "number": 35,
+        "correct_answer": "h",
+        "explanation": "'interessiere ich mich sehr' means 'I am very interested'."
+      },
+      {
+        "number": 36,
+        "correct_answer": "g",
+        "explanation": "'möchte ich schon seit langem einmal kennen lernen' means 'I would like to get to know for a long time'."
+      },
+      {
+        "number": 37,
+        "correct_answer": "d",
+        "explanation": "'hätte ich noch einige Fragen' means 'I would still have some questions'."
+      },
+      {
+        "number": 38,
+        "correct_answer": "n",
+        "explanation": "'Wie viele Teilnehmer' means 'How many participants'."
+      },
+      {
+        "number": 39,
+        "correct_answer": "b",
+        "explanation": "'sind die Kosten dafür schon im Kursgeld enthalten' means 'are the costs for it already included in the course fee'."
+      },
+      {
+        "number": 40,
+        "correct_answer": "a",
+        "explanation": "'Antwort auf meine Fragen' means 'answer to my questions'."
+      }
+    ]
+  },
+  "hoerverstehen_teil_1": {
+    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören diese Texte nur einmal. Entscheiden Sie beim Hören, ob die Aussagen 41-45 richtig (+) oder falsch (-) sind.",
+    "transcripts": [
+      {
+        "number": 41,
+        "text": "Also, ich finde Handys oft störend. Neulich war ich im Café und jemand telefonierte laut neben mir. Ich konnte mein eigenes Gespräch kaum führen. Auch im Kino nervt es mich, wenn Leute ständig aufs Display schauen. Ich finde, man sollte mehr Rücksicht nehmen und das Handy öfter ausschalten.",
+        "text_en": "Well, I often find cell phones disturbing. The other day I was in a cafe and someone was talking loudly next to me. I could hardly carry on my own conversation. It also annoys me in the cinema when people constantly look at their display. I think people should be more considerate and turn their cell phones off more often.",
+        "vocabulary": [
+          {
+            "de": "störend",
+            "en": "disturbing / annoying"
+          },
+          {
+            "de": "nerven",
+            "en": "to annoy"
+          }
+        ]
+      },
+      {
+        "number": 42,
+        "text": "Ich telefoniere eigentlich nie mit Freunden. Wir schreiben uns ab und zu Nachrichten, aber Telefonieren mag ich nicht. Das ist mir oft zu laut und zu privat. Ich benutze mein Handy mehr für Termine, E-Mails oder Nachrichten. Aber persönliche Gespräche führe ich damit fast nie.",
+        "text_en": "I actually never talk on the phone with friends. We write messages to each other from time to time, but I don't like talking on the phone. That is often too loud and too private for me. I use my cell phone more for appointments, e-mails or news. But I hardly ever have personal conversations with it.",
+        "vocabulary": [
+          {
+            "de": "ab und zu",
+            "en": "from time to time / occasionally"
+          }
+        ]
+      },
+      {
+        "number": 43,
+        "text": "Meine Partnerin rufe ich selten mit dem Handy an. Meistens sehen wir uns sowieso zu Hause. Wenn ich sie erreichen will, schreibe ich ihr lieber eine Nachricht. Telefonieren finde ich anstrengend, besonders unterwegs. Außerdem vergisst sie oft, auf Anrufe zu reagieren.",
+        "text_en": "I rarely call my partner on my cell phone. Mostly we see each other at home anyway. If I want to reach her, I prefer to write her a message. I find talking on the phone exhausting, especially when on the go. Besides, she often forgets to respond to calls.",
+        "vocabulary": [
+          {
+            "de": "anstrengend",
+            "en": "exhausting / tiring"
+          }
+        ]
+      },
+      {
+        "number": 44,
+        "text": "Ich finde Handys für Kinder problematisch. Viele schauen den ganzen Tag auf den Bildschirm. Sie spielen nicht mehr draußen oder mit Freunden. Manche werden auch unruhig, wenn sie das Handy nicht haben. Ich finde, Kinder sollten lieber Bücher lesen oder Sport machen.",
+        "text_en": "I find cell phones problematic for children. Many look at the screen all day long. They no longer play outside or with friends. Some also become restless when they don't have their cell phone. I think children should rather read books or do sports.",
+        "vocabulary": [
+          {
+            "de": "unruhig",
+            "en": "restless"
+          }
+        ]
+      },
+      {
+        "number": 45,
+        "text": "Ich habe schon ein gutes Smartphone. Es funktioniert einwandfrei und ich brauche kein weiteres. Ich bin zufrieden, wie es ist. Ein neues Handy interessiert mich nicht. Ich finde, man muss nicht immer das Neueste haben. Hauptsache, es funktioniert, mehr brauche ich nicht.",
+        "text_en": "I already have a good smartphone. It works flawlessly and I don't need another one. I am satisfied as it is. A new cell phone does not interest me. I think you don't always have to have the newest thing. The main thing is that it works, I don't need more.",
+        "vocabulary": [
+          {
+            "de": "einwandfrei",
+            "en": "flawlessly / perfectly"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "number": 41,
+        "statement": "Die Sprecherin fühlt sich durch Handys gestört.",
+        "statement_en": "The speaker feels disturbed by cell phones.",
+        "correct_answer": "+",
+        "explanation": "She explicitly states 'Also, ich finde Handys oft störend' (Well, I often find cell phones disturbing)."
+      },
+      {
+        "number": 42,
+        "statement": "Der Sprecher benützt das Handy für Gespräche mit Freunden.",
+        "statement_en": "The speaker uses the cell phone for conversations with friends.",
+        "correct_answer": "-",
+        "explanation": "He says 'Ich telefoniere eigentlich nie mit Freunden... persönliche Gespräche führe ich damit fast nie' (I actually never talk on the phone with friends)."
+      },
+      {
+        "number": 43,
+        "statement": "Der Sprecher ruft gerne sein Partnerin mit dem Handy an.",
+        "statement_en": "The speaker likes to call his partner on the cell phone.",
+        "correct_answer": "-",
+        "explanation": "He states 'Meine Partnerin rufe ich selten mit dem Handy an... Telefonieren finde ich anstrengend' (I rarely call my partner... I find talking on the phone exhausting)."
+      },
+      {
+        "number": 44,
+        "statement": "Die Sprecherin findet Handys für Kinder nicht gut.",
+        "statement_en": "The speaker does not think cell phones are good for children.",
+        "correct_answer": "+",
+        "explanation": "She says 'Ich finde Handys für Kinder problematisch' (I find cell phones problematic for children)."
+      },
+      {
+        "number": 45,
+        "statement": "Der Sprecher hätte auch gern ein Handy.",
+        "statement_en": "The speaker would also like to have a cell phone.",
+        "correct_answer": "-",
+        "explanation": "He says 'Ich habe schon ein gutes Smartphone... Ein neues Handy interessiert mich nicht' (I already have a good smartphone... A new cell phone doesn't interest me)."
+      }
+    ]
+  },
+  "hoerverstehen_teil_2": {
+    "instructions": "Sie hören nun ein Gespräch. Dazu sollen Sie zehn Aufgaben lösen. Sie hören das Gespräch zweimal. Entscheiden Sie beim Hören, ob die Aussagen 46-55 richtig (+) oder falsch (-) sind.",
+    "interview_transcript": {
+      "text": "Moderator: Heute hören Sie ein Gespräch über die Freie Filmbühne, ein kleines Kino mit besonderer Geschichte. Themen sind die aktuelle Situation, der Standort, geplante Veränderungen sowie persönliche Einschätzungen einer Mitarbeiterin. Guten Tag, Frau Imbach. Sie arbeiten bei der Freien Filmbühne in Burgoberdorf. Können Sie uns ein bisschen über das Kino erzählen?\nFrau Imbach: Ja gerne. Die Freie Filmbühne ist ein kleines Kino hier in Burgoberdorf. Es gibt uns schon seit vielen Jahren. Wir zeigen besondere Filme, keine Blockbuster, sondern eher Filme mit tieferem Inhalt.\nModerator: Und wie läuft es zurzeit?\nFrau Imbach: Leider gibt es Probleme. Unser Gebäude soll abgerissen werden. Es ist alt und der Besitzer hat andere Pläne. Das bedeutet, unser Kino muss schließen. Das ist schade.\nModerator: Gibt es Pläne für einen neuen Standort?\nFrau Imbach: Nein, noch nicht. Wir haben bisher nichts Passendes gefunden. Es ist schwierig, ein günstiges Gebäude zu finden, das sich für ein Kino eignet.\nModerator: Hat das Kino dieses Jahr einen Preis bekommen?\nFrau Imbach: Ja, tatsächlich. Wir haben einen Preis für unser besonderes Programm erhalten. Es war das erste Mal, dass wir so eine Auszeichnung bekommen haben. Wir waren sehr stolz.\nModerator: Viele Menschen kennen die Freie Filmbühne. Was war früher in dem Gebäude, in dem das Kino heute ist?\nFrau Imbach: Oh, das war kein Schulgebäude, wie manche denken. Früher war es ein kleines Gemeindehaus. Später wurde es dann zum Kino umgebaut.\nModerator: Gibt es in der Nähe vom Kino Cafés oder Bars?\nFrau Imbach: Nein, nicht direkt. Die nächste Möglichkeit ist etwa 15 Minuten zu Fuß entfernt. Viele Besucher gehen danach einfach nach Hause.\nModerator: Was passiert mit dem Gelände, wenn das Gebäude abgerissen wird?\nFrau Imbach: Dort sollen neue Wohnungen gebaut werden und auch ein kleines Freizeitzentrum. Der Eigentümer hat schon Pläne beim Rathaus eingereicht.\nModerator: Und wann soll das alles fertig sein?\nFrau Imbach: Der Bau soll schnell gehen, aber zwei Jahre wird's wohl nicht dauern. Vielleicht ein Jahr oder etwas mehr. Die Stadt möchte alles zügig umsetzen.\nModerator: Hat sich das Interesse am Kino verändert?\nFrau Imbach: Ja, das stimmt leider. Am Anfang hatten viel mehr Menschen Interesse an der Freien Filmbühne. Heute ist das Interesse deutlich geringer. Viele entdecken unser Kino erst jetzt, wo es bald schließen muss.\nModerator: Was ist Ihre persönliche Meinung? Wünschen Sie sich einen Umzug?\nFrau Imbach: Ehrlich gesagt, nein. Ich bin traurig, dass wir schließen müssen, aber ich finde, ein neues Gebäude wäre nicht das Gleiche. Es geht nicht nur um Filme, sondern auch um die Atmosphäre.\nModerator: Und bis zur Schließung gibt es noch Filmvorführungen?\nFrau Imbach: Natürlich. Wir zeigen weiterhin Filme bis zum letzten Tag. Wir wollen uns mit einem schönen Programm verabschieden. Die Leute sollen noch ein letztes Mal die besondere Stimmung erleben.\nModerator: Vielen Dank, Frau Imbach, für das Gespräch und alles Gute für die Zukunft.\nFrau Imbach: Danke Ihnen.",
+      "text_en": "Moderator: Today you will hear a conversation about the Freie Filmbühne, a small cinema with a special history. Topics include the current situation, the location, planned changes and personal assessments by an employee. Good afternoon, Ms. Imbach. You work at the Freie Filmbühne in Burgoberdorf. Can you tell us a bit about the cinema?\nMs. Imbach: Yes, gladly. The Freie Filmbühne is a small cinema here in Burgoberdorf. We have been around for many years. We show special films, not blockbusters, but rather films with deeper content.\nModerator: And how are things going currently?\nMs. Imbach: Unfortunately, there are problems. Our building is to be demolished. It is old and the owner has other plans. This means our cinema has to close. That's a pity.\nModerator: Are there plans for a new location?\nMs. Imbach: No, not yet. We haven't found anything suitable yet. It is difficult to find a cheap building that is suitable for a cinema.\nModerator: Did the cinema receive an award this year?\nMs. Imbach: Yes, indeed. We received a prize for our special program. It was the first time we got such an award. We were very proud.\nModerator: Many people know the Freie Filmbühne. What used to be in the building where the cinema is today?\nMs. Imbach: Oh, it wasn't a school building, as some think. It used to be a small community center. Later it was converted into a cinema.\nModerator: Are there cafes or bars near the cinema?\nMs. Imbach: No, not directly. The nearest option is about a 15-minute walk away. Many visitors simply go home afterwards.\nModerator: What will happen to the site when the building is demolished?\nMs. Imbach: New apartments are to be built there and also a small leisure center. The owner has already submitted plans to the town hall.\nModerator: And when is all this supposed to be finished?\nMs. Imbach: The construction should go quickly, but it probably won't take two years. Maybe a year or a little more. The city wants to implement everything quickly.\nModerator: Has interest in the cinema changed?\nMs. Imbach: Yes, unfortunately that's true. In the beginning, many more people were interested in the Freie Filmbühne. Today, interest is significantly lower. Many people are only discovering our cinema now that it is about to close.\nModerator: What is your personal opinion? Would you like a move?\nMs. Imbach: To be honest, no. I am sad that we have to close, but I think a new building would not be the same. It's not just about films, but also about the atmosphere.\nModerator: And are there still film screenings until the closure?\nMs. Imbach: Of course. We will continue to show films until the last day. We want to say goodbye with a nice program. People should experience the special atmosphere one last time.\nModerator: Thank you very much, Ms. Imbach, for the interview and all the best for the future.\nMs. Imbach: Thank you.",
+      "vocabulary": [
+        {
+          "de": "abreißen",
+          "en": "to demolish / tear down"
+        },
+        {
+          "de": "der Standort",
+          "en": "the location"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 46,
+        "statement": "Das Kino Freie Filmbühne ist in Burgoberdorf.",
+        "statement_en": "The cinema Freie Filmbühne is in Burgoberdorf.",
+        "correct_answer": "+",
+        "explanation": "She confirms 'Die freie Filmbühne ist ein kleines Kino hier in Burgoberdorf'."
+      },
+      {
+        "number": 47,
+        "statement": "Die Freie Filmbühne wird geschlossen.",
+        "statement_en": "The Freie Filmbühne is being closed.",
+        "correct_answer": "+",
+        "explanation": "She states 'das bedeutet unser Kino muss schließen' (this means our cinema has to close)."
+      },
+      {
+        "number": 48,
+        "statement": "Die Freie Filmbühne hat dieses Jahr zum ersten Mal einen Preis gewonnen.",
+        "statement_en": "The Freie Filmbühne won a prize for the first time this year.",
+        "correct_answer": "+",
+        "explanation": "She confirms 'es war das erste Mal, dass wir so eine Auszeichnung bekommen haben' (it was the first time we received such an award)."
+      },
+      {
+        "number": 49,
+        "statement": "Das Haus, in dem die Freie Filmbühne jetzt ist, war früher eine Schule.",
+        "statement_en": "The building where the Freie Filmbühne is now was formerly a school.",
+        "correct_answer": "-",
+        "explanation": "She clarifies 'oh das war kein Schulgebäude... früher war es ein kleines Gemeindehaus' (oh, it wasn't a school building... it used to be a small community center)."
+      },
+      {
+        "number": 50,
+        "statement": "In der Nähe des Kinos kann man etwas trinken gehen.",
+        "statement_en": "You can go for a drink near the cinema.",
+        "correct_answer": "-",
+        "explanation": "She says 'nein nicht direkt. Die nächste Möglichkeit ist etwa 15 Minuten zu Fuß entfernt' (no, not directly. The nearest option is about 15 minutes walk away)."
+      },
+      {
+        "number": 51,
+        "statement": "Wo jetzt die Freie Filmbühne ist, sollen Wohnungen und ein Freizeitzentrum gebaut werden.",
+        "statement_en": "Where the Freie Filmbühne is now, apartments and a leisure center are to be built.",
+        "correct_answer": "+",
+        "explanation": "She states 'Dort sollen neue Wohnungen gebaut werden und auch ein kleines Freizeitzentrum'."
+      },
+      {
+        "number": 52,
+        "statement": "Es wird wahrscheinlich zwei Jahre dauern, bis die neuen Gebäude fertig sind.",
+        "statement_en": "It will probably take two years until the new buildings are finished.",
+        "correct_answer": "-",
+        "explanation": "She says 'aber zwei Jahre wird's wohl nicht dauern. Vielleicht ein Jahr oder etwas mehr' (but it probably won't take two years. Maybe a year or a little more)."
+      },
+      {
+        "number": 53,
+        "statement": "Es haben jetzt weniger Leute Interesse an der Freie Filmbühne als am Anfang.",
+        "statement_en": "Fewer people are interested in the Freie Filmbühne now than at the beginning.",
+        "correct_answer": "+",
+        "explanation": "She confirms 'Am Anfang hatten viel mehr Menschen Interesse... heute ist das Interesse deutlich geringer' (In the beginning many more people were interested... today the interest is significantly lower)."
+      },
+      {
+        "number": 54,
+        "statement": "Frau Imbach möchte, dass die Freie Filmbühne umzieht.",
+        "statement_en": "Ms. Imbach wants the Freie Filmbühne to move.",
+        "correct_answer": "-",
+        "explanation": "She explicitly says 'Ehrlich gesagt nein... ich finde ein neues Gebäude wäre nicht das gleiche' (To be honest, no... I think a new building would not be the same)."
+      },
+      {
+        "number": 55,
+        "statement": "Bis die Freie Filmbühne schließt, werden keine Filme mehr gezeigt.",
+        "statement_en": "Until the Freie Filmbühne closes, no more films will be shown.",
+        "correct_answer": "-",
+        "explanation": "She counters this: 'Natürlich. Wir zeigen weiterhin Filme bis zum letzten Tag' (Of course. We will continue to show films until the last day)."
+      }
+    ]
+  },
+  "hoerverstehen_teil_3": {
+    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören jeden Text zweimal. Entscheiden Sie beim Hören, ob die Aussagen 56-60 richtig (+) oder falsch (-) sind.",
+    "transcripts": [
+      {
+        "number": 56,
+        "text": "Achtung Autofahrer: Trotz des Nebels ist die Autobahn Richtung München frei. Alle Strecken sind befahrbar, aber bitte fahren Sie vorsichtig. Die Sicht ist in manchen Bereichen eingeschränkt. Es gibt aktuell keine offiziellen Warnungen oder Sperrungen für München.",
+        "text_en": "Attention drivers: Despite the fog, the highway towards Munich is clear. All routes are passable, but please drive carefully. Visibility is restricted in some areas. There are currently no official warnings or closures for Munich.",
+        "vocabulary": [
+          {
+            "de": "der Nebel",
+            "en": "the fog"
+          },
+          {
+            "de": "befahrbar",
+            "en": "passable / navigable"
+          }
+        ]
+      },
+      {
+        "number": 57,
+        "text": "Heute Nachmittag gibt es eine besondere Lesung in der Buchabteilung des Kaufhauses Meier. Zu Gast ist der bekannte Autor Klaus Bernhardt. Er liest aus seinem neuen Roman und beantwortet Fragen der Zuhörer. Beginn ist um 15 Uhr. Der Eintritt ist frei.",
+        "text_en": "This afternoon there is a special reading in the book department of the Meier department store. The guest is the well-known author Klaus Bernhardt. He will read from his new novel and answer questions from the audience. It starts at 3 p.m. Admission is free.",
+        "vocabulary": [
+          {
+            "de": "die Lesung",
+            "en": "the reading"
+          }
+        ]
+      },
+      {
+        "number": 58,
+        "text": "Reisende aufgepasst: Der Zug nach Wien fährt wie gewohnt vom Bahnsteig drei. Es gibt keine Änderungen im Fahrplan. Bitte seien Sie trotzdem pünktlich am Gleis, da der Zug direkt weiterfährt. Weitere Informationen finden Sie auf den Anzeigetafeln.",
+        "text_en": "Attention travelers: The train to Vienna departs from platform three as usual. There are no changes to the timetable. Please still be on time at the platform, as the train will continue its journey immediately. You will find further information on the display boards.",
+        "vocabulary": [
+          {
+            "de": "der Bahnsteig",
+            "en": "the platform"
+          }
+        ]
+      },
+      {
+        "number": 59,
+        "text": "Für alle Besucher der Firma Riedel: Die Straßenbahnlinie 4 bringt Sie direkt in Richtung Königsplatz. Von dort aus erreichen Sie den Haupteingang in wenigen Minuten zu Fuß. Die Haltestelle ist gut ausgeschildert und barrierefrei zugänglich.",
+        "text_en": "For all visitors to the Riedel company: Tram line 4 takes you directly towards Königsplatz. From there you can reach the main entrance in a few minutes on foot. The stop is well signposted and barrier-free accessible.",
+        "vocabulary": [
+          {
+            "de": "ausgeschildert",
+            "en": "signposted"
+          },
+          {
+            "de": "barrierefrei",
+            "en": "barrier-free / accessible"
+          }
+        ]
+      },
+      {
+        "number": 60,
+        "text": "Die Praxis Dr. Klein ist ab Montag wieder geöffnet. Ab diesem Tag können telefonisch oder online neue Termine vereinbart werden. Wegen Renovierungsarbeiten war die Praxis für zwei Wochen geschlossen. Jetzt ist alles neu und bereit für die Patienten.",
+        "text_en": "Dr. Klein's practice will be open again from Monday. From this day, new appointments can be made by phone or online. Due to renovation work, the practice was closed for two weeks. Now everything is new and ready for the patients.",
+        "vocabulary": [
+          {
+            "de": "vereinbaren",
+            "en": "to arrange / agree upon"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "number": 56,
+        "statement": "Wegen des Nebels sollte man heute nicht nach München fahren.",
+        "statement_en": "Because of the fog, one should not drive to Munich today.",
+        "correct_answer": "-",
+        "explanation": "The radio announcement states: 'Trotz des Nebels ist die Autobahn Richtung München frei... Es gibt aktuell keine offiziellen Warnungen oder Sperrungen' (Despite the fog, the highway is clear... no official warnings)."
+      },
+      {
+        "number": 57,
+        "statement": "In der Buchabteilung ist ein berühmter Autor zu Gast.",
+        "statement_en": "A famous author is a guest in the book department.",
+        "correct_answer": "+",
+        "explanation": "The audio confirms: 'in der Buchabteilung des Kaufhauses Meier. Zu Gast ist der bekannte Autor Klaus Bernhardt'."
+      },
+      {
+        "number": 58,
+        "statement": "Der Zug nach Wien fährt heute von einem anderen Bahnsteig ab.",
+        "statement_en": "The train to Vienna departs from a different platform today.",
+        "correct_answer": "-",
+        "explanation": "The announcement clarifies: 'Der Zug nach Wien fährt wie gewohnt vom Bahnsteig drei. Es gibt keine Änderungen im Fahrplan' (departs as usual from platform 3. No changes)."
+      },
+      {
+        "number": 59,
+        "statement": "Die Firma ist mit der Straßenbahn in Richtung Königsplatz zu erreichen.",
+        "statement_en": "The company can be reached by tram in the direction of Königsplatz.",
+        "correct_answer": "+",
+        "explanation": "The audio says: 'Für alle Besucher der Firma Riedel: Die Straßenbahnlinie 4 bringt Sie direkt in Richtung Königsplatz'."
+      },
+      {
+        "number": 60,
+        "statement": "Ab nächsten Montag kann man wieder einen Termin vereinbaren.",
+        "statement_en": "From next Monday you can make an appointment again.",
+        "correct_answer": "+",
+        "explanation": "The announcement confirms: 'Die Praxis Dr. Klein ist ab Montag wieder geöffnet. Ab diesem Tag können... neue Termine vereinbart werden'."
+      }
+    ]
+  }
+}

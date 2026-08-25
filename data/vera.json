@@ -1,0 +1,828 @@
+{
+  "title": "VERA",
+  "leseverstehen_teil_1": {
+    "headings": {
+      "a": "Abendwanderungen ab 89 Euro",
+      "b": "Ausflugsziele für Literaturinteressierte",
+      "c": "Hinweis für Besucher der Bregenzer Festspiele",
+      "d": "Ihre Zeitung folgt Ihnen in den Urlaub",
+      "e": "Laute Musik stört den Nachbarn",
+      "f": "Musikveranstaltungen am Nachmittag",
+      "g": "Neue Zeitung für Ihre Urlaubsplanung",
+      "h": "Rekord: 70.000 Besucher im Bücherdorf",
+      "i": "Schlechtes Wetter: Festspiele abgesagt",
+      "j": "Wandern ohne Gepäck"
+    },
+    "headings_en": {
+      "a": "Evening hikes from 89 euros",
+      "b": "Excursion destinations for those interested in literature",
+      "c": "Note for visitors to the Bregenz Festival",
+      "d": "Your newspaper follows you on vacation",
+      "e": "Loud music disturbs the neighbor",
+      "f": "Music events in the afternoon",
+      "g": "New newspaper for your holiday planning",
+      "h": "Record: 70,000 visitors in the book village",
+      "i": "Bad weather: Festival canceled",
+      "j": "Hiking without luggage"
+    },
+    "passages": [
+      {
+        "number": 1,
+        "text": "Wenn Sie verreisen, wünschen wir Ihnen erholsame und angenehme Ferien. Bitte denken Sie daran, sich Ihre Zeitung an den Urlaubsort nachsenden zu lassen. Denn mit den Neuigkeiten von zu Hause und aus aller Welt lässt sich die schönste Zeit des Jahres erst richtig genießen – ganz Europa kostenlos. Die Höhe des Bezugsgeldes bleibt unverändert. Ausführliche Informationen und entsprechende Coupons finden Sie in unserem großen Reise-Service-Anzeigenteil oder rufen Sie uns einfach an: Telefon 0130-185850 zum Nulltarif. Hannoversche Allgemeine / Neue Presse.",
+        "text_en": "If you are traveling, we wish you a relaxing and pleasant holiday. Please remember to have your newspaper forwarded to your holiday destination. Because with the news from home and from all over the world, the best time of the year can only really be enjoyed - free of charge throughout Europe. The amount of the subscription fee remains unchanged. You will find detailed information and corresponding coupons in our large travel service advertisement section or simply give us a call: Telephone 0130-185850 toll-free. Hannoversche Allgemeine / Neue Presse.",
+        "correct_answer": "d",
+        "explanation": "The text reminds readers to have their newspaper forwarded to their holiday destination ('Zeitung an den Urlaubsort nachsenden zu lassen'). This matches heading 'd' (Your newspaper follows you on vacation).",
+        "vocabulary": [
+          {
+            "de": "nachsenden",
+            "en": "to forward / send on"
+          },
+          {
+            "de": "die Höhe des Bezugsgeldes",
+            "en": "the amount of the subscription fee"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "text": "Im Luftkurort Stadtkyll in der Mittelgebirgslandschaft des Oberen Kylltals werden dreitägige Wanderungen ohne Gepäck veranstaltet. Die Rundwanderung im deutsch-belgischen Naturpark führt abends zu reservierten Zimmern. Die Betriebe übernehmen den Gepäcktransport zum nächsten Tagesziel. Die Wanderungen werden ganzjährig angeboten. Im Wanderprogramm sind drei Übernachtungen mit Frühstück, dreimal Gepäcktransport, eine Wanderkarte, eine Wegbeschreibung und ein Wanderpass enthalten. Der Pauschalbetrag beträgt pro Person 89 Euro. Auskünfte: Verkehrsverein Erholungsgebiet Oberes Kylltal, Kurallee, 54589 Stadtkyll, Telefon (06597) 2878.",
+        "text_en": "In the climatic health resort of Stadtkyll in the low mountain landscape of the Upper Kyll valley, three-day hikes without luggage are organized. The circular hike in the German-Belgian nature park leads to reserved rooms in the evening. The businesses take over the luggage transport to the next daily destination. The hikes are offered all year round. The hiking program includes three overnight stays with breakfast, three times luggage transport, a hiking map, a route description, and a hiking pass. The lump sum is 89 euros per person. Information: Tourist office recreation area Upper Kyll valley, Kurallee, 54589 Stadtkyll, Telephone (06597) 2878.",
+        "correct_answer": "j",
+        "explanation": "The text advertises three-day hikes without luggage ('Wanderungen ohne Gepäck'). The businesses handle the luggage transport. This perfectly matches heading 'j' (Hiking without luggage). Note: Heading 'a' is a distractor, as they are not evening hikes.",
+        "vocabulary": [
+          {
+            "de": "der Luftkurort",
+            "en": "the climatic health resort"
+          },
+          {
+            "de": "der Pauschalbetrag",
+            "en": "the lump sum / flat rate"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "text": "Für den einen ist es musikalischer Hochgenuss, für den anderen schlicht Lärm. Gemeint ist Musik, die aus Lautsprechern, Radios oder durch Musikinstrumente durch geöffnete Türen und Fenster bei sommerlichen Temperaturen ins Freie dringt. Die Gemeinde weist darauf hin, dass während der Mittagsruhe von 13 bis 15 Uhr und nachts von 22 bis 7 Uhr keine musikalische Ruhestörung erfolgen darf. Gartengeräte mit Motoren dürfen montags bis freitags nur von 8 bis 13 und von 15 bis 19 Uhr benutzt werden, an Sonnabenden von 9 bis 13 Uhr. An Sonn- und Feiertagen dürfen die Geräte nicht zum Einsatz kommen.",
+        "text_en": "For some it is a musical delight, for others simply noise. What is meant is music that penetrates outside from loudspeakers, radios or through musical instruments through open doors and windows in summer temperatures. The municipality points out that no musical disturbance of the peace may take place during the midday rest from 1 to 3 p.m. and at night from 10 p.m. to 7 a.m. Garden equipment with motors may only be used Monday to Friday from 8 a.m. to 1 p.m. and from 3 p.m. to 7 p.m., on Saturdays from 9 a.m. to 1 p.m. The equipment may not be used on Sundays and public holidays.",
+        "correct_answer": "e",
+        "explanation": "The text discusses how loud music can be a disturbance of the peace ('Lärm', 'Ruhestörung') and specifies quiet hours. This aligns with heading 'e' (Loud music disturbs the neighbor).",
+        "vocabulary": [
+          {
+            "de": "der Hochgenuss",
+            "en": "the great delight"
+          },
+          {
+            "de": "die Ruhestörung",
+            "en": "the disturbance of the peace"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "text": "In dem Bücherdorf in Mühlbeck/Friedersdorf (Sachsen-Anhalt) warten in acht Antiquariaten über 70.000 Bücher aus allen Bereichen der Literatur auf Interessenten. Das in reizvoller landschaftlicher Umgebung liegende Bücherdorf nahe Bitterfeld, unweit der A9 und des Flughafens Leipzig, ist aus allen Teilen Deutschlands leicht zu erreichen. Geöffnet sind die Antiquariate auch am Samstag und Sonntag. In Europa gibt es bereits zahlreiche solcher Bücherdörfer, u. a. in Belgien, Frankreich, Großbritannien. Initiatorin des deutschen Bücherdorfes ist Heidi Dehne (Tel. 03493/43043).",
+        "text_en": "In the book village in Mühlbeck/Friedersdorf (Saxony-Anhalt), over 70,000 books from all areas of literature are waiting for interested parties in eight antiquarian bookshops. The book village, situated in charming scenic surroundings near Bitterfeld, not far from the A9 and Leipzig airport, is easy to reach from all parts of Germany. The antiquarian bookshops are also open on Saturday and Sunday. There are already numerous such book villages in Europe, including in Belgium, France, Great Britain. The initiator of the German book village is Heidi Dehne (Tel. 03493/43043).",
+        "correct_answer": "b",
+        "explanation": "The text describes a book village ('Bücherdorf') with over 70,000 books as a destination. This matches heading 'b' (Excursion destinations for those interested in literature). Heading 'h' is a distractor because 70,000 refers to books, not visitors.",
+        "vocabulary": [
+          {
+            "de": "das Antiquariat",
+            "en": "the antiquarian bookshop"
+          },
+          {
+            "de": "reizvoll",
+            "en": "charming / attractive"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "text": "Die Bregenzer Festspiele sind bemüht, die Vorstellungen auch bei zweifelhafter Witterung bzw. leichtem Regen auf der Seebühne abzuhalten, weshalb es zu Verzögerungen des Beginns oder zu Unterbrechungen kommen kann. Sollte die Seeaufführung nicht stattfinden können, wird eine halbszenische Version von 'Porgy and Bess' im Festspielhaus gegeben. Wir empfehlen unseren Gästen, bei unsicherer Wetterlage regenfesten Kleidern den Vorzug zu geben und auf Schirme zu verzichten, da diese die Sicht beeinträchtigen. Das Spiel auf dem See wird ohne Pause gespielt. Die Spieldauer beträgt ca. 2 Std. 45 Min.",
+        "text_en": "The Bregenz Festival tries to hold the performances on the lake stage even in doubtful weather or light rain, which is why there may be delays in the start or interruptions. If the lake performance cannot take place, a semi-staged version of 'Porgy and Bess' will be given in the Festspielhaus. We recommend our guests to give preference to rainproof clothing in uncertain weather conditions and to do without umbrellas, as these impair the view. The play on the lake is played without an intermission. The playing time is approx. 2 hours 45 minutes.",
+        "correct_answer": "c",
+        "explanation": "The text provides guidelines and information for attendees of the Bregenz Festival ('Bregenzer Festspiele') regarding weather and seating. This matches heading 'c' (Note for visitors to the Bregenz Festival).",
+        "vocabulary": [
+          {
+            "de": "die Witterung",
+            "en": "the weather conditions"
+          },
+          {
+            "de": "beeinträchtigen",
+            "en": "to impair / negatively affect"
+          }
+        ]
+      }
+    ]
+  },
+  "leseverstehen_teil_2": {
+    "passage": {
+      "headline": "Computerprobleme – ein Kinderspiel",
+      "subheadline": "Anne und Melanie (beide 6) stehen Erzieherinnen mit Vorschlägen hilfreich zur Seite",
+      "paragraphs": [
+        "Sie sind die Problemlöser im Kindergarten an der Munckerstraße. Wenn das Malprogramm spinnt, plötzlich ein Spiel auftaucht, das keiner kennt, dann rufen die Erzieherinnen nach Anne und Melanie. Die sind zwar erst sechs Jahre alt, aber mit den Computerspielen kennen sie sich aus. \"Die Kinder wissen manchmal mehr als wir\", sagt Eva Schilling, Leiterin des Kindergartens. Gelernt haben die beiden ihr Know-how bei \"Multimedia-Landschaften für Kinder\", einem Projekt, das das Schulamt zusammen mit dem \"Studio im Netz\" gestartet hat.",
+        "Im Rahmen dieses Projekts werden in städtischen Kindergärten zwei Wanderstationen mit je drei Multimedia-Computern und einem Farbdrucker installiert. Die Stationen wandern durch 14 Kindergärten, wo sie jeweils für vier Wochen installiert werden. Mit dabei in den Kindergärten: ein ganzer Satz von Spiel-Software.",
+        "Vierjährige am Computer? \"In Pädagogenkreisen sind viele Berührungsängste da\", weiß Edith Ilg, Fachberaterin für Kindergärten beim Schulamt, \"aber wir können uns aus dieser Entwicklung nicht ausklinken. Die Kinder wollen sich mit ihrer Umwelt auseinandersetzen.\" Angefangen hat diese Auseinandersetzung im \"Studio im Netz\" – 193 Kinder waren eingeladen, um erste Erfahrungen am Computer zu sammeln. \"Die Kinder waren absolut begeistert, haben immer wieder gefragt: Wann gehen wir da wieder hin?\", so Frau Ilg.",
+        "Bevor jedoch die Computer in die Kindergärten kamen, waren die Eltern aufzuklären. Bei manchen Eltern löste das Stichwort Computer akute Ängste aus, nach dem Motto: Mein fröhliches, gesundes Kind setzt sich vor den Computer und steht sechs Stunden später krank, sprachlos und einsam wieder auf.",
+        "Diese Ängste haben sich inzwischen gelegt und die Erfahrung vor Ort zeigt, dass sie weitgehend überflüssig sind. Die Erzieherinnen achten auch darauf, dass die Kinder nie länger als 15 bis 20 Minuten vor den Computern sitzen, und holen vor allem kreative Software auf den Bildschirm.",
+        "Das einsame Dämmern vor dem Computer ist wohl ohnehin eher Sache der Erwachsenen – die Kinder spielen immer zu zweit oder zu dritt an der Maschine. Eva Schilling hat beobachtet, dass die Kinder am Computer sehr friedlich miteinander umgehen; sie helfen sich gegenseitig, es gibt wenig Konflikte. Dabei entwickeln gerade Kinder, die sich sonst nur schwer auf etwas konzentrieren können, plötzlich ungeahnte Konzentrationszeiten. Eva Schilling kann sich deshalb die Computer als Dauereinrichtung im Kindergarten vorstellen."
+      ],
+      "text_en": "Computer problems - child's play\nAnne and Melanie (both 6) are on hand to help kindergarten teachers with suggestions\nThey are the problem solvers in the kindergarten on Munckerstraße. If the painting program goes crazy, or a game suddenly appears that nobody knows, the kindergarten teachers call for Anne and Melanie. They are only six years old, but they know their way around computer games. \"The children sometimes know more than we do,\" says Eva Schilling, head of the kindergarten. The two learned their know-how at 'Multimedia Landscapes for Children', a project launched by the school authority together with the 'Studio in the Net'.\nAs part of this project, two traveling stations, each with three multimedia computers and a color printer, will be installed in municipal kindergartens. The stations travel through 14 kindergartens, where they are installed for four weeks at a time. Also included in the kindergartens: a whole set of game software.\nFour-year-olds on the computer? \"In educational circles there is a lot of fear of contact,\" knows Edith Ilg, specialist advisor for kindergartens at the school authority, \"but we cannot opt out of this development. Children want to engage with their environment.\" This engagement began in the 'Studio in the Net' - 193 children were invited to gain their first experiences on the computer. \"The children were absolutely thrilled, kept asking: When are we going there again?\" said Ms. Ilg.\nBefore the computers came into the kindergartens, however, the parents had to be informed. For some parents, the keyword computer triggered acute fears, along the lines of: My happy, healthy child sits down in front of the computer and gets up six hours later sick, speechless, and lonely.\nThese fears have since subsided and experience on site shows that they are largely superfluous. The educators also ensure that the children never sit in front of the computers for more than 15 to 20 minutes, and primarily bring creative software to the screen.\nLonely dozing in front of the computer is probably more a thing for adults anyway - the children always play in twos or threes at the machine. Eva Schilling has observed that the children treat each other very peacefully at the computer; they help each other, there are few conflicts. Children who otherwise have difficulty concentrating on something suddenly develop unimagined periods of concentration. Eva Schilling can therefore imagine computers as a permanent fixture in the kindergarten.",
+      "vocabulary": [
+        {
+          "de": "die Berührungsangst",
+          "en": "the fear of contact / apprehension"
+        },
+        {
+          "de": "ausklinken",
+          "en": "to opt out / disengage"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 6,
+        "question": "Das Schulamt hat ein Projekt gestartet, bei dem...",
+        "question_en": "The school board started a project in which...",
+        "options": {
+          "a": "Computer in Kindergärten aufgestellt werden.",
+          "b": "Computerspiele für Vierjährige entwickelt werden sollen.",
+          "c": "Kinder neue Farbdrucker ausprobieren sollen."
+        },
+        "options_en": {
+          "a": "computers are set up in kindergartens.",
+          "b": "computer games for four-year-olds are to be developed.",
+          "c": "children are to try out new color printers."
+        },
+        "correct_answer": "a",
+        "explanation": "The text states: 'werden in städtischen Kindergärten zwei Wanderstationen mit je drei Multimedia-Computern... installiert' (traveling stations with multimedia computers are installed in kindergartens)."
+      },
+      {
+        "number": 7,
+        "question": "Die Kinder...",
+        "question_en": "The children...",
+        "options": {
+          "a": "hatten großen Spaß bei dem Projekt.",
+          "b": "wollten lieber draußen im Freien spielen.",
+          "c": "wussten nicht, wann sie ins Studio im Netz gehen sollten."
+        },
+        "options_en": {
+          "a": "had great fun with the project.",
+          "b": "preferred to play outside in the open air.",
+          "c": "didn't know when they were supposed to go to the studio on the net."
+        },
+        "correct_answer": "a",
+        "explanation": "The text mentions: 'Die Kinder waren absolut begeistert' (The children were absolutely thrilled)."
+      },
+      {
+        "number": 8,
+        "question": "Eltern fürchten, dass...",
+        "question_en": "Parents fear that...",
+        "options": {
+          "a": "der Computer ihren Kindern schadet.",
+          "b": "ihre Kinder nicht so früh aufstehen können.",
+          "c": "ihre Kinder vor dem Computer Angst haben."
+        },
+        "options_en": {
+          "a": "the computer harms their children.",
+          "b": "their children cannot get up so early.",
+          "c": "their children are afraid of the computer."
+        },
+        "correct_answer": "a",
+        "explanation": "Parents had acute fears that the child sits at the computer and gets up 'krank, sprachlos und einsam' (sick, speechless, and lonely)."
+      },
+      {
+        "number": 9,
+        "question": "Die Erzieherinnen...",
+        "question_en": "The educators...",
+        "options": {
+          "a": "arbeiten jeden Tag 15 bis 20 Minuten am Computer.",
+          "b": "spielen immer mit zwei oder drei Kindern am Computer.",
+          "c": "wählen für die Kinder die Software aus."
+        },
+        "options_en": {
+          "a": "work on the computer for 15 to 20 minutes every day.",
+          "b": "always play with two or three children on the computer.",
+          "c": "choose the software for the children."
+        },
+        "correct_answer": "c",
+        "explanation": "The text notes that the educators 'holen vor allem kreative Software auf den Bildschirm' (primarily bring creative software to the screen), meaning they select it."
+      },
+      {
+        "number": 10,
+        "question": "Wenn die Kinder am Computer sitzen, dann...",
+        "question_en": "When the children sit at the computer, then...",
+        "options": {
+          "a": "gibt es häufig Streit.",
+          "b": "hilft ein Kind dem anderen.",
+          "c": "können sich die meisten nicht lange konzentrieren."
+        },
+        "options_en": {
+          "a": "there are frequent arguments.",
+          "b": "one child helps the other.",
+          "c": "most cannot concentrate for long."
+        },
+        "correct_answer": "b",
+        "explanation": "Eva Schilling observed that 'sie helfen sich gegenseitig, es gibt wenig Konflikte' (they help each other, there are few conflicts)."
+      }
+    ]
+  },
+  "leseverstehen_teil_3": {
+    "advertisements": {},
+    "situations": [
+      {
+        "number": 11,
+        "situation": "Sie haben von einer noch unbekannten Schauspielerin gehört und möchten gern einen Film sehen.",
+        "situation_en": "You have heard of a still unknown actress and would like to see a film.",
+        "correct_answer": "x",
+        "explanation": "The advertisements for this section were not provided in the source material."
+      },
+      {
+        "number": 12,
+        "situation": "Sie haben bereits in einem Hotel gearbeitet und suchen wieder eine neue interessante Stelle.",
+        "situation_en": "You have already worked in a hotel and are looking for a new interesting job.",
+        "correct_answer": "x",
+        "explanation": "The advertisements for this section were not provided in the source material."
+      },
+      {
+        "number": 13,
+        "situation": "Sie interessieren sich für Umweltschutz und suchen eine passende Sendung.",
+        "situation_en": "You are interested in environmental protection and are looking for a suitable program.",
+        "correct_answer": "x",
+        "explanation": "The advertisements for this section were not provided in the source material."
+      },
+      {
+        "number": 14,
+        "situation": "Ihr Freund, der am Institut für Film und Bild studiert, sucht einen geeigneten Praktikumsplatz.",
+        "situation_en": "Your friend, who is studying at the Institute for Film and Image, is looking for a suitable internship.",
+        "correct_answer": "x",
+        "explanation": "The advertisements for this section were not provided in the source material."
+      },
+      {
+        "number": 15,
+        "situation": "In einer Sendereihe wird im Fernsehen über die neue politische Entwicklung in Deutschland berichtet. Sie wollen sich informieren.",
+        "situation_en": "A series on television reports on the new political developments in Germany. You want to inform yourself.",
+        "correct_answer": "x",
+        "explanation": "The advertisements for this section were not provided in the source material."
+      },
+      {
+        "number": 16,
+        "situation": "Sie interessieren sich für Großstädte und ihre Entwicklung und suchen dazu eine Sendung im Rundfunk.",
+        "situation_en": "You are interested in big cities and their development and are looking for a radio program on this.",
+        "correct_answer": "x",
+        "explanation": "The advertisements for this section were not provided in the source material."
+      },
+      {
+        "number": 17,
+        "situation": "Sie wollen bei der Deutschen Bahn eine Ausbildung machen.",
+        "situation_en": "You want to do an apprenticeship at Deutsche Bahn.",
+        "correct_answer": "x",
+        "explanation": "The advertisements for this section were not provided in the source material."
+      },
+      {
+        "number": 18,
+        "situation": "Sie interessieren sich für politisches Theater und möchten am Wochenende dazu etwas hören oder sehen.",
+        "situation_en": "You are interested in political theater and would like to hear or see something about it on the weekend.",
+        "correct_answer": "x",
+        "explanation": "The advertisements for this section were not provided in the source material."
+      },
+      {
+        "number": 19,
+        "situation": "Sie arbeiten gern mit anderen zusammen und suchen eine Tätigkeit bei einer Werbefirma.",
+        "situation_en": "You like working with others and are looking for a job at an advertising agency.",
+        "correct_answer": "x",
+        "explanation": "The advertisements for this section were not provided in the source material."
+      },
+      {
+        "number": 20,
+        "situation": "Sie studieren Fremdsprachen und suchen einen Job, bei dem Sie mit Kindern arbeiten können.",
+        "situation_en": "You study foreign languages and are looking for a job where you can work with children.",
+        "correct_answer": "x",
+        "explanation": "The advertisements for this section were not provided in the source material."
+      }
+    ]
+  },
+  "sprachbausteine_teil_1": {
+    "instructions": "Lesen Sie den Text und schließen Sie die Lücken 21-30. Welche Lösung (a, b oder c) ist jeweils richtig?",
+    "passage": {
+      "text": "Liebe Beatrice,\nwie du ja weißt, sind meine Eltern seit Anfang Mai in einem Haus ___21___ Mittelmeer in Spanien. Zuerst wollten meine Eltern warten, bis ich mit dem Gymnasium fertig bin. Aber dann sind sie doch ___22___ früher gefahren.\nAls ich im Sommer 18 wurde, wollte ich mit ___23___ älteren Bruder zusammen eine kleine Wohnung mieten. Das hat aber nicht geklappt. Eine Freundin hat ___24___ dann ein Zimmer in ihrer Wohngemeinschaft angeboten. Ich wohne jetzt mit drei ___25___ zusammen in der Innenstadt. Ich bin sehr zufrieden, ___26___ mein Zimmer recht klein ist.\nIn der Schule habe ich keine Probleme. Ich staune selbst über meine Noten, wenn ich ___27___ denke, wie ___28___ Zeit ich mir für Hausaufgaben nehme.\nManchmal schicken mir meine Eltern eine E-Mail. ___29___ sie rufen an.\n___30___ jetzt habe ich jede Woche von ihnen gehört.\nDas war's für heute, bis bald und liebe Grüße,\nSaskia",
+      "text_en": "Dear Beatrice,\nAs you know, my parents have been in a house ___21___ the Mediterranean in Spain since the beginning of May. At first my parents wanted to wait until I finished high school. But then they went ___22___ earlier after all.\nWhen I turned 18 in the summer, I wanted to rent a small apartment together with ___23___ older brother. But that didn't work out. A friend then offered ___24___ a room in her shared flat. I now live together with three ___25___ in the city center. I am very satisfied, ___26___ my room is quite small.\nI have no problems at school. I am amazed at my grades myself when I think ___27___ it, how ___28___ time I take for homework.\nSometimes my parents send me an e-mail. ___29___ they call.\n___30___ now I have heard from them every week.\nThat's it for today, see you soon and best regards,\nSaskia",
+      "vocabulary": [
+        {
+          "de": "staunen",
+          "en": "to be amazed / marvel"
+        },
+        {
+          "de": "die Wohngemeinschaft",
+          "en": "the shared flat"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 21,
+        "options": {
+          "a": "am",
+          "b": "im",
+          "c": "zum"
+        },
+        "correct_answer": "a",
+        "explanation": "'am Mittelmeer' means 'at the Mediterranean Sea'."
+      },
+      {
+        "number": 22,
+        "options": {
+          "a": "bloß",
+          "b": "erst",
+          "c": "schon"
+        },
+        "correct_answer": "c",
+        "explanation": "'schon früher gefahren' means 'went earlier after all'."
+      },
+      {
+        "number": 23,
+        "options": {
+          "a": "mein",
+          "b": "meinem",
+          "c": "meinen"
+        },
+        "correct_answer": "b",
+        "explanation": "The preposition 'mit' requires the dative: 'mit meinem älteren Bruder'."
+      },
+      {
+        "number": 24,
+        "options": {
+          "a": "ihr",
+          "b": "mich",
+          "c": "mir"
+        },
+        "correct_answer": "c",
+        "explanation": "The verb 'anbieten' takes the dative: 'hat mir angeboten' (offered me)."
+      },
+      {
+        "number": 25,
+        "options": {
+          "a": "Freund",
+          "b": "Freundin",
+          "c": "Freundinnen"
+        },
+        "correct_answer": "c",
+        "explanation": "'mit drei Freundinnen' (with three friends/flatmates)."
+      },
+      {
+        "number": 26,
+        "options": {
+          "a": "aber",
+          "b": "obwohl",
+          "c": "sondern"
+        },
+        "correct_answer": "b",
+        "explanation": "'obwohl mein Zimmer recht klein ist' (although my room is quite small)."
+      },
+      {
+        "number": 27,
+        "options": {
+          "a": "daran",
+          "b": "darauf",
+          "c": "darüber"
+        },
+        "correct_answer": "a",
+        "explanation": "'denken an' requires the pronominal adverb 'daran': 'wenn ich daran denke'."
+      },
+      {
+        "number": 28,
+        "options": {
+          "a": "wenig",
+          "b": "wenigen",
+          "c": "weniger"
+        },
+        "correct_answer": "a",
+        "explanation": "'wie wenig Zeit' means 'how little time'."
+      },
+      {
+        "number": 29,
+        "options": {
+          "a": "Damit",
+          "b": "Oder",
+          "c": "Sondern"
+        },
+        "correct_answer": "b",
+        "explanation": "'Oder sie rufen an' means 'Or they call'."
+      },
+      {
+        "number": 30,
+        "options": {
+          "a": "Ab",
+          "b": "Bis",
+          "c": "Seit"
+        },
+        "correct_answer": "b",
+        "explanation": "'Bis jetzt' means 'Until now'."
+      }
+    ]
+  },
+  "sprachbausteine_teil_2": {
+    "instructions": "Lesen Sie den Text und schließen Sie die Lücken 31-40. Benutzen Sie die Wörter (a - o). Jedes Wort passt nur einmal.",
+    "word_bank": {
+      "a": "ABER",
+      "b": "AUSSEN",
+      "c": "EINMAL",
+      "d": "ENTDECKT",
+      "e": "ETWAS",
+      "f": "HATTEN",
+      "g": "KENNEN",
+      "h": "LERNEN",
+      "i": "OFT",
+      "j": "PAAR",
+      "k": "UNS",
+      "l": "WANN",
+      "m": "WEIL",
+      "n": "WENN",
+      "o": "WÜRDEN"
+    },
+    "word_bank_en": {
+      "a": "but",
+      "b": "outside",
+      "c": "once",
+      "d": "discovered",
+      "e": "something",
+      "f": "had",
+      "g": "know",
+      "h": "learn",
+      "i": "often",
+      "j": "few / pair",
+      "k": "us",
+      "l": "when",
+      "m": "because",
+      "n": "if/when",
+      "o": "would"
+    },
+    "passage": {
+      "text": "Chiffre 2063/9369\nSehr geehrter Unbekannter,\nmein Mann und ich haben Ihre Anzeige in den Mitteilungen des Deutschen Alpenvereins ___31___. Wir wohnen etwa 40 km außerhalb von Nürnberg und schreiben Ihnen, ___32___ wir Lust hätten, etwas in einer Gruppe zu machen.\nUnseren Sommerurlaub verbringen wir eigentlich regelmäßig in den Bergen. Und ___33___ es unser Terminkalender erlaubt, gehen wir auch noch am Wochenende wandern; ___34___ fahren wir in die Gegend vom Wilden Kaiser, wo wir inzwischen alle Wanderwege ___35___.\nWir fahren zwar beide auch Ski, ___36___ der Winter in den Bergen ist nicht so unbedingt unsere Sache. Dagegen macht es ___37___ viel Spaß, Fahrrad zu fahren; hier in Leupoldstein haben wir tolle Radwege, die durch die Felder führen. Daher ___38___ wir uns auch auf gemeinsame Radtouren hier bei uns freuen.\nZum Schluss noch ein ___39___ Worte zu uns selbst. Wir sind 64 und 62 Jahre alt, lieben Musik und gehen ab und zu gern ins Theater.\nRufen Sie uns doch einfach ___40___ an: Tel.: 09243/7448.\nViele Grüße\nIlka und Heiner Grossmann",
+      "text_en": "Box number 2063/9369\nDear Unknown,\nMy husband and I have ___31___ your advertisement in the communications of the German Alpine Club. We live about 40 km outside of Nuremberg and are writing to you ___32___ we would like to do something in a group.\nWe actually regularly spend our summer holidays in the mountains. And ___33___ our appointment calendar allows it, we also go hiking on the weekends; ___34___ we drive to the area of the Wilder Kaiser, where we now ___35___ all the hiking trails.\nAlthough we both also ski, ___36___ the winter in the mountains is not necessarily our thing. On the other hand, it is a lot of fun for ___37___ to ride bicycles; here in Leupoldstein we have great cycle paths that lead through the fields. Therefore we ___38___ also look forward to joint bike tours here with us.\nFinally, a ___39___ words about ourselves. We are 64 and 62 years old, love music and like to go to the theater from time to time.\nJust give us a call ___40___: Tel.: 09243/7448.\nBest regards,\nIlka and Heiner Grossmann",
+      "vocabulary": [
+        {
+          "de": "der Alpenverein",
+          "en": "the Alpine Club"
+        },
+        {
+          "de": "die Chiffre",
+          "en": "the box number (in ads)"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 31,
+        "correct_answer": "d",
+        "explanation": "'haben Ihre Anzeige... entdeckt' means 'have discovered your advertisement'."
+      },
+      {
+        "number": 32,
+        "correct_answer": "m",
+        "explanation": "'weil wir Lust hätten' means 'because we would like to'."
+      },
+      {
+        "number": 33,
+        "correct_answer": "n",
+        "explanation": "'wenn es unser Terminkalender erlaubt' means 'if/when our calendar allows it'."
+      },
+      {
+        "number": 34,
+        "correct_answer": "i",
+        "explanation": "'oft fahren wir...' means 'we often drive...'."
+      },
+      {
+        "number": 35,
+        "correct_answer": "g",
+        "explanation": "'wo wir inzwischen alle Wanderwege kennen' means 'where we know all the hiking trails by now'."
+      },
+      {
+        "number": 36,
+        "correct_answer": "a",
+        "explanation": "'zwar... aber...' is the paired conjunction for 'indeed/although... but...'."
+      },
+      {
+        "number": 37,
+        "correct_answer": "k",
+        "explanation": "'Dagegen macht es uns viel Spaß' means 'On the other hand, it is a lot of fun for us'."
+      },
+      {
+        "number": 38,
+        "correct_answer": "o",
+        "explanation": "'Daher würden wir uns... freuen' means 'Therefore we would look forward to...'."
+      },
+      {
+        "number": 39,
+        "correct_answer": "j",
+        "explanation": "'noch ein paar Worte' means 'a few more words'."
+      },
+      {
+        "number": 40,
+        "correct_answer": "c",
+        "explanation": "'Rufen Sie uns doch einfach einmal an' means 'Just give us a call once' (common friendly phrasing)."
+      }
+    ]
+  },
+  "hoerverstehen_teil_1": {
+    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören diese Texte nur einmal. Entscheiden Sie beim Hören, ob die Aussagen 41-45 richtig (+) oder falsch (-) sind.",
+    "transcripts": [
+      {
+        "number": 41,
+        "text": "Ich habe ehrlich gesagt noch nie den Bus zur Arbeit genommen. Ich weiß, dass es eine Möglichkeit wäre, aber ich kann mir das eigentlich nicht gut vorstellen. Vielleicht irgendwann mal, aber zurzeit ist das für mich keine ernsthafte Option. Ich fahre meistens anders zur Arbeit.",
+        "text_en": "To be honest, I have never taken the bus to work. I know that it would be a possibility, but I can't really imagine it well. Maybe sometime, but at the moment that is not a serious option for me. I usually travel to work differently.",
+        "vocabulary": [
+          {
+            "de": "ernsthaft",
+            "en": "serious"
+          }
+        ]
+      },
+      {
+        "number": 42,
+        "text": "Den ganzen Weg zu Fuß? Nein, das mache ich wirklich nicht. Ich gehe nur ein kleines Stück, vielleicht bis zur nächsten Haltestelle oder so. Aber alles zu Fuß wäre mir zu weit. Ich nehme meistens öffentliche Verkehrsmittel, besonders wenn das Wetter schlecht ist.",
+        "text_en": "Walk all the way? No, I really don't do that. I only walk a little bit, maybe to the next stop or so. But everything on foot would be too far for me. I mostly take public transport, especially when the weather is bad.",
+        "vocabulary": [
+          {
+            "de": "die Haltestelle",
+            "en": "the stop"
+          }
+        ]
+      },
+      {
+        "number": 43,
+        "text": "Ich nutze nie das Auto, um zur Arbeit zu kommen. Das habe ich mir von Anfang an so vorgenommen. Es ist mir wichtig, umweltfreundlich zu sein, und außerdem finde ich den Verkehr morgens einfach zu stressig. Deshalb fahre ich grundsätzlich mit dem Bus oder der Bahn.",
+        "text_en": "I never use the car to get to work. I resolved to do that right from the start. It is important to me to be environmentally friendly, and besides, I just find the traffic in the morning too stressful. Therefore, I always travel by bus or train as a matter of principle.",
+        "vocabulary": [
+          {
+            "de": "grundsätzlich",
+            "en": "basically / as a matter of principle"
+          }
+        ]
+      },
+      {
+        "number": 44,
+        "text": "Im Moment benutze ich nicht mehrere Verkehrsmittel. Ich habe meine feste Strecke und dabei bleibe ich. Vielleicht früher war das anders, aber jetzt nehme ich immer denselben Weg. Verschiedene Verkehrsmittel brauche ich für meinen Arbeitsweg eigentlich nicht.",
+        "text_en": "At the moment I don't use multiple means of transport. I have my fixed route and I stick with it. Maybe it was different before, but now I always take the same way. I don't really need different means of transport for my commute to work.",
+        "vocabulary": [
+          {
+            "de": "die Strecke",
+            "en": "the route / distance"
+          }
+        ]
+      },
+      {
+        "number": 45,
+        "text": "Der Firmenbus ist zwar praktisch, aber es ist nicht meine einzige Möglichkeit. Manchmal nehme ich auch das Fahrrad oder fahre mit einer Kollegin mit. Es hängt davon ab, wie das Wetter ist oder wann ich los muss. Ich bin da ziemlich flexibel.",
+        "text_en": "The company bus is practical, but it is not my only option. Sometimes I also take the bike or get a ride with a colleague. It depends on how the weather is or when I have to leave. I am quite flexible about that.",
+        "vocabulary": [
+          {
+            "de": "abhängen von",
+            "en": "to depend on"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "number": 41,
+        "statement": "Die Sprecherin könnte sich vorstellen, mit dem Bus zur Arbeit zu fahren.",
+        "statement_en": "The speaker could imagine taking the bus to work.",
+        "correct_answer": "-",
+        "explanation": "She explicitly states 'aber ich kann mir das eigentlich nicht gut vorstellen' (but I can't really imagine it well)."
+      },
+      {
+        "number": 42,
+        "statement": "Die Sprecherin findet es gut, dass sie zur Arbeit ein Stück zu Fuß gehen kann.",
+        "statement_en": "The speaker thinks it is good that she can walk part of the way to work.",
+        "correct_answer": "-",
+        "explanation": "She says 'Den ganzen Weg zu Fuß? Nein, das mache ich wirklich nicht. Ich gehe nur ein kleines Stück' and does not express that she finds it 'good' to walk, but rather that she takes public transit because it's too far."
+      },
+      {
+        "number": 43,
+        "statement": "Der Sprecher fährt nie mit dem Auto zur Arbeit.",
+        "statement_en": "The speaker never drives to work.",
+        "correct_answer": "+",
+        "explanation": "He clearly states 'Ich nutze nie das Auto, um zur Arbeit zu kommen' (I never use the car to get to work)."
+      },
+      {
+        "number": 44,
+        "statement": "Der Sprecher benutzt für den Weg zur Arbeit zurzeit verschiedene Verkehrsmittel.",
+        "statement_en": "The speaker currently uses different means of transport to get to work.",
+        "correct_answer": "-",
+        "explanation": "He says 'Im Moment benutze ich nicht mehrere Verkehrsmittel' (At the moment I don't use multiple means of transport)."
+      },
+      {
+        "number": 45,
+        "statement": "Für die Sprecherin ist der Firmenbus die einzige Möglichkeit, zur Arbeit zu kommen.",
+        "statement_en": "For the speaker, the company bus is the only way to get to work.",
+        "correct_answer": "-",
+        "explanation": "She states 'Der Firmenbus... ist nicht meine einzige Möglichkeit' (The company bus is not my only option)."
+      }
+    ]
+  },
+  "hoerverstehen_teil_2": {
+    "instructions": "Sie hören nun ein Gespräch. Dazu sollen Sie zehn Aufgaben lösen. Sie hören das Gespräch zweimal. Entscheiden Sie beim Hören, ob die Aussagen 46-55 richtig (+) oder falsch (-) sind.",
+    "interview_transcript": {
+      "text": "Moderator: Willkommen bei unserem heutigen Interview. Bei uns zu Gast ist Frau Nicole Zimmermann, eine engagierte Mutter und Lehrerin, die uns von einem besonderen Ort in Torgau erzählen wird. Frau Zimmermann, was macht diesen Ort für Familien so interessant?\nFrau Zimmermann: Vielen Dank! Also, Torgau ist ja allgemein bekannt für seine historischen Sehenswürdigkeiten. Viele Touristen kommen gerade deshalb in die Stadt. Aber für Familien mit Kindern ist der neue Spielpark Hartenfels ein echtes Highlight geworden.\nModerator: Spielpark Hartenfels, das klingt spannend. Seit wann gibt es diesen Park denn?\nFrau Zimmermann: Der Park wurde erst vor zwei Jahren eröffnet, also noch ziemlich neu. Ich finde, das merkt man auch. Alles ist modern gestaltet, sicher und gut gepflegt.\nModerator: Und was genau bietet dieser Spielpark für Kinder?\nFrau Zimmermann: Oh, sehr viel! Es gibt dort Spielgeräte, die man zu Hause in der Wohnung natürlich nicht hat: große Kletterburgen, Wasserspiele und sogar eine kleine Baustelle, auf der Kinder selbst mit Sand, Holz und Steinen etwas bauen dürfen. Das ist besonders beliebt.\nModerator: Das klingt kreativ und spannend. Gibt es auch andere Freizeitangebote in der Umgebung?\nFrau Zimmermann: Also ehrlich gesagt, nicht wirklich viele. Die Region ist eher ruhig. Abgesehen vom Spielpark gibt es ein paar kleinere Grünflächen, aber keine speziellen Angebote für Kinder wie z.B. Schwimmbäder oder Kinderbauernhöfe.\nModerator: Manche Eltern haben ja Sorge, dass solche freien Spielangebote auch gefährlich sein könnten. Gibt es da Risiken?\nFrau Zimmermann: Natürlich sollen die Kinder frei spielen dürfen, aber Sicherheit ist uns auch wichtig. Das Spielen am Bach war früher ein Problem, aber dieser Bereich wurde inzwischen gesichert und ist derzeit sogar gesperrt. Also kein Grund zur Sorge.\nModerator: Und wie ist es mit der Aufsicht? Müssen beide Elternteile dabei sein?\nFrau Zimmermann: Nein, das ist gar nicht nötig. Die meisten Eltern sitzen auf den Bänken rund um den Spielbereich, und oft ist nur ein Elternteil mit den Kindern dort. Es ist so konzipiert, dass man als Erwachsener von fast überall aus einen guten Überblick hat.\nModerator: Gibt es auch professionelle Betreuung für kleinere Kinder?\nFrau Zimmermann: Im Moment leider nicht. Es war geplant, dass Kinder bis sieben Jahre betreut werden, aber das Angebot wurde bisher nicht umgesetzt. Es gibt freiwillige Helfer, aber keine feste Betreuung durch Fachkräfte.\nModerator: Wie sieht es mit dem Eintritt aus?\nFrau Zimmermann: Der Eintritt in den Spielpark ist aktuell kostenlos. Ich denke, das ist auch ein Grund, warum so viele Familien regelmäßig kommen. Für eine Stadt wie Torgau ist das ein tolles Angebot.\nModerator: Klingt großartig. Gibt es auch andere Angebote wie Führungen durch das Schloss oder Programme für Erwachsene?\nFrau Zimmermann: Ja, Schlossführungen werden angeboten, aber sie sind eher historisch ausgerichtet. Für Kinder ist das oft zu trocken; mein Sohn fand es langweilig. Er wollte lieber wieder auf die Rutsche. Für Erwachsene kann es interessant sein, aber die Kinder haben meist nicht so viel Spaß daran.\nModerator: Frau Zimmermann, vielen Dank für das Gespräch und die spannenden Einblicke.",
+      "text_en": "Moderator: Welcome to today's interview. Our guest is Ms. Nicole Zimmermann, a dedicated mother and teacher who will tell us about a special place in Torgau. Ms. Zimmermann, what makes this place so interesting for families?\nMs. Zimmermann: Thank you! Well, Torgau is generally known for its historical sights. Many tourists come to the city exactly because of that. But for families with children, the new Hartenfels Playpark has become a real highlight.\nModerator: Hartenfels Playpark, that sounds exciting. Since when has this park existed?\nMs. Zimmermann: The park was only opened two years ago, so it's still quite new. I think you notice that too. Everything is designed modernly, safe and well-maintained.\nModerator: And what exactly does this play park offer children?\nMs. Zimmermann: Oh, a lot! There is playground equipment that you naturally don't have at home in an apartment: large climbing castles, water games, and even a small construction site where children can build something themselves with sand, wood, and stones. That is particularly popular.\nModerator: That sounds creative and exciting. Are there other leisure activities in the area?\nMs. Zimmermann: Well honestly, not really many. The region is rather quiet. Apart from the play park, there are a few smaller green spaces, but no special offers for children like swimming pools or children's farms.\nModerator: Some parents worry that such free play offers could also be dangerous. Are there risks?\nMs. Zimmermann: Of course the children should be allowed to play freely, but safety is also important to us. Playing by the stream used to be a problem, but this area has since been secured and is currently even closed off. So no need to worry.\nModerator: And what about supervision? Do both parents have to be present?\nMs. Zimmermann: No, that is not necessary at all. Most parents sit on the benches around the play area, and often only one parent is there with the children. It is designed so that an adult has a good overview from almost everywhere.\nModerator: Is there also professional supervision for smaller children?\nMs. Zimmermann: At the moment, unfortunately not. It was planned that children up to seven years old would be supervised, but the offer has not yet been implemented. There are volunteers, but no fixed supervision by specialists.\nModerator: What about the admission fee?\nMs. Zimmermann: Admission to the play park is currently free. I think that is also a reason why so many families come regularly. For a town like Torgau, that is a great offer.\nModerator: Sounds great. Are there other offers like guided tours through the castle or programs for adults?\nMs. Zimmermann: Yes, castle tours are offered, but they are rather historically oriented. For children, this is often too dry; my son found it boring. He preferred to go back on the slide. For adults it can be interesting, but the children usually don't have that much fun doing it.\nModerator: Ms. Zimmermann, thank you very much for the conversation and the exciting insights.",
+      "vocabulary": [
+        {
+          "de": "die Sehenswürdigkeit",
+          "en": "the sight / tourist attraction"
+        },
+        {
+          "de": "kostenlos",
+          "en": "free of charge"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 46,
+        "statement": "Viele Touristen besuchen Torgau wegen seiner historischen Sehenswürdigkeiten.",
+        "statement_en": "Many tourists visit Torgau because of its historical sights.",
+        "correct_answer": "+",
+        "explanation": "She confirms 'Torgau ist ja allgemein bekannt für seine historischen Sehenswürdigkeiten. Viele Touristen kommen gerade deshalb in die Stadt'."
+      },
+      {
+        "number": 47,
+        "statement": "Den Spielpark Hartenfels gibt es schon seit vielen Jahren.",
+        "statement_en": "The Hartenfels Playpark has existed for many years.",
+        "correct_answer": "-",
+        "explanation": "She says 'Der Park wurde erst vor zwei Jahren eröffnet' (The park was only opened two years ago)."
+      },
+      {
+        "number": 48,
+        "statement": "Außer dem Spielpark gibt es in der Umgebung viele andere Freizeitmöglichkeiten für die Kinder.",
+        "statement_en": "In addition to the play park, there are many other leisure activities for children in the area.",
+        "correct_answer": "-",
+        "explanation": "She explicitly states 'Also ehrlich gesagt, nicht wirklich viele... keine speziellen Angebote für Kinder'."
+      },
+      {
+        "number": 49,
+        "statement": "Der Spielpark bietet den Kindern Spielmöglichkeiten, die sie zu Hause nicht haben.",
+        "statement_en": "The play park offers children play opportunities that they do not have at home.",
+        "correct_answer": "+",
+        "explanation": "She says 'Es gibt dort Spielgeräte, die man zu Hause in der Wohnung natürlich nicht hat'."
+      },
+      {
+        "number": 50,
+        "statement": "Die Kinder können im Spielpark auch selbst etwas bauen.",
+        "statement_en": "The children can also build something themselves in the play park.",
+        "correct_answer": "+",
+        "explanation": "She confirms there is a 'Baustelle, auf der Kinder selbst mit Sand, Holz und Steinen etwas bauen dürfen'."
+      },
+      {
+        "number": 51,
+        "statement": "Das Spielen am Bach kann für die Kinder gefährlich werden.",
+        "statement_en": "Playing by the stream can be dangerous for the children.",
+        "correct_answer": "-",
+        "explanation": "She says playing by the stream used to be a problem, but it 'wurde inzwischen gesichert und ist derzeit sogar gesperrt. Also kein Grund zur Sorge' (it is secured and blocked off, so no reason to worry)."
+      },
+      {
+        "number": 52,
+        "statement": "Beide Elternteile müssen auf die Kinder aufpassen.",
+        "statement_en": "Both parents must look after the children.",
+        "correct_answer": "-",
+        "explanation": "She states 'Nein, das ist gar nicht nötig... oft ist nur ein Elternteil mit den Kindern dort'."
+      },
+      {
+        "number": 53,
+        "statement": "Im Spielpark können Kinder bis zum Alter von sieben von Aufsichtspersonen betreut werden.",
+        "statement_en": "In the play park, children up to the age of seven can be supervised by supervisors.",
+        "correct_answer": "-",
+        "explanation": "She says 'Es war geplant, dass Kinder bis sieben Jahre betreut werden, aber das Angebot wurde bisher nicht umgesetzt' (It was planned, but not implemented)."
+      },
+      {
+        "number": 54,
+        "statement": "Der Eintritt in den Spielpark ist zurzeit frei.",
+        "statement_en": "Admission to the play park is currently free.",
+        "correct_answer": "+",
+        "explanation": "She states 'Der Eintritt in den Spielpark ist aktuell kostenlos'."
+      },
+      {
+        "number": 55,
+        "statement": "Die Schlossführung bereitet Kindern und Erwachsenen viel Spaß.",
+        "statement_en": "The castle tour is a lot of fun for children and adults.",
+        "correct_answer": "-",
+        "explanation": "She notes 'Für Kinder ist das oft zu trocken; mein Sohn fand es langweilig' (It's often too dry for children; my son found it boring)."
+      }
+    ]
+  },
+  "hoerverstehen_teil_3": {
+    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören jeden Text zweimal. Entscheiden Sie beim Hören, ob die Aussagen 56-60 richtig (+) oder falsch (-) sind.",
+    "transcripts": [
+      {
+        "number": 56,
+        "text": "Die Regionalbahn nach Regensburg fällt heute aus. Fahrgäste werden gebeten, ab Ingolstadt auf den Ersatzbus umzusteigen. Die Verbindung ist wegen Bauarbeiten unterbrochen. Weitere Informationen erhalten Sie am Bahnhof oder online auf der Seite der Deutschen Bahn.",
+        "text_en": "The regional train to Regensburg is cancelled today. Passengers are asked to transfer to the replacement bus from Ingolstadt. The connection is interrupted due to construction work. You can get further information at the station or online on the Deutsche Bahn website.",
+        "vocabulary": [
+          {
+            "de": "ausfallen",
+            "en": "to be cancelled"
+          },
+          {
+            "de": "der Ersatzbus",
+            "en": "the replacement bus"
+          }
+        ]
+      },
+      {
+        "number": 57,
+        "text": "Ich bin total aufgeregt. Eine berühmte Theatergruppe ist in der Stadt, und ich habe gestern noch eine Karte bekommen. Obwohl ich heute eine Prüfung habe, wollte ich unbedingt ein Ticket sichern. Jetzt freue ich mich riesig auf die Vorstellung. Das wollte ich nicht verpassen.",
+        "text_en": "I am totally excited. A famous theater group is in town, and I got a ticket yesterday. Even though I have an exam today, I absolutely wanted to secure a ticket. Now I am really looking forward to the performance. I didn't want to miss that.",
+        "vocabulary": [
+          {
+            "de": "aufgeregt",
+            "en": "excited"
+          },
+          {
+            "de": "verpassen",
+            "en": "to miss"
+          }
+        ]
+      },
+      {
+        "number": 58,
+        "text": "Der Deutsche Wetterdienst warnt vor Glättegefahr im Schwarzwald. In den frühen Morgenstunden kann es in höheren Lagen zur Straßenglätte kommen. Autofahrer werden gebeten, vorsichtig zu fahren und mehr Zeit einzuplanen. Auch im Busverkehr kann es zu Verspätungen kommen.",
+        "text_en": "The German Weather Service warns of ice danger in the Black Forest. In the early morning hours, roads can become slippery at higher altitudes. Drivers are asked to drive carefully and plan more time. Delays can also occur in bus traffic.",
+        "vocabulary": [
+          {
+            "de": "die Glättegefahr",
+            "en": "danger of ice/slippery roads"
+          },
+          {
+            "de": "die Verspätung",
+            "en": "the delay"
+          }
+        ]
+      },
+      {
+        "number": 59,
+        "text": "Der für heute geplante Liederabend wurde verschoben. Die Veranstaltung findet nun am kommenden Freitag statt. Grund für die Terminänderung ist eine Erkrankung der Hauptsängerin. Bereits gekaufte Karten behalten ihre Gültigkeit oder können zurückgegeben werden.",
+        "text_en": "The song recital planned for today has been postponed. The event will now take place next Friday. The reason for the change of date is an illness of the main singer. Already purchased tickets remain valid or can be returned.",
+        "vocabulary": [
+          {
+            "de": "verschoben",
+            "en": "postponed"
+          },
+          {
+            "de": "die Gültigkeit",
+            "en": "the validity"
+          }
+        ]
+      },
+      {
+        "number": 60,
+        "text": "Im Untergeschoss des Kaufhauses gibt es zurzeit keine Preisreduzierungen auf Winterkleidung. Die angekündigten Rabatte starten erst nächste Woche. Kunden werden gebeten, sich bei den Verkaufsmitarbeitern nach genauen Terminen zu erkundigen.",
+        "text_en": "There are currently no price reductions on winter clothing in the basement of the department store. The announced discounts will not start until next week. Customers are asked to inquire with sales staff for exact dates.",
+        "vocabulary": [
+          {
+            "de": "das Untergeschoss",
+            "en": "the basement"
+          },
+          {
+            "de": "die Preisreduzierung",
+            "en": "the price reduction"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "number": 56,
+        "statement": "Sie müssen in Ingolstadt die Regionalbahn nach Regensburg nehmen.",
+        "statement_en": "You have to take the regional train to Regensburg in Ingolstadt.",
+        "correct_answer": "-",
+        "explanation": "The audio states that the train is cancelled ('fällt heute aus') and passengers must take the replacement bus ('Ersatzbus') from Ingolstadt."
+      },
+      {
+        "number": 57,
+        "statement": "Clara kann wegen einer Prüfung die Theaterkarten nicht abholen.",
+        "statement_en": "Clara cannot pick up the theater tickets because of an exam.",
+        "correct_answer": "-",
+        "explanation": "The speaker says 'obwohl ich heute eine Prüfung habe, wollte ich unbedingt ein Ticket sichern' (even though I have an exam today, I absolutely wanted to secure a ticket), meaning she did get the ticket."
+      },
+      {
+        "number": 58,
+        "statement": "Im Schwarzwald können die Straßen morgen glatt werden.",
+        "statement_en": "In the Black Forest, the roads can become slippery tomorrow.",
+        "correct_answer": "+",
+        "explanation": "The warning 'Glättegefahr' matches the statement that roads can become slippery. The audio supports slippery roads in the early morning."
+      },
+      {
+        "number": 59,
+        "statement": "Der Liederabend findet zu einem späteren Termin statt.",
+        "statement_en": "The recital takes place at a later date.",
+        "correct_answer": "+",
+        "explanation": "The event 'wurde verschoben' (was postponed) and will now take place 'am kommenden Freitag' (next Friday)."
+      },
+      {
+        "number": 60,
+        "statement": "Im Untergeschoss gibt es Winterkleidung zum halben Preis.",
+        "statement_en": "There is winter clothing for half price in the basement.",
+        "correct_answer": "-",
+        "explanation": "The audio explicitly states: 'Im Untergeschoss des Kaufhauses gibt es zurzeit keine Preisreduzierungen auf Winterkleidung' (there are currently NO price reductions on winter clothing)."
+      }
+    ]
+  }
+}

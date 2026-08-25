@@ -1,0 +1,978 @@
+{
+  "title": "TAMARA",
+  "leseverstehen_teil_1": {
+    "headings": {
+      "a": "Neue Untersuchung über Familien in der Schweiz",
+      "b": "Ein Jahr preiswert reisen",
+      "c": "Buchtipp: Ausflüge für Familien",
+      "d": "Bahnfahren im nächsten Jahr um 25% teurer!",
+      "e": "Ein Unternehmen mit vielen beruflichen Möglichkeiten",
+      "f": "Neue Kindersendung im Fernsehen",
+      "g": "Der Film soll echt sein: Schweizer Filmteam in Indien",
+      "h": "Wie man im Zug Leute kennen lernt",
+      "i": "Jeden Tag ein Stück Wirklichkeit im Fernsehen",
+      "j": "Filmaufnahmen im Berner Oberland"
+    },
+    "headings_en": {
+      "a": "New study on families in Switzerland",
+      "b": "Travel inexpensively for a year",
+      "c": "Book tip: Excursions for families",
+      "d": "Train travel 25% more expensive next year!",
+      "e": "A company with many career opportunities",
+      "f": "New children's program on TV",
+      "g": "The film should be real: Swiss film team in India",
+      "h": "How to get to know people on the train",
+      "i": "A piece of reality on TV every day",
+      "j": "Filming in the Bernese Oberland"
+    },
+    "passages": [
+      {
+        "number": 1,
+        "text": "Immer wieder drehen indische Regisseure Szenen ihrer Kinofilme in den Schweizer Bergen. Warum nehmen sie die Strapazen und hohen Kosten einer solch langen Reise auf sich? Das Hamburger Abendblatt traf eines dieser Filmteams auf dem Drehplatz im idyllischen Berner Oberland und erhielt spannende und heitere Antworten.",
+        "text_en": "Again and again Indian directors shoot scenes of their cinema films in the Swiss mountains. Why do they take on the hardships and high costs of such a long journey? The Hamburger Abendblatt met one of these film teams on location in the idyllic Bernese Oberland and received exciting and cheerful answers.",
+        "correct_answer": "j",
+        "explanation": "The text is about Indian directors shooting films in the Swiss mountains, specifically mentioning 'Berner Oberland'. This matches heading 'j' (Filmaufnahmen im Berner Oberland).",
+        "vocabulary": [
+          {
+            "de": "drehen",
+            "en": "to shoot (a film)"
+          },
+          {
+            "de": "die Strapaze",
+            "en": "the hardship / strain"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "text": "KIDTOURS - Ferien mit Kindern ist ein praktischer Ausflugsführer für Familien: mit 1000 Tipps, Tricks und Ideen für jeden Geschmack, jedes Alter und jedes Budget. Das übersichtliche, hübsch illustrierte Nachschlagewerk erhalten Sie für € 19,50 im Buchhandel oder direkt bei Werd Verlag, www.werd.net.",
+        "text_en": "KIDTOURS - Holidays with children is a practical excursion guide for families: with 1000 tips, tricks and ideas for every taste, every age and every budget. You can get the clearly laid out, beautifully illustrated reference book for €19.50 in bookstores or directly from Werd Verlag, www.werd.net.",
+        "correct_answer": "c",
+        "explanation": "The text advertises a book ('Nachschlagewerk', 'Buchhandel') about excursions for families ('Ausflugsführer für Familien'). This aligns with heading 'c' (Buchtipp: Ausflüge für Familien).",
+        "vocabulary": [
+          {
+            "de": "das Nachschlagewerk",
+            "en": "the reference book"
+          },
+          {
+            "de": "übersichtlich",
+            "en": "clearly laid out"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "text": "Das Halbtax-Abo ist Ihr Schlüssel zu günstigen Reisen mit Bahn, Bus und Schiff und präsentiert sich im praktischen Kreditkartenformat. Schon beim Abo selbst können Sie zünftig sparen: Für ein Jahr 'halbtaxeln' bezahlen Sie 150 Schweizer Franken. Und das ist noch nicht alles: Mit dem Halbtax-Abo sind Sie gut informiert: Zweimal jährlich erhalten Sie das Kundenmagazin mit vielen Reise-Ideen und exklusiven Reiseangeboten. Mit Ihrem Halbtax-Abo erhalten Sie 25% Preisnachlass auf Zugfahrten von der Schweiz nach Deutschland und Österreich, wenn Sie Ihre Fahrkarte in der Schweiz kaufen. SBB - Schweizerische Bundesbahnen.",
+        "text_en": "The Half-Fare travelcard is your key to cheap travel by train, bus and ship and presents itself in a practical credit card format. You can save properly right from the subscription itself: For one year of 'half-faring' you pay 150 Swiss Francs. And that's not all: With the Half-Fare travelcard you are well informed: Twice a year you receive the customer magazine with many travel ideas and exclusive travel offers. With your Half-Fare travelcard you receive a 25% discount on train journeys from Switzerland to Germany and Austria if you buy your ticket in Switzerland. SBB - Swiss Federal Railways.",
+        "correct_answer": "b",
+        "explanation": "The text describes an annual subscription ('Für ein Jahr', '150 Schweizer Franken') that makes traveling cheaper ('günstigen Reisen', 'Preisnachlass'). This matches heading 'b' (Ein Jahr preiswert reisen).",
+        "vocabulary": [
+          {
+            "de": "zünftig",
+            "en": "properly / heartily"
+          },
+          {
+            "de": "der Preisnachlass",
+            "en": "the discount / price reduction"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "text": "Dokumentarfilm und Seifenoper zusammen heißt Doku-Soap, stammt aus England und macht sich seit Jahren auch auf deutschen TV Kanälen breit. Vor allem Privatsender haben sich als erfolgreiche Doku-Soap-Sender etabliert. In vielen TV-Serien kann man das wirkliche Leben von Menschen verfolgen und mit ihnen mitleben. Zurzeit besonders erfolgreich: die Sendung 'Tausche Familie', die täglich um 18 Uhr viele Zuschauer vor den Fernseher lockt.",
+        "text_en": "Documentary film and soap opera together is called Doku-Soap, comes from England and has been spreading on German TV channels for years. Private broadcasters in particular have established themselves as successful docu-soap broadcasters. In many TV series you can follow the real lives of people and live with them. Currently particularly successful: the program 'Swap Family', which attracts many viewers to the television every day at 6 p.m.",
+        "correct_answer": "i",
+        "explanation": "The text talks about docu-soaps that show the 'wirkliche Leben' (real life) and air 'täglich' (every day). This matches heading 'i' (Jeden Tag ein Stück Wirklichkeit im Fernsehen).",
+        "vocabulary": [
+          {
+            "de": "sich breitmachen",
+            "en": "to spread / establish oneself"
+          },
+          {
+            "de": "die Wirklichkeit",
+            "en": "the reality"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "text": "Wir wollen dir bei der Berufswahl helfen: Die Deutsche Bahn, ein Unternehmen mit Zukunft. Viele Berufe ändern sich im Laufe der Zeit. Genauso wie die Interessen im Leben. Und trotzdem gibt es Neigungen und Fähigkeiten, die du lange Zeit in deinem Leben behalten wirst. So zum Beispiel die Freude am Kontakt mit Menschen. Oder die Begeisterung für fremde Sprachen. Oder das Arbeiten in der freien Natur und im Team. Oder das Interesse an Technik und die Freude am Handwerk. Je nachdem, wofür du dich interessierst, kannst du bei der Deutschen Bahn aus insgesamt 15 Lehrberufen wählen. Um die richtige Entscheidung zu treffen, lohnt es sich, sich gründlich zu informieren, zum Beispiel auf unserer Website www.Bahn.de.",
+        "text_en": "We want to help you choose a career: Deutsche Bahn, a company with a future. Many professions change over time. Just like interests in life. And yet there are inclinations and skills that you will keep for a long time in your life. For example, the joy of contact with people. Or the enthusiasm for foreign languages. Or working outdoors and in a team. Or an interest in technology and the joy of manual labor. Depending on what you are interested in, you can choose from a total of 15 apprenticeships at Deutsche Bahn. In order to make the right decision, it is worth informing yourself thoroughly, for example on our website www.Bahn.de.",
+        "correct_answer": "e",
+        "explanation": "The text advertises the Deutsche Bahn as an employer offering many different apprenticeship professions ('insgesamt 15 Lehrberufen'). This matches heading 'e' (Ein Unternehmen mit vielen beruflichen Möglichkeiten).",
+        "vocabulary": [
+          {
+            "de": "die Neigung",
+            "en": "the inclination / tendency"
+          },
+          {
+            "de": "das Handwerk",
+            "en": "the manual labor / trade"
+          }
+        ]
+      }
+    ]
+  },
+  "leseverstehen_teil_2": {
+    "passage": {
+      "headline": "Die neue Sir-Karl-Popper-Schule",
+      "subheadline": "Ein Schulversuch für besonders kluge Schüler",
+      "paragraphs": [
+        "WIEN. Es ist eine ganz normale Schulstunde – Geschichte – in einer ganz normalen Klasse. Während der Lehrer einen Vortrag über das alte Rom hält, unterhalten sich die Schüler über den Schulball, kreieren die Kleidung des Lehrers, reichen Zettel unter der Schulbank weiter.",
+        "Auch überdurchschnittlich intelligente Kinder sind ganz normale Kinder, betont Elfriede Wegricht, Psychologin in der Sir-Karl-Popper-Schule. Nur weil sie in der Schule gut sind, heißt das nicht, dass sie nicht genauso wie alle anderen Schüler Liebeskummer, Ärger mit den Eltern und andere Pubertätsprobleme haben. Der Unterschied zwischen normalen und hochbegabten ist, dass sie sich in ihrer bisherigen Schulkarriere nicht besonders anstrengen mussten und es nicht gewohnt sind, mit ihrer Zeit gut hauszuhalten.",
+        "Um überdurchschnittlich intelligente Kinder nun entsprechend zu fördern, sieht das Konzept der Sir-Karl-Popper-Schule mehr Fremdsprachen, projektorientiertes Arbeiten in kleinen Klassen und vor allem mehr Eigenverantwortung für den Lernenden vor. Dazu kommt die Förderung der individuellen Fähigkeiten: Wer in einem Fach gut ist und sich besonders für ein Thema interessiert, bekommt Sonderaufgaben und tiefer gehende Unterlagen. Anfangs war der plötzliche Mehraufwand ein Schock für die Schüler, die eine 40-Stunden-Woche zu bewältigen haben. Aber es ist besser, sie erleben den Schock jetzt als zu Beginn des Studiums, meint Herr Peters, Lehrer und Schülerbetreuer an der Popper-Schule. Denn oft scheitern besonders kluge Menschen später, weil sie mit ihrer Intelligenz nichts anzufangen wissen. Denn zumeist erreichten sie mit wenig Aufwand und Mitarbeit relativ gute Ergebnisse.",
+        "Zielgruppe der Sir-Karl-Popper-Schule sind Kinder, die in mindestens einem Fach hochbegabt sind und überdurchschnittlich gute Ergebnisse haben; das sind 20 bis 30 Prozent der Schüler. Nach einer Aufnahmeprüfung wurden von 64 Bewerbern 28 ausgewählt, die in zwei Klassen geteilt sind und von insgesamt 28 Lehrern betreut werden. In diesen Klassen können die überdurchschnittlich intelligenten Schüler dann endlich so sein, wie sie sind, ohne bei jeder Wortmeldung von ihren Klassenkameraden beschimpft zu werden, meint die Schulpsychologin. Ziel des Schulversuchs sei es jedoch laut Peters nicht, besonders kluge Schüler von normalen Kindern zu trennen, sondern Erfahrungen im Umgang mit überdurchschnittlichen Schülern zu sammeln und die Begabtenförderung in die Normalschule zu übernehmen."
+      ],
+      "text_en": "The new Sir Karl Popper School. A school experiment for particularly smart students.\nVIENNA. It is a perfectly normal school lesson - history - in a perfectly normal class. While the teacher gives a lecture about ancient Rome, the students talk about the school ball, create the teacher's clothing, pass notes under the desk.\nAbove-average intelligent children are also completely normal children, emphasizes Elfriede Wegricht, psychologist at the Sir Karl Popper School. Just because they are good at school doesn't mean that they don't have lovesickness, trouble with their parents, and other puberty problems just like all other students. The difference between normal and highly gifted children is that they have not had to exert themselves particularly in their school career so far and are not used to managing their time well.\nIn order to support above-average intelligent children accordingly, the concept of the Sir Karl Popper School provides for more foreign languages, project-oriented work in small classes, and above all more personal responsibility for the learner. Added to this is the promotion of individual skills: Whoever is good in a subject and is particularly interested in a topic gets special tasks and more in-depth documents. At first, the sudden extra effort was a shock for the students, who have to manage a 40-hour week. But it is better they experience the shock now than at the beginning of their studies, says Mr. Peters, teacher and student supervisor at the Popper School. Because particularly smart people often fail later because they do not know what to do with their intelligence. Because they mostly achieved relatively good results with little effort and cooperation.\nThe target group of the Sir Karl Popper School are children who are highly gifted in at least one subject and have above-average good results; that is 20 to 30 percent of the students. After an entrance exam, 28 out of 64 applicants were selected, who are divided into two classes and supervised by a total of 28 teachers. In these classes, the above-average intelligent students can then finally be the way they are, without being insulted by their classmates every time they speak up, says the school psychologist. According to Peters, however, the aim of the school experiment is not to separate particularly smart students from normal children, but to gather experience in dealing with above-average students and to adopt the promotion of the gifted in the normal school.",
+      "vocabulary": [
+        {
+          "de": "hochbegabt",
+          "en": "highly gifted"
+        },
+        {
+          "de": "scheitern",
+          "en": "to fail"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 6,
+        "question": "Die Psychologin der Popper-Schule meint, dass...",
+        "question_en": "The psychologist at the Popper School thinks that...",
+        "options": {
+          "a": "besonders intelligente Kinder sich stark von anderen Kindern unterscheiden.",
+          "b": "besonders intelligente Schüler dieselben Probleme haben wie andere Kinder.",
+          "c": "besonders intelligente Schüler weniger Probleme im alltäglichen Leben haben."
+        },
+        "options_en": {
+          "a": "particularly intelligent children differ greatly from other children.",
+          "b": "particularly intelligent students have the same problems as other children.",
+          "c": "particularly intelligent students have fewer problems in everyday life."
+        },
+        "correct_answer": "b",
+        "explanation": "She emphasizes that they are 'ganz normale Kinder' (completely normal children) who also have 'Liebeskummer, Ärger mit den Eltern und andere Pubertätsprobleme' (lovesickness, trouble with parents, and puberty problems)."
+      },
+      {
+        "number": 7,
+        "question": "Für überdurchschnittlich intelligente Schüler ist typisch, dass sie...",
+        "question_en": "It is typical for above-average intelligent students that they...",
+        "options": {
+          "a": "auch ohne viel Anstrengung gute Noten haben.",
+          "b": "nach der Schule immer großen Erfolg im Beruf haben.",
+          "c": "sich die Zeit zum Lernen besser als andere einteilen können."
+        },
+        "options_en": {
+          "a": "have good grades even without much effort.",
+          "b": "always have great success in their profession after school.",
+          "c": "can manage their time for learning better than others."
+        },
+        "correct_answer": "a",
+        "explanation": "The text states that they 'sich in ihrer bisherigen Schulkarriere nicht besonders anstrengen mussten' (have not had to exert themselves particularly in their school career)."
+      },
+      {
+        "number": 8,
+        "question": "Im Unterricht der Popper-Schule sollen die Schüler...",
+        "question_en": "In the lessons at the Popper School, the students should...",
+        "options": {
+          "a": "immer in einer Fremdsprache miteinander sprechen.",
+          "b": "in ihren besten Fächern eine spezielle Betreuung bekommen.",
+          "c": "in kleinen Gruppen schwächeren Schülern helfen."
+        },
+        "options_en": {
+          "a": "always speak to each other in a foreign language.",
+          "b": "get special supervision in their best subjects.",
+          "c": "help weaker students in small groups."
+        },
+        "correct_answer": "b",
+        "explanation": "The concept includes: 'Wer in einem Fach gut ist... bekommt Sonderaufgaben und tiefer gehende Unterlagen' (Whoever is good in a subject... gets special tasks and more in-depth documents)."
+      },
+      {
+        "number": 9,
+        "question": "Die erste Zeit in der Popper-Schule war für die Schüler schwer, weil...",
+        "question_en": "The first time at the Popper School was difficult for the students because...",
+        "options": {
+          "a": "sich ihre Noten plötzlich verschlechterten.",
+          "b": "sie auf einmal viel mehr Zeit mit Lernen verbringen mussten.",
+          "c": "sie noch nicht wussten, welche besonderen Talente sie hatten."
+        },
+        "options_en": {
+          "a": "their grades suddenly worsened.",
+          "b": "they suddenly had to spend much more time learning.",
+          "c": "they did not yet know what special talents they had."
+        },
+        "correct_answer": "b",
+        "explanation": "The text mentions 'Anfangs war der plötzliche Mehraufwand ein Schock für die Schüler, die eine 40-Stunden-Woche zu bewältigen haben' (At first, the sudden extra effort was a shock for the students)."
+      },
+      {
+        "number": 10,
+        "question": "In der Popper-Schule werden nur Schüler aufgenommen...",
+        "question_en": "Only students are accepted into the Popper School...",
+        "options": {
+          "a": "die in mindestens einem Fach sehr gut sind.",
+          "b": "die mindestens 20 bis 30 Prozent der Aufnahmeprüfung erreichen.",
+          "c": "die von den insgesamt 28 Lehrern als intelligent beschrieben werden."
+        },
+        "options_en": {
+          "a": "who are very good in at least one subject.",
+          "b": "who achieve at least 20 to 30 percent of the entrance exam.",
+          "c": "who are described as intelligent by the 28 teachers in total."
+        },
+        "correct_answer": "a",
+        "explanation": "The target group is 'Kinder, die in mindestens einem Fach hochbegabt sind und überdurchschnittlich gute Ergebnisse haben' (children who are highly gifted in at least one subject)."
+      }
+    ]
+  },
+  "leseverstehen_teil_3": {
+    "advertisements": {
+      "a": {
+        "title": "Doppelbett Couch",
+        "subtitle": "Möbel",
+        "lines": [
+          "Und wenn mal Besuch kommt...",
+          "Doppelbett Couch, Leder, schwarz, ausklappbar, mit Bettkasten, Fußteil und vier Kissen, neuwertig",
+          "650 Euro. Tel. 06323/981428"
+        ],
+        "image": "data/images/tamara_ad_a.png",
+        "text_en": "And when visitors come... Double bed couch, leather, black, fold-out, with bed box, foot section and four pillows, as good as new. 650 Euro.",
+        "vocabulary": []
+      },
+      "b": {
+        "title": "ConCon Wohntextilien",
+        "subtitle": "Einkaufen",
+        "lines": [
+          "ConCon Wohntextilien",
+          "Bietet Ihnen einfach alles in einer großen Auswahl schöne Bettwäsche, Kissen, edle Bettdecken, feine Tischwäsche, Teppiche, Gardinen und vieles mehr.",
+          "Grünwaldstr. 127, 77340 Andenstadt."
+        ],
+        "image": "data/images/tamara_ad_b.png",
+        "text_en": "ConCon home textiles. Offers you simply everything in a large selection of beautiful bed linen, pillows, noble duvets, fine table linen, carpets, curtains and much more.",
+        "vocabulary": []
+      },
+      "c": {
+        "title": "Doppelstöckiges Kinderbett",
+        "subtitle": "Möbel",
+        "lines": [
+          "Doppelstöckiges Kinderbett",
+          "(fast neuwertig) mit Rost und Festgitter, aus Metall, braun. Kopf- und Fußteil mit Holz, sehr stabil.",
+          "Auch einzeln aufzustellen. Inklusive Matratzen.",
+          "Ladenpreis 400 Euro, jetzt zum halben Preis abzugeben."
+        ],
+        "image": "data/images/tamara_ad_c.png",
+        "text_en": "Bunk bed for children (almost as good as new) with slatted frame and fixed grille, made of metal, brown. Head and foot part with wood, very stable. Can also be set up individually. Mattresses included. Retail price 400 Euro, now for half price.",
+        "vocabulary": []
+      },
+      "d": {
+        "title": "Tankstelle Service",
+        "subtitle": "Stellenangebote",
+        "lines": [
+          "Tankstelle - 24-Stunden Service",
+          "Sucht für Waschanlage und Shop Aushilfskräfte",
+          "stundenweise, vorwiegend abends. Bitte melden bei Fr. Schneider."
+        ],
+        "image": "data/images/tamara_ad_d.png",
+        "text_en": "Gas station - 24-hour service. Looking for temporary staff for car wash and shop, hourly, mainly in the evening.",
+        "vocabulary": []
+      },
+      "e": {
+        "title": "Sonderpreis für Kurzentschlossene",
+        "subtitle": "Reisen & Urlaub",
+        "lines": [
+          "Sonderpreis für Kurzentschlossene",
+          "1 Woche Vollpension 199 Euro/Person oder Halbpension 98 Euro/Person",
+          "Bayr. Wald, schönes Haus, Hallenbad, Sauna, Massage, Kosmetik.",
+          "Wander- und Fahrradwege in direkter Umgebung."
+        ],
+        "image": "data/images/tamara_ad_e.png",
+        "text_en": "Special price for last-minute deciders. 1 week full board 199 Euro/person or half board 98 Euro/person. Bavarian Forest, beautiful house, indoor pool, sauna... hiking and cycling paths in the immediate vicinity.",
+        "vocabulary": []
+      },
+      "f": {
+        "title": "Urlaub auf dem Bauernhof",
+        "subtitle": "Reisen & Urlaub",
+        "lines": [
+          "Urlaub auf dem Bauernhof",
+          "Große Apartments, EZ, DZ, 2-4 Betten...",
+          "Familie Scherer-Kiesling."
+        ],
+        "image": "data/images/tamara_ad_f.png",
+        "text_en": "Farm holiday. Large apartments, single rooms, double rooms, 2-4 beds...",
+        "vocabulary": []
+      },
+      "g": {
+        "title": "Ferienwhg. u. Häuser an der Nordsee",
+        "subtitle": "Reisen & Urlaub",
+        "lines": [
+          "Ferienwhg. u. Häuser an der Nordsee",
+          "Winter- u. Frühjahrsangebote, noch Whg./Häuser frei mit direktem Zugang zum Strand.",
+          "Wangerland-Hooksiel."
+        ],
+        "image": "data/images/tamara_ad_g.png",
+        "text_en": "Holiday apartments and houses on the North Sea. Winter and spring offers, apartments/houses still available with direct access to the beach.",
+        "vocabulary": []
+      },
+      "h": {
+        "title": "Jugendcamp im Ostseebad GRÖMITZ",
+        "subtitle": "Reisen & Urlaub",
+        "lines": [
+          "gleich hinter den Ostseedünen",
+          "Jugendcamp im Ostseebad GRÖMITZ",
+          "Für Kinder u. Jugendliche von 8-15 Jahre",
+          "Sommerferien - ohne Eltern, viel Spaß haben, neue Freunde kennen lernen!!"
+        ],
+        "image": "data/images/tamara_ad_h.png",
+        "text_en": "Youth camp in the Baltic seaside resort GRÖMITZ. For children and adolescents from 8-15 years. Summer holidays - without parents, have a lot of fun, get to know new friends!!",
+        "vocabulary": []
+      },
+      "i": {
+        "title": "Kieferhochbett",
+        "subtitle": "Möbel",
+        "lines": [
+          "Kieferhochbett",
+          "Stabil, massiv, ca. 2 J.",
+          "Treppe, Rutsche, Vorhänge, nur für großes Kinderzimmer geeignet.",
+          "Neuwert: 800 Euro, Verkaufspreis jetzt 300 Euro."
+        ],
+        "image": "data/images/tamara_ad_i.png",
+        "text_en": "Pine loft bed. Stable, solid, approx. 2 years old. Stairs, slide, curtains, only suitable for a large children's room. Original value: 800 Euro, sales price now 300 Euro.",
+        "vocabulary": []
+      },
+      "j": {
+        "title": "Mit dem Rad durch die Lüneburger Heide",
+        "subtitle": "Reisen & Sport",
+        "lines": [
+          "Mit dem Rad durch die Lüneburger Heide",
+          "Wir sind ein kleiner Familienbetrieb mitten in der Heide. Rufen Sie uns an!",
+          "Wir senden Ihnen gern unseren Hausprospekt mit 20 ausgearbeiteten Vorschlägen (10-40 km pro Tag) zu. Abends Rücktransport möglich."
+        ],
+        "image": "data/images/tamara_ad_j.png",
+        "text_en": "By bike through the Lüneburg Heath. We are a small family business in the middle of the heath. We would be happy to send you our brochure with 20 elaborated proposals (10-40 km per day). Evening return transport possible.",
+        "vocabulary": []
+      },
+      "k": {
+        "title": "Restaurant RODENHOF",
+        "subtitle": "Stellenangebote",
+        "lines": [
+          "Restaurant RODENHOF mit Biergarten",
+          "sucht Kellner/in"
+        ],
+        "image": "data/images/tamara_ad_k.png",
+        "text_en": "Restaurant RODENHOF with beer garden seeks waiter/waitress.",
+        "vocabulary": []
+      },
+      "l": {
+        "title": "Fahrräder",
+        "subtitle": "Einkaufen & Dienstleistungen",
+        "lines": [
+          "Neue und gebrauchte Fahrräder",
+          "Fachhandel, Werkstatt, Reparaturdienst, Zubehör.",
+          "WESTSPANGE, St. Johanner Straße 80."
+        ],
+        "image": "data/images/tamara_ad_l.png",
+        "text_en": "New and used bicycles. Specialist trade, workshop, repair service, accessories.",
+        "vocabulary": []
+      }
+    },
+    "situations": [
+      {
+        "number": 11,
+        "situation": "Sie suchen für Ihre beiden Kinder neue Betten und möchten höchstens 200 Euro ausgeben.",
+        "situation_en": "You are looking for new beds for your two children and want to spend a maximum of 200 euros.",
+        "correct_answer": "c",
+        "explanation": "Ad 'c' offers a 'Doppelstöckiges Kinderbett' (bunk bed for children). It originally cost 400 Euro but is now 'zum halben Preis abzugeben' (for half price), which equals exactly 200 Euro."
+      },
+      {
+        "number": 12,
+        "situation": "Sie haben Probleme mit dem Rücken und suchen ein Gesundheitsbett.",
+        "situation_en": "You have back problems and are looking for a health bed.",
+        "correct_answer": "x",
+        "explanation": "None of the advertisements offer a health bed ('Gesundheitsbett') for back problems."
+      },
+      {
+        "number": 13,
+        "situation": "Sie suchen ein schönes Sofa, das man auch als Gästebett benutzen kann.",
+        "situation_en": "You are looking for a nice sofa that can also be used as a guest bed.",
+        "correct_answer": "a",
+        "explanation": "Ad 'a' offers a 'Doppelbett Couch' (double bed couch) which is 'ausklappbar' (fold-out), ideal for guests."
+      },
+      {
+        "number": 14,
+        "situation": "Vor Ihre Urlaubsreise möchten Sie Ihr Fahrrad überprüfen lassen.",
+        "situation_en": "Before your holiday trip, you would like to have your bike checked.",
+        "correct_answer": "l",
+        "explanation": "Ad 'l' is a bicycle shop ('Fahrräder') with a workshop and repair service ('Werkstatt, Reparaturdienst')."
+      },
+      {
+        "number": 15,
+        "situation": "Ihre Freunde möchten eine organisierte Radtour machen und suchen ein geeignetes Angebot.",
+        "situation_en": "Your friends would like to do an organized bike tour and are looking for a suitable offer.",
+        "correct_answer": "j",
+        "explanation": "Ad 'j' offers organized bike tours through the Lüneburg Heath ('Mit dem Rad durch die Lüneburger Heide') with elaborated proposals and return transport."
+      },
+      {
+        "number": 16,
+        "situation": "Ihre Verwandten haben eine Woche Urlaub und suchen einen Ferienort am Meer.",
+        "situation_en": "Your relatives have a week's holiday and are looking for a holiday resort by the sea.",
+        "correct_answer": "g",
+        "explanation": "Ad 'g' offers holiday apartments and houses on the North Sea ('an der Nordsee') with direct access to the beach ('Zugang zum Strand')."
+      },
+      {
+        "number": 17,
+        "situation": "Sie suchen für drei Vormittage pro Woche eine Stelle als Küchenhilfe.",
+        "situation_en": "You are looking for a job as a kitchen helper for three mornings a week.",
+        "correct_answer": "x",
+        "explanation": "There are no job advertisements for a kitchen helper ('Küchenhilfe')."
+      },
+      {
+        "number": 18,
+        "situation": "Sie suchen eine leichte Arbeit für abends, um sich noch etwas Geld dazuzuverdienen.",
+        "situation_en": "You are looking for light work for the evening to earn some extra money.",
+        "correct_answer": "d",
+        "explanation": "Ad 'd' is looking for temporary staff ('Aushilfskräfte') for a gas station car wash and shop, 'stundenweise, vorwiegend abends' (hourly, mainly in the evening)."
+      },
+      {
+        "number": 19,
+        "situation": "Ihre Bekannte möchte als Bedienung in einer Gaststätte arbeiten.",
+        "situation_en": "Your acquaintance would like to work as a waitress in a restaurant.",
+        "correct_answer": "k",
+        "explanation": "Ad 'k' is a restaurant ('Restaurant RODENHOF') looking for a waiter/waitress ('sucht Kellner/in')."
+      },
+      {
+        "number": 20,
+        "situation": "Ihre Freunde wollen Familienurlaub machen und suchen ein Angebot, das auch ein Kinderprogramm enthält.",
+        "situation_en": "Your friends want to go on a family holiday and are looking for an offer that also includes a children's program.",
+        "correct_answer": "f",
+        "explanation": "According to the official key, the answer is 'f' (Urlaub auf dem Bauernhof), as farm holidays typically cater to families with kids."
+      }
+    ]
+  },
+  "sprachbausteine_teil_1": {
+    "instructions": "Lesen Sie den Text und schließen Sie die Lücken 21-30. Welche Lösung (a, b oder c) ist jeweils richtig?",
+    "passage": {
+      "text": "Sehr geehrter Herr Schmidt,\nim Januar hatte ich bei ___21___ für mich und meine Familie einen Flug nach Indien gebucht. Leider entsprach unser Flug überhaupt nicht dem, ___22___ bei der Buchung am Telefon ausgemacht worden war.\n___23___ ich ausdrücklich einen Direktflug nach Mumbai bestellt hatte, haben Sie mir einen Flug ___24___ Zwischenstopp in Delhi ausgestellt. Wir mussten eine Nacht in Delhi verbringen und kamen so ___25___ einen Tag später als geplant in Mumbai an. Doch damit nicht genug. Der Flug war nicht nur anders als vereinbart, ___26___ auch noch viel teurer. Statt ___27___ erwarteten 640 Euro kostete der Flug 720 Euro.\nIch darf Sie daher ___28___ Rückzahlung der zu viel verrechneten Kosten auf mein Konto ___29___ der Deutschen Bank in Mumbai bitten. Meine Bankdaten haben Sie bereits.\nIch bitte Sie, die Angelegenheit bald zu klären und ___30___ dann zu antworten.\nMit freundlichen Grüßen,\nHarish Khurana",
+      "text_en": "Dear Mr. Schmidt,\nIn January I booked a flight to India for myself and my family with ___21___. Unfortunately, our flight did not at all correspond to what ___22___ had been agreed upon on the phone during the booking.\n___23___ I had expressly ordered a direct flight to Mumbai, you issued me a flight ___24___ a stopover in Delhi. We had to spend a night in Delhi and thus arrived in Mumbai ___25___ a day later than planned. But that's not all. The flight was not only different than agreed, ___26___ also much more expensive. Instead of ___27___ expected 640 euros, the flight cost 720 euros.\nI must therefore ask you ___28___ repayment of the overcharged costs to my account ___29___ the Deutsche Bank in Mumbai. You already have my bank details.\nI ask you to clarify the matter soon and to answer ___30___ then.\nYours sincerely,\nHarish Khurana",
+      "vocabulary": [
+        {
+          "de": "entsprechen",
+          "en": "to correspond to"
+        },
+        {
+          "de": "ausgemacht",
+          "en": "agreed upon"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 21,
+        "options": {
+          "a": "ihnen",
+          "b": "Ihnen",
+          "c": "Sie"
+        },
+        "correct_answer": "b",
+        "explanation": "The preposition 'bei' requires the dative case. Formal 'you' in dative is 'Ihnen'."
+      },
+      {
+        "number": 22,
+        "options": {
+          "a": "das",
+          "b": "was",
+          "c": "wie"
+        },
+        "correct_answer": "b",
+        "explanation": "The relative pronoun referring to an indefinite antecedent ('dem') is 'was' (that which was agreed upon)."
+      },
+      {
+        "number": 23,
+        "options": {
+          "a": "Danach",
+          "b": "Obwohl",
+          "c": "Nämlich"
+        },
+        "correct_answer": "b",
+        "explanation": "'Obwohl' (Although) introduces the concession: 'Although I had expressly ordered a direct flight...'."
+      },
+      {
+        "number": 24,
+        "options": {
+          "a": "für",
+          "b": "mit",
+          "c": "zu"
+        },
+        "correct_answer": "b",
+        "explanation": "'einen Flug mit Zwischenstopp' means 'a flight with a stopover'."
+      },
+      {
+        "number": 25,
+        "options": {
+          "a": "erst",
+          "b": "nach",
+          "c": "seit"
+        },
+        "correct_answer": "a",
+        "explanation": "'erst einen Tag später' means 'not until a day later'."
+      },
+      {
+        "number": 26,
+        "options": {
+          "a": "besonders",
+          "b": "sondern",
+          "c": "sonst"
+        },
+        "correct_answer": "b",
+        "explanation": "The two-part conjunction 'nicht nur... sondern auch...' means 'not only... but also...'."
+      },
+      {
+        "number": 27,
+        "options": {
+          "a": "der",
+          "b": "deren",
+          "c": "die"
+        },
+        "correct_answer": "a",
+        "explanation": "The preposition 'statt' takes the genitive case. Plural genitive of definite article is 'der': 'Statt der erwarteten...'."
+      },
+      {
+        "number": 28,
+        "options": {
+          "a": "für",
+          "b": "um",
+          "c": "zu"
+        },
+        "correct_answer": "b",
+        "explanation": "The verb 'bitten' requires the preposition 'um': 'bitten um Rückzahlung'."
+      },
+      {
+        "number": 29,
+        "options": {
+          "a": "an",
+          "b": "bei",
+          "c": "vor"
+        },
+        "correct_answer": "b",
+        "explanation": "One holds an account 'bei einer Bank' (at a bank)."
+      },
+      {
+        "number": 30,
+        "options": {
+          "a": "mich",
+          "b": "mir",
+          "c": "sich"
+        },
+        "correct_answer": "b",
+        "explanation": "The verb 'antworten' takes the dative object. 'mir antworten' (to answer me)."
+      }
+    ]
+  },
+  "sprachbausteine_teil_2": {
+    "instructions": "Lesen Sie den Text und schließen Sie die Lücken 31-40. Benutzen Sie die Wörter (a - o). Jedes Wort passt nur einmal.",
+    "word_bank": {
+      "a": "AUF",
+      "b": "BEIM",
+      "c": "DESWEGEN",
+      "d": "MÖCHTE",
+      "e": "NENNT",
+      "f": "SAGT",
+      "g": "SOLLTE",
+      "h": "SONDERN",
+      "i": "VON",
+      "j": "WAS",
+      "k": "WEGEN",
+      "l": "WEIL",
+      "m": "WELCHEN",
+      "n": "WÜRDE",
+      "o": "ZUM"
+    },
+    "word_bank_en": {
+      "a": "on/for",
+      "b": "at the",
+      "c": "therefore",
+      "d": "would like",
+      "e": "calls/names",
+      "f": "says",
+      "g": "should",
+      "h": "but (rather)",
+      "i": "of/from",
+      "j": "what",
+      "k": "because of",
+      "l": "because",
+      "m": "which (dat pl)",
+      "n": "would",
+      "o": "to the"
+    },
+    "passage": {
+      "text": "Sehr geehrte Frau Borner,\nes gibt ganz viele Ratschläge, wie man sich ernähren soll, was man essen soll und was nicht. Die meisten Empfehlungen sind aber nicht für etwas, ___31___ gegen etwas, und zwar immer wieder gegen etwas anderes: gegen Fleisch zum Beispiel oder gegen Zucker, aber auch gegen Milch.\nSo ___32___ man etwa, wer kein Fleisch isst, lebt nicht nur gesünder, sondern fühlt sich auch besser.\n___33___ Durchsehen einer Zeitschrift ist mir Ihre Anzeige aufgefallen, und nun habe ich folgende Fragen an Sie: Von ___34___ Nahrungsmitteln darf man eigentlich so viel essen, wie man will? Was ___35___ jeden Tag gegessen werden? Und wie ist das mit der Milch? Die einen sagen, Milch ist sehr gesund ___36___ der vielen wichtigen Nährstoffe. Andere meinen, wer viel Milch trinkt, kann Probleme mit dem Magen bekommen. Außerdem kann man anstelle ___37___ Milch auch Mineralwasser trinken. Was soll ich jetzt glauben?\nFür eine Antwort ___38___ meine Fragen danke ich Ihnen im Voraus. Könnten Sie mir auch noch eine Broschüre schicken? Das Thema Essen und Sport ___39___ mich besonders interessieren, ___40___ ich selber viel Sport treibe.\nMit freundlichen Grüßen,\nSilvia Schönenberger",
+      "text_en": "Dear Ms. Borner,\nThere is a whole lot of advice on how one should eat, what one should eat and what not. Most recommendations are, however, not for something, ___31___ against something, and again and again against something else: against meat for example or against sugar, but also against milk.\nFor example, one ___32___ that whoever doesn't eat meat not only lives healthier, but also feels better.\n___33___ looking through a magazine I noticed your advertisement, and now I have the following questions for you: Of ___34___ foods can one actually eat as much as one wants? What ___35___ be eaten every day? And how is it with milk? Some say milk is very healthy ___36___ the many important nutrients. Others think whoever drinks a lot of milk can get stomach problems. Furthermore, one can also drink mineral water instead ___37___ milk. What should I believe now?\nI thank you in advance for an answer ___38___ my questions. Could you also send me a brochure? The topic of food and sport ___39___ particularly interest me, ___40___ I do a lot of sport myself.\nYours sincerely,\nSilvia Schönenberger",
+      "vocabulary": [
+        {
+          "de": "ernähren",
+          "en": "to feed / nourish"
+        },
+        {
+          "de": "anstelle",
+          "en": "instead of"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 31,
+        "correct_answer": "h",
+        "explanation": "'nicht für etwas, sondern gegen etwas' means 'not for something, but (rather) against something'."
+      },
+      {
+        "number": 32,
+        "correct_answer": "f",
+        "explanation": "'So sagt man etwa' means 'For example, people say / it is said'."
+      },
+      {
+        "number": 33,
+        "correct_answer": "b",
+        "explanation": "'Beim Durchsehen' means 'While looking through'."
+      },
+      {
+        "number": 34,
+        "correct_answer": "m",
+        "explanation": "'Von welchen Nahrungsmitteln' means 'Of which foods' (dative plural)."
+      },
+      {
+        "number": 35,
+        "correct_answer": "g",
+        "explanation": "'Was sollte jeden Tag gegessen werden?' means 'What should be eaten every day?'."
+      },
+      {
+        "number": 36,
+        "correct_answer": "k",
+        "explanation": "'wegen der vielen wichtigen Nährstoffe' means 'because of the many important nutrients' (wegen + genitive)."
+      },
+      {
+        "number": 37,
+        "correct_answer": "i",
+        "explanation": "'anstelle von Milch' means 'instead of milk'."
+      },
+      {
+        "number": 38,
+        "correct_answer": "a",
+        "explanation": "'Für eine Antwort auf meine Fragen' means 'For an answer to my questions' (Antwort auf + accusative)."
+      },
+      {
+        "number": 39,
+        "correct_answer": "n",
+        "explanation": "'würde mich besonders interessieren' means 'would particularly interest me' (conditional)."
+      },
+      {
+        "number": 40,
+        "correct_answer": "l",
+        "explanation": "'weil ich selber viel Sport treibe' means 'because I do a lot of sports myself'."
+      }
+    ]
+  },
+  "hoerverstehen_teil_1": {
+    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören diese Texte nur einmal. Entscheiden Sie beim Hören, ob die Aussagen 41-45 richtig (+) oder falsch (-) sind.",
+    "transcripts": [
+      {
+        "number": 41,
+        "text": "Als Kind wollte ich unbedingt Urlaub wie meine Freunde machen: Sonne, Strand und Meer. Doch meine Eltern fuhren lieber in die Berge. Während andere im Wasser spielten, mussten wir wandern gehen. Ich fand das oft langweilig und hätte lieber Sandburgen gebaut oder im Meer geschwommen. So ein richtiger Badeurlaub war immer mein Traum.",
+        "text_en": "As a child I absolutely wanted to go on holiday like my friends: sun, beach and sea. But my parents preferred to go to the mountains. While others played in the water, we had to go hiking. I often found that boring and would rather have built sandcastles or swum in the sea. Such a real beach holiday was always my dream.",
+        "vocabulary": [
+          {
+            "de": "unbedingt",
+            "en": "absolutely"
+          },
+          {
+            "de": "die Sandburg",
+            "en": "the sandcastle"
+          }
+        ]
+      },
+      {
+        "number": 42,
+        "text": "Einmal waren wir im Schwarzwald zum Wandern. Ich war damals noch klein und fand das wirklich anstrengend. Es hat oft geregnet und die Wege waren rutschig. Ich wollte einfach nur zu Hause bleiben und mit meinen Freunden spielen. Die Natur war zwar schön, aber dieser Urlaub hat mir keinen Spaß gemacht. Danach habe ich Wanderurlaube gemieden.",
+        "text_en": "Once we were in the Black Forest for hiking. I was still little then and found it really exhausting. It rained often and the paths were slippery. I just wanted to stay home and play with my friends. The nature was beautiful, but this holiday was no fun for me. After that I avoided hiking holidays.",
+        "vocabulary": [
+          {
+            "de": "anstrengend",
+            "en": "exhausting"
+          },
+          {
+            "de": "meiden",
+            "en": "to avoid"
+          }
+        ]
+      },
+      {
+        "number": 43,
+        "text": "Wir sind früher oft in den Ferien an einen See gefahren. Dort haben wir gezeltet oder in kleinen Pensionen übernachtet. Ich habe viele Kinder kennengelernt und es war immer spannend. Bei meinen Verwandten waren wir nie. Meine Eltern wollten lieber neue Orte sehen. Verwandtenbesuch war für sie kein Urlaub.",
+        "text_en": "We used to go to a lake often during the holidays. We camped there or stayed in small pensions. I met lots of children and it was always exciting. We were never at my relatives. My parents preferred to see new places. Visiting relatives was not a holiday for them.",
+        "vocabulary": [
+          {
+            "de": "zelten",
+            "en": "to camp"
+          },
+          {
+            "de": "der Verwandte",
+            "en": "the relative"
+          }
+        ]
+      },
+      {
+        "number": 44,
+        "text": "Mit meiner Familie haben wir meistens Städtereisen gemacht. Wir sind mit dem Auto gefahren und haben Museen besucht. Fahrradtouren waren nicht unser Ding. Ich kann mich nur an einen Ausflug mit dem Rad erinnern, aber das war nicht regelmäßig. Meine Eltern wollten lieber zu Fuß die Städte erkunden und essen gehen.",
+        "text_en": "We mostly went on city trips with my family. We drove by car and visited museums. Bike tours were not our thing. I can only remember one trip by bike, but it was not regular. My parents preferred to explore the cities on foot and go out to eat.",
+        "vocabulary": [
+          {
+            "de": "die Städtereise",
+            "en": "the city trip"
+          },
+          {
+            "de": "erkunden",
+            "en": "to explore"
+          }
+        ]
+      },
+      {
+        "number": 45,
+        "text": "Ich durfte bei der Urlaubsplanung immer mitreden. Meine Eltern fragten mich, was ich machen möchte, und wir haben gemeinsam entschieden. Manchmal haben wir Vorschläge gesammelt und uns dann geeinigt. Das war schön, denn ich fühlte mich ernst genommen. So hatten wir alle mehr Spaß, weil jeder etwas beitragen konnte.",
+        "text_en": "I was always allowed to have a say in holiday planning. My parents asked me what I wanted to do and we decided together. Sometimes we collected suggestions and then agreed. That was nice because I felt taken seriously. So we all had more fun because everyone could contribute something.",
+        "vocabulary": [
+          {
+            "de": "mitreden",
+            "en": "to have a say"
+          },
+          {
+            "de": "sich einigen",
+            "en": "to agree (on something)"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "number": 41,
+        "statement": "Der Sprecher hätte gern Urlaub wie die anderen Kinder gemacht.",
+        "statement_en": "The speaker would have liked to go on holiday like the other children.",
+        "correct_answer": "+",
+        "explanation": "He says 'Als Kind wollte ich unbedingt Urlaub wie meine Freunde machen' (As a child I absolutely wanted to go on holiday like my friends)."
+      },
+      {
+        "number": 42,
+        "statement": "Dem Sprecher hat der Wanderurlaub nicht so gut gefallen.",
+        "statement_en": "The speaker did not like the hiking holiday that much.",
+        "correct_answer": "+",
+        "explanation": "He states 'dieser Urlaub hat mir keinen Spaß gemacht. Danach habe ich Wanderurlaube gemieden' (this holiday was no fun for me. After that I avoided hiking holidays)."
+      },
+      {
+        "number": 43,
+        "statement": "Die Sprecherin hat die Ferien bei Verwandten verbracht.",
+        "statement_en": "The speaker spent her holidays with relatives.",
+        "correct_answer": "-",
+        "explanation": "She explicitly says 'Bei meinen Verwandten waren wir nie' (We were never at my relatives)."
+      },
+      {
+        "number": 44,
+        "statement": "Die Sprecherin hat mit ihren Eltern regelmäßig Fahrradausflüge gemacht.",
+        "statement_en": "The speaker regularly went on bike trips with her parents.",
+        "correct_answer": "-",
+        "explanation": "She says 'Fahrradtouren waren nicht unser Ding... das war nicht regelmäßig' (Bike tours were not our thing... it was not regular)."
+      },
+      {
+        "number": 45,
+        "statement": "Der Sprecher hat den Urlaub mit den Eltern gemeinsam geplant.",
+        "statement_en": "The speaker planned the holiday together with his parents.",
+        "correct_answer": "+",
+        "explanation": "He confirms 'Meine Eltern fragten mich... und wir haben gemeinsam entschieden' (My parents asked me... and we decided together)."
+      }
+    ]
+  },
+  "hoerverstehen_teil_2": {
+    "instructions": "Sie hören nun ein Gespräch. Dazu sollen Sie zehn Aufgaben lösen. Sie hören das Gespräch zweimal. Entscheiden Sie beim Hören, ob die Aussagen 46-55 richtig (+) oder falsch (-) sind.",
+    "interview_transcript": {
+      "text": "Moderator: Guten Tag, meine Damen und Herren. Heute möchte ich Ihnen von Herrn Schütz erzählen, einem Taxifahrer mit interessanten Erlebnissen. Obwohl er erst seit kurzer Zeit Taxi fährt, hat er schon viele Erfahrungen gesammelt. Fahrgäste erzählen ihm viel, und er erhält oft wertvolle Tipps. Sport hilft ihm, sich zu entspannen. Guten Tag, Herr Schütz. Vielen Dank, dass Sie sich Zeit für dieses Interview nehmen. Sie sind Taxifahrer, richtig?\nHerr Schütz: Ja, genau. Ich fahre Taxi hier in der Stadt.\nModerator: Manche sagen, dass Sie erst seit kurzer Zeit als Taxifahrer arbeiten. Stimmt das?\nHerr Schütz: Nein, das ist nicht richtig. Ich bin schon seit mehreren Jahren als Taxifahrer tätig. Es ist ein Beruf, der mir gefällt, weil ich viele interessante Menschen treffe.\nModerator: Das glaube ich. Und hatten Sie in Ihrer Zeit als Taxifahrer schon einmal Geschäftsleute als Kunden?\nHerr Schütz: Nein, ehrlich gesagt nicht. In der Kleinstadt, in der ich früher gearbeitet habe, gab es kaum Geschäftsleute, die Taxi gefahren sind. Meistens waren es Rentner, Touristen oder Einheimische, die kurze Strecken fahren wollten.\nModerator: Gibt es etwas, das Sie besonders überrascht hat? Ich habe gehört, dass Fahrgäste oft viel erzählen.\nHerr Schütz: Ja, das ist richtig. Viele Menschen reden sehr offen mit mir, weil sie wissen, dass sie mich wahrscheinlich nie wiedersehen. Das ist interessant, weil ich manchmal Dinge erfahre, die ich sonst nie hören würde.\nModerator: Und Männer sprechen eher über unpersönliche Dinge, oder?\nHerr Schütz: Das kann ich so nicht bestätigen. Manche sprechen über Politik oder das Wetter, aber viele erzählen auch von ihren Problemen oder Erlebnissen.\nModerator: Bekommen Sie manchmal Tipps von Ihren Fahrgästen?\nHerr Schütz: Nein, das passiert eher selten. Natürlich gibt es ein paar freundliche Menschen, die mir etwas raten, aber meistens bleibt es bei einem netten Gespräch.\nModerator: Wie entspannen Sie sich nach einem langen Arbeitstag? Stimmt es, dass Sie schwimmen gehen?\nHerr Schütz: Nein, das ist falsch. Ich gehe lieber spazieren oder höre Musik, um mich zu entspannen. Schwimmen ist nicht so mein Ding.\nModerator: Und Sport ist Ihnen generell wichtig?\nHerr Schütz: Ja, absolut. Sport steht für mich an erster Stelle. Bewegung hilft mir, fit zu bleiben und den Stress abzubauen.\nModerator: Sie haben sich bewusst entschieden, nur tagsüber zu fahren, richtig?\nHerr Schütz: Ja, genau. Nachts zu fahren ist mir zu stressig. Ich fühle mich tagsüber sicherer, und es gibt auch genug Kunden.\nModerator: Einige Leute sagen, dass jüngere Taxifahrer weniger Angst haben, nachts zu fahren. Was denken Sie darüber?\nHerr Schütz: Das ist nicht ganz richtig. Manche junge Fahrer sind vielleicht mutiger, aber auch sie müssen vorsichtig sein. Nachts kann es gefährlich werden, deshalb ist Vorsicht immer wichtig.\nModerator: Sehr interessant. Vielen Dank für das Gespräch, Herr Schütz. Ich wünsche Ihnen weiterhin eine gute Fahrt.",
+      "text_en": "Moderator: Good day, ladies and gentlemen. Today I would like to tell you about Mr. Schütz, a taxi driver with interesting experiences. Although he has only been driving a taxi for a short time, he has already gained a lot of experience. Passengers tell him a lot, and he often receives valuable tips. Sports help him relax. Good day, Mr. Schütz. Thank you for taking the time for this interview. You are a taxi driver, right?\nMr. Schütz: Yes, exactly. I drive a taxi here in the city.\nModerator: Some say that you have only been working as a taxi driver for a short time. Is that true?\nMr. Schütz: No, that is not right. I have been working as a taxi driver for several years. It is a profession that I like because I meet many interesting people.\nModerator: I believe that. And in your time as a taxi driver, have you ever had business people as customers?\nMr. Schütz: No, to be honest, not. In the small town where I used to work, there were hardly any business people who took taxis. Mostly it was pensioners, tourists, or locals who wanted to travel short distances.\nModerator: Is there anything that particularly surprised you? I've heard that passengers often talk a lot.\nMr. Schütz: Yes, that's right. Many people talk very openly with me because they know they will probably never see me again. That is interesting because I sometimes find out things I would otherwise never hear.\nModerator: And men tend to talk about impersonal things, right?\nMr. Schütz: I cannot confirm that. Some talk about politics or the weather, but many also tell about their problems or experiences.\nModerator: Do you sometimes get tips from your passengers?\nMr. Schütz: No, that happens rather rarely. Of course there are a few friendly people who advise me on something, but mostly it remains a nice conversation.\nModerator: How do you relax after a long working day? Is it true that you go swimming?\nMr. Schütz: No, that is wrong. I prefer to go for a walk or listen to music to relax. Swimming is not really my thing.\nModerator: And sports are generally important to you?\nMr. Schütz: Yes, absolutely. Sport comes first for me. Movement helps me to stay fit and relieve stress.\nModerator: You consciously decided to only drive during the day, right?\nMr. Schütz: Yes, exactly. Driving at night is too stressful for me. I feel safer during the day, and there are enough customers too.\nModerator: Some people say that younger taxi drivers are less afraid to drive at night. What do you think about that?\nMr. Schütz: That is not quite right. Some young drivers might be braver, but they too must be careful. It can get dangerous at night, so caution is always important.\nModerator: Very interesting. Thank you for the conversation, Mr. Schütz. I wish you a safe journey.",
+      "vocabulary": [
+        {
+          "de": "der Fahrgast",
+          "en": "the passenger"
+        },
+        {
+          "de": "der Einheimische",
+          "en": "the local"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 46,
+        "statement": "Herr Schütz arbeitet erst seit kurzer Zeit als Taxifahrer.",
+        "statement_en": "Mr. Schütz has only been working as a taxi driver for a short time.",
+        "correct_answer": "-",
+        "explanation": "He clarifies: 'Nein, das ist nicht richtig. Ich bin schon seit mehreren Jahren als Taxifahrer tätig' (No, that is not right. I have been working as a taxi driver for several years)."
+      },
+      {
+        "number": 47,
+        "statement": "In der Kleinstadt hatte Herr Schütz keine Geschäftsleute als Kunden.",
+        "statement_en": "In the small town, Mr. Schütz had no business people as customers.",
+        "correct_answer": "+",
+        "explanation": "He confirms: 'In der Kleinstadt... gab es kaum Geschäftsleute, die Taxi gefahren sind' (In the small town... there were hardly any business people who took taxis)."
+      },
+      {
+        "number": 48,
+        "statement": "Herr Schütz hat sich schon einmal in einen Fahrgast verliebt.",
+        "statement_en": "Mr. Schütz once fell in love with a passenger.",
+        "correct_answer": "-",
+        "explanation": "This is never mentioned in the audio."
+      },
+      {
+        "number": 49,
+        "statement": "Die Fahrgäste erzählen viel, weil sie den Taxifahrer nicht kennen.",
+        "statement_en": "The passengers talk a lot because they don't know the taxi driver.",
+        "correct_answer": "+",
+        "explanation": "He says: 'Viele Menschen reden sehr offen mit mir, weil sie wissen, dass sie mich wahrscheinlich nie wiedersehen' (Many people talk very openly with me because they know they will probably never see me again)."
+      },
+      {
+        "number": 50,
+        "statement": "Männer sprechen oft über unpersönliche Dinge.",
+        "statement_en": "Men often talk about impersonal things.",
+        "correct_answer": "-",
+        "explanation": "He refutes this: 'Das kann ich so nicht bestätigen... viele erzählen auch von ihren Problemen oder Erlebnissen' (I cannot confirm that... many also tell about their problems or experiences)."
+      },
+      {
+        "number": 51,
+        "statement": "Herr Schütz bekommt von den Fahrgästen manchmal auch einen Tipp.",
+        "statement_en": "Mr. Schütz sometimes also gets a tip (advice) from the passengers.",
+        "correct_answer": "-",
+        "explanation": "He says: 'Nein, das passiert eher selten... meistens bleibt es bei einem netten Gespräch' (No, that happens rather rarely... mostly it remains a nice conversation)."
+      },
+      {
+        "number": 52,
+        "statement": "In der Freizeit steht Sport für Herrn Schütz an erster Stelle.",
+        "statement_en": "In his free time, sport comes first for Mr. Schütz.",
+        "correct_answer": "+",
+        "explanation": "He confirms: 'Sport steht für mich an erster Stelle' (Sport comes first for me)."
+      },
+      {
+        "number": 53,
+        "statement": "Beim Schwimmen kann sich Herr Schütz von einem anstrengenden Tag erholen.",
+        "statement_en": "Mr. Schütz can recover from an exhausting day by swimming.",
+        "correct_answer": "-",
+        "explanation": "He states: 'Schwimmen ist nicht so mein Ding' (Swimming is not really my thing)."
+      },
+      {
+        "number": 54,
+        "statement": "Herr Schütz hat sich entschieden, nur am Tag Taxi zu fahren.",
+        "statement_en": "Mr. Schütz has decided to only drive a taxi during the day.",
+        "correct_answer": "+",
+        "explanation": "He confirms: 'Ja, genau. Nachts zu fahren ist mir zu stressig' (Yes, exactly. Driving at night is too stressful for me)."
+      },
+      {
+        "number": 55,
+        "statement": "Nach Meinung von Herrn Schütz haben jüngere Taxifahrer weniger Angst, nachts zu an.",
+        "statement_en": "In Mr. Schütz's opinion, younger taxi drivers are less afraid of driving at night.",
+        "correct_answer": "-",
+        "explanation": "He disagrees: 'Das ist nicht ganz richtig. Manche junge Fahrer sind vielleicht mutiger, aber auch sie müssen vorsichtig sein' (That is not quite right... they too must be careful)."
+      }
+    ]
+  },
+  "hoerverstehen_teil_3": {
+    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören jeden Text zweimal. Entscheiden Sie beim Hören, ob die Aussagen 56-60 richtig (+) oder falsch (-) sind.",
+    "transcripts": [
+      {
+        "number": 56,
+        "text": "Achtung, meine Damen und Herren. Der Zug nach Mannheim fährt um 13:14 Uhr ab. Bitte begeben Sie sich rechtzeitig zum Bahnsteig. Denken Sie daran, Ihr Ticket bereitzuhalten. Wir wünschen Ihnen eine gute Reise und danken Ihnen, dass Sie mit uns fahren.",
+        "text_en": "Attention, ladies and gentlemen. The train to Mannheim departs at 1:14 p.m. Please proceed to the platform in good time. Remember to have your ticket ready. We wish you a good journey and thank you for traveling with us.",
+        "vocabulary": [
+          {
+            "de": "der Bahnsteig",
+            "en": "the platform"
+          },
+          {
+            "de": "bereithalten",
+            "en": "to have ready"
+          }
+        ]
+      },
+      {
+        "number": 57,
+        "text": "Guten Tag, Sie haben die Praxis von Dr. Hoffmann erreicht. Dr. Hoffmann ist derzeit im Urlaub und nicht unter der Nummer 9573075 erreichbar. Bitte hinterlassen Sie eine Nachricht oder versuchen Sie es später erneut. Vielen Dank für Ihr Verständnis.",
+        "text_en": "Good afternoon, you have reached Dr. Hoffmann's practice. Dr. Hoffmann is currently on vacation and cannot be reached at 9573075. Please leave a message or try again later. Thank you for your understanding.",
+        "vocabulary": [
+          {
+            "de": "erneut",
+            "en": "again / anew"
+          }
+        ]
+      },
+      {
+        "number": 58,
+        "text": "Liebe Kinobesucher, bitte beachten Sie: Der Film 'Das Leben ist schön' beginnt nicht um 18:15 Uhr im Zentralkino. Die tatsächliche Vorführzeit ist später. Bitte überprüfen Sie die aktuellen Zeiten auf der Webseite oder an der Kinokasse. Wir wünschen Ihnen viel Spaß beim Film.",
+        "text_en": "Dear cinema visitors, please note: The film 'Life is Beautiful' does not start at 6:15 p.m. in the central cinema. The actual screening time is later. Please check the current times on the website or at the box office. We hope you enjoy the film.",
+        "vocabulary": [
+          {
+            "de": "die Vorführzeit",
+            "en": "the screening time"
+          }
+        ]
+      },
+      {
+        "number": 59,
+        "text": "Heute Abend wird es nicht schneien. Laut Wetterbericht gibt es nur Regen. Ich liebe Schnee, aber Autofahren wird dann schwierig. Letztes Jahr hatten wir viel Schnee und es gab viele Unfälle. Ich hoffe, dass es erst am Wochenende schneit.",
+        "text_en": "It will not snow tonight. According to the weather report there is only rain. I love snow, but driving becomes difficult then. Last year we had a lot of snow and there were many accidents. I hope it doesn't snow until the weekend.",
+        "vocabulary": [
+          {
+            "de": "schneien",
+            "en": "to snow"
+          }
+        ]
+      },
+      {
+        "number": 60,
+        "text": "Hallo Lisa, ich wollte dir nur Bescheid geben, dass ich am 23. Zeit habe. Falls du dich noch mit mir treffen willst, können wir uns gerne verabreden. Ich hoffe, es passt dir auch. Sag mir einfach Bescheid, wann es dir am besten passt.",
+        "text_en": "Hello Lisa, I just wanted to let you know that I have time on the 23rd. If you still want to meet me, we are welcome to arrange something. I hope it suits you too. Just let me know when it suits you best.",
+        "vocabulary": [
+          {
+            "de": "sich verabreden",
+            "en": "to arrange to meet / make an appointment"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "number": 56,
+        "statement": "Der Zug nach Mannheim fährt um 13:14 Uhr ab.",
+        "statement_en": "The train to Mannheim departs at 1:14 p.m.",
+        "correct_answer": "+",
+        "explanation": "The audio confirms 'Der Zug nach Mannheim fährt um 13:14 Uhr ab'."
+      },
+      {
+        "number": 57,
+        "statement": "Dr. Hoffmann ist im Urlaub unter der Nummer 957 30 75 zu erreichen.",
+        "statement_en": "Dr. Hoffmann can be reached on holiday at the number 957 30 75.",
+        "correct_answer": "-",
+        "explanation": "The audio states 'Dr. Hoffmann ist derzeit im Urlaub und NICHT unter der Nummer 9573075 erreichbar' (is NOT reachable under this number)."
+      },
+      {
+        "number": 58,
+        "statement": "Sie können den Film das Leben ist schön um 18: 15 Uhr im Central sehen.",
+        "statement_en": "You can see the film Life is Beautiful at 6:15 p.m. at the Central.",
+        "correct_answer": "-",
+        "explanation": "The audio explicitly states: 'Der Film 'Das Leben ist schön' beginnt nicht um 18:15 Uhr im Zentralkino. Die tatsächliche Vorführzeit ist später' (does NOT start at 18:15)."
+      },
+      {
+        "number": 59,
+        "statement": "Heute Abend beginnt es zu schneien.",
+        "statement_en": "It starts to snow tonight.",
+        "correct_answer": "-",
+        "explanation": "The speaker says 'Heute Abend wird es nicht schneien. Laut Wetterbericht gibt es nur Regen' (It will not snow tonight, only rain)."
+      },
+      {
+        "number": 60,
+        "statement": "Katrin hätte am Dreiundzwanzigsten Zeit.",
+        "statement_en": "Katrin would have time on the twenty-third.",
+        "correct_answer": "+",
+        "explanation": "The speaker (presumably Katrin) leaves a message for Lisa saying 'ich wollte dir nur Bescheid geben, dass ich am 23. Zeit habe' (I have time on the 23rd)."
+      }
+    ]
+  }
+}

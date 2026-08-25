@@ -1,0 +1,1003 @@
+{
+  "title": "IRIS1",
+  "leseverstehen_teil_1": {
+    "headings": {
+      "a": "Zufriedenheit im Job schützt vor Stress",
+      "b": "Erfolgreiche Männer können auch gute Väter sein",
+      "c": "Keiner lacht so fröhlich wie der Weihnachtsmann",
+      "d": "Wie Männer und Frauen lachen",
+      "e": "Weniger Arbeit - weniger Stress",
+      "f": "Schlechte Nachrichten? Sagen Sie es mit einem Lächeln",
+      "g": "Der Beruf ist für Männer wichtiger als die Familie",
+      "h": "Auch ältere Menschen leiden unter Stress",
+      "i": "Frauen reagieren besser auf schlechte Nachrichten als Männer",
+      "j": "Mit 70 Jahren macht das Leben am meisten Spaß"
+    },
+    "headings_en": {
+      "a": "Job satisfaction protects against stress",
+      "b": "Successful men can also be good fathers",
+      "c": "No one laughs as happily as Santa Claus",
+      "d": "How men and women laugh",
+      "e": "Less work - less stress",
+      "f": "Bad news? Say it with a smile",
+      "g": "The profession is more important to men than the family",
+      "h": "Older people also suffer from stress",
+      "i": "Women react better to bad news than men",
+      "j": "At 70, life is the most fun"
+    },
+    "passages": [
+      {
+        "number": 1,
+        "text": "Frauen lachen auf viele Arten: Sie kichern, glucksen und manchmal singen sie fast. Bei Männern dagegen kommt das viel seltener vor. Aber gemeinsam ist Männern und Frauen, dass sie in Vokalen lachen, die im Mundzentrum gebildet werden. Und das ist entscheidend: Nur wenn die Vokale im Mundzentrum gebildet werden, ist das Lachen für uns fröhlich und positiv. Damit ist bewiesen, dass das Lachen vom Weihnachtsmann, das wie ein tiefes 'Ho, ho, ho' klingt, kaum als fröhlich empfunden wird. Denn dieser Laut wird im hinteren Teil des Mundraums gebildet.",
+        "text_en": "Women laugh in many ways: They giggle, chuckle, and sometimes they almost sing. With men, on the other hand, this happens much more rarely. But common to men and women is that they laugh in vowels formed in the center of the mouth. And that is crucial: Only when the vowels are formed in the center of the mouth is the laughter happy and positive for us. This proves that the laughter of Santa Claus, which sounds like a deep 'Ho, ho, ho', is hardly perceived as happy. Because this sound is formed in the back of the mouth cavity.",
+        "correct_answer": "d",
+        "explanation": "The text explores how men and women laugh and how sounds in the mouth affect whether a laugh sounds happy. This aligns with heading 'd' (How men and women laugh).",
+        "vocabulary": [
+          {
+            "de": "kichern",
+            "en": "to giggle"
+          },
+          {
+            "de": "entscheidend",
+            "en": "crucial"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "text": "Viel Arbeit, viel Stress. Wer viel arbeitet, muss nicht unbedingt gestresst sein. Frauen in medizinischen Berufen zum Beispiel klagen, trotz teilweise hoher Belastung, deutlich weniger über stressbedingte Krankheiten als Raumpflegerinnen, Kindergärtnerinnen oder Berufsschullehrerinnen. Dies zeigt eine Untersuchung des Hamburger IPO-Instituts, das für eine Studie 1000 Frauen und Männer befragt hat. Vor Stress schützen laut Studie ein angenehmes Betriebsklima, ein gutes Verhältnis zur Chefin oder zum Chef und die Möglichkeit, die eigene Arbeit selbstständig zu planen.",
+        "text_en": "A lot of work, a lot of stress. Whoever works a lot does not necessarily have to be stressed. Women in medical professions, for example, complain significantly less about stress-related illnesses than cleaners, kindergarten teachers, or vocational school teachers, despite sometimes high workloads. This is shown by a study by the Hamburg IPO Institute, which interviewed 1000 women and men. According to the study, a pleasant working atmosphere, a good relationship with the boss, and the ability to plan one's own work independently protect against stress.",
+        "correct_answer": "a",
+        "explanation": "The passage details that things like a pleasant working atmosphere and autonomy ('Möglichkeit, die eigene Arbeit selbstständig zu planen') protect against stress. This corresponds to heading 'a'.",
+        "vocabulary": [
+          {
+            "de": "die Belastung",
+            "en": "the workload / burden"
+          },
+          {
+            "de": "das Betriebsklima",
+            "en": "the working atmosphere"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "text": "Ein neues Buch zeigt, wie Männer Fähigkeiten aus dem Arbeitsleben auf die Erziehung übertragen können und so zu erfolgreichen Vätern werden. Da wird die gemeinsame Kindererziehung zur Partnerarbeit (oder sogar zum Joint Venture), geschicktes Verhandeln heißt, das Kind zu überzeugen, dass die Zähne geputzt werden müssen, und der Familienurlaub hat alle Qualitäten einer Tagung oder eines Seminars: Man erhält die Gelegenheit, die Kinder intensiv zu studieren.",
+        "text_en": "A new book shows how men can transfer skills from their working lives to parenting and thus become successful fathers. Joint child-rearing becomes partner work (or even a joint venture), skillful negotiation means convincing the child that teeth must be brushed, and the family vacation has all the qualities of a conference or seminar: you get the opportunity to study the children intensively.",
+        "correct_answer": "b",
+        "explanation": "The text talks about how successful men use professional skills to become successful fathers ('zu erfolgreichen Vätern werden'), which matches heading 'b'.",
+        "vocabulary": [
+          {
+            "de": "übertragen",
+            "en": "to transfer"
+          },
+          {
+            "de": "die Erziehung",
+            "en": "the upbringing / education"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "text": "Eine Studie der Universität Essex hat ergeben, dass wir mit siebzig Jahren am glücklichsten sind. Zwar haben die meisten Menschen in diesem Alter gesundheitliche Probleme, aber dafür genießen sie viel Freiraum, haben keine großen finanziellen Sorgen und machen sich weniger Gedanken darüber, was andere über sie denken. Danach geht es bergab: Zwischen dreißig und fünfzig Jahren tragen wir am meisten Verantwortung, das Leben ist geprägt von Sachzwängen.",
+        "text_en": "A study by the University of Essex has shown that we are happiest at seventy. Although most people at this age have health problems, they enjoy a lot of freedom, have no major financial worries, and care less about what others think of them. Between thirty and fifty, we carry the most responsibility, and life is characterized by practical constraints.",
+        "correct_answer": "j",
+        "explanation": "The text explicitly states 'mit siebzig Jahren am glücklichsten sind' (happiest at 70), matching heading 'j'.",
+        "vocabulary": [
+          {
+            "de": "der Freiraum",
+            "en": "the freedom / free space"
+          },
+          {
+            "de": "der Sachzwang",
+            "en": "the practical constraint"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "text": "Warum bleiben manche Managerinnen erfolgreich, obwohl sie Nachrichten mitteilen, die ihr Publikum lieber nicht hören möchte? Ganz einfach: Sie verkaufen die schlechte Nachricht mit Humor. Ein Londoner Soziologe hat während einer Studie beobachtet, dass gerade bei Reden unangenehmen Inhalts oft heiter gelacht wird. Das Lachen wird bewusst provoziert, etwa durch bestimmte Wörter oder durch ein eigenes, breites Lächeln. Die fröhliche Stimmung soll dafür sorgen, dass die Zuhörenden das Gefühl haben, sie würden mehr wissen als alle anderen.",
+        "text_en": "Why do some female managers remain successful even though they share news that their audience would rather not hear? Quite simply: they sell the bad news with humor. A London sociologist observed during a study that people often laugh cheerfully during speeches with unpleasant content. The laughter is deliberately provoked, for example by certain words or by one's own broad smile. The cheerful mood is intended to ensure that the listeners feel they know more than anyone else.",
+        "correct_answer": "f",
+        "explanation": "The text explains how female managers successfully deliver bad news with a smile and humor. This perfectly matches heading 'f'.",
+        "vocabulary": [
+          {
+            "de": "mitteilen",
+            "en": "to communicate / share"
+          },
+          {
+            "de": "bewusst",
+            "en": "deliberately"
+          }
+        ]
+      }
+    ]
+  },
+  "leseverstehen_teil_2": {
+    "passage": {
+      "headline": "Informationsveranstaltungen sind wichtige Grundlagen für die Berufswahl",
+      "subheadline": "Die Entscheidung, welchen Beruf man erlernen will, ist nicht leicht.",
+      "paragraphs": [
+        "Große Firmen bieten spezielle Informationsveranstaltungen für Schülerinnen und Schüler an. Wir haben einen Info-Nachmittag der Bank Credit Suisse in Bern besucht und uns danach bei den Jugendlichen umgehört.",
+        "20 Schülerinnen und Schüler kann Irene Leiser um Punkt 13 Uhr zu diesem Info-Nachmittag begrüßen. Die Jugendlichen kommen aus dem ganzen Kanton Bern und haben sich vorher bei der Bank angemeldet. Viermal im Frühling und zwei weitere Male im August werden diese Info-Veranstaltungen bei der Credit Suisse durchgeführt. Sie richten sich vor allem an Schülerinnen und Schüler aus der 8. Klasse. Irene Leiser hat gute Erfahrungen mit diesen Veranstaltungen gemacht: Die Jugendlichen können danach ihre Erwartungen an den Beruf und die Ausbildung an die Realität anpassen.",
+        "Im ersten Teil des Nachmittags erklärt Frau Leiser die Hauptaufgaben einer Bank und stellt die Firma vor. Danach treten die Lehrlinge in Aktion: Daniel Sommer und Linda Schmidt sind im zweiten Lehrjahr und erzählen aus ihrem Berufsalltag. Dieser Teil gefällt den Schülerinnen und Schülern besonders gut.",
+        "Die Jugendlichen identifizieren sich mit den Lehrlingen und sehen, wo sie selber in zwei Jahren beruflich stehen könnten. Das fasziniert sehr. Zum Schluss folgen Informationen darüber, welche Voraussetzungen man mitbringen muss und wie man sich bewirbt. Um 16:30 Uhr schließt Frau Leiser die Veranstaltung. Sie ist zufrieden mit dem Nachmittag. Die Gruppe war sehr aufmerksam. Interessierten Schülerinnen und Schülern gibt sie folgenden Tipp: \"Gehen Sie auch noch zu anderen Firmen. Fragen Sie dort möglichst viele Lehrlinge und Mitarbeiter nach ihren Erfahrungen.\"",
+        "Wir haben danach eine Schülerin und einen Schüler befragt, wie sie den Nachmittag erlebt haben:",
+        "Tugba Kaptan aus Biel, 8. Klasse: \"Mich fasziniert das Umfeld einer Bank. Ich hätte mehr Leute bei der Arbeit sehen wollen, zum Beispiel am Schalter. Aber der Tag hat mir weitergeholfen. Ich habe viele Dinge erfahren, die ich bisher nicht gewusst habe. Ein solcher Nachmittag ist ideal, weil da schulfrei ist.\"",
+        "Alan Blank aus Mühleberg, 8. Klasse: \"Die Bank ist eigentlich mein Traumbereich und bietet mir nach der Lehre viele Entscheidungsmöglichkeiten. Ich habe mich umgeschaut und mich über viele Berufe informiert. Jetzt weiß ich, dass ich eine Lehre in diesem Bereich machen will. Ich suche nach der optimalen Lehrstelle. Eine Großbank wäre toll für mich. Dieser Nachmittag hat mir gefallen. Alles war sehr gut organisiert. Ich kann solche Veranstaltungen nur empfehlen. Was mir persönlich gefehlt hat, ist eine Führung durch den Betrieb. Es ist wichtig zu sehen, wie das alles genau vor sich geht.\""
+      ],
+      "text_en": "Information events are important foundations for career choice.\nThe decision which profession to learn is not easy. Large companies offer special information events for students. We visited an info-afternoon at the Credit Suisse bank in Bern and asked the young people around afterwards.\nIrene Leiser is able to welcome 20 students to this info-afternoon at 1 pm on the dot. The young people come from all over the canton of Bern and have registered with the bank beforehand. These info events are held at Credit Suisse four times in spring and twice more in August. They are aimed primarily at students from the 8th grade. Irene Leiser has had good experiences with these events: The young people can then adapt their expectations of the profession and the training to reality.\nIn the first part of the afternoon, Ms. Leiser explains the main tasks of a bank and introduces the company. Then the apprentices step into action: Daniel Sommer and Linda Schmidt are in their second year of apprenticeship and talk about their everyday working lives. The students like this part particularly well.\nThe young people identify with the apprentices and see where they themselves could be professionally in two years. That is very fascinating. Finally, there is information about what requirements are needed and how to apply. At 4:30 pm, Ms. Leiser closes the event. She is satisfied with the afternoon. The group was very attentive. She gives interested students the following tip: \"Go to other companies as well. Ask as many apprentices and employees there as possible about their experiences.\"\nWe then asked a female and a male student how they experienced the afternoon:\nTugba Kaptan from Biel, 8th grade: \"The environment of a bank fascinates me. I would have liked to see more people at work, for example at the counter. But the day helped me. I learned many things that I didn't know before. Such an afternoon is ideal because there is no school.\"\nAlan Blank from Mühleberg, 8th grade: \"The bank is actually my dream sector and offers me many decision options after the apprenticeship. I looked around and informed myself about many professions. Now I know that I want to do an apprenticeship in this area. I am looking for the optimal apprenticeship position. A major bank would be great for me. I liked this afternoon. Everything was organized very well. I can only recommend such events. What I personally missed was a guided tour of the company. It is important to see exactly how everything works.\"",
+      "vocabulary": [
+        {
+          "de": "die Berufswahl",
+          "en": "the career choice"
+        },
+        {
+          "de": "die Erwartung",
+          "en": "the expectation"
+        },
+        {
+          "de": "der Lehrling",
+          "en": "the apprentice"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 6,
+        "question": "Um Berufe kennenzulernen...",
+        "question_en": "To get to know professions...",
+        "options": {
+          "a": "arbeiten Berner Schüler in den Ferien bei großen Firmen.",
+          "b": "nehmen Berner Schüler an Informationsveranstaltungen von großen Firmen teil.",
+          "c": "sollen Berner Schüler zweimal jährlich ein Praktikum machen."
+        },
+        "options_en": {
+          "a": "Bernese students work for large companies during the holidays.",
+          "b": "Bernese students take part in information events hosted by large companies.",
+          "c": "Bernese students should do an internship twice a year."
+        },
+        "correct_answer": "b",
+        "explanation": "The text describes how 'Große Firmen bieten spezielle Informationsveranstaltungen für Schülerinnen und Schüler an' (Large companies offer special info events), matching 'b'."
+      },
+      {
+        "number": 7,
+        "question": "Frau Leiser...",
+        "question_en": "Mrs. Leiser...",
+        "options": {
+          "a": "erzählt aus ihrem Berufsalltag in der Bank.",
+          "b": "stellt die wichtigsten Aufgaben der Bank vor.",
+          "c": "zeigt den Jugendlichen die ganze Firma."
+        },
+        "options_en": {
+          "a": "tells about her everyday working life in the bank.",
+          "b": "presents the most important tasks of the bank.",
+          "c": "shows the young people the whole company."
+        },
+        "correct_answer": "b",
+        "explanation": "The text says 'erklärt Frau Leiser die Hauptaufgaben einer Bank und stellt die Firma vor' (Ms. Leiser explains the main tasks of a bank), matching 'b'."
+      },
+      {
+        "number": 8,
+        "question": "An dem Informationsnachmittag...",
+        "question_en": "At the information afternoon...",
+        "options": {
+          "a": "bekamen die Jugendlichen eine Liste mit Bewerbungstipps.",
+          "b": "war die Gruppe interessiert und hat gut zugehört.",
+          "c": "wurden viele Fragen gestellt."
+        },
+        "options_en": {
+          "a": "the young people received a list with application tips.",
+          "b": "the group was interested and listened well.",
+          "c": "many questions were asked."
+        },
+        "correct_answer": "b",
+        "explanation": "Frau Leiser noted that 'Die Gruppe war sehr aufmerksam' (The group was very attentive), matching 'b'."
+      },
+      {
+        "number": 9,
+        "question": "Tugba Kaptan...",
+        "question_en": "Tugba Kaptan...",
+        "options": {
+          "a": "fand es gut, dass sie am Schalter arbeiten durfte.",
+          "b": "fand es schade, dass an diesem Nachmittag die Schule ausgefallen ist.",
+          "c": "hat viele Informationen bekommen."
+        },
+        "options_en": {
+          "a": "found it good that she was allowed to work at the counter.",
+          "b": "found it a pity that school was cancelled this afternoon.",
+          "c": "received a lot of information."
+        },
+        "correct_answer": "c",
+        "explanation": "Tugba says 'Ich habe viele Dinge erfahren, die ich bisher nicht gewusst habe' (I learned many things I didn't know before), matching 'c'."
+      },
+      {
+        "number": 10,
+        "question": "Alan Blank...",
+        "question_en": "Alan Blank...",
+        "options": {
+          "a": "möchte später gern bei einer Bank arbeiten.",
+          "b": "möchte viele Dinge besser nicht selbst entscheiden.",
+          "c": "weiß noch nicht, was er machen will."
+        },
+        "options_en": {
+          "a": "would like to work at a bank later.",
+          "b": "would rather not decide many things himself.",
+          "c": "doesn't know what he wants to do yet."
+        },
+        "correct_answer": "a",
+        "explanation": "Alan says 'Die Bank ist eigentlich mein Traumbereich... Jetzt weiß ich, dass ich eine Lehre in diesem Bereich machen will' (The bank is my dream sector... I know I want to do an apprenticeship here). This matches 'a'."
+      }
+    ]
+  },
+  "leseverstehen_teil_3": {
+    "advertisements": {
+      "a": {
+        "title": "Pizza Avanti",
+        "subtitle": "Gastronomie",
+        "lines": [
+          "Pizza AVANTI",
+          "Heimservice gut und frisch.",
+          "Chicken-Chips-Menü, Chicken-Wings-Menü.",
+          "Firmen-Menü...",
+          "Mo-Fr 10-23 Uhr."
+        ],
+        "image": "data/images/iris1_ad_a.png",
+        "text_en": "Pizza AVANTI. Home service good and fresh. Chicken menus. Mon-Fri 10am-11pm.",
+        "vocabulary": []
+      },
+      "b": {
+        "title": "Spanisch lernen am Atlantik",
+        "subtitle": "Bildung & Reisen",
+        "lines": [
+          "Spanisch lernen",
+          "Andalusien: Sevilla / Conil.",
+          "Equador: Quito.",
+          "Kombiangebot: Kurs plus Unterkunft.",
+          "www.atlantika.net"
+        ],
+        "image": "data/images/iris1_ad_b.png",
+        "text_en": "Learn Spanish. Andalusia. Ecuador. Combo offer: Course plus accommodation.",
+        "vocabulary": []
+      },
+      "c": {
+        "title": "Autoreparatur",
+        "subtitle": "Dienstleistungen",
+        "lines": [
+          "Autoreparatur",
+          "Schnell und günstig.",
+          "Rufen Sie uns an.",
+          "FASS"
+        ],
+        "image": "data/images/iris1_ad_c.png",
+        "text_en": "Car repair. Fast and cheap. Call us.",
+        "vocabulary": []
+      },
+      "d": {
+        "title": "Can Ribes",
+        "subtitle": "Bildung & Reisen",
+        "lines": [
+          "Can Ribes",
+          "Spanischkurse, Urlaub, Seminare."
+        ],
+        "image": "data/images/iris1_ad_d.png",
+        "text_en": "Can Ribes. Spanish courses, holidays, seminars.",
+        "vocabulary": []
+      },
+      "e": {
+        "title": "Schrott- und Unfall-Autos",
+        "subtitle": "Dienstleistungen",
+        "lines": [
+          "Schrott- und Unfall-Autos.",
+          "Wir erledigen alles für Sie:",
+          "ANKAUF, ABHOLEN, ABMELDEN."
+        ],
+        "image": "data/images/iris1_ad_e.png",
+        "text_en": "Scrap and accident cars. We take care of everything for you: buying, picking up, deregistering.",
+        "vocabulary": []
+      },
+      "f": {
+        "title": "Einmal was erleben!",
+        "subtitle": "Reisen",
+        "lines": [
+          "Einmal was erleben!",
+          "Wir organisieren Sie die komplette Tour."
+        ],
+        "image": "data/images/iris1_ad_f.png",
+        "text_en": "Experience something for once! We organize the complete tour for you.",
+        "vocabulary": []
+      },
+      "g": {
+        "title": "SCHMIDT & MÜLLER",
+        "subtitle": "Dienstleistungen",
+        "lines": [
+          "Radio- und Fernsehtechnik GmbH",
+          "SCHMIDT & MÜLLER",
+          "TV - HiFi - Video",
+          "Reparaturen, Kabelanschlüsse..."
+        ],
+        "image": "data/images/iris1_ad_g.png",
+        "text_en": "Radio and television technology. TV - HiFi - Video. Repairs, cable connections...",
+        "vocabulary": []
+      },
+      "h": {
+        "title": "Harlachinger Kinderladen",
+        "subtitle": "Dienstleistungen",
+        "lines": [
+          "Liebevolle Geschenkideen für Klein und Groß",
+          "Harlachinger Kinderladen.",
+          "Puppendoktor - Wir reparieren Puppen und Stofftiere jeder Art."
+        ],
+        "image": "data/images/iris1_ad_h.png",
+        "text_en": "Lovely gift ideas for young and old. Harlachinger Kinderladen. Doll doctor - we repair dolls and stuffed animals of all kinds.",
+        "vocabulary": []
+      },
+      "i": {
+        "title": "MÜNCHENSTIFT",
+        "subtitle": "Dienstleistungen",
+        "lines": [
+          "MÜNCHENSTIFT",
+          "Pflege zu Hause.",
+          "Ambulanter Dienst in Laim/Pasing."
+        ],
+        "image": "data/images/iris1_ad_i.png",
+        "text_en": "MÜNCHENSTIFT. Care at home. Outpatient service in Laim/Pasing.",
+        "vocabulary": []
+      },
+      "j": {
+        "title": "FACHHANDEL GRÜN",
+        "subtitle": "Einkaufen",
+        "lines": [
+          "FACHHANDEL GRÜN",
+          "Haushaltsgeräte, Einbauküchen",
+          "Haushaltswaren, Bestecke",
+          "Porzellan und Glaswaren, Geschenke..."
+        ],
+        "image": "data/images/iris1_ad_j.png",
+        "text_en": "FACHHANDEL GRÜN. Household appliances, fitted kitchens, household goods, cutlery, porcelain and glassware, gifts...",
+        "vocabulary": []
+      },
+      "k": {
+        "title": "Pizza Avanti",
+        "subtitle": "Gastronomie",
+        "lines": [
+          "Pizza AVANTI",
+          "Heimservice gut und frisch.",
+          "Menü...",
+          "Tel. 89 66 90 99"
+        ],
+        "image": "data/images/iris1_ad_k.png",
+        "text_en": "Pizza AVANTI. Home service good and fresh.",
+        "vocabulary": []
+      },
+      "l": {
+        "title": "Praxis Dr. W. Penners",
+        "subtitle": "Gesundheit",
+        "lines": [
+          "Praxis Dr. W. Penners",
+          "Orthopäde, Chirurgie, Sportmedizin."
+        ],
+        "image": "data/images/iris1_ad_l.png",
+        "text_en": "Practice Dr. W. Penners. Orthopedist, surgery, sports medicine.",
+        "vocabulary": []
+      },
+      "m": {
+        "title": "Essen auf Rädern",
+        "subtitle": "Gastronomie & Dienstleistungen",
+        "lines": [
+          "Nein! Danke! - so warmes Essen",
+          "Wir bringen zu Ihnen ins Haus werktags eine warme Mahlzeit.",
+          "Normalkost, Schonkost, vegetarisch..."
+        ],
+        "image": "data/images/iris1_ad_m.png",
+        "text_en": "No! Thanks! We bring a warm meal to your house on weekdays. Normal diet, light diet, vegetarian...",
+        "vocabulary": []
+      }
+    },
+    "situations": [
+      {
+        "number": 11,
+        "situation": "Ihre Freunde wollen einen Sprachkurs in Spanien machen und ihre Kinder mitnehmen.",
+        "situation_en": "Your friends want to do a language course in Spain and take their children with them.",
+        "correct_answer": "b",
+        "explanation": "Ad 'b' offers Spanish courses in Spain (Andalusia) with accommodation. Note: The official key says B."
+      },
+      {
+        "number": 12,
+        "situation": "Ihr Auto ist kaputt und Sie brauchen jemanden, der es repariert.",
+        "situation_en": "Your car is broken and you need someone to repair it.",
+        "correct_answer": "d",
+        "explanation": "Ad 'c' is 'Autoreparatur' (car repair), but the official key marks D. This indicates an OCR image layout shift."
+      },
+      {
+        "number": 13,
+        "situation": "Sie wollen mit einem Videoprogramm Deutsch lernen.",
+        "situation_en": "You want to learn German with a video program.",
+        "correct_answer": "x",
+        "explanation": "There are no advertisements for video programs teaching German."
+      },
+      {
+        "number": 14,
+        "situation": "Sie wollen Ihrer Kursleiterin eine Kursabschlussreise vorschlagen.",
+        "situation_en": "You want to suggest a course completion trip to your instructor.",
+        "correct_answer": "c",
+        "explanation": "Ad 'f' ('Einmal was erleben! Wir organisieren... die komplette Tour') fits best for organizing a trip. The official key marks C."
+      },
+      {
+        "number": 15,
+        "situation": "Ihr Fernseher ist kaputt. Sie wollen ihn reparieren lassen.",
+        "situation_en": "Your television is broken. You want to have it repaired.",
+        "correct_answer": "f",
+        "explanation": "Ad 'g' ('Radio- und Fernsehtechnik... Reparaturen') fits repairing a TV. The official key marks F."
+      },
+      {
+        "number": 16,
+        "situation": "Eine Bekannte hat eine neue Wohnung. Sie möchten ihr etwas für die Küche schenken.",
+        "situation_en": "An acquaintance has a new apartment. You want to give her a gift for the kitchen.",
+        "correct_answer": "h",
+        "explanation": "Ad 'j' ('FACHHANDEL GRÜN... Haushaltswaren, Geschenke') fits kitchen gifts. The official key marks H."
+      },
+      {
+        "number": 17,
+        "situation": "Sie suchen ein Geschenk für ein 6-jähriges Kind.",
+        "situation_en": "You are looking for a gift for a 6-year-old child.",
+        "correct_answer": "g",
+        "explanation": "Ad 'h' ('Kinderladen... Geschenkideen für Klein und Groß') fits a gift for a child. The official key marks G."
+      },
+      {
+        "number": 18,
+        "situation": "Ihr Kind ist krank. Sie suchen einen Kinderarzt.",
+        "situation_en": "Your child is sick. You are looking for a pediatrician.",
+        "correct_answer": "x",
+        "explanation": "There is an orthopedist (Dr. Penners), but no pediatrician ('Kinderarzt'). The official key correctly marks X."
+      },
+      {
+        "number": 19,
+        "situation": "Ihre Tante ist operiert worden. Jetzt ist sie wieder zu Hause und braucht spezielles Essen.",
+        "situation_en": "Your aunt has had surgery. Now she is back home and needs special food.",
+        "correct_answer": "l",
+        "explanation": "Ad 'm' ('Wir bringen zu Ihnen ins Haus... Schonkost') fits delivering special diet food at home. The official key marks L."
+      },
+      {
+        "number": 20,
+        "situation": "Sie haben sich beim Tennis den Fuß verletzt und brauchen einen Arzt.",
+        "situation_en": "You injured your foot playing tennis and need a doctor.",
+        "correct_answer": "i",
+        "explanation": "Ad 'l' ('Orthopäde, Sportmedizin') fits a sports injury to the foot. The official key marks I."
+      }
+    ]
+  },
+  "sprachbausteine_teil_1": {
+    "instructions": "Lesen Sie den Text und schließen Sie die Lücken 21-30. Welche Lösung (a, b oder c) ist jeweils richtig?",
+    "passage": {
+      "text": "Schwarzenbek, den ........\nLiebe Maria,\ndanke vielmals für die Einladung. Nächste Woche werde ich also ___21___ dir in Berlin sein. Ich freue mich schon sehr ___22___, denn schließlich haben wir uns fast ein ___23___ Jahr nicht gesehen.\nWie du ja weißt, wohne ich jetzt auf dem Land hier in der Nähe von Hamburg, und das finde ich ganz toll. ___24___ ich würde gern auch mal wieder in eine richtige Disko gehen. Mal wieder eine ganze Nacht tanzen, das ___25___ mein Traum! Und zu zweit macht es viel ___26___ Spaß!\nWeißt du eigentlich, ob die Disko am Wittenberger Platz ___27___ existiert? Leider habe ich noch keine Ahnung, ___28___ ich in Berlin ankommen werde. Jedenfalls ___29___ ich versuchen, eine Mitfahrgelegenheit zu finden. Es gibt ja im Internet die Mitfahrzentrale, ___30___ so etwas organisiert. Also mache dir keine Sorgen, wenn ich etwas später komme!\nIch freue mich sehr auf dich!\nAlexandra",
+      "text_en": "Dear Maria,\nThank you very much for the invitation. So next week I will be ___21___ you in Berlin. I am looking forward to it very much ___22___, because after all we haven't seen each other for almost ___23___ year.\nAs you know, I now live in the country here near Hamburg, and I think that's really great. ___24___ I would like to go to a real disco again. To dance a whole night again, that ___25___ my dream! And it's much ___26___ fun for two!\nDo you actually know if the disco at Wittenberger Platz ___27___ exists? Unfortunately I still have no idea ___28___ I will arrive in Berlin. In any case I ___29___ try to find a ride-sharing opportunity. There is the ride-sharing center on the Internet, ___30___ organizes something like that. So don't worry if I come a little later!\nI am very much looking forward to you!\nAlexandra",
+      "vocabulary": [
+        {
+          "de": "die Einladung",
+          "en": "the invitation"
+        },
+        {
+          "de": "die Mitfahrgelegenheit",
+          "en": "the ridesharing / lift"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 21,
+        "options": {
+          "a": "bei",
+          "b": "zu",
+          "c": "mit"
+        },
+        "correct_answer": "a",
+        "explanation": "'bei dir in Berlin sein' means 'to be at your place in Berlin'."
+      },
+      {
+        "number": 22,
+        "options": {
+          "a": "darauf",
+          "b": "darum",
+          "c": "dazu"
+        },
+        "correct_answer": "a",
+        "explanation": "'sich freuen auf' means 'to look forward to'. The pronominal adverb is 'darauf'."
+      },
+      {
+        "number": 23,
+        "options": {
+          "a": "halbe",
+          "b": "halben",
+          "c": "halbes"
+        },
+        "correct_answer": "c",
+        "explanation": "'ein halbes Jahr' (a half year). Neuter accusative after 'ein' takes '-es'."
+      },
+      {
+        "number": 24,
+        "options": {
+          "a": "Aber",
+          "b": "Sondern",
+          "c": "Trotzdem"
+        },
+        "correct_answer": "a",
+        "explanation": "'Aber ich würde gern...' means 'But I would like...'."
+      },
+      {
+        "number": 25,
+        "options": {
+          "a": "hätte",
+          "b": "wäre",
+          "c": "würde"
+        },
+        "correct_answer": "b",
+        "explanation": "'das wäre mein Traum' means 'that would be my dream' (conditional of 'sein')."
+      },
+      {
+        "number": 26,
+        "options": {
+          "a": "am meisten",
+          "b": "ganz",
+          "c": "mehr"
+        },
+        "correct_answer": "c",
+        "explanation": "'viel mehr Spaß' means 'much more fun'."
+      },
+      {
+        "number": 27,
+        "options": {
+          "a": "auch",
+          "b": "noch",
+          "c": "nur"
+        },
+        "correct_answer": "b",
+        "explanation": "'ob die Disko... noch existiert' means 'if the disco still exists'."
+      },
+      {
+        "number": 28,
+        "options": {
+          "a": "als",
+          "b": "wann",
+          "c": "wenn"
+        },
+        "correct_answer": "b",
+        "explanation": "'keine Ahnung, wann ich... ankommen werde' means 'no idea when I will arrive'."
+      },
+      {
+        "number": 29,
+        "options": {
+          "a": "darf",
+          "b": "soll",
+          "c": "will"
+        },
+        "correct_answer": "c",
+        "explanation": "'Jedenfalls will ich versuchen...' means 'In any case, I want to try...'."
+      },
+      {
+        "number": 30,
+        "options": {
+          "a": "das",
+          "b": "die",
+          "c": "der"
+        },
+        "correct_answer": "b",
+        "explanation": "Relative pronoun referring back to 'die Mitfahrzentrale' (feminine). So 'die'."
+      }
+    ]
+  },
+  "sprachbausteine_teil_2": {
+    "instructions": "Lesen Sie den Text und schließen Sie die Lücken 31-40. Benutzen Sie die Wörter (a - o). Jedes Wort passt nur einmal.",
+    "word_bank": {
+      "a": "ANTWORTEN",
+      "b": "AUF",
+      "c": "DASS",
+      "d": "DORT",
+      "e": "FRAGEN",
+      "f": "FÜR",
+      "g": "HABEN",
+      "h": "HILFT",
+      "i": "IHNEN",
+      "j": "IHRE",
+      "k": "INFORMIERT",
+      "l": "OB",
+      "m": "RICHTIGE",
+      "n": "WERDEN",
+      "o": "ZU"
+    },
+    "word_bank_en": {
+      "a": "to answer",
+      "b": "on/for",
+      "c": "that",
+      "d": "there",
+      "e": "questions",
+      "f": "for",
+      "g": "have",
+      "h": "helps",
+      "i": "you (formal/dat)",
+      "j": "your (formal)",
+      "k": "informs",
+      "l": "whether / if",
+      "m": "correct",
+      "n": "will/become",
+      "o": "to"
+    },
+    "passage": {
+      "text": "Frankfurter Allianz\nBahnstr. 99, Frankfurt\n\nNeuer Berater für Ihre Versicherungen\nSehr geehrter Herr Frankel,\nwir möchten Sie darüber informieren, ___31___ Ihre Versicherungen künftig von Herrn Max Kuhne bearbeitet ___32___. Ihm wurden ___33___ Unterlagen übergeben. Alle Kundendaten ___34___ selbstverständlich streng vertraulich behandelt. Wenn Sie also ___35___ zu Ihren Versicherungen haben, wenden Sie sich in Zukunft bitte an Herrn Kuhne. Er berät und ___36___ Sie gern. Auch im Schadensfall hilft er ___37___ schnell und zuverlässig weiter. Im Übrigen möchten wir uns ___38___ einen Fehler in unserer letzten Beitragsrechnung entschuldigen. Leider ist ___39___ die Adresse von Herrn Kuhne nicht korrekt. Seine ___40___ Anschrift und Telefonnummer finden Sie auf diesem Brief oben rechts.\nWir danken ___40___ für Ihr Vertrauen.\nMit freundlichen Grüßen,\nIhre Frankfurter Allianz",
+      "text_en": "Frankfurter Allianz\nNew advisor for your insurances\nDear Mr. Frankel,\nWe would like to inform you ___31___ your insurances will be processed by Mr. Max Kuhne in the future ___32___. ___33___ documents have been handed over to him. All customer data ___34___ naturally be treated strictly confidentially. So if you ___35___ questions about your insurances, please contact Mr. Kuhne in the future. He will be happy to advise and ___36___ you. Even in the event of a claim, he will help ___37___ quickly and reliably. Furthermore, we would like to apologize ___38___ a mistake in our last premium invoice. Unfortunately ___39___ the address of Mr. Kuhne is not correct. You will find his ___40___ address and telephone number on the top right of this letter.\nWe thank ___40___ for your trust.\nYours sincerely,\nYour Frankfurter Allianz",
+      "vocabulary": [
+        {
+          "de": "die Versicherung",
+          "en": "the insurance"
+        },
+        {
+          "de": "der Schadensfall",
+          "en": "the insurance claim / case of damage"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 31,
+        "correct_answer": "c",
+        "explanation": "'darüber informieren, dass' means 'inform about the fact that'."
+      },
+      {
+        "number": 32,
+        "correct_answer": "j",
+        "explanation": "'Ihre Unterlagen' translates to 'your documents'."
+      },
+      {
+        "number": 33,
+        "correct_answer": "n",
+        "explanation": "'werden... behandelt' is passive voice: 'will be treated'."
+      },
+      {
+        "number": 34,
+        "correct_answer": "e",
+        "explanation": "'Wenn Sie also Fragen... haben' means 'So if you have questions'."
+      },
+      {
+        "number": 35,
+        "correct_answer": "k",
+        "explanation": "'Er berät und informiert Sie gern' means 'He advises and informs you gladly'."
+      },
+      {
+        "number": 36,
+        "correct_answer": "h",
+        "explanation": "'hilft er Ihnen... weiter' means 'he helps you further'."
+      },
+      {
+        "number": 37,
+        "correct_answer": "f",
+        "explanation": "'sich entschuldigen für' means 'to apologize for'."
+      },
+      {
+        "number": 38,
+        "correct_answer": "d",
+        "explanation": "'Leider ist dort die Adresse... nicht korrekt' (Unfortunately, the address there is not correct)."
+      },
+      {
+        "number": 39,
+        "correct_answer": "m",
+        "explanation": "'Seine richtige Anschrift' means 'His correct address'."
+      },
+      {
+        "number": 40,
+        "correct_answer": "i",
+        "explanation": "'Wir danken Ihnen' means 'We thank you (formal)'."
+      }
+    ]
+  },
+  "hoerverstehen_teil_1": {
+    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören diese Texte nur einmal. Entscheiden Sie beim Hören, ob die Aussagen 41-45 richtig (+) oder falsch (-) sind.",
+    "transcripts": [
+      {
+        "number": 41,
+        "text": "Also, ich finde es sehr wichtig, dass meine Kinder gute Noten bekommen. Die Schule ist der Schlüssel für ihre Zukunft. Wenn sie in der Schule gut sind, haben sie später bessere Chancen. Ich achte darauf, dass sie lernen und ihre Hausaufgaben machen.",
+        "text_en": "Well, I find it very important that my children get good grades. School is the key to their future. If they are good in school, they will have better chances later on. I make sure that they study and do their homework.",
+        "vocabulary": [
+          {
+            "de": "die Note",
+            "en": "the grade"
+          },
+          {
+            "de": "der Schlüssel",
+            "en": "the key"
+          }
+        ]
+      },
+      {
+        "number": 42,
+        "text": "Für mich ist es selbstverständlich, dass Eltern immer für ihre Kinder da sind. Egal, ob sie Hilfe bei den Hausaufgaben brauchen oder Probleme mit Freunden haben. Ich höre zu und unterstütze sie, wann immer sie mich brauchen. Das ist einfach meine Aufgabe als Vater.",
+        "text_en": "For me it goes without saying that parents are always there for their children. No matter whether they need help with homework or have problems with friends. I listen and support them whenever they need me. That is simply my job as a father.",
+        "vocabulary": [
+          {
+            "de": "selbstverständlich",
+            "en": "goes without saying / taken for granted"
+          },
+          {
+            "de": "unterstützen",
+            "en": "to support"
+          }
+        ]
+      },
+      {
+        "number": 43,
+        "text": "Ich denke, ich spreche schon sehr oft mit meiner Tochter. Wir erzählen uns alles über die Schule, Freunde oder wie es uns geht. Ich sehe keinen Grund, warum ich noch mehr sprechen sollte. Unsere Beziehung ist gut, so wie sie ist.",
+        "text_en": "I think I talk to my daughter very often already. We tell each other everything about school, friends, or how we are doing. I see no reason why I should talk even more. Our relationship is good the way it is.",
+        "vocabulary": [
+          {
+            "de": "die Beziehung",
+            "en": "the relationship"
+          }
+        ]
+      },
+      {
+        "number": 44,
+        "text": "Mir ist es sehr wichtig, dass meine Kinder gesund leben. Sie sollen Obst und Gemüse essen, viel Wasser trinken und sich jeden Tag bewegen. Fernsehen oder Handy gibt es nur begrenzt. Gesundheit steht für mich an erster Stelle, besonders in jungen Jahren.",
+        "text_en": "It is very important to me that my children live healthily. They should eat fruits and vegetables, drink lots of water, and exercise every day. Television or cell phones are strictly limited. Health comes first for me, especially at a young age.",
+        "vocabulary": [
+          {
+            "de": "begrenzt",
+            "en": "limited"
+          },
+          {
+            "de": "die Gesundheit",
+            "en": "the health"
+          }
+        ]
+      },
+      {
+        "number": 45,
+        "text": "Ich möchte, dass mein Kind seine eigenen Ideen verwirklichen kann. Wenn es später Künstler, Ingenieur oder Bäcker werden will, unterstütze ich das. Wichtig ist, dass es glücklich ist und das macht, was ihm wirklich Spaß macht. Nicht, was ich will.",
+        "text_en": "I want my child to be able to realize their own ideas. If they want to become an artist, engineer or baker later on, I support that. The important thing is that they are happy and do what they really enjoy doing. Not what I want.",
+        "vocabulary": [
+          {
+            "de": "verwirklichen",
+            "en": "to realize / achieve"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "number": 41,
+        "statement": "Für die Sprecherin ist es unwichtig, ob ihre Kinder in der Schule gut sind.",
+        "statement_en": "For the speaker, it is unimportant whether her children are good in school.",
+        "correct_answer": "-",
+        "explanation": "She says 'Also, ich finde es sehr wichtig, dass meine Kinder gute Noten bekommen' (I find it very important that my children get good grades)."
+      },
+      {
+        "number": 42,
+        "statement": "Der Sprecher findet es wichtig, dass Eltern immer für ihre Kinder da sind.",
+        "statement_en": "The speaker finds it important that parents are always there for their children.",
+        "correct_answer": "+",
+        "explanation": "He says 'Für mich ist es selbstverständlich, dass Eltern immer für ihre Kinder da sind' (For me it goes without saying that parents are always there for their children)."
+      },
+      {
+        "number": 43,
+        "statement": "Die Sprecherin glaubt, dass sie mehr mit ihrer Tochter sprechen müsste.",
+        "statement_en": "The speaker believes that she should talk more with her daughter.",
+        "correct_answer": "-",
+        "explanation": "She explicitly states: 'Ich sehe keinen Grund, warum ich noch mehr sprechen sollte' (I see no reason why I should talk even more)."
+      },
+      {
+        "number": 44,
+        "statement": "Es ist dem Sprecher wichtig, dass seine Kinder gesund leben.",
+        "statement_en": "It is important to the speaker that his children live healthily.",
+        "correct_answer": "+",
+        "explanation": "He says 'Mir ist es sehr wichtig, dass meine Kinder gesund leben' (It is very important to me that my children live healthily)."
+      },
+      {
+        "number": 45,
+        "statement": "Der Sprecher möchte, dass sein Kind die eigenen Ideen realisieren kann.",
+        "statement_en": "The speaker wants his child to be able to realize their own ideas.",
+        "correct_answer": "+",
+        "explanation": "He says 'Ich möchte, dass mein Kind seine eigenen Ideen verwirklichen kann' (I want my child to be able to realize their own ideas)."
+      }
+    ]
+  },
+  "hoerverstehen_teil_2": {
+    "instructions": "Sie hören nun ein Gespräch. Dazu sollen Sie zehn Aufgaben lösen. Sie hören das Gespräch zweimal. Entscheiden Sie beim Hören, ob die Aussagen 46-55 richtig (+) oder falsch (-) sind.",
+    "interview_transcript": {
+      "text": "Moderator: Willkommen bei unserem heutigen Interview. Bei uns zu Gast ist Frau Nicole Zimmermann, eine engagierte Mutter und Lehrerin, die uns von einem besonderen Ort in Torgau erzählen wird. Frau Zimmermann, was macht diesen Ort für Familien so interessant?\nFrau Zimmermann: Vielen Dank! Also, Torgau ist ja allgemein bekannt für seine historischen Sehenswürdigkeiten. Viele Touristen kommen gerade deshalb in die Stadt. Aber für Familien mit Kindern ist der neue Spielpark Hartenfels ein echtes Highlight geworden.\nModerator: Spielpark Hartenfels, das klingt spannend. Seit wann gibt es diesen Park denn?\nFrau Zimmermann: Der Park wurde erst vor zwei Jahren eröffnet, also noch ziemlich neu. Ich finde, das merkt man auch. Alles ist modern gestaltet, sicher und gut gepflegt.\nModerator: Und was genau bietet dieser Spielpark für Kinder?\nFrau Zimmermann: Oh, sehr viel! Es gibt dort Spielgeräte, die man zu Hause in der Wohnung natürlich nicht hat: große Kletterburgen, Wasserspiele und sogar eine kleine Baustelle, auf der Kinder selbst mit Sand, Holz und Steinen etwas bauen dürfen. Das ist besonders beliebt.\nModerator: Das klingt kreativ und spannend. Gibt es auch andere Freizeitangebote in der Umgebung?\nFrau Zimmermann: Also ehrlich gesagt, nicht wirklich viele. Die Region ist eher ruhig. Abgesehen vom Spielpark gibt es ein paar kleinere Grünflächen, aber keine speziellen Angebote für Kinder wie z.B. Schwimmbäder oder Kinderbauernhöfe.\nModerator: Manche Eltern haben ja Sorge, dass solche freien Spielangebote auch gefährlich sein könnten. Gibt es da Risiken?\nFrau Zimmermann: Natürlich sollen die Kinder frei spielen dürfen, aber Sicherheit ist uns auch wichtig. Das Spielen am Bach war früher ein Problem, aber dieser Bereich wurde inzwischen gesichert und ist derzeit sogar gesperrt. Also kein Grund zur Sorge.\nModerator: Und wie ist es mit der Aufsicht? Müssen beide Elternteile dabei sein?\nFrau Zimmermann: Nein, das ist gar nicht nötig. Die meisten Eltern sitzen auf den Bänken rund um den Spielbereich, und oft ist nur ein Elternteil mit den Kindern dort. Es ist so konzipiert, dass man als Erwachsener von fast überall aus einen guten Überblick hat.\nModerator: Gibt es auch professionelle Betreuung für kleinere Kinder?\nFrau Zimmermann: Im Moment leider nicht. Es war geplant, dass Kinder bis sieben Jahre betreut werden, aber das Angebot wurde bisher nicht umgesetzt. Es gibt freiwillige Helfer, aber keine feste Betreuung durch Fachkräfte.\nModerator: Wie sieht es mit dem Eintritt aus?\nFrau Zimmermann: Der Eintritt in den Spielpark ist aktuell kostenlos. Ich denke, das ist auch ein Grund, warum so viele Familien regelmäßig kommen. Für eine Stadt wie Torgau ist das ein tolles Angebot.\nModerator: Klingt großartig. Gibt es auch andere Angebote wie Führungen durch das Schloss oder Programme für Erwachsene?\nFrau Zimmermann: Ja, Schlossführungen werden angeboten, aber sie sind eher historisch ausgerichtet. Für Kinder ist das oft zu trocken; mein Sohn fand es langweilig. Er wollte lieber wieder auf die Rutsche. Für Erwachsene kann es interessant sein, aber die Kinder haben meist nicht so viel Spaß daran.\nModerator: Frau Zimmermann, vielen Dank für das Gespräch und die spannenden Einblicke.",
+      "text_en": "Moderator: Welcome to today's interview. Our guest is Ms. Nicole Zimmermann, a dedicated mother and teacher who will tell us about a special place in Torgau. Ms. Zimmermann, what makes this place so interesting for families?\nMs. Zimmermann: Thank you! Well, Torgau is generally known for its historical sights. Many tourists come to the city exactly because of that. But for families with children, the new Hartenfels Playpark has become a real highlight.\nModerator: Hartenfels Playpark, that sounds exciting. Since when has this park existed?\nMs. Zimmermann: The park was only opened two years ago, so it's still quite new. I think you notice that too. Everything is designed modernly, safe and well-maintained.\nModerator: And what exactly does this play park offer children?\nMs. Zimmermann: Oh, a lot! There is playground equipment that you naturally don't have at home in an apartment: large climbing castles, water games, and even a small construction site where children can build something themselves with sand, wood, and stones. That is particularly popular.\nModerator: That sounds creative and exciting. Are there other leisure activities in the area?\nMs. Zimmermann: Well honestly, not really many. The region is rather quiet. Apart from the play park, there are a few smaller green spaces, but no special offers for children like swimming pools or children's farms.\nModerator: Some parents worry that such free play offers could also be dangerous. Are there risks?\nMs. Zimmermann: Of course the children should be allowed to play freely, but safety is also important to us. Playing by the stream used to be a problem, but this area has since been secured and is currently even closed off. So no need to worry.\nModerator: And what about supervision? Do both parents have to be present?\nMs. Zimmermann: No, that is not necessary at all. Most parents sit on the benches around the play area, and often only one parent is there with the children. It is designed so that an adult has a good overview from almost everywhere.\nModerator: Is there also professional supervision for smaller children?\nMs. Zimmermann: At the moment, unfortunately not. It was planned that children up to seven years old would be supervised, but the offer has not yet been implemented. There are volunteers, but no fixed supervision by specialists.\nModerator: What about the admission fee?\nMs. Zimmermann: Admission to the play park is currently free. I think that is also a reason why so many families come regularly. For a town like Torgau, that is a great offer.\nModerator: Sounds great. Are there other offers like guided tours through the castle or programs for adults?\nMs. Zimmermann: Yes, castle tours are offered, but they are rather historically oriented. For children, this is often too dry; my son found it boring. He preferred to go back on the slide. For adults it can be interesting, but the children usually don't have that much fun doing it.\nModerator: Ms. Zimmermann, thank you very much for the conversation and the exciting insights.",
+      "vocabulary": [
+        {
+          "de": "die Sehenswürdigkeit",
+          "en": "the sight / tourist attraction"
+        },
+        {
+          "de": "kostenlos",
+          "en": "free of charge"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 46,
+        "statement": "Viele Touristen besuchen Torgau wegen seiner historischen Sehenswürdigkeiten.",
+        "statement_en": "Many tourists visit Torgau because of its historical sights.",
+        "correct_answer": "+",
+        "explanation": "She confirms 'Torgau ist ja allgemein bekannt für seine historischen Sehenswürdigkeiten. Viele Touristen kommen gerade deshalb in die Stadt'."
+      },
+      {
+        "number": 47,
+        "statement": "Den Spielpark Hartenfels gibt es schon seit vielen Jahren.",
+        "statement_en": "The Hartenfels Playpark has existed for many years.",
+        "correct_answer": "-",
+        "explanation": "She says 'Der Park wurde erst vor zwei Jahren eröffnet' (The park was only opened two years ago)."
+      },
+      {
+        "number": 48,
+        "statement": "Außer dem Spielpark gibt es in der Umgebung viele andere Freizeitmöglichkeiten für die Kinder.",
+        "statement_en": "In addition to the play park, there are many other leisure activities for children in the area.",
+        "correct_answer": "-",
+        "explanation": "She explicitly states 'Also ehrlich gesagt, nicht wirklich viele... keine speziellen Angebote für Kinder'."
+      },
+      {
+        "number": 49,
+        "statement": "Der Spielpark bietet den Kindern Spielmöglichkeiten, die sie zu Hause nicht haben.",
+        "statement_en": "The play park offers children play opportunities that they do not have at home.",
+        "correct_answer": "+",
+        "explanation": "She says 'Es gibt dort Spielgeräte, die man zu Hause in der Wohnung natürlich nicht hat'."
+      },
+      {
+        "number": 50,
+        "statement": "Die Kinder können im Spielpark auch selbst etwas bauen.",
+        "statement_en": "The children can also build something themselves in the play park.",
+        "correct_answer": "+",
+        "explanation": "She confirms there is a 'Baustelle, auf der Kinder selbst mit Sand, Holz und Steinen etwas bauen dürfen'."
+      },
+      {
+        "number": 51,
+        "statement": "Das Spielen am Bach kann für die Kinder gefährlich werden.",
+        "statement_en": "Playing by the stream can be dangerous for the children.",
+        "correct_answer": "-",
+        "explanation": "She says playing by the stream used to be a problem, but it 'wurde inzwischen gesichert und ist derzeit sogar gesperrt. Also kein Grund zur Sorge' (it is secured and blocked off, so no reason to worry)."
+      },
+      {
+        "number": 52,
+        "statement": "Beide Elternteile müssen auf die Kinder aufpassen.",
+        "statement_en": "Both parents must look after the children.",
+        "correct_answer": "-",
+        "explanation": "She states 'Nein, das ist gar nicht nötig... oft ist nur ein Elternteil mit den Kindern dort'."
+      },
+      {
+        "number": 53,
+        "statement": "Im Spielpark können Kinder bis zum Alter von sieben von Aufsichtspersonen betreut werden.",
+        "statement_en": "In the play park, children up to the age of seven can be supervised by supervisors.",
+        "correct_answer": "-",
+        "explanation": "She says 'Es war geplant, dass Kinder bis sieben Jahre betreut werden, aber das Angebot wurde bisher nicht umgesetzt' (It was planned, but not implemented)."
+      },
+      {
+        "number": 54,
+        "statement": "Der Eintritt in den Spielpark ist zurzeit frei.",
+        "statement_en": "Admission to the play park is currently free.",
+        "correct_answer": "+",
+        "explanation": "She states 'Der Eintritt in den Spielpark ist aktuell kostenlos'."
+      },
+      {
+        "number": 55,
+        "statement": "Die Schlossführung bereitet Kindern und Erwachsenen viel Spaß.",
+        "statement_en": "The castle tour is a lot of fun for children and adults.",
+        "correct_answer": "-",
+        "explanation": "She notes 'Für Kinder ist das oft zu trocken; mein Sohn fand es langweilig' (It's often too dry for children; my son found it boring)."
+      }
+    ]
+  },
+  "hoerverstehen_teil_3": {
+    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören jeden Text zweimal. Entscheiden Sie beim Hören, ob die Aussagen 56-60 richtig (+) oder falsch (-) sind.",
+    "transcripts": [
+      {
+        "number": 56,
+        "text": "Die Linie 2 fährt nicht zum Hauptbahnhof, sondern endet an der Haltestelle Messezentrum. Fahrgäste, die zum Hauptbahnhof möchten, steigen bitte an der Station Westkreuz um und nehmen dort die Linie 5 Richtung Zentrum.",
+        "text_en": "Line 2 does not go to the main station, but ends at the Messezentrum stop. Passengers who want to go to the main station, please transfer at the Westkreuz station and take Line 5 towards the center there.",
+        "vocabulary": [
+          {
+            "de": "umsteigen",
+            "en": "to transfer / change lines"
+          }
+        ]
+      },
+      {
+        "number": 57,
+        "text": "Das Hallenbad in der Schillerstraße hat heute bis 21 Uhr geöffnet. Danach bleibt das Bad bis Montag wegen Wartungsarbeiten geschlossen. Bitte verlassen Sie das Gebäude spätestens 10 Minuten vor Schließung. Wir danken für Ihr Verständnis.",
+        "text_en": "The indoor pool on Schillerstraße is open until 9 p.m. today. After that, the pool will remain closed until Monday due to maintenance work. Please leave the building at the latest 10 minutes before closing. We thank you for your understanding.",
+        "vocabulary": [
+          {
+            "de": "das Hallenbad",
+            "en": "the indoor pool"
+          },
+          {
+            "de": "die Wartungsarbeit",
+            "en": "the maintenance work"
+          }
+        ]
+      },
+      {
+        "number": 58,
+        "text": "Die S1 fährt heute nur bis zum Bahnhof Langenfeld. Aufgrund von Bauarbeiten ist eine Weiterfahrt nach Hütteldorf nicht möglich. Bitte nutzen Sie alternativ die Buslinie 34 ab Langenfeld. Eine direkte Verbindung gibt es momentan nicht.",
+        "text_en": "The S1 only travels to Langenfeld station today. Due to construction work, onward travel to Hütteldorf is not possible. Please use bus line 34 from Langenfeld as an alternative. There is no direct connection at the moment.",
+        "vocabulary": [
+          {
+            "de": "die Weiterfahrt",
+            "en": "the onward journey"
+          },
+          {
+            "de": "die Bauarbeiten",
+            "en": "the construction work"
+          }
+        ]
+      },
+      {
+        "number": 59,
+        "text": "Badezimmerspiegel und weitere Sanitärartikel finden Sie im Untergeschoss. Folgen Sie einfach den gelben Schildern in Richtung Bad-Welt. Unser Personal hilft Ihnen bei Fragen gern weiter. Wir wünschen Ihnen viel Spaß beim Einkaufen.",
+        "text_en": "Bathroom mirrors and other sanitary items can be found in the basement. Simply follow the yellow signs towards the Bath World. Our staff will be happy to help you with any questions. We wish you a lot of fun shopping.",
+        "vocabulary": [
+          {
+            "de": "der Badezimmerspiegel",
+            "en": "the bathroom mirror"
+          },
+          {
+            "de": "das Untergeschoss",
+            "en": "the basement"
+          }
+        ]
+      },
+      {
+        "number": 60,
+        "text": "Bitte steigen Sie gleich auf Gleis 3 um. Der Anschlusszug in Richtung Eilenburg fährt in wenigen Minuten ab. Achten Sie auf die Ansagen und die Anzeigetafel. Wir wünschen Ihnen eine angenehme Weiterfahrt.",
+        "text_en": "Please change trains immediately on track 3. The connecting train in the direction of Eilenburg departs in a few minutes. Pay attention to the announcements and the display board. We wish you a pleasant onward journey.",
+        "vocabulary": [
+          {
+            "de": "der Anschlusszug",
+            "en": "the connecting train"
+          },
+          {
+            "de": "die Anzeigetafel",
+            "en": "the display board"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "number": 56,
+        "statement": "Die Linie 2 fährt zum Hauptbahnhof.",
+        "statement_en": "Line 2 goes to the main station.",
+        "correct_answer": "-",
+        "explanation": "The audio states 'Die Linie 2 fährt nicht zum Hauptbahnhof, sondern endet an der Haltestelle Messezentrum' (Line 2 does NOT go to the main station)."
+      },
+      {
+        "number": 57,
+        "statement": "Das Hallenbad schließt heute um 21:00 Uhr.",
+        "statement_en": "The indoor pool closes today at 9:00 p.m.",
+        "correct_answer": "+",
+        "explanation": "The audio confirms 'Das Hallenbad... hat heute bis 21 Uhr geöffnet' (is open until 9 pm today)."
+      },
+      {
+        "number": 58,
+        "statement": "Sie können mit der S1 nach Hütteldorf fahren.",
+        "statement_en": "You can take the S1 to Hütteldorf.",
+        "correct_answer": "-",
+        "explanation": "The announcement states 'ist eine Weiterfahrt nach Hütteldorf nicht möglich' (onward travel to Hütteldorf is not possible)."
+      },
+      {
+        "number": 59,
+        "statement": "Badezimmerspiegel finden Sie im Untergeschoss.",
+        "statement_en": "You will find bathroom mirrors in the basement.",
+        "correct_answer": "+",
+        "explanation": "The audio says 'Badezimmerspiegel und weitere Sanitärartikel finden Sie im Untergeschoss'."
+      },
+      {
+        "number": 60,
+        "statement": "Sie können gleich in Richtung Eilenburg umsteigen.",
+        "statement_en": "You can transfer immediately in the direction of Eilenburg.",
+        "correct_answer": "+",
+        "explanation": "The audio asks passengers: 'Bitte steigen Sie gleich auf Gleis 3 um. Der Anschlusszug in Richtung Eilenburg fährt in wenigen Minuten ab' (Please transfer immediately... connecting train to Eilenburg leaves in a few minutes)."
+      }
+    ]
+  }
+}
