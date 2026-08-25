@@ -15,6 +15,11 @@ on:
           - echo
           - fable
           - shimmer
+      overwrite:
+        description: 'Overwrite already generated MP3 files (Leave unchecked to fast-resume and skip existing)'
+        required: false
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -35,7 +40,20 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
-          python3 scripts/generate_ai_audio.py --voice ${{ github.event.inputs.voice }}
+          if [ -z "$OPENAI_API_KEY" ]; then
+            echo "::error::OPENAI_API_KEY secret is not set! Please add it in Repo Settings -> Secrets and variables -> Actions"
+            exit 1
+          fi
+          
+          EXTRA_FLAGS=""
+          if [ "${{ github.event.inputs.overwrite }}" = "true" ]; then
+            EXTRA_FLAGS="--overwrite"
+            echo "Running in OVERWRITE mode (will regenerate all files)."
+          else
+            echo "Running in RESUME mode (skipping already existing audio files)."
+          fi
+          
+          python3 scripts/generate_ai_audio.py --voice ${{ github.event.inputs.voice }} $EXTRA_FLAGS
 
       - name: Commit and Push Audio Files
         run: |
@@ -45,6 +63,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No new audio files to commit."
           else
-            git commit -m "feat(audio): batch generate audio MP3s [voice: ${{ github.event.inputs.voice }}]"
+            git commit -m "feat(audio): batch generate audio MP3s [voice: ${{ github.event.inputs.voice }}, overwrite: ${{ github.event.inputs.overwrite }}]"
             git push
           fi
