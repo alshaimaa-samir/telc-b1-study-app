@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="h-full bg-stone-100 text-stone-900">
+<html lang="en" class="h-full bg-stone-100 text-stone-900 overflow-x-hidden">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -59,70 +59,70 @@
     }
   </style>
 </head>
-<body class="min-h-full flex flex-col antialiased pb-20">
+<body class="min-h-full flex flex-col antialiased pb-20 overflow-x-hidden w-full">
 
   <!-- AUTHENTIC TELC HEADER -->
-  <header class="bg-white border-b border-stone-300 sticky top-0 z-30 shadow-xs">
-    <div class="max-w-7xl mx-auto px-3 sm:px-5 py-2.5 flex items-center justify-between gap-3">
+  <header class="bg-white border-b border-stone-200 sticky top-0 z-30 shadow-2xs backdrop-blur-md bg-white/95">
+    <div class="max-w-7xl mx-auto px-3 sm:px-5 py-2 flex items-center justify-between gap-3">
       
-      <!-- Left: Home Icon & App Title -->
-      <div class="flex items-center gap-2.5">
-        <button onclick="showDashboardView()" class="w-8 h-8 sm:w-9 sm:h-9 rounded-lg bg-stone-100 hover:bg-stone-200 text-stone-800 flex items-center justify-center transition-colors shadow-2xs border border-stone-200 group" title="Home Dashboard">
-          <i class="fa-solid fa-house text-sm text-stone-700 group-hover:text-stone-900"></i>
+      <!-- Left: Logo & Breadcrumbs -->
+      <div class="flex items-center gap-2.5 min-w-0">
+        <button onclick="showDashboardView()" class="w-9 h-9 rounded-xl bg-stone-100 hover:bg-stone-200 text-stone-700 hover:text-stone-900 flex items-center justify-center transition-all border border-stone-200 shadow-2xs group shrink-0 cursor-pointer" title="Home Dashboard">
+          <i class="fa-solid fa-house text-xs text-stone-600 group-hover:text-stone-900"></i>
         </button>
-        <div>
-          <div class="flex items-center gap-2">
-            <h1 class="font-bold text-stone-900 text-sm sm:text-base leading-tight">telc Deutsch B1</h1>
-            
+        
+        <div class="flex items-center gap-2 min-w-0">
+          <div class="flex items-center gap-1.5 min-w-0">
+            <span class="w-2 h-2 rounded-full bg-[#c8102e] shrink-0"></span>
+            <h1 onclick="showDashboardView()" class="font-bold text-stone-900 text-sm sm:text-base leading-tight cursor-pointer hover:text-[#c8102e] transition-colors whitespace-nowrap">
+              telc B1
+            </h1>
           </div>
-          <!-- Model quick dropdown (Visible in test view) -->
-          <div id="headerModelSelectContainer" class="hidden flex items-center gap-1 mt-0.5 text-xs text-stone-500">
-            <button onclick="showDashboardView()" class="text-stone-600 hover:text-stone-900 font-semibold flex items-center gap-1">
-              <i class="fa-solid fa-arrow-left text-[10px]"></i>
-              <span>Home</span>
-            </button>
-            <span class="text-stone-300">/</span>
-            <select id="headerModelSelect" onchange="loadModelTest(this.value)" class="bg-transparent font-semibold text-stone-800 cursor-pointer focus:outline-none hover:text-[#c8102e] pr-1">
-              <!-- Injected by JS -->
-            </select>
+          
+          <!-- Test View Breadcrumb Model Selector -->
+          <div id="headerModelSelectContainer" class="hidden flex items-center gap-1.5 text-xs text-stone-400 min-w-0">
+            <i class="fa-solid fa-chevron-right text-[10px] text-stone-400"></i>
+            <div class="relative flex items-center">
+              <select id="headerModelSelect" onchange="loadModelTest(this.value)" class="appearance-none bg-stone-100 hover:bg-stone-200/80 text-stone-800 font-semibold text-xs py-1 pl-2.5 pr-6 rounded-lg border border-stone-200 cursor-pointer focus:outline-none focus:ring-2 focus:ring-stone-400/20 transition-all truncate max-w-[130px] sm:max-w-[200px]">
+                <!-- Injected by JS -->
+              </select>
+              <i class="fa-solid fa-chevron-down text-[9px] text-stone-500 absolute right-2 pointer-events-none"></i>
+            </div>
           </div>
         </div>
       </div>
 
-      <!-- Controls: Audio Mode, Subtitles, Notebook -->
-      <div class="flex items-center gap-2 text-xs">
+      <!-- Right: Unified Action Controls (All 36px height) -->
+      <div class="flex items-center gap-1.5 sm:gap-2 text-xs">
         
         <!-- AUDIO / PODCAST MODE BUTTON -->
-        <button id="btnAudioPodcast" onclick="openPodcastModal()" class="px-2.5 py-1.5 rounded border border-[#c8102e]/30 bg-rose-50 hover:bg-rose-100 text-[#c8102e] font-semibold flex items-center gap-1.5 transition-colors shadow-2xs">
-          <i class="fa-solid fa-headphones text-sm"></i>
-          <span class="hidden sm:inline">Audio Study</span>
+        <button id="btnAudioPodcast" onclick="openPodcastModal()" class="h-9 px-2.5 sm:px-3 rounded-xl border border-rose-200 bg-rose-50/70 hover:bg-rose-100 text-rose-800 font-semibold flex items-center justify-center gap-1.5 transition-all shadow-2xs cursor-pointer" title="Audio Study & Podcast Mode">
+          <i class="fa-solid fa-headphones text-xs text-rose-600"></i>
+          <span class="hidden md:inline text-xs font-semibold">Audio</span>
         </button>
 
-        <!-- Dashboard Toggle Button -->
-        <button id="btnNavDashboard" onclick="showDashboardView()" class="px-2.5 py-1.5 rounded border border-stone-200 bg-stone-50 hover:bg-stone-100 text-stone-700 font-medium flex items-center gap-1.5 transition-colors">
-          <i class="fa-solid fa-table-cells-large text-stone-500"></i>
-          <span class="hidden sm:inline">All Tests</span>
+        <!-- Dashboard / Tests Overview Button -->
+        <button id="btnNavDashboard" onclick="showTestsOnlyView()" class="h-9 px-2.5 sm:px-3 rounded-xl border border-stone-200 bg-stone-50 hover:bg-stone-100 text-stone-700 font-medium flex items-center justify-center gap-1.5 transition-all cursor-pointer" title="All Tests Overview">
+          <i class="fa-solid fa-layer-group text-stone-500 text-xs"></i>
+          <span class="hidden md:inline text-xs font-medium">Tests</span>
         </button>
 
-        <!-- Toggle: English Translation -->
-        <button id="btnToggleSubtitles" onclick="toggleSubtitles()" class="px-2.5 py-1.5 rounded border border-stone-200 bg-stone-50 hover:bg-stone-100 text-stone-700 font-medium flex items-center gap-1.5 transition-colors" title="Toggle English Translations On/Off">
-          <i class="fa-solid fa-language text-stone-500"></i>
-          <span class="hidden sm:inline">Translation:</span>
-          <span id="subtitlesStatus" class="font-bold text-[#c8102e]">OFF</span>
+        <!-- Toggle: English Subtitles / Translations -->
+        <button id="btnToggleSubtitles" onclick="toggleSubtitles()" class="h-9 px-2.5 sm:px-3 rounded-xl border border-stone-200 bg-stone-50 hover:bg-stone-100 text-stone-700 font-medium flex items-center justify-center gap-1.5 transition-all cursor-pointer" title="Toggle English Subtitles / Translations">
+          <i class="fa-solid fa-language text-stone-500 text-xs"></i>
+          <span class="text-[11px] font-bold"><span id="subtitlesStatus" class="text-stone-500">EN: OFF</span></span>
         </button>
 
         <!-- Starred Notebook Button -->
-        <button id="btnNotebook" onclick="openNotebookModal()" class="px-2.5 py-1.5 rounded border border-stone-200 bg-stone-50 hover:bg-stone-100 text-stone-700 font-medium flex items-center gap-1.5" title="Saved Questions ⭐">
-          <i class="fa-solid fa-star text-amber-500"></i>
-          <span class="hidden sm:inline">Saved</span>
-          <span id="flaggedBadge" class="bg-amber-100 text-amber-900 border border-amber-300 px-1.5 py-0.2 rounded-full font-bold text-[10px]">0</span>
+        <button id="btnNotebook" onclick="openNotebookModal()" class="h-9 px-2.5 sm:px-3 rounded-xl border border-stone-200 bg-stone-50 hover:bg-stone-100 text-stone-700 font-medium flex items-center justify-center gap-1.5 transition-all cursor-pointer" title="Saved Questions ⭐">
+          <i class="fa-solid fa-star text-amber-500 text-xs"></i>
+          <span id="flaggedBadge" class="bg-amber-100 text-amber-900 border border-amber-300 px-1.5 py-0.2 rounded-full font-bold text-[10px] leading-none min-w-[18px] text-center">0</span>
         </button>
 
         <!-- Real-Time Cloud Sync Button -->
-        <button id="btnCloudSync" onclick="openCloudSyncModal()" class="px-2.5 py-1.5 rounded border border-blue-300 bg-blue-50 hover:bg-blue-100 text-blue-900 font-bold flex items-center gap-1.5 transition-colors shadow-2xs" title="Real-Time Multi-Device Cloud Sync">
-          <span id="cloudSyncDot" class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-          <i class="fa-solid fa-cloud text-blue-600"></i>
-          <span>Sync</span>
+        <button id="btnCloudSync" onclick="openCloudSyncModal()" class="h-9 px-2.5 sm:px-3 rounded-xl border border-stone-200 bg-stone-50 hover:bg-blue-50/70 text-stone-700 hover:text-blue-900 font-medium flex items-center justify-center gap-1.5 transition-all cursor-pointer shadow-2xs" title="Real-Time Cloud Sync">
+          <span id="cloudSyncDot" class="w-2 h-2 rounded-full bg-stone-300 shrink-0"></span>
+          <i class="fa-solid fa-cloud text-blue-600 text-xs"></i>
         </button>
       </div>
 
@@ -136,19 +136,14 @@
     <div id="dashboardView" class="space-y-6">
       
       <!-- Global Summary Stats Banner with Section Progress -->
-      <div class="bg-white rounded-xl border border-stone-200 p-4 sm:p-6 shadow-2xs space-y-5">
+      <div id="overallProgressBanner" class="bg-white rounded-xl border border-stone-200 p-4 sm:p-6 shadow-2xs space-y-5">
         <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-stone-100 pb-3">
           <div>
             <div class="flex items-center gap-2">
               <h2 class="text-lg font-bold text-stone-900">Overall Progress</h2>
-              <button onclick="openScoringGuideModal()" class="px-2 py-0.5 rounded-md bg-stone-100 hover:bg-stone-200 text-stone-700 text-[11px] font-semibold border border-stone-300 flex items-center gap-1 transition-colors shadow-2xs" title="View Official Telc B1 Scoring System">
+              <button onclick="openScoringGuideModal()" class="px-2 py-0.5 rounded-md bg-stone-100 hover:bg-stone-200 text-stone-700 text-[11px] font-semibold border border-stone-300 flex items-center gap-1 transition-colors shadow-2xs cursor-pointer" title="View Official Telc B1 Scoring System">
                 <i class="fa-solid fa-circle-info text-blue-600"></i>
                 <span>Telc B1 Scoring & Grades</span>
-              </button>
-              <button onclick="openCloudSyncModal()" class="px-2 py-0.5 rounded-md bg-blue-50 hover:bg-blue-100 text-blue-800 text-[11px] font-bold border border-blue-300 flex items-center gap-1.5 transition-colors shadow-2xs" title="Real-Time Multi-Device Cloud Sync">
-                <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-                <i class="fa-solid fa-cloud text-blue-600"></i>
-                <span>Multi-Device Cloud Sync</span>
               </button>
             </div>
             <p class="text-xs text-stone-500 mt-0.5">Official Telc Deutsch B1 written exam score tracking (225.0 Pkt total)</p>
@@ -921,30 +916,30 @@
       <div class="p-5 space-y-4">
         
         <!-- Live Status Card -->
-        <div class="p-3.5 rounded-xl bg-emerald-50 border border-emerald-200 flex items-center gap-3">
-          <div class="w-9 h-9 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-700 shrink-0 text-base">
-            <i class="fa-solid fa-rotate animate-spin" id="syncModalSpinner" style="animation-duration: 3s;"></i>
+        <div id="syncStatusCard" class="p-3.5 rounded-xl bg-stone-50 border border-stone-200 flex items-center gap-3">
+          <div class="w-9 h-9 rounded-full bg-stone-200 flex items-center justify-center text-stone-600 shrink-0 text-base" id="syncModalIconBox">
+            <i class="fa-solid fa-cloud" id="syncModalSpinner"></i>
           </div>
           <div class="min-w-0 flex-1">
-            <div class="text-xs font-bold text-emerald-950 flex items-center gap-1.5">
-              <span id="syncStatusTitle">Cloud Connected</span>
-              <span class="w-2 h-2 rounded-full bg-emerald-600 inline-block"></span>
+            <div class="text-xs font-bold text-stone-900 flex items-center gap-1.5">
+              <span id="syncStatusTitle">Cloud Sync: Not Connected</span>
+              <span class="w-2 h-2 rounded-full bg-stone-400 inline-block" id="syncStatusIndicator"></span>
             </div>
-            <div class="text-[11px] text-emerald-800 mt-0.5 truncate" id="syncStatusSubtitle">Real-time sync active on European cluster</div>
+            <div class="text-[11px] text-stone-500 mt-0.5 truncate" id="syncStatusSubtitle">Enter a private Sync Key to link your devices</div>
           </div>
         </div>
 
         <!-- Sync Key Configuration -->
         <div class="space-y-2">
-          <label class="block text-xs font-bold text-stone-700">Your Device Pairing Key (Sync Passphrase):</label>
+          <label class="block text-xs font-bold text-stone-700">Your Private Sync Passphrase (Secret Key):</label>
           <div class="flex gap-2">
-            <input type="text" id="syncKeyInput" placeholder="e.g. shaimaa-study" class="flex-1 px-3 py-2 text-xs font-semibold rounded-lg border border-stone-300 bg-stone-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-blue-600">
-            <button onclick="updateSyncKey()" class="px-3.5 py-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs transition-colors shadow-xs">
-              Save Key
+            <input type="text" id="syncKeyInput" placeholder="Enter your secret passphrase..." class="flex-1 px-3 py-2 text-xs font-semibold rounded-lg border border-stone-300 bg-stone-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-blue-600">
+            <button onclick="updateSyncKey()" class="px-3.5 py-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs transition-colors shadow-xs shrink-0">
+              Connect
             </button>
           </div>
           <p class="text-[11px] text-stone-500 leading-relaxed">
-            💡 Enter this exact same Sync Key on your <strong>iPhone, iPad, or laptop</strong>. Any test you practice will automatically update on all your devices in real time!
+            🔒 <strong>Private & Secure:</strong> No default key is used. Only devices where you manually enter this exact passphrase will sync with your progress.
           </p>
         </div>
 
@@ -1150,6 +1145,7 @@
       updateGlobalStats();
       setupMediaSession();
       initFirebaseSync();
+      updateCloudSyncUI();
 
       if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('sw.js').catch(err => console.log('SW registration error:', err));
@@ -1183,12 +1179,55 @@
     // VIEW SWITCHING
     function showDashboardView() {
       currentAppView = 'dashboard';
+      
+      // Close any open modals
+      if (typeof closeNotebookModal === 'function') closeNotebookModal();
+      if (typeof closePodcastModal === 'function') closePodcastModal();
+      if (typeof closeFocusModal === 'function') closeFocusModal();
+      if (typeof closeCloudSyncModal === 'function') closeCloudSyncModal();
+      if (typeof closeScoringGuideModal === 'function') closeScoringGuideModal();
+      if (typeof closeMobileIndexModal === 'function') closeMobileIndexModal();
+
       document.getElementById('dashboardView').classList.remove('hidden');
       document.getElementById('testView').classList.add('hidden');
-       const mNav = document.getElementById('mobileSectionNav'); if (mNav) mNav.classList.add('hidden');
+      const mNav = document.getElementById('mobileSectionNav'); if (mNav) mNav.classList.add('hidden');
       document.getElementById('headerModelSelectContainer').classList.add('hidden');
-      document.getElementById('btnNavDashboard').classList.add('bg-stone-200', 'text-stone-900');
+      
+      const progBanner = document.getElementById('overallProgressBanner');
+      if (progBanner) progBanner.classList.remove('hidden');
+
+      document.getElementById('btnNavDashboard').classList.remove('bg-stone-200', 'text-stone-900');
+      
+      setDashboardTab('exams');
       renderDashboard();
+      window.scrollTo({ top: 0, behavior: 'instant' });
+    }
+
+    function showTestsOnlyView() {
+      currentAppView = 'dashboard';
+      
+      // Close any open modals
+      if (typeof closeNotebookModal === 'function') closeNotebookModal();
+      if (typeof closePodcastModal === 'function') closePodcastModal();
+      if (typeof closeFocusModal === 'function') closeFocusModal();
+      if (typeof closeCloudSyncModal === 'function') closeCloudSyncModal();
+      if (typeof closeScoringGuideModal === 'function') closeScoringGuideModal();
+      if (typeof closeMobileIndexModal === 'function') closeMobileIndexModal();
+
+      document.getElementById('dashboardView').classList.remove('hidden');
+      document.getElementById('testView').classList.add('hidden');
+      const mNav = document.getElementById('mobileSectionNav'); if (mNav) mNav.classList.add('hidden');
+      document.getElementById('headerModelSelectContainer').classList.add('hidden');
+      
+      // Hide overall progress banner for a clean all-tests only view
+      const progBanner = document.getElementById('overallProgressBanner');
+      if (progBanner) progBanner.classList.add('hidden');
+
+      document.getElementById('btnNavDashboard').classList.add('bg-stone-200', 'text-stone-900');
+      
+      setDashboardTab('exams');
+      renderDashboard();
+      window.scrollTo({ top: 0, behavior: 'instant' });
     }
 
     async function loadModelTest(modelId) {
@@ -1751,12 +1790,23 @@
     function toggleSubtitles() {
       showSubtitles = !showSubtitles;
       const statusEl = document.getElementById('subtitlesStatus');
+      const btnEl = document.getElementById('btnToggleSubtitles');
       if (showSubtitles) {
-        statusEl.innerText = 'ON';
-        statusEl.className = 'font-bold text-emerald-700';
+        if (statusEl) {
+          statusEl.innerText = 'EN: ON';
+          statusEl.className = 'font-bold text-emerald-700';
+        }
+        if (btnEl) {
+          btnEl.className = 'h-9 px-2.5 sm:px-3 rounded-xl border border-emerald-300 bg-emerald-50 text-emerald-900 font-medium flex items-center justify-center gap-1.5 transition-all cursor-pointer shadow-2xs';
+        }
       } else {
-        statusEl.innerText = 'OFF';
-        statusEl.className = 'font-bold text-[#c8102e]';
+        if (statusEl) {
+          statusEl.innerText = 'EN: OFF';
+          statusEl.className = 'font-bold text-stone-500';
+        }
+        if (btnEl) {
+          btnEl.className = 'h-9 px-2.5 sm:px-3 rounded-xl border border-stone-200 bg-stone-50 hover:bg-stone-100 text-stone-700 font-medium flex items-center justify-center gap-1.5 transition-all cursor-pointer';
+        }
       }
       if (currentAppView === 'test') renderCurrentTab();
     }
@@ -4480,7 +4530,7 @@ ${tr.text}`,
     };
 
     let firebaseDb = null;
-    let currentSyncKey = localStorage.getItem('telc_b1_sync_key') || 'shaimaa-study';
+    let currentSyncKey = localStorage.getItem('telc_b1_sync_key') || '';
     let isIncomingCloudUpdate = false;
     let lastLocalSavedTimestamp = 0;
 
@@ -4539,10 +4589,46 @@ ${tr.text}`,
       });
     }
 
+    function updateCloudSyncUI() {
+      const dot = document.getElementById('cloudSyncDot');
+      const title = document.getElementById('syncStatusTitle');
+      const sub = document.getElementById('syncStatusSubtitle');
+      const card = document.getElementById('syncStatusCard');
+      const iconBox = document.getElementById('syncModalIconBox');
+      const ind = document.getElementById('syncStatusIndicator');
+
+      if (currentSyncKey) {
+        if (dot) {
+          dot.className = 'w-2 h-2 rounded-full bg-emerald-500 animate-pulse';
+        }
+        if (title) title.innerText = `Connected: "${currentSyncKey}"`;
+        if (sub) sub.innerText = 'Real-time multi-device sync active';
+        if (card) card.className = 'p-3.5 rounded-xl bg-emerald-50 border border-emerald-200 flex items-center gap-3';
+        if (iconBox) {
+          iconBox.className = 'w-9 h-9 rounded-full bg-emerald-100 flex items-center justify-center text-emerald-700 shrink-0 text-base';
+          iconBox.innerHTML = '<i class="fa-solid fa-cloud-arrow-up text-emerald-600"></i>';
+        }
+        if (ind) ind.className = 'w-2 h-2 rounded-full bg-emerald-600 inline-block';
+      } else {
+        if (dot) {
+          dot.className = 'w-2 h-2 rounded-full bg-stone-300';
+        }
+        if (title) title.innerText = 'Cloud Sync: Unlinked';
+        if (sub) sub.innerText = 'Enter your private passphrase to connect';
+        if (card) card.className = 'p-3.5 rounded-xl bg-stone-50 border border-stone-200 flex items-center gap-3';
+        if (iconBox) {
+          iconBox.className = 'w-9 h-9 rounded-full bg-stone-200 flex items-center justify-center text-stone-500 shrink-0 text-base';
+          iconBox.innerHTML = '<i class="fa-solid fa-cloud text-stone-400"></i>';
+        }
+        if (ind) ind.className = 'w-2 h-2 rounded-full bg-stone-400 inline-block';
+      }
+    }
+
     function openCloudSyncModal() {
       const modal = document.getElementById('cloudSyncModal');
       const input = document.getElementById('syncKeyInput');
       if (input) input.value = currentSyncKey;
+      updateCloudSyncUI();
       if (modal) modal.classList.remove('hidden'), modal.classList.add('flex');
     }
 
@@ -4555,16 +4641,23 @@ ${tr.text}`,
       const input = document.getElementById('syncKeyInput');
       const val = input ? input.value.trim() : '';
       if (!val) {
-        alert('Please enter a valid Sync Key.');
+        // Unlink device
+        if (confirm('Leave empty to disconnect this device from Cloud Sync?')) {
+          currentSyncKey = '';
+          localStorage.removeItem('telc_b1_sync_key');
+          updateCloudSyncUI();
+          alert('Device disconnected from Cloud Sync.');
+        }
         return;
       }
       currentSyncKey = val;
       localStorage.setItem('telc_b1_sync_key', currentSyncKey);
+      updateCloudSyncUI();
       if (firebaseDb) {
         setupCloudSyncListener();
         syncStateToCloud();
       }
-      alert(`Sync Key saved to: "${currentSyncKey}". Enter this key on your iPhone & iPad to sync automatically!`);
+      alert(`Device connected to private Sync Key: "${currentSyncKey}". Enter this exact key on your iPhone & iPad to sync your progress!`);
     }
 
     function forcePushToCloud() {
