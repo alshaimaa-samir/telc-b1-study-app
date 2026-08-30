@@ -1,7 +1,7 @@
 {
   "title": "TELC Deutsch B1 Übungstests Manifest",
   "description": "Registry of all interactive TELC B1 practice test models and generated audio status.",
-  "updated_at": "2026-08-30T22:56:12Z",
+  "updated_at": "2026-08-30T23:00:48Z",
   "models": [
     {
       "id": "andreas",
@@ -24,8 +24,8 @@
       "filename": "caroline.json",
       "title": "CAROLINE",
       "description": "",
-      "audio_count": 0,
-      "has_audio": false
+      "audio_count": 111,
+      "has_audio": true
     },
     {
       "id": "eva1",
@@ -133,5 +133,5 @@
     }
   ],
   "total_models": 16,
-  "total_audio_files": 729
+  "total_audio_files": 840
 }
