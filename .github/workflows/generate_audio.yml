@@ -1,8 +1,23 @@
-name: Generate AI Audio (OpenAI TTS)
+name: Generate AI Audio (Per Test / Section)
 
 on:
   workflow_dispatch:
     inputs:
+      model:
+        description: 'Test Model ID(s) (e.g. "all", "eva1", or multiple: "eva1, petra, sophie")'
+        required: true
+        default: 'all'
+        type: string
+      section:
+        description: 'Test Section / Module filter'
+        required: true
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - hoerverstehen
+          - leseverstehen
+          - sprachbausteine
       voice:
         description: 'OpenAI TTS Voice'
         required: true
@@ -10,13 +25,21 @@ on:
         type: choice
         options:
           - alloy
-          - onyx
           - nova
           - echo
           - fable
+          - onyx
           - shimmer
+      tts_model:
+        description: 'OpenAI TTS Quality Model'
+        required: true
+        default: 'tts-1'
+        type: choice
+        options:
+          - tts-1
+          - tts-1-hd
       overwrite:
-        description: 'Overwrite already generated MP3 files (Leave unchecked to fast-resume and skip existing)'
+        description: 'Force overwrite / regenerate existing audio files'
         required: false
         default: false
         type: boolean
@@ -25,44 +48,49 @@ permissions:
   contents: write
 
 jobs:
-  generate_audio:
+  generate-audio:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Generate AI Audio MP3s
+      - name: Discover Available Test Models in data/
+        run: |
+          python3 scripts/generate_ai_audio.py --list-models
+
+      - name: Run Audio Generation
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
-          if [ -z "$OPENAI_API_KEY" ]; then
-            echo "::error::OPENAI_API_KEY secret is not set! Please add it in Repo Settings -> Secrets and variables -> Actions"
-            exit 1
+          OVERWRITE_FLAG=""
+          if [ "${{ inputs.overwrite }}" = "true" ]; then
+            OVERWRITE_FLAG="--overwrite"
           fi
           
-          EXTRA_FLAGS=""
-          if [ "${{ github.event.inputs.overwrite }}" = "true" ]; then
-            EXTRA_FLAGS="--overwrite"
-            echo "Running in OVERWRITE mode (will regenerate all files)."
-          else
-            echo "Running in RESUME mode (skipping already existing audio files)."
-          fi
-          
-          python3 scripts/generate_ai_audio.py --voice ${{ github.event.inputs.voice }} $EXTRA_FLAGS
+          python3 scripts/generate_ai_audio.py \
+            --model "${{ inputs.model }}" \
+            --section "${{ inputs.section }}" \
+            --voice "${{ inputs.voice }}" \
+            --tts-model "${{ inputs.tts_model }}" \
+            $OVERWRITE_FLAG
 
-      - name: Commit and Push Audio Files
+      - name: Commit and Push Generated Audio
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add audio/
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          git add audio/ data/manifest_models.json
+          
           if git diff --staged --quiet; then
-            echo "No new audio files to commit."
+            echo "No new audio files or manifest changes to commit."
           else
-            git commit -m "feat(audio): batch generate audio MP3s [voice: ${{ github.event.inputs.voice }}, overwrite: ${{ github.event.inputs.overwrite }}]"
+            git commit -m "Generate AI audio for model '${{ inputs.model }}' (section: ${{ inputs.section }}) [skip ci]"
             git push
           fi
