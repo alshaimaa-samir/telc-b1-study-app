@@ -71,23 +71,14 @@
           <i class="fa-solid fa-house text-xs text-stone-600 group-hover:text-stone-900"></i>
         </button>
         
-        <div class="flex items-center gap-2 min-w-0">
-          <div class="flex items-center gap-1.5 min-w-0">
-            <span class="w-2 h-2 rounded-full bg-[#c8102e] shrink-0"></span>
-            <h1 onclick="showDashboardView()" class="font-bold text-stone-900 text-sm sm:text-base leading-tight cursor-pointer hover:text-[#c8102e] transition-colors whitespace-nowrap">
-              telc B1
-            </h1>
-          </div>
-          
-          <!-- Test View Breadcrumb Model Selector -->
-          <div id="headerModelSelectContainer" class="hidden flex items-center gap-1.5 text-xs text-stone-400 min-w-0">
-            <i class="fa-solid fa-chevron-right text-[10px] text-stone-400"></i>
-            <div class="relative flex items-center">
-              <select id="headerModelSelect" onchange="loadModelTest(this.value)" class="appearance-none bg-stone-100 hover:bg-stone-200/80 text-stone-800 font-semibold text-xs py-1 pl-2.5 pr-6 rounded-lg border border-stone-200 cursor-pointer focus:outline-none focus:ring-2 focus:ring-stone-400/20 transition-all truncate max-w-[130px] sm:max-w-[200px]">
-                <!-- Injected by JS -->
-              </select>
-              <i class="fa-solid fa-chevron-down text-[9px] text-stone-500 absolute right-2 pointer-events-none"></i>
-            </div>
+        <!-- Test View Breadcrumb Model Selector -->
+        <div id="headerModelSelectContainer" class="hidden flex items-center gap-1.5 text-xs text-stone-400 min-w-0">
+          <i class="fa-solid fa-chevron-right text-[10px] text-stone-400"></i>
+          <div class="relative flex items-center">
+            <select id="headerModelSelect" onchange="loadModelTest(this.value)" class="appearance-none bg-stone-100 hover:bg-stone-200/80 text-stone-800 font-semibold text-xs py-1 pl-2.5 pr-6 rounded-lg border border-stone-200 cursor-pointer focus:outline-none focus:ring-2 focus:ring-stone-400/20 transition-all truncate max-w-[130px] sm:max-w-[200px]">
+              <!-- Injected by JS -->
+            </select>
+            <i class="fa-solid fa-chevron-down text-[9px] text-stone-500 absolute right-2 pointer-events-none"></i>
           </div>
         </div>
       </div>
@@ -117,6 +108,13 @@
         <button id="btnNotebook" onclick="openNotebookModal()" class="h-9 px-2.5 sm:px-3 rounded-xl border border-stone-200 bg-stone-50 hover:bg-stone-100 text-stone-700 font-medium flex items-center justify-center gap-1.5 transition-all cursor-pointer" title="Saved Questions ⭐">
           <i class="fa-solid fa-star text-amber-500 text-xs"></i>
           <span id="flaggedBadge" class="bg-amber-100 text-amber-900 border border-amber-300 px-1.5 py-0.2 rounded-full font-bold text-[10px] leading-none min-w-[18px] text-center">0</span>
+        </button>
+
+        <!-- Vocabulary List Button -->
+        <button id="btnVocabList" onclick="openVocabModal()" class="h-9 px-2.5 sm:px-3 rounded-xl border border-emerald-200 bg-emerald-50/70 hover:bg-emerald-100 text-emerald-800 font-semibold flex items-center justify-center gap-1.5 transition-all shadow-2xs cursor-pointer" title="My Custom Vocabulary List">
+          <i class="fa-solid fa-book-bookmark text-emerald-600 text-xs"></i>
+          <span class="hidden sm:inline text-xs font-semibold">Vocab</span>
+          <span id="vocabBadge" class="bg-emerald-200 text-emerald-950 border border-emerald-300 px-1.5 py-0.2 rounded-full font-bold text-[10px] leading-none min-w-[18px] text-center">0</span>
         </button>
 
         <!-- Real-Time Cloud Sync Button -->
@@ -505,6 +503,9 @@
         </div>
       </div>
       <div class="flex items-center gap-1.5 shrink-0">
+        <button onclick="cycleAudioSpeed()" class="px-1.5 py-0.5 rounded bg-stone-800 hover:bg-stone-700 text-amber-400 font-extrabold text-[10px] border border-stone-600 cursor-pointer shadow-2xs" title="Change Audio Speed">
+          <span id="miniSpeedBadge" class="speed-label-sync">1.0x</span>
+        </button>
         <button onclick="podcastPrev()" class="p-1.5 text-stone-300 hover:text-white" title="Previous"><i class="fa-solid fa-backward-step text-xs"></i></button>
         <button id="miniPlayBtn" onclick="togglePodcastPlay()" class="w-7 h-7 rounded-full bg-white text-stone-900 flex items-center justify-center hover:bg-stone-200">
           <i class="fa-solid fa-pause text-xs"></i>
@@ -660,17 +661,21 @@
               </div>
             </div>
 
-            <!-- Speed Slider -->
+            <!-- Speed Slider & Presets -->
             <div class="space-y-1.5">
               <div class="flex justify-between items-center font-bold text-stone-700">
-                <span>Reading Speed:</span>
-                <span id="speedValueLabel" class="text-[#c8102e] font-extrabold">0.9x</span>
+                <span>Reading / Audio Speed:</span>
+                <span id="speedValueLabel" class="text-[#c8102e] font-extrabold speed-label-sync">1.0x</span>
               </div>
-              <input type="range" id="speechRateSlider" min="0.75" max="1.25" step="0.05" value="0.9" oninput="updateSpeechRate(this.value)" class="w-full accent-[#c8102e] cursor-pointer">
-              <div class="flex justify-between text-[10px] text-stone-400 font-medium">
-                <span>0.75x (Deliberate)</span>
-                <span>1.0x (Normal)</span>
-                <span>1.25x (Fast)</span>
+              <input type="range" id="speechRateSlider" min="0.6" max="1.4" step="0.05" value="1.0" oninput="updateSpeechRate(this.value)" class="w-full accent-[#c8102e] cursor-pointer">
+              <div class="flex justify-between items-center pt-0.5">
+                <div class="flex gap-1 text-[11px]">
+                  <button onclick="setGlobalAudioSpeed(0.75)" class="px-2 py-0.5 rounded bg-stone-100 hover:bg-stone-200 text-stone-700 font-semibold border border-stone-200 cursor-pointer">0.75x</button>
+                  <button onclick="setGlobalAudioSpeed(0.85)" class="px-2 py-0.5 rounded bg-stone-100 hover:bg-stone-200 text-stone-700 font-semibold border border-stone-200 cursor-pointer">0.85x</button>
+                  <button onclick="setGlobalAudioSpeed(1.0)" class="px-2 py-0.5 rounded bg-stone-100 hover:bg-stone-200 text-stone-700 font-semibold border border-stone-200 cursor-pointer">1.0x</button>
+                  <button onclick="setGlobalAudioSpeed(1.25)" class="px-2 py-0.5 rounded bg-stone-100 hover:bg-stone-200 text-stone-700 font-semibold border border-stone-200 cursor-pointer">1.25x</button>
+                </div>
+                <span class="text-[10px] text-stone-400 font-medium">Slow ◄──► Fast</span>
               </div>
             </div>
           </div>
@@ -736,15 +741,23 @@
           <h3 id="modalTitle" class="font-bold text-stone-900 text-sm sm:text-base">Focus Reader</h3>
         </div>
         <div class="flex items-center gap-2">
-          <button onclick="playCurrentAudio()" class="px-2 py-1 rounded text-stone-700 hover:bg-stone-200 text-xs font-semibold flex items-center gap-1.5">
+          <button onclick="playCurrentAudio()" class="px-2 py-1 rounded text-stone-700 hover:bg-stone-200 text-xs font-semibold flex items-center gap-1.5 cursor-pointer">
             <i class="fa-solid fa-volume-high text-stone-600"></i>
             <span>Listen</span>
           </button>
-          <button onclick="openGoogleTranslate()" class="px-2 py-1 rounded text-stone-700 hover:bg-stone-200 text-xs font-semibold flex items-center gap-1.5">
+          <button onclick="cycleAudioSpeed()" class="px-2 py-1 rounded text-stone-700 hover:bg-stone-200 text-xs font-semibold flex items-center gap-1 cursor-pointer border border-stone-200 bg-white" title="Change Audio Speed">
+            <i class="fa-solid fa-gauge-high text-stone-500 text-xs"></i>
+            <span class="speed-label-sync font-bold text-[#c8102e]">1.0x</span>
+          </button>
+          <button onclick="promptAddSelectedVocab()" class="px-2 py-1 rounded text-emerald-800 bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 text-xs font-semibold flex items-center gap-1.5 cursor-pointer" title="Add highlighted word to Vocab list">
+            <i class="fa-solid fa-book-bookmark text-emerald-600"></i>
+            <span>+ Vocab</span>
+          </button>
+          <button onclick="openGoogleTranslate()" class="px-2 py-1 rounded text-stone-700 hover:bg-stone-200 text-xs font-semibold flex items-center gap-1.5 cursor-pointer">
             <i class="fa-solid fa-arrow-up-right-from-square text-stone-500"></i>
             <span>Google Translate</span>
           </button>
-          <button onclick="closeFocusModal()" class="p-1 text-stone-400 hover:text-stone-800 ml-1">
+          <button onclick="closeFocusModal()" class="p-1 text-stone-400 hover:text-stone-800 ml-1 cursor-pointer">
             <i class="fa-solid fa-xmark text-lg"></i>
           </button>
         </div>
@@ -759,9 +772,11 @@
           <div class="text-[11px] font-bold uppercase tracking-wider text-stone-400 mb-1.5">German Original</div>
           <div id="modalGermanText" class="exam-serif text-stone-900 text-base sm:text-lg leading-relaxed whitespace-pre-line select-text"></div>
         </div>
-        <div class="border-t border-stone-200 pt-4">
-          <div class="text-[11px] font-bold uppercase tracking-wider text-stone-400 mb-1.5">English Translation</div>
-          <div id="modalEnglishText" class="text-stone-600 text-sm sm:text-base leading-relaxed whitespace-pre-line"></div>
+        <div class="border-t-2 border-dashed border-stone-200 pt-3 mt-4 bg-blue-50/30 p-4 rounded-lg">
+          <div class="flex items-center gap-1.5 mb-2">
+            <span class="text-[10px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded bg-blue-100 text-blue-700 border border-blue-200">EN Translation</span>
+          </div>
+          <div id="modalEnglishText" class="text-stone-600 text-sm sm:text-base leading-relaxed whitespace-pre-line font-sans"></div>
         </div>
         <div id="modalCluesBox" class="hidden border-t border-stone-200 pt-4 text-xs text-stone-700 bg-stone-50 -mx-5 -mb-5 p-5 mt-4">
           <div class="font-bold text-stone-900 mb-1 flex items-center gap-1.5">
@@ -1029,6 +1044,214 @@
     </div>
   </div>
 
+  <!-- FLOATING TEXT SELECTION TRANSLATION POPUP -->
+  <div id="selectionActionMenu" onmousedown="event.preventDefault(); event.stopPropagation();" ontouchstart="event.stopPropagation();" class="fixed z-[9999] hidden -translate-x-1/2 -translate-y-full mb-2 bg-stone-900/95 text-white rounded-2xl shadow-2xl p-2.5 sm:p-3 border border-stone-700 animate-in fade-in zoom-in-95 duration-150 backdrop-blur-md w-max max-w-[94vw] sm:max-w-lg md:max-w-xl transition-all space-y-1.5">
+    <!-- Top Line: German Text, Listen Icon, +Add Button, and Close Button on the SAME LINE -->
+    <div class="flex items-center justify-between gap-3">
+      <div class="flex items-center gap-2 min-w-0 flex-1">
+        <span id="selectionOriginalWord" class="font-extrabold text-xs text-amber-300 break-words max-h-24 overflow-y-auto leading-snug">
+          Wort
+        </span>
+        <button onclick="speakSelectedText()" class="text-stone-400 hover:text-amber-400 p-1 shrink-0 cursor-pointer transition-colors rounded-md hover:bg-stone-800" title="Listen / Pronounce">
+          <i class="fa-solid fa-volume-high text-xs"></i>
+        </button>
+      </div>
+
+      <div class="flex items-center gap-1.5 shrink-0">
+        <button id="btnQuickAddVocab" onclick="saveDirectSelectionToVocab()" class="px-2.5 py-1 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs flex items-center gap-1 transition-all shadow-xs cursor-pointer active:scale-95 shrink-0" title="Save to Vocabulary List">
+          <i class="fa-solid fa-plus text-[10px]" id="quickAddIcon"></i>
+          <span id="btnQuickAddVocabText">Add</span>
+        </button>
+        <button onclick="dismissSelectionMenu()" class="p-1 text-stone-400 hover:text-stone-200 cursor-pointer rounded-lg hover:bg-stone-800 transition-colors" title="Close">
+          <i class="fa-solid fa-xmark text-xs"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Second Line: English Translation -->
+    <div id="selectionTranslatedWord" class="text-emerald-300 font-medium text-xs break-words leading-relaxed max-h-48 overflow-y-auto select-text pt-1.5 border-t border-stone-800 pr-1">
+      Translating...
+    </div>
+  </div>
+
+  <!-- ADD VOCABULARY MODAL -->
+  <div id="addVocabModal" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs hidden flex items-center justify-center p-3 sm:p-6">
+    <div class="bg-white w-full max-w-md rounded-2xl shadow-2xl flex flex-col overflow-hidden border border-stone-300 animate-in fade-in zoom-in-95 duration-150">
+      <div class="px-5 py-3.5 border-b border-stone-200 flex items-center justify-between bg-stone-50">
+        <div class="font-bold text-stone-900 text-sm sm:text-base flex items-center gap-2">
+          <i class="fa-solid fa-book-bookmark text-emerald-600"></i>
+          <span>Save to My Vocab List</span>
+        </div>
+        <button onclick="closeAddVocabModal()" class="text-stone-400 hover:text-stone-800 p-1 cursor-pointer">
+          <i class="fa-solid fa-xmark text-lg"></i>
+        </button>
+      </div>
+      <form onsubmit="event.preventDefault(); saveCustomVocab();" class="p-5 space-y-4 text-xs">
+        <div>
+          <label class="block font-bold text-stone-700 mb-1">German Word / Phrase (Deutsch) *</label>
+          <div class="relative">
+            <input type="text" id="vocabWordInput" required class="w-full px-3 py-2 border border-stone-300 rounded-lg text-sm font-semibold text-stone-900 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 outline-none pr-8">
+            <button type="button" onclick="speakText(document.getElementById('vocabWordInput').value)" class="absolute right-2 top-1/2 -translate-y-1/2 text-stone-400 hover:text-emerald-600 p-1 cursor-pointer" title="Listen">
+              <i class="fa-solid fa-volume-high text-xs"></i>
+            </button>
+          </div>
+        </div>
+
+        <div>
+          <div class="flex items-center justify-between mb-1">
+            <label class="font-bold text-stone-700">English Meaning / Translation</label>
+            <button type="button" onclick="lookupQuickTranslation()" class="text-[11px] text-blue-600 hover:text-blue-800 font-semibold cursor-pointer flex items-center gap-1">
+              <i class="fa-solid fa-wand-magic-sparkles text-[10px]"></i>
+              <span>Auto-translate</span>
+            </button>
+          </div>
+          <input type="text" id="vocabMeaningInput" placeholder="e.g. appointment, to apply for..." class="w-full px-3 py-2 border border-stone-300 rounded-lg text-sm text-stone-900 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 outline-none">
+        </div>
+
+        <div>
+          <label class="block font-bold text-stone-700 mb-1">Example / Sentence Context (Optional)</label>
+          <textarea id="vocabContextInput" rows="2" placeholder="Sentence from the reading text..." class="w-full px-3 py-2 border border-stone-300 rounded-lg text-xs text-stone-800 focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 outline-none"></textarea>
+        </div>
+
+        <div class="flex items-center justify-between text-[11px] text-stone-500 bg-stone-50 p-2.5 rounded-lg border border-stone-200">
+          <span class="flex items-center gap-1">
+            <i class="fa-solid fa-tag text-stone-400"></i>
+            <span id="vocabSourceTag">Exam Practice</span>
+          </span>
+          <span class="text-stone-400">Saved in Local & Cloud Sync</span>
+        </div>
+
+        <div class="flex items-center justify-end gap-2 pt-2 border-t border-stone-100">
+          <button type="button" onclick="closeAddVocabModal()" class="px-4 py-2 border border-stone-300 bg-white hover:bg-stone-100 text-stone-700 font-medium rounded-lg cursor-pointer">
+            Cancel
+          </button>
+          <button type="submit" class="px-5 py-2 bg-emerald-700 hover:bg-emerald-800 text-white font-bold rounded-lg shadow-xs transition-colors cursor-pointer flex items-center gap-1.5">
+            <i class="fa-solid fa-check text-xs"></i>
+            <span>Save Word</span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- VOCABULARY LIST & FLASHCARD VIEWER MODAL -->
+  <div id="vocabModal" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-xs hidden flex items-center justify-center p-3 sm:p-6">
+    <div class="bg-white w-full max-w-4xl max-h-[92vh] rounded-2xl shadow-2xl flex flex-col overflow-hidden border border-stone-300 animate-in fade-in zoom-in-95 duration-150">
+      
+      <!-- Header -->
+      <div class="px-5 py-3.5 border-b border-stone-200 flex flex-col sm:flex-row sm:items-center justify-between gap-3 bg-stone-50">
+        <div class="flex items-center gap-3">
+          <div class="w-8 h-8 rounded-xl bg-emerald-700 text-white flex items-center justify-center text-sm font-bold shadow-xs">
+            <i class="fa-solid fa-book-bookmark"></i>
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <h3 class="font-bold text-stone-900 text-base">My Vocabulary List</h3>
+              <span id="vocabModalCountBadge" class="bg-emerald-100 text-emerald-900 border border-emerald-300 px-2 py-0.5 rounded-full font-bold text-xs">0 words</span>
+            </div>
+            <p class="text-[11px] text-stone-500">Custom vocabulary selected from reading texts and questions</p>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <!-- View Toggle: List vs Flashcards -->
+          <div class="flex rounded-lg border border-stone-200 bg-white p-0.5 text-xs font-semibold">
+            <button id="btnVocabViewList" onclick="setVocabModalView('list')" class="px-2.5 py-1 rounded bg-stone-900 text-white cursor-pointer transition-colors">
+              <i class="fa-solid fa-list mr-1"></i> List
+            </button>
+            <button id="btnVocabViewCards" onclick="setVocabModalView('flashcards')" class="px-2.5 py-1 rounded hover:bg-stone-100 text-stone-700 cursor-pointer transition-colors">
+              <i class="fa-solid fa-layer-group mr-1"></i> Flashcards
+            </button>
+          </div>
+
+          <button onclick="openManualAddVocabModal()" class="px-3 py-1.5 rounded-lg bg-emerald-700 hover:bg-emerald-800 text-white text-xs font-bold flex items-center gap-1.5 shadow-xs cursor-pointer" title="Add Word Manually">
+            <i class="fa-solid fa-plus text-[10px]"></i>
+            <span class="hidden sm:inline">Add Word</span>
+          </button>
+
+          <button onclick="exportVocabList()" class="p-2 rounded-lg border border-stone-200 bg-white hover:bg-stone-100 text-stone-700 text-xs font-medium cursor-pointer" title="Export Vocabulary (CSV / Text)">
+            <i class="fa-solid fa-download"></i>
+          </button>
+
+          <button onclick="closeVocabModal()" class="p-2 text-stone-400 hover:text-stone-800 cursor-pointer ml-1">
+            <i class="fa-solid fa-xmark text-lg"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Search & Filters Toolbar -->
+      <div class="px-5 py-2.5 border-b border-stone-200 bg-white space-y-2 text-xs">
+        <div class="flex flex-col sm:flex-row items-center justify-between gap-2">
+          <div class="relative flex-1 w-full">
+            <i class="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-stone-400 text-xs"></i>
+            <input type="text" id="vocabSearchInput" oninput="filterVocabList()" placeholder="Search German words, English meanings, or context..." class="w-full pl-8 pr-3 py-1.5 rounded-lg border border-stone-200 bg-stone-50 focus:bg-white focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 outline-none">
+          </div>
+          <div class="flex items-center gap-2 w-full sm:w-auto justify-between sm:justify-start shrink-0">
+            <button onclick="playAllVocabAudio()" id="btnPlayAllVocab" class="px-2.5 py-1.5 rounded border border-stone-200 bg-stone-50 hover:bg-stone-100 text-stone-700 font-semibold flex items-center gap-1.5 cursor-pointer" title="Listen to all words sequentially">
+              <i class="fa-solid fa-circle-play text-emerald-600"></i>
+              <span>Listen All</span>
+            </button>
+            <button onclick="clearAllVocabConfirm()" class="px-2.5 py-1.5 rounded text-rose-600 hover:bg-rose-50 font-semibold cursor-pointer" title="Delete all words">
+              <i class="fa-solid fa-trash-can text-xs"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Filter Dropdowns Row: Model Test & Section / Teil -->
+        <div class="flex flex-wrap items-center gap-2 pt-1 border-t border-stone-100 text-xs">
+          <div class="flex items-center gap-1 text-stone-500 font-medium shrink-0">
+            <i class="fa-solid fa-filter text-[10px] text-emerald-600"></i>
+            <span class="text-[11px]">Filter:</span>
+          </div>
+
+          <!-- Model Test Filter Dropdown -->
+          <select id="vocabFilterModel" onchange="filterVocabList()" class="px-2.5 py-1 rounded-lg border border-stone-200 bg-stone-50 text-stone-800 font-semibold text-xs focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 outline-none cursor-pointer">
+            <option value="all">📚 All Test Models</option>
+          </select>
+
+          <!-- Section / Teil Filter Dropdown -->
+          <select id="vocabFilterSection" onchange="filterVocabList()" class="px-2.5 py-1 rounded-lg border border-stone-200 bg-stone-50 text-stone-800 font-semibold text-xs focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 outline-none cursor-pointer">
+            <option value="all">📑 All Sections & Teile</option>
+            <optgroup label="📖 Leseverstehen (Reading)">
+              <option value="leseverstehen">📖 Leseverstehen (All Teile)</option>
+              <option value="teil_1">📖 Leseverstehen Teil 1</option>
+              <option value="teil_2">📖 Leseverstehen Teil 2</option>
+              <option value="teil_3">📖 Leseverstehen Teil 3</option>
+            </optgroup>
+            <optgroup label="✍️ Sprachbausteine (Grammar)">
+              <option value="sprachbausteine">✍️ Sprachbausteine (All Teile)</option>
+              <option value="sprachbausteine_1">✍️ Sprachbausteine Teil 1</option>
+              <option value="sprachbausteine_2">✍️ Sprachbausteine Teil 2</option>
+            </optgroup>
+            <optgroup label="🎧 Hörverstehen (Listening)">
+              <option value="hoerverstehen">🎧 Hörverstehen (All Teile)</option>
+              <option value="hoerverstehen_1">🎧 Hörverstehen Teil 1</option>
+              <option value="hoerverstehen_2">🎧 Hörverstehen Teil 2</option>
+              <option value="hoerverstehen_3">🎧 Hörverstehen Teil 3</option>
+            </optgroup>
+            <optgroup label="Other Sections">
+              <option value="schreiben">📝 Schriftlicher Ausdruck (Writing)</option>
+              <option value="sprechen">💬 Mündliche Prüfung (Speaking)</option>
+              <option value="manual">📌 Manual / Study Notes</option>
+            </optgroup>
+          </select>
+
+          <!-- Active Filter Badge & Reset Button -->
+          <div id="vocabFilterActiveBadge" class="hidden items-center gap-1.5 ml-auto">
+            <span id="vocabFilteredCount" class="text-[11px] font-bold text-emerald-800 bg-emerald-50 border border-emerald-200 px-2 py-0.5 rounded-full"></span>
+            <button onclick="resetVocabFilters()" class="text-[11px] text-stone-500 hover:text-rose-600 font-medium underline cursor-pointer">Reset Filters</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Body Container -->
+      <div id="vocabModalBody" class="flex-1 overflow-y-auto p-4 sm:p-6 bg-stone-50/50">
+        <!-- List or Flashcards injected dynamically -->
+      </div>
+
+    </div>
+  </div>
+
   <!-- APPLICATION LOGIC -->
   <script>
     let modelsList = [];
@@ -1046,13 +1269,15 @@
     let currentFocusItem = null;
     let currentPlayingAudioKey = null;
 
+    let currentAudioSpeed = parseFloat(localStorage.getItem('telc_audio_speed') || '1.0');
+
     // PODCAST STATE
     let podcastState = {
       modelId: '',
       modelData: null,
       section: 'all',
       flow: 'full', // 'full' or 'sentence'
-      rate: 0.9,
+      rate: currentAudioSpeed,
       queue: [],
       currentIndex: 0,
       currentStepIndex: 0,
@@ -1061,13 +1286,79 @@
       speechToken: 0
     };
 
+    function setGlobalAudioSpeed(val) {
+      currentAudioSpeed = Math.round(parseFloat(val) * 100) / 100;
+      podcastState.rate = currentAudioSpeed;
+      try {
+        localStorage.setItem('telc_audio_speed', String(currentAudioSpeed));
+      } catch (e) {}
+
+      // Live update any actively playing HTML5 audio
+      if (activeHtmlAudio) {
+        activeHtmlAudio.playbackRate = currentAudioSpeed;
+      }
+      if (podcastActiveAudio) {
+        podcastActiveAudio.playbackRate = currentAudioSpeed;
+      }
+
+      // Update all UI speed indicators
+      const formatted = `${currentAudioSpeed}x`;
+      document.querySelectorAll('.speed-label-sync').forEach(el => {
+        el.innerText = formatted;
+      });
+      const headerBadge = document.getElementById('headerSpeedBadge');
+      if (headerBadge) headerBadge.innerText = formatted;
+
+      const miniBadge = document.getElementById('miniSpeedBadge');
+      if (miniBadge) miniBadge.innerText = formatted;
+
+      const speedLabel = document.getElementById('speedValueLabel');
+      if (speedLabel) speedLabel.innerText = formatted;
+
+      const slider = document.getElementById('speechRateSlider');
+      if (slider) slider.value = currentAudioSpeed;
+    }
+
+    function cycleAudioSpeed() {
+      const speeds = [0.75, 0.85, 1.0, 1.25];
+      let idx = speeds.findIndex(s => Math.abs(s - currentAudioSpeed) < 0.04);
+      if (idx === -1) idx = 2; // default 1.0
+      const nextIdx = (idx + 1) % speeds.length;
+      setGlobalAudioSpeed(speeds[nextIdx]);
+    }
+
+    function updateSpeechRate(val) {
+      setGlobalAudioSpeed(val);
+    }
+
+    function safeJsonParse(text) {
+      if (typeof text !== 'string') return text;
+      try {
+        return JSON.parse(text);
+      } catch (e) {
+        // Strip trailing commas before } or ]
+        try {
+          const cleaned = text.replace(/,\s*([\]}])/g, '$1');
+          return JSON.parse(cleaned);
+        } catch (e2) {
+          console.warn('safeJsonParse failed:', e2);
+          return null;
+        }
+      }
+    }
+
     async function init() {
+      try {
+        setGlobalAudioSpeed(currentAudioSpeed);
+      } catch (e) {}
+
       try {
         const saved = localStorage.getItem('telc_b1_user_state');
         if (saved) {
-          userState = JSON.parse(saved);
+          userState = safeJsonParse(saved) || {};
           if (!userState.answers) userState.answers = {};
           if (!userState.flagged) userState.flagged = {};
+          if (!userState.customVocab) userState.customVocab = [];
         }
       } catch (e) { console.warn(e); }
 
@@ -1075,7 +1366,8 @@
       try {
         const res = await fetch('data/manifest_models.json?t=' + Date.now());
         if (res.ok) {
-          const data = await res.json();
+          const text = await res.text();
+          const data = safeJsonParse(text);
           modelsList = (Array.isArray(data) ? data : []).filter(m => m.is_available !== false);
         }
       } catch (err) {
@@ -1135,6 +1427,15 @@
         }
       }
 
+      // 3. Robust Safety Net: if modelsList is still empty, populate standard default models
+      if (!modelsList || modelsList.length === 0) {
+        modelsList = [
+          { id: 'eva1', number: 1, title: 'EVA1', file: 'data/eva1.json', is_available: true },
+          { id: 'petra', number: 2, title: 'Petra', file: 'data/petra.json', is_available: true },
+          { id: 'sophie', number: 3, title: 'SOPHIE', file: 'data/sophie.json', is_available: true }
+        ];
+      }
+
       // Initial active model
       const initialId = (modelsList.length > 0) ? modelsList[0].id : 'eva1';
       currentModelId = initialId;
@@ -1187,6 +1488,8 @@
       setupMediaSession();
       initFirebaseSync();
       updateCloudSyncUI();
+      updateVocabBadge();
+      setupTextSelectionListener();
 
       if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('sw.js').catch(err => console.log('SW registration error:', err));
@@ -1290,7 +1593,8 @@
         const modelInfo = modelsList.find(m => m.id === modelId) || { file: `data/${modelId}.json` };
         try {
           const res = await fetch((modelInfo.file || `data/${modelId}.json`) + '?t=' + Date.now());
-          currentModelData = await res.json();
+          const text = await res.text();
+          currentModelData = safeJsonParse(text);
           allModelsRawData[modelId] = currentModelData;
           allModelsDataCache[modelId] = extractCorrectAnswersFromModel(currentModelData);
         } catch (err) {
@@ -1963,6 +2267,7 @@
       `;
 
       updateTestStats();
+      updateAudioButtonsState();
     }
 
     // ==========================================
@@ -2008,7 +2313,12 @@
                     <span class="font-bold shrink-0 w-4 text-center ${isUsedInText ? 'text-stone-400' : 'text-stone-900'}">${lowerLetter}</span>
                     <div class="flex-1">
                       <span class="${isUsedInText ? 'line-through' : ''}">${title}</span>
-                      ${showSubtitles && sec.headings_en ? `<div class="text-[11px] text-stone-400 mt-0.5 font-normal">${sec.headings_en[lowerLetter]}</div>` : ''}
+                      ${showSubtitles && sec.headings_en && sec.headings_en[lowerLetter] ? `
+                        <div class="text-[11px] text-blue-800/80 bg-blue-50/50 border border-blue-100/70 rounded px-1.5 py-0.5 mt-1 font-sans flex items-baseline gap-1">
+                          <span class="text-[9px] font-bold text-blue-600 uppercase tracking-wide shrink-0">EN ↳</span>
+                          <span>${sec.headings_en[lowerLetter]}</span>
+                        </div>
+                      ` : ''}
                     </div>
                     ${isUsedInText ? `<span class="text-[10px] font-semibold text-stone-500 bg-stone-200 px-1.5 py-0.5 rounded shrink-0">Text ${isUsedInText}</span>` : ''}
                   </div>
@@ -2061,7 +2371,12 @@
                     </span>
                   ` : ''}
                 </p>
-                ${showSubtitles ? `<p class="text-xs text-stone-500 mt-2 leading-relaxed font-sans">${passage.text_en}</p>` : ''}
+                ${showSubtitles && passage.text_en ? `
+                  <div class="mt-2.5 pt-2 border-t border-dashed border-stone-200 text-xs text-stone-600 font-sans leading-relaxed flex items-start gap-2 bg-blue-50/30 p-2.5 rounded-md">
+                    <span class="text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded bg-blue-100 text-blue-700 border border-blue-200 shrink-0 mt-0.5">EN</span>
+                    <span class="flex-1">${passage.text_en}</span>
+                  </div>
+                ` : ''}
                 <div class="mt-1.5 flex items-center gap-1 text-[11px] text-stone-400 group-hover:text-stone-700">
                   <i class="fa-solid fa-expand text-[10px]"></i>
                   <span>Focus Reader / Listen</span>
@@ -2144,7 +2459,14 @@
               ${p.paragraphs.map(para => `<p>${para}</p>`).join('')}
             </div>
 
-            ${showSubtitles ? `<div class="border-t border-stone-200 pt-3 text-xs text-stone-600 font-sans leading-relaxed whitespace-pre-line">${p.text_en}</div>` : ''}
+            ${showSubtitles && p.text_en ? `
+              <div class="border-t-2 border-dashed border-stone-200 pt-3 mt-3 bg-blue-50/30 p-3.5 rounded-md">
+                <div class="flex items-center gap-1.5 mb-1.5">
+                  <span class="text-[10px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded bg-blue-100 text-blue-700 border border-blue-200">EN Translation</span>
+                </div>
+                <div class="text-xs text-stone-600 font-sans leading-relaxed whitespace-pre-line">${p.text_en}</div>
+              </div>
+            ` : ''}
           </div>
 
           <div class="space-y-4 pt-2">
@@ -2189,7 +2511,12 @@
                     </span>
                   ` : ''}
                 </span>
-                ${showSubtitles ? `<div class="text-xs text-stone-500 mt-0.5">${q.question_en}</div>` : ''}
+                ${showSubtitles && q.question_en ? `
+                  <div class="text-xs text-blue-900/80 bg-blue-50/40 border border-blue-100/70 rounded-md px-2 py-1 mt-1.5 font-sans flex items-start gap-1.5">
+                    <span class="text-[9px] font-bold uppercase tracking-wider px-1 py-0.2 rounded bg-blue-100 text-blue-700 shrink-0 mt-0.5">EN</span>
+                    <span>${q.question_en}</span>
+                  </div>
+                ` : ''}
               </div>
             </div>
             <button onclick="toggleFlag('${qKey}')" class="p-1.5 text-base transition-transform active:scale-125 focus:outline-none shrink-0" title="Save Question ⭐">
@@ -2212,7 +2539,12 @@
                   <span class="font-bold w-5 shrink-0 text-stone-700">${lowerOpt}.</span>
                   <div class="flex-1">
                     <span class="font-normal text-stone-900">${optText}</span>
-                    ${showSubtitles && q.options_en ? `<div class="text-[11px] text-stone-500 mt-0.5 font-normal">${q.options_en[optLetter]}</div>` : ''}
+                    ${showSubtitles && q.options_en && q.options_en[optLetter] ? `
+                      <div class="text-[11px] text-stone-500 mt-1 pt-1 border-t border-stone-200/60 font-sans flex items-baseline gap-1.5">
+                        <span class="text-[9px] font-bold text-blue-600/80 uppercase tracking-wider shrink-0">EN ↳</span>
+                        <span>${q.options_en[optLetter]}</span>
+                      </div>
+                    ` : ''}
                   </div>
                 </button>
               `;
@@ -2348,7 +2680,12 @@
                     </span>
                   ` : ''}
                 </p>
-                ${showSubtitles ? `<p class="text-xs text-stone-500 mt-1 leading-snug font-sans">${s.situation_en}</p>` : ''}
+                ${showSubtitles && s.situation_en ? `
+                  <div class="mt-2 pt-1.5 border-t border-dashed border-stone-200 text-xs text-stone-600 font-sans leading-relaxed flex items-start gap-1.5 bg-blue-50/30 p-2 rounded-md">
+                    <span class="text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded bg-blue-100 text-blue-700 border border-blue-200 shrink-0 mt-0.5">EN</span>
+                    <span class="flex-1">${s.situation_en}</span>
+                  </div>
+                ` : ''}
               </div>
             </div>
             <button onclick="toggleFlag('${qKey}')" class="p-1.5 text-base transition-transform active:scale-125 focus:outline-none shrink-0" title="Save Question ⭐">
@@ -2452,9 +2789,11 @@
             </div>
 
             ${showSubtitles && letter.text_en ? `
-              <div class="border-t border-stone-200 pt-3 text-xs text-stone-600 font-sans leading-relaxed whitespace-pre-line bg-white/60 p-3 rounded">
-                <div class="text-[10px] font-bold uppercase text-stone-400 mb-1">English Translation:</div>
-                ${letter.text_en}
+              <div class="border-t-2 border-dashed border-stone-200 pt-3 mt-3 bg-blue-50/30 p-3.5 rounded-md">
+                <div class="flex items-center gap-1.5 mb-1.5">
+                  <span class="text-[10px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded bg-blue-100 text-blue-700 border border-blue-200">EN Translation</span>
+                </div>
+                <div class="text-xs text-stone-600 font-sans leading-relaxed whitespace-pre-line">${letter.text_en}</div>
               </div>
             ` : ''}
           </div>
@@ -2523,7 +2862,12 @@
                   <span class="font-bold w-5 shrink-0 text-stone-700">${lowerOpt}.</span>
                   <div class="flex-1">
                     <span class="font-normal text-stone-900">${optText}</span>
-                    ${showSubtitles && it.options_en ? `<div class="text-[11px] text-stone-500 mt-0.5 font-normal">${it.options_en[optLetter]}</div>` : ''}
+                    ${showSubtitles && it.options_en && it.options_en[optLetter] ? `
+                      <div class="text-[11px] text-stone-500 mt-1 pt-1 border-t border-stone-200/60 font-sans flex items-baseline gap-1.5">
+                        <span class="text-[9px] font-bold text-blue-600/80 uppercase tracking-wider shrink-0">EN ↳</span>
+                        <span>${it.options_en[optLetter]}</span>
+                      </div>
+                    ` : ''}
                   </div>
                 </button>
               `;
@@ -2600,10 +2944,10 @@
                 const isUsed = usedWords[lowerLetter];
                 return `
                   <div class="py-1.5 px-2.5 rounded border transition-all flex items-center justify-between gap-1.5 ${isUsed ? 'bg-stone-200/50 border-stone-300 text-stone-400' : 'bg-white border-stone-300 text-stone-900 hover:border-stone-400 shadow-2xs'}">
-                    <div class="flex items-baseline gap-1.5 min-w-0">
+                    <div class="flex items-baseline gap-1.5 min-w-0 flex-wrap">
                       <span class="font-extrabold text-sm shrink-0 ${isUsed ? 'text-stone-400' : 'text-[#c8102e]'}">${lowerLetter}.</span>
-                      <span class="font-medium text-xs sm:text-sm truncate ${isUsed ? 'line-through' : ''}">${word}</span>
-                      ${showSubtitles && wordBankEn[lowerLetter] && !isUsed ? `<span class="text-[10px] text-stone-400 font-normal truncate hidden xl:inline">(${wordBankEn[lowerLetter]})</span>` : ''}
+                      <span class="font-medium text-xs sm:text-sm ${isUsed ? 'line-through' : ''}">${word}</span>
+                      ${showSubtitles && wordBankEn[lowerLetter] ? `<span class="text-[11px] text-blue-700/80 font-medium ${isUsed ? 'line-through text-stone-400' : ''}">(${wordBankEn[lowerLetter]})</span>` : ''}
                     </div>
                     ${isUsed ? `<span class="text-[9px] font-bold text-stone-500 bg-stone-200 px-1.5 py-0.5 rounded shrink-0">Lücke ${isUsed}</span>` : ''}
                   </div>
@@ -2630,9 +2974,11 @@
             </div>
 
             ${showSubtitles && p.text_en ? `
-              <div class="border-t border-stone-200 pt-3 text-xs text-stone-600 font-sans leading-relaxed whitespace-pre-line bg-stone-50 p-3 rounded">
-                <div class="text-[10px] font-bold uppercase text-stone-400 mb-1">English Translation:</div>
-                ${p.text_en}
+              <div class="border-t-2 border-dashed border-stone-200 pt-3 mt-3 bg-blue-50/30 p-3.5 rounded-md">
+                <div class="flex items-center gap-1.5 mb-1.5">
+                  <span class="text-[10px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded bg-blue-100 text-blue-700 border border-blue-200">EN Translation</span>
+                </div>
+                <div class="text-xs text-stone-600 font-sans leading-relaxed whitespace-pre-line">${p.text_en}</div>
               </div>
             ` : ''}
           </div>
@@ -2705,7 +3051,8 @@
                   const lowerLetter = letter.toLowerCase();
                   const isCurrentlySelected = selected === lowerLetter;
                   const usedInOther = usedWords[lowerLetter] && usedWords[lowerLetter] !== it.number;
-                  const label = usedInOther ? `${lowerLetter}̶.: ${word} [in Lücke ${usedWords[lowerLetter]}]` : `${lowerLetter}. ${word}`;
+                  const enMeaning = (showSubtitles && wordBankEn[lowerLetter]) ? ` (${wordBankEn[lowerLetter]})` : '';
+                  const label = usedInOther ? `${lowerLetter}̶.: ${word}${enMeaning} [in Lücke ${usedWords[lowerLetter]}]` : `${lowerLetter}. ${word}${enMeaning}`;
                   return `<option value="${lowerLetter}" ${isCurrentlySelected ? 'selected' : ''} class="${usedInOther ? 'text-stone-400 font-normal' : 'text-stone-900 font-normal'}">${label}</option>`;
                 }).join('')}
               </select>
@@ -2714,7 +3061,7 @@
 
           ${isAnswered ? `
             <div class="p-3 rounded text-xs ${isCorrect ? 'bg-emerald-50 text-emerald-900 border border-emerald-200' : 'bg-rose-50 text-rose-900 border border-rose-200'} space-y-1">
-              <div class="font-bold">${isCorrect ? '✓ Richtig' : `Lösung: (${correctLower}.) ${wordBank[correctLower]}`}</div>
+              <div class="font-bold">${isCorrect ? '✓ Richtig' : `Lösung: (${correctLower}.) ${wordBank[correctLower]}${wordBankEn[correctLower] ? ` (${wordBankEn[correctLower]})` : ''}`}</div>
               <p class="text-stone-700 leading-relaxed"><span class="font-semibold">Erklärung & Bedeutung:</span> ${it.explanation}</p>
             </div>
           ` : ''}
@@ -2779,11 +3126,15 @@
               </div>
 
               <div class="flex items-center gap-2">
-                <button onclick="playHoerverstehen2FullAudio()" id="playBtn-hoerverstehen_2_full" class="px-3.5 py-1.5 rounded-full bg-stone-900 hover:bg-black text-white text-xs font-semibold flex items-center gap-2 shadow-xs transition-transform active:scale-95">
+                <button onclick="playHoerverstehen2FullAudio()" id="playBtn-hoerverstehen_2_full" class="px-3.5 py-1.5 rounded-full bg-stone-900 hover:bg-black text-white text-xs font-semibold flex items-center gap-2 shadow-xs transition-transform active:scale-95 cursor-pointer">
                   <i class="fa-solid fa-play text-[11px]"></i>
                   <span>Play Interview</span>
                 </button>
-                <button onclick="toggleTranscript('hoerverstehen_2_script')" class="px-3 py-1.5 rounded border border-stone-300 bg-white hover:bg-stone-100 text-stone-700 text-xs font-medium flex items-center gap-1.5">
+                <button onclick="cycleAudioSpeed()" class="px-2.5 py-1.5 rounded-full border border-stone-300 bg-white hover:bg-stone-100 text-stone-700 text-xs font-bold flex items-center gap-1 shadow-2xs cursor-pointer" title="Change Audio Speed">
+                  <i class="fa-solid fa-gauge-high text-stone-500 text-[10px]"></i>
+                  <span class="speed-label-sync font-extrabold text-[#c8102e]">1.0x</span>
+                </button>
+                <button onclick="toggleTranscript('hoerverstehen_2_script')" class="px-3 py-1.5 rounded-full border border-stone-300 bg-white hover:bg-stone-100 text-stone-700 text-xs font-medium flex items-center gap-1.5 cursor-pointer">
                   <i class="fa-solid fa-file-lines text-stone-500"></i>
                   <span id="label-hoerverstehen_2_script">Show Transcript</span>
                 </button>
@@ -2795,9 +3146,11 @@
               <div class="font-bold uppercase tracking-wider text-stone-400 text-[10px]">German Interview Script (Audioskript):</div>
               <p class="whitespace-pre-line select-text">${scriptText}</p>
               ${showSubtitles && scriptEn ? `
-                <div class="pt-2 border-t border-stone-200 text-stone-600 font-sans text-xs">
-                  <div class="font-bold uppercase tracking-wider text-stone-400 text-[10px] mb-1">English Translation:</div>
-                  <p class="whitespace-pre-line">${scriptEn}</p>
+                <div class="mt-2.5 pt-2 border-t-2 border-dashed border-stone-200 bg-blue-50/30 p-3 rounded-md">
+                  <div class="flex items-center gap-1.5 mb-1">
+                    <span class="text-[9px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded bg-blue-100 text-blue-700 border border-blue-200">EN Translation</span>
+                  </div>
+                  <p class="text-xs text-stone-600 font-sans leading-relaxed whitespace-pre-line">${scriptEn}</p>
                 </div>
               ` : ''}
             </div>
@@ -2892,7 +3245,12 @@
                   </span>
                 ` : ''}
               </p>
-              ${showSubtitles && statementEn ? `<p class="text-xs text-stone-500 mt-0.5 leading-snug">${statementEn}</p>` : ''}
+              ${showSubtitles && statementEn ? `
+                <div class="mt-1.5 pt-1 border-t border-dashed border-stone-200 text-xs text-blue-900/80 bg-blue-50/40 px-2 py-1 rounded-md font-sans flex items-start gap-1.5">
+                  <span class="text-[9px] font-bold uppercase tracking-wider px-1 py-0.2 rounded bg-blue-100 text-blue-700 shrink-0 mt-0.5">EN</span>
+                  <span>${statementEn}</span>
+                </div>
+              ` : ''}
             </div>
 
             <!-- Actions at the end of the sentence -->
@@ -2939,8 +3297,6 @@
                 F
               </button>
 
-
-
               <!-- Bookmark/Save ⭐ -->
               <button onclick="toggleFlag('${qKey}')" class="p-1.5 text-base transition-transform active:scale-125 focus:outline-none shrink-0" title="Save Question ⭐">
                 <i class="${isFlagged ? 'fa-solid text-amber-500' : 'fa-regular text-stone-300 hover:text-amber-400'} fa-star"></i>
@@ -2954,9 +3310,12 @@
               <div class="font-bold text-[10px] uppercase tracking-wider text-stone-400">Audioskript (German Audio Text):</div>
               <p class="exam-serif leading-relaxed select-text">${itemScript}</p>
               ${showSubtitles && itemScriptEn ? `
-                <div class="border-t border-stone-200 pt-1.5 text-stone-600 font-sans">
-                  <div class="font-bold text-[10px] uppercase tracking-wider text-stone-400 mb-0.5">English Translation:</div>
-                  <p class="leading-relaxed">${itemScriptEn}</p>
+                <div class="mt-2 pt-2 border-t border-dashed border-stone-200 bg-blue-50/30 p-2.5 rounded text-stone-600 font-sans">
+                  <div class="font-bold text-[10px] uppercase tracking-wider text-blue-700 mb-0.5 flex items-center gap-1">
+                    <span class="px-1 py-0.2 bg-blue-100 rounded text-[9px]">EN</span>
+                    <span>English Translation:</span>
+                  </div>
+                  <p class="leading-relaxed whitespace-pre-line">${itemScriptEn}</p>
                 </div>
               ` : ''}
             </div>
@@ -3002,6 +3361,7 @@
     }
 
     let activeHtmlAudio = null;
+    let isAudioPaused = false;
 
     function getAudioCandidates(key, fallbackKey) {
       const candidates = [];
@@ -3039,67 +3399,127 @@
     function playItemAudio(key, text, uiKey) {
       const activeUiKey = uiKey || key.replace('_de', '');
 
-      if (activeHtmlAudio) {
-        activeHtmlAudio.pause();
-        activeHtmlAudio = null;
+      // 1. If clicking the SAME track that is already loaded:
+      if (currentPlayingAudioKey === activeUiKey && activeHtmlAudio) {
+        if (!activeHtmlAudio.paused) {
+          // Pause without destroying position or audio instance
+          activeHtmlAudio.pause();
+          isAudioPaused = true;
+          updateAudioButtonsState();
+          return;
+        } else {
+          // Resume from current timestamp
+          activeHtmlAudio.play().then(() => {
+            isAudioPaused = false;
+            updateAudioButtonsState();
+          }).catch(err => {
+            console.warn('[Audio Player] Resume failed, starting fresh:', err);
+            startPlayback();
+          });
+          return;
+        }
       }
-      if (window.speechSynthesis) window.speechSynthesis.cancel();
 
-      if (currentPlayingAudioKey === activeUiKey) {
-        currentPlayingAudioKey = null;
+      // Speech synthesis pause/resume toggle for same key
+      if (currentPlayingAudioKey === activeUiKey && window.speechSynthesis && (window.speechSynthesis.speaking || window.speechSynthesis.paused)) {
+        if (!window.speechSynthesis.paused) {
+          window.speechSynthesis.pause();
+          isAudioPaused = true;
+          updateAudioButtonsState();
+          return;
+        } else {
+          window.speechSynthesis.resume();
+          isAudioPaused = false;
+          updateAudioButtonsState();
+          return;
+        }
+      }
+
+      startPlayback();
+
+      function startPlayback() {
+        if (activeHtmlAudio) {
+          activeHtmlAudio.pause();
+          activeHtmlAudio.currentTime = 0;
+          activeHtmlAudio = null;
+        }
+        if (window.speechSynthesis) window.speechSynthesis.cancel();
+
+        currentPlayingAudioKey = activeUiKey;
+        isAudioPaused = false;
         updateAudioButtonsState();
-        return;
-      }
 
-      currentPlayingAudioKey = activeUiKey;
-      updateAudioButtonsState();
-
-      function playSpeechFallback() {
-        if (!window.speechSynthesis) {
-          currentPlayingAudioKey = null;
-          updateAudioButtonsState();
-          return;
-        }
-        const u = new SpeechSynthesisUtterance(text);
-        u.lang = 'de-DE';
-        u.rate = 0.9;
-        u.onend = () => {
-          currentPlayingAudioKey = null;
-          updateAudioButtonsState();
-        };
-        u.onerror = () => {
-          currentPlayingAudioKey = null;
-          updateAudioButtonsState();
-        };
-        window.speechSynthesis.speak(u);
-      }
-
-      const candidates = getAudioCandidates(key, uiKey);
-
-      function tryPlayCandidate(idx) {
-        if (idx >= candidates.length) {
-          console.warn('[TTS Fallback] No matching MP3 found in candidates:', candidates);
-          playSpeechFallback();
-          return;
-        }
-
-        const mp3Url = candidates[idx];
-        const audio = new Audio(mp3Url);
-
-        audio.play().then(() => {
-          console.log('[Audio Player] Playing MP3:', mp3Url);
-          activeHtmlAudio = audio;
-          audio.onended = () => {
+        function playSpeechFallback() {
+          if (!window.speechSynthesis) {
             currentPlayingAudioKey = null;
+            activeHtmlAudio = null;
+            isAudioPaused = false;
+            updateAudioButtonsState();
+            return;
+          }
+          const u = new SpeechSynthesisUtterance(text);
+          u.lang = 'de-DE';
+          u.rate = currentAudioSpeed;
+          u.onend = () => {
+            currentPlayingAudioKey = null;
+            activeHtmlAudio = null;
+            isAudioPaused = false;
             updateAudioButtonsState();
           };
-        }).catch((err) => {
-          console.log(`[Audio Player] Candidate ${mp3Url} failed, trying next candidate...`);
-          tryPlayCandidate(idx + 1);
-        });
-      }
+          u.onerror = () => {
+            currentPlayingAudioKey = null;
+            activeHtmlAudio = null;
+            isAudioPaused = false;
+            updateAudioButtonsState();
+          };
+          window.speechSynthesis.speak(u);
+        }
 
-      tryPlayCandidate(0);
+        const candidates = getAudioCandidates(key, uiKey);
+
+        function tryPlayCandidate(idx) {
+          if (idx >= candidates.length) {
+            console.warn('[TTS Fallback] No matching MP3 found in candidates:', candidates);
+            playSpeechFallback();
+            return;
+          }
+
+          const mp3Url = candidates[idx];
+          const audio = new Audio(mp3Url);
+          audio.playbackRate = currentAudioSpeed;
+
+          audio.play().then(() => {
+            console.log('[Audio Player] Playing MP3 with speed', currentAudioSpeed, ':', mp3Url);
+            activeHtmlAudio = audio;
+            isAudioPaused = false;
+            updateAudioButtonsState();
+
+            audio.onended = () => {
+              currentPlayingAudioKey = null;
+              activeHtmlAudio = null;
+              isAudioPaused = false;
+              updateAudioButtonsState();
+            };
+            audio.onpause = () => {
+              if (currentPlayingAudioKey === activeUiKey && activeHtmlAudio === audio && !audio.ended) {
+                isAudioPaused = true;
+                updateAudioButtonsState();
+              }
+            };
+            audio.onplay = () => {
+              if (currentPlayingAudioKey === activeUiKey && activeHtmlAudio === audio) {
+                isAudioPaused = false;
+                updateAudioButtonsState();
+              }
+            };
+          }).catch((err) => {
+            console.log(`[Audio Player] Candidate ${mp3Url} failed, trying next candidate...`);
+            tryPlayCandidate(idx + 1);
+          });
+        }
+
+        tryPlayCandidate(0);
+      }
     }
 
     function playSectionAudio(key, text) {
@@ -3111,24 +3531,40 @@
         const key = btn.id.replace('playBtn-', '');
         const label = document.getElementById(`playLabel-${key}`);
         const icon = document.getElementById(`playIcon-${key}`);
+
         if (key === currentPlayingAudioKey) {
-          btn.classList.add('bg-emerald-600', 'text-white', 'audio-pulse');
-          btn.classList.remove('bg-blue-50', 'bg-stone-900', 'text-blue-900');
-          if (icon) {
-            icon.className = 'fa-solid fa-stop text-xs text-white';
+          if (isAudioPaused) {
+            btn.classList.remove('bg-emerald-600', 'audio-pulse');
+            btn.classList.add('bg-amber-100', 'border-amber-400', 'text-amber-950', 'ring-2', 'ring-amber-300');
+            if (btn.id.includes('full')) {
+              btn.innerHTML = '<i class="fa-solid fa-play text-[11px] text-amber-900"></i> <span>Resume Interview</span>';
+            } else {
+              if (icon) icon.className = 'fa-solid fa-play text-xs text-amber-900';
+              if (label) label.innerText = 'Resume Audio';
+              btn.setAttribute('title', 'Resume Audio');
+            }
+          } else {
+            btn.classList.add('bg-emerald-600', 'text-white', 'audio-pulse');
+            btn.classList.remove('bg-blue-50', 'bg-stone-900', 'text-blue-900', 'bg-amber-100', 'border-amber-400', 'text-amber-950', 'ring-2', 'ring-amber-300');
+            if (btn.id.includes('full')) {
+              btn.innerHTML = '<i class="fa-solid fa-pause text-[11px] text-white"></i> <span>Pause Interview</span>';
+            } else {
+              if (icon) icon.className = 'fa-solid fa-pause text-xs text-white';
+              if (label) label.innerText = 'Pause Audio';
+              btn.setAttribute('title', 'Pause Audio');
+            }
           }
-          if (label) label.innerText = 'Playing... (Click to stop)';
         } else {
-          btn.classList.remove('bg-emerald-600', 'text-white', 'audio-pulse');
+          btn.classList.remove('bg-emerald-600', 'text-white', 'audio-pulse', 'bg-amber-100', 'border-amber-400', 'text-amber-950', 'ring-2', 'ring-amber-300');
           if (btn.id.includes('full')) {
             btn.classList.add('bg-stone-900', 'text-white');
+            btn.innerHTML = '<i class="fa-solid fa-play text-[11px]"></i> <span>Play Interview</span>';
           } else {
             btn.classList.add('bg-blue-50', 'text-blue-900');
+            if (icon) icon.className = 'fa-solid fa-volume-high text-xs text-blue-700';
+            if (label) label.innerText = 'Play Audio';
+            btn.setAttribute('title', 'Play Audio');
           }
-          if (icon) {
-            icon.className = 'fa-solid fa-volume-high text-xs text-blue-700';
-          }
-          if (label) label.innerText = 'Play Audio';
         }
       });
     }
@@ -3408,6 +3844,939 @@ ${ad.text || ''}`;
       setTimeout(() => {
         scrollToQuestion(sec, qNum);
       }, 150);
+    }
+
+    // ====================================================
+    // MODULE: CUSTOM VOCABULARY BUILDER & TEXT SELECTION
+    // ====================================================
+
+    let vocabModalViewMode = 'list'; // 'list' or 'flashcards'
+    let flashcardCurrentIndex = 0;
+    let flashcardIsFlipped = false;
+    let currentSelectedSelectionData = null;
+    let isPlayingAllVocab = false;
+    let vocabAudioToken = 0;
+
+    function updateVocabBadge() {
+      const vocabList = userState.customVocab || [];
+      const badge = document.getElementById('vocabBadge');
+      if (badge) {
+        badge.innerText = vocabList.length;
+      }
+      const modalBadge = document.getElementById('vocabModalCountBadge');
+      if (modalBadge) {
+        modalBadge.innerText = `${vocabList.length} ${vocabList.length === 1 ? 'word' : 'words'}`;
+      }
+    }
+
+    function setupTextSelectionListener() {
+      const menu = document.getElementById('selectionActionMenu');
+      if (!menu) return;
+
+      function checkSelection() {
+        setTimeout(() => {
+          const sel = window.getSelection();
+          if (!sel || sel.isCollapsed || !sel.rangeCount) {
+            menu.classList.add('hidden');
+            return;
+          }
+
+          const rawText = sel.toString().trim();
+          if (!rawText || rawText.length < 1 || rawText.length > 2000) {
+            menu.classList.add('hidden');
+            return;
+          }
+
+          const range = sel.getRangeAt(0);
+          const rect = range.getBoundingClientRect();
+
+          if (rect.width === 0 && rect.height === 0) {
+            menu.classList.add('hidden');
+            return;
+          }
+
+          let sentenceContext = '';
+          try {
+            let node = range.commonAncestorContainer;
+            if (node.nodeType === 3) node = node.parentNode;
+            const blockText = (node.innerText || node.textContent || '').trim();
+            if (blockText) {
+              const sentences = blockText.split(/[\n.?!;]/).map(s => s.trim()).filter(Boolean);
+              const match = sentences.find(s => s.toLowerCase().includes(rawText.toLowerCase()));
+              sentenceContext = match || rawText;
+            } else {
+              sentenceContext = rawText;
+            }
+          } catch (err) {
+            sentenceContext = rawText;
+          }
+
+          const modelObj = modelsList.find(m => m.id === currentModelId) || { title: 'Practice', id: currentModelId || 'general' };
+          let secName = currentTab ? currentTab.replace(/_/g, ' ').toUpperCase() : 'EXAM';
+          const sourceTag = currentAppView === 'test' ? `${modelObj.title} • ${secName}` : 'Study Notes';
+
+          currentSelectedSelectionData = {
+            de: rawText,
+            en: '',
+            context: sentenceContext,
+            source: sourceTag,
+            modelId: currentAppView === 'test' ? currentModelId : 'general',
+            modelTitle: currentAppView === 'test' ? modelObj.title : 'General',
+            section: currentAppView === 'test' ? currentTab : 'general'
+          };
+
+          // 1. Position popup right above or below the selection
+          let top = rect.top - 10;
+          if (top < 85) {
+            top = rect.bottom + 10;
+            menu.classList.remove('-translate-y-full', 'mb-2');
+            menu.classList.add('mt-2');
+          } else {
+            menu.classList.add('-translate-y-full', 'mb-2');
+            menu.classList.remove('mt-2');
+          }
+
+          const left = rect.left + (rect.width / 2);
+          menu.style.top = `${Math.round(top)}px`;
+          menu.style.left = `${Math.max(160, Math.min(window.innerWidth - 160, Math.round(left)))}px`;
+
+          // Fill word and reset quick-add state
+          const wordEl = document.getElementById('selectionOriginalWord');
+          const transEl = document.getElementById('selectionTranslatedWord');
+          const btn = document.getElementById('btnQuickAddVocab');
+          const icon = document.getElementById('quickAddIcon');
+          const btnText = document.getElementById('btnQuickAddVocabText');
+
+          if (wordEl) wordEl.innerText = rawText;
+          if (transEl) transEl.innerHTML = '<span class="text-stone-400 font-normal italic text-[10px] flex items-center gap-1"><i class="fa-solid fa-circle-notch fa-spin text-[9px]"></i> Translating...</span>';
+          if (btn && icon && btnText) {
+            btn.className = 'px-2.5 py-1.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs flex items-center gap-1 transition-all shadow-xs cursor-pointer active:scale-95';
+            icon.className = 'fa-solid fa-plus text-[10px]';
+            btnText.innerText = 'Add';
+          }
+
+          menu.classList.remove('hidden');
+
+          // Asynchronously fetch Google translation
+          const reqId = ++selectionTranslationRequestId;
+          fetchInstantTranslation(rawText).then(translation => {
+            if (reqId !== selectionTranslationRequestId) return;
+            currentSelectedSelectionData.en = translation || '';
+            if (transEl) {
+              if (translation) {
+                transEl.innerText = translation;
+                transEl.className = 'text-emerald-300 font-medium text-xs break-words leading-relaxed max-h-48 overflow-y-auto select-text pr-1 mt-0.5';
+              } else {
+                transEl.innerHTML = '<span class="text-stone-400 italic text-[10px]">No translation found</span>';
+              }
+            }
+          });
+        }, 30);
+      }
+
+      document.addEventListener('mouseup', (e) => {
+        if (e.target && e.target.closest('#selectionActionMenu')) return;
+        checkSelection();
+      });
+
+      document.addEventListener('touchend', (e) => {
+        if (e.target && e.target.closest('#selectionActionMenu')) return;
+        checkSelection();
+      });
+
+      document.addEventListener('keyup', (e) => {
+        if (e.key === 'Shift' || e.key === 'ArrowLeft' || e.key === 'ArrowRight' || e.key === 'ArrowUp' || e.key === 'ArrowDown') {
+          checkSelection();
+        }
+      });
+
+      document.addEventListener('mousedown', (e) => {
+        if (e.target && (e.target.closest('#selectionActionMenu') || e.target.closest('#addVocabModal') || e.target.closest('#vocabModal'))) return;
+        const sel = window.getSelection();
+        if (!sel || sel.isCollapsed) {
+          menu.classList.add('hidden');
+        }
+      });
+
+      // Keyboard shortcuts for flashcard mode & quick vocab add
+      document.addEventListener('keydown', (e) => {
+        // Alt+V to add currently selected text to vocab
+        if ((e.altKey || e.metaKey) && (e.key === 'v' || e.key === 'V')) {
+          e.preventDefault();
+          saveDirectSelectionToVocab();
+          return;
+        }
+
+        const vocabModal = document.getElementById('vocabModal');
+        if (!vocabModal || vocabModal.classList.contains('hidden')) return;
+        if (vocabModalViewMode !== 'flashcards') return;
+        if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+
+        const list = userState.customVocab || [];
+        if (list.length === 0) return;
+
+        if (e.key === ' ' || e.code === 'Space') {
+          e.preventDefault();
+          toggleFlashcardFlip();
+        } else if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+          e.preventDefault();
+          nextFlashcard(list.length);
+        } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+          e.preventDefault();
+          prevFlashcard(list.length);
+        }
+      });
+    }
+
+    let selectionTranslationRequestId = 0;
+
+    async function fetchInstantTranslation(text) {
+      if (!text) return '';
+      // 1. Check local model cache for instantaneous response
+      const localMatch = findVocabTranslationInModels(text);
+      if (localMatch) return localMatch;
+
+      // 2. Fetch Google Translate GTX API
+      try {
+        const res = await fetch(`https://translate.googleapis.com/translate_a/single?client=gtx&sl=de&tl=en&dt=t&q=${encodeURIComponent(text)}`);
+        if (res.ok) {
+          const data = await res.json();
+          if (data && data[0] && Array.isArray(data[0])) {
+            const trans = data[0].map(item => item[0]).filter(Boolean).join(' ');
+            if (trans && trans.trim()) return trans.trim();
+          }
+        }
+      } catch (err) {}
+
+      // 3. Fallback to MyMemory translation API
+      try {
+        const res2 = await fetch(`https://api.mymemory.translated.net/get?q=${encodeURIComponent(text)}&langpair=de|en`);
+        if (res2.ok) {
+          const data2 = await res2.json();
+          if (data2 && data2.responseData && data2.responseData.translatedText) {
+            return data2.responseData.translatedText.trim();
+          }
+        }
+      } catch (err2) {}
+
+      return '';
+    }
+
+    function dismissSelectionMenu() {
+      const menu = document.getElementById('selectionActionMenu');
+      if (menu) menu.classList.add('hidden');
+    }
+
+    async function saveDirectSelectionToVocab() {
+      if (!currentSelectedSelectionData || !currentSelectedSelectionData.de) return;
+      const word = currentSelectedSelectionData.de.trim();
+      const translation = currentSelectedSelectionData.en || '';
+      const context = currentSelectedSelectionData.context || '';
+      const source = currentSelectedSelectionData.source || 'Exam Practice';
+
+      if (!userState.customVocab) userState.customVocab = [];
+
+      // Check if already in list
+      const existingIdx = userState.customVocab.findIndex(v => v.de.toLowerCase() === word.toLowerCase());
+      if (existingIdx >= 0) {
+        userState.customVocab[existingIdx].en = translation || userState.customVocab[existingIdx].en;
+        userState.customVocab[existingIdx].context = context || userState.customVocab[existingIdx].context;
+        if (currentSelectedSelectionData.modelId) userState.customVocab[existingIdx].modelId = currentSelectedSelectionData.modelId;
+        if (currentSelectedSelectionData.modelTitle) userState.customVocab[existingIdx].modelTitle = currentSelectedSelectionData.modelTitle;
+        if (currentSelectedSelectionData.section) userState.customVocab[existingIdx].section = currentSelectedSelectionData.section;
+      } else {
+        userState.customVocab.unshift({
+          id: 'v_' + Date.now(),
+          de: word,
+          en: translation,
+          context: context,
+          source: source,
+          modelId: currentSelectedSelectionData.modelId || (currentAppView === 'test' ? currentModelId : 'general'),
+          modelTitle: currentSelectedSelectionData.modelTitle || (currentAppView === 'test' ? (modelsList.find(m => m.id === currentModelId) || {}).title : 'General'),
+          section: currentSelectedSelectionData.section || (currentAppView === 'test' ? currentTab : 'general'),
+          addedAt: Date.now()
+        });
+      }
+
+      localStorage.setItem('telc_b1_user_state', JSON.stringify(userState));
+      if (typeof syncStateToCloud === 'function') syncStateToCloud();
+      updateVocabBadge();
+
+      // Update button UI
+      const btn = document.getElementById('btnQuickAddVocab');
+      const icon = document.getElementById('quickAddIcon');
+      const btnText = document.getElementById('btnQuickAddVocabText');
+      if (btn && btnText && icon) {
+        btn.className = 'px-2.5 py-1.5 rounded-xl bg-stone-800 text-emerald-400 font-bold text-xs flex items-center gap-1 transition-all shadow-xs';
+        icon.className = 'fa-solid fa-check text-[10px] text-emerald-400';
+        btnText.innerText = 'Saved';
+      }
+
+      setTimeout(() => {
+        dismissSelectionMenu();
+      }, 1000);
+    }
+
+    function promptAddSelectedVocab() {
+      saveDirectSelectionToVocab();
+    }
+
+    function openManualAddVocabModal() {
+      let selectedText = '';
+      let contextText = '';
+      const sel = window.getSelection();
+      if (sel && !sel.isCollapsed) {
+        selectedText = sel.toString().trim();
+        contextText = selectedText;
+      }
+      openAddVocabModal(selectedText, '', contextText, selectedText ? 'Selected Word' : 'Manual Entry');
+    }
+
+    function openAddVocabModal(de = '', en = '', context = '', source = 'Exam Practice') {
+      const modal = document.getElementById('addVocabModal');
+      const deInput = document.getElementById('vocabWordInput');
+      const enInput = document.getElementById('vocabMeaningInput');
+      const contextInput = document.getElementById('vocabContextInput');
+      const sourceTag = document.getElementById('vocabSourceTag');
+
+      if (deInput) deInput.value = de;
+      if (enInput) enInput.value = en;
+      if (contextInput) contextInput.value = context;
+      if (sourceTag) sourceTag.innerText = source;
+
+      if (de && !en) {
+        const autoEn = findVocabTranslationInModels(de);
+        if (autoEn && enInput) {
+          enInput.value = autoEn;
+        }
+      }
+
+      if (modal) {
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+        setTimeout(() => {
+          if (!de && deInput) deInput.focus();
+          else if (enInput) enInput.focus();
+        }, 80);
+      }
+    }
+
+    function closeAddVocabModal() {
+      const modal = document.getElementById('addVocabModal');
+      if (modal) {
+        modal.classList.add('hidden');
+        modal.classList.remove('flex');
+      }
+    }
+
+    function findVocabTranslationInModels(word) {
+      if (!word) return '';
+      const clean = word.toLowerCase().replace(/[.,/#!$%^&*;:{}=\-_`~()]/g, '').trim();
+
+      for (const mId in allModelsRawData) {
+        const m = allModelsRawData[mId];
+        if (!m) continue;
+
+        for (const secKey in m) {
+          const sec = m[secKey];
+          if (!sec) continue;
+          if (Array.isArray(sec.vocabulary)) {
+            const found = sec.vocabulary.find(v => (v.de && v.de.toLowerCase().includes(clean)) || (clean.length > 3 && v.de && clean.includes(v.de.toLowerCase())));
+            if (found && found.en) return found.en;
+          }
+          if (sec.word_bank && sec.word_bank_en) {
+            for (const k in sec.word_bank) {
+              if (sec.word_bank[k].toLowerCase() === clean && sec.word_bank_en[k]) {
+                return sec.word_bank_en[k];
+              }
+            }
+          }
+          if (sec.passage && Array.isArray(sec.passage.vocabulary)) {
+            const found = sec.passage.vocabulary.find(v => (v.de && v.de.toLowerCase().includes(clean)));
+            if (found && found.en) return found.en;
+          }
+        }
+      }
+      return '';
+    }
+
+    function lookupQuickTranslation() {
+      const deWord = document.getElementById('vocabWordInput').value.trim();
+      if (!deWord) return;
+
+      const found = findVocabTranslationInModels(deWord);
+      if (found) {
+        document.getElementById('vocabMeaningInput').value = found;
+        return;
+      }
+
+      const url = `https://translate.google.com/?sl=de&tl=en&text=${encodeURIComponent(deWord)}&op=translate`;
+      window.open(url, '_blank', 'width=700,height=550');
+    }
+
+    function saveCustomVocab() {
+      const de = document.getElementById('vocabWordInput').value.trim();
+      const en = document.getElementById('vocabMeaningInput').value.trim();
+      const context = document.getElementById('vocabContextInput').value.trim();
+      const source = document.getElementById('vocabSourceTag').innerText || 'Custom';
+
+      if (!de) return;
+
+      if (!userState.customVocab) userState.customVocab = [];
+
+      const existingIdx = userState.customVocab.findIndex(v => v.de.toLowerCase() === de.toLowerCase());
+      if (existingIdx !== -1) {
+        userState.customVocab[existingIdx].en = en || userState.customVocab[existingIdx].en;
+        userState.customVocab[existingIdx].context = context || userState.customVocab[existingIdx].context;
+        userState.customVocab[existingIdx].source = source;
+      } else {
+        userState.customVocab.unshift({
+          id: 'v_' + Date.now(),
+          de: de,
+          en: en,
+          context: context,
+          source: source,
+          addedAt: Date.now()
+        });
+      }
+
+      localStorage.setItem('telc_b1_user_state', JSON.stringify(userState));
+      if (typeof syncStateToCloud === 'function') syncStateToCloud();
+
+      updateVocabBadge();
+      closeAddVocabModal();
+
+      const vocabModal = document.getElementById('vocabModal');
+      if (vocabModal && !vocabModal.classList.contains('hidden')) {
+        renderVocabModalContent();
+      }
+
+      if (window.getSelection) {
+        window.getSelection().removeAllRanges();
+      }
+
+      speakText(de);
+    }
+
+    function deleteCustomVocab(id) {
+      if (!userState.customVocab) return;
+      userState.customVocab = userState.customVocab.filter(v => v.id !== id);
+      localStorage.setItem('telc_b1_user_state', JSON.stringify(userState));
+      if (typeof syncStateToCloud === 'function') syncStateToCloud();
+      updateVocabBadge();
+      renderVocabModalContent();
+    }
+
+    function editCustomVocab(id) {
+      if (!userState.customVocab) return;
+      const item = userState.customVocab.find(v => v.id === id);
+      if (!item) return;
+      openAddVocabModal(item.de, item.en || '', item.context || '', item.source || 'Exam Practice');
+    }
+
+    function clearAllVocabConfirm() {
+      if (!userState.customVocab || userState.customVocab.length === 0) return;
+      if (confirm(`Delete all ${userState.customVocab.length} saved words from your vocabulary list?`)) {
+        userState.customVocab = [];
+        localStorage.setItem('telc_b1_user_state', JSON.stringify(userState));
+        if (typeof syncStateToCloud === 'function') syncStateToCloud();
+        updateVocabBadge();
+        renderVocabModalContent();
+      }
+    }
+
+    function speakSelectedText() {
+      const menu = document.getElementById('selectionActionMenu');
+      if (menu) menu.classList.add('hidden');
+      if (currentSelectedSelectionData && currentSelectedSelectionData.de) {
+        speakText(currentSelectedSelectionData.de);
+      } else {
+        const sel = window.getSelection();
+        if (sel) speakText(sel.toString().trim());
+      }
+    }
+
+    function translateSelectedText() {
+      const menu = document.getElementById('selectionActionMenu');
+      if (menu) menu.classList.add('hidden');
+      const text = currentSelectedSelectionData && currentSelectedSelectionData.de ? currentSelectedSelectionData.de : (window.getSelection() ? window.getSelection().toString().trim() : '');
+      if (text) {
+        const url = `https://translate.google.com/?sl=de&tl=en&text=${encodeURIComponent(text)}&op=translate`;
+        window.open(url, '_blank', 'width=700,height=550');
+      }
+    }
+
+    function speakText(text, lang = 'de-DE') {
+      if (!text || !window.speechSynthesis) return;
+      window.speechSynthesis.cancel();
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = lang;
+      u.rate = currentAudioSpeed || 1.0;
+      window.speechSynthesis.speak(u);
+    }
+
+    function populateVocabModelFilterOptions() {
+      const select = document.getElementById('vocabFilterModel');
+      if (!select) return;
+      const currentVal = select.value || 'all';
+
+      const rawList = userState.customVocab || [];
+      const modelMap = new Map();
+
+      // Add models from modelsList
+      modelsList.forEach(m => {
+        if (m.id && m.title) modelMap.set(m.id, m.title);
+      });
+
+      // Add any custom model titles present in saved vocab
+      rawList.forEach(v => {
+        if (v.modelId && v.modelTitle && v.modelId !== 'general') {
+          modelMap.set(v.modelId, v.modelTitle);
+        } else if (v.source) {
+          const parts = v.source.split('•').map(s => s.trim());
+          if (parts[0]) {
+            const found = modelsList.find(m => m.title.toLowerCase().includes(parts[0].toLowerCase()) || parts[0].toLowerCase().includes(m.id.toLowerCase()));
+            if (found) modelMap.set(found.id, found.title);
+          }
+        }
+      });
+
+      let html = '<option value="all">📚 All Test Models</option>';
+      modelMap.forEach((title, id) => {
+        html += `<option value="${id}">${title}</option>`;
+      });
+      select.innerHTML = html;
+      if (currentVal && (currentVal === 'all' || modelMap.has(currentVal))) {
+        select.value = currentVal;
+      }
+    }
+
+    function resetVocabFilters() {
+      const searchInput = document.getElementById('vocabSearchInput');
+      const modelSelect = document.getElementById('vocabFilterModel');
+      const sectionSelect = document.getElementById('vocabFilterSection');
+      if (searchInput) searchInput.value = '';
+      if (modelSelect) modelSelect.value = 'all';
+      if (sectionSelect) sectionSelect.value = 'all';
+      renderVocabModalContent();
+    }
+
+    function openVocabModal() {
+      const modal = document.getElementById('vocabModal');
+      if (modal) {
+        modal.classList.remove('hidden');
+        modal.classList.add('flex');
+        populateVocabModelFilterOptions();
+        renderVocabModalContent();
+      }
+    }
+
+    function closeVocabModal() {
+      const modal = document.getElementById('vocabModal');
+      if (modal) {
+        modal.classList.add('hidden');
+        modal.classList.remove('flex');
+      }
+      if (isPlayingAllVocab) {
+        isPlayingAllVocab = false;
+        vocabAudioToken++;
+        if (window.speechSynthesis) window.speechSynthesis.cancel();
+      }
+    }
+
+    function setVocabModalView(mode) {
+      vocabModalViewMode = mode;
+      flashcardIsFlipped = false;
+      const btnList = document.getElementById('btnVocabViewList');
+      const btnCards = document.getElementById('btnVocabViewCards');
+      if (btnList && btnCards) {
+        if (mode === 'list') {
+          btnList.className = 'px-2.5 py-1 rounded bg-stone-900 text-white cursor-pointer transition-colors';
+          btnCards.className = 'px-2.5 py-1 rounded hover:bg-stone-100 text-stone-700 cursor-pointer transition-colors';
+        } else {
+          btnCards.className = 'px-2.5 py-1 rounded bg-stone-900 text-white cursor-pointer transition-colors';
+          btnList.className = 'px-2.5 py-1 rounded hover:bg-stone-100 text-stone-700 cursor-pointer transition-colors';
+        }
+      }
+      renderVocabModalContent();
+    }
+
+    function filterVocabList() {
+      renderVocabModalContent();
+    }
+
+    function renderVocabModalContent() {
+      const container = document.getElementById('vocabModalBody');
+      if (!container) return;
+
+      const rawList = userState.customVocab || [];
+      updateVocabBadge();
+
+      const searchInput = document.getElementById('vocabSearchInput');
+      const query = searchInput ? searchInput.value.trim().toLowerCase() : '';
+
+      const modelSelect = document.getElementById('vocabFilterModel');
+      const selectedModel = modelSelect ? modelSelect.value : 'all';
+
+      const sectionSelect = document.getElementById('vocabFilterSection');
+      const selectedSection = sectionSelect ? sectionSelect.value : 'all';
+
+      const list = rawList.filter(item => {
+        // 1. Text Search Filter
+        if (query) {
+          const matchQuery = (item.de && item.de.toLowerCase().includes(query)) ||
+                             (item.en && item.en.toLowerCase().includes(query)) ||
+                             (item.context && item.context.toLowerCase().includes(query)) ||
+                             (item.source && item.source.toLowerCase().includes(query));
+          if (!matchQuery) return false;
+        }
+
+        // 2. Model Test Filter
+        if (selectedModel !== 'all') {
+          const modelObj = modelsList.find(m => m.id === selectedModel);
+          const targetTitle = modelObj ? modelObj.title.toLowerCase() : selectedModel.toLowerCase();
+          const itemModelId = (item.modelId || '').toLowerCase();
+          const itemModelTitle = (item.modelTitle || '').toLowerCase();
+          const itemSource = (item.source || '').toLowerCase();
+
+          const matchesModel = (itemModelId && itemModelId === selectedModel.toLowerCase()) ||
+                               (itemModelTitle && itemModelTitle.includes(targetTitle)) ||
+                               (itemSource.includes(selectedModel.toLowerCase())) ||
+                               (itemSource.includes(targetTitle));
+          if (!matchesModel) return false;
+        }
+
+        // 3. Section / Teil Filter
+        if (selectedSection !== 'all') {
+          const itemSec = (item.section || '').toLowerCase();
+          const itemSource = (item.source || '').toLowerCase();
+
+          if (selectedSection === 'leseverstehen') {
+            const isReading = itemSec.startsWith('teil_') || itemSource.includes('leseverstehen') || itemSource.includes('reading');
+            if (!isReading) return false;
+          } else if (selectedSection === 'sprachbausteine') {
+            const isGrammar = itemSec.startsWith('sprachbausteine') || itemSource.includes('sprachbausteine') || itemSource.includes('grammar');
+            if (!isGrammar) return false;
+          } else if (selectedSection === 'hoerverstehen') {
+            const isListening = itemSec.startsWith('hoerverstehen') || itemSource.includes('hoerverstehen') || itemSource.includes('listening');
+            if (!isListening) return false;
+          } else if (selectedSection === 'teil_1') {
+            const isT1 = (itemSec === 'teil_1') || itemSource.includes('leseverstehen teil 1') || (itemSource.includes('teil 1') && !itemSource.includes('sprachbausteine') && !itemSource.includes('hoerverstehen'));
+            if (!isT1) return false;
+          } else if (selectedSection === 'teil_2') {
+            const isT2 = (itemSec === 'teil_2') || itemSource.includes('leseverstehen teil 2') || (itemSource.includes('teil 2') && !itemSource.includes('sprachbausteine') && !itemSource.includes('hoerverstehen'));
+            if (!isT2) return false;
+          } else if (selectedSection === 'teil_3') {
+            const isT3 = (itemSec === 'teil_3') || itemSource.includes('leseverstehen teil 3') || (itemSource.includes('teil 3') && !itemSource.includes('sprachbausteine') && !itemSource.includes('hoerverstehen'));
+            if (!isT3) return false;
+          } else if (selectedSection === 'sprachbausteine_1') {
+            const isSb1 = (itemSec === 'sprachbausteine_1') || itemSource.includes('sprachbausteine 1') || itemSource.includes('sprachbausteine teil 1');
+            if (!isSb1) return false;
+          } else if (selectedSection === 'sprachbausteine_2') {
+            const isSb2 = (itemSec === 'sprachbausteine_2') || itemSource.includes('sprachbausteine 2') || itemSource.includes('sprachbausteine teil 2');
+            if (!isSb2) return false;
+          } else if (selectedSection === 'hoerverstehen_1') {
+            const isHv1 = (itemSec === 'hoerverstehen_1') || itemSource.includes('hoerverstehen 1') || itemSource.includes('hoerverstehen teil 1');
+            if (!isHv1) return false;
+          } else if (selectedSection === 'hoerverstehen_2') {
+            const isHv2 = (itemSec === 'hoerverstehen_2') || itemSource.includes('hoerverstehen 2') || itemSource.includes('hoerverstehen teil 2');
+            if (!isHv2) return false;
+          } else if (selectedSection === 'hoerverstehen_3') {
+            const isHv3 = (itemSec === 'hoerverstehen_3') || itemSource.includes('hoerverstehen 3') || itemSource.includes('hoerverstehen teil 3');
+            if (!isHv3) return false;
+          } else if (selectedSection === 'schreiben') {
+            const isWr = (itemSec === 'schreiben') || itemSource.includes('schreiben') || itemSource.includes('writing');
+            if (!isWr) return false;
+          } else if (selectedSection === 'sprechen') {
+            const isSp = (itemSec === 'sprechen') || itemSource.includes('sprechen') || itemSource.includes('speaking');
+            if (!isSp) return false;
+          } else if (selectedSection === 'manual') {
+            const isMan = (itemSec === 'manual') || itemSource.includes('manual') || itemSource.includes('study notes');
+            if (!isMan) return false;
+          }
+        }
+
+        return true;
+      });
+
+      // Update Filter Active Badge
+      const filterActiveBadge = document.getElementById('vocabFilterActiveBadge');
+      const filteredCountEl = document.getElementById('vocabFilteredCount');
+      const isFiltered = Boolean(query || (selectedModel !== 'all') || (selectedSection !== 'all'));
+
+      if (filterActiveBadge && filteredCountEl) {
+        if (isFiltered) {
+          filteredCountEl.innerText = `${list.length} of ${rawList.length} words`;
+          filterActiveBadge.classList.remove('hidden');
+          filterActiveBadge.classList.add('flex');
+        } else {
+          filterActiveBadge.classList.add('hidden');
+          filterActiveBadge.classList.remove('flex');
+        }
+      }
+
+      if (rawList.length === 0) {
+        container.innerHTML = `
+          <div class="py-12 px-4 text-center max-w-md mx-auto space-y-4">
+            <div class="w-16 h-16 rounded-2xl bg-emerald-100 text-emerald-700 flex items-center justify-center mx-auto text-2xl shadow-inner">
+              <i class="fa-solid fa-book-bookmark"></i>
+            </div>
+            <div>
+              <h4 class="font-bold text-stone-900 text-base">Your Vocabulary List is Empty</h4>
+              <p class="text-xs text-stone-500 mt-1.5 leading-relaxed">
+                Highlight or select any word in any reading passage or question to instantly add it to this list, or click <strong>Add Word</strong> above to create your first entry!
+              </p>
+            </div>
+            <button onclick="openManualAddVocabModal()" class="px-4 py-2 bg-emerald-700 hover:bg-emerald-800 text-white font-bold text-xs rounded-xl shadow-xs transition-transform active:scale-95 cursor-pointer">
+              <i class="fa-solid fa-plus mr-1"></i> Add Word Manually
+            </button>
+          </div>
+        `;
+        return;
+      }
+
+      if (list.length === 0 && isFiltered) {
+        container.innerHTML = `
+          <div class="py-12 text-center max-w-sm mx-auto space-y-3">
+            <div class="w-12 h-12 rounded-xl bg-stone-100 text-stone-400 flex items-center justify-center mx-auto text-lg">
+              <i class="fa-solid fa-filter-circle-xmark"></i>
+            </div>
+            <div class="text-stone-700 font-bold text-sm">No words match active filters</div>
+            <p class="text-xs text-stone-400">Try choosing a different Model Test, Section/Teil, or clearing your search.</p>
+            <button onclick="resetVocabFilters()" class="px-3.5 py-1.5 rounded-lg bg-stone-900 text-white font-semibold text-xs cursor-pointer hover:bg-black">
+              Reset Filters
+            </button>
+          </div>
+        `;
+        return;
+      }
+
+      if (vocabModalViewMode === 'flashcards') {
+        renderFlashcardsView(container, list);
+      } else {
+        renderListView(container, list, query);
+      }
+    }
+
+    function renderListView(container, list, query) {
+      if (list.length === 0 && query) {
+        container.innerHTML = `
+          <div class="py-10 text-center text-stone-400 text-xs">
+            No words matched your search "${query}".
+          </div>
+        `;
+        return;
+      }
+
+      container.innerHTML = `
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+          ${list.map(item => `
+            <div class="p-4 rounded-xl border border-stone-200 bg-white hover:border-emerald-300 transition-all shadow-2xs space-y-2.5">
+              <div class="flex items-start justify-between gap-2">
+                <div class="min-w-0">
+                  <div class="flex items-center gap-2">
+                    <span class="font-extrabold text-base text-stone-900">${item.de}</span>
+                    <button onclick="speakText('${item.de.replace(/'/g, "\\'")}')" class="text-stone-400 hover:text-emerald-700 p-1 cursor-pointer" title="Pronounce">
+                      <i class="fa-solid fa-volume-high text-xs"></i>
+                    </button>
+                  </div>
+                  ${item.en ? `<div class="text-xs font-semibold text-emerald-800 mt-0.5">${item.en}</div>` : `<div class="text-xs text-stone-400 italic">No English translation entered</div>`}
+                </div>
+                <div class="flex items-center gap-1 shrink-0">
+                  <button onclick="editCustomVocab('${item.id}')" class="p-1 text-stone-400 hover:text-stone-700 cursor-pointer" title="Edit">
+                    <i class="fa-solid fa-pen text-xs"></i>
+                  </button>
+                  <button onclick="deleteCustomVocab('${item.id}')" class="p-1 text-stone-400 hover:text-rose-600 cursor-pointer" title="Delete">
+                    <i class="fa-solid fa-trash-can text-xs"></i>
+                  </button>
+                </div>
+              </div>
+
+              ${item.context ? `
+                <div class="text-xs text-stone-600 bg-stone-50 p-2.5 rounded-lg border border-stone-100 italic leading-relaxed">
+                  "${item.context}"
+                </div>
+              ` : ''}
+
+              <div class="flex items-center justify-between text-[10px] text-stone-400 pt-1 border-t border-stone-100">
+                <span class="font-medium bg-stone-100 text-stone-600 px-2 py-0.5 rounded">${item.source || 'General'}</span>
+                <span>${new Date(item.addedAt || Date.now()).toLocaleDateString()}</span>
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      `;
+    }
+
+    function renderFlashcardsView(container, list) {
+      if (list.length === 0) {
+        container.innerHTML = `<div class="py-10 text-center text-stone-400 text-xs">No flashcards available.</div>`;
+        return;
+      }
+
+      if (flashcardCurrentIndex >= list.length) flashcardCurrentIndex = 0;
+      if (flashcardCurrentIndex < 0) flashcardCurrentIndex = list.length - 1;
+
+      const item = list[flashcardCurrentIndex];
+
+      container.innerHTML = `
+        <div class="max-w-xl mx-auto space-y-4 py-2">
+          <!-- Progress -->
+          <div class="flex items-center justify-between text-xs text-stone-500 font-bold px-1">
+            <span>Card ${flashcardCurrentIndex + 1} of ${list.length}</span>
+            <span>${item.source || 'Practice'}</span>
+          </div>
+
+          <!-- Flip Card -->
+          <div 
+            onclick="toggleFlashcardFlip()" 
+            class="min-h-[220px] p-6 sm:p-8 rounded-2xl border-2 ${flashcardIsFlipped ? 'border-emerald-500 bg-emerald-50/40' : 'border-stone-300 bg-white'} shadow-md hover:shadow-lg transition-all flex flex-col justify-between items-center text-center cursor-pointer select-none"
+          >
+            <div class="w-full flex justify-end">
+              <span class="text-[10px] uppercase tracking-wider font-extrabold ${flashcardIsFlipped ? 'text-emerald-700 bg-emerald-100' : 'text-stone-400 bg-stone-100'} px-2 py-0.5 rounded-full">
+                ${flashcardIsFlipped ? 'Back (English & Context)' : 'Front (German)'}
+              </span>
+            </div>
+
+            <div class="my-auto space-y-3">
+              ${!flashcardIsFlipped ? `
+                <div class="text-2xl sm:text-3xl font-extrabold text-stone-900 tracking-tight">
+                  ${item.de}
+                </div>
+                <div class="text-xs text-stone-400">Click or press Space to flip</div>
+              ` : `
+                <div class="text-xl sm:text-2xl font-bold text-emerald-950">
+                  ${item.en || '<span class="italic text-stone-400">No definition provided</span>'}
+                </div>
+                ${item.context ? `<div class="text-xs text-stone-600 max-w-md italic bg-white/70 p-3 rounded-lg border border-emerald-200">"${item.context}"</div>` : ''}
+              `}
+            </div>
+
+            <div class="flex items-center gap-2 pt-2" onclick="event.stopPropagation()">
+              <button onclick="speakText('${item.de.replace(/'/g, "\\'")}')" class="px-3 py-1 rounded-full bg-stone-900 text-white hover:bg-black text-xs font-semibold flex items-center gap-1.5 shadow-2xs cursor-pointer">
+                <i class="fa-solid fa-volume-high text-xs text-amber-400"></i>
+                <span>Listen Pronunciation</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <div class="flex items-center justify-between gap-3 pt-2">
+            <button onclick="prevFlashcard(${list.length})" class="px-4 py-2 rounded-xl border border-stone-200 bg-white hover:bg-stone-100 text-stone-800 text-xs font-bold flex items-center gap-1.5 shadow-2xs cursor-pointer">
+              <i class="fa-solid fa-arrow-left"></i>
+              <span>Previous</span>
+            </button>
+            <button onclick="toggleFlashcardFlip()" class="px-5 py-2 rounded-xl bg-stone-900 hover:bg-black text-white text-xs font-bold shadow-xs cursor-pointer">
+              <i class="fa-solid fa-repeat mr-1"></i> Flip Card
+            </button>
+            <button onclick="nextFlashcard(${list.length})" class="px-4 py-2 rounded-xl border border-stone-200 bg-white hover:bg-stone-100 text-stone-800 text-xs font-bold flex items-center gap-1.5 shadow-2xs cursor-pointer">
+              <span>Next</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      `;
+    }
+
+    function toggleFlashcardFlip() {
+      flashcardIsFlipped = !flashcardIsFlipped;
+      renderVocabModalContent();
+    }
+
+    function nextFlashcard(len) {
+      flashcardCurrentIndex = (flashcardCurrentIndex + 1) % len;
+      flashcardIsFlipped = false;
+      renderVocabModalContent();
+    }
+
+    function prevFlashcard(len) {
+      flashcardCurrentIndex = (flashcardCurrentIndex - 1 + len) % len;
+      flashcardIsFlipped = false;
+      renderVocabModalContent();
+    }
+
+    function exportVocabList() {
+      const rawList = userState.customVocab || [];
+      if (rawList.length === 0) {
+        alert("No vocabulary words to export yet.");
+        return;
+      }
+
+      let csv = 'German,English,Context,Source,Date Added\n';
+      rawList.forEach(item => {
+        const de = `"${(item.de || '').replace(/"/g, '""')}"`;
+        const en = `"${(item.en || '').replace(/"/g, '""')}"`;
+        const ctx = `"${(item.context || '').replace(/"/g, '""')}"`;
+        const src = `"${(item.source || '').replace(/"/g, '""')}"`;
+        const date = `"${new Date(item.addedAt || Date.now()).toLocaleDateString()}"`;
+        csv += `${de},${en},${ctx},${src},${date}\n`;
+      });
+
+      const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.setAttribute('href', url);
+      link.setAttribute('download', `telc_b1_vocabulary_${new Date().toISOString().slice(0,10)}.csv`);
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+
+    function playAllVocabAudio() {
+      const rawList = userState.customVocab || [];
+      if (rawList.length === 0) return;
+
+      const btn = document.getElementById('btnPlayAllVocab');
+
+      if (isPlayingAllVocab) {
+        isPlayingAllVocab = false;
+        vocabAudioToken++;
+        if (window.speechSynthesis) window.speechSynthesis.cancel();
+        if (btn) btn.innerHTML = '<i class="fa-solid fa-circle-play text-emerald-600"></i><span>Listen All</span>';
+        return;
+      }
+
+      isPlayingAllVocab = true;
+      const token = ++vocabAudioToken;
+      if (btn) btn.innerHTML = '<i class="fa-solid fa-circle-pause text-rose-600"></i><span>Stop Audio</span>';
+
+      function playStep(idx) {
+        if (!isPlayingAllVocab || token !== vocabAudioToken || idx >= rawList.length) {
+          isPlayingAllVocab = false;
+          if (btn) btn.innerHTML = '<i class="fa-solid fa-circle-play text-emerald-600"></i><span>Listen All</span>';
+          return;
+        }
+
+        const item = rawList[idx];
+        const uDe = new SpeechSynthesisUtterance(item.de);
+        uDe.lang = 'de-DE';
+        uDe.rate = currentAudioSpeed || 1.0;
+
+        uDe.onend = () => {
+          if (!isPlayingAllVocab || token !== vocabAudioToken) return;
+          setTimeout(() => {
+            if (!isPlayingAllVocab || token !== vocabAudioToken) return;
+            if (item.en) {
+              const uEn = new SpeechSynthesisUtterance(item.en);
+              uEn.lang = 'en-US';
+              uEn.rate = currentAudioSpeed || 1.0;
+              uEn.onend = () => {
+                if (!isPlayingAllVocab || token !== vocabAudioToken) return;
+                setTimeout(() => playStep(idx + 1), 800);
+              };
+              uEn.onerror = () => playStep(idx + 1);
+              window.speechSynthesis.speak(uEn);
+            } else {
+              playStep(idx + 1);
+            }
+          }, 400);
+        };
+
+        uDe.onerror = () => playStep(idx + 1);
+        window.speechSynthesis.speak(uDe);
+      }
+
+      playStep(0);
     }
 
     
@@ -3695,17 +5064,21 @@ ${ad.text || ''}`;
 
     async function openPodcastModal() {
       document.getElementById('podcastModal').classList.remove('hidden');
-      podcastState.modelId = currentModelId || (modelsList.length > 0 ? modelsList[0].id : '');
+      const targetModelId = currentModelId || (modelsList.length > 0 ? modelsList[0].id : '');
       const sel = document.getElementById('podcastModelSelect');
-      if (sel) sel.value = podcastState.modelId;
-      updatePodcastCheckboxesUI();
-      await buildPodcastQueue();
+      if (sel && (!sel.value || sel.value !== podcastState.modelId)) sel.value = targetModelId;
+
+      if (!podcastState.queue || podcastState.queue.length === 0 || podcastState.modelId !== targetModelId) {
+        podcastState.modelId = targetModelId;
+        updatePodcastCheckboxesUI();
+        await buildPodcastQueue();
+      }
       renderPodcastStage();
     }
 
     function closePodcastModal() {
       document.getElementById('podcastModal').classList.add('hidden');
-      if (podcastState.isPlaying) {
+      if (podcastState.isPlaying || podcastState.isPaused) {
         document.getElementById('miniPlayer').classList.remove('hidden');
       }
     }
@@ -3757,13 +5130,17 @@ ${ad.text || ''}`;
     function updateSpeechRate(val) {
       podcastState.rate = parseFloat(val);
       document.getElementById('speedValueLabel').innerText = `${val}x`;
+      if (podcastActiveAudio) {
+        podcastActiveAudio.playbackRate = podcastState.rate;
+      }
     }
 
     async function buildPodcastQueue() {
       try {
         const modelInfo = modelsList.find(m => m.id === podcastState.modelId) || { file: `data/${podcastState.modelId}.json` };
-        const res = await fetch(modelInfo.file || `data/${podcastState.modelId}.json`);
-        podcastState.modelData = await res.json();
+        const res = await fetch((modelInfo.file || `data/${podcastState.modelId}.json`) + '?t=' + Date.now());
+        const text = await res.text();
+        podcastState.modelData = safeJsonParse(text);
       } catch (e) {
         console.error("Failed to load podcast model data:", e);
         return;
@@ -4350,6 +5727,30 @@ ${ad.text || ''}`;
       if (!podcastState.queue || podcastState.queue.length === 0) {
         await buildPodcastQueue();
       }
+
+      // If we are currently paused on an MP3 track, simply resume it!
+      if (podcastState.isPaused && podcastActiveAudio && !podcastActiveAudio.ended && podcastActiveAudio.paused) {
+        podcastState.isPlaying = true;
+        podcastState.isPaused = false;
+        updatePlayIcons(true);
+        renderPodcastStage();
+        podcastActiveAudio.play().catch(e => {
+          console.warn("[Podcast Player] Audio resume failed, starting step fresh:", e);
+          speakCurrentStep();
+        });
+        return;
+      }
+
+      // If we are currently paused on Web Speech API, resume it!
+      if (podcastState.isPaused && window.speechSynthesis && window.speechSynthesis.paused) {
+        podcastState.isPlaying = true;
+        podcastState.isPaused = false;
+        updatePlayIcons(true);
+        renderPodcastStage();
+        window.speechSynthesis.resume();
+        return;
+      }
+
       podcastState.isPlaying = true;
       podcastState.isPaused = false;
       updatePlayIcons(true);
@@ -4361,11 +5762,14 @@ ${ad.text || ''}`;
     function pausePodcast() {
       podcastState.isPlaying = false;
       podcastState.isPaused = true;
-      if (podcastActiveAudio) {
+      if (podcastActiveAudio && !podcastActiveAudio.paused) {
         podcastActiveAudio.pause();
       }
-      if (window.speechSynthesis) window.speechSynthesis.cancel();
+      if (window.speechSynthesis && window.speechSynthesis.speaking && !window.speechSynthesis.paused) {
+        window.speechSynthesis.pause();
+      }
       updatePlayIcons(false);
+      renderPodcastStage();
     }
 
     function resumePodcast() {
@@ -4378,6 +5782,7 @@ ${ad.text || ''}`;
       podcastState.speechToken++;
       if (podcastActiveAudio) {
         podcastActiveAudio.pause();
+        podcastActiveAudio.currentTime = 0;
         podcastActiveAudio = null;
       }
       if (window.speechSynthesis) window.speechSynthesis.cancel();
@@ -4623,8 +6028,10 @@ ${ad.text || ''}`;
     function podcastNext() {
       if (podcastActiveAudio) {
         podcastActiveAudio.pause();
+        podcastActiveAudio.currentTime = 0;
         podcastActiveAudio = null;
       }
+      if (window.speechSynthesis) window.speechSynthesis.cancel();
       if (podcastState.currentIndex < podcastState.queue.length - 1) {
         podcastState.currentIndex++;
         podcastState.currentStepIndex = 0;
@@ -4636,8 +6043,10 @@ ${ad.text || ''}`;
     function podcastPrev() {
       if (podcastActiveAudio) {
         podcastActiveAudio.pause();
+        podcastActiveAudio.currentTime = 0;
         podcastActiveAudio = null;
       }
+      if (window.speechSynthesis) window.speechSynthesis.cancel();
       if (podcastState.currentIndex > 0) {
         podcastState.currentIndex--;
         podcastState.currentStepIndex = 0;
@@ -4815,6 +6224,9 @@ ${ad.text || ''}`;
     }
 
     window.addEventListener('DOMContentLoaded', init);
+    if (document.readyState === 'complete' || document.readyState === 'interactive') {
+      setupTextSelectionListener();
+    }
   </script>
 </body>
 </html>

@@ -1,38 +1,39 @@
 #!/usr/bin/env python3
 """
-Comprehensive AI Audio Generator for Telc Deutsch B1 App
---------------------------------------------------------
-Generates studio-quality, natural multilingual MP3 audio for:
-1. Teil 1 Headings Overview (A to J in German & English)
-2. German Passages, Letters, and Dialogues
-3. English Literal Translations for all Passages and Articles
-4. Key Vocabulary Word Pairs (German word -> English meaning)
-5. Solutions, Correct Headings, and Bilingual Explanations
-6. Sprachbausteine 2 Word Bank Overview (A to O in German & English)
-7. Listening Module (Announcements, Radio Interviews, Everyday Dialogues)
+TELC B1 AI Audio Generator
+==========================
+Generates high-quality German & English audio files using OpenAI Text-to-Speech API.
 
-Features:
----------
-- Fast Resume: Skips any audio file that already exists by default (saving API quota and time).
-- Overwrite mode: Pass --overwrite to regenerate existing files.
+Supports:
+- Running per specific test model (e.g. --model eva1, --model petra, --model sophie)
+- Running for multiple comma-separated models (e.g. --model eva1,petra)
+- Running for all discovered models (--model all)
+- Filtering by section/module (--section hoerverstehen / leseverstehen / sprachbausteine / all)
+- Listing all available test models in data/ (--list-models)
+- Resuming without regenerating existing files (--overwrite to force recreate)
+- Automatic manifest update (data/manifest_models.json)
+- Exponential backoff on OpenAI rate limits (HTTP 429)
 
 Usage:
-------
-# Normal run (skips already existing audio files):
-python3 scripts/generate_ai_audio.py --api-key sk-... --voice alloy
-
-# Force regenerate all audio files:
-python3 scripts/generate_ai_audio.py --api-key sk-... --voice alloy --overwrite
+  python3 scripts/generate_ai_audio.py --list-models
+  python3 scripts/generate_ai_audio.py --model eva1 --section hoerverstehen
+  python3 scripts/generate_ai_audio.py --model eva1,petra --voice alloy
+  python3 scripts/generate_ai_audio.py --model all --overwrite
 """
 
 import os
 import sys
 import json
+import time
 import argparse
-import ssl
 import urllib.request
 import urllib.error
-import time
+
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = os.path.abspath(os.path.join(SCRIPT_DIR, ".."))
+DATA_DIR = os.path.join(BASE_DIR, "data")
+AUDIO_DIR = os.path.join(BASE_DIR, "audio")
+MANIFEST_PATH = os.path.join(DATA_DIR, "manifest_models.json")
 
 stats = {
     "generated": 0,
@@ -40,36 +41,50 @@ stats = {
     "failed": 0
 }
 
-def get_ssl_context():
-    """Creates a robust SSL context that works across macOS, Linux, and Windows."""
-    try:
-        import certifi
-        return ssl.create_default_context(cafile=certifi.where())
-    except Exception:
-        pass
-    try:
-        return ssl.create_default_context()
-    except Exception:
-        return ssl._create_unverified_context()
+def get_available_models():
+    """Discover all test model JSON files in data/ directory."""
+    models = []
+    if not os.path.exists(DATA_DIR):
+        return models
+    for filename in sorted(os.listdir(DATA_DIR)):
+        if filename.endswith(".json") and not filename.startswith("schema") and filename != "manifest_models.json":
+            model_id = os.path.splitext(filename)[0]
+            filepath = os.path.join(DATA_DIR, filename)
+            try:
+                with open(filepath, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                    title = data.get("title", model_id)
+                    description = data.get("description", "")
+            except Exception:
+                title = model_id
+                description = ""
+            models.append({
+                "id": model_id,
+                "file": filename,
+                "path": filepath,
+                "title": title,
+                "description": description
+            })
+    return models
 
-def generate_openai_audio(text, output_path, api_key, voice="alloy", model="tts-1", overwrite=False):
-    """Calls OpenAI TTS API and saves MP3 file. Skips if already exists unless overwrite=True."""
-    global stats
+def generate_openai_audio(text, output_path, api_key, voice="alloy", model="tts-1", overwrite=False, delay=0.05):
+    """Generate MP3 audio file from text using OpenAI TTS endpoint."""
+    if not text or not text.strip():
+        return False
 
-    if not overwrite and os.path.exists(output_path) and os.path.getsize(output_path) > 1000:
+    if os.path.exists(output_path) and not overwrite:
+        print(f"  [Skip] Existing: {os.path.basename(output_path)}")
         stats["skipped"] += 1
-        print(f"  [Skip] Already exists: {os.path.basename(output_path)}")
         return True
 
     text = text.strip()
-    if not text:
-        return False
+    if len(text) > 4000:
+        text = text[:3990] + "..."
 
     url = "https://api.openai.com/v1/audio/speech"
     headers = {
         "Authorization": f"Bearer {api_key}",
-        "Content-Type": "application/json",
-        "User-Agent": "TelcAudioGen/2.0"
+        "Content-Type": "application/json"
     }
     payload = {
         "model": model,
@@ -77,362 +92,554 @@ def generate_openai_audio(text, output_path, api_key, voice="alloy", model="tts-
         "voice": voice,
         "response_format": "mp3"
     }
-    
-    req = urllib.request.Request(url, data=json.dumps(payload).encode("utf-8"), headers=headers, method="POST")
-    ssl_context = get_ssl_context()
 
-    for attempt in range(3):
+    max_retries = 4
+    for attempt in range(max_retries):
         try:
-            try:
-                with urllib.request.urlopen(req, context=ssl_context, timeout=60) as response:
-                    with open(output_path, "wb") as f:
-                        f.write(response.read())
-                stats["generated"] += 1
-                print(f"  [OK] Generated: {os.path.basename(output_path)}")
-                return True
-            except (ssl.SSLCertVerificationError, urllib.error.URLError) as err:
-                if "CERTIFICATE_VERIFY_FAILED" in str(err) or "certificate verify failed" in str(err):
-                    fallback_ctx = ssl._create_unverified_context()
-                    with urllib.request.urlopen(req, context=fallback_ctx, timeout=60) as response:
-                        with open(output_path, "wb") as f:
-                            f.write(response.read())
+            req = urllib.request.Request(
+                url,
+                data=json.dumps(payload).encode("utf-8"),
+                headers=headers,
+                method="POST"
+            )
+            with urllib.request.urlopen(req, timeout=60) as resp:
+                if resp.status == 200:
+                    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+                    with open(output_path, "wb") as f_out:
+                        f_out.write(resp.read())
+                    print(f"  [Generated] {os.path.basename(output_path)}")
                     stats["generated"] += 1
-                    print(f"  [OK] Generated: {os.path.basename(output_path)}")
+                    time.sleep(delay)
                     return True
-                raise err
+                else:
+                    print(f"  [Error] HTTP {resp.status} for {os.path.basename(output_path)}")
         except urllib.error.HTTPError as e:
-            print(f"  [Error] OpenAI API Error: {e.code} - {e.read().decode('utf-8')}")
+            err_msg = e.read().decode("utf-8", errors="ignore")
+            print(f"  [HTTP Error {e.code}] Attempt {attempt+1}/{max_retries} for {os.path.basename(output_path)}: {err_msg[:120]}")
             if e.code == 429:
-                time.sleep(5)
+                wait_sec = (attempt + 1) * 6
+                print(f"  [Rate Limit] Waiting {wait_sec}s before retry...")
+                time.sleep(wait_sec)
                 continue
             stats["failed"] += 1
             return False
         except Exception as e:
-            print(f"  [Error] Attempt {attempt+1} failed for {os.path.basename(output_path)}: {e}")
+            print(f"  [Error] Attempt {attempt+1}/{max_retries} for {os.path.basename(output_path)}: {e}")
             time.sleep(2)
-    
+
     stats["failed"] += 1
     return False
 
-def process_model_file(model_path, audio_dir, api_key, voice="alloy", overwrite=False):
+def process_model_file(model_path, audio_dir, api_key, voice="alloy", tts_model="tts-1", overwrite=False, section="all", delay=0.05):
+    """Process all text items for a given test model JSON file."""
     with open(model_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
     model_id = os.path.splitext(os.path.basename(model_path))[0]
     model_title = data.get("title", model_id.upper())
-    print(f"\n==========================================")
+    sec_filter = (section or "all").lower()
+
+    print("\n" + "=" * 55)
     print(f"Processing Model: {model_title} ({model_id})")
-    print(f"==========================================")
+    print(f"Section Scope:    {sec_filter.upper()}")
+    print(f"Voice / Model:    {voice} / {tts_model}")
+    print("=" * 55)
 
-    # ---------------------------------------------------------
-    # 1. MODULE 1: LESEVERSTEHEN (READING)
-    # ---------------------------------------------------------
-    
-    # --- TEIL 1: Zuordnung (Headings 1-5) ---
-    t1 = data.get("leseverstehen_teil_1", {})
-    if t1:
-        headings = t1.get("headings", {})
-        headings_en = t1.get("headings_en", {})
-        
-        # 1. Headings A-J Overview Audio
-        if headings:
-            overview_lines = [
-                f"Modul 1: Leseverstehen. Teil 1: Zuordnung von Überschriften.",
-                f"First, let's review all 10 available headings from A to J."
-            ]
-            for letter in sorted(headings.keys()):
-                de_h = headings[letter]
-                en_h = headings_en.get(letter, "")
-                line = f"Überschrift {letter.upper()}: {de_h}."
-                if en_h:
-                    line += f" In English: {en_h}."
-                overview_lines.append(line)
-            
-            overview_text = "\n\n".join(overview_lines)
-            generate_openai_audio(overview_text, os.path.join(audio_dir, f"{model_id}_teil_1_headings_overview.mp3"), api_key, voice=voice, overwrite=overwrite)
+    run_leseverstehen = sec_filter in ["all", "leseverstehen", "reading", "lesen"]
+    run_sprachbausteine = sec_filter in ["all", "sprachbausteine", "grammar", "language"]
+    run_hoerverstehen = sec_filter in ["all", "hoerverstehen", "listening", "hoeren", "audio"]
 
-        # 2. Passages 1-5 (German, English, Vocab, Solution)
-        for p in t1.get("passages", []):
-            num = p.get("number")
-            text_de = p.get("text", "")
-            text_en = p.get("text_en", "")
-            correct_ans = str(p.get("correct_answer", "")).lower()
-            explanation = p.get("explanation", "")
-            vocab = p.get("vocabulary", [])
+    # 1. LESEVERSTEHEN
+    if run_leseverstehen:
+        # Teil 1
+        t1 = data.get("leseverstehen_teil_1", {})
+        if t1:
+            headings = t1.get("headings", {})
+            headings_en = t1.get("headings_en", {})
+            if headings:
+                overview_lines = [
+                    "Modul 1: Leseverstehen. Teil 1: Zuordnung von Überschriften.",
+                    "First, let us review all 10 available headings from A to J."
+                ]
+                for letter in sorted(headings.keys()):
+                    de_h = headings[letter]
+                    en_h = headings_en.get(letter, "")
+                    line = f"Überschrift {letter.upper()}: {de_h}."
+                    if en_h:
+                        line += f" In English: {en_h}."
+                    overview_lines.append(line)
+                overview_text = "\n\n".join(overview_lines)
+                generate_openai_audio(overview_text, os.path.join(audio_dir, f"{model_id}_teil_1_headings_overview.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
 
-            # German passage
+            for p in t1.get("passages", []):
+                num = p.get("number")
+                text_de = p.get("text", "")
+                text_en = p.get("text_en", "")
+                correct_ans = str(p.get("correct_answer", "")).lower()
+                explanation = p.get("explanation", "")
+                vocab = p.get("vocabulary", [])
+
+                if text_de:
+                    generate_openai_audio(f"Text {num}.\n\n{text_de}", os.path.join(audio_dir, f"{model_id}_teil_1_{num}_de.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
+                if text_en:
+                    generate_openai_audio(f"English Translation for Text {num}.\n\n{text_en}", os.path.join(audio_dir, f"{model_id}_teil_1_{num}_en.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
+                if vocab:
+                    vocab_lines = [f"Key vocabulary for Text {num}:"]
+                    for v in vocab:
+                        vocab_lines.append(f"{v.get('de', '')} - {v.get('en', '')}.")
+                    generate_openai_audio("\n".join(vocab_lines), os.path.join(audio_dir, f"{model_id}_teil_1_{num}_vocab.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
+
+                sol_lines = [f"Lösung für Text {num}: Die richtige Überschrift ist Buchstabe {correct_ans.upper()}."]
+                matching_de = headings.get(correct_ans, "")
+                if matching_de:
+                    sol_lines.append(f"Überschrift: {matching_de}.")
+                if explanation:
+                    sol_lines.append(f"Erklärung: {explanation}")
+                generate_openai_audio("\n\n".join(sol_lines), os.path.join(audio_dir, f"{model_id}_teil_1_{num}_solution.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
+
+        # Teil 2
+        t2 = data.get("leseverstehen_teil_2", {})
+        if t2:
+            title_de = t2.get("title", "")
+            title_en = t2.get("title_en", "")
+            text_de = t2.get("text", "")
+            text_en = t2.get("text_en", "")
+            vocab = t2.get("vocabulary", [])
+
             if text_de:
-                de_speech = f"Text {num}.\n\n{text_de}"
-                generate_openai_audio(de_speech, os.path.join(audio_dir, f"{model_id}_teil_1_{num}_de.mp3"), api_key, voice=voice, overwrite=overwrite)
-
-            # English translation
+                generate_openai_audio(f"Modul 1: Leseverstehen. Teil 2: Artikel.\n\nTitel: {title_de}.\n\n{text_de}", os.path.join(audio_dir, f"{model_id}_teil_2_article_de.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
             if text_en:
-                en_speech = f"English Translation for Text {num}.\n\n{text_en}"
-                generate_openai_audio(en_speech, os.path.join(audio_dir, f"{model_id}_teil_1_{num}_en.mp3"), api_key, voice=voice, overwrite=overwrite)
-
-            # Key vocabulary
+                generate_openai_audio(f"English translation of the article.\n\nTitle: {title_en}.\n\n{text_en}", os.path.join(audio_dir, f"{model_id}_teil_2_article_en.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
             if vocab:
-                vocab_lines = [f"Key vocabulary for Text {num}:"]
+                v_lines = ["Key vocabulary for Leseverstehen Teil 2:"]
                 for v in vocab:
-                    vocab_lines.append(f"{v.get('de', '')} — {v.get('en', '')}.")
-                generate_openai_audio("\n".join(vocab_lines), os.path.join(audio_dir, f"{model_id}_teil_1_{num}_vocab.mp3"), api_key, voice=voice, overwrite=overwrite)
+                    v_lines.append(f"{v.get('de', '')} - {v.get('en', '')}.")
+                generate_openai_audio("\n".join(v_lines), os.path.join(audio_dir, f"{model_id}_teil_2_vocab.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
 
-            # Solution & Explanation
-            sol_heading_de = headings.get(correct_ans, "")
-            sol_heading_en = headings_en.get(correct_ans, "")
-            sol_lines = [f"Solution for Text {num}: Überschrift {correct_ans.upper()}."]
-            if sol_heading_de:
-                sol_lines.append(f"{sol_heading_de}.")
-            if sol_heading_en:
-                sol_lines.append(f"In English: {sol_heading_en}.")
-            if explanation:
-                sol_lines.append(f"Explanation: {explanation}")
-            
-            sol_text = " ".join(sol_lines)
-            generate_openai_audio(sol_text, os.path.join(audio_dir, f"{model_id}_teil_1_{num}_sol.mp3"), api_key, voice=voice, overwrite=overwrite)
-            # Maintain backward compatibility
-            generate_openai_audio(explanation or sol_text, os.path.join(audio_dir, f"{model_id}_teil_1_{num}_exp.mp3"), api_key, voice=voice, overwrite=overwrite)
+            for q in t2.get("questions", []):
+                num = q.get("number")
+                q_de = q.get("question", "")
+                q_en = q.get("question_en", "")
+                opts = q.get("options", {})
+                opts_en = q.get("options_en", {})
+                correct = str(q.get("correct_answer", "")).lower()
+                explanation = q.get("explanation", "")
 
-    # --- TEIL 2: Artikel (Article & Questions 6-10) ---
-    t2 = data.get("leseverstehen_teil_2", {})
-    if t2:
-        p2 = t2.get("passage", {})
-        headline_de = p2.get("headline", "")
-        headline_en = p2.get("headline_en", headline_de)
-        paragraphs = p2.get("paragraphs", [])
-        text_en = p2.get("text_en", "")
+                q_de_lines = [f"Frage {num}: {q_de}"]
+                for opt_k in ["a", "b", "c"]:
+                    if opt_k in opts:
+                        q_de_lines.append(f"Option {opt_k.upper()}: {opts[opt_k]}")
+                generate_openai_audio("\n".join(q_de_lines), os.path.join(audio_dir, f"{model_id}_teil_2_q{num}_de.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
 
-        # German Article
-        if paragraphs:
-            art_de = f"Teil 2: Zeitungsartikel.\n\nTitel: {headline_de}.\n\n" + "\n\n".join(paragraphs)
-            generate_openai_audio(art_de, os.path.join(audio_dir, f"{model_id}_teil_2_passage.mp3"), api_key, voice=voice, overwrite=overwrite)
-            generate_openai_audio(art_de, os.path.join(audio_dir, f"{model_id}_teil_2_passage_de.mp3"), api_key, voice=voice, overwrite=overwrite)
+                q_en_lines = [f"Question {num}: {q_en}"]
+                for opt_k in ["a", "b", "c"]:
+                    if opt_k in opts_en:
+                        q_en_lines.append(f"Option {opt_k.upper()}: {opts_en[opt_k]}")
+                generate_openai_audio("\n".join(q_en_lines), os.path.join(audio_dir, f"{model_id}_teil_2_q{num}_en.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
 
-        # English Translation
-        if text_en:
-            art_en = f"English Translation.\n\nTitle: {headline_en}.\n\n{text_en}"
-            generate_openai_audio(art_en, os.path.join(audio_dir, f"{model_id}_teil_2_passage_en.mp3"), api_key, voice=voice, overwrite=overwrite)
+                correct_text = opts.get(correct, "")
+                sol_lines = [f"Lösung für Frage {num}: Die richtige Antwort ist {correct.upper()}: {correct_text}."]
+                if explanation:
+                    sol_lines.append(f"Erklärung: {explanation}")
+                generate_openai_audio("\n\n".join(sol_lines), os.path.join(audio_dir, f"{model_id}_teil_2_q{num}_solution.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
 
-        # Questions 6-10
-        for q in t2.get("questions", []):
-            num = q.get("number")
-            q_text = q.get("question", "")
-            options = q.get("options", {})
-            correct_ans = str(q.get("correct_answer", "")).lower()
-            explanation = q.get("explanation", "")
+        # Teil 3
+        t3 = data.get("leseverstehen_teil_3", {})
+        if t3:
+            situations = t3.get("situations", [])
+            adverts = t3.get("advertisements", {})
+            adverts_en = t3.get("advertisements_en", {})
 
-            # Question + Options prompt in German
-            q_lines = [f"Frage {num}: {q_text}."]
-            for opt_k in ["a", "b", "c"]:
-                if opt_k in options:
-                    q_lines.append(f"Option {opt_k.upper()}: {options[opt_k]}.")
-            q_prompt_de = "\n".join(q_lines)
-            generate_openai_audio(q_prompt_de, os.path.join(audio_dir, f"{model_id}_teil_2_{num}_de.mp3"), api_key, voice=voice, overwrite=overwrite)
+            for s in situations:
+                num = s.get("number")
+                s_de = s.get("text", "")
+                s_en = s.get("text_en", "")
+                correct = str(s.get("correct_answer", "")).lower()
+                explanation = s.get("explanation", "")
+                vocab = s.get("vocabulary", [])
 
-            # Solution & Explanation
-            opt_chosen = options.get(correct_ans, "")
-            sol_text = f"Solution for Question {num}: Option {correct_ans.upper()}, {opt_chosen}. Explanation: {explanation}"
-            generate_openai_audio(sol_text, os.path.join(audio_dir, f"{model_id}_teil_2_{num}_sol.mp3"), api_key, voice=voice, overwrite=overwrite)
-            generate_openai_audio(explanation or sol_text, os.path.join(audio_dir, f"{model_id}_teil_2_{num}_exp.mp3"), api_key, voice=voice, overwrite=overwrite)
+                if s_de:
+                    generate_openai_audio(f"Situation {num}: {s_de}", os.path.join(audio_dir, f"{model_id}_teil_3_{num}_de.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
+                if s_en:
+                    generate_openai_audio(f"English translation for Situation {num}: {s_en}", os.path.join(audio_dir, f"{model_id}_teil_3_{num}_en.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
+                if vocab:
+                    v_lines = [f"Key vocabulary for Situation {num}:"]
+                    for v in vocab:
+                        v_lines.append(f"{v.get('de', '')} - {v.get('en', '')}.")
+                    generate_openai_audio("\n".join(v_lines), os.path.join(audio_dir, f"{model_id}_teil_3_{num}_vocab.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
 
-    # --- TEIL 3: Anzeigen & Situationen (Questions 11-20) ---
-    t3 = data.get("leseverstehen_teil_3", {})
-    if t3:
-        ads = t3.get("advertisements", {})
-        for s in t3.get("situations", []):
-            num = s.get("number")
-            sit_de = s.get("text", "")
-            sit_en = s.get("text_en", "")
-            correct_ans = str(s.get("correct_answer", "")).lower()
-            explanation = s.get("explanation", "")
+                if correct == "x":
+                    sol_text = f"Lösung für Situation {num}: Keine passende Anzeige gefunden. Die richtige Antwort ist Buchstabe X."
+                else:
+                    adv_content = adverts.get(correct, "")
+                    sol_text = f"Lösung für Situation {num}: Die passende Anzeige ist Buchstabe {correct.upper()}.\n\nAnzeigentext: {adv_content}"
+                if explanation:
+                    sol_text += f"\n\nErklärung: {explanation}"
+                generate_openai_audio(sol_text, os.path.join(audio_dir, f"{model_id}_teil_3_{num}_solution.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
 
-            # Situation prompt
-            sit_speech = f"Situation {num}: {sit_de}."
-            if sit_en:
-                sit_speech += f"\nIn English: {sit_en}."
-            generate_openai_audio(sit_speech, os.path.join(audio_dir, f"{model_id}_teil_3_{num}_de.mp3"), api_key, voice=voice, overwrite=overwrite)
+            for letter, adv_text in adverts.items():
+                let_lower = letter.lower()
+                generate_openai_audio(f"Anzeige {letter.upper()}:\n\n{adv_text}", os.path.join(audio_dir, f"{model_id}_teil_3_ad_{let_lower}_de.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
+                adv_en = adverts_en.get(letter, "")
+                if adv_en:
+                    generate_openai_audio(f"English translation for Advertisement {letter.upper()}:\n\n{adv_en}", os.path.join(audio_dir, f"{model_id}_teil_3_ad_{let_lower}_en.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
 
-            # Solution & Explanation
-            if correct_ans == "x":
-                sol_text = f"Solution for Situation {num}: Keine passende Anzeige gefunden (Option X). Explanation: {explanation}"
-            else:
-                matched_ad = ads.get(correct_ans, {})
-                ad_title = matched_ad.get("title", f"Anzeige {correct_ans.upper()}")
-                sol_text = f"Solution for Situation {num}: Passende Anzeige ist {correct_ans.upper()}, {ad_title}. Explanation: {explanation}"
-            
-            generate_openai_audio(sol_text, os.path.join(audio_dir, f"{model_id}_teil_3_{num}_sol.mp3"), api_key, voice=voice, overwrite=overwrite)
-            generate_openai_audio(explanation or sol_text, os.path.join(audio_dir, f"{model_id}_teil_3_{num}_exp.mp3"), api_key, voice=voice, overwrite=overwrite)
+    # 2. SPRACHBAUSTEINE
+    if run_sprachbausteine:
+        sp1 = data.get("sprachbausteine_teil_1", {})
+        if sp1:
+            text_de = sp1.get("text", "")
+            text_en = sp1.get("text_en", "")
+            vocab = sp1.get("vocabulary", [])
 
-    # ---------------------------------------------------------
-    # 2. MODULE 2: SPRACHBAUSTEINE (LANGUAGE ELEMENTS)
-    # ---------------------------------------------------------
-    
-    # --- TEIL 1: Brief Cloze (Questions 21-30) ---
-    sb1 = data.get("sprachbausteine_teil_1", {})
-    if sb1:
-        passage1 = sb1.get("passage", {}) or sb1.get("letter", {})
-        letter_de = passage1.get("text", "")
-        letter_en = passage1.get("text_en", "")
+            if text_de:
+                generate_openai_audio(f"Modul 2: Sprachbausteine. Teil 1.\n\n{text_de}", os.path.join(audio_dir, f"{model_id}_sprachbausteine_1_letter_de.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
+            if text_en:
+                generate_openai_audio(f"English translation for Sprachbausteine Teil 1 letter.\n\n{text_en}", os.path.join(audio_dir, f"{model_id}_sprachbausteine_1_letter_en.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
+            if vocab:
+                v_lines = ["Key vocabulary for Sprachbausteine Teil 1:"]
+                for v in vocab:
+                    v_lines.append(f"{v.get('de', '')} - {v.get('en', '')}.")
+                generate_openai_audio("\n".join(v_lines), os.path.join(audio_dir, f"{model_id}_sprachbausteine_1_vocab.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
 
-        if letter_de:
-            generate_openai_audio(f"Modul 2: Sprachbausteine. Teil 1: Brief.\n\n{letter_de}", os.path.join(audio_dir, f"{model_id}_sprachbausteine_1_letter_de.mp3"), api_key, voice=voice, overwrite=overwrite)
-        if letter_en:
-            generate_openai_audio(f"English translation of the letter.\n\n{letter_en}", os.path.join(audio_dir, f"{model_id}_sprachbausteine_1_letter_en.mp3"), api_key, voice=voice, overwrite=overwrite)
+            for q in sp1.get("questions", []):
+                num = q.get("number")
+                opts = q.get("options", {})
+                correct = str(q.get("correct_answer", "")).lower()
+                explanation = q.get("explanation", "")
 
-        for q in sb1.get("questions", []):
-            num = q.get("number")
-            options = q.get("options", {})
-            correct_ans = str(q.get("correct_answer", "")).lower()
-            explanation = q.get("explanation", "")
-            opt_chosen = options.get(correct_ans, "")
+                q_lines = [f"Lücke {num}:"]
+                for opt_k in ["a", "b", "c"]:
+                    if opt_k in opts:
+                        q_lines.append(f"Option {opt_k.upper()}: {opts[opt_k]}")
+                generate_openai_audio("\n".join(q_lines), os.path.join(audio_dir, f"{model_id}_sprachbausteine_1_q{num}_options.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
 
-            sol_text = f"Lösung für Lücke {num}: Option {correct_ans.upper()}, {opt_chosen}. Explanation: {explanation}"
-            generate_openai_audio(sol_text, os.path.join(audio_dir, f"{model_id}_sprachbausteine_1_{num}_sol.mp3"), api_key, voice=voice, overwrite=overwrite)
-            generate_openai_audio(explanation or sol_text, os.path.join(audio_dir, f"{model_id}_sprachbausteine_1_{num}_exp.mp3"), api_key, voice=voice, overwrite=overwrite)
+                correct_val = opts.get(correct, "")
+                sol_lines = [f"Lösung für Lücke {num}: Die richtige Antwort ist {correct.upper()}: {correct_val}."]
+                if explanation:
+                    sol_lines.append(f"Grammatikerklärung: {explanation}")
+                generate_openai_audio("\n\n".join(sol_lines), os.path.join(audio_dir, f"{model_id}_sprachbausteine_1_q{num}_explanation.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
 
-    # --- TEIL 2: Wortschatz (Questions 31-40) ---
-    sb2 = data.get("sprachbausteine_teil_2", {})
-    if sb2:
-        passage2 = sb2.get("passage", {})
-        text_de = (passage2.get("headline", "") + "\n\n" + passage2.get("text", "")).strip()
-        text_en = passage2.get("text_en", "")
-        options_bank = sb2.get("options", {})
+        sp2 = data.get("sprachbausteine_teil_2", {})
+        if sp2:
+            text_de = sp2.get("text", "")
+            text_en = sp2.get("text_en", "")
+            words_pool = sp2.get("words_pool", {})
+            words_pool_en = sp2.get("words_pool_en", {})
+            vocab = sp2.get("vocabulary", [])
 
-        # Word bank overview (A to O)
-        if options_bank:
-            wb_lines = [
-                "Teil 2: Lückentext mit Wortschatz.",
-                "First, let's review all options from the word bank from A to O:"
-            ]
-            for letter in sorted(options_bank.keys()):
-                wb_lines.append(f"Option {letter.upper()}: {options_bank[letter]}.")
-            generate_openai_audio("\n".join(wb_lines), os.path.join(audio_dir, f"{model_id}_sprachbausteine_2_wordbank_overview.mp3"), api_key, voice=voice, overwrite=overwrite)
+            if text_de:
+                generate_openai_audio(f"Modul 2: Sprachbausteine. Teil 2.\n\n{text_de}", os.path.join(audio_dir, f"{model_id}_sprachbausteine_2_text_de.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
+            if text_en:
+                generate_openai_audio(f"English translation for Sprachbausteine Teil 2 text.\n\n{text_en}", os.path.join(audio_dir, f"{model_id}_sprachbausteine_2_text_en.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
+            if words_pool:
+                w_lines = ["Wortpool für Sprachbausteine Teil 2: Von Buchstabe A bis O."]
+                for letter in sorted(words_pool.keys()):
+                    w_de = words_pool[letter]
+                    w_en = words_pool_en.get(letter, "")
+                    line = f"Wort {letter.upper()}: {w_de}."
+                    if w_en:
+                        line += f" Meaning: {w_en}."
+                    w_lines.append(line)
+                generate_openai_audio("\n".join(w_lines), os.path.join(audio_dir, f"{model_id}_sprachbausteine_2_wordpool.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
+            if vocab:
+                v_lines = ["Key vocabulary for Sprachbausteine Teil 2:"]
+                for v in vocab:
+                    v_lines.append(f"{v.get('de', '')} - {v.get('en', '')}.")
+                generate_openai_audio("\n".join(v_lines), os.path.join(audio_dir, f"{model_id}_sprachbausteine_2_vocab.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
 
-        if text_de:
-            generate_openai_audio(f"Text:\n\n{text_de}", os.path.join(audio_dir, f"{model_id}_sprachbausteine_2_text_de.mp3"), api_key, voice=voice, overwrite=overwrite)
-        if text_en:
-            generate_openai_audio(f"English translation:\n\n{text_en}", os.path.join(audio_dir, f"{model_id}_sprachbausteine_2_text_en.mp3"), api_key, voice=voice, overwrite=overwrite)
+            for q in sp2.get("questions", []):
+                num = q.get("number")
+                correct = str(q.get("correct_answer", "")).lower()
+                explanation = q.get("explanation", "")
+                word_de = words_pool.get(correct, "")
 
-        for q in sb2.get("questions", []):
-            num = q.get("number")
-            correct_ans = str(q.get("correct_answer", "")).lower()
-            explanation = q.get("explanation", "")
-            word_chosen = options_bank.get(correct_ans, "")
+                sol_lines = [f"Lösung für Lücke {num}: Das passende Wort ist Buchstabe {correct.upper()}: {word_de}."]
+                if explanation:
+                    sol_lines.append(f"Erklärung: {explanation}")
+                generate_openai_audio("\n\n".join(sol_lines), os.path.join(audio_dir, f"{model_id}_sprachbausteine_2_q{num}_solution.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
 
-            sol_text = f"Lösung für Lücke {num}: Option {correct_ans.upper()}, {word_chosen}. Explanation: {explanation}"
-            generate_openai_audio(sol_text, os.path.join(audio_dir, f"{model_id}_sprachbausteine_2_{num}_sol.mp3"), api_key, voice=voice, overwrite=overwrite)
-            generate_openai_audio(explanation or sol_text, os.path.join(audio_dir, f"{model_id}_sprachbausteine_2_{num}_exp.mp3"), api_key, voice=voice, overwrite=overwrite)
+    # 3. HOERVERSTEHEN
+    if run_hoerverstehen:
+        h1 = data.get("hoerverstehen_teil_1", {})
+        if h1:
+            intro_speech = "Modul 3: Hörverstehen. Teil 1. Sie hören fünf kurze Texte. Sie hören jeden Text zweimal. Wählen Sie für die Aufgaben 41 bis 45 die richtige Lösung: Richtig oder Falsch."
+            generate_openai_audio(intro_speech, os.path.join(audio_dir, f"{model_id}_hoerverstehen_1_intro.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
 
-    # ---------------------------------------------------------
-    # 3. MODULE 3: HÖRVERSTEHEN (LISTENING)
-    # ---------------------------------------------------------
-    
-    # --- TEIL 1: Ansagen (Questions 41-45) ---
-    hv1 = data.get("hoerverstehen_teil_1", {})
-    if hv1:
-        for t in hv1.get("transcripts", []):
-            num = t.get("number")
-            t_text = t.get("text", "")
-            if t_text:
-                generate_openai_audio(t_text, os.path.join(audio_dir, f"{model_id}_hoerverstehen_1_{num}_de.mp3"), api_key, voice=voice, overwrite=overwrite)
+            for item in h1.get("items", []):
+                num = item.get("number")
+                speaker = item.get("speaker", f"Sprecher {num}")
+                text_de = item.get("text", "")
+                text_en = item.get("text_en", "")
+                stmt_de = item.get("statement", "")
+                stmt_en = item.get("statement_en", "")
+                correct = item.get("correct_answer", True)
+                explanation = item.get("explanation", "")
+                vocab = item.get("vocabulary", [])
 
-        for q in hv1.get("questions", []):
-            num = q.get("number")
-            stmt = q.get("statement", "")
-            stmt_en = q.get("statement_en", "")
-            ans = str(q.get("correct_answer", "")).lower()
-            is_true = ans in ["+", "richtig", "true", "t"]
-            explanation = q.get("explanation", "")
+                if text_de:
+                    generate_openai_audio(f"Aufgabe {num}. {speaker}:\n\n{text_de}", os.path.join(audio_dir, f"{model_id}_hoerverstehen_1_item_{num}_de.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
+                if text_en:
+                    generate_openai_audio(f"English translation for Listening Item {num}:\n\n{text_en}", os.path.join(audio_dir, f"{model_id}_hoerverstehen_1_item_{num}_en.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
+                if stmt_de:
+                    st_text = f"Aussage zu Aufgabe {num}: {stmt_de}."
+                    if stmt_en:
+                        st_text += f" In English: {stmt_en}."
+                    generate_openai_audio(st_text, os.path.join(audio_dir, f"{model_id}_hoerverstehen_1_item_{num}_statement.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
+                if vocab:
+                    v_lines = [f"Key vocabulary for Listening Item {num}:"]
+                    for v in vocab:
+                        v_lines.append(f"{v.get('de', '')} - {v.get('en', '')}.")
+                    generate_openai_audio("\n".join(v_lines), os.path.join(audio_dir, f"{model_id}_hoerverstehen_1_item_{num}_vocab.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
 
-            sol_text = f"Frage {num}: Aussage: {stmt}."
-            if stmt_en:
-                sol_text += f" In English: {stmt_en}."
-            sol_text += f" Lösung: {'Richtig (+)' if is_true else 'Falsch (-)'}. Explanation: {explanation}"
-            
-            generate_openai_audio(sol_text, os.path.join(audio_dir, f"{model_id}_hoerverstehen_1_{num}_sol.mp3"), api_key, voice=voice, overwrite=overwrite)
-            generate_openai_audio(explanation or sol_text, os.path.join(audio_dir, f"{model_id}_hoerverstehen_1_{num}_exp.mp3"), api_key, voice=voice, overwrite=overwrite)
+                ans_word = "Richtig" if correct else "Falsch"
+                sol_lines = [f"Lösung für Aufgabe {num}: Die Aussage ist {ans_word}."]
+                if explanation:
+                    sol_lines.append(f"Erklärung: {explanation}")
+                generate_openai_audio("\n\n".join(sol_lines), os.path.join(audio_dir, f"{model_id}_hoerverstehen_1_item_{num}_solution.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
 
-    # --- TEIL 2: Radio Interview (Questions 46-55) ---
-    hv2 = data.get("hoerverstehen_teil_2", {})
-    if hv2:
-        interview = hv2.get("interview_transcript", {}).get("text", "")
-        if interview:
-            generate_openai_audio(interview, os.path.join(audio_dir, f"{model_id}_hoerverstehen_2_full.mp3"), api_key, voice=voice, overwrite=overwrite)
+        h2 = data.get("hoerverstehen_teil_2", {})
+        if h2:
+            title = h2.get("title", "")
+            intro = h2.get("intro", "")
+            text_de = h2.get("text", "")
+            text_en = h2.get("text_en", "")
+            vocab = h2.get("vocabulary", [])
 
-        for q in hv2.get("questions", []):
-            num = q.get("number")
-            stmt = q.get("statement", "")
-            stmt_en = q.get("statement_en", "")
-            ans = str(q.get("correct_answer", "")).lower()
-            is_true = ans in ["+", "richtig", "true", "t"]
-            explanation = q.get("explanation", "")
+            generate_openai_audio(f"Modul 3: Hörverstehen. Teil 2. {title}. {intro}", os.path.join(audio_dir, f"{model_id}_hoerverstehen_2_intro.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
+            if text_de:
+                generate_openai_audio(text_de, os.path.join(audio_dir, f"{model_id}_hoerverstehen_2_full_de.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
+            if text_en:
+                generate_openai_audio(text_en, os.path.join(audio_dir, f"{model_id}_hoerverstehen_2_full_en.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
+            if vocab:
+                v_lines = ["Key vocabulary for Hörverstehen Teil 2:"]
+                for v in vocab:
+                    v_lines.append(f"{v.get('de', '')} - {v.get('en', '')}.")
+                generate_openai_audio("\n".join(v_lines), os.path.join(audio_dir, f"{model_id}_hoerverstehen_2_vocab.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
 
-            sol_text = f"Aussage {num}: {stmt}."
-            if stmt_en:
-                sol_text += f" In English: {stmt_en}."
-            sol_text += f" Lösung: {'Richtig (+)' if is_true else 'Falsch (-)'}. Explanation: {explanation}"
+            for q in h2.get("questions", []):
+                num = q.get("number")
+                stmt_de = q.get("statement", "")
+                stmt_en = q.get("statement_en", "")
+                correct = q.get("correct_answer", True)
+                explanation = q.get("explanation", "")
 
-            generate_openai_audio(sol_text, os.path.join(audio_dir, f"{model_id}_hoerverstehen_2_{num}_sol.mp3"), api_key, voice=voice, overwrite=overwrite)
-            generate_openai_audio(explanation or sol_text, os.path.join(audio_dir, f"{model_id}_hoerverstehen_2_{num}_exp.mp3"), api_key, voice=voice, overwrite=overwrite)
+                q_speech = f"Aufgabe {num}: {stmt_de}."
+                if stmt_en:
+                    q_speech += f" In English: {stmt_en}."
+                generate_openai_audio(q_speech, os.path.join(audio_dir, f"{model_id}_hoerverstehen_2_q{num}.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
 
-    # --- TEIL 3: Alltagsgespräche (Questions 56-60) ---
-    hv3 = data.get("hoerverstehen_teil_3", {})
-    if hv3:
-        for t in hv3.get("transcripts", []):
-            num = t.get("number")
-            t_text = t.get("text", "")
-            if t_text:
-                generate_openai_audio(t_text, os.path.join(audio_dir, f"{model_id}_hoerverstehen_3_{num}_de.mp3"), api_key, voice=voice, overwrite=overwrite)
+                ans_word = "Richtig" if correct else "Falsch"
+                sol_lines = [f"Lösung für Aufgabe {num}: Die Aussage ist {ans_word}."]
+                if explanation:
+                    sol_lines.append(f"Erklärung: {explanation}")
+                generate_openai_audio("\n\n".join(sol_lines), os.path.join(audio_dir, f"{model_id}_hoerverstehen_2_q{num}_solution.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
 
-        for q in hv3.get("questions", []):
-            num = q.get("number")
-            stmt = q.get("statement", "")
-            stmt_en = q.get("statement_en", "")
-            ans = str(q.get("correct_answer", "")).lower()
-            is_true = ans in ["+", "richtig", "true", "t"]
-            explanation = q.get("explanation", "")
+        h3 = data.get("hoerverstehen_teil_3", {})
+        if h3:
+            intro_speech = "Modul 3: Hörverstehen. Teil 3. Sie hören fünf kurze Gespräche. Sie hören jeden Text einmal. Wählen Sie für die Aufgaben 56 bis 60 die richtige Lösung: Richtig oder Falsch."
+            generate_openai_audio(intro_speech, os.path.join(audio_dir, f"{model_id}_hoerverstehen_3_intro.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
 
-            sol_text = f"Gespräch {num}: Aussage: {stmt}."
-            if stmt_en:
-                sol_text += f" In English: {stmt_en}."
-            sol_text += f" Lösung: {'Richtig (+)' if is_true else 'Falsch (-)'}. Explanation: {explanation}"
+            for item in h3.get("items", []):
+                num = item.get("number")
+                situation_de = item.get("situation", "")
+                situation_en = item.get("situation_en", "")
+                text_de = item.get("text", "")
+                text_en = item.get("text_en", "")
+                stmt_de = item.get("statement", "")
+                stmt_en = item.get("statement_en", "")
+                correct = item.get("correct_answer", True)
+                explanation = item.get("explanation", "")
+                vocab = item.get("vocabulary", [])
 
-            generate_openai_audio(sol_text, os.path.join(audio_dir, f"{model_id}_hoerverstehen_3_{num}_sol.mp3"), api_key, voice=voice, overwrite=overwrite)
-            generate_openai_audio(explanation or sol_text, os.path.join(audio_dir, f"{model_id}_hoerverstehen_3_{num}_exp.mp3"), api_key, voice=voice, overwrite=overwrite)
+                if text_de:
+                    generate_openai_audio(f"Aufgabe {num}. Situation: {situation_de}\n\n{text_de}", os.path.join(audio_dir, f"{model_id}_hoerverstehen_3_item_{num}_de.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
+                if text_en:
+                    generate_openai_audio(f"English translation for Task {num}. Context: {situation_en}\n\n{text_en}", os.path.join(audio_dir, f"{model_id}_hoerverstehen_3_item_{num}_en.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
+                if stmt_de:
+                    st_text = f"Aussage zu Aufgabe {num}: {stmt_de}."
+                    if stmt_en:
+                        st_text += f" In English: {stmt_en}."
+                    generate_openai_audio(st_text, os.path.join(audio_dir, f"{model_id}_hoerverstehen_3_item_{num}_statement.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
+                if vocab:
+                    v_lines = [f"Key vocabulary for Task {num}:"]
+                    for v in vocab:
+                        v_lines.append(f"{v.get('de', '')} - {v.get('en', '')}.")
+                    generate_openai_audio("\n".join(v_lines), os.path.join(audio_dir, f"{model_id}_hoerverstehen_3_item_{num}_vocab.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
+
+                ans_word = "Richtig" if correct else "Falsch"
+                sol_lines = [f"Lösung für Aufgabe {num}: Die Aussage ist {ans_word}."]
+                if explanation:
+                    sol_lines.append(f"Erklärung: {explanation}")
+                generate_openai_audio("\n\n".join(sol_lines), os.path.join(audio_dir, f"{model_id}_hoerverstehen_3_item_{num}_solution.mp3"), api_key, voice=voice, model=tts_model, overwrite=overwrite, delay=delay)
+
+def sync_manifest():
+    models = get_available_models()
+    if not models:
+        return
+
+    manifest_data = {
+        "title": "TELC Deutsch B1 Übungstests Manifest",
+        "description": "Registry of all interactive TELC B1 practice test models and generated audio status.",
+        "updated_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+        "models": []
+    }
+
+    total_audio_files = 0
+    for m in models:
+        model_id = m["id"]
+        model_audio_count = 0
+        if os.path.exists(AUDIO_DIR):
+            for f in os.listdir(AUDIO_DIR):
+                if f.startswith(f"{model_id}_") and f.endswith(".mp3"):
+                    model_audio_count += 1
+        total_audio_files += model_audio_count
+
+        manifest_data["models"].append({
+            "id": model_id,
+            "filename": m["file"],
+            "title": m["title"],
+            "description": m["description"],
+            "audio_count": model_audio_count,
+            "has_audio": model_audio_count > 0
+        })
+
+    manifest_data["total_models"] = len(models)
+    manifest_data["total_audio_files"] = total_audio_files
+
+    with open(MANIFEST_PATH, "w", encoding="utf-8") as f:
+        json.dump(manifest_data, f, indent=2, ensure_ascii=False)
+    print(f"\n[Manifest Updated] {MANIFEST_PATH} ({len(models)} models, {total_audio_files} total audio files)")
 
 def main():
-    parser = argparse.ArgumentParser(description="Comprehensive AI MP3 Audio Generator for Telc B1 Study App")
-    parser.add_argument("--api-key", help="OpenAI API Key (or set OPENAI_API_KEY env var)")
-    parser.add_argument("--voice", default="alloy", choices=["alloy", "nova", "echo", "fable", "onyx", "shimmer"], help="OpenAI voice")
-    parser.add_argument("--data-dir", default="data", help="Path to data/ directory containing exam JSON files")
-    parser.add_argument("--audio-dir", default="audio", help="Output audio/ directory")
-    parser.add_argument("--overwrite", action="store_true", help="Overwrite existing audio files instead of skipping them")
+    parser = argparse.ArgumentParser(
+        description="Generate high-quality German & English AI audio for TELC B1 study models via OpenAI TTS API."
+    )
+    parser.add_argument(
+        "--model", "--test",
+        default="all",
+        help="Target test model ID (e.g. 'eva1', 'petra', 'sophie', 'eva1,petra', or 'all'). Default: 'all'"
+    )
+    parser.add_argument(
+        "--section",
+        default="all",
+        choices=["all", "hoerverstehen", "leseverstehen", "sprachbausteine"],
+        help="Filter generation by test module/section. Default: 'all'"
+    )
+    parser.add_argument(
+        "--voice",
+        default="alloy",
+        choices=["alloy", "echo", "fable", "onyx", "nova", "shimmer"],
+        help="OpenAI TTS voice to use. Default: 'alloy'"
+    )
+    parser.add_argument(
+        "--tts-model",
+        default="tts-1",
+        choices=["tts-1", "tts-1-hd"],
+        help="OpenAI TTS model. Default: 'tts-1'"
+    )
+    parser.add_argument(
+        "--api-key",
+        default=os.environ.get("OPENAI_API_KEY", ""),
+        help="OpenAI API Key (or set OPENAI_API_KEY environment variable)."
+    )
+    parser.add_argument(
+        "--overwrite",
+        action="store_true",
+        help="Regenerate and overwrite existing MP3 audio files."
+    )
+    parser.add_argument(
+        "--delay",
+        type=float,
+        default=0.05,
+        help="Delay between API requests in seconds. Default: 0.05s"
+    )
+    parser.add_argument(
+        "--list-models",
+        action="store_true",
+        help="List all discovered test model files in data/ and exit."
+    )
+    parser.add_argument(
+        "--sync-manifest-only",
+        action="store_true",
+        help="Synchronize manifest_models.json without generating audio."
+    )
+
     args = parser.parse_args()
 
-    api_key = args.api_key or os.environ.get("OPENAI_API_KEY")
-    if not api_key:
-        print("\n[!] Error: OpenAI API Key is required.")
-        print("    Usage: python3 scripts/generate_ai_audio.py --api-key sk-your-key\n")
+    if args.list_models:
+        avail = get_available_models()
+        print("\n=======================================================")
+        print("Discovered TELC B1 Test Models in data/:")
+        print("=======================================================")
+        for m in avail:
+            print(f"  • ID: {m['id']:<10} | File: {m['file']:<16} | Title: {m['title']}")
+        print(f"\nTotal models: {len(avail)}")
+        return
+
+    if args.sync_manifest_only:
+        sync_manifest()
+        return
+
+    if not args.api_key:
+        print("\n[Error] OpenAI API Key is required!")
+        print("Please supply it via:")
+        print("  1. Environment variable: export OPENAI_API_KEY='sk-...'")
+        print("  2. CLI argument:         python3 scripts/generate_ai_audio.py --api-key 'sk-...'")
+        print("  3. GitHub Action Secret: OPENAI_API_KEY")
         sys.exit(1)
 
-    os.makedirs(args.audio_dir, exist_ok=True)
-    
-    files = [os.path.join(args.data_dir, f) for f in os.listdir(args.data_dir) if f.endswith(".json") and f not in ["manifest_models.json", "schema_telc_b1.json"]]
-    print(f"Found {len(files)} test models: {[os.path.basename(f) for f in files]}")
-    print(f"Overwrite existing files: {args.overwrite}")
+    avail_models = get_available_models()
+    avail_ids = {m["id"]: m["path"] for m in avail_models}
 
-    for f in sorted(files):
-        process_model_file(f, args.audio_dir, api_key, voice=args.voice, overwrite=args.overwrite)
+    target_arg = args.model.strip().lower()
+    selected_paths = []
 
-    print("\n" + "="*50)
-    print("AUDIO GENERATION SUMMARY")
-    print("="*50)
-    print(f"  • Newly Generated: {stats['generated']} files")
-    print(f"  • Skipped Existing: {stats['skipped']} files")
-    print(f"  • Failed:           {stats['failed']} files")
-    print(f"  • Output Directory: {os.path.abspath(args.audio_dir)}")
-    print("="*50 + "\n")
+    if target_arg == "all":
+        selected_paths = [m["path"] for m in avail_models]
+    else:
+        requested_ids = [x.strip() for x in target_arg.split(",") if x.strip()]
+        for req_id in requested_ids:
+            if req_id in avail_ids:
+                selected_paths.append(avail_ids[req_id])
+            else:
+                print(f"[Warning] Model ID '{req_id}' not found in data/. Available: {list(avail_ids.keys())}")
+
+    if not selected_paths:
+        print("[Error] No valid test model found to process.")
+        sys.exit(1)
+
+    print(f"\nStarting AI Audio Generation:")
+    print(f"  • Models:    {[os.path.splitext(os.path.basename(p))[0] for p in selected_paths]}")
+    print(f"  • Section:   {args.section}")
+    print(f"  • Voice:     {args.voice} ({args.tts_model})")
+    print(f"  • Overwrite: {args.overwrite}")
+
+    os.makedirs(AUDIO_DIR, exist_ok=True)
+
+    start_time = time.time()
+    for path in selected_paths:
+        process_model_file(
+            model_path=path,
+            audio_dir=AUDIO_DIR,
+            api_key=args.api_key,
+            voice=args.voice,
+            tts_model=args.tts_model,
+            overwrite=args.overwrite,
+            section=args.section,
+            delay=args.delay
+        )
+
+    sync_manifest()
+
+    elapsed = time.time() - start_time
+    print("\n" + "=" * 55)
+    print("AI Audio Generation Complete!")
+    print(f"  • Newly Generated: {stats['generated']}")
+    print(f"  • Skipped Existing:{stats['skipped']}")
+    print(f"  • Failed/Errors:   {stats['failed']}")
+    print(f"  • Elapsed Time:    {elapsed:.1f}s")
+    print("=" * 55)
 
 if __name__ == "__main__":
     main()
-
