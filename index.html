@@ -495,7 +495,7 @@
           <i class="fa-solid fa-headphones text-xs text-white"></i>
         </div>
         <div class="min-w-0">
-          <div id="miniPlayerTitle" class="text-xs font-bold truncate">Petra • Part 1 • Text 1</div>
+          <div id="miniPlayerTitle" class="text-xs font-bold truncate">Audio Study Player</div>
           <div id="miniPlayerStep" class="text-[10px] text-stone-400 font-medium flex items-center gap-1">
             <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
             <span>🇩🇪 German Audio</span>
@@ -1363,19 +1363,42 @@
       } catch (e) { console.warn(e); }
 
       // 1. Load exam models from manifest_models.json
+      let rawLoadedModels = [];
       try {
         const res = await fetch('data/manifest_models.json?t=' + Date.now());
         if (res.ok) {
           const text = await res.text();
           const data = safeJsonParse(text);
-          modelsList = (Array.isArray(data) ? data : []).filter(m => m.is_available !== false);
+          if (Array.isArray(data)) {
+            rawLoadedModels = data;
+          } else if (data && Array.isArray(data.models)) {
+            rawLoadedModels = data.models;
+          }
         }
       } catch (err) {
         console.warn('Could not fetch manifest_models.json:', err);
       }
 
-      // 2. Localhost fallback: attempt live directory auto-discovery only if manifest is empty and running locally
-      if ((!modelsList || modelsList.length === 0) && (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1')) {
+      // Try data/models.json if manifest_models.json was empty or not found
+      if (!rawLoadedModels || rawLoadedModels.length === 0) {
+        try {
+          const res = await fetch('data/models.json?t=' + Date.now());
+          if (res.ok) {
+            const text = await res.text();
+            const data = safeJsonParse(text);
+            if (Array.isArray(data)) {
+              rawLoadedModels = data;
+            } else if (data && Array.isArray(data.models)) {
+              rawLoadedModels = data.models;
+            }
+          }
+        } catch (err) {
+          console.warn('Could not fetch models.json:', err);
+        }
+      }
+
+      // 2. Fallback: attempt live directory auto-discovery if manifest files are not found
+      if (!rawLoadedModels || rawLoadedModels.length === 0) {
         try {
           const dirRes = await fetch('data/');
           if (dirRes.ok) {
@@ -1387,20 +1410,19 @@
             links.forEach(a => {
               const href = a.getAttribute('href') || '';
               const cleanHref = href.split('?')[0].split('#')[0];
-              if (cleanHref.endsWith('.json') && cleanHref !== 'manifest_models.json' && cleanHref !== 'schema_telc_b1.json') {
+              if (cleanHref.endsWith('.json') && cleanHref !== 'manifest_models.json' && cleanHref !== 'models.json' && !cleanHref.startsWith('schema')) {
                 rawFiles.push(cleanHref);
               }
             });
             const uniqueFiles = Array.from(new Set(rawFiles));
             if (uniqueFiles.length > 0) {
-              const loaded = [];
               let idx = 1;
               for (const filename of uniqueFiles) {
                 const id = filename.replace('.json', '');
                 try {
                   const fRes = await fetch('data/' + filename + '?t=' + Date.now());
                   const fJson = await fRes.json();
-                  loaded.push({
+                  rawLoadedModels.push({
                     id: id,
                     number: idx++,
                     title: fJson.title || id.toUpperCase(),
@@ -1408,7 +1430,7 @@
                     is_available: true
                   });
                 } catch(err) {
-                  loaded.push({
+                  rawLoadedModels.push({
                     id: id,
                     number: idx++,
                     title: id.toUpperCase(),
@@ -1417,23 +1439,27 @@
                   });
                 }
               }
-              if (loaded.length > 0) {
-                modelsList = loaded;
-              }
             }
           }
         } catch (e) {
-          console.log("Local directory listing fallback:", e);
+          console.log("Directory listing fallback:", e);
         }
       }
 
-      // 3. Robust Safety Net: if modelsList is still empty, populate standard default models
-      if (!modelsList || modelsList.length === 0) {
-        modelsList = [
-          { id: 'eva1', number: 1, title: 'EVA1', file: 'data/eva1.json', is_available: true },
-          { id: 'petra', number: 2, title: 'Petra', file: 'data/petra.json', is_available: true },
-          { id: 'sophie', number: 3, title: 'SOPHIE', file: 'data/sophie.json', is_available: true }
-        ];
+      // Normalize loaded models into standard structure
+      if (rawLoadedModels && rawLoadedModels.length > 0) {
+        modelsList = rawLoadedModels.filter(m => m && m.is_available !== false).map((m, idx) => ({
+          id: m.id || (m.filename ? m.filename.replace('.json', '') : `model_${idx+1}`),
+          number: m.number || (idx + 1),
+          title: m.title || (m.id ? m.id.toUpperCase() : `Test ${idx+1}`),
+          file: m.file || (m.filename ? `data/${m.filename}` : `data/${m.id}.json`),
+          description: m.description || '',
+          has_audio: Boolean(m.has_audio),
+          audio_count: m.audio_count || 0,
+          is_available: m.is_available !== false
+        }));
+      } else {
+        modelsList = [];
       }
 
       // Initial active model
@@ -1461,23 +1487,12 @@
         }
       }
 
-      // Purge any orphaned or empty keys from userState
+      // Clean only invalid empty values without deleting cross-model progress
       if (userState.answers) {
-        const validModelPrefixes = modelsList.map(m => m.id + '_');
         Object.keys(userState.answers).forEach(k => {
-          const hasValidPrefix = validModelPrefixes.some(p => k.startsWith(p));
           const val = userState.answers[k];
-          if (!hasValidPrefix || !val || typeof val !== 'string' || val.trim() === '') {
+          if (!val || typeof val !== 'string' || val.trim() === '') {
             delete userState.answers[k];
-          }
-        });
-      }
-      if (userState.flagged) {
-        const validModelPrefixes = modelsList.map(m => m.id + '_');
-        Object.keys(userState.flagged).forEach(k => {
-          const hasValidPrefix = validModelPrefixes.some(p => k.startsWith(p));
-          if (!hasValidPrefix) {
-            delete userState.flagged[k];
           }
         });
       }

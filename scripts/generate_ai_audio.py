@@ -47,7 +47,7 @@ def get_available_models():
     if not os.path.exists(DATA_DIR):
         return models
     for filename in sorted(os.listdir(DATA_DIR)):
-        if filename.endswith(".json") and not filename.startswith("schema") and filename != "manifest_models.json":
+        if filename.endswith(".json") and not filename.startswith("schema") and filename not in ["manifest_models.json", "models.json"]:
             model_id = os.path.splitext(filename)[0]
             filepath = os.path.join(DATA_DIR, filename)
             try:
@@ -592,16 +592,23 @@ def main():
     avail_models = get_available_models()
     avail_ids = {m["id"]: m["path"] for m in avail_models}
 
-    target_arg = args.model.strip().lower()
+    target_arg = (args.model or "all").strip().lower()
     selected_paths = []
 
-    if target_arg == "all":
+    if target_arg in ["all", "*", ""]:
         selected_paths = [m["path"] for m in avail_models]
     else:
-        requested_ids = [x.strip() for x in target_arg.split(",") if x.strip()]
-        for req_id in requested_ids:
+        # Support comma, semicolon, space, or newline separated IDs (e.g. "eva1, petra", "eva1 petra", "eva1.json")
+        import re
+        tokens = [x.strip() for x in re.split(r'[,;\s]+', target_arg) if x.strip()]
+        for tok in tokens:
+            req_id = tok.replace(".json", "").strip()
             if req_id in avail_ids:
-                selected_paths.append(avail_ids[req_id])
+                if avail_ids[req_id] not in selected_paths:
+                    selected_paths.append(avail_ids[req_id])
+            elif req_id == "all":
+                selected_paths = [m["path"] for m in avail_models]
+                break
             else:
                 print(f"[Warning] Model ID '{req_id}' not found in data/. Available: {list(avail_ids.keys())}")
 
