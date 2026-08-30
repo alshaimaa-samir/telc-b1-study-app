@@ -1,114 +1,137 @@
-[
-  {
-    "id": "eva1",
-    "number": 1,
-    "title": "Eva1",
-    "file": "data/eva1.json",
-    "is_available": true
-  },
-  {
-    "id": "petra",
-    "number": 2,
-    "title": "Petra",
-    "file": "data/petra.json",
-    "is_available": true
-  },
-  {
-    "id": "sophie",
-    "number": 3,
-    "title": "Sophie",
-    "file": "data/sophie.json",
-    "is_available": true
-  },
-  {
-    "id": "iris1",
-    "number": 4,
-    "title": "Iris1",
-    "file": "data/iris1.json",
-    "is_available": true
-  },
-  {
-    "id": "jan",
-    "number": 5,
-    "title": "Jan",
-    "file": "data/jan.json",
-    "is_available": true
-  },
-  {
-    "id": "jennifer",
-    "number": 6,
-    "title": "Jennifer",
-    "file": "data/jennifer.json",
-    "is_available": true
-  },
-  {
-    "id": "nadia2",
-    "number": 7,
-    "title": "Nadia2",
-    "file": "data/nadia2.json",
-    "is_available": true
-  },
-  {
-    "id": "nicole",
-    "number": 8,
-    "title": "Nicole",
-    "file": "data/nicole.json",
-    "is_available": true
-  },
-  {
-    "id": "sonja3",
-    "number": 9,
-    "title": "Sonja3",
-    "file": "data/sonja3.json",
-    "is_available": true
-  },
-  {
-    "id": "tamara",
-    "number": 10,
-    "title": "Tamara",
-    "file": "data/tamara.json",
-    "is_available": true
-  },
-  {
-    "id": "thomas",
-    "number": 11,
-    "title": "Thomas",
-    "file": "data/thomas.json",
-    "is_available": true
-  },
-  {
-    "id": "vera",
-    "number": 12,
-    "title": "Vera",
-    "file": "data/vera.json",
-    "is_available": true
-  },
-  {
-    "id": "viktor",
-    "number": 13,
-    "title": "Viktor",
-    "file": "data/viktor.json",
-    "is_available": true
-  },
-  {
-    "id": "andreas",
-    "number": 14,
-    "title": "Andreas",
-    "file": "data/andreas.json",
-    "is_available": true
-  },
-  {
-    "id": "annika3",
-    "number": 15,
-    "title": "Annika3",
-    "file": "data/annika3.json",
-    "is_available": true
-  },
-  {
-    "id": "caroline",
-    "number": 16,
-    "title": "caroline",
-    "file": "data/caroline.json",
-    "is_available": true
-  }
-]
+{
+  "title": "TELC Deutsch B1 Übungstests Manifest",
+  "description": "Registry of all interactive TELC B1 practice test models and generated audio status.",
+  "updated_at": "2026-08-30T22:38:50Z",
+  "models": [
+    {
+      "id": "andreas",
+      "filename": "andreas.json",
+      "title": "ANDREAS",
+      "description": "",
+      "audio_count": 0,
+      "has_audio": false
+    },
+    {
+      "id": "annika3",
+      "filename": "annika3.json",
+      "title": "ANNIKA3",
+      "description": "",
+      "audio_count": 0,
+      "has_audio": false
+    },
+    {
+      "id": "caroline",
+      "filename": "caroline.json",
+      "title": "CAROLINE",
+      "description": "",
+      "audio_count": 0,
+      "has_audio": false
+    },
+    {
+      "id": "eva1",
+      "filename": "eva1.json",
+      "title": "EVA1",
+      "description": "",
+      "audio_count": 169,
+      "has_audio": true
+    },
+    {
+      "id": "iris1",
+      "filename": "iris1.json",
+      "title": "IRIS1",
+      "description": "",
+      "audio_count": 112,
+      "has_audio": true
+    },
+    {
+      "id": "jan",
+      "filename": "jan.json",
+      "title": "JAN",
+      "description": "",
+      "audio_count": 0,
+      "has_audio": false
+    },
+    {
+      "id": "jennifer",
+      "filename": "jennifer.json",
+      "title": "JENNIFER",
+      "description": "",
+      "audio_count": 0,
+      "has_audio": false
+    },
+    {
+      "id": "nadia2",
+      "filename": "nadia2.json",
+      "title": "NADIA2",
+      "description": "",
+      "audio_count": 0,
+      "has_audio": false
+    },
+    {
+      "id": "nicole",
+      "filename": "nicole.json",
+      "title": "NICOLE",
+      "description": "",
+      "audio_count": 0,
+      "has_audio": false
+    },
+    {
+      "id": "petra",
+      "filename": "petra.json",
+      "title": "Petra",
+      "description": "",
+      "audio_count": 169,
+      "has_audio": true
+    },
+    {
+      "id": "sonja3",
+      "filename": "sonja3.json",
+      "title": "SONJA3 / THOMAS",
+      "description": "",
+      "audio_count": 0,
+      "has_audio": false
+    },
+    {
+      "id": "sophie",
+      "filename": "sophie.json",
+      "title": "SOPHIE",
+      "description": "",
+      "audio_count": 169,
+      "has_audio": true
+    },
+    {
+      "id": "tamara",
+      "filename": "tamara.json",
+      "title": "TAMARA",
+      "description": "",
+      "audio_count": 0,
+      "has_audio": false
+    },
+    {
+      "id": "thomas",
+      "filename": "thomas.json",
+      "title": "THOMAS",
+      "description": "",
+      "audio_count": 0,
+      "has_audio": false
+    },
+    {
+      "id": "vera",
+      "filename": "vera.json",
+      "title": "VERA",
+      "description": "",
+      "audio_count": 0,
+      "has_audio": false
+    },
+    {
+      "id": "viktor",
+      "filename": "viktor.json",
+      "title": "VIKTOR",
+      "description": "",
+      "audio_count": 0,
+      "has_audio": false
+    }
+  ],
+  "total_models": 16,
+  "total_audio_files": 619
+}
