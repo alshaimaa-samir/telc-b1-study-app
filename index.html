@@ -1575,6 +1575,7 @@
     }
 
     async function loadModelTest(modelId) {
+      stopAnyActiveAudio();
       currentModelId = modelId;
       currentAppView = 'test';
       
@@ -2157,6 +2158,7 @@
     }
 
     function switchTab(tabId) {
+      stopAnyActiveAudio();
       currentTab = tabId;
       renderCurrentTab();
     }
@@ -3362,6 +3364,24 @@
 
     let activeHtmlAudio = null;
     let isAudioPaused = false;
+
+    function stopAnyActiveAudio() {
+      if (activeHtmlAudio) {
+        try {
+          activeHtmlAudio.pause();
+          activeHtmlAudio.currentTime = 0;
+        } catch (e) {}
+        activeHtmlAudio = null;
+      }
+      if (window.speechSynthesis) {
+        try {
+          window.speechSynthesis.cancel();
+        } catch (e) {}
+      }
+      currentPlayingAudioKey = null;
+      isAudioPaused = false;
+      updateAudioButtonsState();
+    }
 
     function getAudioCandidates(key, fallbackKey) {
       const candidates = [];
@@ -5062,7 +5082,31 @@ ${ad.text || ''}`;
       }
     }
 
+    function stopPodcastAudio(resetState = true) {
+      podcastState.speechToken++;
+      if (podcastActiveAudio) {
+        try {
+          podcastActiveAudio.pause();
+          podcastActiveAudio.currentTime = 0;
+        } catch (e) {}
+        podcastActiveAudio = null;
+      }
+      if (window.speechSynthesis) {
+        try {
+          window.speechSynthesis.cancel();
+        } catch (e) {}
+      }
+      if (resetState) {
+        podcastState.isPlaying = false;
+        podcastState.isPaused = false;
+        updatePlayIcons(false);
+      }
+    }
+
     async function openPodcastModal() {
+      // Stop any standard in-test audio when opening podcast studio
+      stopAnyActiveAudio();
+
       document.getElementById('podcastModal').classList.remove('hidden');
       const targetModelId = currentModelId || (modelsList.length > 0 ? modelsList[0].id : '');
       const sel = document.getElementById('podcastModelSelect');
@@ -5084,12 +5128,22 @@ ${ad.text || ''}`;
     }
 
     async function changePodcastModel(modelId) {
+      const wasPlaying = podcastState.isPlaying;
+      stopPodcastAudio(true);
+
       podcastState.modelId = modelId;
       await buildPodcastQueue();
       renderPodcastStage();
+
+      if (wasPlaying) {
+        playPodcast();
+      }
     }
 
     function togglePodcastSection(secId, isChecked) {
+      const wasPlaying = podcastState.isPlaying;
+      stopPodcastAudio(true);
+
       if (isChecked) {
         if (!podcastState.selectedSections.includes(secId)) {
           podcastState.selectedSections.push(secId);
@@ -5098,10 +5152,18 @@ ${ad.text || ''}`;
         podcastState.selectedSections = podcastState.selectedSections.filter(s => s !== secId);
       }
       updatePodcastCheckboxesUI();
-      buildPodcastQueue().then(() => renderPodcastStage());
+      buildPodcastQueue().then(() => {
+        renderPodcastStage();
+        if (wasPlaying) {
+          playPodcast();
+        }
+      });
     }
 
     function setPodcastPreset(preset) {
+      const wasPlaying = podcastState.isPlaying;
+      stopPodcastAudio(true);
+
       if (preset === 'all') {
         podcastState.selectedSections = ['teil_1', 'teil_2', 'teil_3', 'sprachbausteine_1', 'sprachbausteine_2', 'hoerverstehen_1', 'hoerverstehen_2', 'hoerverstehen_3'];
       } else if (preset === 'reading') {
@@ -5112,7 +5174,12 @@ ${ad.text || ''}`;
         podcastState.selectedSections = ['hoerverstehen_1', 'hoerverstehen_2', 'hoerverstehen_3'];
       }
       updatePodcastCheckboxesUI();
-      buildPodcastQueue().then(() => renderPodcastStage());
+      buildPodcastQueue().then(() => {
+        renderPodcastStage();
+        if (wasPlaying) {
+          playPodcast();
+        }
+      });
     }
 
     function updatePodcastCheckboxesUI() {
@@ -5777,16 +5844,7 @@ ${ad.text || ''}`;
     }
 
     function stopPodcast() {
-      podcastState.isPlaying = false;
-      podcastState.isPaused = false;
-      podcastState.speechToken++;
-      if (podcastActiveAudio) {
-        podcastActiveAudio.pause();
-        podcastActiveAudio.currentTime = 0;
-        podcastActiveAudio = null;
-      }
-      if (window.speechSynthesis) window.speechSynthesis.cancel();
-      updatePlayIcons(false);
+      stopPodcastAudio(true);
       document.getElementById('miniPlayer').classList.add('hidden');
     }
 
@@ -6026,12 +6084,7 @@ ${ad.text || ''}`;
     }
 
     function podcastNext() {
-      if (podcastActiveAudio) {
-        podcastActiveAudio.pause();
-        podcastActiveAudio.currentTime = 0;
-        podcastActiveAudio = null;
-      }
-      if (window.speechSynthesis) window.speechSynthesis.cancel();
+      stopPodcastAudio(false);
       if (podcastState.currentIndex < podcastState.queue.length - 1) {
         podcastState.currentIndex++;
         podcastState.currentStepIndex = 0;
@@ -6041,12 +6094,7 @@ ${ad.text || ''}`;
     }
 
     function podcastPrev() {
-      if (podcastActiveAudio) {
-        podcastActiveAudio.pause();
-        podcastActiveAudio.currentTime = 0;
-        podcastActiveAudio = null;
-      }
-      if (window.speechSynthesis) window.speechSynthesis.cancel();
+      stopPodcastAudio(false);
       if (podcastState.currentIndex > 0) {
         podcastState.currentIndex--;
         podcastState.currentStepIndex = 0;
