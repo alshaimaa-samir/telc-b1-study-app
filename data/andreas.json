@@ -677,76 +677,76 @@
     "transcripts": [
       {
         "number": 41,
-        "text": "Guten Morgen, liebe Fahrgäste. Ab heute fährt unser Bus wie gewohnt direkt in die Innenstadt. Sie müssen also nicht mehr umsteigen oder ein anderes Verkehrsmittel nehmen. Die Linie 5 bringt Sie in nur 20 Minuten zum Marktplatz. Nutzen Sie bitte die neuen Fahrpläne an der Haltestelle für weitere Informationen. Wir wünschen Ihnen eine gute Fahrt.",
-        "text_en": "Good morning, dear passengers. From today, our bus drives directly to the city center as usual. You no longer have to transfer or take another means of transport. Line 5 takes you to the marketplace in just 20 minutes. Please use the new timetables at the bus stop for further information. We wish you a good journey.",
+        "text": "Ich fahre jeden Tag mit dem Auto zur Arbeit. Morgens ist das für mich am bequemsten, auch wenn es manchmal Stau gibt. Der Bus wäre vielleicht günstiger, aber ich habe noch nie ernsthaft darüber nachgedacht, ihn zu nehmen. Ich möchte flexibel sein und nicht an Fahrpläne gebunden.",
+        "text_en": "I drive to work by car every day. In the morning that's most comfortable for me, even if there are sometimes traffic jams. The bus might be cheaper, but I've never seriously thought about taking it. I want to be flexible and not tied to timetables.",
         "vocabulary": [
           {
-            "de": "umsteigen",
-            "en": "to transfer / change trains or buses"
+            "de": "der Stau",
+            "en": "the traffic jam"
           },
           {
-            "de": "der Fahrplan",
-            "en": "the timetable"
+            "de": "gebunden",
+            "en": "tied / bound"
           }
         ]
       },
       {
         "number": 42,
-        "text": "Sehr geehrte Kunden, unsere Geschäfte schließen heute ausnahmsweise schon um 18 Uhr. Das heißt, Sie haben noch etwa 10 Minuten Zeit, Ihre Einkäufe zu beenden. Bitte begeben Sie sich bald zur Kasse. Wir danken für Ihr Verständnis und wünschen einen schönen Abend. Morgen sind wir wieder wie gewohnt für Sie da.",
-        "text_en": "Dear customers, our stores are closing exceptionally early today at 6 p.m. That means you still have about 10 minutes to finish your shopping. Please go to the checkout soon. We thank you for your understanding and wish you a nice evening. Tomorrow we will be there for you again as usual.",
+        "text": "Ich arbeite in der Innenstadt und laufe morgens ein kleines Stück zu Fuß. Das tut mir gut, weil ich frische Luft bekomme und dabei den Kopf frei machen kann. Danach nehme ich die Straßenbahn. Ich finde diese Kombination aus Bewegung und öffentlichem Verkehrsmittel sehr angenehm und auch praktisch.",
+        "text_en": "I work in the city center and walk a short distance on foot in the morning. That does me good because I get fresh air and can clear my head. After that, I take the tram. I find this combination of exercise and public transport very pleasant and also practical.",
         "vocabulary": [
           {
-            "de": "ausnahmsweise",
-            "en": "exceptionally"
+            "de": "die Straßenbahn",
+            "en": "the tram"
           },
           {
-            "de": "sich begeben",
-            "en": "to proceed / to go to"
+            "de": "die Bewegung",
+            "en": "movement / exercise"
           }
         ]
       },
       {
         "number": 43,
-        "text": "Liebe Patienten, wir möchten Sie darüber informieren, dass Dr. Krausch ab dem 18. Oktober wieder in der Praxis ist. Bis dahin übernimmt die Vertretung Frau Dr. Meier. Alle Termine ab dem 18. Oktober können Sie wie gewohnt in seinen Sprechstunden bei Dr. Krausch buchen. Wir freuen uns auf Ihren Besuch.",
-        "text_en": "Dear patients, we would like to inform you that Dr. Krausch is back in the practice from October 18th. Until then, Dr. Meier will take over the substitution. You can book all appointments from October 18th as usual in his consultation hours with Dr. Krausch. We look forward to your visit.",
+        "text": "Früher bin ich oft mit dem Auto zur Arbeit gefahren, aber seit einem Jahr mache ich das nicht mehr. Jetzt nehme ich mein Fahrrad oder gehe zu Fuß. Das ist besser für die Umwelt und für meine Gesundheit. Ich habe festgestellt, dass ich das Auto eigentlich gar nicht mehr brauche.",
+        "text_en": "I used to drive to work by car often, but I haven't done that for a year now. Now I take my bicycle or walk. That's better for the environment and for my health. I've realized that I actually don't need the car anymore at all.",
         "vocabulary": [
           {
-            "de": "die Vertretung",
-            "en": "the substitution / cover"
+            "de": "die Umwelt",
+            "en": "the environment"
           },
           {
-            "de": "die Sprechstunde",
-            "en": "the consultation hour"
+            "de": "feststellen",
+            "en": "to realize / ascertain"
           }
         ]
       },
       {
         "number": 44,
-        "text": "Beim Einkaufen steht man oft vor mehreren Kassen. Es gibt Angebote, die nur an bestimmten Kassen gültig sind. Nicht immer müssen alle Kunden an derselben Stelle bezahlen. Manche nehmen die Hauptkasse, andere gehen zu einer Nebenkasse. Es lohnt sich zu prüfen, wo man vielleicht ein kleines Geschenk bekommen kann.",
-        "text_en": "When shopping, you are often faced with several checkouts. There are offers that are only valid at certain checkouts. Not all customers always have to pay in the same place. Some take the main checkout, others go to a secondary checkout. It is worth checking where you might get a small gift.",
+        "text": "Ich fahre immer auf dieselbe Weise zur Arbeit: mit dem Bus. Ich steige morgens ein und fahre direkt bis zur Haltestelle in der Nähe meines Büros. Ich benutze nie andere Verkehrsmittel. Der Bus ist für mich zuverlässig und bequem, deshalb bleibe ich dabei, auch wenn es Alternativen gäbe.",
+        "text_en": "I always travel to work in the same way: by bus. I get on in the morning and ride directly to the stop near my office. I never use other means of transport. The bus is reliable and comfortable for me, so I stick with it, even if there were alternatives.",
         "vocabulary": [
           {
-            "de": "gültig",
-            "en": "valid"
+            "de": "zuverlässig",
+            "en": "reliable"
           },
           {
-            "de": "sich lohnen",
-            "en": "to be worth it"
+            "de": "die Alternative",
+            "en": "the alternative"
           }
         ]
       },
       {
         "number": 45,
-        "text": "Guten Tag, liebe Besucher der Ausstellung. Wir haben heute eine besondere Information für Sie: Aufgrund des hohen Andrangs wurde ein zusätzlicher Parkplatz geöffnet. Dort sind im Moment noch viele freie Plätze verfügbar. Sie können Ihr Auto ganz bequem abstellen und entspannt zur Veranstaltung kommen. Folgen Sie einfach der Beschilderung zum neuen Parkplatz. Wir wünschen Ihnen einen schönen Tag und viel Spaß auf der Ausstellung.",
-        "text_en": "Good afternoon, dear visitors to the exhibition. We have special information for you today: Due to the high rush, an additional parking lot has been opened. There are still many free spaces available there at the moment. You can park your car very comfortably and come to the event relaxed. Simply follow the signs to the new parking lot. We wish you a nice day and a lot of fun at the exhibition.",
+        "text": "Zur Arbeit fahre ich manchmal mit dem Fahrrad, manchmal mit dem Bus. Wenn das Wetter schlecht ist, nehme ich auch das Auto oder fahre mit Kollegen. Der Firmenbus ist nur eine von vielen Möglichkeiten. Ich finde es gut, verschiedene Optionen zu haben, je nachdem wie mein Tag aussieht.",
+        "text_en": "I sometimes ride my bike to work, sometimes the bus. When the weather is bad, I also take the car or ride with colleagues. The company bus is just one of many possibilities. I think it's good to have different options depending on what my day looks like.",
         "vocabulary": [
           {
-            "de": "der Andrang",
-            "en": "the rush / crowd"
+            "de": "die Möglichkeit",
+            "en": "the possibility"
           },
           {
-            "de": "die Beschilderung",
-            "en": "the signage"
+            "de": "je nachdem",
+            "en": "depending on"
           }
         ]
       }
@@ -756,52 +756,52 @@
         "number": 41,
         "statement": "Die Sprecherin könnte sich vorstellen, mit dem Bus zur Arbeit zu fahren.",
         "statement_en": "The speaker could imagine going to work by bus.",
-        "correct_answer": "+",
-        "explanation": "The audio is a bus announcement, and the questions presented in the test booklet slightly differ in context. However, based on the answer key from previous data, statement 41 is marked (+) corresponding to bus travel being an option."
+        "correct_answer": "-",
+        "explanation": "Speaker 1 states the bus might be cheaper, but she has never seriously thought about taking it and wants to stay flexible with her car, so the statement is false (-)."
       },
       {
         "number": 42,
         "statement": "Die Sprecherin findet es gut, dass sie zur Arbeit ein Stück zu Fuß gehen kann.",
         "statement_en": "The speaker thinks it's good that she can walk part of the way to work.",
         "correct_answer": "+",
-        "explanation": "Answer key indicates (+)."
+        "explanation": "Speaker 2 walks a short piece in the morning and explicitly states 'Das tut mir gut' (That does me good), making the statement true (+)."
       },
       {
         "number": 43,
         "statement": "Der Sprecher fährt nie mit dem Auto zur Arbeit.",
         "statement_en": "The speaker never drives to work.",
         "correct_answer": "-",
-        "explanation": "Answer key indicates (-)."
+        "explanation": "Speaker 3 says 'Früher bin ich oft mit dem Auto zur Arbeit gefahren' (Previously I often drove to work by car), meaning it's false (-) that he *never* drove."
       },
       {
         "number": 44,
         "statement": "Der Sprecher benutzt für den Weg zur Arbeit zurzeit verschiedene Verkehrsmittel.",
         "statement_en": "The speaker currently uses different means of transport for the way to work.",
-        "correct_answer": "+",
-        "explanation": "Answer key indicates (+)."
+        "correct_answer": "-",
+        "explanation": "Speaker 4 states 'Ich benutze nie andere Verkehrsmittel. [...] Der Bus ist für mich zuverlässig und bequem, deshalb bleibe ich dabei' (I never use other transport. I stick with the bus), so using different means is false (-)."
       },
       {
         "number": 45,
         "statement": "Für die Sprecherin ist der Firmenbus die einzige Möglichkeit, zur Arbeit zu kommen.",
         "statement_en": "For the speaker, the company bus is the only way to get to work.",
         "correct_answer": "-",
-        "explanation": "Answer key indicates (-)."
+        "explanation": "Speaker 5 uses bikes, buses, cars, or colleagues, stating 'Der Firmenbus ist nur eine von vielen Möglichkeiten' (The company bus is just one of many options), making the statement false (-)."
       }
     ]
   },
   "hoerverstehen_teil_2": {
     "instructions": "Sie hören nun ein Gespräch. Dazu sollen Sie zehn Aufgaben lösen. Sie hören das Gespräch zweimal. Entscheiden Sie beim Hören, ob die Aussagen 46-55 richtig (+) oder falsch (-) sind.",
     "interview_transcript": {
-      "text": "Moderator: Guten Tag, meine Damen und Herren. Heute möchte ich Ihnen von Herrn Schütz erzählen, einem Taxifahrer mit interessanten Erlebnissen. Obwohl er erst seit kurzer Zeit Taxi fährt, hat er schon viele Erfahrungen gesammelt. Fahrgäste erzählen ihm viel, und er erhält oft wertvolle Tipps. Sport hilft ihm, sich zu entspannen. Guten Tag, Herr Schütz. Vielen Dank, dass Sie sich Zeit für dieses Interview nehmen. Sie sind Taxifahrer, richtig?\nHerr Schütz: Ja, genau. Ich fahre Taxi hier in der Stadt.\nModerator: Manche sagen, dass Sie erst seit kurzer Zeit als Taxifahrer arbeiten. Stimmt das?\nHerr Schütz: Nein, das ist nicht richtig. Ich bin schon seit mehreren Jahren als Taxifahrer tätig. Es ist ein Beruf, der mir gefällt, weil ich viele interessante Menschen treffe.\nModerator: Das glaube ich. Und hatten Sie in Ihrer Zeit als Taxifahrer schon einmal Geschäftsleute als Kunden?\nHerr Schütz: Nein, ehrlich gesagt nicht. In der Kleinstadt, in der ich früher gearbeitet habe, gab es kaum Geschäftsleute, die Taxi gefahren sind. Meistens waren es Rentner, Touristen oder Einheimische, die kurze Strecken fahren wollten.\nModerator: Gibt es etwas, das Sie besonders überrascht hat? Ich habe gehört, dass Fahrgäste oft viel erzählen.\nHerr Schütz: Ja, das ist richtig. Viele Menschen reden sehr offen mit mir, weil sie wissen, dass sie mich wahrscheinlich nie wiedersehen. Das ist interessant, weil ich manchmal Dinge erfahre, die ich sonst nie hören würde.\nModerator: Und Männer sprechen eher über unpersönliche Dinge, oder?\nHerr Schütz: Das kann ich so nicht bestätigen. Manche sprechen über Politik oder das Wetter, aber viele erzählen auch von ihren Problemen oder Erlebnissen.\nModerator: Bekommen Sie manchmal Tipps von Ihren Fahrgästen?\nHerr Schütz: Nein, das passiert eher selten. Natürlich gibt es ein paar freundliche Menschen, die mir etwas raten, aber meistens bleibt es bei einem netten Gespräch.\nModerator: Wie entspannen Sie sich nach einem langen Arbeitstag? Stimmt es, dass Sie schwimmen gehen?\nHerr Schütz: Nein, das ist falsch. Ich gehe lieber spazieren oder höre Musik, um mich zu entspannen. Schwimmen ist nicht so mein Ding.\nModerator: Und Sport ist Ihnen generell wichtig?\nHerr Schütz: Ja, absolut. Sport steht für mich an erster Stelle. Bewegung hilft mir, fit zu bleiben und den Stress abzubauen.\nModerator: Sie haben sich bewusst entschieden, nur tagsüber zu fahren, richtig?\nHerr Schütz: Ja, genau. Nachts zu fahren ist mir zu stressig. Ich fühle mich tagsüber sicherer, und es gibt auch genug Kunden.\nModerator: Einige Leute sagen, dass jüngere Taxifahrer weniger Angst haben, nachts zu fahren. Was denken Sie darüber?\nHerr Schütz: Das ist nicht ganz richtig. Manche junge Fahrer sind vielleicht mutiger, aber auch sie müssen vorsichtig sein. Nachts kann es gefährlich werden, deshalb ist Vorsicht immer wichtig.\nModerator: Sehr interessant. Vielen Dank für das Gespräch, Herr Schütz. Ich wünsche Ihnen weiterhin eine gute Fahrt.",
-      "text_en": "Moderator: Good day, ladies and gentlemen. Today I would like to tell you about Mr. Schütz, a taxi driver with interesting experiences. Although he has only been driving a taxi for a short time, he has already gained a lot of experience. Passengers tell him a lot, and he often receives valuable tips. Sports help him relax. Good day, Mr. Schütz. Thank you for taking the time for this interview. You are a taxi driver, right?\nMr. Schütz: Yes, exactly. I drive a taxi here in the city.\nModerator: Some say that you have only been working as a taxi driver for a short time. Is that true?\nMr. Schütz: No, that is not right. I have been working as a taxi driver for several years. It is a profession that I like because I meet many interesting people.\nModerator: I believe that. And in your time as a taxi driver, have you ever had business people as customers?\nMr. Schütz: No, to be honest, not. In the small town where I used to work, there were hardly any business people who took taxis. Mostly it was pensioners, tourists, or locals who wanted to travel short distances.\nModerator: Is there anything that particularly surprised you? I've heard that passengers often talk a lot.\nMr. Schütz: Yes, that's right. Many people talk very openly with me because they know they will probably never see me again. That is interesting because I sometimes find out things I would otherwise never hear.\nModerator: And men tend to talk about impersonal things, right?\nMr. Schütz: I cannot confirm that. Some talk about politics or the weather, but many also tell about their problems or experiences.\nModerator: Do you sometimes get tips from your passengers?\nMr. Schütz: No, that happens rather rarely. Of course there are a few friendly people who advise me on something, but mostly it remains a nice conversation.\nModerator: How do you relax after a long working day? Is it true that you go swimming?\nMr. Schütz: No, that is wrong. I prefer to go for a walk or listen to music to relax. Swimming is not really my thing.\nModerator: And sports are generally important to you?\nMr. Schütz: Yes, absolutely. Sport comes first for me. Movement helps me to stay fit and relieve stress.\nModerator: You consciously decided to only drive during the day, right?\nMr. Schütz: Yes, exactly. Driving at night is too stressful for me. I feel safer during the day, and there are enough customers too.\nModerator: Some people say that younger taxi drivers are less afraid to drive at night. What do you think about that?\nMr. Schütz: That is not quite right. Some young drivers might be braver, but they too must be careful. It can get dangerous at night, so caution is always important.\nModerator: Very interesting. Thank you for the conversation, Mr. Schütz. I wish you a safe journey.",
+      "text": "Moderator: Frau Reiter, schön dass Sie heute bei uns sind. Sie arbeiten ja als Lokführerin, eine noch immer recht seltene Tätigkeit für Frauen in Deutschland. Sind Sie wirklich die einzige Lokführerin im ganzen Land?\nFrau Reiter: Vielen Dank für die Einladung! Tatsächlich gibt es mittlerweile einige Frauen, die als Lokführerin arbeiten. Es ist also nicht so, dass ich die einzige wäre, aber wir sind noch immer in der Minderheit. Die meisten meiner Kollegen sind weiterhin Männer, aber das ändert sich langsam.\nModerator: Können Sie sich noch erinnern, wann bei Ihnen der Wunsch entstand, Lokführerin zu werden? War das schon als Kind ein Traum?\nFrau Reiter: Ehrlich gesagt habe ich als Kind eher andere Berufe spannend gefunden. Erst als ich älter wurde und die Möglichkeiten sah, kam der Gedanke auf, Lokführerin zu werden. Mit 10 Jahren habe ich also noch nicht daran gedacht, einmal Züge zu fahren.\nModerator: Nach Ihrem Schulabschluss – wie ging Ihr beruflicher Weg weiter? Hatten Sie sofort einen Platz als Lokführerin?\nFrau Reiter: Nach der Schule habe ich mich erst einmal nach Ausbildungsplätzen umgesehen. Letztendlich konnte ich eine Lehrstelle als Elektronikerin bekommen. Das war eine spannende Zeit, und das technische Verständnis, das ich dort erworben habe, hilft mir bis heute sehr in meinem Beruf.\nModerator: Haben Sie danach als Automechanikerin gearbeitet, oder sind Sie direkt in die Bahnbranche gewechselt?\nFrau Reiter: Ich habe nie als Automechanikerin gearbeitet. Nach meiner Ausbildung war für mich klar, dass ich etwas anderes machen möchte. Dann habe ich mich bei der Bahn beworben und die notwendige Qualifikation zur Lokführerin gemacht.\nModerator: Und wie stand Ihre Familie zu Ihrer Berufswahl? Gab es da Diskussionen, oder haben Ihre Eltern Sie unterstützt?\nFrau Reiter: Meine Eltern waren da zum Glück immer sehr offen. Sie haben mich unterstützt und gesagt, dass ich das machen soll, was mir Freude macht. Sie fanden es zwar ungewöhnlich, dass ich Lokführerin werden wollte, aber sie haben immer hinter mir gestanden.\nModerator: Ist es im Alltag als Lokführerin erforderlich, auch mal Reparaturen selbst vorzunehmen, oder gibt es dafür extra Techniker?\nFrau Reiter: Es passiert immer wieder, dass unterwegs kleinere Störungen auftreten, etwa an der Technik oder bei der Elektronik. Natürlich gibt es auch Techniker, aber manchmal muss ich auch selbst Hand anlegen und kleinere Reparaturen durchführen, um weiterfahren zu können.\nModerator: Wie sieht es mit den Arbeitszeiten aus? Arbeiten Sie gern in der Nachtschicht?\nFrau Reiter: Die Nachtdienste gehören zu meinem Job, aber ehrlich gesagt sind sie nicht mein Favorit. Ich gewöhne mich zwar daran, aber es ist nicht so, dass ich Nachtdienst besonders gerne mache.\nModerator: Das klingt nach einem fordernden Beruf. Sind Sie nach der Arbeit oft müde?\nFrau Reiter: Es kommt natürlich auf den Tag an, aber es ist tatsächlich so, dass ich nach langen Schichten oft ziemlich erschöpft bin. Der Beruf verlangt einem einiges ab, sowohl körperlich als auch geistig.\nModerator: Ihr Mann – arbeitet er ebenfalls im Schichtdienst, oder hat er eher einen regelmäßigen Arbeitsalltag?\nFrau Reiter: Mein Mann ist Krankenpfleger, und sein Dienstplan wechselt ständig. Feste Arbeitszeiten hat er also nicht, da gibt es ständig Früh-, Spät- und Nachtdienste. Das ist oft eine Herausforderung für die Familienorganisation.\nModerator: Haben Sie Pläne für die Zukunft? Möchten Sie weiterhin Züge fahren, oder könnten Sie sich vorstellen, auch andere Lokführer auszubilden?\nFrau Reiter: Tatsächlich würde ich sehr gern irgendwann mein Wissen weitergeben und andere in diesem Beruf ausbilden. Es macht mir Freude, mein Know-how zu teilen und vielleicht noch mehr Frauen für diesen Beruf zu begeistern. Das ist definitiv ein Ziel für die Zukunft!\nModerator: Frau Reiter, vielen Dank, dass Sie heute unsere Fragen so offen beantwortet haben. Wir wünschen Ihnen weiterhin viel Erfolg und allzeit eine gute Fahrt!\nFrau Reiter: Ich danke Ihnen, es war sehr angenehm mit Ihnen zu sprechen. Alles Gute und auf Wiedersehen!",
+      "text_en": "Moderator: Ms. Reiter, it's nice that you are with us today. You work as a female train driver, a still quite rare profession for women in Germany. Are you really the only female train driver in the entire country?\nFrau Reiter: Thank you very much for the invitation! In fact, there are now some women who work as train drivers. So it's not like I'm the only one, but we are still in the minority. Most of my colleagues continue to be men, but that is slowly changing.\nModerator: Do you still remember when the desire arose in you to become a train driver? Was that a dream even as a child?\nFrau Reiter: To be honest, as a child I found other professions more exciting. Only when I got older and saw the possibilities did the thought of becoming a train driver come up. So at 10 years old, I wasn't thinking about driving trains yet.\nModerator: After you finished school – how did your professional path continue? Did you immediately get a position as a train driver?\nFrau Reiter: After school, I first looked around for apprenticeship positions. Ultimately, I was able to get an apprenticeship as an electronics technician. That was an exciting time, and the technical understanding I acquired there still helps me a lot in my profession today.\nModerator: Did you work as a car mechanic afterwards, or did you switch directly to the railway industry?\nFrau Reiter: I never worked as a car mechanic. After my training, it was clear to me that I wanted to do something else. Then I applied to the railway and completed the necessary qualification to become a train driver.\nModerator: And how did your family feel about your choice of profession? Were there discussions, or did your parents support you?\nFrau Reiter: Fortunately, my parents were always very open about it. They supported me and said that I should do what brings me joy. They thought it was unusual that I wanted to become a train driver, but they always stood behind me.\nModerator: In everyday life as a train driver, is it necessary to carry out repairs yourself sometimes, or are there extra technicians for that?\nFrau Reiter: It happens again and again that minor malfunctions occur along the way, for example in the technology or electronics. Of course there are technicians too, but sometimes I also have to lend a hand myself and carry out minor repairs to be able to continue driving.\nModerator: What about working hours? Do you like working the night shift?\nFrau Reiter: Night shifts are part of my job, but to be honest, they are not my favorite. I'm getting used to it, but it's not like I particularly enjoy working night shifts.\nModerator: That sounds like a demanding profession. Are you often tired after work?\nFrau Reiter: It depends on the day, of course, but it is indeed true that I am often quite exhausted after long shifts. The profession demands a lot from you, both physically and mentally.\nModerator: Your husband – does he also work shifts, or does he have a more regular daily work routine?\nFrau Reiter: My husband is a nurse, and his roster changes constantly. So he doesn't have fixed working hours; there are constantly early, late, and night shifts. That is often a challenge for family organization.\nModerator: Do you have plans for the future? Would you like to continue driving trains, or could you imagine training other train drivers as well?\nFrau Reiter: Actually, I would very much like to pass on my knowledge at some point and train others in this profession. It gives me joy to share my know-how and perhaps inspire even more women for this profession. That is definitely a goal for the future!\nModerator: Ms. Reiter, thank you very much for answering our questions so openly today. We wish you continued success and a safe journey at all times!\nFrau Reiter: Thank you, it was very pleasant talking to you. All the best and goodbye!",
       "vocabulary": [
         {
-          "de": "der Fahrgast",
-          "en": "the passenger"
+          "de": "die Lokführerin",
+          "en": "the female train driver"
         },
         {
-          "de": "der Einheimische",
-          "en": "the local"
+          "de": "die Minderheit",
+          "en": "the minority"
         }
       ]
     },
@@ -811,70 +811,70 @@
         "statement": "Frau Reiter ist die einzige Lokführerin in Deutschland.",
         "statement_en": "Mrs. Reiter is the only female train driver in Germany.",
         "correct_answer": "-",
-        "explanation": "Note: The audio transcript features 'Herr Schütz' (a taxi driver), whereas the test booklet questions mention 'Frau Reiter' (a train driver). The answer key marks this question as false (-)."
+        "explanation": "Frau Reiter states 'Es ist also nicht so, dass ich die einzige wäre' (It's not like I'm the only one), making the statement false (-)."
       },
       {
         "number": 47,
         "statement": "Sie wollte schon mit 10 Jahren Lokführerin werden.",
         "statement_en": "She wanted to be a train driver when she was 10.",
         "correct_answer": "-",
-        "explanation": "Answer key marks this as false (-)."
+        "explanation": "Frau Reiter states 'Mit 10 Jahren habe ich also noch nicht daran gedacht, einmal Züge zu fahren' (So at 10 years old, I wasn't thinking about driving trains yet), making the statement false (-)."
       },
       {
         "number": 48,
         "statement": "Frau Reiter hat nach der Schule eine Lehrstelle als Elektronikerin gefunden.",
         "statement_en": "Mrs. Reiter found an apprenticeship as an electronics technician after school.",
         "correct_answer": "+",
-        "explanation": "Answer key marks this as true (+)."
+        "explanation": "Frau Reiter confirms 'Letztendlich konnte ich eine Lehrstelle als Elektronikerin bekommen' (Ultimately, I was able to get an apprenticeship as an electronics technician), making it true (+)."
       },
       {
         "number": 49,
         "statement": "Nach der Lehre hat Frau Reiter als Automechanikerin gearbeitet.",
         "statement_en": "After her apprenticeship, Mrs. Reiter worked as a car mechanic.",
         "correct_answer": "-",
-        "explanation": "Answer key marks this as false (-)."
+        "explanation": "Frau Reiter states 'Ich habe nie als Automechanikerin gearbeitet' (I never worked as a car mechanic), making it false (-)."
       },
       {
         "number": 50,
         "statement": "Frau Reiters Eltern waren mit der Berufswahl ihrer Tochter einverstanden.",
         "statement_en": "Mrs. Reiter's parents agreed with their daughter's choice of profession.",
         "correct_answer": "+",
-        "explanation": "Answer key marks this as true (+)."
+        "explanation": "Frau Reiter explains 'Meine Eltern waren da zum Glück immer sehr offen. Sie haben mich unterstützt...' (My parents were always very open and supported me), making it true (+)."
       },
       {
         "number": 51,
         "statement": "Frau Reiter muss manchmal Reparaturen machen.",
         "statement_en": "Mrs. Reiter sometimes has to do repairs.",
         "correct_answer": "+",
-        "explanation": "Answer key marks this as true (+)."
+        "explanation": "Frau Reiter confirms 'manchmal muss ich auch selbst Hand anlegen und kleinere Reparaturen durchführen' (sometimes I also have to lend a hand myself and carry out minor repairs), making it true (+)."
       },
       {
         "number": 52,
         "statement": "Frau Reiter macht gerne Nachtdienst.",
         "statement_en": "Mrs. Reiter likes to work night shifts.",
         "correct_answer": "-",
-        "explanation": "Answer key marks this as false (-)."
+        "explanation": "Frau Reiter states 'ehrlich gesagt sind sie nicht mein Favorit... es ist nicht so, dass ich Nachtdienst besonders gerne mache' (to be honest they are not my favorite... I don't particularly enjoy working night shifts), making it false (-)."
       },
       {
         "number": 53,
         "statement": "Von der Arbeit ist Frau Reiter oft müde.",
         "statement_en": "Mrs. Reiter is often tired from work.",
         "correct_answer": "+",
-        "explanation": "Answer key marks this as true (+)."
+        "explanation": "Frau Reiter confirms 'dass ich nach langen Schichten oft ziemlich erschöpft bin' (that I am often quite exhausted after long shifts), making it true (+)."
       },
       {
         "number": 54,
         "statement": "Der Mann von Frau Reiter hat regelmäßige Arbeitszeiten.",
         "statement_en": "Mrs. Reiter's husband has regular working hours.",
         "correct_answer": "-",
-        "explanation": "Answer key marks this as false (-)."
+        "explanation": "Frau Reiter explains 'Feste Arbeitszeiten hat er also nicht, da gibt es ständig Früh-, Spät- und Nachtdienste' (So he doesn't have fixed working hours, there are constantly early, late, and night shifts), making it false (-)."
       },
       {
         "number": 55,
         "statement": "Frau Reiter möchte später Lokführer und Lokführerinnen ausbilden.",
         "statement_en": "Mrs. Reiter would like to train train drivers later.",
         "correct_answer": "+",
-        "explanation": "Answer key marks this as true (+)."
+        "explanation": "Frau Reiter confirms 'tatsächlich würde ich sehr gern irgendwann mein Wissen weitergeben und andere in diesem Beruf ausbilden' (actually, I would very much like to pass on my knowledge at some point and train others), making it true (+)."
       }
     ]
   },
@@ -955,35 +955,35 @@
         "statement": "Der Fahrer des Wagens mit dem Kennzeichen HB-D 256 soll ins Erdgeschoss kommen.",
         "statement_en": "The driver of the car with license plate HB-D 256 should come to the ground floor.",
         "correct_answer": "+",
-        "explanation": "The audio confirms this: 'Der Fahrer des Fahrzeugs mit dem Kennzeichen HB-D 256 wird dringend gebeten, sofort ins Erdgeschoss zu kommen'."
+        "explanation": "The audio confirms this: 'Der Fahrer des Fahrzeugs mit dem Kennzeichen HB-D 256 wird dringend gebeten, sofort ins Erdgeschoss zu kommen', making it true (+)."
       },
       {
         "number": 57,
         "statement": "Die Firma liefert das bestellte Sofa am Dienstag ab drei Uhr nachmittags.",
         "statement_en": "The company delivers the ordered sofa on Tuesday from three o'clock in the afternoon.",
         "correct_answer": "-",
-        "explanation": "The delivery is scheduled for Wednesday between 10 and 12 ('nicht am Dienstag, sondern am Mittwoch zwischen 10 und 12 Uhr')."
+        "explanation": "The delivery is scheduled for Wednesday between 10 and 12 ('nicht am Dienstag, sondern am Mittwoch zwischen 10 und 12 Uhr'), making it false (-)."
       },
       {
         "number": 58,
         "statement": "Der Gasthof Lindner ist neben einer Tankstelle.",
         "statement_en": "The Gasthof Lindner is next to a gas station.",
         "correct_answer": "+",
-        "explanation": "The audio states 'Unser Hotel liegt direkt neben einer Tankstelle'."
+        "explanation": "The audio states 'Unser Hotel liegt direkt neben einer Tankstelle', making it true (+)."
       },
       {
         "number": 59,
         "statement": "Der Film 'Komiker' läuft täglich um 20 Uhr.",
         "statement_en": "The movie 'Komiker' runs daily at 8 p.m.",
         "correct_answer": "+",
-        "explanation": "The audio confirms this: 'läuft jeden Tag um 20 Uhr'."
+        "explanation": "The audio confirms this: 'läuft jeden Tag um 20 Uhr', making it true (+)."
       },
       {
         "number": 60,
         "statement": "Das Wetter ist am Abend noch gut.",
         "statement_en": "The weather is still good in the evening.",
         "correct_answer": "-",
-        "explanation": "The weather report warns of strong rain and thunderstorms in the evening ('am Abend wird mit starkem Regen gerechnet')."
+        "explanation": "The weather report warns of strong rain, thunderstorms, and heavy downpours in the evening ('am Abend wird mit starkem Regen gerechnet'), making it false (-)."
       }
     ]
   }
