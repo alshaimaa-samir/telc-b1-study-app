@@ -130,6 +130,38 @@
       "description": "",
       "audio_count": 0,
       "has_audio": false
+    },
+    {
+      "id": "laura",
+      "filename": "laura.json",
+      "title": "LAURA",
+      "description": "",
+      "audio_count": 0,
+      "has_audio": false
+    },
+    {
+      "id": "rita",
+      "filename": "rita.json",
+      "title": "RITA",
+      "description": "",
+      "audio_count": 0,
+      "has_audio": false
+    },
+    {
+      "id": "moritz",
+      "filename": "moritz.json",
+      "title": "MORITZ",
+      "description": "",
+      "audio_count": 0,
+      "has_audio": false
+    },
+    {
+      "id": "coraalex",
+      "filename": "cora_alex.json",
+      "title": "CORA & ALEX",
+      "description": "",
+      "audio_count": 0,
+      "has_audio": false
     }
   ],
   "total_models": 16,
