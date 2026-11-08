@@ -1,0 +1,232 @@
+{
+  "title": "Cora und Alex",
+  "leseverstehen_teil_1": {
+    "headings": {
+      "a": "Eltern trotz Kritik mit der Schule zufrieden",
+      "b": "Elektromobilität für Angestellte",
+      "c": "Stärkung von Bus und Bahn",
+      "d": "Schule und Umweltschutz",
+      "e": "Bald keine Firmenwagen mehr?",
+      "f": "Ticketpreise bei der Bahn",
+      "g": "Lehrerberuf wird immer attraktiver",
+      "h": "Engagement für die Natur",
+      "i": "Preissenkungen bei Bus, Straßenbahn und U-Bahn!",
+      "j": "Zu wenig Lehrer – Stadt reagiert"
+    },
+    "headings_en": {
+      "a": "Parents satisfied with school despite criticism",
+      "b": "Electric mobility for employees",
+      "c": "Strengthening buses and trains",
+      "d": "School and environmental protection",
+      "e": "Soon no more company cars?",
+      "f": "Ticket prices on the railway",
+      "g": "Teaching profession becoming more and more attractive",
+      "h": "Commitment to nature",
+      "i": "Price reductions on buses, trams, and subways!",
+      "j": "Too few teachers – city reacts"
+    },
+    "passages": [
+      {
+        "number": 1,
+        "text": "In vielen Großstädten fehlen an den Grund- und weiterführenden Schulen dringend Lehrkräfte. Um neue Pädagogen in die Region zu holen, hat die Stadtverwaltung nun ein besonderes Programm beschlossen: Wer sich verpflichtet, mindestens fünf Jahre an einer städtischen Schule zu unterrichten, erhält Unterstützung bei der Wohnungssuche sowie einen monatlichen Zuschuss zu den Fahrtkosten.",
+        "text_en": "In many large cities, elementary and secondary schools are urgently lacking teachers. To attract new educators to the region, the city administration has now passed a special program: anyone who commits to teaching at a municipal school for at least five years receives support in finding an apartment as well as a monthly subsidy for travel costs.",
+        "correct_answer": "j",
+        "explanation": "Wegen des Lehrermangels reagiert die Stadt mit einem Förderprogramm für neue Lehrkräfte.",
+        "vocabulary": [
+          { "de": "die Lehrkraft", "en": "teacher" },
+          { "de": "sich verpflichten", "en": "to commit oneself" },
+          { "de": "der Zuschuss", "en": "subsidy / allowance" }
+        ]
+      },
+      {
+        "number": 2,
+        "text": "Immer mehr Unternehmen stellen ihren Mitarbeiterinnen und Mitarbeitern für den Weg zur Arbeit und für Dienstfahrten Elektroautos oder E-Bikes zur Verfügung. Auf den Firmenparkplätzen werden dafür kostenlose Ladestationen eingerichtet. Damit wollen die Betriebe nicht nur einen Beitrag zum Klimaschutz leisten, sondern auch als moderne Arbeitgeber attraktiv sein.",
+        "text_en": "More and more companies are providing their employees with electric cars or e-bikes for commuting and business trips. Free charging stations are being set up in company parking lots for this purpose. In doing so, companies not only want to contribute to climate protection, but also be attractive as modern employers.",
+        "correct_answer": "b",
+        "explanation": "Firmen fördern Elektromobilität (Elektroautos und E-Bikes) für ihre Angestellten.",
+        "vocabulary": [
+          { "de": "der Angestellte", "en": "employee" },
+          { "de": "zur Verfügung stellen", "en": "to make available / provide" },
+          { "de": "die Ladestation", "en": "charging station" }
+        ]
+      },
+      {
+        "number": 3,
+        "text": "Damit künftig mehr Pendler ihr Auto zu Hause stehen lassen, investiert das Land in den nächsten Jahren mehrere Milliarden Euro in den Ausbau des öffentlichen Nahverkehrs. Neue Bahnstrecken sollen gebaut, Bahnhöfe modernisiert und zusätzliche Buslinien auf dem Land eingerichtet werden, sodass Busse und Züge in Zukunft deutlich häufiger und pünktlicher fahren.",
+        "text_en": "So that more commuters leave their cars at home in the future, the state is investing several billion euros over the next few years in expanding public transport. New rail lines are to be built, stations modernized, and additional bus routes set up in rural areas so that buses and trains run much more frequently and punctually in the future.",
+        "correct_answer": "c",
+        "explanation": "Durch Milliardeninvestitionen und neue Linien werden Bus und Bahn gestärkt.",
+        "vocabulary": [
+          { "de": "der Pendler", "en": "commuter" },
+          { "de": "der Ausbau", "en": "expansion" },
+          { "de": "der öffentliche Nahverkehr", "en": "local public transport" }
+        ]
+      },
+      {
+        "number": 4,
+        "text": "Am Goethe-Gymnasium steht in diesem Schuljahr das Thema Nachhaltigkeit auf dem Stundenplan. Die Schülerinnen und Schüler haben auf dem Schuldach eine eigene Solaranlage mitgeplant, trennen in allen Klassenzimmern konsequent den Müll und pflegen im Schulgarten eine Blumenwiese für Bienen. Für dieses Projekt wurde die Schule nun vom Umweltministerium ausgezeichnet.",
+        "text_en": "At Goethe High School, the topic of sustainability is on the timetable this school year. Students helped plan a solar system on the school roof, consistently separate waste in all classrooms, and maintain a flower meadow for bees in the school garden. The school has now received an award from the Ministry of the Environment for this project.",
+        "correct_answer": "d",
+        "explanation": "Der Abschnitt beschreibt ein Schulprojekt zum aktiven Umweltschutz.",
+        "vocabulary": [
+          { "de": "der Umweltschutz", "en": "environmental protection" },
+          { "de": "Müll trennen", "en": "to separate waste" },
+          { "de": "auszeichnen", "en": "to award / honor" }
+        ]
+      },
+      {
+        "number": 5,
+        "text": "Gute Nachrichten für alle Fahrgäste der städtischen Verkehrsbetriebe: Ab dem 1. Januar werden sowohl die Einzelfahrscheine als auch die Monatskarten im gesamten Stadtgebiet um durchschnittlich zehn Prozent billiger. Besonders günstig wird das neue Jahresticket für Schülerinnen, Schüler und Senioren. Die Stadt hofft, dass dadurch noch mehr Bürger auf öffentliche Verkehrsmittel umsteigen.",
+        "text_en": "Good news for all passengers of the municipal transport company: starting January 1, both single tickets and monthly passes across the entire city area will become an average of ten percent cheaper. The new annual ticket for students and seniors will be particularly affordable. The city hopes this will encourage even more citizens to switch to public transport.",
+        "correct_answer": "i",
+        "explanation": "Die Fahrkarten für Bus, Straßenbahn und U-Bahn werden ab Januar günstiger (Preissenkungen).",
+        "vocabulary": [
+          { "de": "die Preissenkung", "en": "price reduction" },
+          { "de": "die Monatskarte", "en": "monthly pass" },
+          { "de": "umsteigen auf", "en": "to switch to" }
+        ]
+      }
+    ]
+  },
+  "leseverstehen_teil_2": {
+    "passage": {
+      "headline": "Freunde auf vier Pfoten",
+      "subheadline": "Wie Besuchshunde Abwechslung und Lebensfreude ins Seniorenheim bringen",
+      "paragraphs": [
+        "Jeden Dienstagnachmittag wartet der 82-jährige Marius Klotz schon ungeduldig im Gemeinschaftsraum des Seniorenheims 'Abendfrieden'. Punkt 15 Uhr öffnet sich die Tür und Bettina Schröther kommt mit ihrem fünfjährigen Golden Retriever Balu herein. Sofort leuchten die Augen der Bewohnerinnen und Bewohner auf. Herr Klotz, der früher selbst einen Schäferhund besaß, nach dem Umzug ins Heim aber kein eigenes Tier mehr halten konnte, streichelt Balu begeistert über das weiche Fell und gibt ihm ein Leckerli.",
+        "Bettina Schröther engagiert sich bereits seit drei Jahren ehrenamtlich beim Verein 'Pfote sucht Hand'. Bevor sie mit Balu zum ersten Mal ein Seniorenheim besuchen durfte, mussten beide eine spezielle Ausbildung machen und eine Prüfung bestehen. Dabei wird getestet, ob der Hund ruhig bleibt, auch wenn es einmal laut wird, jemand mit einem Rollstuhl dicht an ihm vorbeifährt oder ältere Menschen sich unsicher bewegen.",
+        "Nach den Erfahrungen der Heimleitung wirken die tierischen Besuche oft wie eine Medizin: Senioren, die sonst kaum noch sprechen oder ihr Zimmer nur selten verlassen, blühen auf, beginnen von früher zu erzählen und machen sogar bei kleinen Ballspielen mit. Für Bettina Schröther ist die Dankbarkeit der alten Menschen der schönste Lohn für ihr Ehrenamt."
+      ],
+      "text_en": "Every Tuesday afternoon, 82-year-old Marius Klotz waits impatiently in the common room of the 'Abendfrieden' retirement home. At 3 p.m. sharp the door opens and Bettina Schröther comes in with her five-year-old Golden Retriever Balu. Immediately the residents' eyes light up. Mr. Klotz, who used to own a German Shepherd himself but could no longer keep a pet after moving into the home, enthusiastically strokes Balu's soft fur and gives him a treat. Bettina Schröther has been volunteering for three years with the association 'Paw Seeks Hand.' Before she and Balu were allowed to visit a retirement home for the first time, both had to complete special training and pass an exam. It tests whether the dog stays calm even when it gets loud, someone passes closely in a wheelchair, or elderly people move unsteadily. According to the home's management, the animal visits often act like medicine: seniors who otherwise hardly speak or rarely leave their rooms blossom, start telling stories about the past, and even join in small ball games.",
+      "vocabulary": [
+        { "de": "das Seniorenheim", "en": "retirement / nursing home" },
+        { "de": "streicheln", "en": "to stroke / pet" },
+        { "de": "ehrenamtlich", "en": "voluntary / unpaid" },
+        { "de": "aufblühen", "en": "to blossom / perk up" }
+      ]
+    },
+    "questions": [
+      {
+        "number": 6,
+        "question": "Marius Klotz freut sich auf den Dienstag, weil",
+        "question_en": "Marius Klotz looks forward to Tuesday because",
+        "options": {
+          "a": "er an diesem Tag seinen eigenen Hund im Heim besuchen darf.",
+          "b": "Bettina Schröther mit ihrem Hund Balu ins Seniorenheim kommt.",
+          "c": "er mit Bettina Schröther im Park spazieren geht."
+        },
+        "options_en": {
+          "a": "he is allowed to visit his own dog at the home on that day.",
+          "b": "Bettina Schröther comes to the retirement home with her dog Balu.",
+          "c": "he goes for a walk in the park with Bettina Schröther."
+        },
+        "correct_answer": "b",
+        "explanation": "Jeden Dienstagnachmittag kommt Bettina Schröther mit ihrem Hund Balu zu Besuch ins Seniorenheim."
+      },
+      {
+        "number": 7,
+        "question": "Bettina Schröther",
+        "question_en": "Bettina Schröther",
+        "options": {
+          "a": "arbeitet hauptberuflich als Pflegerin im Seniorenheim.",
+          "b": "bekommt für ihre Besuche mit dem Hund kein Geld.",
+          "c": "verkauft junge Hunde an ältere Menschen."
+        },
+        "options_en": {
+          "a": "works full-time as a caregiver at the retirement home.",
+          "b": "receives no money for her visits with the dog.",
+          "c": "sells young dogs to elderly people."
+        },
+        "correct_answer": "b",
+        "explanation": "Im zweiten Absatz steht, dass sie sich ehrenamtlich engagiert und die Dankbarkeit der Menschen ihr schönster Lohn ist."
+      },
+      {
+        "number": 8,
+        "question": "Vor dem ersten Einsatz im Seniorenheim",
+        "question_en": "Before the first assignment in the retirement home",
+        "options": {
+          "a": "mussten Bettina Schröther und ihr Hund einen Kurs und einen Test machen.",
+          "b": "musste Balu drei Jahre lang in einer Hundeschule leben.",
+          "c": "wurden die Bewohner des Heims von einem Arzt untersucht."
+        },
+        "options_en": {
+          "a": "Bettina Schröther and her dog had to complete a course and a test.",
+          "b": "Balu had to live at a dog school for three years.",
+          "c": "the residents of the home were examined by a doctor."
+        },
+        "correct_answer": "a",
+        "explanation": "Beide mussten vor dem ersten Besuch eine spezielle Ausbildung machen und eine Prüfung bestehen."
+      },
+      {
+        "number": 9,
+        "question": "Ein Besuchshund für Seniorenheime muss",
+        "question_en": "A therapy/visiting dog for retirement homes must",
+        "options": {
+          "a": "auch in ungewohnten Situationen ruhig und freundlich bleiben.",
+          "b": "besonders klein und leicht sein.",
+          "c": "die Rollstühle der Senioren ziehen können."
+        },
+        "options_en": {
+          "a": "remain calm and friendly even in unfamiliar situations.",
+          "b": "be especially small and light.",
+          "c": "be able to pull the seniors' wheelchairs."
+        },
+        "correct_answer": "a",
+        "explanation": "In der Prüfung wird getestet, ob der Hund ruhig bleibt, wenn es laut wird oder ein Rollstuhl dicht vorbeifährt."
+      },
+      {
+        "number": 10,
+        "question": "Durch die Besuche des Hundes",
+        "question_en": "Through the dog's visits",
+        "options": {
+          "a": "brauchen die Senioren überhaupt keine Medikamente mehr.",
+          "b": "haben die Pflegekräfte im Heim viel mehr Arbeit als sonst.",
+          "c": "werden viele ruhige Bewohner wieder aktiver und gesprächiger."
+        },
+        "options_en": {
+          "a": "the seniors no longer need any medication at all.",
+          "b": "the caregivers at the home have much more work than usual.",
+          "c": "many quiet residents become more active and talkative again."
+        },
+        "correct_answer": "c",
+        "explanation": "Senioren, die sonst kaum sprechen oder ihr Zimmer selten verlassen, blühen auf, erzählen von früher und spielen mit."
+      }
+    ]
+  },
+  "leseverstehen_teil_3": {
+    "advertisements": {},
+    "situations": []
+  },
+  "sprachbausteine_teil_1": {
+    "instructions": "Lesen Sie den Text und schließen Sie die Lücken 21–30. Welche Lösung (a, b oder c) ist jeweils richtig?",
+    "passage": {
+      "text": ""
+    },
+    "questions": []
+  },
+  "sprachbausteine_teil_2": {
+    "instructions": "Lesen Sie den Text und schließen Sie die Lücken 31–40. Benutzen Sie die Wörter a–o. Jedes Wort passt nur einmal.",
+    "word_bank": {},
+    "passage": {
+      "text": ""
+    },
+    "questions": []
+  },
+  "hoerverstehen_teil_1": {
+    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören diese Texte nur einmal. Entscheiden Sie beim Hören, ob die Aussagen 41–45 richtig (+) oder falsch (-) sind.",
+    "transcripts": [],
+    "questions": []
+  },
+  "hoerverstehen_teil_2": {
+    "instructions": "Sie hören nun ein Gespräch. Dazu sollen Sie zehn Aufgaben lösen. Sie hören das Gespräch zweimal. Entscheiden Sie beim Hören, ob die Aussagen 46–55 richtig (+) oder falsch (-) sind.",
+    "interview_transcript": {
+      "text": ""
+    },
+    "questions": []
+  },
+  "hoerverstehen_teil_3": {
+    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören jeden Text zweimal. Entscheiden Sie beim Hören, ob die Aussagen 56–60 richtig (+) oder falsch (-) sind.",
+    "transcripts": [],
+    "questions": []
+  }
+}

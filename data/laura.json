@@ -1,0 +1,474 @@
+{
+  "title": "Laura",
+  "leseverstehen_teil_1": {
+    "headings": {
+      "a": "Abwechslung beim Pausenbrot",
+      "b": "Ampel für gesundes Essen",
+      "c": "Besser kochen für Kinder",
+      "d": "Bessere Ernährung durch Information auf Lebensmitteln",
+      "e": "Fast Food ist beliebter als gesundes Essen",
+      "f": "Gesunde Ernährung schon im Kindergarten",
+      "g": "Immer mehr übergewichtige Kinder in Deutschland",
+      "h": "Kinder essen zu viel Süßes",
+      "i": "Neues Schulfach: Gesunde Ernährung",
+      "j": "Was Kinder am liebsten essen"
+    },
+    "headings_en": {
+      "a": "Variety in school lunch sandwiches",
+      "b": "Traffic light system for healthy food",
+      "c": "Better cooking for children",
+      "d": "Better nutrition through information on food packaging",
+      "e": "Fast food is more popular than healthy food",
+      "f": "Healthy nutrition starting in kindergarten",
+      "g": "More and more overweight children in Germany",
+      "h": "Children eat too many sweets",
+      "i": "New school subject: Healthy nutrition",
+      "j": "What children like to eat most"
+    },
+    "passages": [
+      {
+        "number": 1,
+        "text": "Wenn Kinder selbst entscheiden dürfen, was auf den Tisch kommt, dann wählen sie meistens Pommes frites, Spaghetti, Pizza oder Hamburger. Gemüse und Salat sind dagegen bei den Kleinen meist wenig beliebt. Ernährungsexperten raten Eltern jedoch, Kinder nicht zum Essen zu zwingen, sondern ihnen gesundes Essen schmackhaft zu machen – zum Beispiel, indem die Kinder beim Kochen mithelfen dürfen.",
+        "text_en": "When children are allowed to decide for themselves what goes on the table, they usually choose French fries, spaghetti, pizza, or hamburgers. Vegetables and salad, on the other hand, are usually not very popular with little ones. However, nutrition experts advise parents not to force children to eat, but rather to make healthy food appealing to them—for example, by letting children help with the cooking.",
+        "correct_answer": "j",
+        "explanation": "Der Text beschreibt die Lieblingsspeisen von Kindern (Pommes, Spaghetti, Pizza, Hamburger) im Vergleich zu unbeliebtem Gemüse.",
+        "vocabulary": [
+          { "de": "entscheiden", "en": "to decide" },
+          { "de": "zwingen", "en": "to force" },
+          { "de": "schmackhaft machen", "en": "to make appetizing/appealing" }
+        ]
+      },
+      {
+        "number": 2,
+        "text": "Viele Verbraucher wünschen sich auf Lebensmittelverpackungen einfache Hinweise darauf, wie gesund ein Produkt ist. Verbraucherschützer schlagen deshalb eine Kennzeichnung in den Farben Rot, Gelb und Grün vor. Auf einen Blick könnte man dann erkennen, ob ein Produkt viel oder wenig Fett, Zucker und Salz enthält: Rot steht für einen hohen Gehalt, Gelb für einen mittleren und Grün für einen niedrigen.",
+        "text_en": "Many consumers want simple indicators on food packaging showing how healthy a product is. Consumer advocates therefore propose labeling in the colors red, yellow, and green. At a glance, one could see whether a product contains a lot or a little fat, sugar, and salt: red stands for high content, yellow for medium, and green for low.",
+        "correct_answer": "b",
+        "explanation": "Die Kennzeichnung mit den Farben Rot, Gelb und Grün entspricht dem Prinzip einer Ampel für gesundes Essen.",
+        "vocabulary": [
+          { "de": "der Verbraucher", "en": "consumer" },
+          { "de": "die Kennzeichnung", "en": "labeling / marking" },
+          { "de": "auf einen Blick", "en": "at a glance" }
+        ]
+      },
+      {
+        "number": 3,
+        "text": "Jeden Morgen stehen Eltern vor derselben Frage: Was gebe ich meinem Kind heute mit in die Schule? Meistens landet dann wieder das klassische Käse- oder Wurstbrot in der Dose. Dabei lässt sich das Frühstück ganz leicht interessanter gestalten: Vollkornbrot mit Frischkäse, dazu klein geschnittene Gurken, Paprika, Cocktailtomaten oder Obststücke sorgen für Farbe und frischen Geschmack in der großen Pause.",
+        "text_en": "Every morning parents face the same question: What should I pack for my child for school today? Usually the classic cheese or sausage sandwich ends up in the lunchbox again. Yet breakfast can easily be made more interesting: whole-grain bread with cream cheese, plus sliced cucumber, bell pepper, cherry tomatoes, or pieces of fruit provide color and fresh taste during recess.",
+        "correct_answer": "a",
+        "explanation": "Der Text gibt Tipps, wie Eltern das tägliche Schulbrot (Pausenbrot) abwechslungsreicher gestalten können.",
+        "vocabulary": [
+          { "de": "das Pausenbrot", "en": "school snack / sandwich" },
+          { "de": "die Abwechslung", "en": "variety" },
+          { "de": "das Vollkornbrot", "en": "whole-grain bread" }
+        ]
+      },
+      {
+        "number": 4,
+        "text": "Immer mehr Kinder und Jugendliche in Deutschland bringen zu viele Kilos auf die Waage. Nach einer aktuellen Studie ist bereits jedes sechste Kind zu dick. Als Hauptgründe nennen Mediziner falsche Ernährung mit zu viel Fast Food und zuckerhaltigen Getränken sowie mangelnde Bewegung, weil Kinder ihre Freizeit immer häufiger vor dem Fernseher oder dem Computer verbringen.",
+        "text_en": "More and more children and teenagers in Germany weigh too much. According to a recent study, one in six children is already overweight. Doctors cite poor nutrition with too much fast food and sugary drinks as well as lack of exercise as the main reasons, because children increasingly spend their free time in front of the TV or computer.",
+        "correct_answer": "g",
+        "explanation": "Der Text berichtet über die steigende Zahl übergewichtiger Kinder in Deutschland und deren Ursachen.",
+        "vocabulary": [
+          { "de": "übergewichtig", "en": "overweight" },
+          { "de": "auf die Waage bringen", "en": "to weigh" },
+          { "de": "mangelnde Bewegung", "en": "lack of exercise" }
+        ]
+      },
+      {
+        "number": 5,
+        "text": "Gesundheitsminister und Pädagogen fordern, dass Kinder schon früh in der Schule lernen, wie man sich richtig ernährt und selbst frische Mahlzeiten zubereitet. In einem eigenen Unterrichtsfach sollen Schülerinnen und Schüler künftig alles über Lebensmittel, Vitamine und gesunde Küche erfahren, damit sie später im Alltag bewusster einkaufen und essen.",
+        "text_en": "Health ministers and educators are demanding that children learn early on in school how to eat properly and prepare fresh meals themselves. In a dedicated school subject, students should learn everything about groceries, vitamins, and healthy cooking in the future so that they shop and eat more consciously in everyday life.",
+        "correct_answer": "i",
+        "explanation": "Es wird gefordert, gesunde Ernährung als eigenes Schulfach einzuführen.",
+        "vocabulary": [
+          { "de": "fordern", "en": "to demand" },
+          { "de": "zubereiten", "en": "to prepare (food)" },
+          { "de": "das Unterrichtsfach", "en": "school subject" }
+        ]
+      }
+    ]
+  },
+  "leseverstehen_teil_2": {
+    "passage": {
+      "headline": "Frisch vom Wochenmarkt oder aus dem Supermarkt?",
+      "subheadline": "Immer mehr Menschen achten beim Fleischeinkauf auf Qualität und Herkunft",
+      "paragraphs": [
+        "Lange Zeit galt beim Lebensmitteleinkauf in Deutschland vor allem ein Prinzip: Möglichst billig muss es sein. Besonders beim Fleisch griffen viele Kunden im Supermarkt zu den günstigsten Sonderangeboten. Doch in den letzten Jahren hat bei vielen Verbrauchern ein Umdenken begonnen. Nach mehreren Lebensmittelskandalen wollen immer mehr Menschen genau wissen, woher ihr Essen kommt.",
+        "Davon profitieren vor allem die traditionellen Wochenmärkte und kleine Metzgereien. Zwar sind Fleisch und Wurst dort oft deutlich teurer als beim Discounter, doch die Kunden schätzen die persönliche Beratung und die hohe Qualität. Die Händler auf dem Markt kennen meist die Bauernhöfe aus der Region persönlich und können genau Auskunft darüber geben, wie die Tiere gehalten und gefüttert wurden.",
+        "Viele Kunden entscheiden sich heute bewusst dafür, lieber seltener Fleisch zu essen, dafür aber beim Einkauf mehr Geld für gute Bio-Qualität auszugeben. Denn wer einmal den Unterschied geschmeckt hat, verzichtet gern auf billige Massenware aus dem Supermarkt."
+      ],
+      "text_en": "For a long time, one principle above all applied to grocery shopping in Germany: it had to be as cheap as possible. Especially with meat, many customers in the supermarket reached for the cheapest special offers. But in recent years, many consumers have begun to rethink. After several food scandals, more and more people want to know exactly where their food comes from. Traditional weekly markets and small butcher shops benefit most from this. Although meat and sausage are often significantly more expensive there than at discount stores, customers appreciate the personal advice and high quality. Vendors at the market usually know the regional farms personally and can provide exact information on how the animals were kept and fed. Many customers today consciously decide to eat meat less often, but spend more money on good organic quality when shopping.",
+      "vocabulary": [
+        { "de": "der Wochenmarkt", "en": "weekly market" },
+        { "de": "das Umdenken", "en": "rethinking / change of mind" },
+        { "de": "die Herkunft", "en": "origin" },
+        { "de": "schätzen", "en": "to appreciate / value" }
+      ]
+    },
+    "questions": [
+      {
+        "number": 6,
+        "question": "Viele Verbraucher in Deutschland",
+        "question_en": "Many consumers in Germany",
+        "options": {
+          "a": "essen heute überhaupt kein Fleisch mehr.",
+          "b": "interessieren sich stärker für die Herkunft von Lebensmitteln.",
+          "c": "kaufen Fleisch nur noch im Supermarkt."
+        },
+        "options_en": {
+          "a": "do not eat meat at all anymore today.",
+          "b": "are more interested in the origin of food.",
+          "c": "only buy meat in the supermarket now."
+        },
+        "correct_answer": "b",
+        "explanation": "Im ersten Absatz steht: 'wollen immer mehr Menschen genau wissen, woher ihr Essen kommt.'"
+      },
+      {
+        "number": 7,
+        "question": "Auf dem Wochenmarkt",
+        "question_en": "At the weekly market",
+        "options": {
+          "a": "bekommt man gute Beratung und hohe Qualität.",
+          "b": "gibt es immer günstige Sonderangebote für Fleisch.",
+          "c": "sind die Preise genauso niedrig wie beim Discounter."
+        },
+        "options_en": {
+          "a": "you get good advice and high quality.",
+          "b": "there are always cheap special offers for meat.",
+          "c": "prices are just as low as at the discount store."
+        },
+        "correct_answer": "a",
+        "explanation": "Im zweiten Absatz heißt es: 'doch die Kunden schätzen die persönliche Beratung und die hohe Qualität.'"
+      },
+      {
+        "number": 8,
+        "question": "Die Händler auf dem Wochenmarkt",
+        "question_en": "The vendors at the weekly market",
+        "options": {
+          "a": "halten und füttern alle Tiere selbst.",
+          "b": "verkaufen ausschließlich Produkte aus dem Ausland.",
+          "c": "wissen, von welchen Höfen der Region das Fleisch stammt."
+        },
+        "options_en": {
+          "a": "keep and feed all the animals themselves.",
+          "b": "exclusively sell products from abroad.",
+          "c": "know which regional farms the meat comes from."
+        },
+        "correct_answer": "c",
+        "explanation": "Im Text steht: 'Die Händler auf dem Markt kennen meist die Bauernhöfe aus der Region persönlich'."
+      },
+      {
+        "number": 9,
+        "question": "Immer mehr Kunden",
+        "question_en": "More and more customers",
+        "options": {
+          "a": "beschweren sich über die hohen Preise für Bio-Fleisch.",
+          "b": "essen weniger Fleisch, achten aber auf bessere Qualität.",
+          "c": "kaufen jeden Tag frisches Fleisch beim Metzger."
+        },
+        "options_en": {
+          "a": "complain about the high prices for organic meat.",
+          "b": "eat less meat, but pay attention to better quality.",
+          "c": "buy fresh meat at the butcher's every day."
+        },
+        "correct_answer": "b",
+        "explanation": "Im dritten Absatz steht: 'lieber seltener Fleisch zu essen, dafür aber beim Einkauf mehr Geld für gute Bio-Qualität auszugeben.'"
+      },
+      {
+        "number": 10,
+        "question": "Was zeigt dieser Text?",
+        "question_en": "What does this text show?",
+        "options": {
+          "a": "Warum Supermärkte kein Fleisch mehr verkaufen sollten.",
+          "b": "Wie man auf dem Wochenmarkt am besten Preise vergleicht.",
+          "c": "Wie sich das Einkaufsverhalten vieler Menschen verändert hat."
+        },
+        "options_en": {
+          "a": "Why supermarkets should no longer sell meat.",
+          "b": "How best to compare prices at the weekly market.",
+          "c": "How the shopping behavior of many people has changed."
+        },
+        "correct_answer": "c",
+        "explanation": "Der gesamte Artikel beschreibt den Wandel vom Billigeinkauf hin zu Qualitäts- und Herkunftsbewusstsein."
+      }
+    ]
+  },
+  "leseverstehen_teil_3": {
+    "advertisements": {},
+    "situations": []
+  },
+  "sprachbausteine_teil_1": {
+    "instructions": "Lesen Sie den Text und schließen Sie die Lücken 21–30. Welche Lösung (a, b oder c) ist jeweils richtig?",
+    "passage": {
+      "text": ""
+    },
+    "questions": []
+  },
+  "sprachbausteine_teil_2": {
+    "instructions": "Lesen Sie den Text und schließen Sie die Lücken 31–40. Benutzen Sie die Wörter a–o. Jedes Wort passt nur einmal.",
+    "word_bank": {},
+    "passage": {
+      "text": ""
+    },
+    "questions": []
+  },
+  "hoerverstehen_teil_1": {
+    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören diese Texte nur einmal. Entscheiden Sie beim Hören, ob die Aussagen 41–45 richtig (+) oder falsch (-) sind.",
+    "transcripts": [
+      {
+        "number": 41,
+        "text": "Nummer 41: Ich gehe nach der Arbeit meistens direkt in den Supermarkt an der Ecke. Dort bekomme ich alles, was ich brauche, unter einem Dach und das Geschäft hat bis 22 Uhr geöffnet. Auf den Wochenmarkt schaffe ich es unter der Woche leider nie, weil ich bis abends im Büro sitze.",
+        "text_en": "Number 41: After work I usually go straight to the supermarket on the corner. There I get everything I need under one roof and the store is open until 10 p.m. Unfortunately, I never make it to the weekly market during the week because I'm at the office until the evening.",
+        "vocabulary": [
+          { "de": "unter einem Dach", "en": "under one roof" },
+          { "de": "unter der Woche", "en": "during the week" }
+        ]
+      },
+      {
+        "number": 42,
+        "text": "Nummer 42: Für mich gibt es nichts Schöneres, als am Samstagvormittag über den Wochenmarkt zu bummeln. Das Obst und Gemüse kommt direkt von den Bauern aus der Umgebung und ist viel frischer als im Supermarkt. Außerdem trifft man dort immer nette Leute zum Reden.",
+        "text_en": "Number 42: For me, there is nothing nicer than strolling through the weekly market on a Saturday morning. The fruit and vegetables come directly from local farmers and are much fresher than in the supermarket. Plus, you always meet nice people to chat with there.",
+        "vocabulary": [
+          { "de": "bummeln", "en": "to stroll" },
+          { "de": "die Umgebung", "en": "surroundings / local area" }
+        ]
+      },
+      {
+        "number": 43,
+        "text": "Nummer 43: Ich kaufe meine Lebensmittel seit einem Jahr nur noch im Bioladen. Das ist zwar etwas teurer, aber mir ist es sehr wichtig, dass Obst, Gemüse und Fleisch aus ökologischer Landwirtschaft stammen und keine chemischen Spritzmittel verwendet werden.",
+        "text_en": "Number 43: For a year now, I have only been buying my groceries at the organic store. It is a bit more expensive, but it is very important to me that fruit, vegetables, and meat come from organic farming and that no chemical pesticides are used.",
+        "vocabulary": [
+          { "de": "der Bioladen", "en": "organic food store" },
+          { "de": "ökologische Landwirtschaft", "en": "organic farming" }
+        ]
+      },
+      {
+        "number": 44,
+        "text": "Nummer 44: Bei uns in der Familie muss es beim Einkaufen vor allem schnell und günstig gehen. Mit drei Kindern haben wir ein knappes Budget, deshalb kaufen wir fast alles beim Discounter. Auf große Marken legen wir keinen Wert, die Hausmarken schmecken genauso gut.",
+        "text_en": "Number 44: In our family, shopping above all has to be fast and cheap. With three children we have a tight budget, so we buy almost everything at the discount store. We don't care about big brands; the store brands taste just as good.",
+        "vocabulary": [
+          { "de": "knappes Budget", "en": "tight budget" },
+          { "de": "Wert legen auf", "en": "to attach importance to" }
+        ]
+      },
+      {
+        "number": 45,
+        "text": "Nummer 45: Ich bestelle meine Lebensmittel inzwischen oft im Internet und lasse sie mir nach Hause liefern. Da ich kein Auto habe, muss ich so keine schweren Wasserkisten und Einkaufstaschen mehr in den vierten Stock tragen. Nur frisches Brot hole ich noch beim Bäcker.",
+        "text_en": "Number 45: Nowadays I often order my groceries online and have them delivered to my home. Since I don't have a car, I no longer have to carry heavy crates of water and shopping bags up to the fourth floor. Only fresh bread I still get from the bakery.",
+        "vocabulary": [
+          { "de": "liefern lassen", "en": "to have delivered" },
+          { "de": "die Wasserkiste", "en": "crate of water bottles" }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "number": 41,
+        "statement": "Der Sprecher kauft unter der Woche regelmäßig auf dem Wochenmarkt ein.",
+        "statement_en": "The speaker regularly shops at the weekly market during the week.",
+        "correct_answer": "-",
+        "explanation": "Er geht nach der Arbeit in den Supermarkt und schafft es unter der Woche nie auf den Wochenmarkt."
+      },
+      {
+        "number": 42,
+        "statement": "Die Sprecherin schätzt auf dem Wochenmarkt besonders die Frische der Produkte.",
+        "statement_en": "The speaker particularly appreciates the freshness of the products at the weekly market.",
+        "correct_answer": "+",
+        "explanation": "Sie sagt, dass Obst und Gemüse direkt von den Bauern aus der Umgebung kommen und viel frischer sind."
+      },
+      {
+        "number": 43,
+        "statement": "Dem Sprecher sind niedrige Preise beim Einkaufen am wichtigsten.",
+        "statement_en": "Low prices are most important to the speaker when shopping.",
+        "correct_answer": "-",
+        "explanation": "Er kauft im Bioladen ein, obwohl es teurer ist, weil ihm ökologische Landwirtschaft wichtig ist."
+      },
+      {
+        "number": 44,
+        "statement": "Die Sprecherin achtet beim Lebensmitteleinkauf sehr auf den Preis.",
+        "statement_en": "The speaker pays close attention to price when buying groceries.",
+        "correct_answer": "+",
+        "explanation": "Mit drei Kindern hat die Familie ein knappes Budget und kauft günstig beim Discounter ein."
+      },
+      {
+        "number": 45,
+        "statement": "Der Sprecher bestellt sich seine Getränke und Lebensmittel im Internet.",
+        "statement_en": "The speaker orders his drinks and groceries on the Internet.",
+        "correct_answer": "+",
+        "explanation": "Er bestellt Lebensmittel und schwere Wasserkisten online und lässt sie nach Hause liefern."
+      }
+    ]
+  },
+  "hoerverstehen_teil_2": {
+    "instructions": "Sie hören nun ein Gespräch. Dazu sollen Sie zehn Aufgaben lösen. Sie hören das Gespräch zweimal. Entscheiden Sie beim Hören, ob die Aussagen 46–55 richtig (+) oder falsch (-) sind.",
+    "interview_transcript": {
+      "text": "Moderator: Hallo zusammen! Immer mehr Unternehmen melden ihre Mitarbeiterinnen und Mitarbeiter zu sogenannten Firmenläufen an. Bei mir im Studio ist heute Lukas Weber, der in seiner Firma gerade ein Laufteam für den nächsten Stadtlauf über fünf Kilometer organisiert hat. Herr Weber, wie kam es dazu?\nLukas Weber: Hallo! Die Idee kam eigentlich von unserer Geschäftsführung. Viele von uns sitzen den ganzen Tag im Büro vor dem Computer und bewegen sich viel zu wenig. Da hat die Firma beschlossen, die Startgebühren und sogar einheitliche Laufshirts für alle zu bezahlen, die beim Firmenlauf mitmachen wollen.\nModerator: Und waren Ihre Kolleginnen und Kollegen sofort begeistert?\nLukas Weber: Am Anfang waren viele skeptisch. Einige meinten, sie seien völlig unsportlich und würden keine fünf Kilometer schaffen. Aber wir haben dann betont, dass es überhaupt nicht um Bestzeiten oder ums Gewinnen geht, sondern um den gemeinsamen Spaß. Man darf die Strecke sogar schnell gehen, also walken.\nModerator: Trainieren Sie denn auch zusammen?\nLukas Weber: Ja, wir treffen uns seit zwei Monaten jeden Mittwoch direkt nach Feierabend für eine Stunde im Park neben dem Bürogebäude. Ein Kollege, der früher Leichtathletik gemacht hat, leitet das Training ehrenamtlich. Er zeigt uns Aufwärmübungen und achtet darauf, dass niemand zu schnell läuft.\nModerator: Hat das gemeinsame Training auch etwas am Arbeitsklima verändert?\nLukas Weber: Auf jeden Fall! Beim Laufen lernt man Kollegen aus ganz anderen Abteilungen kennen, mit denen man sonst nur am Telefon oder per E-Mail zu tun hat. Sogar unser Abteilungsleiter läuft in Turnschuhen mit – da redet man plötzlich ganz ungezwungen miteinander.\nModerator: Und was passiert nach dem Lauf?\nLukas Weber: Im Zielbereich gibt es ein großes Festzelt für alle teilnehmenden Firmen mit Musik, alkoholfreiem Bier und einem gesunden Buffet. Darauf freuen sich die meisten fast noch mehr als auf den Lauf selbst!",
+      "text_en": "Host: Hello everyone! More and more companies are registering their employees for so-called corporate runs. With me in the studio today is Lukas Weber, who just organized a running team in his company for the next 5K city run. Mr. Weber, how did that come about?\nLukas Weber: Hello! The idea actually came from our management. Many of us sit in the office in front of the computer all day and get far too little exercise. So the company decided to pay the entry fees and even matching running shirts for everyone who wants to participate in the corporate run.\nHost: And were your colleagues immediately enthusiastic?\nLukas Weber: At the beginning many were skeptical. Some said they were completely unathletic and wouldn't manage five kilometers. But we emphasized that it's not at all about best times or winning, but about having fun together. You're even allowed to walk the route briskly.\nHost: Do you also train together?\nLukas Weber: Yes, for two months now we've been meeting every Wednesday right after work for an hour in the park next to the office building. A colleague who used to do track and field leads the training voluntarily. He shows us warm-up exercises and makes sure nobody runs too fast.\nHost: Has training together also changed the working atmosphere?\nLukas Weber: Definitely! While running, you get to know colleagues from completely different departments whom you otherwise only deal with by phone or email. Even our department head runs along in sneakers—suddenly you talk to each other very casually.\nHost: And what happens after the run?\nLukas Weber: In the finish area there is a big festival tent for all participating companies with music, non-alcoholic beer, and a healthy buffet. Most people are looking forward to that almost more than to the run itself!",
+      "vocabulary": [
+        { "de": "der Firmenlauf", "en": "corporate run / company race" },
+        { "de": "die Startgebühr", "en": "entry fee" },
+        { "de": "das Arbeitsklima", "en": "working atmosphere" },
+        { "de": "ungezwungen", "en": "casual / informal" }
+      ]
+    },
+    "questions": [
+      {
+        "number": 46,
+        "statement": "Herr Weber hatte als Erster die Idee zur Teilnahme am Firmenlauf.",
+        "statement_en": "Mr. Weber was the first to have the idea to participate in the corporate run.",
+        "correct_answer": "-",
+        "explanation": "Die Idee kam von der Geschäftsführung der Firma."
+      },
+      {
+        "number": 47,
+        "statement": "Die Mitarbeiter müssen die Anmeldegebühr für den Lauf selbst bezahlen.",
+        "statement_en": "Employees have to pay the registration fee for the run themselves.",
+        "correct_answer": "-",
+        "explanation": "Die Firma bezahlt die Startgebühren und die Laufshirts für alle Teilnehmer."
+      },
+      {
+        "number": 48,
+        "statement": "Die Laufstrecke beim Firmenlauf ist fünf Kilometer lang.",
+        "statement_en": "The running route at the corporate run is five kilometers long.",
+        "correct_answer": "+",
+        "explanation": "Es handelt sich um einen Stadtlauf über fünf Kilometer."
+      },
+      {
+        "number": 49,
+        "statement": "Beim Firmenlauf dürfen nur gut trainierte Läufer mitmachen.",
+        "statement_en": "Only well-trained runners are allowed to participate in the corporate run.",
+        "correct_answer": "-",
+        "explanation": "Es geht nicht um Bestzeiten; auch Unsportliche können mitmachen und die Strecke sogar walken."
+      },
+      {
+        "number": 50,
+        "statement": "Das Laufteam trainiert einmal pro Woche nach der Arbeit.",
+        "statement_en": "The running team trains once a week after work.",
+        "correct_answer": "+",
+        "explanation": "Sie treffen sich jeden Mittwoch direkt nach Feierabend im Park."
+      },
+      {
+        "number": 51,
+        "statement": "Die Firma hat einen professionellen Fitnesstrainer von außerhalb bezahlt.",
+        "statement_en": "The company paid an outside professional fitness trainer.",
+        "correct_answer": "-",
+        "explanation": "Ein Kollege, der früher Leichtathletik gemacht hat, leitet das Training ehrenamtlich."
+      },
+      {
+        "number": 52,
+        "statement": "Durch das Training lernen sich Mitarbeiter aus verschiedenen Abteilungen besser kennen.",
+        "statement_en": "Through the training, employees from different departments get to know each other better.",
+        "correct_answer": "+",
+        "explanation": "Man lernt beim Laufen Kollegen aus anderen Abteilungen persönlich kennen."
+      },
+      {
+        "number": 53,
+        "statement": "Der Abteilungsleiter lehnt den Firmenlauf ab und nimmt nicht teil.",
+        "statement_en": "The department head rejects the corporate run and does not participate.",
+        "correct_answer": "-",
+        "explanation": "Sogar der Abteilungsleiter läuft beim Training mit."
+      },
+      {
+        "number": 54,
+        "statement": "Nach dem Lauf findet im Zielbereich eine gemeinsame Feier statt.",
+        "statement_en": "After the run, a joint celebration takes place in the finish area.",
+        "correct_answer": "+",
+        "explanation": "Im Zielbereich gibt es ein großes Festzelt mit Musik, Getränken und Buffet."
+      },
+      {
+        "number": 55,
+        "statement": "Die Teilnehmer gehen direkt nach dem Zieleinlauf ohne Pause nach Hause.",
+        "statement_en": "Participants go straight home without a break right after crossing the finish line.",
+        "correct_answer": "-",
+        "explanation": "Die meisten freuen sich auf das anschließende Fest im Zelt fast noch mehr als auf den Lauf."
+      }
+    ]
+  },
+  "hoerverstehen_teil_3": {
+    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören jeden Text zweimal. Entscheiden Sie beim Hören, ob die Aussagen 56–60 richtig (+) oder falsch (-) sind.",
+    "transcripts": [
+      {
+        "number": 56,
+        "text": "Nummer 56: Guten Tag, hier ist die Buchhandlung Schmitt in der Wilhelmstraße. Sie hatten bei uns das Kochbuch 'Italienische Küche' bestellt. Das Buch ist heute angekommen und liegt für Sie an der Kasse im Erdgeschoss bereit. Sie können es von Montag bis Samstag zwischen 9 und 19 Uhr abholen.",
+        "text_en": "Number 56: Hello, this is the Schmitt bookstore on Wilhelmstraße. You ordered the cookbook 'Italian Cuisine' from us. The book arrived today and is ready for you at the cash desk on the ground floor. You can pick it up Monday through Saturday between 9 a.m. and 7 p.m.",
+        "vocabulary": [
+          { "de": "die Buchhandlung", "en": "bookstore" },
+          { "de": "bereitliegen", "en": "to be ready for pickup" }
+        ]
+      },
+      {
+        "number": 57,
+        "text": "Nummer 57: Eine Information für die Fahrgäste der Straßenbahnlinie 4: Wegen Bauarbeiten in der Wilhelmstraße fahren die Bahnen an diesem Wochenende nur bis zum Marktplatz. Vom Marktplatz bis zum Hauptbahnhof benutzen Sie bitte die Ersatzbusse an der Haltestelle gegenüber dem Rathaus.",
+        "text_en": "Number 57: Information for passengers on tram line 4: Due to construction work on Wilhelmstraße, trams are only running as far as Marktplatz this weekend. From Marktplatz to the main train station, please use the replacement buses at the stop opposite City Hall.",
+        "vocabulary": [
+          { "de": "die Bauarbeiten", "en": "construction work" },
+          { "de": "der Ersatzbus", "en": "replacement bus" }
+        ]
+      },
+      {
+        "number": 58,
+        "text": "Nummer 58: Und hier das Wetter für morgen: Im Süden beginnt der Tag noch mit dichten Wolken und einzelnen Regenschauern bei maximal 14 Grad. Am Nachmittag setzt sich aber von Westen her die Sonne durch und am Sonntag erwartet uns überall strahlender Sonnenschein bei bis zu 22 Grad.",
+        "text_en": "Number 58: And here is the weather for tomorrow: In the south the day still begins with thick clouds and scattered rain showers at a maximum of 14 degrees. In the afternoon, however, the sun will break through from the west, and on Sunday bright sunshine at up to 22 degrees awaits us everywhere.",
+        "vocabulary": [
+          { "de": "der Regenschauer", "en": "rain shower" },
+          { "de": "sich durchsetzen", "en": "to prevail / break through" }
+        ]
+      },
+      {
+        "number": 59,
+        "text": "Nummer 59: Liebe Kunden, beachten Sie heute unser besonderes Jubiläumsangebot in der Sportabteilung im zweiten Stock: Auf alle Laufschuhe und Trainingsanzüge erhalten Sie heute und morgen 20 Prozent Rabatt. Unsere Fachberater helfen Ihnen gern bei der Auswahl der passenden Größe.",
+        "text_en": "Number 59: Dear customers, please note our special anniversary offer today in the sports department on the second floor: Today and tomorrow you receive a 20 percent discount on all running shoes and tracksuits. Our specialist advisors will gladly help you choose the right size.",
+        "vocabulary": [
+          { "de": "das Jubiläumsangebot", "en": "anniversary offer" },
+          { "de": "der Rabatt", "en": "discount" }
+        ]
+      },
+      {
+        "number": 60,
+        "text": "Nummer 60: Hallo Nina, hier ist Markus. Du, wegen heute Abend: Das neue Restaurant in der Wilhelmstraße ist leider komplett ausgebucht, ich habe keinen Tisch mehr bekommen. Ich habe jetzt stattdessen für 20 Uhr beim Griechen am Stadtpark reserviert. Wir treffen uns dann direkt dort!",
+        "text_en": "Number 60: Hi Nina, this is Markus. Listen, about tonight: The new restaurant on Wilhelmstraße is unfortunately completely booked out, I couldn't get a table. Instead, I reserved for 8 p.m. at the Greek restaurant by the city park. We'll meet right there!",
+        "vocabulary": [
+          { "de": "ausgebucht", "en": "fully booked" },
+          { "de": "stattdessen", "en": "instead" }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "number": 56,
+        "statement": "Sie können das bestellte Buch ab heute in der Buchhandlung abholen.",
+        "statement_en": "You can pick up the ordered book at the bookstore starting today.",
+        "correct_answer": "+",
+        "explanation": "Das Buch ist heute angekommen und liegt an der Kasse im Erdgeschoss bereit."
+      },
+      {
+        "number": 57,
+        "statement": "Die Straßenbahnlinie 4 fährt am Wochenende wegen Bauarbeiten nicht bis zum Hauptbahnhof.",
+        "statement_en": "Tram line 4 does not run to the main station on the weekend due to construction work.",
+        "correct_answer": "+",
+        "explanation": "Die Bahnen fahren nur bis zum Marktplatz; weiter zum Hauptbahnhof fahren Ersatzbusse."
+      },
+      {
+        "number": 58,
+        "statement": "Morgen Vormittag scheint im Süden überall die Sonne.",
+        "statement_en": "Tomorrow morning the sun will shine everywhere in the south.",
+        "correct_answer": "-",
+        "explanation": "Im Süden beginnt der Tag mit dichten Wolken und Regenschauern; erst am Nachmittag kommt die Sonne."
+      },
+      {
+        "number": 59,
+        "statement": "In der Sportabteilung sind heute alle Laufschuhe reduziert.",
+        "statement_en": "In the sports department, all running shoes are discounted today.",
+        "correct_answer": "+",
+        "explanation": "Auf alle Laufschuhe und Trainingsanzüge gibt es heute und morgen 20 Prozent Rabatt."
+      },
+      {
+        "number": 60,
+        "statement": "Markus hat für heute Abend einen Tisch im neuen Restaurant in der Wilhelmstraße reserviert.",
+        "statement_en": "Markus reserved a table for tonight at the new restaurant on Wilhelmstraße.",
+        "correct_answer": "-",
+        "explanation": "Das Restaurant in der Wilhelmstraße war ausgebucht; er hat stattdessen beim Griechen am Stadtpark reserviert."
+      }
+    ]
+  }
+}

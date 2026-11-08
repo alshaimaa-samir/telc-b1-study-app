@@ -1,0 +1,360 @@
+{
+  "title": "Moritz",
+  "leseverstehen_teil_1": {
+    "headings": {
+      "a": "Bio-Gemüse direkt vom Bauernhof",
+      "b": "Einkaufen ohne Plastik und Verpackungsmüll",
+      "c": "Günstige Geschenke aus dem Internet",
+      "d": "Kinder basteln Weihnachtsschmuck",
+      "e": "Neue Öffnungszeiten für Geschäfte in der Innenstadt",
+      "f": "Ökologischer Weihnachtsmarkt mit besonderen Geschenkideen",
+      "g": "Plastikflaschen werden immer teurer",
+      "h": "Rezepte für das perfekte Weihnachtsessen",
+      "i": "Supermärkte verkaufen weniger Obst",
+      "j": "Weniger Lebensmittel wegwerfen durch richtige Planung"
+    },
+    "headings_en": {
+      "a": "Organic vegetables directly from the farm",
+      "b": "Shopping without plastic and packaging waste",
+      "c": "Inexpensive gifts from the Internet",
+      "d": "Children make Christmas decorations",
+      "e": "New opening hours for stores in the city center",
+      "f": "Ecological Christmas market with special gift ideas",
+      "g": "Plastic bottles are getting more and more expensive",
+      "h": "Recipes for the perfect Christmas dinner",
+      "i": "Supermarkets sell less fruit",
+      "j": "Throwing away less food through proper planning"
+    },
+    "passages": [
+      {
+        "number": 1,
+        "text": "Jedes Jahr landen in deutschen Haushalten riesige Mengen an Plastikfolien, Dosen und Kartons im Müll. In sogenannten Unverpackt-Läden geht das jetzt auch anders: Hier bringen die Kunden ihre eigenen Gläser, Dosen und Stoffbeutel von zu Hause mit und füllen sich Nudeln, Reis, Müsli, Gewürze oder sogar Shampoo genau in der Menge ab, die sie wirklich brauchen.",
+        "text_en": "Every year, huge amounts of plastic wrap, cans, and cardboard boxes end up in the trash in German households. In so-called zero-waste stores, things can now be done differently: customers bring their own jars, containers, and cloth bags from home and fill up on pasta, rice, muesli, spices, or even shampoo in the exact amount they actually need.",
+        "correct_answer": "b",
+        "explanation": "Der Text beschreibt das Konzept von Unverpackt-Läden, in denen man ohne Plastik und Verpackungen einkauft.",
+        "vocabulary": [
+          { "de": "der Verpackungsmüll", "en": "packaging waste" },
+          { "de": "der Stoffbeutel", "en": "cloth bag" },
+          { "de": "abfüllen", "en": "to fill / dispense" }
+        ]
+      },
+      {
+        "number": 2,
+        "text": "Wer vor Weihnachten abseits vom üblichen Konsumstress nach originellen Geschenken sucht, sollte am zweiten Adventswochenende den Umwelt-Weihnachtsmarkt am Schlossplatz besuchen. Dort verkaufen regionale Handwerker und Künstler handgemachtes Holzspielzeug, Naturkosmetik, Kerzen aus Bienenwachs sowie fair gehandelte Kleidung. Dazu gibt es heißen Bio-Apfelpunsch.",
+        "text_en": "Anyone looking for original gifts before Christmas away from the usual consumer stress should visit the environmental Christmas market at Schlossplatz on the second weekend of Advent. There, regional craftspeople and artists sell handmade wooden toys, natural cosmetics, beeswax candles, and fair-trade clothing. Hot organic apple punch is also served.",
+        "correct_answer": "f",
+        "explanation": "Es geht um einen Umwelt-Weihnachtsmarkt mit nachhaltigen, handgemachten Geschenkideen.",
+        "vocabulary": [
+          { "de": "der Weihnachtsmarkt", "en": "Christmas market" },
+          { "de": "handgemacht", "en": "handmade" },
+          { "de": "fair gehandelt", "en": "fair-trade" }
+        ]
+      },
+      {
+        "number": 3,
+        "text": "Fast jeder achte Einkauf landet irgendwann ungenutzt in der Mülltonne, weil wir im Supermarkt oft mehr kaufen, als wir essen können. Experten empfehlen deshalb, vor dem Einkaufen immer einen genauen Wochenplan zu schreiben und vorher den Kühlschrank zu kontrollieren. Wer mit einer festen Einkaufsliste ins Geschäft geht, spart nicht nur viel Geld, sondern schützt auch die Umwelt.",
+        "text_en": "Almost one in eight purchases eventually ends up unused in the trash bin because we often buy more in the supermarket than we can eat. Experts therefore recommend always writing an exact weekly meal plan before shopping and checking the refrigerator beforehand. Going to the store with a fixed shopping list not only saves a lot of money, but also protects the environment.",
+        "correct_answer": "j",
+        "explanation": "Durch Wochenplanung und Einkaufslisten wirft man weniger Lebensmittel weg.",
+        "vocabulary": [
+          { "de": "wegwerfen", "en": "to throw away" },
+          { "de": "die Mülltonne", "en": "trash bin" },
+          { "de": "die Einkaufsliste", "en": "shopping list" }
+        ]
+      },
+      {
+        "number": 4,
+        "text": "Frischer geht es nicht: Immer mehr Familien bestellen sich einmal pro Woche eine sogenannte Gemüsekiste direkt vom Bio-Bauernhof aus der Region. Je nach Jahreszeit stellen die Landwirte frischen Salat, Kartoffeln, Karotten, Äpfel und Kräuter zusammen und liefern die Kiste direkt bis vor die Haustür. Oft liegt auch ein Rezeptblatt für unbekanntere Gemüsesorten dabei.",
+        "text_en": "It doesn't get any fresher: more and more families order a so-called vegetable box once a week directly from a regional organic farm. Depending on the season, farmers put together fresh lettuce, potatoes, carrots, apples, and herbs and deliver the box right to the front door. Often a recipe sheet for less familiar vegetables is included.",
+        "correct_answer": "a",
+        "explanation": "Familien erhalten eine frische Bio-Gemüsekiste direkt vom Bauernhof geliefert.",
+        "vocabulary": [
+          { "de": "der Bauernhof", "en": "farm" },
+          { "de": "der Landwirt", "en": "farmer" },
+          { "de": "die Jahreszeit", "en": "season" }
+        ]
+      },
+      {
+        "number": 5,
+        "text": "In der Stadtbibliothek können Kinder ab sechs Jahren an allen Samstagen im Dezember ihren eigenen Schmuck für den Weihnachtsbaum herstellen. Aus altem Papier, Tannenzapfen, Nüssen und bunten Stoffresten entstehen unter Anleitung tolle Sterne und Figuren. Die Teilnahme und das Material sind kostenlos, Eltern können in der Zwischenzeit entspannt ihre Weihnachtseinkäufe erledigen.",
+        "text_en": "At the city library, children aged six and up can make their own Christmas tree decorations on all Saturdays in December. Using old paper, pine cones, nuts, and colorful fabric scraps, great stars and figures are created under guidance. Participation and materials are free, and parents can relax and do their Christmas shopping in the meantime.",
+        "correct_answer": "d",
+        "explanation": "Kinder basteln in der Bibliothek eigenen Weihnachtsschmuck aus Naturmaterialien und Papier.",
+        "vocabulary": [
+          { "de": "basteln", "en": "to do handicrafts / make" },
+          { "de": "der Weihnachtsschmuck", "en": "Christmas decorations" },
+          { "de": "der Tannenzapfen", "en": "pine cone" }
+        ]
+      }
+    ]
+  },
+  "leseverstehen_teil_2": {
+    "passage": {
+      "headline": "Ein neues Leben unter Palmen",
+      "subheadline": "Wie die Juristin Svenja Peters auf Sumatra ihre wahre Berufung fand",
+      "paragraphs": [
+        "Eigentlich war der Lebensweg von Svenja Peters klar vorgezeichnet: Nach dem erfolgreich abgeschlossenen Jurastudium in Hamburg wollte sie erst einmal eine längere Asienreise machen, bevor sie in einer großen Kanzlei als Anwältin anfangen sollte. Geplant waren vier Wochen Thailand und anschließend zwei Wochen auf der indonesischen Insel Sumatra. Doch auf Sumatra lernte sie den Tauchlehrer Ketut kennen und verliebte sich Hals über Kopf in ihn.",
+        "Nach dem Ende ihrer Reise kehrte Svenja zwar noch einmal kurz nach Deutschland zurück, aber nur, um ihre Wohnung aufzulösen, ihre Möbel zu verkaufen und ihren Umzug nach Indonesien zu organisieren. Ihre Eltern waren anfangs wenig begeistert und machten sich große Sorgen, dass ihr langes und schweres Studium nun völlig umsonst gewesen sei.",
+        "Auf Sumatra eröffnete Svenja gemeinsam mit Ketut zunächst ein kleines Strandrestaurant für Touristen. Weil immer mehr Gäste fragten, ob sie dort auch übernachten könnten, bauten die beiden nach und nach kleine Bungalows. Heute führen Svenja und ihr Mann erfolgreich ein gemütliches Hotel mit 36 Zimmern direkt am Meer – und ihre juristischen Kenntnisse helfen ihr dabei, sich mit Verträgen und Behörden auseinanderzusetzen."
+      ],
+      "text_en": "Actually, Svenja Peters's path in life was clearly mapped out: after successfully completing her law degree in Hamburg, she wanted to take an extended trip to Asia before starting as a lawyer at a large firm. Four weeks in Thailand followed by two weeks on the Indonesian island of Sumatra were planned. But on Sumatra she met diving instructor Ketut and fell head over heels in love with him. After the end of her trip, Svenja briefly returned to Germany, but only to give up her apartment, sell her furniture, and organize her move to Indonesia. Her parents were initially unenthusiastic and worried that her long and difficult studies had been completely in vain. On Sumatra, Svenja and Ketut first opened a small beach restaurant for tourists. Because more and more guests asked if they could also stay overnight, the two gradually built small bungalows. Today Svenja and her husband successfully run a cozy 36-room hotel right by the sea.",
+      "vocabulary": [
+        { "de": "die Anwältin", "en": "female lawyer" },
+        { "de": "sich verlieben", "en": "to fall in love" },
+        { "de": "der Umzug", "en": "move / relocation" },
+        { "de": "umsonst", "en": "in vain / for nothing" }
+      ]
+    },
+    "questions": [
+      {
+        "number": 6,
+        "question": "Svenja Peters blieb auf Sumatra, weil",
+        "question_en": "Svenja Peters stayed on Sumatra because",
+        "options": {
+          "a": "ihr Thailand nicht gefiel.",
+          "b": "sie dort als Anwältin arbeiten konnte.",
+          "c": "sie sich verliebte."
+        },
+        "options_en": {
+          "a": "she did not like Thailand.",
+          "b": "she could work there as a lawyer.",
+          "c": "she fell in love."
+        },
+        "correct_answer": "c",
+        "explanation": "Auf Sumatra lernte sie Ketut kennen und verliebte sich in ihn."
+      },
+      {
+        "number": 7,
+        "question": "Nach ihrer Rückkehr nach Deutschland",
+        "question_en": "After her return to Germany",
+        "options": {
+          "a": "organisierte Svenja ihren Umzug.",
+          "b": "setzte Svenja ihr Studium fort.",
+          "c": "suchte Svenja eine Stelle als Anwältin."
+        },
+        "options_en": {
+          "a": "Svenja organized her move.",
+          "b": "Svenja continued her studies.",
+          "c": "Svenja looked for a job as a lawyer."
+        },
+        "correct_answer": "a",
+        "explanation": "Sie kehrte nur zurück, um ihre Wohnung aufzulösen und ihren Umzug nach Indonesien zu organisieren."
+      },
+      {
+        "number": 8,
+        "question": "Ihre Eltern hatten Angst, dass",
+        "question_en": "Her parents were afraid that",
+        "options": {
+          "a": "sie Svenja nicht wiedersehen würden.",
+          "b": "Svenja nicht selbstständig sein würde.",
+          "c": "Svenjas Studium umsonst war."
+        },
+        "options_en": {
+          "a": "they would not see Svenja again.",
+          "b": "Svenja would not be independent.",
+          "c": "Svenja's studies had been in vain."
+        },
+        "correct_answer": "c",
+        "explanation": "Die Eltern machten sich Sorgen, dass ihr langes Jurastudium umsonst gewesen sei."
+      },
+      {
+        "number": 9,
+        "question": "Svenja und ihr Mann",
+        "question_en": "Svenja and her husband",
+        "options": {
+          "a": "führen ein Hotel mit 36 Zimmern.",
+          "b": "haben zwei Kinder.",
+          "c": "sind seit 36 Jahren ein Paar."
+        },
+        "options_en": {
+          "a": "run a hotel with 36 rooms.",
+          "b": "have two children.",
+          "c": "have been a couple for 36 years."
+        },
+        "correct_answer": "a",
+        "explanation": "Im letzten Absatz steht: 'Heute führen Svenja und ihr Mann erfolgreich ein gemütliches Hotel mit 36 Zimmern'."
+      },
+      {
+        "number": 10,
+        "question": "Svenja eröffnete auf Sumatra",
+        "question_en": "On Sumatra, Svenja opened",
+        "options": {
+          "a": "direkt das Hotel.",
+          "b": "ein Büro als Anwältin.",
+          "c": "zuerst ein Restaurant."
+        },
+        "options_en": {
+          "a": "the hotel right away.",
+          "b": "an office as a lawyer.",
+          "c": "a restaurant first."
+        },
+        "correct_answer": "c",
+        "explanation": "Im Text steht: 'Auf Sumatra eröffnete Svenja gemeinsam mit Ketut zunächst ein kleines Strandrestaurant'."
+      }
+    ]
+  },
+  "leseverstehen_teil_3": {
+    "advertisements": {},
+    "situations": []
+  },
+  "sprachbausteine_teil_1": {
+    "instructions": "Lesen Sie den Text und schließen Sie die Lücken 21–30. Welche Lösung (a, b oder c) ist jeweils richtig?",
+    "passage": {
+      "text": "Liebe Katharina,\njetzt ___21___ wir uns schon seit über einem halben Jahr nicht mehr gesehen! Wie schnell die Zeit vergeht. Wir haben ___22___ sehr über deine Einladung nach München gefreut. Natürlich kommen wir dich ___23___ den Sommerferien sehr gern besuchen.\nDu ___24___ dir wegen unseres Besuchs aber keine große Arbeit machen. Für ___25___ lange Wochenende reicht uns ein kleines Gästezimmer völlig aus. Nur ___26___ unseres Hundes Bello wollte ich dich noch etwas fragen: Können wir ihn mitbringen oder müssen wir für ___27___ vier Tage eine andere ___28___ suchen?\nIch schicke dir mit ___29___ Brief auch schon mal eine CD mit den Urlaubsfotos vom letzten Jahr, auf der ich alle ___30___ Bilder gespeichert habe.\nHerzliche Grüße\ndein Moritz",
+      "text_en": "Dear Katharina, now we haven't seen each other for over half a year! How quickly time flies. We were very happy about your invitation to Munich. Of course we would love to come visit you during the summer holidays. However, you don't have to go to a lot of trouble because of our visit. For the long weekend, a small guest room is completely sufficient for us. Just because of our dog Bello I wanted to ask you something: Can we bring him along or do we have to look for other accommodation for the four days? With my letter I am also sending you a CD with last year's vacation photos, on which I saved all the digital pictures. Warm regards, your Moritz",
+      "vocabulary": [
+        { "de": "die Unterkunft", "en": "accommodation" },
+        { "de": "speichern", "en": "to save (data)" }
+      ]
+    },
+    "questions": [
+      {
+        "number": 21,
+        "options": { "a": "haben", "b": "hatten", "c": "sind" },
+        "correct_answer": "a",
+        "explanation": "Perfekt von 'sehen' im Präsensbezug ('seit über einem halben Jahr'): 'haben ... gesehen'."
+      },
+      {
+        "number": 22,
+        "options": { "a": "euch", "b": "sich", "c": "uns" },
+        "correct_answer": "c",
+        "explanation": "Reflexivpronomen 1. Person Plural zu 'Wir haben uns gefreut'."
+      },
+      {
+        "number": 23,
+        "options": { "a": "am", "b": "in", "c": "zu" },
+        "correct_answer": "b",
+        "explanation": "Temporale Präposition bei Ferien/Wochen: 'in den Sommerferien'."
+      },
+      {
+        "number": 24,
+        "options": { "a": "musst", "b": "müsst", "c": "musste" },
+        "correct_answer": "a",
+        "explanation": "2. Person Singular Präsens passend zu 'Du': 'Du musst dir keine Arbeit machen'."
+      },
+      {
+        "number": 25,
+        "options": { "a": "das", "b": "dem", "c": "den" },
+        "correct_answer": "a",
+        "explanation": "Akkusativ Neutrum nach 'für': 'Für das lange Wochenende'."
+      },
+      {
+        "number": 26,
+        "options": { "a": "trotz", "b": "während", "c": "wegen" },
+        "correct_answer": "c",
+        "explanation": "Kausale Präposition mit Genitiv: 'wegen unseres Hundes'."
+      },
+      {
+        "number": 27,
+        "options": { "a": "den", "b": "der", "c": "die" },
+        "correct_answer": "c",
+        "explanation": "Akkusativ Plural nach 'für': 'für die vier Tage'."
+      },
+      {
+        "number": 28,
+        "options": { "a": "Aufenthalt", "b": "Reise", "c": "Unterkunft" },
+        "correct_answer": "c",
+        "explanation": "'eine andere Unterkunft suchen' (Übernachtungsmöglichkeit)."
+      },
+      {
+        "number": 29,
+        "options": { "a": "meine", "b": "meinem", "c": "meinen" },
+        "correct_answer": "b",
+        "explanation": "Dativ Maskulin nach 'mit': 'mit meinem Brief'."
+      },
+      {
+        "number": 30,
+        "options": { "a": "digitale", "b": "digitalen", "c": "digitaler" },
+        "correct_answer": "a",
+        "explanation": "Akkusativ Plural: 'digitale Bilder'."
+      }
+    ]
+  },
+  "sprachbausteine_teil_2": {
+    "instructions": "Lesen Sie den Text und schließen Sie die Lücken 31–40. Benutzen Sie die Wörter a–o. Jedes Wort passt nur einmal.",
+    "word_bank": {},
+    "passage": {
+      "text": ""
+    },
+    "questions": []
+  },
+  "hoerverstehen_teil_1": {
+    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören diese Texte nur einmal. Entscheiden Sie beim Hören, ob die Aussagen 41–45 richtig (+) oder falsch (-) sind.",
+    "transcripts": [],
+    "questions": []
+  },
+  "hoerverstehen_teil_2": {
+    "instructions": "Sie hören nun ein Gespräch. Dazu sollen Sie zehn Aufgaben lösen. Sie hören das Gespräch zweimal. Entscheiden Sie beim Hören, ob die Aussagen 46–55 richtig (+) oder falsch (-) sind.",
+    "interview_transcript": {
+      "text": "Moderatorin: Guten Tag, liebe Hörerinnen und Hörer. Computer, Tablets und Smartphones gehören heute schon für die Kleinsten zum Alltag. Bei mir im Studio begrüße ich heute den Medienpädagogen Herrn Russo, der Eltern und Schulen zum Thema 'Kinder und Computer' berät. Herr Russo, ab welchem Alter sollten Kinder denn überhaupt an den Computer dürfen?\nHerr Russo: Guten Tag! Also, im Kindergartenalter bis etwa sechs Jahre brauchen Kinder eigentlich noch gar keinen Computer. In dieser Zeit ist es viel wichtiger, dass sie draußen spielen, klettern, malen und mit anderen Kindern direkt sprechen. Erst ab der Grundschule wird der Computer langsam interessant, zum Beispiel um erste Lernspiele zu machen oder etwas für die Schule nachzuschlagen.\nModeratorin: Viele Eltern kaufen ihren Kindern einen eigenen Computer fürs Kinderzimmer, damit sie dort für die Schule arbeiten können. Ist das sinnvoll?\nHerr Russo: Bei jüngeren Kindern bis etwa zwölf Jahre rate ich dringend davon ab, einen Computer mit Internetanschluss ins Kinderzimmer zu stellen. Der Computer sollte lieber im Wohnzimmer stehen. So bekommen die Eltern ganz selbstverständlich mit, was ihr Kind am Bildschirm macht, und können sofort helfen, wenn Fragen auftauchen oder wenn das Kind im Internet auf Seiten stößt, die für sein Alter nicht geeignet sind.\nModeratorin: Wie lange sollten Kinder denn täglich vor dem Bildschirm sitzen?\nHerr Russo: Das hängt natürlich vom Alter ab. Für Grundschulkinder reichen 30 bis 45 Minuten am Tag völlig aus. Bei Zwölf- bis Vierzehnjährigen kann es auch mal eine Stunde sein. Wichtig ist vor allem, dass Eltern klare Regeln mit ihren Kindern vereinbaren – und zwar gemeinsam, nicht einfach als Verbot von oben herab.\nModeratorin: Was halten Sie denn von Computerspielen? Viele Eltern machen sich Sorgen, dass ihre Kinder dadurch schlechter in der Schule werden.\nHerr Russo: Nicht jedes Computerspiel ist schlecht. Es gibt wunderbare Strategie- und Aufbauspiele, die das logische Denken und die Konzentration fördern. Problematisch wird es erst, wenn Kinder stundenlang gewalttätige Spiele spielen oder wegen des Computers ihre Hausaufgaben, den Sportverein und ihre Freunde vernachlässigen. Und noch ein Tipp: Eltern sollten sich ruhig mal neben ihr Kind setzen und sich ein Spiel erklären lassen – das schafft Vertrauen!",
+      "text_en": "Host: Good afternoon, dear listeners. Computers, tablets, and smartphones are part of everyday life even for the youngest children today. In the studio today I welcome media educator Mr. Russo, who advises parents and schools on the topic 'Children and Computers.' Mr. Russo, from what age should children be allowed to use a computer at all?\nMr. Russo: Hello! Well, at kindergarten age up to about six years old, children don't really need a computer at all yet. During this time it is much more important that they play outside, climb, paint, and talk directly with other children. Only starting in elementary school does the computer slowly become interesting, for example to play early learning games or look something up for school.\nHost: Many parents buy their children their own computer for their bedroom so they can work for school there. Does that make sense?\nMr. Russo: For younger children up to about twelve years old, I strongly advise against putting a computer with Internet access in the child's bedroom. The computer should rather be in the living room. That way parents naturally see what their child is doing on the screen and can help immediately if questions arise or if the child comes across websites not suitable for their age.\nHost: How long should children sit in front of the screen daily?\nMr. Russo: That depends on age, of course. For elementary school children, 30 to 45 minutes a day is completely sufficient. For twelve- to fourteen-year-olds, it can be an hour. Above all, it is important that parents agree on clear rules with their children—together, not just as a top-down ban.\nHost: What do you think of computer games? Many parents worry that their children will do worse in school because of them.\nMr. Russo: Not every computer game is bad. There are wonderful strategy and building games that promote logical thinking and concentration. It only becomes problematic when children play violent games for hours or neglect their homework, sports club, and friends because of the computer. And one more tip: parents should sit down next to their child sometime and have them explain a game—that builds trust!",
+      "vocabulary": [
+        { "de": "der Medienpädagoge", "en": "media educator" },
+        { "de": "abraten von", "en": "to advise against" },
+        { "de": "vereinbaren", "en": "to agree upon" },
+        { "de": "vernachlässigen", "en": "to neglect" }
+      ]
+    },
+    "questions": [
+      {
+        "number": 46,
+        "statement": "Herr Russo empfiehlt, dass schon Kindergartenkinder täglich am Computer üben.",
+        "statement_en": "Mr. Russo recommends that kindergarten children already practice on the computer daily.",
+        "correct_answer": "-",
+        "explanation": "Kinder bis sechs Jahre brauchen laut Herrn Russo noch gar keinen Computer, sondern sollen draußen spielen."
+      },
+      {
+        "number": 47,
+        "statement": "Grundschulkinder können den Computer für Lernspiele nutzen.",
+        "statement_en": "Elementary school children can use the computer for educational games.",
+        "correct_answer": "+",
+        "explanation": "Ab der Grundschule wird der Computer sinnvoll für erste Lernspiele oder zum Nachschlagen."
+      },
+      {
+        "number": 48,
+        "statement": "Jüngere Kinder sollten keinen eigenen Computer mit Internet im Kinderzimmer haben.",
+        "statement_en": "Younger children should not have their own computer with Internet in their bedroom.",
+        "correct_answer": "+",
+        "explanation": "Herr Russo rät bei Kindern bis zwölf Jahren dringend davon ab und empfiehlt das Wohnzimmer."
+      },
+      {
+        "number": 49,
+        "statement": "Eltern sollten ihre Kinder im Internet immer völlig allein suchen lassen.",
+        "statement_en": "Parents should always let their children search on the Internet completely alone.",
+        "correct_answer": "-",
+        "explanation": "Eltern sollten im Wohnzimmer mitbekommen, was das Kind macht, und bei Fragen oder ungeeigneten Seiten helfen."
+      },
+      {
+        "number": 50,
+        "statement": "Für Grundschulkinder genügen 30 bis 45 Minuten Computerzeit pro Tag.",
+        "statement_en": "For elementary school children, 30 to 45 minutes of computer time per day is enough.",
+        "correct_answer": "+",
+        "explanation": "Er sagt ausdrücklich, dass für Grundschulkinder 30 bis 45 Minuten am Tag völlig ausreichen."
+      },
+      {
+        "number": 51,
+        "statement": "Eltern und Kinder sollten die Regeln für die Computernutzung gemeinsam festlegen.",
+        "statement_en": "Parents and children should establish the rules for computer use together.",
+        "correct_answer": "+",
+        "explanation": "Eltern sollten klare Regeln gemeinsam mit den Kindern vereinbaren."
+      },
+      {
+        "number": 52,
+        "statement": "Nach Herrn Russos Meinung schaden alle Computerspiele der Konzentration.",
+        "statement_en": "In Mr. Russo's opinion, all computer games harm concentration.",
+        "correct_answer": "-",
+        "explanation": "Gute Strategie- und Aufbauspiele fördern das logische Denken und die Konzentration."
+      },
+      {
+        "number": 53,
+        "statement": "Durch den Computer dürfen Freunde und Hobbys nicht zu kurz kommen.",
+        "statement_en": "Friends and hobbies must not be neglected because of the computer.",
+        "correct_answer": "+",
+        "explanation": "Es wird problematisch, wenn Kinder wegen des Computers Hausaufgaben, Sportverein und Freunde vernachlässigen."
+      },
+      {
+        "number": 54,
+        "statement": "Eltern sollten sich niemals für die Computerspiele ihrer Kinder interessieren.",
+        "statement_en": "Parents should never take an interest in their children's computer games.",
+        "correct_answer": "-",
+        "explanation": "Eltern sollten sich ruhig mal neben ihr Kind setzen und sich ein Spiel erklären lassen

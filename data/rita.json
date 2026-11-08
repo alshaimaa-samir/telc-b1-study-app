@@ -1,0 +1,572 @@
+{
+  "title": "Rita",
+  "leseverstehen_teil_1": {
+    "headings": {
+      "a": "Besser lernen durch kurzen Mittagsschlaf",
+      "b": "Dunkle Schokolade ist gut für das Herz",
+      "c": "Erkältungen vorbeugen durch kaltes und warmes Wasser",
+      "d": "Gesunde Zähne durch weniger Zucker",
+      "e": "Immer mehr Menschen leiden unter Schlafstörungen",
+      "f": "Kaffee am Morgen macht gar nicht wach",
+      "g": "Lachen ist die beste Medizin gegen Stress",
+      "h": "Schokolade macht dick und unglücklich",
+      "i": "Sport am Abend stört den Schlaf",
+      "j": "Wie man abends leichter einschlafen kann"
+    },
+    "headings_en": {
+      "a": "Better learning through a short afternoon nap",
+      "b": "Dark chocolate is good for the heart",
+      "c": "Preventing colds with cold and warm water",
+      "d": "Healthy teeth through less sugar",
+      "e": "More and more people suffer from sleep disorders",
+      "f": "Morning coffee doesn't actually wake you up",
+      "g": "Laughter is the best medicine against stress",
+      "h": "Chocolate makes you fat and unhappy",
+      "i": "Evening exercise disrupts sleep",
+      "j": "How to fall asleep more easily in the evening"
+    },
+    "passages": [
+      {
+        "number": 1,
+        "text": "Für alle Naschkatzen gibt es jetzt eine gute Nachricht: Wer regelmäßig ein kleines Stück dunkle Schokolade mit einem hohen Kakaoanteil von mindestens 70 Prozent isst, tut seiner Gesundheit etwas Gutes. Wissenschaftler haben herausgefunden, dass die im Kakao enthaltenen Pflanzenstoffe den Blutdruck senken und das Herz-Kreislauf-System schützen. Allerdings gilt das nicht für süße Vollmilchschokolade.",
+        "text_en": "There is good news for everyone with a sweet tooth: anyone who regularly eats a small piece of dark chocolate with a high cocoa content of at least 70 percent is doing something good for their health. Scientists have found that the plant compounds contained in cocoa lower blood pressure and protect the cardiovascular system. However, this does not apply to sweet milk chocolate.",
+        "correct_answer": "b",
+        "explanation": "Dunkle Schokolade mit hohem Kakaoanteil senkt den Blutdruck und schützt das Herz.",
+        "vocabulary": [
+          { "de": "die Naschkatze", "en": "person with a sweet tooth" },
+          { "de": "der Blutdruck", "en": "blood pressure" },
+          { "de": "das Herz-Kreislauf-System", "en": "cardiovascular system" }
+        ]
+      },
+      {
+        "number": 2,
+        "text": "Besonders im Herbst und Winter, wenn es draußen nass und kalt ist, werden viele Menschen schnell krank. Ärzte empfehlen zur Stärkung des Immunsystems tägliche Wechselduschen: Man beginnt beim Duschen mit angenehm warmem Wasser und wechselt dann für einige Sekunden zu kaltem Wasser. Dieser Wechsel regt den Kreislauf an und schützt den Körper wirksam vor Schnupfen und Husten.",
+        "text_en": "Especially in autumn and winter, when it is wet and cold outside, many people get sick quickly. To strengthen the immune system, doctors recommend daily contrast showers: you start showering with pleasantly warm water and then switch to cold water for a few seconds. This alternation stimulates circulation and effectively protects the body against colds and coughs.",
+        "correct_answer": "c",
+        "explanation": "Wechselduschen mit warmem und kaltem Wasser stärken das Immunsystem und beugen Erkältungen vor.",
+        "vocabulary": [
+          { "de": "vorbeugen", "en": "to prevent" },
+          { "de": "die Wechseldusche", "en": "contrast shower (hot and cold)" },
+          { "de": "anregen", "en": "to stimulate" }
+        ]
+      },
+      {
+        "number": 3,
+        "text": "Viele Menschen liegen abends noch stundenlang wach im Bett und wälzen sich von einer Seite auf die andere. Schlafmediziner raten in solchen Fällen zu festen Abendritualen: Man sollte zwei Stunden vor dem Schlafengehen nichts Schweres mehr essen, auf Kaffee und Alkohol verzichten und das Schlafzimmer gut lüften. Auch eine Tasse warmer Kräutertee oder ein ruhiges Buch helfen beim Einschlafen.",
+        "text_en": "Many people lie awake in bed for hours in the evening, tossing and turning from one side to the other. In such cases, sleep specialists advise fixed evening rituals: you should not eat anything heavy two hours before going to bed, avoid coffee and alcohol, and air out the bedroom well. A cup of warm herbal tea or a quiet book also helps you fall asleep.",
+        "correct_answer": "j",
+        "explanation": "Der Text gibt konkrete Ratschläge, wie man abends schneller und leichter einschlafen kann.",
+        "vocabulary": [
+          { "de": "wach liegen", "en": "to lie awake" },
+          { "de": "verzichten auf", "en": "to do without / avoid" },
+          { "de": "lüften", "en": "to air out / ventilate" }
+        ]
+      },
+      {
+        "number": 4,
+        "text": "Wer nach dem Mittagessen für 20 bis 30 Minuten die Augen schließt, ist am Nachmittag deutlich konzentrierter und leistungsfähiger. Eine neue Untersuchung an einer Universität hat gezeigt, dass sich das Gehirn während einer kurzen Ruhepause am Mittag besonders gut erholt und gerade gelernte Informationen viel besser abspeichert. Länger als eine halbe Stunde sollte man aber nicht schlafen.",
+        "text_en": "Anyone who closes their eyes for 20 to 30 minutes after lunch is significantly more focused and productive in the afternoon. A new study at a university showed that the brain recovers particularly well during a short midday rest and stores newly learned information much better. However, one should not sleep longer than half an hour.",
+        "correct_answer": "a",
+        "explanation": "Ein kurzer Mittagsschlaf (20–30 Minuten) verbessert Konzentration und Lernerfolg.",
+        "vocabulary": [
+          { "de": "der Mittagsschlaf", "en": "afternoon nap" },
+          { "de": "leistungsfähig", "en": "productive / efficient" },
+          { "de": "abspeichern", "en": "to store / retain in memory" }
+        ]
+      },
+      {
+        "number": 5,
+        "text": "Wenn wir uns im Beruf oder im Alltag ärgern, schüttet unser Körper Stresshormone aus, die auf Dauer krank machen können. Dagegen gibt es ein einfaches und völlig kostenloses Mittel: herzhaftes Lachen! Schon eine Minute Lachen entspannt die Muskeln, versorgt die Lunge mit viel frischem Sauerstoff und sorgt dafür, dass das Gehirn Glückshormone bildet.",
+        "text_en": "When we get annoyed at work or in everyday life, our body releases stress hormones that can make us sick in the long run. There is a simple and completely free remedy against this: hearty laughter! Just one minute of laughing relaxes the muscles, supplies the lungs with plenty of fresh oxygen, and causes the brain to produce happiness hormones.",
+        "correct_answer": "g",
+        "explanation": "Herzhaftes Lachen baut Stresshormone ab und entspannt den Körper.",
+        "vocabulary": [
+          { "de": "ausschütten", "en": "to release (hormones)" },
+          { "de": "herzhaft", "en": "hearty" },
+          { "de": "der Sauerstoff", "en": "oxygen" }
+        ]
+      }
+    ]
+  },
+  "leseverstehen_teil_2": {
+    "passage": {
+      "headline": "Abenteuer Weltumrundung mit Sonnenenergie",
+      "subheadline": "Wie der Schweizer Lehrer Louis Palmer mit dem Solartaxi einmal um die Erde fuhr",
+      "paragraphs": [
+        "Schon als elfjähriger Schüler hatte der Schweizer Louis Palmer einen großen Traum: Er wollte später einmal mit dem Auto die ganze Welt umrunden – allerdings ohne einen einzigen Tropfen Benzin zu verbrauchen und ohne schädliche Abgase in die Luft zu blasen. Als er Jahre später als Lehrer arbeitete, beschloss er, diesen Kindheitstraum endlich in die Tat umzusetzen.",
+        "Gemeinsam mit Ingenieuren und Studenten von vier Schweizer Hochschulen entwickelte er das sogenannte 'Solartaxi', ein dreirädriges Elektrofahrzeug mit einem Anhänger, auf dessen Dach sechs Quadratmeter Solarzellen montiert waren. Diese Solarzellen wandelten das Sonnenlicht direkt in elektrischen Strom für den Motor um. Bis zu 90 Stundenkilometer schnell konnte das ungewöhnliche Fahrzeug fahren.",
+        "Im Juli 2007 startete Palmer in Luzern zu seiner großen Reise. In 17 Monaten legte er über 53.000 Kilometer durch 38 Länder in Europa, Asien, Australien und Amerika zurück. Überall war die Begeisterung riesig: Ob einfache Straßenhändler, Schulkinder, Politiker oder berühmte Filmstars – Hunderte Menschen durften unterwegs auf dem Beifahrersitz Platz nehmen. Mit seiner Fahrt wollte Palmer beweisen, dass umweltfreundliche Technik im Alltag bereits zuverlässig funktioniert."
+      ],
+      "text_en": "Even as an eleven-year-old schoolboy, Swiss native Louis Palmer had a big dream: one day he wanted to drive around the entire world in a car—but without using a single drop of gasoline and without blowing harmful exhaust fumes into the air. Years later, while working as a teacher, he decided to finally put this childhood dream into action. Together with engineers and students from four Swiss universities, he developed the so-called 'Solartaxi,' a three-wheeled electric vehicle with a trailer on whose roof six square meters of solar cells were mounted. These solar cells converted sunlight directly into electricity for the motor. In July 2007 Palmer set off from Lucerne on his big journey. In 17 months he covered over 53,000 kilometers through 38 countries. Everywhere the enthusiasm was huge: hundreds of people were allowed to take a seat in the passenger seat along the way. With his journey, Palmer wanted to prove that environmentally friendly technology already works reliably in everyday life.",
+      "vocabulary": [
+        { "de": "die Weltumrundung", "en": "circumnavigation of the world" },
+        { "de": "die Sonnenenergie", "en": "solar energy" },
+        { "de": "in die Tat umsetzen", "en": "to put into action" },
+        { "de": "die Abgase", "en": "exhaust fumes" }
+      ]
+    },
+    "questions": [
+      {
+        "number": 6,
+        "question": "Die Idee zu einer Weltreise mit einem umweltfreundlichen Auto hatte Louis Palmer",
+        "question_en": "Louis Palmer had the idea for a trip around the world in an eco-friendly car",
+        "options": {
+          "a": "erst während seines Ingenieurstudiums.",
+          "b": "nach einem Gespräch mit seinen Schülern.",
+          "c": "schon als er noch ein Kind war."
+        },
+        "options_en": {
+          "a": "only during his engineering studies.",
+          "b": "after a conversation with his students.",
+          "c": "already when he was still a child."
+        },
+        "correct_answer": "c",
+        "explanation": "Im ersten Absatz steht: 'Schon als elfjähriger Schüler hatte der Schweizer Louis Palmer einen großen Traum'."
+      },
+      {
+        "number": 7,
+        "question": "Das 'Solartaxi' wurde",
+        "question_en": "The 'Solartaxi' was",
+        "options": {
+          "a": "von einer großen Autofirma in Deutschland gekauft.",
+          "b": "von Louis Palmer ganz allein in seiner Garage gebaut.",
+          "c": "zusammen mit Fachleuten und Studenten von Schweizer Hochschulen gebaut."
+        },
+        "options_en": {
+          "a": "bought from a large car company in Germany.",
+          "b": "built by Louis Palmer all by himself in his garage.",
+          "c": "built together with experts and students from Swiss universities."
+        },
+        "correct_answer": "c",
+        "explanation": "Im zweiten Absatz heißt es: 'Gemeinsam mit Ingenieuren und Studenten von vier Schweizer Hochschulen entwickelte er das sogenannte Solartaxi'."
+      },
+      {
+        "number": 8,
+        "question": "Der Strom für das Fahrzeug kam von",
+        "question_en": "The electricity for the vehicle came from",
+        "options": {
+          "a": "einem kleinen Benzinmotor im Kofferraum.",
+          "b": "Solarzellen auf dem Dach eines Anhängers.",
+          "c": "Windrädern an den Seiten des Autos."
+        },
+        "options_en": {
+          "a": "a small gasoline engine in the trunk.",
+          "b": "solar cells on the roof of a trailer.",
+          "c": "wind turbines on the sides of the car."
+        },
+        "correct_answer": "b",
+        "explanation": "Im Text steht: 'mit einem Anhänger, auf dessen Dach sechs Quadratmeter Solarzellen montiert waren.'"
+      },
+      {
+        "number": 9,
+        "question": "Während seiner 17-monatigen Reise um die Welt",
+        "question_en": "During his 17-month journey around the world",
+        "options": {
+          "a": "nahm Louis Palmer viele verschiedene Menschen in seinem Auto mit.",
+          "b": "durfte aus Sicherheitsgründen niemand sonst im Solartaxi mitfahren.",
+          "c": "musste er die Fahrt wegen technischer Probleme oft monatelang unterbrechen."
+        },
+        "options_en": {
+          "a": "Louis Palmer took many different people along in his car.",
+          "b": "nobody else was allowed to ride in the Solartaxi for safety reasons.",
+          "c": "he often had to interrupt the trip for months due to technical problems."
+        },
+        "correct_answer": "a",
+        "explanation": "Im dritten Absatz steht: 'Hunderte Menschen durften unterwegs auf dem Beifahrersitz Platz nehmen.'"
+      },
+      {
+        "number": 10,
+        "question": "Mit seiner Reise wollte Louis Palmer zeigen, dass",
+        "question_en": "With his journey, Louis Palmer wanted to show that",
+        "options": {
+          "a": "man in 17 Monaten jedes Land der Erde besuchen kann.",
+          "b": "Schweizer Autos schneller fahren als alle anderen.",
+          "c": "umweltfreundliche Fahrzeuge im Alltag gut funktionieren."
+        },
+        "options_en": {
+          "a": "you can visit every country on earth in 17 months.",
+          "b": "Swiss cars drive faster than all others.",
+          "c": "environmentally friendly vehicles work well in everyday life."
+        },
+        "correct_answer": "c",
+        "explanation": "Am Ende steht: 'wollte Palmer beweisen, dass umweltfreundliche Technik im Alltag bereits zuverlässig funktioniert.'"
+      }
+    ]
+  },
+  "leseverstehen_teil_3": {
+    "advertisements": {
+      "a": {
+        "title": "OBER-GOMS",
+        "subtitle": "Wandern im Wallis",
+        "lines": [
+          "08.–10. Juni Fr. 425",
+          "18.–25. August Fr. 750",
+          "22.–29. September Fr. 750",
+          "Halbpension/Führungen/Wanderungen/Klettertouren mit geprüften Bergführern",
+          "Hotel Walser, 3988 Ulrichen, www.goms.ch/hotel-walser"
+        ],
+        "text_en": "OBER-GOMS: Hiking in Valais. Half board, guided tours, hikes and climbing tours with certified mountain guides. Hotel Walser, Ulrichen."
+      },
+      "b": {
+        "title": "Ausstellung „Märchen – Mythen – Erzählungen“",
+        "lines": [
+          "Acht Künstlerinnen zeigen ihre Arbeiten vom 2. bis 30. Juni in Thun",
+          "Die Arbeiten werden in Schaufenstern der Innenstadt gezeigt.",
+          "Vernissage: 2. Juni, 19.30 Uhr, Schibenstrasse 21 – Thun"
+        ],
+        "text_en": "Exhibition 'Fairy Tales – Myths – Stories': Eight female artists show their works from June 2 to 30 in shop windows in downtown Thun."
+      },
+      "c": {
+        "title": "Chocolat-Werbung – KULTURTIPP!",
+        "lines": [
+          "Im Rahmen der Ausstellung „Chocolat-Tobler: Die Geschichte der Schokolade von 1899 bis heute“ präsentieren Christian Jacquet und Fritz Kobi im Kornhausforum alte und neue Chocolat-Tobler-Werbefilme.",
+          "Bern: Kornhausforum, 19 Uhr"
+        ],
+        "text_en": "Chocolate advertising cultural tip: As part of the exhibition 'Chocolat-Tobler: The History of Chocolate from 1899 to Today', old and new commercial films are presented at Kornhausforum Bern."
+      },
+      "d": {
+        "title": "Sarazena Zermatt",
+        "lines": [
+          "Herzlich willkommen in unserem gemütlichen Ferienhotel in zentraler Lage!",
+          "Perfekt ausgestattete Zimmer mit allem Komfort, Fitnessraum, Tennishalle, Schwimmbad, reichhaltiges Frühstücksbuffet.",
+          "www.hotel-sarazena.ch"
+        ],
+        "text_en": "Sarazena Zermatt: Welcome to our cozy vacation hotel in a central location! Rooms with all comforts, gym, indoor tennis, pool, rich breakfast buffet."
+      },
+      "e": {
+        "title": "DAS ASCHENPUTTEL",
+        "subtitle": "Cinderella, Cenerentola, Aschenputtel – einmal erzählt, einmal gespielt",
+        "lines": [
+          "Die Schriftstellerin Elke Seidenreich präsentiert zusammen mit der Basel Sinfonietta den bekannten Märchenstoff auf der Bühne.",
+          "Theaterhalle Bern, 20.30 Uhr"
+        ],
+        "text_en": "Cinderella: Writer Elke Seidenreich together with the Basel Sinfonietta presents the famous fairy tale on stage at Theaterhalle Bern."
+      },
+      "f": {
+        "title": "SCHWEIZER FERIENORT ZERMATT",
+        "subtitle": "Erholung pur im Naturfreunde-Hotel Zermatt",
+        "lines": [
+          "Herrliche Wanderwege in den Bergen",
+          "Vorzügliche Küche",
+          "Eigener Bahnanschluss",
+          "NATURFREUNDE-HOTEL ZERMATT, Daniela+René Zimmermann"
+        ],
+        "text_en": "Swiss resort Zermatt: Pure relaxation at Naturfreunde-Hotel Zermatt. Wonderful mountain hiking trails, excellent cuisine, private rail connection."
+      },
+      "g": {
+        "title": "Tierpark Goldau",
+        "lines": [
+          "...ein Besuch, der sich lohnt!",
+          "Freilaufzone, Abenteuerspielplatz, Restaurant, 365 Tage im Jahr offen",
+          "Eintritt frei für Begleitpersonen von Gruppen ab 12 Personen",
+          "www.tierpark.ch"
+        ],
+        "text_en": "Tierpark Goldau: Free-roaming area, adventure playground, restaurant, open 365 days a year. Free admission for chaperones of groups of 12 or more."
+      },
+      "h": {
+        "title": "DER FEURIGE ELIAS",
+        "lines": [
+          "Historische Lokomotiven und Waggons, jetzt ausgestellt im Bahnmuseum WORB",
+          "Führungen für Kinder und Erwachsene: Jeden Samstag und Sonntag 11:00 Uhr und 16:00 Uhr",
+          "Infos: RBS, 3048 Worb"
+        ],
+        "text_en": "The Fiery Elias: Historic locomotives and carriages, now exhibited at the Worb Railway Museum. Guided tours for children and adults Saturday and Sunday."
+      },
+      "i": {
+        "title": "ANDREAS TIERWELT",
+        "lines": [
+          "Geöffnet: Mo.–Fr. 9.00–19.00 Uhr, Sa. 9.00–14.00 Uhr",
+          "Vögel – Nager – Pflanzen, Warm- und Kaltwasserfische, Futter und Zubehör für alle Tierarten, Aquarien und Terrarien, Fachberatung",
+          "Kreuzgasse 14, CH 4500 Solothurn"
+        ],
+        "text_en": "Andreas's Animal World: Birds, rodents, plants, warm and cold water fish, food and accessories for all pet species, aquariums and terrariums, expert advice."
+      },
+      "j": {
+        "title": "TANZ IMPULSE",
+        "subtitle": "Schule für zeitgenössischen Tanz, klassisches Ballett, Malen und Tanz",
+        "lines": [
+          "Laufendes Kursangebot für Anfänger und Fortgeschrittene, Einführungskurse zum Kennenlernen",
+          "Offene Gruppen für Kinder, Jugendliche und Erwachsene, max. 10 TeilnehmerInnen."
+        ],
+        "text_en": "Tanz Impulse: School for contemporary dance, classical ballet, painting and dance. Ongoing courses for beginners and advanced, open groups for children, teens, and adults."
+      },
+      "k": {
+        "title": "JÄGGI BUCHHANDLUNG",
+        "lines": [
+          "Dienstag 8.5., 20 Uhr: INGRID NOLL (Live im Loeb)",
+          "Die erfolgreichste und ungewöhnlichste deutsche Krimiautorin liest aus ihrem unheimlichen Werk „Selige Witwen“.",
+          "Eintritt Fr. 10,00"
+        ],
+        "text_en": "Jäggi Bookstore: Tuesday May 8, 8 p.m., Ingrid Noll reads live from her crime novel 'Selige Witwen'."
+      },
+      "l": {
+        "title": "Viking-Tours – Flussfahrten auf der Aare",
+        "lines": [
+          "Tägliche Fahrten von Mai bis Sep., Abfahrt der Schiffe: 11 Uhr, 14 Uhr, 16 Uhr",
+          "Treffpunkt: Thun/Schwäbis Schiffssteg, Preise: 43 Franken",
+          "Spezialangebot: Abendfahrten (Rückkehr 23 Uhr), Tanz an Bord, Spezialangebote für Senioren"
+        ],
+        "text_en": "Viking-Tours: River cruises on the Aare. Daily trips May to September. Special offer: evening cruises with dancing on board, senior specials."
+      }
+    },
+    "situations": [
+      {
+        "number": 11,
+        "situation": "Ihr zehnjähriger Sohn interessiert sich sehr für alte Eisenbahnen. Sie möchten ihm am Wochenende welche zeigen.",
+        "situation_en": "Your ten-year-old son is very interested in old trains. You want to show him some on the weekend.",
+        "correct_answer": "h",
+        "explanation": "Anzeige h ('Der feurige Elias') zeigt historische Lokomotiven und Waggons im Bahnmuseum Worb mit Führungen am Samstag und Sonntag."
+      },
+      {
+        "number": 12,
+        "situation": "Sie haben Fische gekauft und brauchen noch ein Aquarium und Fischfutter.",
+        "situation_en": "You bought fish and still need an aquarium and fish food.",
+        "correct_answer": "i",
+        "explanation": "Anzeige i ('Andreas Tierwelt') verkauft Warm- und Kaltwasserfische, Aquarien sowie Futter und Zubehör."
+      },
+      {
+        "number": 13,
+        "situation": "Ihre jugendliche Tochter möchte in ihrer Freizeit gern Ballett lernen.",
+        "situation_en": "Your teenage daughter would like to learn ballet in her free time.",
+        "correct_answer": "j",
+        "explanation": "Anzeige j ('Tanz Impulse') bietet Kurse für klassisches Ballett für Kinder, Jugendliche und Erwachsene an."
+      },
+      {
+        "number": 14,
+        "situation": "Sie suchen für Ihren Hund einen Tierarzt in Solothurn.",
+        "situation_en": "You are looking for a veterinarian for your dog in Solothurn.",
+        "correct_answer": "x",
+        "explanation": "In Solothurn gibt es zwar eine Tierhandlung (i), aber keine Anzeige für einen Tierarzt."
+      },
+      {
+        "number": 15,
+        "situation": "Sie lesen gern spannende Kriminalromane und möchten eine berühmte Autorin persönlich erleben.",
+        "situation_en": "You enjoy reading exciting crime novels and would like to experience a famous author in person.",
+        "correct_answer": "k",
+        "explanation": "In Anzeige k lädt die Buchhandlung Jäggi zu einer Live-Lesung der Krimiautorin Ingrid Noll ein."
+      },
+      {
+        "number": 16,
+        "situation": "Sie sind in Thun und möchten bei einem Spaziergang durch die Stadt Kunstwerke anschauen.",
+        "situation_en": "You are in Thun and would like to look at artworks during a walk through the city.",
+        "correct_answer": "b",
+        "explanation": "In Anzeige b werden die Arbeiten von acht Künstlerinnen in den Schaufenstern der Innenstadt von Thun gezeigt."
+      },
+      {
+        "number": 17,
+        "situation": "Sie möchten im Urlaub in Zermatt nicht auf Tennis und Schwimmen verzichten.",
+        "situation_en": "You don't want to go without tennis and swimming during your vacation in Zermatt.",
+        "correct_answer": "d",
+        "explanation": "Das Ferienhotel Sarazena in Zermatt (d) verfügt über eine eigene Tennishalle und ein Schwimmbad."
+      },
+      {
+        "number": 18,
+        "situation": "Sie möchten selbst lernen, wie man Pralinen und Schokolade herstellt.",
+        "situation_en": "You want to learn how to make pralines and chocolate yourself.",
+        "correct_answer": "x",
+        "explanation": "Anzeige c zeigt nur historische Schokoladen-Werbefilme, bietet aber keinen Kurs zur Schokoladenherstellung an."
+      },
+      {
+        "number": 19,
+        "situation": "Sie möchten am Abend ins Theater gehen und sich ein bekanntes Märchen mit Musik ansehen.",
+        "situation_en": "You want to go to the theater in the evening and watch a famous fairy tale with music.",
+        "correct_answer": "e",
+        "explanation": "In Anzeige e wird das Märchen 'Aschenputtel' zusammen mit dem Orchester Basel Sinfonietta in der Theaterhalle Bern aufgeführt."
+      },
+      {
+        "number": 20,
+        "situation": "Ihre Eltern möchten im Sommer eine gemütliche Schiffstour am Abend machen und dabei tanzen.",
+        "situation_en": "Your parents would like to take a cozy boat tour in the evening in summer and dance.",
+        "correct_answer": "l",
+        "explanation": "Viking-Tours (l) bietet Abendfahrten auf der Aare mit Tanz an Bord und Spezialangeboten für Senioren."
+      }
+    ]
+  },
+  "sprachbausteine_teil_1": {
+    "instructions": "Lesen Sie den Text und schließen Sie die Lücken 21–30. Welche Lösung (a, b oder c) ist jeweils richtig?",
+    "passage": {
+      "text": "Liebe Tanja,\nvielen Dank für deine nette E-Mail. Du hast mir ___21___ erzählt, dass du eine neue Wohnung suchst. Ich weiß, wie schwierig das ist, denn bei mir ___22___ es letztes Jahr genauso. Ich habe fast vier Monate gesucht und ___23___ durch Zufall über einen Kollegen etwas gefunden.\nAm besten hat mir die Wohnung in der Gartenstraße ___24___, weil sie einen großen Balkon hat und ganz ___25___ meinem Büro liegt. Meine Schwester und ich sind vor einem Monat eingezogen und fühlen uns ___26___ schon sehr wohl hier. Am ___27___ Wochenende im nächsten Monat wollen wir endlich unsere Einweihungsparty feiern. Danach gehen wir vielleicht noch zusammen ___28___ Stadtzentrum zum Tanzen. ___29___ wäre es natürlich, wenn du schon am Freitagnachmittag anreisen könntest! Schreib mir doch kurz, ob das bei dir ___30___.\nBis bald\ndeine Rita",
+      "text_en": "Dear Tanja, thank you very much for your nice email. You told me about looking for a new apartment. I know how difficult that is, because it was the same for me last year. I searched for almost four months and only found something by chance through a colleague. I liked the apartment on Gartenstraße best because it has a big balcony and is very close to my office. My sister and I moved in a month ago and both of us already feel very comfortable here. On the first weekend of next month we finally want to celebrate our housewarming party. Afterwards we might go together to the city center to dance. Of course it would be better if you could arrive as early as Friday afternoon! Write me briefly whether that works for you. See you soon, your Rita",
+      "vocabulary": [
+        { "de": "durch Zufall", "en": "by chance" },
+        { "de": "die Einweihungsparty", "en": "housewarming party" }
+      ]
+    },
+    "questions": [
+      {
+        "number": 21,
+        "options": { "a": "daran", "b": "darüber", "c": "davon" },
+        "correct_answer": "c",
+        "explanation": "'erzählen von' -> Pronominaladverb 'davon'."
+      },
+      {
+        "number": 22,
+        "options": { "a": "bin", "b": "hat", "c": "war" },
+        "correct_answer": "c",
+        "explanation": "Präteritum von 'sein' für die Vergangenheit ('letztes Jahr'): 'war es genauso'."
+      },
+      {
+        "number": 23,
+        "options": { "a": "kaum", "b": "nur", "c": "schon" },
+        "correct_answer": "b",
+        "explanation": "'und nur durch Zufall etwas gefunden'."
+      },
+      {
+        "number": 24,
+        "options": { "a": "gepasst", "b": "passen", "c": "passt" },
+        "correct_answer": "a",
+        "explanation": "Partizip II im Perfekt: 'hat mir ... gepasst'."
+      },
+      {
+        "number": 25,
+        "options": { "a": "an", "b": "bei", "c": "nach" },
+        "correct_answer": "b",
+        "explanation": "Lokale Präposition für Nähe: 'ganz bei meinem Büro'."
+      },
+      {
+        "number": 26,
+        "options": { "a": "beide", "b": "beiden", "c": "beides" },
+        "correct_answer": "a",
+        "explanation": "Nominativ Plural auf 'Meine Schwester und ich' bezogen: 'fühlen uns beide sehr wohl'."
+      },
+      {
+        "number": 27,
+        "options": { "a": "ersten", "b": "erster", "c": "erstes" },
+        "correct_answer": "a",
+        "explanation": "Dativ nach 'Am' (an dem): 'Am ersten Wochenende'."
+      },
+      {
+        "number": 28,
+        "options": { "a": "im", "b": "in", "c": "ins" },
+        "correct_answer": "c",
+        "explanation": "Richtungsangabe mit 'gehen' (in das Stadtzentrum): 'ins Stadtzentrum'."
+      },
+      {
+        "number": 29,
+        "options": { "a": "Am besten", "b": "Besser", "c": "Gut" },
+        "correct_answer": "b",
+        "explanation": "Komparativ im Konditionalsatz: 'Besser wäre es natürlich, wenn...'."
+      },
+      {
+        "number": 30,
+        "options": { "a": "geht", "b": "kann", "c": "machst" },
+        "correct_answer": "a",
+        "explanation": "Redewendung 'ob das bei dir geht' (ob das zeitlich klappt)."
+      }
+    ]
+  },
+  "sprachbausteine_teil_2": {
+    "instructions": "Lesen Sie den Text und schließen Sie die Lücken 31–40. Benutzen Sie die Wörter a–o. Jedes Wort passt nur einmal.",
+    "word_bank": {
+      "a": "DER",
+      "b": "DIE",
+      "c": "DORT",
+      "d": "GEEINIGT",
+      "e": "GERNE",
+      "f": "IHNEN",
+      "g": "KÖNNTE",
+      "h": "MUSS",
+      "i": "NACH",
+      "j": "OB",
+      "k": "SCHON",
+      "l": "WEIL",
+      "m": "WÄRE",
+      "n": "WENN",
+      "o": "WO"
+    },
+    "word_bank_en": {
+      "a": "which/the (masc./dat. fem.)",
+      "b": "which/the (fem./pl.)",
+      "c": "there",
+      "d": "agreed",
+      "e": "gladly",
+      "f": "to you (formal)",
+      "g": "could",
+      "h": "must / have to",
+      "i": "to / after",
+      "j": "whether",
+      "k": "already",
+      "l": "because",
+      "m": "would be",
+      "n": "if / when",
+      "o": "where"
+    },
+    "passage": {
+      "text": "Sehr geehrter Herr Hermann,\nleider ___31___ ich unseren geplanten Besprechungstermin am kommenden Donnerstag absagen, da ich kurzfristig zu einer dringenden Tagung ___32___ Berlin reisen muss.\nDie Unterlagen, ___33___ Sie mir letzte Woche geschickt haben, habe ich aber bereits durchgesehen. Es ___34___ sehr gut, wenn wir das Projekt trotzdem noch in diesem Monat starten könnten, so wie wir uns bei unserem letzten Treffen ___35___ haben.\nKönnten Sie mir bitte kurz mitteilen, ___36___ und wann wir uns nächste Woche stattdessen treffen können? Ich komme auch ___37___ zu Ihnen in ___38___ Firma, ___39___ das für Sie zeitlich günstiger ist.\nIch danke Ihnen ___40___ im Voraus für Ihr Verständnis.\nMit freundlichen Grüßen\nRita Mertens",
+      "text_en": "Dear Mr. Hermann, unfortunately I have to cancel our planned meeting this coming Thursday, as I have to travel to Berlin at short notice for an urgent conference. However, I have already reviewed the documents that you sent me last week. It would be very good if we could still start the project this month, just as we agreed at our last meeting. Could you please let me know briefly where and when we can meet next week instead? I would also gladly come to your company if that is more convenient for your schedule. Thank you in advance for your understanding. Sincerely, Rita Mertens",
+      "vocabulary": [
+        { "de": "kurzfristig", "en": "at short notice" },
+        { "de": "sich einigen", "en": "to agree" }
+      ]
+    },
+    "questions": [
+      {
+        "number": 31,
+        "correct_answer": "h",
+        "explanation": "Modalverb 1. Person Singular: 'leider muss ich ... absagen'."
+      },
+      {
+        "number": 32,
+        "correct_answer": "i",
+        "explanation": "Richtungspräposition bei Städten: 'nach Berlin reisen'."
+      },
+      {
+        "number": 33,
+        "correct_answer": "b",
+        "explanation": "Relativpronomen Akkusativ Plural ('Die Unterlagen, die Sie mir geschickt haben')."
+      },
+      {
+        "number": 34,
+        "correct_answer": "m",
+        "explanation": "Konjunktiv II im Hauptsatz vor 'wenn': 'Es wäre sehr gut, wenn...'."
+      },
+      {
+        "number": 35,
+        "correct_answer": "d",
+        "explanation": "Partizip II zu 'sich einigen': 'wie wir uns ... geeinigt haben'."
+      },
+      {
+        "number": 36,
+        "correct_answer": "o",
+        "explanation": "Indirektes Fragewort des Ortes: 'wo und wann wir uns treffen können'."
+      },
+      {
+        "number": 37,
+        "correct_answer": "e",
+        "explanation": "Adverb: 'Ich komme auch gerne zu Ihnen'."
+      },
+      {
+        "number": 38,
+        "correct_answer": "a",
+        "explanation": "oder/Dativ/Akkusativ-Artikel je nach Vorlage (im Lösungsschlüssel 'A = DER')."
+      },
+      {
+        "number": 39,
+        "correct_answer": "n",
+        "explanation": "Konditionale Konjunktion: 'wenn das für Sie zeitlich günstiger ist'."
+      },
+      {
+        "number": 40,
+        "correct_answer": "k",
+        "explanation": "Feste Wendung: 'Ich danke Ihnen schon im Voraus'."
+      }
+    ]
+  },
+  "hoerverstehen_teil_1": {
+    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören diese Texte nur einmal. Entscheiden Sie beim Hören, ob die Aussagen 41–45 richtig (+) oder falsch (-) sind.",
+    "transcripts": [],
+    "questions": []
+  },
+  "hoerverstehen_teil_2": {
+    "instructions": "Sie hören nun ein Gespräch. Dazu sollen Sie zehn Aufgaben lösen. Sie hören das Gespräch zweimal. Entscheiden Sie beim Hören, ob die Aussagen 46–55 richtig (+) oder falsch (-) sind.",
+    "interview_transcript": {
+      "text": ""
+    },
+    "questions": []
+  },
+  "hoerverstehen_teil_3": {
+    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören jeden Text zweimal. Entscheiden Sie beim Hören, ob die Aussagen 56–60 richtig (+) oder falsch (-) sind.",
+    "transcripts": [],
+    "questions": []
+  }
+}
