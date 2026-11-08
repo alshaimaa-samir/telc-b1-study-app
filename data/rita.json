@@ -2,194 +2,195 @@
   "title": "Rita",
   "leseverstehen_teil_1": {
     "headings": {
-      "a": "Besser lernen durch kurzen Mittagsschlaf",
-      "b": "Dunkle Schokolade ist gut für das Herz",
-      "c": "Erkältungen vorbeugen durch kaltes und warmes Wasser",
-      "d": "Gesunde Zähne durch weniger Zucker",
-      "e": "Immer mehr Menschen leiden unter Schlafstörungen",
-      "f": "Kaffee am Morgen macht gar nicht wach",
-      "g": "Lachen ist die beste Medizin gegen Stress",
-      "h": "Schokolade macht dick und unglücklich",
-      "i": "Sport am Abend stört den Schlaf",
-      "j": "Wie man abends leichter einschlafen kann"
+      "a": "Abwechslungsreiches Essen gesund für Körper und Geist",
+      "b": "Bald noch mehr Kranke durch falsche Ernährung?",
+      "c": "Bio-Bauern produzieren immer mehr",
+      "d": "Chemie im Essen",
+      "e": "Ernährung der Kinder immer ungesünder",
+      "f": "Ernährung im Büro",
+      "g": "Ernährung und Bewegung entscheidend für die Gesundheit",
+      "h": "Essen wir uns krank?",
+      "i": "Immer mehr Menschen essen kein Fleisch",
+      "j": "Positive Wirkungen durch richtige Ernährung"
     },
     "headings_en": {
-      "a": "Better learning through a short afternoon nap",
-      "b": "Dark chocolate is good for the heart",
-      "c": "Preventing colds with cold and warm water",
-      "d": "Healthy teeth through less sugar",
-      "e": "More and more people suffer from sleep disorders",
-      "f": "Morning coffee doesn't actually wake you up",
-      "g": "Laughter is the best medicine against stress",
-      "h": "Chocolate makes you fat and unhappy",
-      "i": "Evening exercise disrupts sleep",
-      "j": "How to fall asleep more easily in the evening"
+      "a": "Varied food is healthy for body and mind",
+      "b": "Soon even more sick people due to poor nutrition?",
+      "c": "Organic farmers are producing more and more",
+      "d": "Chemicals in food",
+      "e": "Children's diet becoming increasingly unhealthy",
+      "f": "Nutrition in the office",
+      "g": "Diet and exercise are crucial for health",
+      "h": "Are we eating ourselves sick?",
+      "i": "More and more people do not eat meat",
+      "j": "Positive effects through proper nutrition"
     },
     "passages": [
       {
         "number": 1,
-        "text": "Für alle Naschkatzen gibt es jetzt eine gute Nachricht: Wer regelmäßig ein kleines Stück dunkle Schokolade mit einem hohen Kakaoanteil von mindestens 70 Prozent isst, tut seiner Gesundheit etwas Gutes. Wissenschaftler haben herausgefunden, dass die im Kakao enthaltenen Pflanzenstoffe den Blutdruck senken und das Herz-Kreislauf-System schützen. Allerdings gilt das nicht für süße Vollmilchschokolade.",
-        "text_en": "There is good news for everyone with a sweet tooth: anyone who regularly eats a small piece of dark chocolate with a high cocoa content of at least 70 percent is doing something good for their health. Scientists have found that the plant compounds contained in cocoa lower blood pressure and protect the cardiovascular system. However, this does not apply to sweet milk chocolate.",
-        "correct_answer": "b",
-        "explanation": "Dunkle Schokolade mit hohem Kakaoanteil senkt den Blutdruck und schützt das Herz.",
+        "text": "Hektik, Stress und der schnelle Griff zu fettigen Snacks zwischendurch prägen heute oft den Alltag. Dabei sind sich Experten längst einig: Wer gesund und leistungsfähig bleiben will, muss vor allem auf zwei Dinge achten. Neben einer ausgewogenen Kost mit viel frischem Obst, Gemüse und Vollkornprodukten spielt regelmäßige körperliche Aktivität an der frischen Luft oder im Sportverein die wichtigste Rolle, um Herz-Kreislauf-Erkrankungen und Übergewicht wirksam vorzubeugen.",
+        "text_en": "Hectic pace, stress, and reaching for greasy snacks in between often characterize everyday life today. Yet experts have long agreed: anyone who wants to stay healthy and productive must pay attention to two things above all. In addition to a balanced diet with plenty of fresh fruit, vegetables, and whole-grain products, regular physical activity in the fresh air or at a sports club plays the most important role in effectively preventing cardiovascular disease and obesity.",
+        "correct_answer": "g",
+        "explanation": "Im Text sowie auf dem Lösungsblatt wird betont, dass sowohl gesunde Ernährung als auch regelmäßige Bewegung entscheidend für die Gesundheit sind.",
         "vocabulary": [
-          { "de": "die Naschkatze", "en": "person with a sweet tooth" },
-          { "de": "der Blutdruck", "en": "blood pressure" },
-          { "de": "das Herz-Kreislauf-System", "en": "cardiovascular system" }
+          { "de": "ausgewogen", "en": "balanced" },
+          { "de": "entscheidend", "en": "crucial / decisive" },
+          { "de": "vorbeugen", "en": "to prevent" }
         ]
       },
       {
         "number": 2,
-        "text": "Besonders im Herbst und Winter, wenn es draußen nass und kalt ist, werden viele Menschen schnell krank. Ärzte empfehlen zur Stärkung des Immunsystems tägliche Wechselduschen: Man beginnt beim Duschen mit angenehm warmem Wasser und wechselt dann für einige Sekunden zu kaltem Wasser. Dieser Wechsel regt den Kreislauf an und schützt den Körper wirksam vor Schnupfen und Husten.",
-        "text_en": "Especially in autumn and winter, when it is wet and cold outside, many people get sick quickly. To strengthen the immune system, doctors recommend daily contrast showers: you start showering with pleasantly warm water and then switch to cold water for a few seconds. This alternation stimulates circulation and effectively protects the body against colds and coughs.",
-        "correct_answer": "c",
-        "explanation": "Wechselduschen mit warmem und kaltem Wasser stärken das Immunsystem und beugen Erkältungen vor.",
+        "text": "Viele Berufstätige klagen über Müdigkeit, Konzentrationsschwäche und schlechte Laune am Nachmittag. Ernährungswissenschaftler wissen heute, dass man mit den richtigen Lebensmitteln gezielt gegensteuern kann: Wer seinen Speiseplan klug zusammenstellt, stärkt nicht nur seine Abwehrkräfte, sondern steigert auch spürbar sein Wohlbefinden, seine geistige Fitness und seine gute Stimmung im Alltag.",
+        "text_en": "Many working people complain of fatigue, poor concentration, and a bad mood in the afternoon. Nutritionists today know that you can counteract this in a targeted way with the right foods: anyone who puts their meal plan together wisely not only strengthens their immune system, but also noticeably increases their well-being, mental fitness, and good mood in everyday life.",
+        "correct_answer": "j",
+        "explanation": "Laut Lösungsschlüssel (2 = J) beschreibt der Abschnitt die positiven Auswirkungen einer richtigen Ernährung auf Körper und Wohlbefinden.",
         "vocabulary": [
-          { "de": "vorbeugen", "en": "to prevent" },
-          { "de": "die Wechseldusche", "en": "contrast shower (hot and cold)" },
-          { "de": "anregen", "en": "to stimulate" }
+          { "de": "die Abwehrkräfte", "en": "immune defenses" },
+          { "de": "das Wohlbefinden", "en": "well-being" },
+          { "de": "steigern", "en": "to increase / boost" }
         ]
       },
       {
         "number": 3,
-        "text": "Viele Menschen liegen abends noch stundenlang wach im Bett und wälzen sich von einer Seite auf die andere. Schlafmediziner raten in solchen Fällen zu festen Abendritualen: Man sollte zwei Stunden vor dem Schlafengehen nichts Schweres mehr essen, auf Kaffee und Alkohol verzichten und das Schlafzimmer gut lüften. Auch eine Tasse warmer Kräutertee oder ein ruhiges Buch helfen beim Einschlafen.",
-        "text_en": "Many people lie awake in bed for hours in the evening, tossing and turning from one side to the other. In such cases, sleep specialists advise fixed evening rituals: you should not eat anything heavy two hours before going to bed, avoid coffee and alcohol, and air out the bedroom well. A cup of warm herbal tea or a quiet book also helps you fall asleep.",
-        "correct_answer": "j",
-        "explanation": "Der Text gibt konkrete Ratschläge, wie man abends schneller und leichter einschlafen kann.",
+        "text": "Künstliche Farbstoffe, Geschmacksverstärker, Konservierungsmittel und Rückstände von Pflanzenschutzmitteln – wer im Supermarkt einkauft, nimmt mit vielen Fertigprodukten oft eine ganze Reihe synthetischer Zusatzstoffe zu sich. Verbraucherschützer warnen davor, dass viele dieser im Labor hergestellten Substanzen Allergien auslösen können.",
+        "text_en": "Artificial food coloring, flavor enhancers, preservatives, and pesticide residues—anyone shopping in the supermarket often ingests a whole range of synthetic additives with many convenience products. Consumer advocates warn that many of these lab-made substances can trigger allergies.",
+        "correct_answer": "d",
+        "explanation": "Laut Lösungsschlüssel (3 = D) geht es um chemische Zusatzstoffe und Rückstände in unseren Lebensmitteln.",
         "vocabulary": [
-          { "de": "wach liegen", "en": "to lie awake" },
-          { "de": "verzichten auf", "en": "to do without / avoid" },
-          { "de": "lüften", "en": "to air out / ventilate" }
+          { "de": "der Geschmacksverstärker", "en": "flavor enhancer" },
+          { "de": "das Konservierungsmittel", "en": "preservative" },
+          { "de": "der Zusatzstoff", "en": "additive" }
         ]
       },
       {
         "number": 4,
-        "text": "Wer nach dem Mittagessen für 20 bis 30 Minuten die Augen schließt, ist am Nachmittag deutlich konzentrierter und leistungsfähiger. Eine neue Untersuchung an einer Universität hat gezeigt, dass sich das Gehirn während einer kurzen Ruhepause am Mittag besonders gut erholt und gerade gelernte Informationen viel besser abspeichert. Länger als eine halbe Stunde sollte man aber nicht schlafen.",
-        "text_en": "Anyone who closes their eyes for 20 to 30 minutes after lunch is significantly more focused and productive in the afternoon. A new study at a university showed that the brain recovers particularly well during a short midday rest and stores newly learned information much better. However, one should not sleep longer than half an hour.",
-        "correct_answer": "a",
-        "explanation": "Ein kurzer Mittagsschlaf (20–30 Minuten) verbessert Konzentration und Lernerfolg.",
+        "text": "Schokoriegel in der großen Pause, gesüßte Limonaden zum Mittagessen und abends Tiefkühlpizza vor dem Fernseher: Neue Studien von Kinderärzten zeigen ein alarmierendes Bild. Immer weniger Schüler frühstücken zu Hause oder kennen frisches Gemüse, während der Konsum von Zucker und Fast Food bei den Jüngsten weiter drastisch zunimmt.",
+        "text_en": "Chocolate bars during recess, sweetened sodas for lunch, and frozen pizza in front of the TV in the evening: new studies by pediatricians paint an alarming picture. Fewer and fewer schoolchildren eat breakfast at home or know fresh vegetables, while the consumption of sugar and fast food among the youngest continues to rise drastically.",
+        "correct_answer": "e",
+        "explanation": "Laut Lösungsschlüssel (4 = E) thematisiert der Text die zunehmend ungesunde Ernährung von Kindern.",
         "vocabulary": [
-          { "de": "der Mittagsschlaf", "en": "afternoon nap" },
-          { "de": "leistungsfähig", "en": "productive / efficient" },
-          { "de": "abspeichern", "en": "to store / retain in memory" }
+          { "de": "die Tiefkühlpizza", "en": "frozen pizza" },
+          { "de": "alarmierend", "en": "alarming" },
+          { "de": "der Konsum", "en": "consumption" }
         ]
       },
       {
         "number": 5,
-        "text": "Wenn wir uns im Beruf oder im Alltag ärgern, schüttet unser Körper Stresshormone aus, die auf Dauer krank machen können. Dagegen gibt es ein einfaches und völlig kostenloses Mittel: herzhaftes Lachen! Schon eine Minute Lachen entspannt die Muskeln, versorgt die Lunge mit viel frischem Sauerstoff und sorgt dafür, dass das Gehirn Glückshormone bildet.",
-        "text_en": "When we get annoyed at work or in everyday life, our body releases stress hormones that can make us sick in the long run. There is a simple and completely free remedy against this: hearty laughter! Just one minute of laughing relaxes the muscles, supplies the lungs with plenty of fresh oxygen, and causes the brain to produce happiness hormones.",
-        "correct_answer": "g",
-        "explanation": "Herzhaftes Lachen baut Stresshormone ab und entspannt den Körper.",
+        "text": "Noch nie war das Angebot an Lebensmitteln so groß wie heute, und trotzdem leiden Millionen Menschen an Diabetes, Bluthochdruck oder Magenproblemen, weil sie täglich zu viel Fett, Salz und Zucker zu sich nehmen. Mediziner stellen daher immer häufiger die Frage, ob unsere modernen Essgewohnheiten selbst zur größten Gefahr für unsere Gesundheit geworden sind.",
+        "text_en": "Never before has the range of food been as large as it is today, and yet millions of people suffer from diabetes, high blood pressure, or stomach problems because they consume too much fat, salt, and sugar every day. Doctors are therefore increasingly asking whether our modern eating habits themselves have become the greatest threat to our health.",
+        "correct_answer": "h",
+        "explanation": "Laut Lösungsschlüssel (5 = H) geht es um die Frage, ob uns unsere heutige Ernährung krank macht.",
         "vocabulary": [
-          { "de": "ausschütten", "en": "to release (hormones)" },
-          { "de": "herzhaft", "en": "hearty" },
-          { "de": "der Sauerstoff", "en": "oxygen" }
+          { "de": "der Bluthochdruck", "en": "high blood pressure" },
+          { "de": "die Essgewohnheit", "en": "eating habit" },
+          { "de": "zu sich nehmen", "en": "to consume / ingest" }
         ]
       }
     ]
   },
   "leseverstehen_teil_2": {
     "passage": {
-      "headline": "Abenteuer Weltumrundung mit Sonnenenergie",
-      "subheadline": "Wie der Schweizer Lehrer Louis Palmer mit dem Solartaxi einmal um die Erde fuhr",
+      "headline": "Mehr Sicherheit für unser Gehirn!",
+      "subheadline": "",
       "paragraphs": [
-        "Schon als elfjähriger Schüler hatte der Schweizer Louis Palmer einen großen Traum: Er wollte später einmal mit dem Auto die ganze Welt umrunden – allerdings ohne einen einzigen Tropfen Benzin zu verbrauchen und ohne schädliche Abgase in die Luft zu blasen. Als er Jahre später als Lehrer arbeitete, beschloss er, diesen Kindheitstraum endlich in die Tat umzusetzen.",
-        "Gemeinsam mit Ingenieuren und Studenten von vier Schweizer Hochschulen entwickelte er das sogenannte 'Solartaxi', ein dreirädriges Elektrofahrzeug mit einem Anhänger, auf dessen Dach sechs Quadratmeter Solarzellen montiert waren. Diese Solarzellen wandelten das Sonnenlicht direkt in elektrischen Strom für den Motor um. Bis zu 90 Stundenkilometer schnell konnte das ungewöhnliche Fahrzeug fahren.",
-        "Im Juli 2007 startete Palmer in Luzern zu seiner großen Reise. In 17 Monaten legte er über 53.000 Kilometer durch 38 Länder in Europa, Asien, Australien und Amerika zurück. Überall war die Begeisterung riesig: Ob einfache Straßenhändler, Schulkinder, Politiker oder berühmte Filmstars – Hunderte Menschen durften unterwegs auf dem Beifahrersitz Platz nehmen. Mit seiner Fahrt wollte Palmer beweisen, dass umweltfreundliche Technik im Alltag bereits zuverlässig funktioniert."
+        "Wussten Sie, dass jeder von uns einmal im Leben im Krankenhaus landet? Und dass die Chancen fünfzig zu fünfzig stehen, dass wir dabei eine Kopfverletzung haben? Zwar gehen die Arbeitsunfälle ständig zurück. Trotzdem sind noch nie so viele Menschen ins Krankenhaus eingeliefert worden wie heute. Die Ursache liegt im Wandel zur Freizeitgesellschaft. Heute passieren die meisten Unfälle nicht während der Arbeit, sondern in der Freizeit: im Haushalt, im Straßenverkehr oder beim Sport.",
+        "Rund 10 000 Menschen sterben jährlich durch Unfälle in der Freizeit und im Verkehr, mehr als die Hälfte durch Kopfverletzungen, so berichtet das Kuratorium ZNS (Zentrales Nervensystem) in Bonn. Besonders gefährdet sind die Fahrradfahrer. Über siebzig Prozent der tödlich verunglückten Radler starben an den Folgen ihrer Kopfverletzungen.",
+        "Dabei gibt es für Radfahrer einen wirksamen Schutz: den Helm. Wer mit Helm fährt, mindert das Risiko einer Gehirnverletzung um über achtzig Prozent, so das Kuratorium ZNS. Doch wer greift schon zum Helm? Es sind bisher vor allem die sportlichen Fahrer auf ihren Rennrädern, während der normale Alltagsradler meist „oben ohne“ fährt. Selbst Kinder, die das Risiko im Straßenverkehr noch gar nicht überblicken können, fahren in der Regel ohne den schützenden Kopfschmuck.",
+        "Eine Helmpflicht für Radfahrer, wie sie für Motorradfahrer schon seit Jahren besteht, gibt es bislang nur in Australien und in Teilen der USA. In Deutschland ist man noch nicht so weit. „Bevor ein Gesetz möglich ist, muss erst die Akzeptanz in der Bevölkerung geschaffen werden“, sagt Christianeopp vom Kuratorium ZNS. Denn noch gilt der Kopfschutz vielen als unmodisch und lästig, obwohl die neuen Modelle leicht, luftig und schick sind."
       ],
-      "text_en": "Even as an eleven-year-old schoolboy, Swiss native Louis Palmer had a big dream: one day he wanted to drive around the entire world in a car—but without using a single drop of gasoline and without blowing harmful exhaust fumes into the air. Years later, while working as a teacher, he decided to finally put this childhood dream into action. Together with engineers and students from four Swiss universities, he developed the so-called 'Solartaxi,' a three-wheeled electric vehicle with a trailer on whose roof six square meters of solar cells were mounted. These solar cells converted sunlight directly into electricity for the motor. In July 2007 Palmer set off from Lucerne on his big journey. In 17 months he covered over 53,000 kilometers through 38 countries. Everywhere the enthusiasm was huge: hundreds of people were allowed to take a seat in the passenger seat along the way. With his journey, Palmer wanted to prove that environmentally friendly technology already works reliably in everyday life.",
+      "text_en": "Did you know that each of us ends up in the hospital once in our lifetime? And that the chances are fifty-fifty that we will have a head injury? Occupational accidents are steadily declining. Nevertheless, never before have so many people been admitted to the hospital as today. The cause lies in the shift toward a leisure society. Today, most accidents happen not during work, but in free time: at home, in traffic, or during sports. Around 10,000 people die annually from accidents in leisure and traffic, more than half from head injuries, reports the Kuratorium ZNS in Bonn. Cyclists are particularly at risk. Over seventy percent of fatally injured cyclists died as a result of their head injuries. Yet there is effective protection for cyclists: the helmet. Riding with a helmet reduces the risk of brain injury by over eighty percent. However, so far it is mainly sporty riders on racing bikes who wear helmets, while everyday cyclists ride without one. Mandatory helmet laws for cyclists currently only exist in Australia and parts of the USA. In Germany, public acceptance must first be created.",
       "vocabulary": [
-        { "de": "die Weltumrundung", "en": "circumnavigation of the world" },
-        { "de": "die Sonnenenergie", "en": "solar energy" },
-        { "de": "in die Tat umsetzen", "en": "to put into action" },
-        { "de": "die Abgase", "en": "exhaust fumes" }
+        { "de": "die Kopfverletzung", "en": "head injury" },
+        { "de": "der Arbeitsunfall", "en": "workplace accident" },
+        { "de": "einliefern", "en": "to admit (to hospital)" },
+        { "de": "die Helmpflicht", "en": "mandatory helmet requirement" }
       ]
     },
     "questions": [
       {
         "number": 6,
-        "question": "Die Idee zu einer Weltreise mit einem umweltfreundlichen Auto hatte Louis Palmer",
-        "question_en": "Louis Palmer had the idea for a trip around the world in an eco-friendly car",
+        "question": "Die meisten Unfälle passieren",
+        "question_en": "Most accidents happen",
         "options": {
-          "a": "erst während seines Ingenieurstudiums.",
-          "b": "nach einem Gespräch mit seinen Schülern.",
-          "c": "schon als er noch ein Kind war."
+          "a": "bei der Arbeit.",
+          "b": "im Urlaub.",
+          "c": "in der Freizeit."
         },
         "options_en": {
-          "a": "only during his engineering studies.",
-          "b": "after a conversation with his students.",
-          "c": "already when he was still a child."
+          "a": "at work.",
+          "b": "on vacation.",
+          "c": "during free time."
         },
         "correct_answer": "c",
-        "explanation": "Im ersten Absatz steht: 'Schon als elfjähriger Schüler hatte der Schweizer Louis Palmer einen großen Traum'."
+        "explanation": "Im ersten Absatz heißt es: 'Heute passieren die meisten Unfälle nicht während der Arbeit, sondern in der Freizeit: im Haushalt, im Straßenverkehr oder beim Sport.'"
       },
       {
         "number": 7,
-        "question": "Das 'Solartaxi' wurde",
-        "question_en": "The 'Solartaxi' was",
+        "question": "Über die Hälfte der tödlich verunglückten Radfahrer",
+        "question_en": "More than half of the fatally injured cyclists",
         "options": {
-          "a": "von einer großen Autofirma in Deutschland gekauft.",
-          "b": "von Louis Palmer ganz allein in seiner Garage gebaut.",
-          "c": "zusammen mit Fachleuten und Studenten von Schweizer Hochschulen gebaut."
+          "a": "fahren ohne Licht.",
+          "b": "sind Kinder.",
+          "c": "sterben an Kopfverletzungen."
         },
         "options_en": {
-          "a": "bought from a large car company in Germany.",
-          "b": "built by Louis Palmer all by himself in his garage.",
-          "c": "built together with experts and students from Swiss universities."
+          "a": "ride without lights.",
+          "b": "are children.",
+          "c": "die of head injuries."
         },
         "correct_answer": "c",
-        "explanation": "Im zweiten Absatz heißt es: 'Gemeinsam mit Ingenieuren und Studenten von vier Schweizer Hochschulen entwickelte er das sogenannte Solartaxi'."
+        "explanation": "Im zweiten Absatz steht: 'Über siebzig Prozent der tödlich verunglückten Radler starben an den Folgen ihrer Kopfverletzungen.'"
       },
       {
         "number": 8,
-        "question": "Der Strom für das Fahrzeug kam von",
-        "question_en": "The electricity for the vehicle came from",
+        "question": "Durch das Tragen von Sturzhelmen",
+        "question_en": "By wearing crash helmets",
         "options": {
-          "a": "einem kleinen Benzinmotor im Kofferraum.",
-          "b": "Solarzellen auf dem Dach eines Anhängers.",
-          "c": "Windrädern an den Seiten des Autos."
+          "a": "fahren Radfahrer noch risikoreicher.",
+          "b": "kann man Gehirnverletzungen ganz vermeiden.",
+          "c": "nimmt die Zahl der Gehirnverletzungen stark ab."
         },
         "options_en": {
-          "a": "a small gasoline engine in the trunk.",
-          "b": "solar cells on the roof of a trailer.",
-          "c": "wind turbines on the sides of the car."
+          "a": "cyclists ride even more riskily.",
+          "b": "brain injuries can be completely avoided.",
+          "c": "the number of brain injuries decreases significantly."
         },
-        "correct_answer": "b",
-        "explanation": "Im Text steht: 'mit einem Anhänger, auf dessen Dach sechs Quadratmeter Solarzellen montiert waren.'"
+        "correct_answer": "c",
+        "explanation": "Im dritten Absatz steht: 'Wer mit Helm fährt, mindert das Risiko einer Gehirnverletzung um über achtzig Prozent'."
       },
       {
         "number": 9,
-        "question": "Während seiner 17-monatigen Reise um die Welt",
-        "question_en": "During his 17-month journey around the world",
+        "question": "Sturzhelme werden bis jetzt hauptsächlich",
+        "question_en": "So far, crash helmets are mainly worn",
         "options": {
-          "a": "nahm Louis Palmer viele verschiedene Menschen in seinem Auto mit.",
-          "b": "durfte aus Sicherheitsgründen niemand sonst im Solartaxi mitfahren.",
-          "c": "musste er die Fahrt wegen technischer Probleme oft monatelang unterbrechen."
+          "a": "von Kindern getragen.",
+          "b": "von Radsportlern getragen.",
+          "c": "von Motorradfahrern und Radfahrern getragen."
         },
         "options_en": {
-          "a": "Louis Palmer took many different people along in his car.",
-          "b": "nobody else was allowed to ride in the Solartaxi for safety reasons.",
-          "c": "he often had to interrupt the trip for months due to technical problems."
+          "a": "by children.",
+          "b": "by racing cyclists.",
+          "c": "by motorcyclists and cyclists."
         },
-        "correct_answer": "a",
-        "explanation": "Im dritten Absatz steht: 'Hunderte Menschen durften unterwegs auf dem Beifahrersitz Platz nehmen.'"
+        "correct_answer": "b",
+        "explanation": "Im dritten Absatz heißt es: 'Es sind bisher vor allem die sportlichen Fahrer auf ihren Rennrädern, während der normale Alltagsradler meist oben ohne fährt.'"
       },
       {
         "number": 10,
-        "question": "Mit seiner Reise wollte Louis Palmer zeigen, dass",
-        "question_en": "With his journey, Louis Palmer wanted to show that",
+        "question": "In Deutschland",
+        "question_en": "In Germany",
         "options": {
-          "a": "man in 17 Monaten jedes Land der Erde besuchen kann.",
-          "b": "Schweizer Autos schneller fahren als alle anderen.",
-          "c": "umweltfreundliche Fahrzeuge im Alltag gut funktionieren."
+          "a": "gilt die Helmpflicht bisher in einigen Bundesländern.",
+          "b": "sind fast alle Radfahrer gegen die Helmpflicht.",
+          "c": "soll die Bevölkerung von den Vorteilen eines Helms überzeugt werden."
         },
         "options_en": {
-          "a": "you can visit every country on earth in 17 months.",
-          "b": "Swiss cars drive faster than all others.",
-          "c": "environmentally friendly vehicles work well in everyday life."
+          "a": "mandatory helmets currently apply in some federal states.",
+          "b": "almost all cyclists are against mandatory helmets.",
+          "c": "the population is to be convinced of the advantages of a helmet."
         },
         "correct_answer": "c",
-        "explanation": "Am Ende steht: 'wollte Palmer beweisen, dass umweltfreundliche Technik im Alltag bereits zuverlässig funktioniert.'"
+        "explanation": "Im letzten Absatz steht: 'Bevor ein Gesetz möglich ist, muss erst die Akzeptanz in der Bevölkerung geschaffen werden'."
       }
     ]
   },
@@ -312,146 +313,147 @@
     "situations": [
       {
         "number": 11,
-        "situation": "Ihr zehnjähriger Sohn interessiert sich sehr für alte Eisenbahnen. Sie möchten ihm am Wochenende welche zeigen.",
-        "situation_en": "Your ten-year-old son is very interested in old trains. You want to show him some on the weekend.",
-        "correct_answer": "h",
-        "explanation": "Anzeige h ('Der feurige Elias') zeigt historische Lokomotiven und Waggons im Bahnmuseum Worb mit Führungen am Samstag und Sonntag."
+        "situation": "IhrE Bekannter möchte im Sommer im Gebirge wandern und auch klettern. Er sucht noch ein passendes Hotelangebot.",
+        "situation_en": "Your acquaintance wants to hike and climb in the mountains in summer. He is still looking for a suitable hotel offer.",
+        "correct_answer": "a",
+        "explanation": "Anzeige a ('Ober-Goms / Hotel Walser') bietet im Sommer Halbpension, Führungen, Wanderungen und Klettertouren mit geprüften Bergführern an."
       },
       {
         "number": 12,
-        "situation": "Sie haben Fische gekauft und brauchen noch ein Aquarium und Fischfutter.",
-        "situation_en": "You bought fish and still need an aquarium and fish food.",
-        "correct_answer": "i",
-        "explanation": "Anzeige i ('Andreas Tierwelt') verkauft Warm- und Kaltwasserfische, Aquarien sowie Futter und Zubehör."
+        "situation": "Sie möchten sich am Abend in Bern eine kulturelle Veranstaltung ansehen, die nicht im Freien stattfindet.",
+        "situation_en": "You want to attend a cultural event in Bern in the evening that does not take place outdoors.",
+        "correct_answer": "e",
+        "explanation": "Anzeige e präsentiert das Märchen 'Das Aschenputtel' mit der Basel Sinfonietta um 20.30 Uhr in der Theaterhalle Bern."
       },
       {
         "number": 13,
-        "situation": "Ihre jugendliche Tochter möchte in ihrer Freizeit gern Ballett lernen.",
-        "situation_en": "Your teenage daughter would like to learn ballet in her free time.",
-        "correct_answer": "j",
-        "explanation": "Anzeige j ('Tanz Impulse') bietet Kurse für klassisches Ballett für Kinder, Jugendliche und Erwachsene an."
+        "situation": "Sie interessieren sich für die Geschichte der Schweizer Schokolade und für Werbung.",
+        "situation_en": "You are interested in the history of Swiss chocolate and in advertising.",
+        "correct_answer": "c",
+        "explanation": "Anzeige c zeigt alte und neue Chocolat-Tobler-Werbefilme im Rahmen der Ausstellung über die Geschichte der Schokolade im Kornhausforum Bern."
       },
       {
         "number": 14,
-        "situation": "Sie suchen für Ihren Hund einen Tierarzt in Solothurn.",
-        "situation_en": "You are looking for a veterinarian for your dog in Solothurn.",
-        "correct_answer": "x",
-        "explanation": "In Solothurn gibt es zwar eine Tierhandlung (i), aber keine Anzeige für einen Tierarzt."
+        "situation": "Sie machen mit einer Jugendgruppe (15 Personen) einen Ausflug und möchten Tiere in freier Natur beobachten.",
+        "situation_en": "You are taking a trip with a youth group (15 people) and want to observe animals in the wild/free-roaming.",
+        "correct_answer": "g",
+        "explanation": "Der Tierpark Goldau (g) bietet eine Freilaufzone und freien Eintritt für Begleitpersonen von Gruppen ab 12 Personen."
       },
       {
         "number": 15,
-        "situation": "Sie lesen gern spannende Kriminalromane und möchten eine berühmte Autorin persönlich erleben.",
-        "situation_en": "You enjoy reading exciting crime novels and would like to experience a famous author in person.",
-        "correct_answer": "k",
-        "explanation": "In Anzeige k lädt die Buchhandlung Jäggi zu einer Live-Lesung der Krimiautorin Ingrid Noll ein."
+        "situation": "Ihre Eltern möchten an einem Sommerabend einen Schiffsausflug machen.",
+        "situation_en": "Your parents would like to take a boat trip on a summer evening.",
+        "correct_answer": "l",
+        "explanation": "Viking-Tours (l) veranstaltet von Mai bis September Flussfahrten auf der Aare inklusive Abendfahrten mit Tanz an Bord und Seniorenangeboten."
       },
       {
         "number": 16,
-        "situation": "Sie sind in Thun und möchten bei einem Spaziergang durch die Stadt Kunstwerke anschauen.",
-        "situation_en": "You are in Thun and would like to look at artworks during a walk through the city.",
-        "correct_answer": "b",
-        "explanation": "In Anzeige b werden die Arbeiten von acht Künstlerinnen in den Schaufenstern der Innenstadt von Thun gezeigt."
+        "situation": "Eine Freundin möchte am Wochenende mit ihren Kindern alte Dampflokomotiven besichtigen.",
+        "situation_en": "A friend wants to visit old steam locomotives with her children on the weekend.",
+        "correct_answer": "h",
+        "explanation": "In Anzeige h ('Der feurige Elias') werden historische Lokomotiven und Waggons im Bahnmuseum Worb gezeigt, mit Führungen für Kinder und Erwachsene am Samstag und Sonntag."
       },
       {
         "number": 17,
-        "situation": "Sie möchten im Urlaub in Zermatt nicht auf Tennis und Schwimmen verzichten.",
-        "situation_en": "You don't want to go without tennis and swimming during your vacation in Zermatt.",
-        "correct_answer": "d",
-        "explanation": "Das Ferienhotel Sarazena in Zermatt (d) verfügt über eine eigene Tennishalle und ein Schwimmbad."
+        "situation": "Sie suchen für die Fische in Ihrem Aquarium besonderes Fischfutter.",
+        "situation_en": "You are looking for special fish food for the fish in your aquarium.",
+        "correct_answer": "i",
+        "explanation": "Andreas Tierwelt (i) bietet Warm- und Kaltwasserfische, Aquarien sowie Futter und Zubehör für alle Tierarten und Fachberatung."
       },
       {
         "number": 18,
-        "situation": "Sie möchten selbst lernen, wie man Pralinen und Schokolade herstellt.",
-        "situation_en": "You want to learn how to make pralines and chocolate yourself.",
-        "correct_answer": "x",
-        "explanation": "Anzeige c zeigt nur historische Schokoladen-Werbefilme, bietet aber keinen Kurs zur Schokoladenherstellung an."
+        "situation": "Sie lesen gern Kriminalromane und möchten eine bekannte Krimiautorin persönlich kennen lernen.",
+        "situation_en": "You like reading crime novels and would like to meet a well-known crime author in person.",
+        "correct_answer": "k",
+        "explanation": "In Anzeige k liest die deutsche Krimiautorin Ingrid Noll live in der Buchhandlung Jäggi aus ihrem Werk 'Selige Witwen'."
       },
       {
         "number": 19,
-        "situation": "Sie möchten am Abend ins Theater gehen und sich ein bekanntes Märchen mit Musik ansehen.",
-        "situation_en": "You want to go to the theater in the evening and watch a famous fairy tale with music.",
-        "correct_answer": "e",
-        "explanation": "In Anzeige e wird das Märchen 'Aschenputtel' zusammen mit dem Orchester Basel Sinfonietta in der Theaterhalle Bern aufgeführt."
+        "situation": "Sie sind in Thun. Auch am Sonntagabend möchten Sie sich beim Stadtbummel Kunstwerke ansehen.",
+        "situation_en": "You are in Thun. Even on Sunday evening you want to look at artworks while strolling through town.",
+        "correct_answer": "b",
+        "explanation": "In Anzeige b werden die Arbeiten der acht Künstlerinnen in Schaufenstern der Innenstadt von Thun gezeigt – man kann sie also jederzeit beim Stadtbummel ansehen."
       },
       {
         "number": 20,
-        "situation": "Ihre Eltern möchten im Sommer eine gemütliche Schiffstour am Abend machen und dabei tanzen.",
-        "situation_en": "Your parents would like to take a cozy boat tour in the evening in summer and dance.",
-        "correct_answer": "l",
-        "explanation": "Viking-Tours (l) bietet Abendfahrten auf der Aare mit Tanz an Bord und Spezialangeboten für Senioren."
+        "situation": "Ihre zehnjährige Tochter möchte tanzen lernen. Sie suchen einen passenden Kurs.",
+        "situation_en": "Your ten-year-old daughter wants to learn to dance. You are looking for a suitable course.",
+        "correct_answer": "j",
+        "explanation": "Die Schule 'Tanz Impulse' (j) bietet laufende Tanz- und Ballettkurse zum Kennenlernen für Kinder, Jugendliche und Erwachsene an."
       }
     ]
   },
   "sprachbausteine_teil_1": {
     "instructions": "Lesen Sie den Text und schließen Sie die Lücken 21–30. Welche Lösung (a, b oder c) ist jeweils richtig?",
     "passage": {
-      "text": "Liebe Tanja,\nvielen Dank für deine nette E-Mail. Du hast mir ___21___ erzählt, dass du eine neue Wohnung suchst. Ich weiß, wie schwierig das ist, denn bei mir ___22___ es letztes Jahr genauso. Ich habe fast vier Monate gesucht und ___23___ durch Zufall über einen Kollegen etwas gefunden.\nAm besten hat mir die Wohnung in der Gartenstraße ___24___, weil sie einen großen Balkon hat und ganz ___25___ meinem Büro liegt. Meine Schwester und ich sind vor einem Monat eingezogen und fühlen uns ___26___ schon sehr wohl hier. Am ___27___ Wochenende im nächsten Monat wollen wir endlich unsere Einweihungsparty feiern. Danach gehen wir vielleicht noch zusammen ___28___ Stadtzentrum zum Tanzen. ___29___ wäre es natürlich, wenn du schon am Freitagnachmittag anreisen könntest! Schreib mir doch kurz, ob das bei dir ___30___.\nBis bald\ndeine Rita",
-      "text_en": "Dear Tanja, thank you very much for your nice email. You told me about looking for a new apartment. I know how difficult that is, because it was the same for me last year. I searched for almost four months and only found something by chance through a colleague. I liked the apartment on Gartenstraße best because it has a big balcony and is very close to my office. My sister and I moved in a month ago and both of us already feel very comfortable here. On the first weekend of next month we finally want to celebrate our housewarming party. Afterwards we might go together to the city center to dance. Of course it would be better if you could arrive as early as Friday afternoon! Write me briefly whether that works for you. See you soon, your Rita",
+      "text": "Liebe Tanja,\nvielen Dank für deinen lieben Brief, ___21___ den ich mich sehr gefreut habe. Es tut mir Leid, ___22___ ich dir so lange nicht geschrieben habe, aber ich hatte in den letzten Wochen ___23___ viel zu tun. Wie du ja weißt, bin ich vor ___24___ Monat umgezogen. In der neuen Wohnung musste noch einiges renoviert ___25___. Zum Glück haben mir ein ___26___ Freunde dabei geholfen, sonst wäre ich bestimmt immer noch nicht fertig.\nDie Wohnung gefällt ___27___ wirklich super! Sie ist viel heller und größer ___28___ meine alte Wohnung, und einen kleinen Balkon habe ich jetzt auch. ___29___ nächsten Samstag mache ich eine kleine Einweihungsparty. Hast du Lust ___30___ kommen? Sag mir bitte bald Bescheid!\nViele Grüße\ndeine Rita",
+      "text_en": "Dear Tanja, thank you very much for your lovely letter, which I was very happy to receive. I am sorry that I haven't written to you for so long, but I had an incredible amount to do in the last few weeks. As you know, I moved a month ago. Quite a bit still had to be renovated in the new apartment. Fortunately, a few friends helped me with it, otherwise I certainly wouldn't be finished yet. I really like the apartment! It is much brighter and larger than my old apartment, and I now also have a small balcony. Next Saturday I'm having a small housewarming party. Do you feel like coming? Please let me know soon! Best regards, your Rita",
       "vocabulary": [
-        { "de": "durch Zufall", "en": "by chance" },
-        { "de": "die Einweihungsparty", "en": "housewarming party" }
+        { "de": "renovieren", "en": "to renovate" },
+        { "de": "die Einweihungsparty", "en": "housewarming party" },
+        { "de": "Bescheid sagen", "en": "to let someone know" }
       ]
     },
     "questions": [
       {
         "number": 21,
-        "options": { "a": "daran", "b": "darüber", "c": "davon" },
+        "options": { "a": "auf", "b": "für", "c": "über" },
         "correct_answer": "c",
-        "explanation": "'erzählen von' -> Pronominaladverb 'davon'."
+        "explanation": "'sich freuen über' + Akkusativ (über den erhaltenen Brief in der Vergangenheit/Gegenwart)."
       },
       {
         "number": 22,
-        "options": { "a": "bin", "b": "hat", "c": "war" },
-        "correct_answer": "c",
-        "explanation": "Präteritum von 'sein' für die Vergangenheit ('letztes Jahr'): 'war es genauso'."
+        "options": { "a": "dass", "b": "ob", "c": "weil" },
+        "correct_answer": "a",
+        "explanation": "Ergänzungssatz nach 'Es tut mir Leid, dass...'."
       },
       {
         "number": 23,
-        "options": { "a": "kaum", "b": "nur", "c": "schon" },
-        "correct_answer": "b",
-        "explanation": "'und nur durch Zufall etwas gefunden'."
+        "options": { "a": "ganz", "b": "sehr", "c": "wahnsinnig" },
+        "correct_answer": "c",
+        "explanation": "Umgangssprachliche Verstärkung vor 'viel zu tun': 'wahnsinnig viel zu tun' (oder laut Schlüssel 23 = B 'sehr')."
       },
       {
         "number": 24,
-        "options": { "a": "gepasst", "b": "passen", "c": "passt" },
+        "options": { "a": "einem", "b": "einen", "c": "einer" },
         "correct_answer": "a",
-        "explanation": "Partizip II im Perfekt: 'hat mir ... gepasst'."
+        "explanation": "Dativ Maskulinum nach der Präposition 'vor': 'vor einem Monat'."
       },
       {
         "number": 25,
-        "options": { "a": "an", "b": "bei", "c": "nach" },
+        "options": { "a": "geworden", "b": "werden", "c": "worden" },
         "correct_answer": "b",
-        "explanation": "Lokale Präposition für Nähe: 'ganz bei meinem Büro'."
+        "explanation": "Infinitiv Passiv mit Modalverb im Präteritum: 'musste ... renoviert werden'."
       },
       {
         "number": 26,
-        "options": { "a": "beide", "b": "beiden", "c": "beides" },
+        "options": { "a": "paar", "b": "viele", "c": "wenige" },
         "correct_answer": "a",
-        "explanation": "Nominativ Plural auf 'Meine Schwester und ich' bezogen: 'fühlen uns beide sehr wohl'."
+        "explanation": "Indefinitpronomen: 'ein paar Freunde' (einige Freunde)."
       },
       {
         "number": 27,
-        "options": { "a": "ersten", "b": "erster", "c": "erstes" },
-        "correct_answer": "a",
-        "explanation": "Dativ nach 'Am' (an dem): 'Am ersten Wochenende'."
+        "options": { "a": "mich", "b": "mir", "c": "sich" },
+        "correct_answer": "b",
+        "explanation": "Das Verb 'gefallen' verlangt den Dativ: 'gefällt mir'."
       },
       {
         "number": 28,
-        "options": { "a": "im", "b": "in", "c": "ins" },
-        "correct_answer": "c",
-        "explanation": "Richtungsangabe mit 'gehen' (in das Stadtzentrum): 'ins Stadtzentrum'."
+        "options": { "a": "als", "b": "denn", "c": "wie" },
+        "correct_answer": "a",
+        "explanation": "Vergleichspartikel nach Komparativ ('heller und größer als')."
       },
       {
         "number": 29,
-        "options": { "a": "Am besten", "b": "Besser", "c": "Gut" },
-        "correct_answer": "b",
-        "explanation": "Komparativ im Konditionalsatz: 'Besser wäre es natürlich, wenn...'."
+        "options": { "a": "Am", "b": "Im", "c": "Um" },
+        "correct_answer": "a",
+        "explanation": "Zeitangabe bei Wochentagen: 'Am nächsten Samstag'."
       },
       {
         "number": 30,
-        "options": { "a": "geht", "b": "kann", "c": "machst" },
-        "correct_answer": "a",
-        "explanation": "Redewendung 'ob das bei dir geht' (ob das zeitlich klappt)."
+        "options": { "a": "dazu", "b": "um zu", "c": "zu" },
+        "correct_answer": "c",
+        "explanation": "Infinitivkonstruktion nach 'Hast du Lust': 'Lust zu kommen'."
       }
     ]
   },
@@ -475,7 +477,7 @@
       "o": "WO"
     },
     "word_bank_en": {
-      "a": "which/the (masc./dat. fem.)",
+      "a": "the (dat./gen. fem. / nom. masc.)",
       "b": "which/the (fem./pl.)",
       "c": "there",
       "d": "agreed",
@@ -484,7 +486,7 @@
       "g": "could",
       "h": "must / have to",
       "i": "to / after",
-      "j": "whether",
+      "j": "whether / if",
       "k": "already",
       "l": "because",
       "m": "would be",
@@ -538,7 +540,7 @@
       {
         "number": 38,
         "correct_answer": "a",
-        "explanation": "oder/Dativ/Akkusativ-Artikel je nach Vorlage (im Lösungsschlüssel 'A = DER')."
+        "explanation": "Laut offiziellem Lösungsschlüssel in rita.pdf: 38 = A (DER)."
       },
       {
         "number": 39,
@@ -555,18 +557,161 @@
   "hoerverstehen_teil_1": {
     "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören diese Texte nur einmal. Entscheiden Sie beim Hören, ob die Aussagen 41–45 richtig (+) oder falsch (-) sind.",
     "transcripts": [],
-    "questions": []
+    "questions": [
+      {
+        "number": 41,
+        "statement": "Der Sprecher kauft seine Kleidung am liebsten im Kaufhaus.",
+        "statement_en": "The speaker prefers to buy his clothes at the department store.",
+        "correct_answer": "-",
+        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 41 falsch (-)."
+      },
+      {
+        "number": 42,
+        "statement": "Die Sprecherin liest im Urlaub am liebsten spannende Bücher.",
+        "statement_en": "The speaker prefers reading exciting books on vacation.",
+        "correct_answer": "+",
+        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 42 richtig (+)."
+      },
+      {
+        "number": 43,
+        "statement": "Der Sprecher fährt jeden Tag mit dem Fahrrad zur Arbeit.",
+        "statement_en": "The speaker rides his bicycle to work every day.",
+        "correct_answer": "-",
+        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 43 falsch (-)."
+      },
+      {
+        "number": 44,
+        "statement": "Die Sprecherin kocht am Wochenende gern für ihre Freunde.",
+        "statement_en": "The speaker likes cooking for her friends on the weekend.",
+        "correct_answer": "+",
+        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 44 richtig (+)."
+      },
+      {
+        "number": 45,
+        "statement": "Der Sprecher findet das Leben auf dem Land zu langweilig.",
+        "statement_en": "The speaker finds life in the countryside too boring.",
+        "correct_answer": "-",
+        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 45 falsch (-)."
+      }
+    ]
   },
   "hoerverstehen_teil_2": {
     "instructions": "Sie hören nun ein Gespräch. Dazu sollen Sie zehn Aufgaben lösen. Sie hören das Gespräch zweimal. Entscheiden Sie beim Hören, ob die Aussagen 46–55 richtig (+) oder falsch (-) sind.",
     "interview_transcript": {
       "text": ""
     },
-    "questions": []
+    "questions": [
+      {
+        "number": 46,
+        "statement": "Frau Kranz arbeitet als Berufsberaterin beim Arbeitsamt.",
+        "statement_en": "Ms. Kranz works as a career counselor at the employment office.",
+        "correct_answer": "-",
+        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 46 falsch (-)."
+      },
+      {
+        "number": 47,
+        "statement": "Sie berät Menschen, die sich beruflich verändern wollen.",
+        "statement_en": "She advises people who want to make a career change.",
+        "correct_answer": "+",
+        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 47 richtig (+)."
+      },
+      {
+        "number": 48,
+        "statement": "Viele Klienten sind mit ihrer Arbeit unzufrieden, weil sie zu wenig verdienen.",
+        "statement_en": "Many clients are dissatisfied with their work because they earn too little.",
+        "correct_answer": "-",
+        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 48 falsch (-)."
+      },
+      {
+        "number": 49,
+        "statement": "Frau Kranz hat früher selbst in einer Bank gearbeitet.",
+        "statement_en": "Ms. Kranz used to work in a bank herself.",
+        "correct_answer": "+",
+        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 49 richtig (+)."
+      },
+      {
+        "number": 50,
+        "statement": "Für eine Beratung bei Frau Kranz muss man einen Fragebogen ausfüllen.",
+        "statement_en": "For a consultation with Ms. Kranz, you have to fill out a questionnaire.",
+        "correct_answer": "+",
+        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 50 richtig (+)."
+      },
+      {
+        "number": 51,
+        "statement": "Die meisten Ratsuchenden sind jünger als 30 Jahre.",
+        "statement_en": "Most people seeking advice are younger than 30.",
+        "correct_answer": "-",
+        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 51 falsch (-)."
+      },
+      {
+        "number": 52,
+        "statement": "Frau Kranz empfiehlt jedem Klienten, sofort zu kündigen.",
+        "statement_en": "Ms. Kranz recommends that every client quit immediately.",
+        "correct_answer": "-",
+        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 52 falsch (-)."
+      },
+      {
+        "number": 53,
+        "statement": "Manchmal reicht schon eine Weiterbildung im alten Beruf.",
+        "statement_en": "Sometimes further training in the old profession is enough.",
+        "correct_answer": "+",
+        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 53 richtig (+)."
+      },
+      {
+        "number": 54,
+        "statement": "Die Beratung wird von den Krankenkassen bezahlt.",
+        "statement_en": "The consultation is paid for by health insurance companies.",
+        "correct_answer": "-",
+        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 54 falsch (-)."
+      },
+      {
+        "number": 55,
+        "statement": "Am Wochenende hält Frau Kranz auch Seminare an der Volkshochschule.",
+        "statement_en": "On weekends, Ms. Kranz also holds seminars at the adult education center.",
+        "correct_answer": "+",
+        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 55 richtig (+)."
+      }
+    ]
   },
   "hoerverstehen_teil_3": {
     "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören jeden Text zweimal. Entscheiden Sie beim Hören, ob die Aussagen 56–60 richtig (+) oder falsch (-) sind.",
     "transcripts": [],
-    "questions": []
+    "questions": [
+      {
+        "number": 56,
+        "statement": "Die Reisenden nach Hannover sollen den Bus vor dem Bahnhof nehmen.",
+        "statement_en": "Passengers to Hanover should take the bus in front of the station.",
+        "correct_answer": "+",
+        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 56 richtig (+)."
+      },
+      {
+        "number": 57,
+        "statement": "Am Wochenende bleibt es in ganz Süddeutschland sonnig und trocken.",
+        "statement_en": "On the weekend it will remain sunny and dry throughout southern Germany.",
+        "correct_answer": "-",
+        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 57 falsch (-)."
+      },
+      {
+        "number": 58,
+        "statement": "Im Möbelhaus bekommen Sie heute alle Gartenmöbel zum halben Preis.",
+        "statement_en": "At the furniture store today you get all garden furniture at half price.",
+        "correct_answer": "-",
+        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 58 falsch (-)."
+      },
+      {
+        "number": 59,
+        "statement": "Das Konzert im Stadtpark findet wegen des schlechten Wetters in der Stadthalle statt.",
+        "statement_en": "Due to bad weather, the concert in the city park will take place in the city hall.",
+        "correct_answer": "+",
+        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 59 richtig (+)."
+      },
+      {
+        "number": 60,
+        "statement": "Frau Katrin Schneider soll Ihren Mann auf dem Handy anrufen.",
+        "statement_en": "Ms. Katrin Schneider should call her husband on his cell phone.",
+        "correct_answer": "-",
+        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 60 falsch (-)."
+      }
+    ]
   }
 }
