@@ -2,716 +2,1237 @@
   "title": "Rita",
   "leseverstehen_teil_1": {
     "headings": {
-      "a": "Abwechslungsreiches Essen gesund für Körper und Geist",
-      "b": "Bald noch mehr Kranke durch falsche Ernährung?",
-      "c": "Bio-Bauern produzieren immer mehr",
-      "d": "Chemie im Essen",
-      "e": "Ernährung der Kinder immer ungesünder",
-      "f": "Ernährung im Büro",
-      "g": "Ernährung und Bewegung entscheidend für die Gesundheit",
-      "h": "Essen wir uns krank?",
-      "i": "Immer mehr Menschen essen kein Fleisch",
-      "j": "Positive Wirkungen durch richtige Ernährung"
+      "a": "Schweizer sollen gesünder leben",
+      "b": "Neu im Trend: Jung und schön mit Schokolade!",
+      "c": "Studie zeigt: Eheleute haben oft ein paar Kilos zu viel",
+      "d": "Jeden Tag Sport – für die meisten Deutschen kein Problem",
+      "e": "Die aktiv Sport treiben, leben länger",
+      "f": "Immer mehr übergewichtige Singles in Deutschland",
+      "g": "Teures Essen für mehr Jugend und Schönheit",
+      "h": "USA: Nachfrage nach teuren Lebensmitteln geht zurück",
+      "i": "Schokolade essen – jung bleiben",
+      "j": "Weniger schlafen – länger leben"
     },
     "headings_en": {
-      "a": "Varied food is healthy for body and mind",
-      "b": "Soon even more sick people due to poor nutrition?",
-      "c": "Organic farmers are producing more and more",
-      "d": "Chemicals in food",
-      "e": "Children's diet becoming increasingly unhealthy",
-      "f": "Nutrition in the office",
-      "g": "Diet and exercise are crucial for health",
-      "h": "Are we eating ourselves sick?",
-      "i": "More and more people do not eat meat",
-      "j": "Positive effects through proper nutrition"
+      "a": "Swiss people should live healthier",
+      "b": "New trend: Young and beautiful with chocolate!",
+      "c": "Study shows: Married couples often have a few extra kilos",
+      "d": "Sports every day – no problem for most Germans",
+      "e": "Those who actively do sports live longer",
+      "f": "More and more overweight singles in Germany",
+      "g": "Expensive food for more youth and beauty",
+      "h": "USA: Demand for expensive groceries is declining",
+      "i": "Eat chocolate – stay young",
+      "j": "Sleep less – live longer"
     },
     "passages": [
       {
         "number": 1,
-        "text": "Hektik, Stress und der schnelle Griff zu fettigen Snacks zwischendurch prägen heute oft den Alltag. Dabei sind sich Experten längst einig: Wer gesund und leistungsfähig bleiben will, muss vor allem auf zwei Dinge achten. Neben einer ausgewogenen Kost mit viel frischem Obst, Gemüse und Vollkornprodukten spielt regelmäßige körperliche Aktivität an der frischen Luft oder im Sportverein die wichtigste Rolle, um Herz-Kreislauf-Erkrankungen und Übergewicht wirksam vorzubeugen.",
-        "text_en": "Hectic pace, stress, and reaching for greasy snacks in between often characterize everyday life today. Yet experts have long agreed: anyone who wants to stay healthy and productive must pay attention to two things above all. In addition to a balanced diet with plenty of fresh fruit, vegetables, and whole-grain products, regular physical activity in the fresh air or at a sports club plays the most important role in effectively preventing cardiovascular disease and obesity.",
-        "correct_answer": "g",
-        "explanation": "Im Text sowie auf dem Lösungsblatt wird betont, dass sowohl gesunde Ernährung als auch regelmäßige Bewegung entscheidend für die Gesundheit sind.",
+        "text": "Der Schokolade-Boom zeigt sich hierzulande nicht nur im hohen Verbrauch (jeder Schweizer isst fast 12 Kilo Schokolade im Jahr!), nein, er hat nun auch die Schönheitsindustrie erreicht. Vom 16. Januar bis zum 24. Februar bietet das Grand Hotel Bad Ragaz unter dem Namen Choco Therapy zahlreiche kosmetische Behandlungsmethoden mit Schokolade an. Die Bäder, Massagen und Hautcremes mit Kakao sind durchaus ernst gemeint, denn Kakao soll eine belebende Eigenschaft haben, die den Menschen jung und gesund aussehen lässt.",
+        "text_en": "The chocolate boom shows itself in this country not only in high consumption (every Swiss person eats almost 12 kilos of chocolate a year!), no, it has now also reached the beauty industry. From January 16 to February 24, the Grand Hotel Bad Ragaz offers numerous cosmetic treatments with chocolate under the name Choco Therapy. The baths, massages, and skin creams with cocoa are quite serious, as cocoa is said to have an invigorating property that makes people look young and healthy.",
+        "correct_answer": "b",
+        "explanation": "The passage describes cosmetic treatments (baths, massages, creams) using chocolate in the beauty industry so people look young and healthy, not eating chocolate to stay young.",
         "vocabulary": [
-          { "de": "ausgewogen", "en": "balanced" },
-          { "de": "entscheidend", "en": "crucial / decisive" },
-          { "de": "vorbeugen", "en": "to prevent" }
+          {
+            "de": "der Verbrauch",
+            "en": "consumption"
+          },
+          {
+            "de": "die Behandlungsmethode",
+            "en": "treatment method"
+          },
+          {
+            "de": "belebend",
+            "en": "invigorating"
+          }
         ]
       },
       {
         "number": 2,
-        "text": "Viele Berufstätige klagen über Müdigkeit, Konzentrationsschwäche und schlechte Laune am Nachmittag. Ernährungswissenschaftler wissen heute, dass man mit den richtigen Lebensmitteln gezielt gegensteuern kann: Wer seinen Speiseplan klug zusammenstellt, stärkt nicht nur seine Abwehrkräfte, sondern steigert auch spürbar sein Wohlbefinden, seine geistige Fitness und seine gute Stimmung im Alltag.",
-        "text_en": "Many working people complain of fatigue, poor concentration, and a bad mood in the afternoon. Nutritionists today know that you can counteract this in a targeted way with the right foods: anyone who puts their meal plan together wisely not only strengthens their immune system, but also noticeably increases their well-being, mental fitness, and good mood in everyday life.",
-        "correct_answer": "j",
-        "explanation": "Laut Lösungsschlüssel (2 = J) beschreibt der Abschnitt die positiven Auswirkungen einer richtigen Ernährung auf Körper und Wohlbefinden.",
+        "text": "Frisch verheiratete Paare nehmen oft schon in den Flitterwochen einige Kilos zu, weil sie ihre Essgewohnheiten ändern. Das belegt eine neue Studie. In Deutschland sind fast die Hälfte der verheirateten Frauen und circa zwei Drittel der Ehemänner übergewichtig. Alleinstehende sind vermutlich schlanker, weil sie besonderen Wert auf ihr Äußeres legen, mehr Sport treiben und sich selten Zeit für gemütliche Mahlzeiten nehmen.",
+        "text_en": "Newlywed couples often gain a few kilos already during their honeymoon because they change their eating habits. A new study proves this. In Germany, almost half of married women and about two-thirds of husbands are overweight. Singles are probably slimmer because they place special value on their appearance, do more sports, and rarely take time for cozy meals.",
+        "correct_answer": "c",
+        "explanation": "The passage cites a new study showing that married couples (verheiratete Paare / Ehemänner) often gain weight and are overweight compared to singles.",
         "vocabulary": [
-          { "de": "die Abwehrkräfte", "en": "immune defenses" },
-          { "de": "das Wohlbefinden", "en": "well-being" },
-          { "de": "steigern", "en": "to increase / boost" }
+          {
+            "de": "die Flitterwochen",
+            "en": "honeymoon"
+          },
+          {
+            "de": "die Essgewohnheit",
+            "en": "eating habit"
+          },
+          {
+            "de": "übergewichtig",
+            "en": "overweight"
+          },
+          {
+            "de": "alleinstehend",
+            "en": "single / unmarried"
+          }
         ]
       },
       {
         "number": 3,
-        "text": "Künstliche Farbstoffe, Geschmacksverstärker, Konservierungsmittel und Rückstände von Pflanzenschutzmitteln – wer im Supermarkt einkauft, nimmt mit vielen Fertigprodukten oft eine ganze Reihe synthetischer Zusatzstoffe zu sich. Verbraucherschützer warnen davor, dass viele dieser im Labor hergestellten Substanzen Allergien auslösen können.",
-        "text_en": "Artificial food coloring, flavor enhancers, preservatives, and pesticide residues—anyone shopping in the supermarket often ingests a whole range of synthetic additives with many convenience products. Consumer advocates warn that many of these lab-made substances can trigger allergies.",
-        "correct_answer": "d",
-        "explanation": "Laut Lösungsschlüssel (3 = D) geht es um chemische Zusatzstoffe und Rückstände in unseren Lebensmitteln.",
+        "text": "Wer acht Stunden und länger schläft, hat eine deutlich kürzere Lebenserwartung. Das berichtete das Apothekenmagazin Gesundheit am Mittwoch und bezog sich dabei auf eine neue japanische Studie. Schlecht für die Männer, denn laut dieser Studie schlafen Männer im Durchschnitt eine halbe Stunde länger pro Nacht als Frauen. Aber es gibt auch eine gute Nachricht für die Viel- und Langschläfer: Wer lange schläft, hat weniger Gewichtsprobleme und fühlt sich gesünder.",
+        "text_en": "Anyone who sleeps eight hours or longer has a significantly shorter life expectancy. The pharmacy magazine Gesundheit reported this on Wednesday, referring to a new Japanese study. Bad for men, because according to this study, men sleep on average half an hour longer per night than women. But there is also good news for heavy and long sleepers: Those who sleep long have fewer weight problems and feel healthier.",
+        "correct_answer": "j",
+        "explanation": "The text states that sleeping eight hours or longer leads to a significantly shorter life expectancy, meaning sleeping less corresponds to living longer.",
         "vocabulary": [
-          { "de": "der Geschmacksverstärker", "en": "flavor enhancer" },
-          { "de": "das Konservierungsmittel", "en": "preservative" },
-          { "de": "der Zusatzstoff", "en": "additive" }
+          {
+            "de": "die Lebenserwartung",
+            "en": "life expectancy"
+          },
+          {
+            "de": "sich beziehen auf",
+            "en": "to refer to"
+          },
+          {
+            "de": "im Durchschnitt",
+            "en": "on average"
+          }
         ]
       },
       {
         "number": 4,
-        "text": "Schokoriegel in der großen Pause, gesüßte Limonaden zum Mittagessen und abends Tiefkühlpizza vor dem Fernseher: Neue Studien von Kinderärzten zeigen ein alarmierendes Bild. Immer weniger Schüler frühstücken zu Hause oder kennen frisches Gemüse, während der Konsum von Zucker und Fast Food bei den Jüngsten weiter drastisch zunimmt.",
-        "text_en": "Chocolate bars during recess, sweetened sodas for lunch, and frozen pizza in front of the TV in the evening: new studies by pediatricians paint an alarming picture. Fewer and fewer schoolchildren eat breakfast at home or know fresh vegetables, while the consumption of sugar and fast food among the youngest continues to rise drastically.",
-        "correct_answer": "e",
-        "explanation": "Laut Lösungsschlüssel (4 = E) thematisiert der Text die zunehmend ungesunde Ernährung von Kindern.",
+        "text": "Nach dem Motto „beschwingt und bewegt“ starten die Schweizer Gesundheitsbehörden eine landesweite Bewegungskampagne. Dabei soll die Schweizer Bevölkerung aufgerufen werden, ausgewogen zu essen und sich täglich zu bewegen. Fast zwei Drittel der Bevölkerung in der Schweiz sind wenig aktiv und essen zu viel. Die Kampagne soll den Leuten zeigen, wie Sport und gesunde Ernährung ohne großen Aufwand in den Alltag integriert werden können, z.B. mit einem Spaziergang am Mittag oder mit einem Apfel zum Znüni statt Schokolade.",
+        "text_en": "Under the motto 'lively and active', the Swiss health authorities are launching a nationwide exercise campaign. The Swiss population is called upon to eat a balanced diet and exercise daily. Almost two-thirds of the population in Switzerland are not very active and eat too much. The campaign aims to show people how sports and healthy nutrition can be integrated into everyday life without great effort, e.g., with a walk at noon or an apple for a morning snack instead of chocolate.",
+        "correct_answer": "a",
+        "explanation": "Swiss health authorities are starting a nationwide campaign urging the Swiss population to eat a balanced diet and exercise daily to live healthier.",
         "vocabulary": [
-          { "de": "die Tiefkühlpizza", "en": "frozen pizza" },
-          { "de": "alarmierend", "en": "alarming" },
-          { "de": "der Konsum", "en": "consumption" }
+          {
+            "de": "die Gesundheitsbehörde",
+            "en": "health authority"
+          },
+          {
+            "de": "ausgewogen",
+            "en": "balanced"
+          },
+          {
+            "de": "der Aufwand",
+            "en": "effort / expense"
+          }
         ]
       },
       {
         "number": 5,
-        "text": "Noch nie war das Angebot an Lebensmitteln so groß wie heute, und trotzdem leiden Millionen Menschen an Diabetes, Bluthochdruck oder Magenproblemen, weil sie täglich zu viel Fett, Salz und Zucker zu sich nehmen. Mediziner stellen daher immer häufiger die Frage, ob unsere modernen Essgewohnheiten selbst zur größten Gefahr für unsere Gesundheit geworden sind.",
-        "text_en": "Never before has the range of food been as large as it is today, and yet millions of people suffer from diabetes, high blood pressure, or stomach problems because they consume too much fat, salt, and sugar every day. Doctors are therefore increasingly asking whether our modern eating habits themselves have become the greatest threat to our health.",
-        "correct_answer": "h",
-        "explanation": "Laut Lösungsschlüssel (5 = H) geht es um die Frage, ob uns unsere heutige Ernährung krank macht.",
+        "text": "„Du bist, was du isst“ hat als Slogan ausgedient. Heute muss es heißen: „Gut aussehen mit dem richtigen Essen“. Der Trend kommt aus den USA: Dort kaufen bereits viele Leute neue teure Lebensmittel mit wissenschaftlichen Inhaltsstoffen, die dem Kunden jüngeres und schöneres Aussehen versprechen. So bietet z.B. ein New Yorker Nobelhotel das Menü-gegen-graue-Haare an, das gegen das Älterwerden wirken soll. Aber wer wird schon eine solche Mahlzeit bestellen? Millionen von Leuten, so die Trendforscher. Und zwar aus dem einfachen Grund, weil jeder jung und gut aussehen will, und das mit möglichst wenig Aufwand.",
+        "text_en": "'You are what you eat' has had its day as a slogan. Today it must be: 'Look good with the right food'. The trend comes from the USA: There, many people are already buying new, expensive groceries with scientific ingredients that promise the customer a younger and more beautiful appearance. For example, a luxury hotel in New York offers the 'menu against gray hair', which is supposed to work against aging. But who would order such a meal? Millions of people, according to trend researchers. For the simple reason that everyone wants to look young and good, with as little effort as possible.",
+        "correct_answer": "g",
+        "explanation": "The text focuses on a trend from the USA where people buy expensive foods with scientific ingredients that promise youth and beauty.",
         "vocabulary": [
-          { "de": "der Bluthochdruck", "en": "high blood pressure" },
-          { "de": "die Essgewohnheit", "en": "eating habit" },
-          { "de": "zu sich nehmen", "en": "to consume / ingest" }
+          {
+            "de": "ausdienen",
+            "en": "to become obsolete / have had its day"
+          },
+          {
+            "de": "der Inhaltsstoff",
+            "en": "ingredient"
+          },
+          {
+            "de": "versprechen",
+            "en": "to promise"
+          }
         ]
       }
     ]
   },
   "leseverstehen_teil_2": {
     "passage": {
-      "headline": "Mehr Sicherheit für unser Gehirn!",
-      "subheadline": "",
+      "headline": "Abenteuer Weltumrundung",
+      "subheadline": "Von Antje Blinda",
       "paragraphs": [
-        "Wussten Sie, dass jeder von uns einmal im Leben im Krankenhaus landet? Und dass die Chancen fünfzig zu fünfzig stehen, dass wir dabei eine Kopfverletzung haben? Zwar gehen die Arbeitsunfälle ständig zurück. Trotzdem sind noch nie so viele Menschen ins Krankenhaus eingeliefert worden wie heute. Die Ursache liegt im Wandel zur Freizeitgesellschaft. Heute passieren die meisten Unfälle nicht während der Arbeit, sondern in der Freizeit: im Haushalt, im Straßenverkehr oder beim Sport.",
-        "Rund 10 000 Menschen sterben jährlich durch Unfälle in der Freizeit und im Verkehr, mehr als die Hälfte durch Kopfverletzungen, so berichtet das Kuratorium ZNS (Zentrales Nervensystem) in Bonn. Besonders gefährdet sind die Fahrradfahrer. Über siebzig Prozent der tödlich verunglückten Radler starben an den Folgen ihrer Kopfverletzungen.",
-        "Dabei gibt es für Radfahrer einen wirksamen Schutz: den Helm. Wer mit Helm fährt, mindert das Risiko einer Gehirnverletzung um über achtzig Prozent, so das Kuratorium ZNS. Doch wer greift schon zum Helm? Es sind bisher vor allem die sportlichen Fahrer auf ihren Rennrädern, während der normale Alltagsradler meist „oben ohne“ fährt. Selbst Kinder, die das Risiko im Straßenverkehr noch gar nicht überblicken können, fahren in der Regel ohne den schützenden Kopfschmuck.",
-        "Eine Helmpflicht für Radfahrer, wie sie für Motorradfahrer schon seit Jahren besteht, gibt es bislang nur in Australien und in Teilen der USA. In Deutschland ist man noch nicht so weit. „Bevor ein Gesetz möglich ist, muss erst die Akzeptanz in der Bevölkerung geschaffen werden“, sagt Christianeopp vom Kuratorium ZNS. Denn noch gilt der Kopfschutz vielen als unmodisch und lästig, obwohl die neuen Modelle leicht, luftig und schick sind."
+        "CO2-Ausstoß: null. Geplante Strecke: einmal um die Welt. Endlich wird der Traum von Louis Palmer wahr: Der Schweizer startet mit seinem Auto, das mit Sonnenenergie fährt, zur Weltumrundung. Er will damit zeigen, dass Autofahren möglich ist, ohne der Umwelt zu schaden.",
+        "„Entwickelt für mich ein Fahrzeug für eine Weltreise“, forderte Louis Palmer Studenten an Schweizer Universitäten auf. Das war vor drei Jahren. Jetzt ist das Auto fertig: ein dreirädriges Fahrzeug mit zwei Sitzplätzen. Und die Weltreise? Am 3. Juli starten er und sein 7-köpfiges Team in Luzern: Das Auto soll als erstes Solarfahrzeug die Welt umrunden.",
+        "„Die ganze Welt wartet auf revolutionäre Erfindungen für ein umweltbewusstes Auto“, sagt der Schweizer, „ich will darauf aufmerksam machen, dass die technischen Lösungen schon jetzt vorhanden sind.“ Mit 14 Jahren hatte Louis den Entschluss gefasst: Gegen die Veränderung des Klimas muss etwas getan werden. Die Lösung hatte er auch schon: Mit kräftigen Strichen zeichnete er ein Rennauto, verziert mit lachenden Sonnen. Der Rest war nur eine Frage der Organisation und der konsequenten Lebensplanung. „Ich unterteile mein Leben in drei Phasen“, sagt Palmer und lacht über sich selbst: „zwischen 20 und 30 die Welt kennen lernen, zwischen 30 und 40 ein Projekt realisieren, zwischen 40 und 50 die Welt verändern.“",
+        "Phase eins begann im Alter von 23 Jahren: Palmer machte sich auf, um 50 Länder auf allen Kontinenten zu bereisen. Anstatt an die Uni zu gehen, lernte er lieber auf Reisen: Mit dem Fahrrad fuhr er von Kenia nach Kapstadt, mit einem Segelflugzeug überflog er Südamerika und als Fotograf reiste er mehrmals nach Afghanistan.",
+        "Phase zwei startete vor drei Jahren: Palmer konnte Studenten von vier Universitäten gewinnen, die für ihn das Auto bauten. Schwierig war es aber, Firmen und private Sponsoren für die finanzielle Unterstützung zu finden, meint Palmer. Doch auch das hat dann schließlich geklappt.",
+        "Nun ist Palmer bereit für die Tour. „Ich habe keine Ahnung, was auf uns zukommt“, sagt der erfahrene Globetrotter, der sechs Sprachen spricht. „Ich habe schon etwas Angst, z. B. vor dem Straßenverkehr in Millionenstädten oder unvorhersehbaren Zwischenfällen. Das Schlimmste ist aber, wenn jeder Tag wie der andere ist. In den nächsten 16 Monaten wird es dazu nicht kommen.“"
       ],
-      "text_en": "Did you know that each of us ends up in the hospital once in our lifetime? And that the chances are fifty-fifty that we will have a head injury? Occupational accidents are steadily declining. Nevertheless, never before have so many people been admitted to the hospital as today. The cause lies in the shift toward a leisure society. Today, most accidents happen not during work, but in free time: at home, in traffic, or during sports. Around 10,000 people die annually from accidents in leisure and traffic, more than half from head injuries, reports the Kuratorium ZNS in Bonn. Cyclists are particularly at risk. Over seventy percent of fatally injured cyclists died as a result of their head injuries. Yet there is effective protection for cyclists: the helmet. Riding with a helmet reduces the risk of brain injury by over eighty percent. However, so far it is mainly sporty riders on racing bikes who wear helmets, while everyday cyclists ride without one. Mandatory helmet laws for cyclists currently only exist in Australia and parts of the USA. In Germany, public acceptance must first be created.",
+      "text_en": "CO2 emissions: zero. Planned route: once around the world. Finally, Louis Palmer's dream comes true: The Swiss man is starting his circumnavigation of the globe with his solar-powered car to show that driving is possible without harming the environment. Three years ago, Palmer asked students at Swiss universities to develop a vehicle for a world trip. Now the three-wheeled, two-seater vehicle is ready. On July 3, he and his 7-member team start in Lucerne. At 14, Louis decided something had to be done against climate change and drew a race car decorated with smiling suns. He divides his life into three phases: 20-30 getting to know the world, 30-40 realizing a project, 40-50 changing the world. Phase one began at 23: instead of going to university, he traveled to 50 countries on all continents by bicycle, glider, and as a photographer. Phase two started three years ago: students from four universities built the car for him, and although finding corporate and private sponsors was difficult, it eventually succeeded. Now Palmer, who speaks six languages, is ready. While he has some fear of traffic in megacities or unforeseen incidents, the worst thing for him is monotony—which won't happen in the next 16 months.",
       "vocabulary": [
-        { "de": "die Kopfverletzung", "en": "head injury" },
-        { "de": "der Arbeitsunfall", "en": "workplace accident" },
-        { "de": "einliefern", "en": "to admit (to hospital)" },
-        { "de": "die Helmpflicht", "en": "mandatory helmet requirement" }
+        {
+          "de": "die Weltumrundung",
+          "en": "circumnavigation of the globe"
+        },
+        {
+          "de": "der CO2-Ausstoß",
+          "en": "carbon dioxide emissions"
+        },
+        {
+          "de": "einen Entschluss fassen",
+          "en": "to make a decision"
+        },
+        {
+          "de": "der Zwischenfall",
+          "en": "incident"
+        }
       ]
     },
     "questions": [
       {
         "number": 6,
-        "question": "Die meisten Unfälle passieren",
-        "question_en": "Most accidents happen",
+        "question": "Mit 23 Jahren wollte Louis Palmer",
+        "question_en": "At the age of 23, Louis Palmer wanted to",
         "options": {
-          "a": "bei der Arbeit.",
-          "b": "im Urlaub.",
-          "c": "in der Freizeit."
+          "a": "für Studenten Reisen nach Südamerika organisieren.",
+          "b": "mit dem Fahrrad durch 50 verschiedene Länder fahren.",
+          "c": "viele verschiedene Länder kennen lernen."
         },
         "options_en": {
-          "a": "at work.",
-          "b": "on vacation.",
-          "c": "during free time."
+          "a": "organize trips to South America for students.",
+          "b": "ride a bicycle through 50 different countries.",
+          "c": "get to know many different countries."
         },
         "correct_answer": "c",
-        "explanation": "Im ersten Absatz heißt es: 'Heute passieren die meisten Unfälle nicht während der Arbeit, sondern in der Freizeit: im Haushalt, im Straßenverkehr oder beim Sport.'"
+        "explanation": "Paragraph 4 states that phase one (getting to know the world) began at age 23 when Palmer set out to travel to 50 countries across all continents."
       },
       {
         "number": 7,
-        "question": "Über die Hälfte der tödlich verunglückten Radfahrer",
-        "question_en": "More than half of the fatally injured cyclists",
+        "question": "Sein Projekt konnte Palmer realisieren,",
+        "question_en": "Palmer was able to realize his project",
         "options": {
-          "a": "fahren ohne Licht.",
-          "b": "sind Kinder.",
-          "c": "sterben an Kopfverletzungen."
+          "a": "weil er einen Preis von einer Universität gewonnen hat.",
+          "b": "weil er selbst genug Geld verdient hatte.",
+          "c": "weil Studenten und Sponsoren ihm geholfen haben."
         },
         "options_en": {
-          "a": "ride without lights.",
-          "b": "are children.",
-          "c": "die of head injuries."
+          "a": "because he won a prize from a university.",
+          "b": "because he had earned enough money himself.",
+          "c": "because students and sponsors helped him."
         },
         "correct_answer": "c",
-        "explanation": "Im zweiten Absatz steht: 'Über siebzig Prozent der tödlich verunglückten Radler starben an den Folgen ihrer Kopfverletzungen.'"
+        "explanation": "Paragraph 5 explains that students from four universities built the car for him and he eventually found companies and private sponsors for financial support."
       },
       {
         "number": 8,
-        "question": "Durch das Tragen von Sturzhelmen",
-        "question_en": "By wearing crash helmets",
+        "question": "Schon als Jugendlicher",
+        "question_en": "Already as a teenager",
         "options": {
-          "a": "fahren Radfahrer noch risikoreicher.",
-          "b": "kann man Gehirnverletzungen ganz vermeiden.",
-          "c": "nimmt die Zahl der Gehirnverletzungen stark ab."
+          "a": "baute Louis Palmer sein erstes Auto.",
+          "b": "hatte Louis Palmer die Idee für ein Solarauto.",
+          "c": "interessierte sich Louis Palmer für berühmte Rennfahrer."
         },
         "options_en": {
-          "a": "cyclists ride even more riskily.",
-          "b": "brain injuries can be completely avoided.",
-          "c": "the number of brain injuries decreases significantly."
+          "a": "Louis Palmer built his first car.",
+          "b": "Louis Palmer had the idea for a solar car.",
+          "c": "Louis Palmer was interested in famous race car drivers."
         },
-        "correct_answer": "c",
-        "explanation": "Im dritten Absatz steht: 'Wer mit Helm fährt, mindert das Risiko einer Gehirnverletzung um über achtzig Prozent'."
+        "correct_answer": "b",
+        "explanation": "Paragraph 3 states that at age 14, he decided something must be done about climate change and drew a race car decorated with smiling suns."
       },
       {
         "number": 9,
-        "question": "Sturzhelme werden bis jetzt hauptsächlich",
-        "question_en": "So far, crash helmets are mainly worn",
+        "question": "Mit seiner Reise möchte Louis Palmer zeigen, dass",
+        "question_en": "With his trip, Louis Palmer wants to show that",
         "options": {
-          "a": "von Kindern getragen.",
-          "b": "von Radsportlern getragen.",
-          "c": "von Motorradfahrern und Radfahrern getragen."
+          "a": "man schon heute umweltfreundliche Autos bauen kann.",
+          "b": "man ohne Auto die Welt bereisen kann.",
+          "c": "Solarautos schneller sind als normale Autos."
         },
         "options_en": {
-          "a": "by children.",
-          "b": "by racing cyclists.",
-          "c": "by motorcyclists and cyclists."
+          "a": "environmentally friendly cars can already be built today.",
+          "b": "one can travel the world without a car.",
+          "c": "solar cars are faster than normal cars."
         },
-        "correct_answer": "b",
-        "explanation": "Im dritten Absatz heißt es: 'Es sind bisher vor allem die sportlichen Fahrer auf ihren Rennrädern, während der normale Alltagsradler meist oben ohne fährt.'"
+        "correct_answer": "a",
+        "explanation": "In Paragraph 1 and 3, Palmer states he wants to show that driving is possible without harming the environment and that the technical solutions already exist today."
       },
       {
         "number": 10,
-        "question": "In Deutschland",
-        "question_en": "In Germany",
+        "question": "Louis Palmer",
+        "question_en": "Louis Palmer",
         "options": {
-          "a": "gilt die Helmpflicht bisher in einigen Bundesländern.",
-          "b": "sind fast alle Radfahrer gegen die Helmpflicht.",
-          "c": "soll die Bevölkerung von den Vorteilen eines Helms überzeugt werden."
+          "a": "hat für die Weltreise sechs Sprachen gelernt.",
+          "b": "möchte mit seinem Auto nicht durch Großstädte fahren.",
+          "c": "wird sich in nächster Zeit nicht langweilen."
         },
         "options_en": {
-          "a": "mandatory helmets currently apply in some federal states.",
-          "b": "almost all cyclists are against mandatory helmets.",
-          "c": "the population is to be convinced of the advantages of a helmet."
+          "a": "learned six languages for the world trip.",
+          "b": "does not want to drive through big cities with his car.",
+          "c": "will not be bored in the near future."
         },
         "correct_answer": "c",
-        "explanation": "Im letzten Absatz steht: 'Bevor ein Gesetz möglich ist, muss erst die Akzeptanz in der Bevölkerung geschaffen werden'."
+        "explanation": "In the final paragraph, he says the worst thing is when every day is the same, and in the next 16 months that certainly won't happen."
       }
     ]
   },
   "leseverstehen_teil_3": {
     "advertisements": {
       "a": {
-        "title": "OBER-GOMS",
-        "subtitle": "Wandern im Wallis",
+        "title": "Surf & Travel",
+        "subtitle": "Kurztrips der Deutschen Bahn",
         "lines": [
-          "08.–10. Juni Fr. 425",
-          "18.–25. August Fr. 750",
-          "22.–29. September Fr. 750",
-          "Halbpension/Führungen/Wanderungen/Klettertouren mit geprüften Bergführern",
-          "Hotel Walser, 3988 Ulrichen, www.goms.ch/hotel-walser"
+          "Städtetour auf Knopfdruck: Buchen Sie online!",
+          "Berlin: 2x Ü/F ab 178,- EUR",
+          "Oktoberfest München: 1x Ü/F ab 159,- EUR"
         ],
-        "text_en": "OBER-GOMS: Hiking in Valais. Half board, guided tours, hikes and climbing tours with certified mountain guides. Hotel Walser, Ulrichen."
+        "text_en": "Short trips with Deutsche Bahn. City tour at the push of a button: Book online! Berlin: 2 nights B&B from 178 EUR. Oktoberfest Munich: 1 night B&B from 159 EUR.",
+        "vocabulary": [
+          {
+            "de": "der Kurztrip",
+            "en": "short trip"
+          },
+          {
+            "de": "auf Knopfdruck",
+            "en": "at the push of a button"
+          }
+        ]
       },
       "b": {
-        "title": "Ausstellung „Märchen – Mythen – Erzählungen“",
+        "title": "Für den Fernsehfilm „Die Schönheit von Bitterfeld“",
+        "subtitle": "suchen wir für einige Nebenrollen Laienschauspieler und Statisten.",
         "lines": [
-          "Acht Künstlerinnen zeigen ihre Arbeiten vom 2. bis 30. Juni in Thun",
-          "Die Arbeiten werden in Schaufenstern der Innenstadt gezeigt.",
-          "Vernissage: 2. Juni, 19.30 Uhr, Schibenstrasse 21 – Thun"
+          "Drehzeit: 19.03. – 25.03., Gage: 80 Euro/Tag",
+          "Casting: Sa. 10.03., 10–20 Uhr im Hotel Lindner",
+          "Schriftliche Bewerbung mit Foto und Lebenslauf an: Rheinfilm, Hans-Driesch-Str. 27, 04179 Leipzig"
         ],
-        "text_en": "Exhibition 'Fairy Tales – Myths – Stories': Eight female artists show their works from June 2 to 30 in shop windows in downtown Thun."
+        "text_en": "For the TV movie 'The Beauty of Bitterfeld' we are looking for amateur actors and extras for several supporting roles. Filming: March 19–25, Pay: 80 Euro/day. Casting: Sat March 10, 10 AM–8 PM at Hotel Lindner.",
+        "vocabulary": [
+          {
+            "de": "die Nebenrolle",
+            "en": "supporting role"
+          },
+          {
+            "de": "der Laienschauspieler",
+            "en": "amateur actor"
+          },
+          {
+            "de": "der Statist",
+            "en": "extra (in a film)"
+          },
+          {
+            "de": "die Gage",
+            "en": "fee / pay"
+          }
+        ]
       },
       "c": {
-        "title": "Chocolat-Werbung – KULTURTIPP!",
+        "title": "Messejobs",
+        "subtitle": "Wir suchen Aushilfen für die Automesse",
         "lines": [
-          "Im Rahmen der Ausstellung „Chocolat-Tobler: Die Geschichte der Schokolade von 1899 bis heute“ präsentieren Christian Jacquet und Fritz Kobi im Kornhausforum alte und neue Chocolat-Tobler-Werbefilme.",
-          "Bern: Kornhausforum, 19 Uhr"
+          "05.04. – 13.04.",
+          "Mitarbeiter für Info-Stand, Service und Garderobe.",
+          "Gute Bezahlung!"
         ],
-        "text_en": "Chocolate advertising cultural tip: As part of the exhibition 'Chocolat-Tobler: The History of Chocolate from 1899 to Today', old and new commercial films are presented at Kornhausforum Bern."
+        "text_en": "Trade fair jobs: We are looking for temporary staff for the car show from April 5 to April 13. Staff for info booth, service, and coat check. Good pay!",
+        "vocabulary": [
+          {
+            "de": "die Aushilfe",
+            "en": "temporary help"
+          },
+          {
+            "de": "die Automesse",
+            "en": "car show / trade fair"
+          }
+        ]
       },
       "d": {
-        "title": "Sarazena Zermatt",
+        "title": "Verkehrsmuseum Erfurt",
+        "subtitle": "Mobilität und Technik",
         "lines": [
-          "Herzlich willkommen in unserem gemütlichen Ferienhotel in zentraler Lage!",
-          "Perfekt ausgestattete Zimmer mit allem Komfort, Fitnessraum, Tennishalle, Schwimmbad, reichhaltiges Frühstücksbuffet.",
-          "www.hotel-sarazena.ch"
+          "Wie funktioniert ein Ottomotor? Wie klingt ein Benz-Motorwagen? Warum sind Autos auch Designobjekte?",
+          "Von den ersten Schlittschuhen bis zum neuesten Formel-1-Fahrzeug präsentiert das Verkehrsmuseum unter dem Thema „Mobilität und Technik“ die Lust an der Fortbewegung und ihre Grenzen.",
+          "Täglich 9–17 Uhr, Donnerstag 9–20 Uhr",
+          "August-Bebel-Str. 14a, 99084 Erfurt, www.verkehrsmuseumerfurt.de"
         ],
-        "text_en": "Sarazena Zermatt: Welcome to our cozy vacation hotel in a central location! Rooms with all comforts, gym, indoor tennis, pool, rich breakfast buffet."
+        "text_en": "Transport Museum Erfurt: How does an Otto engine work? How does a Benz motor car sound? Why are cars also design objects? From the first ice skates to the latest Formula 1 vehicle, the museum presents 'Mobility and Technology'. Open daily 9 AM–5 PM, Thursday 9 AM–8 PM.",
+        "vocabulary": [
+          {
+            "de": "das Verkehrsmuseum",
+            "en": "transport museum"
+          },
+          {
+            "de": "die Fortbewegung",
+            "en": "locomotion / transportation"
+          }
+        ]
       },
       "e": {
-        "title": "DAS ASCHENPUTTEL",
-        "subtitle": "Cinderella, Cenerentola, Aschenputtel – einmal erzählt, einmal gespielt",
+        "title": "ADAC Urlaub mobil",
+        "subtitle": "Bummeln und Genießen, Shoppen und Nightlife!",
         "lines": [
-          "Die Schriftstellerin Elke Seidenreich präsentiert zusammen mit der Basel Sinfonietta den bekannten Märchenstoff auf der Bühne.",
-          "Theaterhalle Bern, 20.30 Uhr"
+          "3 Tage lang liegt Ihnen Berlin zu Füßen – Anschließend starten Sie Ihre Autotour.",
+          "Sie erleben die Vielfältigkeit deutscher Landschaften von der Nordseeküste bis zu den Alpen.",
+          "3 Nächte in Berlin plus 10 Übernachtungen in Hotels Ihrer Wahl.",
+          "Pro Person im Doppelzimmer 589,- € (inkl. Tankgutscheine 150 €)"
         ],
-        "text_en": "Cinderella: Writer Elke Seidenreich together with the Basel Sinfonietta presents the famous fairy tale on stage at Theaterhalle Bern."
+        "text_en": "ADAC Mobile Vacation: Stroll and enjoy, shop and nightlife! For 3 days Berlin is at your feet—afterwards you start your car tour experiencing the diversity of German landscapes from the North Sea coast to the Alps. 3 nights in Berlin plus 10 nights in hotels of your choice.",
+        "vocabulary": [
+          {
+            "de": "bummeln",
+            "en": "to stroll"
+          },
+          {
+            "de": "die Vielfältigkeit",
+            "en": "diversity"
+          }
+        ]
       },
       "f": {
-        "title": "SCHWEIZER FERIENORT ZERMATT",
-        "subtitle": "Erholung pur im Naturfreunde-Hotel Zermatt",
+        "title": "FILMCLUB",
+        "subtitle": "Kinoprogramm",
         "lines": [
-          "Herrliche Wanderwege in den Bergen",
-          "Vorzügliche Küche",
-          "Eigener Bahnanschluss",
-          "NATURFREUNDE-HOTEL ZERMATT, Daniela+René Zimmermann"
+          "Das Parfum – Die Geschichte eines Mörders (Regie: Tom Tykwer, Do.– So. 18 + 21 Uhr)",
+          "Fluch der Karibik 3 (Regie: Gore Verbinski, Di.– Sa. 17.30 + 20.30 Uhr)",
+          "The Queen – La regina (Regie: Stephen Frears, Sa.– Mi. 21.15 Uhr)"
         ],
-        "text_en": "Swiss resort Zermatt: Pure relaxation at Naturfreunde-Hotel Zermatt. Wonderful mountain hiking trails, excellent cuisine, private rail connection."
+        "text_en": "FILMCLUB cinema program: Perfume: The Story of a Murderer, Pirates of the Caribbean 3, The Queen.",
+        "vocabulary": [
+          {
+            "de": "die Regie",
+            "en": "direction (film)"
+          }
+        ]
       },
       "g": {
-        "title": "Tierpark Goldau",
+        "title": "Ökomobil",
+        "subtitle": "Meisterbetrieb des Garten- und Landschaftsbaus",
         "lines": [
-          "...ein Besuch, der sich lohnt!",
-          "Freilaufzone, Abenteuerspielplatz, Restaurant, 365 Tage im Jahr offen",
-          "Eintritt frei für Begleitpersonen von Gruppen ab 12 Personen",
-          "www.tierpark.ch"
+          "Wir qualifizieren, bilden aus und stellen im Berufsbild Garten- und Landschaftsbau ein.",
+          "Dabei geht es uns um die Förderung der beruflichen und sozialen Integration von benachteiligten, überwiegend jungen Menschen.",
+          "In Zusammenarbeit mit TELOS führen wir Ausbildungen zum Gärtner/Werker im Garten- und Landschaftsbau durch.",
+          "Information: www.galabau-oekomobil.de"
         ],
-        "text_en": "Tierpark Goldau: Free-roaming area, adventure playground, restaurant, open 365 days a year. Free admission for chaperones of groups of 12 or more."
+        "text_en": "Ökomobil – Master business for gardening and landscaping. We qualify, train, and hire in gardening and landscaping, promoting professional and social integration of disadvantaged young people through full vocational training.",
+        "vocabulary": [
+          {
+            "de": "der Garten- und Landschaftsbau",
+            "en": "gardening and landscaping"
+          },
+          {
+            "de": "benachteiligt",
+            "en": "disadvantaged"
+          }
+        ]
       },
       "h": {
-        "title": "DER FEURIGE ELIAS",
+        "title": "Jung gebliebener Rentner",
+        "subtitle": "Freizeitpartnerin gesucht",
         "lines": [
-          "Historische Lokomotiven und Waggons, jetzt ausgestellt im Bahnmuseum WORB",
-          "Führungen für Kinder und Erwachsene: Jeden Samstag und Sonntag 11:00 Uhr und 16:00 Uhr",
-          "Infos: RBS, 3048 Worb"
+          "Jung gebliebener Rentner, unkompliziert und gut aussehend, mit Verbundenheit zur Natur sucht Freizeitpartnerin (bis 40) für gemeinsame Aktivitäten: Kunst, Kultur, Kino, Wanderungen, Einladungen, gesellige Abende.",
+          "Zuschriften unter LA 10/14-83/L3, Postf. 84, 04181 Leipzig"
         ],
-        "text_en": "The Fiery Elias: Historic locomotives and carriages, now exhibited at the Worb Railway Museum. Guided tours for children and adults Saturday and Sunday."
+        "text_en": "Young-at-heart retiree, uncomplicated and good-looking, nature-loving, seeks female leisure partner (up to 40) for shared activities: art, culture, cinema, hikes, invitations, social evenings.",
+        "vocabulary": [
+          {
+            "de": "jung geblieben",
+            "en": "young at heart"
+          },
+          {
+            "de": "gesellig",
+            "en": "sociable / convivial"
+          }
+        ]
       },
       "i": {
-        "title": "ANDREAS TIERWELT",
+        "title": "Feng Shui für den Garten",
+        "subtitle": "Ökologisches Bildungszentrum Dresden",
         "lines": [
-          "Geöffnet: Mo.–Fr. 9.00–19.00 Uhr, Sa. 9.00–14.00 Uhr",
-          "Vögel – Nager – Pflanzen, Warm- und Kaltwasserfische, Futter und Zubehör für alle Tierarten, Aquarien und Terrarien, Fachberatung",
-          "Kreuzgasse 14, CH 4500 Solothurn"
+          "Wie sollten Wege im Garten geführt werden? Wo können Tisch oder Brunnen die Lebensenergie stärken? Wann bereichern uns Bäume, wann nicht? Wie kann man einen Garten auf die Bewohner des Hauses abstimmen?",
+          "Mit Feng Shui können Sie Ihren Garten harmonisch gestalten.",
+          "Wochenendseminar mit Babette Kalinger, Landschaftsarchitektin. Sa./So. 28./29.04., 10–17 Uhr, Info: 0351 254400"
         ],
-        "text_en": "Andreas's Animal World: Birds, rodents, plants, warm and cold water fish, food and accessories for all pet species, aquariums and terrariums, expert advice."
+        "text_en": "Feng Shui for the garden: How should paths be laid out? Where can tables or fountains strengthen life energy? How can you tailor a garden to the residents? Weekend seminar with landscape architect Babette Kalinger.",
+        "vocabulary": [
+          {
+            "de": "der Brunnen",
+            "en": "fountain / well"
+          },
+          {
+            "de": "bereichern",
+            "en": "to enrich"
+          },
+          {
+            "de": "abstimmen auf",
+            "en": "to tailor to / coordinate with"
+          }
+        ]
       },
       "j": {
-        "title": "TANZ IMPULSE",
-        "subtitle": "Schule für zeitgenössischen Tanz, klassisches Ballett, Malen und Tanz",
+        "title": "Studentinnen/Schülerinnen gesucht (ab 18 J.)",
+        "subtitle": "für Betreuertätigkeit im Kinderferienlager Juli–August",
         "lines": [
-          "Laufendes Kursangebot für Anfänger und Fortgeschrittene, Einführungskurse zum Kennenlernen",
-          "Offene Gruppen für Kinder, Jugendliche und Erwachsene, max. 10 TeilnehmerInnen."
+          "Für Kinder zwischen 6 und 12 Jahren.",
+          "Wir bieten Fahrtkosten, Unterkunft, Verpflegung und Taschengeld 125,- €/Woche.",
+          "Weitere Infos: Jugendtours, Habelstr. 32, 04177 Leipzig, Tel. 0341/4809194, www.jutou.de"
         ],
-        "text_en": "Tanz Impulse: School for contemporary dance, classical ballet, painting and dance. Ongoing courses for beginners and advanced, open groups for children, teens, and adults."
+        "text_en": "Female und male students/pupils wanted (18+) for counselor work at a children's summer camp in July–August for children aged 6–12. We offer travel costs, accommodation, board, and pocket money.",
+        "vocabulary": [
+          {
+            "de": "die Betreuertätigkeit",
+            "en": "counselor / caretaking activity"
+          },
+          {
+            "de": "das Kinderferienlager",
+            "en": "children's holiday camp"
+          },
+          {
+            "de": "die Verpflegung",
+            "en": "board / meals"
+          }
+        ]
       },
       "k": {
-        "title": "JÄGGI BUCHHANDLUNG",
+        "title": "Gemeinsam schöne Dinge genießen",
+        "subtitle": "Akademikerin, 38 J.",
         "lines": [
-          "Dienstag 8.5., 20 Uhr: INGRID NOLL (Live im Loeb)",
-          "Die erfolgreichste und ungewöhnlichste deutsche Krimiautorin liest aus ihrem unheimlichen Werk „Selige Witwen“.",
-          "Eintritt Fr. 10,00"
+          "Akademikerin, 38 J., mit Phantasie und Leidenschaft für Musik u. Kunst, Italien und das Meer sucht sportlich-eleganten Partner, mit dem sie Konzerte besuchen, ausgehen, und ferne Länder genießen kann.",
+          "Zuschriften an: Neue Presse, Chiffre CFR-107"
         ],
-        "text_en": "Jäggi Bookstore: Tuesday May 8, 8 p.m., Ingrid Noll reads live from her crime novel 'Selige Witwen'."
+        "text_en": "Enjoy nice things together: Female university graduate, 38, with imagination and passion for music, art, Italy, and the sea seeks sporty-elegant partner to visit concerts, go out, and enjoy distant countries.",
+        "vocabulary": [
+          {
+            "de": "die Leidenschaft",
+            "en": "passion"
+          },
+          {
+            "de": "ferne Länder",
+            "en": "distant countries"
+          }
+        ]
       },
       "l": {
-        "title": "Viking-Tours – Flussfahrten auf der Aare",
+        "title": "Samstagswerkstatt – Rund ums AUTO",
+        "subtitle": "Winfried Mohr, A24 Autowerkstatt",
         "lines": [
-          "Tägliche Fahrten von Mai bis Sep., Abfahrt der Schiffe: 11 Uhr, 14 Uhr, 16 Uhr",
-          "Treffpunkt: Thun/Schwäbis Schiffssteg, Preise: 43 Franken",
-          "Spezialangebot: Abendfahrten (Rückkehr 23 Uhr), Tanz an Bord, Spezialangebote für Senioren"
+          "Kursinhalt: Aufbau des Autos, Störungen und Möglichkeiten zur Behebung, Wartungsarbeiten und Pflege, Tipps zum Gebrauchtwagenkauf.",
+          "Die theoretischen Ausführungen werden in unserer Kfz-Werkstatt in die Praxis umgesetzt. Bitte Arbeitskleidung mitbringen.",
+          "Aldenbachstr. 7, 07743 Jena, Sa. 14.10. von 9–16 Uhr, Tel: 34 1044 14"
         ],
-        "text_en": "Viking-Tours: River cruises on the Aare. Daily trips May to September. Special offer: evening cruises with dancing on board, senior specials."
+        "text_en": "Saturday workshop – All about the CAR. Course content: Structure of the car, malfunctions and ways to fix them, maintenance and care, tips for buying a used car. Theory is put into practice in our auto workshop.",
+        "vocabulary": [
+          {
+            "de": "die Störung",
+            "en": "malfunction / fault"
+          },
+          {
+            "de": "die Behebung",
+            "en": "rectification / repair"
+          },
+          {
+            "de": "die Wartungsarbeit",
+            "en": "maintenance work"
+          }
+        ]
       }
     },
     "situations": [
       {
         "number": 11,
-        "situation": "IhrE Bekannter möchte im Sommer im Gebirge wandern und auch klettern. Er sucht noch ein passendes Hotelangebot.",
-        "situation_en": "Your acquaintance wants to hike and climb in the mountains in summer. He is still looking for a suitable hotel offer.",
-        "correct_answer": "a",
-        "explanation": "Anzeige a ('Ober-Goms / Hotel Walser') bietet im Sommer Halbpension, Führungen, Wanderungen und Klettertouren mit geprüften Bergführern an."
+        "situation": "Ihre Bekannte ist Mitte dreißig und sucht einen Partner, mit dem sie regelmäßig ins Kino gehen kann.",
+        "situation_en": "Your female acquaintance is in her mid-thirties and is looking for a partner with whom she can go to the cinema regularly.",
+        "correct_answer": "h",
+        "explanation": "Advertisement 'h' is from a retiree looking for a female leisure partner (up to 40) for shared activities including going to the cinema (Kino)."
       },
       {
         "number": 12,
-        "situation": "Sie möchten sich am Abend in Bern eine kulturelle Veranstaltung ansehen, die nicht im Freien stattfindet.",
-        "situation_en": "You want to attend a cultural event in Bern in the evening that does not take place outdoors.",
-        "correct_answer": "e",
-        "explanation": "Anzeige e präsentiert das Märchen 'Das Aschenputtel' mit der Basel Sinfonietta um 20.30 Uhr in der Theaterhalle Bern."
+        "situation": "Sie wollen Ihren Garten verändern und suchen Beratung/Tipps.",
+        "situation_en": "You want to change your garden and are looking for advice/tips.",
+        "correct_answer": "i",
+        "explanation": "Advertisement 'i' offers a weekend seminar on designing your garden harmoniously with Feng Shui led by a landscape architect."
       },
       {
         "number": 13,
-        "situation": "Sie interessieren sich für die Geschichte der Schweizer Schokolade und für Werbung.",
-        "situation_en": "You are interested in the history of Swiss chocolate and in advertising.",
-        "correct_answer": "c",
-        "explanation": "Anzeige c zeigt alte und neue Chocolat-Tobler-Werbefilme im Rahmen der Ausstellung über die Geschichte der Schokolade im Kornhausforum Bern."
+        "situation": "Der Sohn Ihrer Freunde hat gerade das Abitur gemacht und sucht im Sommer für zwei Monate einen Job.",
+        "situation_en": "Your friends' son has just graduated from high school and is looking for a job for two months in the summer.",
+        "correct_answer": "j",
+        "explanation": "Advertisement 'j' looks for students/school graduates (18+) to work at a children's summer camp during July and August (two summer months)."
       },
       {
         "number": 14,
-        "situation": "Sie machen mit einer Jugendgruppe (15 Personen) einen Ausflug und möchten Tiere in freier Natur beobachten.",
-        "situation_en": "You are taking a trip with a youth group (15 people) and want to observe animals in the wild/free-roaming.",
-        "correct_answer": "g",
-        "explanation": "Der Tierpark Goldau (g) bietet eine Freilaufzone und freien Eintritt für Begleitpersonen von Gruppen ab 12 Personen."
+        "situation": "Ihr Freund möchte im Nebenjob Gartenarbeiten übernehmen.",
+        "situation_en": "Your friend wants to take on gardening work as a side job.",
+        "correct_answer": "x",
+        "explanation": "Advertisement 'g' only offers full vocational training (Ausbildung) for disadvantaged youth, not a side job (Nebenjob). Therefore, no ad matches ('x')."
       },
       {
         "number": 15,
-        "situation": "Ihre Eltern möchten an einem Sommerabend einen Schiffsausflug machen.",
-        "situation_en": "Your parents would like to take a boat trip on a summer evening.",
-        "correct_answer": "l",
-        "explanation": "Viking-Tours (l) veranstaltet von Mai bis September Flussfahrten auf der Aare inklusive Abendfahrten mit Tanz an Bord und Seniorenangeboten."
+        "situation": "Ihr 45-jähriger Onkel sucht eine Partnerin, mit der er zusammen verreisen kann.",
+        "situation_en": "Your 45-year-old uncle is looking for a female partner with whom he can travel together.",
+        "correct_answer": "k",
+        "explanation": "Advertisement 'k' is from a 38-year-old woman looking for a partner to go out and travel to distant countries (ferne Länder genießen) together."
       },
       {
         "number": 16,
-        "situation": "Eine Freundin möchte am Wochenende mit ihren Kindern alte Dampflokomotiven besichtigen.",
-        "situation_en": "A friend wants to visit old steam locomotives with her children on the weekend.",
-        "correct_answer": "h",
-        "explanation": "In Anzeige h ('Der feurige Elias') werden historische Lokomotiven und Waggons im Bahnmuseum Worb gezeigt, mit Führungen für Kinder und Erwachsene am Samstag und Sonntag."
+        "situation": "Sie möchten gern bei einem Film mitspielen und etwas Geld verdienen.",
+        "situation_en": "You would like to act in a movie and earn some money.",
+        "correct_answer": "b",
+        "explanation": "Advertisement 'b' seeks amateur actors and extras for a TV movie and pays 80 Euros per day."
       },
       {
         "number": 17,
-        "situation": "Sie suchen für die Fische in Ihrem Aquarium besonderes Fischfutter.",
-        "situation_en": "You are looking for special fish food for the fish in your aquarium.",
-        "correct_answer": "i",
-        "explanation": "Andreas Tierwelt (i) bietet Warm- und Kaltwasserfische, Aquarien sowie Futter und Zubehör für alle Tierarten und Fachberatung."
+        "situation": "Der Sohn Ihrer Freunde interessiert sich für die Geschichte des Autos. Am Sonntag wollen Sie mit ihm etwas Interessantes machen.",
+        "situation_en": "Your friends' son is interested in the history of the car. On Sunday you want to do something interesting with him.",
+        "correct_answer": "d",
+        "explanation": "Advertisement 'd' is for the Transport Museum in Erfurt (open daily, including Sunday), showcasing the history of mobility from early engines (Benz-Motorwagen) to Formula 1."
       },
       {
         "number": 18,
-        "situation": "Sie lesen gern Kriminalromane und möchten eine bekannte Krimiautorin persönlich kennen lernen.",
-        "situation_en": "You like reading crime novels and would like to meet a well-known crime author in person.",
-        "correct_answer": "k",
-        "explanation": "In Anzeige k liest die deutsche Krimiautorin Ingrid Noll live in der Buchhandlung Jäggi aus ihrem Werk 'Selige Witwen'."
+        "situation": "Sie suchen eine Stelle und brauchen Tipps für Ihre Bewerbungen.",
+        "situation_en": "You are looking for a job and need tips for your applications.",
+        "correct_answer": "x",
+        "explanation": "None of the advertisements offer job application training or CV advice."
       },
       {
         "number": 19,
-        "situation": "Sie sind in Thun. Auch am Sonntagabend möchten Sie sich beim Stadtbummel Kunstwerke ansehen.",
-        "situation_en": "You are in Thun. Even on Sunday evening you want to look at artworks while strolling through town.",
-        "correct_answer": "b",
-        "explanation": "In Anzeige b werden die Arbeiten der acht Künstlerinnen in Schaufenstern der Innenstadt von Thun gezeigt – man kann sie also jederzeit beim Stadtbummel ansehen."
+        "situation": "Im Urlaub wollen Sie mit dem Auto eine Reise durch Deutschland machen und suchen ein passendes Angebot.",
+        "situation_en": "On vacation you want to take a trip through Germany by car and are looking for a suitable offer.",
+        "correct_answer": "e",
+        "explanation": "Advertisement 'e' (ADAC Urlaub mobil) offers a 3-day stay in Berlin followed by a 10-night car tour across German landscapes from the North Sea to the Alps."
       },
       {
         "number": 20,
-        "situation": "Ihre zehnjährige Tochter möchte tanzen lernen. Sie suchen einen passenden Kurs.",
-        "situation_en": "Your ten-year-old daughter wants to learn to dance. You are looking for a suitable course.",
-        "correct_answer": "j",
-        "explanation": "Die Schule 'Tanz Impulse' (j) bietet laufende Tanz- und Ballettkurse zum Kennenlernen für Kinder, Jugendliche und Erwachsene an."
+        "situation": "Ihre Bekannte möchte lernen, wie sie kleinere Reparaturen an ihrem Wagen selbst machen kann.",
+        "situation_en": "Your female acquaintance wants to learn how to do minor repairs on her car herself.",
+        "correct_answer": "l",
+        "explanation": "Advertisement 'l' offers a Saturday workshop course covering car structure, fixing malfunctions (Störungen und Möglichkeiten zur Behebung), and practical maintenance."
       }
     ]
   },
   "sprachbausteine_teil_1": {
-    "instructions": "Lesen Sie den Text und schließen Sie die Lücken 21–30. Welche Lösung (a, b oder c) ist jeweils richtig?",
+    "instructions": "Lesen Sie den Text und schließen Sie die Lücken 21–30. Welche Lösung (a, b oder c) ist jeweils richtig? Markieren Sie Ihre Lösungen für die Aufgaben 21–30 auf dem Antwortbogen.",
     "passage": {
-      "text": "Liebe Tanja,\nvielen Dank für deinen lieben Brief, ___21___ den ich mich sehr gefreut habe. Es tut mir Leid, ___22___ ich dir so lange nicht geschrieben habe, aber ich hatte in den letzten Wochen ___23___ viel zu tun. Wie du ja weißt, bin ich vor ___24___ Monat umgezogen. In der neuen Wohnung musste noch einiges renoviert ___25___. Zum Glück haben mir ein ___26___ Freunde dabei geholfen, sonst wäre ich bestimmt immer noch nicht fertig.\nDie Wohnung gefällt ___27___ wirklich super! Sie ist viel heller und größer ___28___ meine alte Wohnung, und einen kleinen Balkon habe ich jetzt auch. ___29___ nächsten Samstag mache ich eine kleine Einweihungsparty. Hast du Lust ___30___ kommen? Sag mir bitte bald Bescheid!\nViele Grüße\ndeine Rita",
-      "text_en": "Dear Tanja, thank you very much for your lovely letter, which I was very happy to receive. I am sorry that I haven't written to you for so long, but I had an incredible amount to do in the last few weeks. As you know, I moved a month ago. Quite a bit still had to be renovated in the new apartment. Fortunately, a few friends helped me with it, otherwise I certainly wouldn't be finished yet. I really like the apartment! It is much brighter and larger than my old apartment, and I now also have a small balcony. Next Saturday I'm having a small housewarming party. Do you feel like coming? Please let me know soon! Best regards, your Rita",
+      "text": "Liebe Catherine,\nich hab's geschafft! Endlich habe ich einen Job bekommen. Wie versprochen möchte ich dir gleich ___21___ erzählen. Am Anfang ___22___ ich ziemlich enttäuscht, weil ich auf meine vielen Bewerbungsschreiben insgesamt ___23___ zwei Antworten bekommen habe. Aber zum Glück hat eine davon ___24___: Ich werde nun zwei Nachmittage in der Woche als Babysitterin ___25___ einer Familie arbeiten, die zwei Kinder hat. Sie sind 3 und 5 Jahre alt und ___26___ sind sehr nett. Wir haben in der ___27___ Woche bereits Vieles gemeinsam gemacht, sind in den Zoo und ___28___ Kindermuseum gegangen. ___29___ kann man eine Stadt gar nicht kennen lernen, und es macht mir viel Spaß!\nFür heute wünsche ich dir alles Gute. Schreib mir bald, wie es dir ___30___.\nLiebe Grüße\nDeine Tanja",
+      "text_en": "Dear Catherine,\nI did it! Finally I got a job. As promised, I want to tell you about it right away. In the beginning I was quite disappointed because I received only two replies in total to my many application letters. But luckily one of them worked out: I will now work two afternoons a week as a babysitter with a family that has two children. They are 3 and 5 years old and both are very nice. We already did a lot together in the first week, went to the zoo and to the children's museum. You couldn't get to know a city any better, and it's a lot of fun for me!\nFor today I wish you all the best. Write to me soon how you are doing.\nWarm regards,\nYour Tanja",
       "vocabulary": [
-        { "de": "renovieren", "en": "to renovate" },
-        { "de": "die Einweihungsparty", "en": "housewarming party" },
-        { "de": "Bescheid sagen", "en": "to let someone know" }
+        {
+          "de": "enttäuscht",
+          "en": "disappointed"
+        },
+        {
+          "de": "das Bewerbungsschreiben",
+          "en": "application letter"
+        },
+        {
+          "de": "insgesamt",
+          "en": "in total"
+        }
       ]
     },
     "questions": [
       {
         "number": 21,
-        "options": { "a": "auf", "b": "für", "c": "über" },
+        "options": {
+          "a": "daran",
+          "b": "darüber",
+          "c": "davon"
+        },
+        "options_en": {
+          "a": "about it (daran)",
+          "b": "about it (darüber)",
+          "c": "about it / of it (davon)"
+        },
         "correct_answer": "c",
-        "explanation": "'sich freuen über' + Akkusativ (über den erhaltenen Brief in der Vergangenheit/Gegenwart)."
+        "explanation": "According to the official answer key, 'davon' (von dem neuen Job erzählen) is used here."
       },
       {
         "number": 22,
-        "options": { "a": "dass", "b": "ob", "c": "weil" },
-        "correct_answer": "a",
-        "explanation": "Ergänzungssatz nach 'Es tut mir Leid, dass...'."
+        "options": {
+          "a": "bin",
+          "b": "habe",
+          "c": "war"
+        },
+        "options_en": {
+          "a": "am",
+          "b": "have",
+          "c": "was"
+        },
+        "correct_answer": "c",
+        "explanation": "Past tense of 'sein' (ich war enttäuscht) is required for 'Am Anfang'."
       },
       {
         "number": 23,
-        "options": { "a": "ganz", "b": "sehr", "c": "wahnsinnig" },
-        "correct_answer": "c",
-        "explanation": "Umgangssprachliche Verstärkung vor 'viel zu tun': 'wahnsinnig viel zu tun' (oder laut Schlüssel 23 = B 'sehr')."
+        "options": {
+          "a": "doch",
+          "b": "nur",
+          "c": "schon"
+        },
+        "options_en": {
+          "a": "however",
+          "b": "only",
+          "c": "already"
+        },
+        "correct_answer": "b",
+        "explanation": "'nur' (only) expresses why she was disappointed: out of many applications, she received only two replies."
       },
       {
         "number": 24,
-        "options": { "a": "einem", "b": "einen", "c": "einer" },
+        "options": {
+          "a": "gepasst",
+          "b": "passen",
+          "c": "passt"
+        },
+        "options_en": {
+          "a": "worked out / suited (past participle)",
+          "b": "to fit (infinitive)",
+          "c": "fits (present)"
+        },
         "correct_answer": "a",
-        "explanation": "Dativ Maskulinum nach der Präposition 'vor': 'vor einem Monat'."
+        "explanation": "Perfect tense with 'hat' requires the past participle 'gepasst'."
       },
       {
         "number": 25,
-        "options": { "a": "geworden", "b": "werden", "c": "worden" },
+        "options": {
+          "a": "an",
+          "b": "bei",
+          "c": "zu"
+        },
+        "options_en": {
+          "a": "at",
+          "b": "with / at (employer)",
+          "c": "to"
+        },
         "correct_answer": "b",
-        "explanation": "Infinitiv Passiv mit Modalverb im Präteritum: 'musste ... renoviert werden'."
+        "explanation": "Working for/with a family or company uses the preposition 'bei' (+ Dative: bei einer Familie)."
       },
       {
         "number": 26,
-        "options": { "a": "paar", "b": "viele", "c": "wenige" },
+        "options": {
+          "a": "beide",
+          "b": "beiden",
+          "c": "beides"
+        },
+        "options_en": {
+          "a": "both (nominative plural)",
+          "b": "both (dative/accusative)",
+          "c": "both (neuter singular)"
+        },
         "correct_answer": "a",
-        "explanation": "Indefinitpronomen: 'ein paar Freunde' (einige Freunde)."
+        "explanation": "As the subject in the nominative plural without a preceding article, 'beide' is correct."
       },
       {
         "number": 27,
-        "options": { "a": "mich", "b": "mir", "c": "sich" },
-        "correct_answer": "b",
-        "explanation": "Das Verb 'gefallen' verlangt den Dativ: 'gefällt mir'."
+        "options": {
+          "a": "ersten",
+          "b": "erster",
+          "c": "erstes"
+        },
+        "options_en": {
+          "a": "first (dative feminine)",
+          "b": "first",
+          "c": "first"
+        },
+        "correct_answer": "a",
+        "explanation": "After the feminine dative article 'in der', the weak adjective ending is '-en' (in der ersten Woche)."
       },
       {
         "number": 28,
-        "options": { "a": "als", "b": "denn", "c": "wie" },
-        "correct_answer": "a",
-        "explanation": "Vergleichspartikel nach Komparativ ('heller und größer als')."
+        "options": {
+          "a": "im",
+          "b": "in",
+          "c": "ins"
+        },
+        "options_en": {
+          "a": "in the",
+          "b": "in",
+          "c": "into the / to the"
+        },
+        "correct_answer": "c",
+        "explanation": "Movement towards a neuter noun ('das Kindermuseum') requires 'in + das' = 'ins'."
       },
       {
         "number": 29,
-        "options": { "a": "Am", "b": "Im", "c": "Um" },
-        "correct_answer": "a",
-        "explanation": "Zeitangabe bei Wochentagen: 'Am nächsten Samstag'."
+        "options": {
+          "a": "Am besten",
+          "b": "Besser",
+          "c": "Gut"
+        },
+        "options_en": {
+          "a": "Best",
+          "b": "Better",
+          "c": "Good"
+        },
+        "correct_answer": "b",
+        "explanation": "The comparative 'Besser' is used in the idiomatic expression 'Besser kann man eine Stadt gar nicht kennen lernen' (One couldn't get to know a city any better)."
       },
       {
         "number": 30,
-        "options": { "a": "dazu", "b": "um zu", "c": "zu" },
-        "correct_answer": "c",
-        "explanation": "Infinitivkonstruktion nach 'Hast du Lust': 'Lust zu kommen'."
+        "options": {
+          "a": "geht",
+          "b": "geht's",
+          "c": "ging"
+        },
+        "options_en": {
+          "a": "goes (how you are doing)",
+          "b": "goes it",
+          "c": "went"
+        },
+        "correct_answer": "a",
+        "explanation": "In the subordinate clause 'wie es dir geht', 'es' is already present and present tense is required."
       }
     ]
   },
   "sprachbausteine_teil_2": {
-    "instructions": "Lesen Sie den Text und schließen Sie die Lücken 31–40. Benutzen Sie die Wörter a–o. Jedes Wort passt nur einmal.",
+    "instructions": "Lesen Sie den Text und schließen Sie die Lücken 31–40. Benutzen Sie die Wörter (a–o). Jedes Wort passt nur einmal. Markieren Sie Ihre Lösungen für die Aufgaben 31–40 auf dem Antwortbogen.",
     "word_bank": {
       "a": "DER",
       "b": "DIE",
-      "c": "DORT",
-      "d": "GEEINIGT",
+      "c": "ERST",
+      "d": "GEEIGNET",
       "e": "GERNE",
-      "f": "IHNEN",
-      "g": "KÖNNTE",
+      "f": "HÄTTE",
+      "g": "IN",
       "h": "MUSS",
       "i": "NACH",
-      "j": "OB",
+      "j": "NOCH",
       "k": "SCHON",
-      "l": "WEIL",
+      "l": "WANN",
       "m": "WÄRE",
       "n": "WENN",
       "o": "WO"
     },
     "word_bank_en": {
-      "a": "the (dat./gen. fem. / nom. masc.)",
-      "b": "which/the (fem./pl.)",
-      "c": "there",
-      "d": "agreed",
-      "e": "gladly",
-      "f": "to you (formal)",
-      "g": "could",
+      "a": "the (dative feminine)",
+      "b": "the / which",
+      "c": "only / not until",
+      "d": "suitable",
+      "e": "gladly / would like",
+      "f": "would have",
+      "g": "in",
       "h": "must / have to",
-      "i": "to / after",
-      "j": "whether / if",
+      "i": "to (city/country)",
+      "j": "still",
       "k": "already",
-      "l": "because",
+      "l": "when",
       "m": "would be",
       "n": "if / when",
       "o": "where"
     },
     "passage": {
-      "text": "Sehr geehrter Herr Hermann,\nleider ___31___ ich unseren geplanten Besprechungstermin am kommenden Donnerstag absagen, da ich kurzfristig zu einer dringenden Tagung ___32___ Berlin reisen muss.\nDie Unterlagen, ___33___ Sie mir letzte Woche geschickt haben, habe ich aber bereits durchgesehen. Es ___34___ sehr gut, wenn wir das Projekt trotzdem noch in diesem Monat starten könnten, so wie wir uns bei unserem letzten Treffen ___35___ haben.\nKönnten Sie mir bitte kurz mitteilen, ___36___ und wann wir uns nächste Woche stattdessen treffen können? Ich komme auch ___37___ zu Ihnen in ___38___ Firma, ___39___ das für Sie zeitlich günstiger ist.\nIch danke Ihnen ___40___ im Voraus für Ihr Verständnis.\nMit freundlichen Grüßen\nRita Mertens",
-      "text_en": "Dear Mr. Hermann, unfortunately I have to cancel our planned meeting this coming Thursday, as I have to travel to Berlin at short notice for an urgent conference. However, I have already reviewed the documents that you sent me last week. It would be very good if we could still start the project this month, just as we agreed at our last meeting. Could you please let me know briefly where and when we can meet next week instead? I would also gladly come to your company if that is more convenient for your schedule. Thank you in advance for your understanding. Sincerely, Rita Mertens",
+      "text": "Ihre Anzeige in der Frankfurter Rundschau\n\nSehr geehrte Frau Hermann,\nich habe Ihre Anzeige in der Frankfurter Rundschau vom 5. Oktober gelesen und interessiere mich sehr für die 3-Zimmer-Wohnung.\nZurzeit wohne ich noch in Krakau (Polen). Demnächst ___31___ ich aber aus beruflichen Gründen mit meinem Sohn (3 Jahre) ___32___ Frankfurt umziehen. Deshalb suche ich zum 1. November eine Wohnung, ___33___ nicht weit vom Stadtzentrum entfernt ist. Ihre Wohnung ___34___ also genau richtig für uns.\nIch hätte jedoch noch einige Fragen zu Ihrer Anzeige: Ist die Wohnung auch für Kleinkinder ___35___? Und gibt es in der näheren Umgebung einen Spielplatz, ___36___ mein Sohn spielen könnte? Außerdem würde ich ___37___ wissen, ob die Haltung von Haustieren in ___38___ Wohnung erlaubt ist.\nEs wäre sehr nett, ___39___ Sie mir bald antworten könnten, weil ich ___40___ nächste Woche nach Frankfurt komme, um mir einige Wohnungen anzusehen.\n\nMit freundlichen Grüßen\nMaria Kowalska",
+      "text_en": "Your advertisement in the Frankfurter Rundschau\n\nDear Ms. Hermann,\nI read your advertisement in the Frankfurter Rundschau from October 5th and am very interested in the 3-room apartment.\nCurrently I still live in Krakow (Poland). Soon, however, I have to move to Frankfurt for professional reasons with my son (3 years old). Therefore, I am looking for an apartment for November 1st that is not far from the city center. Your apartment would therefore be just right for us.\nHowever, I still have a few questions about your ad: Is the apartment also suitable for small children? And is there a playground in the immediate vicinity where my son could play? In addition, I would like to know whether keeping pets is allowed in the apartment.\nIt would be very nice if you could reply to me soon, because I am coming to Frankfurt already next week to view some apartments.\n\nSincerely,\nMaria Kowalska",
       "vocabulary": [
-        { "de": "kurzfristig", "en": "at short notice" },
-        { "de": "sich einigen", "en": "to agree" }
+        {
+          "de": "demnächst",
+          "en": "soon / shortly"
+        },
+        {
+          "de": "die Haltung von Haustieren",
+          "en": "keeping of pets"
+        },
+        {
+          "de": "die nähere Umgebung",
+          "en": "immediate vicinity"
+        }
       ]
     },
     "questions": [
       {
         "number": 31,
         "correct_answer": "h",
-        "explanation": "Modalverb 1. Person Singular: 'leider muss ich ... absagen'."
+        "explanation": "'muss' (have to) fits the modal verb construction with the infinitive 'umziehen' at the end of the sentence."
       },
       {
         "number": 32,
         "correct_answer": "i",
-        "explanation": "Richtungspräposition bei Städten: 'nach Berlin reisen'."
+        "explanation": "Direction towards a city without an article (Frankfurt) requires the preposition 'nach'."
       },
       {
         "number": 33,
         "correct_answer": "b",
-        "explanation": "Relativpronomen Akkusativ Plural ('Die Unterlagen, die Sie mir geschickt haben')."
+        "explanation": "'die' functions as a nominative feminine relative pronoun referring to 'eine Wohnung'."
       },
       {
         "number": 34,
         "correct_answer": "m",
-        "explanation": "Konjunktiv II im Hauptsatz vor 'wenn': 'Es wäre sehr gut, wenn...'."
+        "explanation": "'wäre' (would be) expresses politeness/hypothetical suitability: 'Ihre Wohnung wäre also genau richtig für uns.'"
       },
       {
         "number": 35,
         "correct_answer": "d",
-        "explanation": "Partizip II zu 'sich einigen': 'wie wir uns ... geeinigt haben'."
+        "explanation": "'für Kleinkinder geeignet' (suitable for small children) is the standard adjective phrase."
       },
       {
         "number": 36,
         "correct_answer": "o",
-        "explanation": "Indirektes Fragewort des Ortes: 'wo und wann wir uns treffen können'."
+        "explanation": "'wo' (where) introduces a relative clause referring to a place ('einen Spielplatz, wo mein Sohn spielen könnte')."
       },
       {
         "number": 37,
         "correct_answer": "e",
-        "explanation": "Adverb: 'Ich komme auch gerne zu Ihnen'."
+        "explanation": "'würde ich gerne wissen' (I would like to know) uses the adverb 'gerne'."
       },
       {
         "number": 38,
         "correct_answer": "a",
-        "explanation": "Laut offiziellem Lösungsschlüssel in rita.pdf: 38 = A (DER)."
+        "explanation": "Location with the preposition 'in' requires the dative case for feminine singular 'Wohnung': 'in der Wohnung'."
       },
       {
         "number": 39,
         "correct_answer": "n",
-        "explanation": "Konditionale Konjunktion: 'wenn das für Sie zeitlich günstiger ist'."
+        "explanation": "'Es wäre sehr nett, wenn...' (It would be very nice if...) requires the conditional conjunction 'wenn'."
       },
       {
         "number": 40,
         "correct_answer": "k",
-        "explanation": "Feste Wendung: 'Ich danke Ihnen schon im Voraus'."
+        "explanation": "'schon nächste Woche' (already next week) explains the urgency of needing a quick reply."
       }
     ]
   },
   "hoerverstehen_teil_1": {
-    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören diese Texte nur einmal. Entscheiden Sie beim Hören, ob die Aussagen 41–45 richtig (+) oder falsch (-) sind.",
-    "transcripts": [],
-    "questions": [
+    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören diese Texte nur einmal. Entscheiden Sie beim Hören, ob die Aussagen 41–45 richtig oder falsch sind. Markieren Sie Ihre Lösungen auf dem Antwortbogen bei den Aufgaben 41–45: Markieren Sie PLUS (+) gleich richtig und MINUS (–) gleich falsch.",
+    "transcripts": [
       {
         "number": 41,
-        "statement": "Der Sprecher kauft seine Kleidung am liebsten im Kaufhaus.",
-        "statement_en": "The speaker prefers to buy his clothes at the department store.",
-        "correct_answer": "-",
-        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 41 falsch (-)."
+        "text": "Achtung, Achtung! Der nächste Zug nach Füssen fährt um 11:30 Uhr vom Gleis 7R ab. Bitte begeben Sie sich rechtzeitig zum Bahnsteig. Reisende mit Fahrrädern benutzen bitte den hinteren Einstieg. Wir wünschen Ihnen eine angenehme Fahrt und bedanken uns für Ihre Aufmerksamkeit.",
+        "text_en": "Attention, attention! The next train to Füssen departs at 11:30 AM from platform 7R. Please proceed to the platform in time. Passengers with bicycles please use the rear entrance. We wish you a pleasant journey and thank you for your attention.",
+        "vocabulary": [
+          {
+            "de": "sich begeben",
+            "en": "to proceed / go to"
+          },
+          {
+            "de": "der Bahnsteig",
+            "en": "platform"
+          },
+          {
+            "de": "der Einstieg",
+            "en": "boarding / entrance"
+          }
+        ]
       },
       {
         "number": 42,
-        "statement": "Die Sprecherin liest im Urlaub am liebsten spannende Bücher.",
-        "statement_en": "The speaker prefers reading exciting books on vacation.",
-        "correct_answer": "+",
-        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 42 richtig (+)."
+        "text": "Vorsicht, bitte beachten Sie: Die Firma hat ihren Sitz nicht in der Bellmondstraße, sondern in der Rosenallee 12. Alle Lieferungen und Besucher werden gebeten, direkt zur neuen Adresse zu kommen. Vielen Dank für Ihr Verständnis und Ihre Kooperation.",
+        "text_en": "Attention, please note: The company is not located on Bellmondstraße, but at Rosenallee 12. All deliveries and visitors are asked to come directly to the new address. Thank you for your understanding and cooperation.",
+        "vocabulary": [
+          {
+            "de": "der Sitz",
+            "en": "headquarters / location"
+          },
+          {
+            "de": "die Lieferung",
+            "en": "delivery"
+          }
+        ]
       },
       {
         "number": 43,
-        "statement": "Der Sprecher fährt jeden Tag mit dem Fahrrad zur Arbeit.",
-        "statement_en": "The speaker rides his bicycle to work every day.",
-        "correct_answer": "-",
-        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 43 falsch (-)."
+        "text": "Willkommen im City-Kino! Alte Filme werden heute Abend im ersten Obergeschoss gezeigt. Der Vorführsaal im Untergeschoss ist momentan geschlossen. Bitte folgen Sie der Beschilderung im Eingangsbereich. Wir wünschen Ihnen gute Unterhaltung und einen schönen Filmabend.",
+        "text_en": "Welcome to the City Cinema! Old movies are being shown tonight on the first floor. The screening room in the basement is currently closed. Please follow the signs in the entrance area. We wish you good entertainment and a nice movie night.",
+        "vocabulary": [
+          {
+            "de": "das Obergeschoss",
+            "en": "upper floor"
+          },
+          {
+            "de": "das Untergeschoss",
+            "en": "basement / lower floor"
+          },
+          {
+            "de": "der Vorführsaal",
+            "en": "screening room"
+          }
+        ]
       },
       {
         "number": 44,
-        "statement": "Die Sprecherin kocht am Wochenende gern für ihre Freunde.",
-        "statement_en": "The speaker likes cooking for her friends on the weekend.",
-        "correct_answer": "+",
-        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 44 richtig (+)."
+        "text": "Sehr geehrte Fahrgäste, bitte beachten Sie: Es werden keine Käseprodukte im Zug verteilt. Südtiroler Spezialitäten sind im Bordbistro erhältlich. Unser Zugteam steht Ihnen dort gerne zur Verfügung. Vielen Dank für Ihr Verständnis.",
+        "text_en": "Dear passengers, please note: No cheese products are distributed on the train. South Tyrolean specialties are available in the on-board bistro. Our train team will be happy to assist you there. Thank you for your understanding.",
+        "vocabulary": [
+          {
+            "de": "verteilen",
+            "en": "to distribute"
+          },
+          {
+            "de": "erhältlich",
+            "en": "available"
+          }
+        ]
       },
       {
         "number": 45,
-        "statement": "Der Sprecher findet das Leben auf dem Land zu langweilig.",
-        "statement_en": "The speaker finds life in the countryside too boring.",
+        "text": "Hallo Hans, ich wollte dir nur kurz Bescheid geben: Oma hat gerade angerufen und gesagt, dass sie heute doch nicht kommen kann. Es ist wohl etwas Wichtiges dazwischengekommen. Sie klang ein bisschen enttäuscht. Ich habe morgen um 13:30 Uhr einen Arzttermin, den ich nicht verschieben kann, also schaffe ich es nicht, sie abzuholen. Kannst du bitte morgen um 14 Uhr zum Flughafen fahren und sie dort abholen? Das wäre echt super nett von dir. Danke dir und bis später!",
+        "text_en": "Hello Hans, I just wanted to let you know briefly: Grandma just called and said that she can't come today after all. Something important seems to have come up. She sounded a bit disappointed. I have a doctor's appointment tomorrow at 1:30 PM that I cannot postpone, so I won't manage to pick her up. Can you please drive to the airport tomorrow at 2 PM and pick her up there? That would be really super nice of you. Thanks and see you later!",
+        "vocabulary": [
+          {
+            "de": "Bescheid geben",
+            "en": "to let someone know"
+          },
+          {
+            "de": "dazwischenkommen",
+            "en": "to come up / intervene"
+          },
+          {
+            "de": "verschieben",
+            "en": "to postpone"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "number": 41,
+        "statement": "Der nächste Zug nach Füssen fährt um 11:30 Uhr.",
+        "statement_en": "The next train to Füssen departs at 11:30 AM.",
+        "correct_answer": "+",
+        "explanation": "The announcement explicitly says: 'Der nächste Zug nach Füssen fährt um 11:30 Uhr vom Gleis 7R ab.'"
+      },
+      {
+        "number": 42,
+        "statement": "Die Firma befindet sich in der Bellmondstraße.",
+        "statement_en": "The company is located on Bellmondstraße.",
         "correct_answer": "-",
-        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 45 falsch (-)."
+        "explanation": "The announcement states that the company is NOT located on Bellmondstraße, but on Rosenallee 12."
+      },
+      {
+        "number": 43,
+        "statement": "Im City-Kino werden im Untergeschoss alte Filme gezeigt.",
+        "statement_en": "In the City Cinema, old movies are shown in the basement.",
+        "correct_answer": "-",
+        "explanation": "Old movies are shown on the first floor (im ersten Obergeschoss); the screening room in the basement (Untergeschoss) is currently closed."
+      },
+      {
+        "number": 44,
+        "statement": "Das Zugteam bringt Ihnen Südtiroler Käsespezialitäten an Ihren Platz.",
+        "statement_en": "The train team brings South Tyrolean cheese specialties to your seat.",
+        "correct_answer": "-",
+        "explanation": "No cheese products are distributed on the train, and South Tyrolean specialties must be purchased in the on-board bistro (Bordbistro)."
+      },
+      {
+        "number": 45,
+        "statement": "Die Großmutter kann heute nicht kommen.",
+        "statement_en": "The grandmother cannot come today.",
+        "correct_answer": "+",
+        "explanation": "The speaker says: 'Oma hat gerade angerufen und gesagt, dass sie heute doch nicht kommen kann.'"
       }
     ]
   },
   "hoerverstehen_teil_2": {
-    "instructions": "Sie hören nun ein Gespräch. Dazu sollen Sie zehn Aufgaben lösen. Sie hören das Gespräch zweimal. Entscheiden Sie beim Hören, ob die Aussagen 46–55 richtig (+) oder falsch (-) sind.",
+    "instructions": "Sie hören nun ein Gespräch. Dazu sollen Sie zehn Aufgaben lösen. Sie hören das Gespräch zweimal. Entscheiden Sie beim Hören, ob die Aussagen 46–55 richtig oder falsch sind. Markieren Sie PLUS (+) gleich richtig und MINUS (–) gleich falsch.",
     "interview_transcript": {
-      "text": ""
+      "text": "Moderator: Herzlich willkommen! Unser Verein ist ein Ort der Gemeinschaft, des Vertrauens und der Unterstützung. Wir organisieren Feste, vermitteln Senioren zur Kinderbetreuung und helfen im Haushalt. Unsere engagierten Mitglieder bringen Fachwissen mit und sorgen für eine herzliche Atmosphäre. Lassen Sie uns gemeinsam Gutes tun! Guten Tag, Frau Schäfer, schön, dass Sie heute mit uns sprechen. Sie haben kurz nach der Gründung zum ersten Mal von dem Verein gehört. Wie war Ihr erster Eindruck?\nFrau Schäfer: Guten Tag! Ja, das stimmt. Ich habe damals zufällig von dem Verein erfahren und war sofort begeistert. Die Idee, Familien mit Hausarbeit, Kinderbetreuung und Festorganisation zu unterstützen, fand ich großartig.\nModerator: Der Verein scheint eine große Reichweite zu haben. Woher kommen die Mitglieder?\nFrau Schäfer: Die Mitglieder kommen aus ganz Deutschland. Das zeigt, wie wichtig dieses Thema ist und dass es viele engagierte Menschen gibt, die helfen möchten.\nModerator: Im Verein werden oft Feste gefeiert. Können Sie uns mehr darüber erzählen?\nFrau Schäfer: Ja, genau. Der Verein legt großen Wert auf Gemeinschaft. Es werden regelmäßig Feste organisiert, bei denen sich Familien, Senioren und Kinder treffen können. Das stärkt das Miteinander und schafft eine angenehme Atmosphäre.\nModerator: Ein wichtiges Thema ist auch die Entlohnung der Mitarbeiterinnen. Wie sieht das aus?\nFrau Schäfer: Die Mitarbeiterinnen bekommen für ihre Arbeiten 10 Euro pro Stunde. Es ist uns wichtig, dass ihre Arbeit wertgeschätzt wird und sie eine faire Bezahlung erhalten.\nModerator: Und was ist mit Familien, die sich diesen Service nicht leisten können?\nFrau Schäfer: Für Kunden mit wenig Geld ist der Service kostenlos. Der Verein möchte niemanden ausschließen und allen Familien helfen, unabhängig von ihrer finanziellen Situation.\nModerator: Das klingt wirklich nach einem tollen Konzept. Vielen Dank, Frau Schäfer, für dieses interessante Gespräch.\nFrau Schäfer: Sehr gerne, es freut mich, darüber sprechen zu können.",
+      "text_en": "Host: Welcome! Our association is a place of community, trust, and support. We organize parties, place seniors for childcare, and help with household chores. Our dedicated members bring expertise and ensure a warm atmosphere. Good day, Ms. Schäfer, nice that you are speaking with us today. You heard about the association for the first time shortly after its founding. What was your first impression?\nMs. Schäfer: Good day! Yes, that's right. I found out about the association by chance back then and was immediately enthusiastic. I found the idea of supporting families with housework, childcare, and party organization great.\nHost: The association seems to have a wide reach. Where do the members come from?\nMs. Schäfer: The members come from all over Germany. That shows how important this topic is and that there are many dedicated people who want to help.\nHost: Parties are often celebrated in the association. Can you tell us more about that?\nMs. Schäfer: Yes, exactly. The association places great value on community. Parties are organized regularly where families, seniors, and children can meet. That strengthens togetherness and creates a pleasant atmosphere.\nHost: An important topic is also the remuneration of the employees. What does that look like?\nMs. Schäfer: The employees receive 10 Euros per hour for their work. It is important to us that their work is appreciated and they receive fair pay.\nHost: And what about families who cannot afford this service?\nMs. Schäfer: For customers with little money, the service is free of charge. The association wants to exclude no one and help all families, regardless of their financial situation.\nHost: That really sounds like a great concept. Thank you very much, Ms. Schäfer, for this interesting conversation.\nMs. Schäfer: You're very welcome, I'm pleased to be able to talk about it.",
+      "vocabulary": [
+        {
+          "de": "die Gründung",
+          "en": "founding / establishment"
+        },
+        {
+          "de": "die Reichweite",
+          "en": "reach / scope"
+        },
+        {
+          "de": "die Entlohnung",
+          "en": "remuneration / pay"
+        },
+        {
+          "de": "wertschätzen",
+          "en": "to appreciate / value"
+        },
+        {
+          "de": "ausschließen",
+          "en": "to exclude"
+        }
+      ]
     },
     "questions": [
       {
         "number": 46,
-        "statement": "Frau Kranz arbeitet als Berufsberaterin beim Arbeitsamt.",
-        "statement_en": "Ms. Kranz works as a career counselor at the employment office.",
-        "correct_answer": "-",
-        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 46 falsch (-)."
+        "statement": "Frau Schäfer hat von dem Verein kurz nach der Gründung zum ersten Mal gehört.",
+        "statement_en": "Ms. Schäfer heard about the association for the first time shortly after its founding.",
+        "correct_answer": "+",
+        "explanation": "The interviewer states she heard about the association shortly after its founding, and Frau Schäfer confirms: 'Ja, das stimmt.'"
       },
       {
         "number": 47,
-        "statement": "Sie berät Menschen, die sich beruflich verändern wollen.",
-        "statement_en": "She advises people who want to make a career change.",
+        "statement": "Die Mitglieder des Vereins kommen aus ganz Deutschland.",
+        "statement_en": "The members of the association come from all over Germany.",
         "correct_answer": "+",
-        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 47 richtig (+)."
+        "explanation": "Frau Schäfer explicitly states: 'Die Mitglieder kommen aus ganz Deutschland.'"
       },
       {
         "number": 48,
-        "statement": "Viele Klienten sind mit ihrer Arbeit unzufrieden, weil sie zu wenig verdienen.",
-        "statement_en": "Many clients are dissatisfied with their work because they earn too little.",
-        "correct_answer": "-",
-        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 48 falsch (-)."
+        "statement": "Die Mitglieder des Vereins wissen über Hausarbeit gut Bescheid.",
+        "statement_en": "The members of the association are knowledgeable about housework.",
+        "correct_answer": "+",
+        "explanation": "The introduction states that the association helps in the household and that its dedicated members bring expertise ('helfen im Haushalt. Unsere engagierten Mitglieder bringen Fachwissen mit')."
       },
       {
         "number": 49,
-        "statement": "Frau Kranz hat früher selbst in einer Bank gearbeitet.",
-        "statement_en": "Ms. Kranz used to work in a bank herself.",
+        "statement": "Im Verein werden oft Feste gefeiert.",
+        "statement_en": "Parties are often celebrated in the association.",
         "correct_answer": "+",
-        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 49 richtig (+)."
+        "explanation": "The interviewer mentions 'Im Verein werden oft Feste gefeiert', and Frau Schäfer confirms: 'Ja, genau... Es werden regelmäßig Feste organisiert.'"
       },
       {
         "number": 50,
-        "statement": "Für eine Beratung bei Frau Kranz muss man einen Fragebogen ausfüllen.",
-        "statement_en": "For a consultation with Ms. Kranz, you have to fill out a questionnaire.",
+        "statement": "Der Verein bietet auch die Organisation von Festen an.",
+        "statement_en": "The association also offers the organization of parties.",
         "correct_answer": "+",
-        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 50 richtig (+)."
+        "explanation": "Both the introduction ('Wir organisieren Feste') and Frau Schäfer ('Familien mit Hausarbeit, Kinderbetreuung und Festorganisation zu unterstützen') confirm this."
       },
       {
         "number": 51,
-        "statement": "Die meisten Ratsuchenden sind jünger als 30 Jahre.",
-        "statement_en": "Most people seeking advice are younger than 30.",
-        "correct_answer": "-",
-        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 51 falsch (-)."
+        "statement": "Der Verein vermittelt Senioren, die tagsüber Kinder betreuen.",
+        "statement_en": "The association places seniors who look after children during the day.",
+        "correct_answer": "+",
+        "explanation": "The introduction states that the association places seniors for childcare ('vermitteln Senioren zur Kinderbetreuung')."
       },
       {
         "number": 52,
-        "statement": "Frau Kranz empfiehlt jedem Klienten, sofort zu kündigen.",
-        "statement_en": "Ms. Kranz recommends that every client quit immediately.",
+        "statement": "Laut Frau Schäfer vertrauen viele Familien den Mitarbeiterinnen des Vereins mehr als anderen.",
+        "statement_en": "According to Ms. Schäfer, many families trust the employees of the association more than others.",
         "correct_answer": "-",
-        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 52 falsch (-)."
+        "explanation": "While trust is mentioned generally as a value of the association, Frau Schäfer never claims that families trust their employees more than others."
       },
       {
         "number": 53,
-        "statement": "Manchmal reicht schon eine Weiterbildung im alten Beruf.",
-        "statement_en": "Sometimes further training in the old profession is enough.",
-        "correct_answer": "+",
-        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 53 richtig (+)."
+        "statement": "Vereinsmitglied kann nur werden, wer einen Beruf gelernt hat.",
+        "statement_en": "Only those who have learned a profession can become a member of the association.",
+        "correct_answer": "-",
+        "explanation": "There is no requirement mentioned in the interview that members must have completed vocational training to join."
       },
       {
         "number": 54,
-        "statement": "Die Beratung wird von den Krankenkassen bezahlt.",
-        "statement_en": "The consultation is paid for by health insurance companies.",
-        "correct_answer": "-",
-        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 54 falsch (-)."
+        "statement": "Die Mitarbeiterinnen bekommen für ihre Arbeiten 10 Euro pro Stunde.",
+        "statement_en": "The employees receive 10 Euros per hour for their work.",
+        "correct_answer": "+",
+        "explanation": "Frau Schäfer explicitly states: 'Die Mitarbeiterinnen bekommen für ihre Arbeiten 10 Euro pro Stunde.'"
       },
       {
         "number": 55,
-        "statement": "Am Wochenende hält Frau Kranz auch Seminare an der Volkshochschule.",
-        "statement_en": "On weekends, Ms. Kranz also holds seminars at the adult education center.",
+        "statement": "Kunden mit wenig Geld zahlen für den Service nichts.",
+        "statement_en": "Customers with little money pay nothing for the service.",
         "correct_answer": "+",
-        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 55 richtig (+)."
+        "explanation": "Frau Schäfer states: 'Für Kunden mit wenig Geld ist der Service kostenlos.'"
       }
     ]
   },
   "hoerverstehen_teil_3": {
-    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören jeden Text zweimal. Entscheiden Sie beim Hören, ob die Aussagen 56–60 richtig (+) oder falsch (-) sind.",
-    "transcripts": [],
-    "questions": [
+    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören jeden Text zweimal. Entscheiden Sie beim Hören, ob die Aussagen 56–60 richtig oder falsch sind. Markieren Sie PLUS (+) gleich richtig und MINUS (–) gleich falsch.",
+    "transcripts": [
       {
         "number": 56,
-        "statement": "Die Reisenden nach Hannover sollen den Bus vor dem Bahnhof nehmen.",
-        "statement_en": "Passengers to Hanover should take the bus in front of the station.",
-        "correct_answer": "+",
-        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 56 richtig (+)."
+        "text": "Willkommen im Bordrestaurant! Heute servieren wir Ihnen regionale Spezialitäten aus der Steiermark. Unsere Köche bereiten täglich frische Gerichte wie steirischen Wursteintopf und Kürbissuppe zu. Auch unser Apfelstrudel stammt aus der Region. Wir wünschen Ihnen guten Appetit und eine angenehme Weiterreise mit uns.",
+        "text_en": "Welcome to the on-board restaurant! Today we are serving you regional specialties from Styria. Our chefs prepare fresh dishes daily such as Styrian sausage stew and pumpkin soup. Our apple strudel also comes from the region. We wish you bon appétit and a pleasant onward journey with us.",
+        "vocabulary": [
+          {
+            "de": "das Bordrestaurant",
+            "en": "on-board dining car"
+          },
+          {
+            "de": "der Wursteintopf",
+            "en": "sausage stew"
+          },
+          {
+            "de": "die Kürbissuppe",
+            "en": "pumpkin soup"
+          }
+        ]
       },
       {
         "number": 57,
-        "statement": "Am Wochenende bleibt es in ganz Süddeutschland sonnig und trocken.",
-        "statement_en": "On the weekend it will remain sunny and dry throughout southern Germany.",
-        "correct_answer": "-",
-        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 57 falsch (-)."
+        "text": "In unserer Küchenausstellung gibt es noch bis Ende Oktober tolle Rabatte. Moderne Einbauküchen erhalten Sie bereits ab 3.000 Euro. Unsere Berater stehen Ihnen gerne zur Verfügung. Kommen Sie vorbei und gestalten Sie Ihre Traumküche individuell. Das Angebot gilt nur für kurze Zeit.",
+        "text_en": "In our kitchen showroom there are great discounts until the end of October. You can get modern fitted kitchens starting from 3,000 Euros. Our consultants are happy to assist you. Come by and design your dream kitchen individually. The offer is valid for a short time only.",
+        "vocabulary": [
+          {
+            "de": "die Küchenausstellung",
+            "en": "kitchen showroom / exhibition"
+          },
+          {
+            "de": "die Einbauküche",
+            "en": "fitted kitchen"
+          },
+          {
+            "de": "der Rabatt",
+            "en": "discount"
+          }
+        ]
       },
       {
         "number": 58,
-        "statement": "Im Möbelhaus bekommen Sie heute alle Gartenmöbel zum halben Preis.",
-        "statement_en": "At the furniture store today you get all garden furniture at half price.",
-        "correct_answer": "-",
-        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 58 falsch (-)."
+        "text": "Wenn Sie zum Rathaus möchten, nehmen Sie bitte den Weg durch den Martinipark. Der Park ist gut beleuchtet und bietet einen direkten Zugang zum Haupteingang. Besonders bei schönem Wetter ist der Spaziergang durch die Grünanlage sehr angenehm. Folgen Sie einfach der Beschilderung im Stadtzentrum.",
+        "text_en": "If you would like to go to the town hall, please take the path through Martinipark. The park is well lit and offers direct access to the main entrance. Especially in nice weather, the walk through the green area is very pleasant. Simply follow the signs in the city center.",
+        "vocabulary": [
+          {
+            "de": "beleuchtet",
+            "en": "illuminated / lit"
+          },
+          {
+            "de": "die Grünanlage",
+            "en": "green area / park"
+          },
+          {
+            "de": "die Beschilderung",
+            "en": "signage"
+          }
+        ]
       },
       {
         "number": 59,
-        "statement": "Das Konzert im Stadtpark findet wegen des schlechten Wetters in der Stadthalle statt.",
-        "statement_en": "Due to bad weather, the concert in the city park will take place in the city hall.",
-        "correct_answer": "+",
-        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 59 richtig (+)."
+        "text": "Bitte beachten Sie: Am Nachmittag fährt heute kein Flughafenbus. Reisende werden gebeten, auf die S-Bahn oder ein Taxi auszuweichen. Die nächste direkte Verbindung mit dem Bus ist erst wieder am frühen Abend verfügbar. Wir danken für Ihr Verständnis und wünschen eine gute Fahrt.",
+        "text_en": "Please note: No airport bus is running this afternoon. Travelers are asked to switch to the S-Bahn or a taxi. The next direct bus connection will not be available until early evening. We thank you for your understanding and wish you a good journey.",
+        "vocabulary": [
+          {
+            "de": "ausweichen auf",
+            "en": "to switch to / fall back on"
+          },
+          {
+            "de": "verfügbar",
+            "en": "available"
+          }
+        ]
       },
       {
         "number": 60,
-        "statement": "Frau Katrin Schneider soll Ihren Mann auf dem Handy anrufen.",
-        "statement_en": "Ms. Katrin Schneider should call her husband on his cell phone.",
+        "text": "Die Praxis von Dr. Haar ist diese Woche nur eingeschränkt erreichbar. Die Vertretung ist Montag und Mittwoch von 9 bis 12 Uhr geöffnet. An den anderen Tagen bitten wir Sie, sich an die Notfallpraxis zu wenden. Weitere Informationen finden Sie auf der Webseite oder am Aushang der Praxis.",
+        "text_en": "Dr. Haar's practice has limited availability this week. The substitute practice is open Monday and Wednesday from 9 AM to 12 PM. On the other days, we ask you to contact the emergency practice. Further information can be found on the website or on the notice board at the practice.",
+        "vocabulary": [
+          {
+            "de": "eingeschränkt",
+            "en": "limited / restricted"
+          },
+          {
+            "de": "die Vertretung",
+            "en": "substitute / replacement"
+          },
+          {
+            "de": "der Aushang",
+            "en": "notice / bulletin"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "number": 56,
+        "statement": "Im Bordrestaurant gibt es typisches Essen aus der Steiermark.",
+        "statement_en": "In the on-board restaurant there is typical food from Styria.",
+        "correct_answer": "+",
+        "explanation": "The announcement says: 'Heute servieren wir Ihnen regionale Spezialitäten aus der Steiermark.'"
+      },
+      {
+        "number": 57,
+        "statement": "Bis Ende Oktober kann man Küchen ab 1.000 Euro kaufen.",
+        "statement_en": "Until the end of October you can buy kitchens starting from 1,000 Euros.",
         "correct_answer": "-",
-        "explanation": "Laut Lösungsschlüssel in rita.pdf ist Aussage 60 falsch (-)."
+        "explanation": "The announcement states that modern fitted kitchens are available starting from 3,000 Euros ('bereits ab 3.000 Euro'), not 1,000 Euros."
+      },
+      {
+        "number": 58,
+        "statement": "Wenn man zum Rathaus geht, läuft man durch den Martinipark.",
+        "statement_en": "When going to the town hall, you walk through Martinipark.",
+        "correct_answer": "+",
+        "explanation": "The announcement instructs visitors going to the town hall to take the path through Martinipark ('Wenn Sie zum Rathaus möchten, nehmen Sie bitte den Weg durch den Martinipark')."
+      },
+      {
+        "number": 59,
+        "statement": "Reisende zum Flughafen sollen am Nachmittag den Flughafenbus nehmen.",
+        "statement_en": "Travelers to the airport should take the airport bus in the afternoon.",
+        "correct_answer": "-",
+        "explanation": "No airport bus runs in the afternoon ('Am Nachmittag fährt heute kein Flughafenbus'); travelers should take the S-Bahn or a taxi instead."
+      },
+      {
+        "number": 60,
+        "statement": "Die Vertretungspraxis Dr. Haar ist unter der Woche täglich erreichbar.",
+        "statement_en": "The substitute practice of Dr. Haar can be reached daily during the week.",
+        "correct_answer": "-",
+        "explanation": "The practice is only open on Monday and Wednesday from 9 AM to 12 PM; on other days patients must contact the emergency practice."
       }
     ]
   }
 }
+laura.json
+Displaying laura.json.
