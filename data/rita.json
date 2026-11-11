@@ -1,13 +1,13 @@
 {
-  "title": "Rita",
+  "title": "RITA",
   "leseverstehen_teil_1": {
     "headings": {
       "a": "Schweizer sollen gesünder leben",
-      "b": "Neu im Trend: Jung und schön mit Schokolade!",
-      "c": "Studie zeigt: Eheleute haben oft ein paar Kilos zu viel",
-      "d": "Jeden Tag Sport – für die meisten Deutschen kein Problem",
-      "e": "Die aktiv Sport treiben, leben länger",
-      "f": "Immer mehr übergewichtige Singles in Deutschland",
+      "b": "Neu im Trend: Jung und gesund – mit Schokolade!",
+      "c": "Studie zeigt: Heiraten macht dick",
+      "d": "Japanische Studie: Vielschläfer leben länger",
+      "e": "Die Mehrheit der Schweizer treibt aktiv Sport",
+      "f": "Statistik: Unverheiratete haben oft ein paar Kilos zu viel",
       "g": "Teures Essen für mehr Jugend und Schönheit",
       "h": "USA: Nachfrage nach teuren Lebensmitteln geht zurück",
       "i": "Schokolade essen – jung bleiben",
@@ -15,11 +15,11 @@
     },
     "headings_en": {
       "a": "Swiss people should live healthier",
-      "b": "New trend: Young and beautiful with chocolate!",
-      "c": "Study shows: Married couples often have a few extra kilos",
-      "d": "Sports every day – no problem for most Germans",
-      "e": "Those who actively do sports live longer",
-      "f": "More and more overweight singles in Germany",
+      "b": "New in trend: Young and healthy – with chocolate!",
+      "c": "Study shows: Getting married makes you fat",
+      "d": "Japanese study: Heavy sleepers live longer",
+      "e": "The majority of Swiss people actively do sports",
+      "f": "Statistics: Unmarried people often have a few extra kilos",
       "g": "Expensive food for more youth and beauty",
       "h": "USA: Demand for expensive groceries is declining",
       "i": "Eat chocolate – stay young",
@@ -193,50 +193,50 @@
         "question_en": "Palmer was able to realize his project",
         "options": {
           "a": "weil er einen Preis von einer Universität gewonnen hat.",
-          "b": "weil er selbst genug Geld verdient hatte.",
-          "c": "weil Studenten und Sponsoren ihm geholfen haben."
+          "b": "weil er finanzielle Unterstützung von vier Universitäten erhalten hat.",
+          "c": "weil ihn Firmen und Universitäten unterstützt haben."
         },
         "options_en": {
           "a": "because he won a prize from a university.",
-          "b": "because he had earned enough money himself.",
-          "c": "because students and sponsors helped him."
+          "b": "because he received financial support from four universities.",
+          "c": "because companies and universities supported him."
         },
         "correct_answer": "c",
-        "explanation": "Paragraph 5 explains that students from four universities built the car for him and he eventually found companies and private sponsors for financial support."
+        "explanation": "Paragraph 5 explains that students from four universities built the car for him and companies and private sponsors provided the financial support (not the universities themselves)."
       },
       {
         "number": 8,
         "question": "Schon als Jugendlicher",
         "question_en": "Already as a teenager",
         "options": {
-          "a": "baute Louis Palmer sein erstes Auto.",
-          "b": "hatte Louis Palmer die Idee für ein Solarauto.",
-          "c": "interessierte sich Louis Palmer für berühmte Rennfahrer."
+          "a": "baute Louis an einem umweltfreundlichen Auto.",
+          "b": "wollte Louis etwas für die Umwelt tun.",
+          "c": "wusste Louis genau, wie er sein Leben einteilen will."
         },
         "options_en": {
-          "a": "Louis Palmer built his first car.",
-          "b": "Louis Palmer had the idea for a solar car.",
-          "c": "Louis Palmer was interested in famous race car drivers."
+          "a": "Louis was building an environmentally friendly car.",
+          "b": "Louis wanted to do something for the environment.",
+          "c": "Louis knew exactly how he wanted to structure his life."
         },
         "correct_answer": "b",
-        "explanation": "Paragraph 3 states that at age 14, he decided something must be done about climate change and drew a race car decorated with smiling suns."
+        "explanation": "Paragraph 3 states that at age 14, Louis decided that something had to be done against climate change ('Gegen die Veränderung des Klimas muss etwas getan werden') and drew a solar race car."
       },
       {
         "number": 9,
-        "question": "Mit seiner Reise möchte Louis Palmer zeigen, dass",
-        "question_en": "With his trip, Louis Palmer wants to show that",
+        "question": "Palmers Auto",
+        "question_en": "Palmer's car",
         "options": {
-          "a": "man schon heute umweltfreundliche Autos bauen kann.",
-          "b": "man ohne Auto die Welt bereisen kann.",
-          "c": "Solarautos schneller sind als normale Autos."
+          "a": "fährt mit alternativer Energie.",
+          "b": "geht auf eine dreijährige Weltreise.",
+          "c": "hat genug Platz für sieben Personen."
         },
         "options_en": {
-          "a": "environmentally friendly cars can already be built today.",
-          "b": "one can travel the world without a car.",
-          "c": "solar cars are faster than normal cars."
+          "a": "runs on alternative energy.",
+          "b": "is going on a three-year world trip.",
+          "c": "has enough space for seven people."
         },
         "correct_answer": "a",
-        "explanation": "In Paragraph 1 and 3, Palmer states he wants to show that driving is possible without harming the environment and that the technical solutions already exist today."
+        "explanation": "Paragraphs 1 and 2 state that his car runs on solar energy ('fährt mit Sonnenenergie'). It has only two seats (even though his team has 7 people), and development took three years while the trip lasts 16 months."
       },
       {
         "number": 10,
@@ -283,11 +283,11 @@
         "title": "Für den Fernsehfilm „Die Schönheit von Bitterfeld“",
         "subtitle": "suchen wir für einige Nebenrollen Laienschauspieler und Statisten.",
         "lines": [
-          "Drehzeit: 19.03. – 25.03., Gage: 80 Euro/Tag",
-          "Casting: Sa. 10.03., 10–20 Uhr im Hotel Lindner",
-          "Schriftliche Bewerbung mit Foto und Lebenslauf an: Rheinfilm, Hans-Driesch-Str. 27, 04179 Leipzig"
+          "Drehzeit: 19.03. – 25.03., Gage: 40 Euro/Tag",
+          "Casting: Mi. 10.02., 10–20 Uhr im Hotel Lindner",
+          "Schriftliche Bewerbung mit Foto und Tel.-Nr. an: RheinFilm/Büro, c/o Hotel Lindner, Hans-Driesch-Str. 27, 04179 Leipzig"
         ],
-        "text_en": "For the TV movie 'The Beauty of Bitterfeld' we are looking for amateur actors and extras for several supporting roles. Filming: March 19–25, Pay: 80 Euro/day. Casting: Sat March 10, 10 AM–8 PM at Hotel Lindner.",
+        "text_en": "For the TV movie 'The Beauty of Bitterfeld' we are looking for amateur actors and extras for several supporting roles. Filming: March 19–25, Pay: 40 Euro/day. Casting: Wed Feb 10, 10 AM–8 PM at Hotel Lindner.",
         "vocabulary": [
           {
             "de": "die Nebenrolle",
@@ -309,21 +309,21 @@
       },
       "c": {
         "title": "Messejobs",
-        "subtitle": "Wir suchen Aushilfen für die Automesse",
+        "subtitle": "Automobilmesse Leipzig",
         "lines": [
-          "05.04. – 13.04.",
-          "Mitarbeiter für Info-Stand, Service und Garderobe.",
-          "Gute Bezahlung!"
+          "Sie sind unkompliziert, hochmotiviert, zwischen 20 und 35 Jahre alt und möchten mind. 15 Std. pro Woche arbeiten?",
+          "Wir suchen für die Automobilmesse 01.04.–13.04. noch Mitarbeiterinnen und Mitarbeiter mit Abitur, PC- sowie guten Fremdsprachenkenntnissen.",
+          "Automobilmesse Leipzig, Personalmanagement, Löhrstr. 3–7, 04105 Leipzig"
         ],
-        "text_en": "Trade fair jobs: We are looking for temporary staff for the car show from April 5 to April 13. Staff for info booth, service, and coat check. Good pay!",
+        "text_en": "Trade fair jobs: Are you uncomplicated, highly motivated, between 20 and 35 years old, and want to work at least 15 hours per week? For the Leipzig Auto Show (April 1–13) we are looking for staff with a high school diploma, PC skills, and good foreign language skills.",
         "vocabulary": [
           {
-            "de": "die Aushilfe",
-            "en": "temporary help"
+            "de": "hochmotiviert",
+            "en": "highly motivated"
           },
           {
-            "de": "die Automesse",
-            "en": "car show / trade fair"
+            "de": "die Automobilmesse",
+            "en": "auto show / trade fair"
           }
         ]
       },
@@ -558,7 +558,7 @@
         "situation": "Sie möchten gern bei einem Film mitspielen und etwas Geld verdienen.",
         "situation_en": "You would like to act in a movie and earn some money.",
         "correct_answer": "b",
-        "explanation": "Advertisement 'b' seeks amateur actors and extras for a TV movie and pays 80 Euros per day."
+        "explanation": "Advertisement 'b' seeks amateur actors and extras for a TV movie and pays 40 Euros per day."
       },
       {
         "number": 17,
@@ -614,17 +614,17 @@
       {
         "number": 21,
         "options": {
-          "a": "daran",
-          "b": "darüber",
+          "a": "dafür",
+          "b": "damit",
           "c": "davon"
         },
         "options_en": {
-          "a": "about it (daran)",
-          "b": "about it (darüber)",
+          "a": "for it (dafür)",
+          "b": "with it (damit)",
           "c": "about it / of it (davon)"
         },
         "correct_answer": "c",
-        "explanation": "According to the official answer key, 'davon' (von dem neuen Job erzählen) is used here."
+        "explanation": "'von etwas erzählen' (to tell about something) forms the pronominal adverb 'davon' ('von dem neuen Job erzählen')."
       },
       {
         "number": 22,
@@ -800,8 +800,8 @@
       "o": "where"
     },
     "passage": {
-      "text": "Ihre Anzeige in der Frankfurter Rundschau\n\nSehr geehrte Frau Hermann,\nich habe Ihre Anzeige in der Frankfurter Rundschau vom 5. Oktober gelesen und interessiere mich sehr für die 3-Zimmer-Wohnung.\nZurzeit wohne ich noch in Krakau (Polen). Demnächst ___31___ ich aber aus beruflichen Gründen mit meinem Sohn (3 Jahre) ___32___ Frankfurt umziehen. Deshalb suche ich zum 1. November eine Wohnung, ___33___ nicht weit vom Stadtzentrum entfernt ist. Ihre Wohnung ___34___ also genau richtig für uns.\nIch hätte jedoch noch einige Fragen zu Ihrer Anzeige: Ist die Wohnung auch für Kleinkinder ___35___? Und gibt es in der näheren Umgebung einen Spielplatz, ___36___ mein Sohn spielen könnte? Außerdem würde ich ___37___ wissen, ob die Haltung von Haustieren in ___38___ Wohnung erlaubt ist.\nEs wäre sehr nett, ___39___ Sie mir bald antworten könnten, weil ich ___40___ nächste Woche nach Frankfurt komme, um mir einige Wohnungen anzusehen.\n\nMit freundlichen Grüßen\nMaria Kowalska",
-      "text_en": "Your advertisement in the Frankfurter Rundschau\n\nDear Ms. Hermann,\nI read your advertisement in the Frankfurter Rundschau from October 5th and am very interested in the 3-room apartment.\nCurrently I still live in Krakow (Poland). Soon, however, I have to move to Frankfurt for professional reasons with my son (3 years old). Therefore, I am looking for an apartment for November 1st that is not far from the city center. Your apartment would therefore be just right for us.\nHowever, I still have a few questions about your ad: Is the apartment also suitable for small children? And is there a playground in the immediate vicinity where my son could play? In addition, I would like to know whether keeping pets is allowed in the apartment.\nIt would be very nice if you could reply to me soon, because I am coming to Frankfurt already next week to view some apartments.\n\nSincerely,\nMaria Kowalska",
+      "text": "Ihre Anzeige in der Frankfurter Rundschau\n\nSehr geehrte Frau Hermann,\n\nich habe Ihre Anzeige in der Frankfurter Rundschau vom 5. Oktober gelesen und interessiere mich sehr für die 3-Zimmer-Wohnung.\n\nZurzeit wohne ich noch in Krakau (Polen). Demnächst ___31___ ich aber aus beruflichen Gründen mit meinem Sohn (3 Jahre) ___32___ Frankfurt umziehen. Deshalb suche ich zum 1. November eine Wohnung, ___33___ möglichst zentral gelegen sein sollte. Ihre Wohnung ___34___ deshalb genau richtig für uns.\nIch hätte jedoch noch einige Fragen zu Ihrer Anzeige: Ist die Wohnung auch für Kleinkinder ___35___? Und gibt es in der näheren Umgebung einen Spielplatz, ___36___ mein Sohn spielen könnte?\nAußerdem würde ich ___37___ wissen, ob die Haltung von Haustieren in ___38___ Wohnung erlaubt ist. ___39___ es möglich ist, würden wir nämlich gerne unseren Hund mitbringen.\n\nIch danke Ihnen ___40___ jetzt für Ihre Antwort und grüße Sie freundlich.\n\nKASIA KLOC",
+      "text_en": "Your advertisement in the Frankfurter Rundschau\n\nDear Ms. Hermann,\n\nI read your advertisement in the Frankfurter Rundschau from October 5th and am very interested in the 3-room apartment.\n\nCurrently I still live in Krakow (Poland). Soon, however, I have to move to Frankfurt for professional reasons with my son (3 years old). Therefore, I am looking for an apartment for November 1st, which should be located as centrally as possible. Your apartment would therefore be just right for us.\nHowever, I still have a few questions about your ad: Is the apartment also suitable for small children? And is there a playground in the immediate vicinity where my son could play?\nIn addition, I would like to know whether keeping pets is allowed in the apartment. If it is possible, we would like to bring our dog along.\n\nI thank you in advance for your reply and send you kind regards.\n\nKASIA KLOC",
       "vocabulary": [
         {
           "de": "demnächst",
@@ -836,7 +836,7 @@
       {
         "number": 34,
         "correct_answer": "m",
-        "explanation": "'wäre' (would be) expresses politeness/hypothetical suitability: 'Ihre Wohnung wäre also genau richtig für uns.'"
+        "explanation": "'wäre' (would be) expresses politeness/hypothetical suitability: 'Ihre Wohnung wäre deshalb genau richtig für uns.'"
       },
       {
         "number": 35,
@@ -861,12 +861,12 @@
       {
         "number": 39,
         "correct_answer": "n",
-        "explanation": "'Es wäre sehr nett, wenn...' (It would be very nice if...) requires the conditional conjunction 'wenn'."
+        "explanation": "'Wenn es möglich ist...' (If it is possible...) requires the conditional conjunction 'wenn'."
       },
       {
         "number": 40,
         "correct_answer": "k",
-        "explanation": "'schon nächste Woche' (already next week) explains the urgency of needing a quick reply."
+        "explanation": "'Ich danke Ihnen schon jetzt für Ihre Antwort' (I thank you already now / in advance for your reply) is a standard polite closing formula."
       }
     ]
   },
@@ -875,8 +875,8 @@
     "transcripts": [
       {
         "number": 41,
-        "text": "Achtung, Achtung! Der nächste Zug nach Füssen fährt um 11:30 Uhr vom Gleis 7R ab. Bitte begeben Sie sich rechtzeitig zum Bahnsteig. Reisende mit Fahrrädern benutzen bitte den hinteren Einstieg. Wir wünschen Ihnen eine angenehme Fahrt und bedanken uns für Ihre Aufmerksamkeit.",
-        "text_en": "Attention, attention! The next train to Füssen departs at 11:30 AM from platform 7R. Please proceed to the platform in time. Passengers with bicycles please use the rear entrance. We wish you a pleasant journey and thank you for your attention.",
+        "text": "Sie befinden sich am Bahnhof und hören gerade eine Durchsage zum Zug nach Füssen. Achtung, Achtung! Der nächste Zug nach Füssen fährt um 11:30 Uhr vom Gleis 7R ab. Bitte begeben Sie sich rechtzeitig zum Bahnsteig. Reisende mit Fahrrädern benutzen bitte den hinteren Einstieg. Wir wünschen Ihnen eine angenehme Fahrt und bedanken uns für Ihre Aufmerksamkeit.",
+        "text_en": "You are at the train station and are currently hearing an announcement about the train to Füssen. Attention, attention! The next train to Füssen departs at 11:30 AM from platform 7R. Please proceed to the platform in time. Passengers with bicycles please use the rear entrance. We wish you a pleasant journey and thank you for your attention.",
         "vocabulary": [
           {
             "de": "sich begeben",
@@ -894,8 +894,8 @@
       },
       {
         "number": 42,
-        "text": "Vorsicht, bitte beachten Sie: Die Firma hat ihren Sitz nicht in der Bellmondstraße, sondern in der Rosenallee 12. Alle Lieferungen und Besucher werden gebeten, direkt zur neuen Adresse zu kommen. Vielen Dank für Ihr Verständnis und Ihre Kooperation.",
-        "text_en": "Attention, please note: The company is not located on Bellmondstraße, but at Rosenallee 12. All deliveries and visitors are asked to come directly to the new address. Thank you for your understanding and cooperation.",
+        "text": "Sie sind in der Stadt unterwegs und hören jetzt eine wichtige Durchsage zur Firmenadresse. Vorsicht, bitte beachten Sie: Die Firma hat ihren Sitz nicht in der Bellmondstraße, sondern in der Rosenallee 12. Alle Lieferungen und Besucher werden gebeten, direkt zur neuen Adresse zu kommen. Vielen Dank für Ihr Verständnis und Ihre Kooperation.",
+        "text_en": "You are out and about in the city and now hear an important announcement regarding the company address. Attention, please note: The company is not located on Bellmondstraße, but at Rosenallee 12. All deliveries and visitors are asked to come directly to the new address. Thank you for your understanding and cooperation.",
         "vocabulary": [
           {
             "de": "der Sitz",
@@ -909,8 +909,8 @@
       },
       {
         "number": 43,
-        "text": "Willkommen im City-Kino! Alte Filme werden heute Abend im ersten Obergeschoss gezeigt. Der Vorführsaal im Untergeschoss ist momentan geschlossen. Bitte folgen Sie der Beschilderung im Eingangsbereich. Wir wünschen Ihnen gute Unterhaltung und einen schönen Filmabend.",
-        "text_en": "Welcome to the City Cinema! Old movies are being shown tonight on the first floor. The screening room in the basement is currently closed. Please follow the signs in the entrance area. We wish you good entertainment and a nice movie night.",
+        "text": "Sie stehen im Eingangsbereich des Kinos und hören eine Information zu den Filmvorführungen. Willkommen im City-Kino! Alte Filme werden heute Abend im ersten Obergeschoss gezeigt. Der Vorführsaal im Untergeschoss ist momentan geschlossen. Bitte folgen Sie der Beschilderung im Eingangsbereich. Wir wünschen Ihnen gute Unterhaltung und einen schönen Filmabend.",
+        "text_en": "You are standing in the entrance area of the cinema and hear information about the film screenings. Welcome to the City Cinema! Old movies are being shown tonight on the first floor. The screening room in the basement is currently closed. Please follow the signs in the entrance area. We wish you good entertainment and a nice movie night.",
         "vocabulary": [
           {
             "de": "das Obergeschoss",
@@ -928,8 +928,8 @@
       },
       {
         "number": 44,
-        "text": "Sehr geehrte Fahrgäste, bitte beachten Sie: Es werden keine Käseprodukte im Zug verteilt. Südtiroler Spezialitäten sind im Bordbistro erhältlich. Unser Zugteam steht Ihnen dort gerne zur Verfügung. Vielen Dank für Ihr Verständnis.",
-        "text_en": "Dear passengers, please note: No cheese products are distributed on the train. South Tyrolean specialties are available in the on-board bistro. Our train team will be happy to assist you there. Thank you for your understanding.",
+        "text": "Sie befinden sich im Zug und hören eine Durchsage zum gastronomischen Angebot an Bord. Sehr geehrte Fahrgäste, bitte beachten Sie: Es werden keine Käseprodukte im Zug verteilt. Südtiroler Spezialitäten sind im Bordbistro erhältlich. Unser Zugteam steht Ihnen dort gerne zur Verfügung. Vielen Dank für Ihr Verständnis.",
+        "text_en": "You are on the train and hear an announcement about the on-board catering offer. Dear passengers, please note: No cheese products are distributed on the train. South Tyrolean specialties are available in the on-board bistro. Our train team will be happy to assist you there. Thank you for your understanding.",
         "vocabulary": [
           {
             "de": "verteilen",
@@ -943,8 +943,8 @@
       },
       {
         "number": 45,
-        "text": "Hallo Hans, ich wollte dir nur kurz Bescheid geben: Oma hat gerade angerufen und gesagt, dass sie heute doch nicht kommen kann. Es ist wohl etwas Wichtiges dazwischengekommen. Sie klang ein bisschen enttäuscht. Ich habe morgen um 13:30 Uhr einen Arzttermin, den ich nicht verschieben kann, also schaffe ich es nicht, sie abzuholen. Kannst du bitte morgen um 14 Uhr zum Flughafen fahren und sie dort abholen? Das wäre echt super nett von dir. Danke dir und bis später!",
-        "text_en": "Hello Hans, I just wanted to let you know briefly: Grandma just called and said that she can't come today after all. Something important seems to have come up. She sounded a bit disappointed. I have a doctor's appointment tomorrow at 1:30 PM that I cannot postpone, so I won't manage to pick her up. Can you please drive to the airport tomorrow at 2 PM and pick her up there? That would be really super nice of you. Thanks and see you later!",
+        "text": "Sie hören gerade eine telefonische Mitteilung, die als automatische Sprachnachricht abgespielt wird. Hallo Hans, ich wollte dir nur kurz Bescheid geben: Oma hat gerade angerufen und gesagt, dass sie heute doch nicht kommen kann. Es ist wohl etwas Wichtiges dazwischengekommen. Sie klang ein bisschen enttäuscht. Ich habe morgen um 13:30 Uhr einen Arzttermin, den ich nicht verschieben kann, also schaffe ich es nicht, sie abzuholen. Kannst du bitte morgen um 14 Uhr zum Flughafen fahren und sie dort abholen? Das wäre echt super nett von dir. Danke dir und bis später!",
+        "text_en": "You are currently listening to a telephone message played as an automated voice message. Hello Hans, I just wanted to let you know briefly: Grandma just called and said that she can't come today after all. Something important seems to have come up. She sounded a bit disappointed. I have a doctor's appointment tomorrow at 1:30 PM that I cannot postpone, so I won't manage to pick her up. Can you please drive to the airport tomorrow at 2 PM and pick her up there? That would be really super nice of you. Thanks and see you later!",
         "vocabulary": [
           {
             "de": "Bescheid geben",
@@ -1105,8 +1105,8 @@
     "transcripts": [
       {
         "number": 56,
-        "text": "Willkommen im Bordrestaurant! Heute servieren wir Ihnen regionale Spezialitäten aus der Steiermark. Unsere Köche bereiten täglich frische Gerichte wie steirischen Wursteintopf und Kürbissuppe zu. Auch unser Apfelstrudel stammt aus der Region. Wir wünschen Ihnen guten Appetit und eine angenehme Weiterreise mit uns.",
-        "text_en": "Welcome to the on-board restaurant! Today we are serving you regional specialties from Styria. Our chefs prepare fresh dishes daily such as Styrian sausage stew and pumpkin soup. Our apple strudel also comes from the region. We wish you bon appétit and a pleasant onward journey with us.",
+        "text": "Sie hören eine Durchsage aus dem Bordrestaurant über regionale Spezialitäten während der Zugfahrt. Willkommen im Bordrestaurant! Heute servieren wir Ihnen regionale Spezialitäten aus der Steiermark. Unsere Köche bereiten täglich frische Gerichte wie steirischen Wursteintopf und Kürbissuppe zu. Auch unser Apfelstrudel stammt aus der Region. Wir wünschen Ihnen guten Appetit und eine angenehme Weiterreise mit uns.",
+        "text_en": "You hear an announcement from the on-board restaurant about regional specialties during the train ride. Welcome to the on-board restaurant! Today we are serving you regional specialties from Styria. Our chefs prepare fresh dishes daily such as Styrian sausage stew and pumpkin soup. Our apple strudel also comes from the region. We wish you bon appétit and a pleasant onward journey with us.",
         "vocabulary": [
           {
             "de": "das Bordrestaurant",
@@ -1124,8 +1124,8 @@
       },
       {
         "number": 57,
-        "text": "In unserer Küchenausstellung gibt es noch bis Ende Oktober tolle Rabatte. Moderne Einbauküchen erhalten Sie bereits ab 3.000 Euro. Unsere Berater stehen Ihnen gerne zur Verfügung. Kommen Sie vorbei und gestalten Sie Ihre Traumküche individuell. Das Angebot gilt nur für kurze Zeit.",
-        "text_en": "In our kitchen showroom there are great discounts until the end of October. You can get modern fitted kitchens starting from 3,000 Euros. Our consultants are happy to assist you. Come by and design your dream kitchen individually. The offer is valid for a short time only.",
+        "text": "Sie hören eine Durchsage aus einem Küchenstudio über aktuelle Sonderangebote für moderne Einbauküchen. In unserer Küchenausstellung gibt es noch bis Ende Oktober tolle Rabatte. Moderne Einbauküchen erhalten Sie bereits ab 3.000 Euro. Unsere Berater stehen Ihnen gerne zur Verfügung. Kommen Sie vorbei und gestalten Sie Ihre Traumküche individuell. Das Angebot gilt nur für kurze Zeit.",
+        "text_en": "You hear an announcement from a kitchen studio about current special offers for modern fitted kitchens. In our kitchen showroom there are great discounts until the end of October. You can get modern fitted kitchens starting from 3,000 Euros. Our consultants are happy to assist you. Come by and design your dream kitchen individually. The offer is valid for a short time only.",
         "vocabulary": [
           {
             "de": "die Küchenausstellung",
@@ -1143,8 +1143,8 @@
       },
       {
         "number": 58,
-        "text": "Wenn Sie zum Rathaus möchten, nehmen Sie bitte den Weg durch den Martinipark. Der Park ist gut beleuchtet und bietet einen direkten Zugang zum Haupteingang. Besonders bei schönem Wetter ist der Spaziergang durch die Grünanlage sehr angenehm. Folgen Sie einfach der Beschilderung im Stadtzentrum.",
-        "text_en": "If you would like to go to the town hall, please take the path through Martinipark. The park is well lit and offers direct access to the main entrance. Especially in nice weather, the walk through the green area is very pleasant. Simply follow the signs in the city center.",
+        "text": "Sie hören eine Durchsage aus dem Stadtzentrum über den Weg durch den Martinipark zum Rathaus. Wenn Sie zum Rathaus möchten, nehmen Sie bitte den Weg durch den Martinipark. Der Park ist gut beleuchtet und bietet einen direkten Zugang zum Haupteingang. Besonders bei schönem Wetter ist der Spaziergang durch die Grünanlage sehr angenehm. Folgen Sie einfach der Beschilderung im Stadtzentrum.",
+        "text_en": "You hear an announcement from the city center about the path through Martinipark to the town hall. If you would like to go to the town hall, please take the path through Martinipark. The park is well lit and offers direct access to the main entrance. Especially in nice weather, the walk through the green area is very pleasant. Simply follow the signs in the city center.",
         "vocabulary": [
           {
             "de": "beleuchtet",
@@ -1162,8 +1162,8 @@
       },
       {
         "number": 59,
-        "text": "Bitte beachten Sie: Am Nachmittag fährt heute kein Flughafenbus. Reisende werden gebeten, auf die S-Bahn oder ein Taxi auszuweichen. Die nächste direkte Verbindung mit dem Bus ist erst wieder am frühen Abend verfügbar. Wir danken für Ihr Verständnis und wünschen eine gute Fahrt.",
-        "text_en": "Please note: No airport bus is running this afternoon. Travelers are asked to switch to the S-Bahn or a taxi. The next direct bus connection will not be available until early evening. We thank you for your understanding and wish you a good journey.",
+        "text": "Sie hören eine Durchsage von der Bushaltestelle über die Verbindung zum Flughafen. Bitte beachten Sie: Am Nachmittag fährt heute kein Flughafenbus. Reisende werden gebeten, auf die S-Bahn oder ein Taxi auszuweichen. Die nächste direkte Verbindung mit dem Bus ist erst wieder am frühen Abend verfügbar. Wir danken für Ihr Verständnis und wünschen eine gute Fahrt.",
+        "text_en": "You hear an announcement at the bus stop about the connection to the airport. Please note: No airport bus is running this afternoon. Travelers are asked to switch to the S-Bahn or a taxi. The next direct bus connection will not be available until early evening. We thank you for your understanding and wish you a good journey.",
         "vocabulary": [
           {
             "de": "ausweichen auf",
@@ -1177,8 +1177,8 @@
       },
       {
         "number": 60,
-        "text": "Die Praxis von Dr. Haar ist diese Woche nur eingeschränkt erreichbar. Die Vertretung ist Montag und Mittwoch von 9 bis 12 Uhr geöffnet. An den anderen Tagen bitten wir Sie, sich an die Notfallpraxis zu wenden. Weitere Informationen finden Sie auf der Webseite oder am Aushang der Praxis.",
-        "text_en": "Dr. Haar's practice has limited availability this week. The substitute practice is open Monday and Wednesday from 9 AM to 12 PM. On the other days, we ask you to contact the emergency practice. Further information can be found on the website or on the notice board at the practice.",
+        "text": "Sie hören eine telefonische Nachricht über die Erreichbarkeit der Vertretungspraxis. Die Praxis von Dr. Haar ist diese Woche nur eingeschränkt erreichbar. Die Vertretung ist Montag und Mittwoch von 9 bis 12 Uhr geöffnet. An den anderen Tagen bitten wir Sie, sich an die Notfallpraxis zu wenden. Weitere Informationen finden Sie auf der Webseite oder am Aushang der Praxis.",
+        "text_en": "You hear a telephone message about the availability of the substitute practice. Dr. Haar's practice has limited availability this week. The substitute practice is open Monday and Wednesday from 9 AM to 12 PM. On the other days, we ask you to contact the emergency practice. Further information can be found on the website or on the notice board at the practice.",
         "vocabulary": [
           {
             "de": "eingeschränkt",
