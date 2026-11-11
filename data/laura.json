@@ -1,473 +1,1258 @@
 {
-  "title": "Laura",
+  "title": "LAURA",
   "leseverstehen_teil_1": {
     "headings": {
-      "a": "Abwechslung beim Pausenbrot",
-      "b": "Ampel für gesundes Essen",
-      "c": "Besser kochen für Kinder",
-      "d": "Bessere Ernährung durch Information auf Lebensmitteln",
-      "e": "Fast Food ist beliebter als gesundes Essen",
-      "f": "Gesunde Ernährung schon im Kindergarten",
-      "g": "Immer mehr übergewichtige Kinder in Deutschland",
-      "h": "Kinder essen zu viel Süßes",
-      "i": "Neues Schulfach: Gesunde Ernährung",
-      "j": "Was Kinder am liebsten essen"
+      "a": "Ampel auf Rot: Motor abstellen",
+      "b": "Autofahrer telefoniert bei mehr als 180 km/h",
+      "c": "Bahn mit Butterbroten angehalten",
+      "d": "Frankfurter lieben Hamburger mit Marmelade",
+      "e": "Gefährlicher Physik-Test: Marmelade auf den Gleisen",
+      "f": "Handys an der Ampel in bestimmten Fällen erlaubt",
+      "g": "Kurs: Marmeladen selbst kochen",
+      "h": "Luxus-Hamburger in Englands Hauptstadt",
+      "i": "Niemand will den teuersten Hamburger der Welt",
+      "j": "Strafe für Filmeschauen beim Autofahren"
     },
     "headings_en": {
-      "a": "Variety in school lunch sandwiches",
-      "b": "Traffic light system for healthy food",
-      "c": "Better cooking for children",
-      "d": "Better nutrition through information on food packaging",
-      "e": "Fast food is more popular than healthy food",
-      "f": "Healthy nutrition starting in kindergarten",
-      "g": "More and more overweight children in Germany",
-      "h": "Children eat too many sweets",
-      "i": "New school subject: Healthy nutrition",
-      "j": "What children like to eat most"
+      "a": "Traffic light on red: Turn off the engine",
+      "b": "Driver talks on the phone at more than 180 km/h",
+      "c": "Train stopped with sandwiches",
+      "d": "Frankfurt residents love hamburgers with jam",
+      "e": "Dangerous physics test: Jam on the tracks",
+      "f": "Mobile phones at traffic lights permitted in certain cases",
+      "g": "Course: Making your own jam",
+      "h": "Luxury hamburger in England's capital",
+      "i": "Nobody wants the most expensive hamburger in the world",
+      "j": "Fine for watching movies while driving"
     },
     "passages": [
       {
         "number": 1,
-        "text": "Wenn Kinder selbst entscheiden dürfen, was auf den Tisch kommt, dann wählen sie meistens Pommes frites, Spaghetti, Pizza oder Hamburger. Gemüse und Salat sind dagegen bei den Kleinen meist wenig beliebt. Ernährungsexperten raten Eltern jedoch, Kinder nicht zum Essen zu zwingen, sondern ihnen gesundes Essen schmackhaft zu machen – zum Beispiel, indem die Kinder beim Kochen mithelfen dürfen.",
-        "text_en": "When children are allowed to decide for themselves what goes on the table, they usually choose French fries, spaghetti, pizza, or hamburgers. Vegetables and salad, on the other hand, are usually not very popular with little ones. However, nutrition experts advise parents not to force children to eat, but rather to make healthy food appealing to them—for example, by letting children help with the cooking.",
-        "correct_answer": "j",
-        "explanation": "Der Text beschreibt die Lieblingsspeisen von Kindern (Pommes, Spaghetti, Pizza, Hamburger) im Vergleich zu unbeliebtem Gemüse.",
+        "text": "London. Der wohl teuerste Hamburger der Welt wird seit gestern in London verkauft. Der Hamburger besteht aus japanischem Kobe-Rindfleisch, weißen Trüffeln sowie iranischem Safran und kostet umgerechnet 120 Euro. Das übertrifft den bisherigen Weltrekordhalter in New York: Dort bot ein Bistro ein edles Fleischbrötchen für rund 80 Euro an. „The Burger“ ist nur in einer Londoner Filiale zu haben. Bereits am Morgen wurde ein Dutzend der Hamburger verkauft.",
+        "text_en": "London. Probably the most expensive hamburger in the world has been on sale in London since yesterday. The hamburger consists of Japanese Kobe beef, white truffles, and Iranian saffron and costs the equivalent of 120 euros. This surpasses the previous world record holder in New York: There, a bistro offered a noble meat bun for around 80 euros. 'The Burger' is only available in one London branch. A dozen of the hamburgers were already sold in the morning.",
+        "correct_answer": "h",
+        "explanation": "Der Text berichtet über den wohl teuersten Hamburger der Welt (120 Euro, mit Kobe-Rindfleisch, Trüffeln und Safran), der in London (Englands Hauptstadt) verkauft wird. Das passt genau zu Überschrift h („Luxus-Hamburger in Englands Hauptstadt“). Überschrift i ist falsch, da bereits am Morgen ein Dutzend verkauft wurde.",
         "vocabulary": [
-          { "de": "entscheiden", "en": "to decide" },
-          { "de": "zwingen", "en": "to force" },
-          { "de": "schmackhaft machen", "en": "to make appetizing/appealing" }
+          {
+            "de": "übertreffen",
+            "en": "to surpass / exceed"
+          },
+          {
+            "de": "bisherig",
+            "en": "previous / so far"
+          },
+          {
+            "de": "die Filiale",
+            "en": "the branch (store)"
+          },
+          {
+            "de": "das Dutzend",
+            "en": "the dozen (12)"
+          }
         ]
       },
       {
         "number": 2,
-        "text": "Viele Verbraucher wünschen sich auf Lebensmittelverpackungen einfache Hinweise darauf, wie gesund ein Produkt ist. Verbraucherschützer schlagen deshalb eine Kennzeichnung in den Farben Rot, Gelb und Grün vor. Auf einen Blick könnte man dann erkennen, ob ein Produkt viel oder wenig Fett, Zucker und Salz enthält: Rot steht für einen hohen Gehalt, Gelb für einen mittleren und Grün für einen niedrigen.",
-        "text_en": "Many consumers want simple indicators on food packaging showing how healthy a product is. Consumer advocates therefore propose labeling in the colors red, yellow, and green. At a glance, one could see whether a product contains a lot or a little fat, sugar, and salt: red stands for high content, yellow for medium, and green for low.",
-        "correct_answer": "b",
-        "explanation": "Die Kennzeichnung mit den Farben Rot, Gelb und Grün entspricht dem Prinzip einer Ampel für gesundes Essen.",
+        "text": "Bielefeld. Die Benutzung eines Handys bei ausgeschaltetem Motor wird nicht mit einem Bußgeld bestraft. Das geht aus einem Urteil des Landgerichts Bielefeld hervor. Ein Autofahrer hatte an einer roten Ampel den Motor abgestellt und mit seinem Handy telefoniert, ohne die Freisprechanlage einzuschalten. Bevor die Ampel auf Grün schaltete, beendete er das Gespräch. Trotzdem wurde der Autofahrer von einem Polizisten angehalten und bekam eine Strafe von 40 Euro. Zu Unrecht, wie das Gericht jetzt urteilte.",
+        "text_en": "Bielefeld. Using a mobile phone with the engine switched off is not punished with a fine. This emerges from a ruling by the Bielefeld Regional Court. A driver had turned off the engine at a red traffic light and talked on his mobile phone without switching on the hands-free system. Before the light turned green, he ended the call. Nevertheless, the driver was stopped by a police officer and received a fine of 40 euros. Unjustly, as the court now ruled.",
+        "correct_answer": "f",
+        "explanation": "Laut dem Urteil des Landgerichts Bielefeld darf man an einer roten Ampel mit dem Handy telefonieren, wenn der Motor ausgeschaltet ist. Somit sind Handys an der Ampel in bestimmten Fällen erlaubt (Überschrift f).",
         "vocabulary": [
-          { "de": "der Verbraucher", "en": "consumer" },
-          { "de": "die Kennzeichnung", "en": "labeling / marking" },
-          { "de": "auf einen Blick", "en": "at a glance" }
+          {
+            "de": "das Bußgeld",
+            "en": "the fine"
+          },
+          {
+            "de": "das Urteil",
+            "en": "the judgment / ruling"
+          },
+          {
+            "de": "den Motor abstellen",
+            "en": "to turn off the engine"
+          },
+          {
+            "de": "die Freisprechanlage",
+            "en": "the hands-free system"
+          }
         ]
       },
       {
         "number": 3,
-        "text": "Jeden Morgen stehen Eltern vor derselben Frage: Was gebe ich meinem Kind heute mit in die Schule? Meistens landet dann wieder das klassische Käse- oder Wurstbrot in der Dose. Dabei lässt sich das Frühstück ganz leicht interessanter gestalten: Vollkornbrot mit Frischkäse, dazu klein geschnittene Gurken, Paprika, Cocktailtomaten oder Obststücke sorgen für Farbe und frischen Geschmack in der großen Pause.",
-        "text_en": "Every morning parents face the same question: What should I pack for my child for school today? Usually the classic cheese or sausage sandwich ends up in the lunchbox again. Yet breakfast can easily be made more interesting: whole-grain bread with cream cheese, plus sliced cucumber, bell pepper, cherry tomatoes, or pieces of fruit provide color and fresh taste during recess.",
-        "correct_answer": "a",
-        "explanation": "Der Text gibt Tipps, wie Eltern das tägliche Schulbrot (Pausenbrot) abwechslungsreicher gestalten können.",
+        "text": "Wuppertal. Drei Jungen haben mit einem Physik-Test der besonderen Art den Bahnverkehr stark gestört. Die Schüler im Alter von zehn und elf Jahren hatten ihre Butterbrote und Getränkekartons auf die Gleise der S-Bahnstrecke Wuppertal-Essen gelegt. „Sie wollten beobachten, was passiert“, sagte die Polizei gestern in Düsseldorf. Der Bahnverkehr wurde gestoppt und das Trio von den Gleisen geholt. Die Polizei erklärte den Jungs, wie gefährlich ihre Aktion war. Mehrere Züge verspäteten sich.",
+        "text_en": "Wuppertal. Three boys severely disrupted rail traffic with a special kind of physics test. The students, aged ten and eleven, had placed their sandwiches and beverage cartons on the tracks of the Wuppertal-Essen S-Bahn line. 'They wanted to see what happens,' police said yesterday in Düsseldorf. Rail traffic was stopped and the trio was taken off the tracks. The police explained to the boys how dangerous their action was. Several trains were delayed.",
+        "correct_answer": "c",
+        "explanation": "Drei Jungen legten ihre Butterbrote und Getränkekartons auf die S-Bahngleise, woraufhin der Bahnverkehr gestoppt wurde. Das entspricht Überschrift c („Bahn mit Butterbroten angehalten“). Überschrift e ist falsch, weil es um Butterbrote und nicht um Marmelade ging.",
         "vocabulary": [
-          { "de": "das Pausenbrot", "en": "school snack / sandwich" },
-          { "de": "die Abwechslung", "en": "variety" },
-          { "de": "das Vollkornbrot", "en": "whole-grain bread" }
+          {
+            "de": "das Gleis",
+            "en": "the track / rail"
+          },
+          {
+            "de": "beobachten",
+            "en": "to observe / watch"
+          },
+          {
+            "de": "sich verspäten",
+            "en": "to be delayed"
+          }
         ]
       },
       {
         "number": 4,
-        "text": "Immer mehr Kinder und Jugendliche in Deutschland bringen zu viele Kilos auf die Waage. Nach einer aktuellen Studie ist bereits jedes sechste Kind zu dick. Als Hauptgründe nennen Mediziner falsche Ernährung mit zu viel Fast Food und zuckerhaltigen Getränken sowie mangelnde Bewegung, weil Kinder ihre Freizeit immer häufiger vor dem Fernseher oder dem Computer verbringen.",
-        "text_en": "More and more children and teenagers in Germany weigh too much. According to a recent study, one in six children is already overweight. Doctors cite poor nutrition with too much fast food and sugary drinks as well as lack of exercise as the main reasons, because children increasingly spend their free time in front of the TV or computer.",
-        "correct_answer": "g",
-        "explanation": "Der Text berichtet über die steigende Zahl übergewichtiger Kinder in Deutschland und deren Ursachen.",
+        "text": "Paris. In Frankreich hat ein junger Mann bei Tempo 200 auf einer Autobahn am Steuer Filme auf DVD angeschaut. „Ich habe nicht gewusst, dass das verboten ist“, sagte der 21-jährige Pascal A. vor Gericht in Tours. Das Gericht nahm ihm nicht nur den Führerschein weg, sondern beschlagnahmte auch das Auto. Außerdem bekam er eine Geldstrafe von 150 Euro. Die Polizei hatte den Fahranfänger auf der Autobahn angehalten, nachdem er vorher mit über 200 Stundenkilometern viel zu schnell unterwegs gewesen war. Erlaubt war nur Tempo 110.",
+        "text_en": "Paris. In France, a young man watched movies on DVD behind the wheel at a speed of 200 km/h on a highway. 'I didn't know that was forbidden,' said 21-year-old Pascal A. in court in Tours. The court not only took away his driver's license, but also confiscated the car. In addition, he received a fine of 150 euros. The police had stopped the novice driver on the highway after he had been driving way too fast at over 200 kilometers per hour. Only a speed of 110 was allowed.",
+        "correct_answer": "j",
+        "explanation": "Ein junger Autofahrer hat bei Tempo 200 am Steuer Filme auf DVD angeschaut und wurde dafür vom Gericht bestraft (Führerschein weg, Auto beschlagnahmt, 150 Euro Geldstrafe). Das passt zu Überschrift j („Strafe für Filmeschauen beim Autofahren“).",
         "vocabulary": [
-          { "de": "übergewichtig", "en": "overweight" },
-          { "de": "auf die Waage bringen", "en": "to weigh" },
-          { "de": "mangelnde Bewegung", "en": "lack of exercise" }
+          {
+            "de": "am Steuer",
+            "en": "at the wheel / while driving"
+          },
+          {
+            "de": "beschlagnahmen",
+            "en": "to confiscate / seize"
+          },
+          {
+            "de": "die Geldstrafe",
+            "en": "the fine / monetary penalty"
+          },
+          {
+            "de": "der Fahranfänger",
+            "en": "the novice driver"
+          }
         ]
       },
       {
         "number": 5,
-        "text": "Gesundheitsminister und Pädagogen fordern, dass Kinder schon früh in der Schule lernen, wie man sich richtig ernährt und selbst frische Mahlzeiten zubereitet. In einem eigenen Unterrichtsfach sollen Schülerinnen und Schüler künftig alles über Lebensmittel, Vitamine und gesunde Küche erfahren, damit sie später im Alltag bewusster einkaufen und essen.",
-        "text_en": "Health ministers and educators are demanding that children learn early on in school how to eat properly and prepare fresh meals themselves. In a dedicated school subject, students should learn everything about groceries, vitamins, and healthy cooking in the future so that they shop and eat more consciously in everyday life.",
-        "correct_answer": "i",
-        "explanation": "Es wird gefordert, gesunde Ernährung als eigenes Schulfach einzuführen.",
+        "text": "Frankfurt. Die gebürtige Hamburgerin Tanja Bauer beliefert das „Main Äppel Haus Lohrberg“ schon lange mit ihren Marmeladen-Variationen. Jetzt möchte sie ihr Wissen und ihre Leidenschaft teilen: Am Dienstag weiht sie Interessierte in ihre Tricks ein. Der Kurs dauert von 18 Uhr bis 20 Uhr und findet im „Main Äppel Haus“ in Frankfurt statt. Die Teilnahme kostet 15 Euro pro Person. Anmeldung ist erforderlich unter (06 109) 22 59 13.",
+        "text_en": "Frankfurt. Hamburg native Tanja Bauer has been supplying the 'Main Äppel Haus Lohrberg' with her jam variations for a long time. Now she wants to share her knowledge and passion: On Tuesday she will let interested people in on her tricks. The course lasts from 6 p.m. to 8 p.m. and takes place at the 'Main Äppel Haus' in Frankfurt. Participation costs 15 euros per person. Registration is required at (06 109) 22 59 13.",
+        "correct_answer": "g",
+        "explanation": "Tanja Bauer bietet in Frankfurt einen Kurs an, in dem Interessierte lernen, wie man Marmeladen selbst kocht. Das passt zu Überschrift g („Kurs: Marmeladen selbst kochen“).",
         "vocabulary": [
-          { "de": "fordern", "en": "to demand" },
-          { "de": "zubereiten", "en": "to prepare (food)" },
-          { "de": "das Unterrichtsfach", "en": "school subject" }
+          {
+            "de": "gebürtig",
+            "en": "native / by birth"
+          },
+          {
+            "de": "beliefern",
+            "en": "to supply"
+          },
+          {
+            "de": "die Leidenschaft",
+            "en": "the passion"
+          },
+          {
+            "de": "jemanden in etwas einweihen",
+            "en": "to let someone in on something / initiate"
+          }
         ]
       }
     ]
   },
   "leseverstehen_teil_2": {
     "passage": {
-      "headline": "Frisch vom Wochenmarkt oder aus dem Supermarkt?",
-      "subheadline": "Immer mehr Menschen achten beim Fleischeinkauf auf Qualität und Herkunft",
+      "headline": "Weltreise? Lieber ein Praktikum in Kuala Lumpur!",
+      "subheadline": "Umfrage unter Abiturienten: Welche Pläne gibt es für die Zeit nach der Schule? Jura-Studium sehr beliebt",
       "paragraphs": [
-        "Lange Zeit galt beim Lebensmitteleinkauf in Deutschland vor allem ein Prinzip: Möglichst billig muss es sein. Besonders beim Fleisch griffen viele Kunden im Supermarkt zu den günstigsten Sonderangeboten. Doch in den letzten Jahren hat bei vielen Verbrauchern ein Umdenken begonnen. Nach mehreren Lebensmittelskandalen wollen immer mehr Menschen genau wissen, woher ihr Essen kommt.",
-        "Davon profitieren vor allem die traditionellen Wochenmärkte und kleine Metzgereien. Zwar sind Fleisch und Wurst dort oft deutlich teurer als beim Discounter, doch die Kunden schätzen die persönliche Beratung und die hohe Qualität. Die Händler auf dem Markt kennen meist die Bauernhöfe aus der Region persönlich und können genau Auskunft darüber geben, wie die Tiere gehalten und gefüttert wurden.",
-        "Viele Kunden entscheiden sich heute bewusst dafür, lieber seltener Fleisch zu essen, dafür aber beim Einkauf mehr Geld für gute Bio-Qualität auszugeben. Denn wer einmal den Unterschied geschmeckt hat, verzichtet gern auf billige Massenware aus dem Supermarkt."
+        "„Nachdem ich das Abitur nun bestanden habe, fühle ich mich befreit. Jetzt gehe ich einen Monat nach San Francisco, um Freunde zu besuchen. Danach wartet ein Praktikum bei der Lufthansa in Kuala Lumpur auf mich, weil ich Luftverkehrsmanagement studieren möchte.“ Das sagt die 19-jährige Aynur Üstüner, die gerade erst ihr Abitur gemacht hat.",
+        "Nicht nur für Aynur, sondern auch für 85 weitere Schüler der Heinrich-Mann-Schule (HMS) und der Rudolf-Steiner-Schule (RSS) fängt nun das Berufs- oder Universitätsleben an. Alle können sehr stolz auf sich sein: Zweimal gab es sogar die Bestnote 1,0. Insgesamt lag der Durchschnitt bei 2,5 und war damit etwas besser als im Vorjahr. Durchgefallen ist keiner, nur ein Teilnehmer hat das Abitur abgebrochen. Für alle Grund genug, um den Erfolg richtig zu feiern.",
+        "Während die Steiner-Schüler eine ganz ruhige Feier machten, drehten die Abiturienten der Heinrich-Mann-Schule im Bürgerhaus so richtig auf und präsentierten dem Publikum eine filmreife, fantastische Show. Bilder von den beiden Partys zeigen wir ab heute in unserer Bilder-Galerie im Internet.",
+        "Nun haben also alle ihre Zeugnisse und endlich einmal richtig ausgeschlafen. Kein Wunder: In den letzten Wochen haben die Abiturienten nächtelang gelernt und gleichzeitig Abschied gefeiert – das war sehr anstrengend. Aber jetzt müssen wichtige Entscheidungen getroffen werden: Eine Ausbildung machen? Studieren? Oder vielleicht doch lieber eine Weltreise unternehmen? Wir haben außer Aynur Üstüner noch vier weitere Abiturienten nach ihren Plänen gefragt. Hier sind ihre Antworten:",
+        "Christopher Hallgarten (20, RSS): „Ich bin froh, dass das Abitur vorbei ist. Nach einem kurzen Urlaub werde ich erstmal zwei Praktika in Krankenhäusern machen. Danach möchte ich Medizin studieren. Am liebsten in Bayreuth, da soll es schön gemütlich sein.“",
+        "Inka Schröder (18, RSS): „Jetzt werde ich erstmal die freien Wochen bis zum Studium genießen. Wahrscheinlich wird es Jura werden. Natürlich will ich später auch einige Zeit im Ausland studieren. Eine Pause nach dem Abitur brauche ich nicht unbedingt, schließlich freue ich mich auf mein Studium.“",
+        "Fabian Sänger (20, HMS): „Ich mache zunächst ein Freiwilliges Soziales Jahr. Auf diese Zeit freue ich mich schon sehr. Danach will ich unbedingt Sport studieren, weiß aber noch nicht, welche Uni mich nehmen wird. Ich lasse mich einfach überraschen, wohin die Reise geht.“",
+        "Alexander Michels (19, HMS): „Ich habe mich für das Fach Jura entschieden und werde dafür nach München ziehen. Zuerst brauche ich aber ein paar Wochen Urlaub, um mich von dem Abi-Stress zu erholen. Die Schule werde ich nicht vermissen!“"
       ],
-      "text_en": "For a long time, one principle above all applied to grocery shopping in Germany: it had to be as cheap as possible. Especially with meat, many customers in the supermarket reached for the cheapest special offers. But in recent years, many consumers have begun to rethink. After several food scandals, more and more people want to know exactly where their food comes from. Traditional weekly markets and small butcher shops benefit most from this. Although meat and sausage are often significantly more expensive there than at discount stores, customers appreciate the personal advice and high quality. Vendors at the market usually know the regional farms personally and can provide exact information on how the animals were kept and fed. Many customers today consciously decide to eat meat less often, but spend more money on good organic quality when shopping.",
+      "text_en": "World trip? Rather an internship in Kuala Lumpur!\nSurvey among high school graduates: What are the plans for the time after school? Law studies very popular\n\n\"Now that I have passed my Abitur, I feel liberated. Now I'm going to San Francisco for a month to visit friends. After that, an internship at Lufthansa in Kuala Lumpur is waiting for me because I want to study air traffic management.\" So says 19-year-old Aynur Üstüner, who just graduated from high school.\nNot only for Aynur, but also for 85 other students from the Heinrich-Mann-Schule (HMS) and the Rudolf-Steiner-Schule (RSS), professional or university life is now beginning. Everyone can be very proud of themselves: Twice there was even the top grade of 1.0. Overall, the average was 2.5, which was slightly better than the previous year. Nobody failed, only one participant dropped out of the Abitur. Reason enough for everyone to really celebrate their success.\nWhile the Steiner students had a very quiet celebration, the graduates of the Heinrich-Mann-Schule really turned it up in the community center and presented a fantastic, movie-worthy show to the audience. Starting today, we are showing pictures of both parties in our photo gallery on the internet.\nSo now everyone has their certificates and has finally caught up on sleep. No wonder: In the past few weeks, the graduates studied all night long and celebrated their farewell at the same time – that was very exhausting. But now important decisions have to be made: Do an apprenticeship? Study? Or maybe go on a trip around the world instead? Besides Aynur Üstüner, we asked four other graduates about their plans. Here are their answers:\nChristopher Hallgarten (20, RSS): \"I'm glad the Abitur is over. After a short vacation, I'll first do two internships in hospitals. After that, I want to study medicine. Preferably in Bayreuth, it's supposed to be nice and cozy there.\"\nInka Schröder (18, RSS): \"First I'm going to enjoy the free weeks until university starts. It will probably be law. Of course, I also want to study abroad for some time later. I don't necessarily need a break after the Abitur; after all, I'm looking forward to my studies.\"\nFabian Sänger (20, HMS): \"First I'm doing a Voluntary Social Year. I'm really looking forward to this time. After that, I definitely want to study sports, but I don't know yet which university will accept me. I'll just wait and see where the journey takes me.\"\nAlexander Michels (19, HMS): \"I have decided on studying law and will move to Munich for it. First, however, I need a few weeks of vacation to recover from the Abitur stress. I won't miss school!\"",
       "vocabulary": [
-        { "de": "der Wochenmarkt", "en": "weekly market" },
-        { "de": "das Umdenken", "en": "rethinking / change of mind" },
-        { "de": "die Herkunft", "en": "origin" },
-        { "de": "schätzen", "en": "to appreciate / value" }
+        {
+          "de": "der Abiturient / die Abiturientin",
+          "en": "high school graduate"
+        },
+        {
+          "de": "der Durchschnitt",
+          "en": "the average"
+        },
+        {
+          "de": "durchfallen",
+          "en": "to fail (an exam)"
+        },
+        {
+          "de": "das Zeugnis",
+          "en": "the report card / certificate"
+        },
+        {
+          "de": "Jura",
+          "en": "law (studies)"
+        }
       ]
     },
     "questions": [
       {
         "number": 6,
-        "question": "Viele Verbraucher in Deutschland",
-        "question_en": "Many consumers in Germany",
+        "question": "An den beiden Schulen",
+        "question_en": "At the two schools",
         "options": {
-          "a": "essen heute überhaupt kein Fleisch mehr.",
-          "b": "interessieren sich stärker für die Herkunft von Lebensmitteln.",
-          "c": "kaufen Fleisch nur noch im Supermarkt."
+          "a": "haben alle teilnehmenden Schüler das Abitur bestanden.",
+          "b": "haben zwei Schüler die Note 2,5 erreicht.",
+          "c": "sind die Durchschnittsnoten gleich geblieben."
         },
         "options_en": {
-          "a": "do not eat meat at all anymore today.",
-          "b": "are more interested in the origin of food.",
-          "c": "only buy meat in the supermarket now."
+          "a": "all participating students passed the Abitur.",
+          "b": "two students achieved the grade 2.5.",
+          "c": "the average grades remained the same."
         },
-        "correct_answer": "b",
-        "explanation": "Im ersten Absatz steht: 'wollen immer mehr Menschen genau wissen, woher ihr Essen kommt.'"
+        "correct_answer": "a",
+        "explanation": "Im zweiten Absatz steht: „Durchgefallen ist keiner, nur ein Teilnehmer hat das Abitur abgebrochen.“ Alle teilnehmenden Schüler haben also bestanden. (Zwei Schüler hatten 1,0, und der Durchschnitt von 2,5 war etwas besser als im Vorjahr.)"
       },
       {
         "number": 7,
-        "question": "Auf dem Wochenmarkt",
-        "question_en": "At the weekly market",
+        "question": "Die Abiparty der Heinrich-Mann-Schule war fantastisch, weil",
+        "question_en": "The graduation party of the Heinrich-Mann-Schule was fantastic because",
         "options": {
-          "a": "bekommt man gute Beratung und hohe Qualität.",
-          "b": "gibt es immer günstige Sonderangebote für Fleisch.",
-          "c": "sind die Preise genauso niedrig wie beim Discounter."
+          "a": "die Abiturienten einen Film über die Party gemacht haben.",
+          "b": "die ganze Party im Internet gezeigt wurde.",
+          "c": "es eine tolle Show gab."
         },
         "options_en": {
-          "a": "you get good advice and high quality.",
-          "b": "there are always cheap special offers for meat.",
-          "c": "prices are just as low as at the discount store."
+          "a": "the graduates made a movie about the party.",
+          "b": "the whole party was shown on the internet.",
+          "c": "there was a great show."
         },
-        "correct_answer": "a",
-        "explanation": "Im zweiten Absatz heißt es: 'doch die Kunden schätzen die persönliche Beratung und die hohe Qualität.'"
+        "correct_answer": "c",
+        "explanation": "Im dritten Absatz heißt es: „...drehten die Abiturienten der Heinrich-Mann-Schule im Bürgerhaus so richtig auf und präsentierten dem Publikum eine filmreife, fantastische Show.“ („filmreif“ bedeutet so gut wie im Film, nicht dass ein Film gedreht wurde.)"
       },
       {
         "number": 8,
-        "question": "Die Händler auf dem Wochenmarkt",
-        "question_en": "The vendors at the weekly market",
+        "question": "In den letzten Wochen haben die Schülerinnen und Schüler",
+        "question_en": "In recent weeks, the students have",
         "options": {
-          "a": "halten und füttern alle Tiere selbst.",
-          "b": "verkaufen ausschließlich Produkte aus dem Ausland.",
-          "c": "wissen, von welchen Höfen der Region das Fleisch stammt."
+          "a": "immer nur nachts für das Abitur gelernt.",
+          "b": "lieber gefeiert als gelernt.",
+          "c": "viel zu wenig geschlafen."
         },
         "options_en": {
-          "a": "keep and feed all the animals themselves.",
-          "b": "exclusively sell products from abroad.",
-          "c": "know which regional farms the meat comes from."
+          "a": "always only studied at night for the Abitur.",
+          "b": "preferred celebrating to studying.",
+          "c": "slept far too little."
         },
         "correct_answer": "c",
-        "explanation": "Im Text steht: 'Die Händler auf dem Markt kennen meist die Bauernhöfe aus der Region persönlich'."
+        "explanation": "Im vierten Absatz steht: „Nun haben also alle ihre Zeugnisse und endlich einmal richtig ausgeschlafen. Kein Wunder: In den letzten Wochen haben die Abiturienten nächtelang gelernt und gleichzeitig Abschied gefeiert – das war sehr anstrengend.“ Sie haben also viel zu wenig geschlafen."
       },
       {
         "number": 9,
-        "question": "Immer mehr Kunden",
-        "question_en": "More and more customers",
+        "question": "Inka und Alexander",
+        "question_en": "Inka and Alexander",
         "options": {
-          "a": "beschweren sich über die hohen Preise für Bio-Fleisch.",
-          "b": "essen weniger Fleisch, achten aber auf bessere Qualität.",
-          "c": "kaufen jeden Tag frisches Fleisch beim Metzger."
+          "a": "finden es schade, dass die Schulzeit vorbei ist.",
+          "b": "haben vor, Jura zu studieren.",
+          "c": "machen erst einmal zusammen Urlaub im Ausland."
         },
         "options_en": {
-          "a": "complain about the high prices for organic meat.",
-          "b": "eat less meat, but pay attention to better quality.",
-          "c": "buy fresh meat at the butcher's every day."
+          "a": "think it's a shame that school time is over.",
+          "b": "intend to study law.",
+          "c": "are first going on vacation abroad together."
         },
         "correct_answer": "b",
-        "explanation": "Im dritten Absatz steht: 'lieber seltener Fleisch zu essen, dafür aber beim Einkauf mehr Geld für gute Bio-Qualität auszugeben.'"
+        "explanation": "Inka sagt: „Wahrscheinlich wird es Jura werden.“ Und Alexander sagt: „Ich habe mich für das Fach Jura entschieden...“ Beide haben also vor, Jura zu studieren."
       },
       {
         "number": 10,
-        "question": "Was zeigt dieser Text?",
-        "question_en": "What does this text show?",
+        "question": "Einer der vier Abiturienten",
+        "question_en": "One of the four high school graduates",
         "options": {
-          "a": "Warum Supermärkte kein Fleisch mehr verkaufen sollten.",
-          "b": "Wie man auf dem Wochenmarkt am besten Preise vergleicht.",
-          "c": "Wie sich das Einkaufsverhalten vieler Menschen verändert hat."
+          "a": "möchte in Bayreuth studieren, weil die Stadt so schön groß ist.",
+          "b": "weiß noch nicht genau, wo er studieren wird.",
+          "c": "will nach dem Freiwilligen Sozialen Jahr zwei Praktika machen."
         },
         "options_en": {
-          "a": "Why supermarkets should no longer sell meat.",
-          "b": "How best to compare prices at the weekly market.",
-          "c": "How the shopping behavior of many people has changed."
+          "a": "wants to study in Bayreuth because the city is so nice and big.",
+          "b": "does not know yet exactly where he will study.",
+          "c": "wants to do two internships after the Voluntary Social Year."
         },
-        "correct_answer": "c",
-        "explanation": "Der gesamte Artikel beschreibt den Wandel vom Billigeinkauf hin zu Qualitäts- und Herkunftsbewusstsein."
+        "correct_answer": "b",
+        "explanation": "Fabian Sänger sagt: „Danach will ich unbedingt Sport studieren, weiß aber noch nicht, welche Uni mich nehmen wird. Ich lasse mich einfach überraschen, wohin die Reise geht.“ Er weiß also noch nicht genau, wo er studieren wird."
       }
     ]
   },
   "leseverstehen_teil_3": {
-    "advertisements": {},
-    "situations": []
+    "advertisements": {
+      "a": {
+        "title": "Neueröffnung – LADIC Teppichreinigung",
+        "subtitle": "Wir waschen Ihre Teppiche!",
+        "lines": [
+          "Neueröffnung – LADIC Teppichreinigung",
+          "Wir waschen Ihre Teppiche!",
+          "Unsere Teppichwäsche ist das Beste, was Sie für Ihre wertvollen Teppiche tun können.",
+          "• Teppich-Wäsche",
+          "• Orientteppich-Handwäsche",
+          "• Teppichreparaturen",
+          "• KOSTENFREIE ABHOLUNG",
+          "Frankfurt (069) 56 00 08 10 • www.ladic-teppich.com"
+        ],
+        "text_en": "Grand Opening – LADIC Carpet Cleaning. We wash your carpets! Our carpet washing is the best you can do for your valuable carpets. Carpet washing, Oriental carpet hand washing, Carpet repairs, FREE PICK-UP. Frankfurt (069) 56 00 08 10, www.ladic-teppich.com",
+        "vocabulary": [
+          {
+            "de": "die Neueröffnung",
+            "en": "the grand opening / new opening"
+          },
+          {
+            "de": "die Teppichreinigung",
+            "en": "the carpet cleaning"
+          }
+        ]
+      },
+      "b": {
+        "title": "SUCHE",
+        "subtitle": "Tierschutzverein Langen / Egelsbach e. V.",
+        "lines": [
+          "SUCHE",
+          "Wohnung oder Haus mit Balkon/Garten, WG-tauglich mit tierlieben Menschen.",
+          "Du hast Platz? Dann hole mich aus dem Heim.",
+          "Tierschutzverein Langen / Egelsbach e. V.",
+          "Dieburger Str. 56 a, 63225 Langen",
+          "Fon: 06103/92 95 32 Fax: 06103/45 92 62",
+          "Deutscher Tierschutzbund e. V."
+        ],
+        "text_en": "WANTED: Apartment or house with balcony/garden, suitable for shared living with animal-loving people. Do you have space? Then get me out of the shelter. Animal Welfare Association Langen / Egelsbach e. V., Dieburger Str. 56 a, 63225 Langen.",
+        "vocabulary": [
+          {
+            "de": "tierlieb",
+            "en": "animal-loving"
+          },
+          {
+            "de": "das Heim / Tierheim",
+            "en": "the animal shelter"
+          }
+        ]
+      },
+      "c": {
+        "title": "NOTDIENSTE",
+        "subtitle": "APOTHEKEN & ÄRZTE",
+        "lines": [
+          "NOTDIENSTE",
+          "APOTHEKEN: Goethe-Apotheke, Neu-Isenburg, Bahnhofstr. 173, Tel.: 06002/77 12 01; Löwen-Apotheke, Langen, Bahnstr. 31, Tel.: 0611 39 09 81",
+          "ÄRZTE: Ärztlicher Notdienst: zu erfahren über den Anrufbeantworter des Hausarztes",
+          "Tierärztlicher Notdienst: Dr. Thomas März, Neu-Isenburg, Tel.: 06002/31 85 5"
+        ],
+        "text_en": "EMERGENCY SERVICES. PHARMACIES: Goethe-Apotheke, Neu-Isenburg; Löwen-Apotheke, Langen. DOCTORS: Medical emergency service: find out via your family doctor's answering machine. Veterinary emergency service: Dr. Thomas März, Neu-Isenburg.",
+        "vocabulary": [
+          {
+            "de": "der Notdienst",
+            "en": "the emergency service"
+          },
+          {
+            "de": "der Anrufbeantworter",
+            "en": "the answering machine"
+          }
+        ]
+      },
+      "d": {
+        "title": "FLOHMARKT AKTUELL",
+        "subtitle": "Gebrauchte Möbel, Haushalt & mehr",
+        "lines": [
+          "FLOHMARKT AKTUELL",
+          "Eckcouch, 6-Sitzer, braun/beige, Hocker, Couchtisch, 25,00 €, Tel. 06182-31 50",
+          "Koffer Stratic m. Rollen (alte Form), 65x47x13cm, (erweiterbar), 15,00 €, Tel. 67054-68 46 2",
+          "Gartenstühle blau, 2 Stück mit hoher Lehne, klappbar zus. für nur 13 €, Tel. 06083/29 01 33",
+          "Rucksäcke von 5–15,00 € zu verkaufen, Tel.-Nr. 06681/50 05 7",
+          "Kinderholzpferd „Rudy“ rot 10,– €, Tel. 06171/94 44 0",
+          "Sideboard Eiche hell H 74, B 198 und T 42 mit 3 Türen und 4 Schubl. für 25 €. Tel. 06074/13 98",
+          "Waschmaschine, 2 Jahre alt, wie neu, 150 EUR für Selbstabholer, Tel.: 06102-81 40 3"
+        ],
+        "text_en": "CURRENT FLEA MARKET. Corner couch, 6-seater, 25.00 €. Stratic suitcase with wheels, 15.00 €. Blue garden chairs, 2 pieces with high backrest, foldable, together for only 13 €. Backpacks from 5–15.00 €. Children's wooden horse 'Rudy' red 10 €. Light oak sideboard for 25 €. Washing machine, 2 years old, like new, 150 EUR for self-pickup.",
+        "vocabulary": [
+          {
+            "de": "die Lehne",
+            "en": "the backrest"
+          },
+          {
+            "de": "klappbar",
+            "en": "foldable"
+          },
+          {
+            "de": "der Selbstabholer",
+            "en": "self-collector / buyer who picks up"
+          }
+        ]
+      },
+      "e": {
+        "title": "PROFI-ZOO-WERNER",
+        "subtitle": "Exotische Fische, gesunde Japan-Kois, Aquarien-Zubehör!",
+        "lines": [
+          "Exotische Fische, gesunde Japan-Kois, Aquarien-Zubehör!",
+          "Aquarien-Möbel • Süß- und Meerwasserfische • Terraristik",
+          "PROFI-ZOO-WERNER",
+          "Dorfelder Str. 50 – Tel. 06031 – 28420",
+          "61169 Friedberg-Dorheim",
+          "www.profi-zoo-werner.de"
+        ],
+        "text_en": "Exotic fish, healthy Japanese koi, aquarium accessories! Aquarium furniture, freshwater and saltwater fish, terrarium supplies. PROFI-ZOO-WERNER, Dorfelder Str. 50, 61169 Friedberg-Dorheim.",
+        "vocabulary": [
+          {
+            "de": "das Zubehör",
+            "en": "the accessories / equipment"
+          },
+          {
+            "de": "das Süßwasser",
+            "en": "freshwater"
+          }
+        ]
+      },
+      "f": {
+        "title": "Der Zoo sucht Pferdefreunde",
+        "subtitle": "Ferien- und Sommerjob im Frankfurter Zoo",
+        "lines": [
+          "Der Zoo sucht Pferdefreunde",
+          "Frankfurt. Der Zoo sucht für den Sommer tierliebe und pferdekundige Personen, die täglich zwei Stunden lang das Ponyreiten für Kinder betreuen.",
+          "Weitere Informationen – auch zum Honorar – hat Erwin May, Telefon: 47 46 81 28"
+        ],
+        "text_en": "The zoo is looking for horse lovers. Frankfurt. For the summer, the zoo is looking for animal-loving and horse-knowledgeable people to supervise pony rides for children for two hours a day. Further information – including about pay – is available from Erwin May, Tel.: 47 46 81 28.",
+        "vocabulary": [
+          {
+            "de": "pferdekundig",
+            "en": "knowledgeable about horses"
+          },
+          {
+            "de": "das Honorar",
+            "en": "the fee / remuneration"
+          }
+        ]
+      },
+      "g": {
+        "title": "Alte Küche? – PORTE",
+        "subtitle": "Wir modernisieren preiswert an einem Tag!",
+        "lines": [
+          "Alte Küche?",
+          "Wir modernisieren preiswert an einem Tag!",
+          "Sieht man Ihrer Küche die Jahre an, aber zum Wegwerfen ist sie zu schade? PORTE hat die Lösung: Alte Küchen wieder neu und modern mit neuen Fronten nach Maß!",
+          "Fordern Sie unseren Gratiskatalog an.",
+          "PORTE-Ausstellungs-Center • Assar-Gabrielsson-Straße • 63128 Dietzenbach-Steinberg",
+          "Tel. 06074 – 30 67 27 • www.porte-kuechen.de • PORTE Europas Renovierer Nr. 1"
+        ],
+        "text_en": "Old kitchen? We modernize inexpensively in one day! Does your kitchen show its age, but is too good to throw away? PORTE has the solution: Old kitchens new and modern again with custom-made new fronts! Request our free catalog.",
+        "vocabulary": [
+          {
+            "de": "preiswert",
+            "en": "inexpensive / good value"
+          },
+          {
+            "de": "nach Maß",
+            "en": "custom-made / made to measure"
+          }
+        ]
+      },
+      "h": {
+        "title": "CINEMAXX Offenbach",
+        "subtitle": "Der Filmpalast in der Berliner Straße 210 – Aktuelles Programm",
+        "lines": [
+          "CINEMAXX Offenbach – Der Filmpalast in der Berliner Straße 210",
+          "Kartenreservierung: 01805-24 63 62 99, www.cinemaxx.de",
+          "Bank Job ab 12: 17:50, 20:20, Fr./Sa. auch 23:00 Uhr",
+          "Die Insel der Abenteuer ab 6: 15:10, 17:40, So. auch 12:30 Uhr",
+          "The Happening ab 16: 17:30, 20:00, Fr./Sa. auch 22:40 Uhr",
+          "Indiana Jones ab 12: 15:00, 17:10 (außer Mo.), 20:00 (außer Mi.), Fr./Sa. auch 23:00",
+          "Penelope ab 6: So. 12:40",
+          "Kirschblüten ab 12: Nur montags 17 Uhr",
+          "Verliebt in die Braut ab 12: Sa./So. 15:30"
+        ],
+        "text_en": "CINEMAXX Offenbach – Current program. Bank Job (12+), Die Insel der Abenteuer (6+), The Happening (16+), Indiana Jones (12+), Penelope (6+), Kirschblüten (12+), Verliebt in die Braut (12+).",
+        "vocabulary": [
+          {
+            "de": "ab 6 (Jahren)",
+            "en": "for ages 6 and up"
+          },
+          {
+            "de": "der Aufschlag",
+            "en": "the surcharge"
+          }
+        ]
+      },
+      "i": {
+        "title": "Führung / Konzert / Oper / Schauspiel",
+        "subtitle": "Veranstaltungen in Frankfurt & Umgebung",
+        "lines": [
+          "Führung: Zoo Ffm: 19:30 Uhr, Nächtliche Expeditionen mit Lagerfeuer, Tel.: 069/22 24 77 11",
+          "Konzert: Innenstadt Idstein: Jazzfestival, 62 Bands, 10 Bühnen, www.idstein-jazzfestival.de; Spritzenhaus, Ffm: 21 Uhr, „The Time Bandits“",
+          "Oper: Alte Oper, Ffm: 20 Uhr, „Tanguera“, Tel.: 069/21 00-600; Oper, Ffm: 19:30 Uhr, „Fidelio“, Tel.: 069/31 3-48 09 9",
+          "Schauspiel: Die Komödie, Ffm: 20 Uhr, „Bitte nicht stören“; Fritz-Rémond-Theater im Zoo: 20 Uhr, „Der Kontrabass“; Volkstheater, Ffm: 20 Uhr, „Volpone oder Der Fuchs“"
+        ],
+        "text_en": "Guided Tour: Frankfurt Zoo: 7:30 p.m., Nighttime Expeditions with Campfire, Tel.: 069/22 24 77 11. Concert: Downtown Idstein Jazz Festival; Spritzenhaus Ffm. Opera: Alte Oper Ffm 'Tanguera'; Oper Ffm 'Fidelio'. Theater: Die Komödie; Fritz-Rémond-Theater in the Zoo; Volkstheater.",
+        "vocabulary": [
+          {
+            "de": "die Führung",
+            "en": "the guided tour"
+          },
+          {
+            "de": "das Lagerfeuer",
+            "en": "the campfire"
+          }
+        ]
+      },
+      "j": {
+        "title": "POWALLA",
+        "subtitle": "Ihr freundliches Fachgeschäft für dänische und schwedische Möbel",
+        "lines": [
+          "Ihr freundliches Fachgeschäft für dänische und schwedische Möbel – POWALLA",
+          "Frankfurt, Gr. Friedberger Str. 13–17, Tel. 069 39 93 73",
+          "Import aus Skandinavien",
+          "Möbel nach Maß, eigene Werkstatt",
+          "gut – schnell – preiswert"
+        ],
+        "text_en": "Your friendly specialist shop for Danish and Swedish furniture – POWALLA. Frankfurt, Gr. Friedberger Str. 13–17. Import from Scandinavia. Custom-made furniture, own workshop. Good – fast – inexpensive.",
+        "vocabulary": [
+          {
+            "de": "das Fachgeschäft",
+            "en": "the specialist shop"
+          },
+          {
+            "de": "die Werkstatt",
+            "en": "the workshop"
+          }
+        ]
+      },
+      "k": {
+        "title": "Wer will mich haben?",
+        "subtitle": "Hund Elvis (1) von privat abzugeben",
+        "lines": [
+          "Wer will mich haben?",
+          "Elvis (1) hat bereits die Schattenseiten des Lebens kennen lernen müssen. Sein Besitzer hat den freundlichen Hund ausgesetzt.",
+          "Der Beagle ist ein unkomplizierter und idealer Freund einer Familie mit größeren Kindern.",
+          "Telefon 46 49 99 (von privat)"
+        ],
+        "text_en": "Who wants to have me? Elvis (1) has already had to experience the dark side of life. His owner abandoned the friendly dog. The beagle is an uncomplicated and ideal friend for a family with older children. Phone 46 49 99 (private).",
+        "vocabulary": [
+          {
+            "de": "die Schattenseite",
+            "en": "the dark side / downside"
+          },
+          {
+            "de": "aussetzen",
+            "en": "to abandon"
+          }
+        ]
+      },
+      "l": {
+        "title": "PAULOWITSCH Dietzenbach",
+        "subtitle": "50 Jahre Erfahrung – BIO Handwäsche Teppichreinigung",
+        "lines": [
+          "50 Jahre Erfahrung – BIO Handwäsche",
+          "Teppichreinigung – Unser Dauerangebot:",
+          "• Kontrollieren • Waschen • Spülen • Trocknen nur 7 € pro m²",
+          "Kostenlose Abhol- und Lieferservice im Umkreis von 100 km. Teppichreparaturen aller Art!",
+          "PAULOWITSCH Dietzenbach, Tel.: 06074 – 44 12 47"
+        ],
+        "text_en": "50 years of experience – BIO hand wash carpet cleaning. Our permanent offer: Inspecting, washing, rinsing, drying only 7 € per sqm. Free pick-up and delivery service within a radius of 100 km. Carpet repairs of all kinds! PAULOWITSCH Dietzenbach.",
+        "vocabulary": [
+          {
+            "de": "spülen",
+            "en": "to rinse"
+          },
+          {
+            "de": "im Umkreis von",
+            "en": "within a radius of"
+          }
+        ]
+      }
+    },
+    "situations": [
+      {
+        "number": 11,
+        "situation": "Sie suchen zwei Stühle für Ihren Garten, möchten aber insgesamt nicht mehr als 15 € bezahlen.",
+        "situation_en": "You are looking for two chairs for your garden, but do not want to pay more than 15 € in total.",
+        "correct_answer": "d",
+        "explanation": "In Anzeige d (FLOHMARKT AKTUELL) werden „Gartenstühle blau, 2 Stück mit hoher Lehne, klappbar zus. für nur 13 €“ angeboten."
+      },
+      {
+        "number": 12,
+        "situation": "Sie müssen Ihren guten Teppich reinigen lassen und suchen eine Firma mit langjähriger Erfahrung.",
+        "situation_en": "You need to have your good carpet cleaned and are looking for a company with many years of experience.",
+        "correct_answer": "l",
+        "explanation": "Anzeige l (PAULOWITSCH Dietzenbach) wirbt mit „50 Jahre Erfahrung – BIO Handwäsche Teppichreinigung“. (Anzeige a ist eine Neueröffnung.)"
+      },
+      {
+        "number": 13,
+        "situation": "Sie haben Geburtstag und möchten mit Ihren Gästen etwas Besonderes machen: Abends in den Zoo gehen.",
+        "situation_en": "It is your birthday and you want to do something special with your guests: go to the zoo in the evening.",
+        "correct_answer": "i",
+        "explanation": "Anzeige i bietet unter „Führung“ im Zoo Frankfurt um 19:30 Uhr „Nächtliche Expeditionen mit Lagerfeuer“ an."
+      },
+      {
+        "number": 14,
+        "situation": "Sie sind gerade umgezogen und möchten sich eine neue Waschmaschine kaufen.",
+        "situation_en": "You have just moved and want to buy a new washing machine.",
+        "correct_answer": "x",
+        "explanation": "In Anzeige d gibt es zwar eine Waschmaschine, diese ist aber gebraucht („2 Jahre alt“). Für eine neue Waschmaschine gibt es keine passende Anzeige (x)."
+      },
+      {
+        "number": 15,
+        "situation": "Die Tochter Ihrer Nachbarin will später einmal Tierärztin werden und sucht einen Job für die Sommerferien. Geben Sie ihr einen Tipp.",
+        "situation_en": "Your neighbor's daughter wants to become a veterinarian later and is looking for a job for the summer holidays. Give her a tip.",
+        "correct_answer": "f",
+        "explanation": "In Anzeige f sucht der Frankfurter Zoo für den Sommer tierliebe und pferdekundige Personen gegen Honorar, die das Ponyreiten betreuen."
+      },
+      {
+        "number": 16,
+        "situation": "Kindergeburtstag! Ihr kleiner Sohn wird fünf. Sie möchten ihn und seine Freunde ins Kino einladen.",
+        "situation_en": "Children's birthday party! Your little son is turning five. You want to invite him and his friends to the cinema.",
+        "correct_answer": "x",
+        "explanation": "In Anzeige h (CINEMAXX Offenbach) sind alle Filme erst „ab 6“, „ab 12“ oder „ab 16“ Jahren freigegeben. Für Fünfjährige ist kein Film dabei (x)."
+      },
+      {
+        "number": 17,
+        "situation": "Ein guter Freund hat ein Aquarium. Schenken Sie ihm etwas für sein Hobby.",
+        "situation_en": "A good friend has an aquarium. Give him something for his hobby.",
+        "correct_answer": "e",
+        "explanation": "Anzeige e (PROFI-ZOO-WERNER) bietet exotische Fische, Aquarien-Zubehör und Aquarien-Möbel an."
+      },
+      {
+        "number": 18,
+        "situation": "Sie bekommen mitten in der Nacht starke Kopfschmerzen und brauchen schnell Tabletten.",
+        "situation_en": "You get a severe headache in the middle of the night and quickly need pills.",
+        "correct_answer": "c",
+        "explanation": "Anzeige c informiert über die Notdienste der Apotheken (Goethe-Apotheke und Löwen-Apotheke), wo man nachts Medikamente bekommt."
+      },
+      {
+        "number": 19,
+        "situation": "Ihre Kinder möchten gern ein Haustier. Sie haben nichts dagegen, es soll aber ein Tier aus dem Tierheim sein.",
+        "situation_en": "Your children would like a pet. You don't mind, but it should be an animal from the animal shelter.",
+        "correct_answer": "b",
+        "explanation": "In Anzeige b sucht eine Katze aus dem Tierheim („Dann hole mich aus dem Heim – Tierschutzverein Langen / Egelsbach e. V.“) ein neues Zuhause. (Anzeige k ist „von privat“.)"
+      },
+      {
+        "number": 20,
+        "situation": "Sie richten Ihr Schlafzimmer neu ein und suchen einen Kleiderschrank aus Skandinavien.",
+        "situation_en": "You are refurnishing your bedroom and are looking for a wardrobe from Scandinavia.",
+        "correct_answer": "j",
+        "explanation": "Anzeige j (POWALLA) ist ein Fachgeschäft für dänische und schwedische Möbel („Import aus Skandinavien, Möbel nach Maß“)."
+      }
+    ]
   },
   "sprachbausteine_teil_1": {
-    "instructions": "Lesen Sie den Text und schließen Sie die Lücken 21–30. Welche Lösung (a, b oder c) ist jeweils richtig?",
+    "instructions": "Lesen Sie den Text und schließen Sie die Lücken 21–30. Welche Lösung (a, b oder c) ist jeweils richtig? Markieren Sie Ihre Lösungen für die Aufgaben 21–30 auf dem Antwortbogen.",
     "passage": {
-      "text": ""
+      "text": "Hallo Nikolas,\n\nin knapp einer Woche ist es so weit: Unsere spanische Theatergruppe „Los Mutantes“ geht auf große Tour ___21___ Deutschland und Spanien mit dem Stück „Niebla“ (Nebel).\nWir planen, mindestens 30 Vorstellungen zu geben und das mit so ___22___ bunt gemischten Gruppe aus zehn (!!) Ländern. Am 7. April beginnen wir unsere Theaterreise an der Uni von Alicante/Spanien. Du kannst ___23___ denken, dass ich als Nichtmuttersprachlerin sehr ___24___ bin, dort vor spanischem Publikum zu spielen, ___25___ ich ja fließend und fast ohne Akzent Spanisch spreche.\n___26___ Herbst steht vielleicht auch meine alte „Wahlheimatstadt“ Barcelona auf dem Programm, wie gerne ___27___ ich euch alle wiedersehen! Ohne eure Hilfe hätte ich die Sprache niemals so gut lernen ___28___. Ich denke oft an unsere multikulturelle Wohngemeinschaft: das gemeinsame Kochen, die tollen Feste ... Ein bisschen ___29___ habe ich jetzt in der Theatergruppe ___30___.\n\nLiebe Grüße auch an deine Mitbewohner\nschickt dir\nSarah",
+      "text_en": "Hello Nikolas,\n\nin just under a week the time has come: Our Spanish theater group 'Los Mutantes' is going on a big tour ___21___ Germany and Spain with the play 'Niebla' (Fog).\nWe plan to give at least 30 performances and that with such ___22___ colorful mixed group from ten (!!) countries. On April 7th we start our theater journey at the University of Alicante/Spain. You can ___23___ imagine that as a non-native speaker I am very ___24___ to play there in front of a Spanish audience, ___25___ I speak Spanish fluently and almost without an accent.\n___26___ autumn my old 'adopted hometown' Barcelona might also be on the program, how much ___27___ I love to see you all again! Without your help I would never have ___28___ able to learn the language so well. I often think of our multicultural shared apartment: cooking together, the great parties ... I have ___30___ a bit ___29___ now in the theater group.\n\nWarm regards also to your flatmates\nsends to you\nSarah",
+      "vocabulary": [
+        {
+          "de": "die Vorstellung",
+          "en": "the performance / show"
+        },
+        {
+          "de": "bunt gemischt",
+          "en": "colorful / diverse mix"
+        },
+        {
+          "de": "die Nichtmuttersprachlerin",
+          "en": "the female non-native speaker"
+        },
+        {
+          "de": "die Wahlheimatstadt",
+          "en": "the adopted hometown"
+        }
+      ]
     },
-    "questions": []
+    "questions": [
+      {
+        "number": 21,
+        "options": {
+          "a": "aus",
+          "b": "durch",
+          "c": "von"
+        },
+        "options_en": {
+          "a": "from / out of",
+          "b": "through",
+          "c": "from / of"
+        },
+        "correct_answer": "b",
+        "explanation": "Man geht „auf Tour durch“ ein Land (Präposition „durch“ + Akkusativ zur Bezeichnung der Bewegung durch ein Gebiet)."
+      },
+      {
+        "number": 22,
+        "options": {
+          "a": "eine",
+          "b": "einen",
+          "c": "einer"
+        },
+        "options_en": {
+          "a": "a (nominative/accusative feminine)",
+          "b": "a (accusative masculine)",
+          "c": "a (dative feminine)"
+        },
+        "correct_answer": "c",
+        "explanation": "Die Präposition „mit“ verlangt den Dativ. „Gruppe“ ist feminin Singular, daher heißt es „mit so einer bunt gemischten Gruppe“."
+      },
+      {
+        "number": 23,
+        "options": {
+          "a": "dich",
+          "b": "dir",
+          "c": "sich"
+        },
+        "options_en": {
+          "a": "yourself (accusative)",
+          "b": "yourself (dative)",
+          "c": "oneself (3rd person)"
+        },
+        "correct_answer": "b",
+        "explanation": "Die feste Wendung „sich (Dativ) etwas denken können“ (= sich etwas vorstellen können) erfordert bei „du“ das Reflexivpronomen im Dativ: „Du kannst dir denken...“."
+      },
+      {
+        "number": 24,
+        "options": {
+          "a": "aufgeregt",
+          "b": "aufregend",
+          "c": "aufzuregen"
+        },
+        "options_en": {
+          "a": "excited / nervous",
+          "b": "exciting",
+          "c": "to excite / upset"
+        },
+        "correct_answer": "a",
+        "explanation": "Wenn eine Person nervös ist, ist sie „aufgeregt“ (Partizip II als Adjektiv). Eine Sache oder ein Erlebnis hingegen ist „aufregend“."
+      },
+      {
+        "number": 25,
+        "options": {
+          "a": "obwohl",
+          "b": "weil",
+          "c": "zwar"
+        },
+        "options_en": {
+          "a": "although",
+          "b": "because",
+          "c": "indeed / admittedly"
+        },
+        "correct_answer": "a",
+        "explanation": "Hier liegt ein Gegengrund (Konzessivsatz) vor: Sie ist aufgeregt, obwohl sie fließend Spanisch spricht."
+      },
+      {
+        "number": 26,
+        "options": {
+          "a": "Im",
+          "b": "In",
+          "c": "Während"
+        },
+        "options_en": {
+          "a": "In (the)",
+          "b": "In",
+          "c": "During"
+        },
+        "correct_answer": "a",
+        "explanation": "Vor Jahreszeiten steht im Deutschen die Präposition „im“ (= in dem): „Im Herbst“."
+      },
+      {
+        "number": 27,
+        "options": {
+          "a": "hätte",
+          "b": "würde",
+          "c": "wurde"
+        },
+        "options_en": {
+          "a": "would have",
+          "b": "would",
+          "c": "became / was"
+        },
+        "correct_answer": "b",
+        "explanation": "Für den Wunsch in der Gegenwart/Zukunft mit dem Infinitiv „wiedersehen“ bildet man den Konjunktiv II mit „würde“ + Infinitiv: „wie gerne würde ich euch alle wiedersehen!“"
+      },
+      {
+        "number": 28,
+        "options": {
+          "a": "können",
+          "b": "müssen",
+          "c": "sollen"
+        },
+        "options_en": {
+          "a": "be able to / could",
+          "b": "have to",
+          "c": "should"
+        },
+        "correct_answer": "a",
+        "explanation": "Konjunktiv II der Vergangenheit mit Modalverb (Ersatzinfinitiv): „Ohne eure Hilfe hätte ich die Sprache niemals so gut lernen können“ (Fähigkeit/Möglichkeit)."
+      },
+      {
+        "number": 29,
+        "options": {
+          "a": "damit",
+          "b": "davon",
+          "c": "dazu"
+        },
+        "options_en": {
+          "a": "with it",
+          "b": "of it / of that",
+          "c": "to it"
+        },
+        "correct_answer": "b",
+        "explanation": "„Ein bisschen davon“ (= ein Teil von den genannten Erlebnissen in der WG) bezieht sich partitiv auf das Vorausgegangene."
+      },
+      {
+        "number": 30,
+        "options": {
+          "a": "wiederfinden",
+          "b": "wiedergefunden",
+          "c": "wiederzufinden"
+        },
+        "options_en": {
+          "a": "to find again (infinitive)",
+          "b": "found again (past participle)",
+          "c": "to find again (zu-infinitive)"
+        },
+        "correct_answer": "b",
+        "explanation": "Für das Perfekt mit „habe“ benötigt man das Partizip II am Satzende: „habe ich jetzt in der Theatergruppe wiedergefunden“."
+      }
+    ]
   },
   "sprachbausteine_teil_2": {
-    "instructions": "Lesen Sie den Text und schließen Sie die Lücken 31–40. Benutzen Sie die Wörter a–o. Jedes Wort passt nur einmal.",
-    "word_bank": {},
-    "passage": {
-      "text": ""
+    "instructions": "Lesen Sie den Text und schließen Sie die Lücken 31–40. Benutzen Sie die Wörter a–o. Jedes Wort passt nur einmal. Markieren Sie Ihre Lösungen für die Aufgaben 31–40 auf dem Antwortbogen.",
+    "word_bank": {
+      "a": "ALS",
+      "b": "BALD",
+      "c": "BEIDE",
+      "d": "DARUM",
+      "e": "DIE",
+      "f": "DURFTE",
+      "g": "ERST",
+      "h": "HÄTTE",
+      "i": "KENNT",
+      "j": "MUSSTE",
+      "k": "SCHON",
+      "l": "WÄRE",
+      "m": "WENN",
+      "n": "WISST",
+      "o": "ÜBERHAUPT"
     },
-    "questions": []
+    "word_bank_en": {
+      "a": "when / as",
+      "b": "soon",
+      "c": "both",
+      "d": "about it / therefore",
+      "e": "which / that (rel.)",
+      "f": "was allowed to",
+      "g": "only / first",
+      "h": "would have",
+      "i": "knows",
+      "j": "had to",
+      "k": "already",
+      "l": "would be",
+      "m": "if / when",
+      "n": "know (2nd pl.)",
+      "o": "at all"
+    },
+    "passage": {
+      "headline": "Songwettbewerb auf der Burg Tanneck (vom 5. bis 7. September)",
+      "text": "Songwettbewerb auf der Burg Tanneck – vom 5. bis 7. September\nDer Songwettbewerb findet statt für:\n– Sologesang\n– Sologesang mit Instrument\n– Gruppengesang (2–5 Teilnehmer)\nProfessionelle Musiker dürfen nicht teilnehmen. Informationen zur Anmeldung und zum Ort unter: www.burg-tanneck.de\n\nHallo Benny, hallo Verena,\n\ndiese kurze Notiz habe ich gestern im Internet gefunden und ___31___ gleich an euch ___32___ denken. Es waren doch wunderbare Abende, ___33___ wir im letzten Urlaub in Griechenland verbracht haben. Eure Lieder und Bennys tolles Gitarrenspiel sind mir in guter Erinnerung geblieben. Wie ___34___ es, hättet ihr nicht mal Lust, bei so einem Songwettbewerb mitzumachen?\nIch kenne die Burg Tanneck ___35___ seit meiner Kindheit, als mich meine musikbegeisterten Eltern zu den Festivals mitgenommen haben. Was ganz wichtig ist: Dieser Songwettbewerb hat ___36___ nichts mit Kommerz und Vermarktung zu tun, wie man es sonst aus dem Fernsehen ___37___.\nEs geht nur ___38___, Spaß zu haben und zu singen! Schon allein die romantische Burg ist eine Reise wert, auch ___39___ ihr nur den anderen Sängern zuhören wollt.\nLasst ___40___ was von euch hören!\n\nBis dann, liebe Grüße aus Saarbrücken\nAstrid",
+      "text_en": "Song contest at Burg Tanneck – from September 5 to 7\nThe song contest takes place for: solo singing, solo singing with instrument, group singing (2–5 participants). Professional musicians are not allowed to participate. Information on registration and location at: www.burg-tanneck.de\n\nHello Benny, hello Verena,\n\nI found this short note on the internet yesterday and immediately ___31___ to think of ___32___ of you. They were wonderful evenings ___33___ we spent on our last vacation in Greece. Your songs and Benny's great guitar playing have remained a fond memory for me. How ___34___ it be, wouldn't you feel like taking part in such a song contest?\nI have known Burg Tanneck ___35___ since my childhood, when my music-loving parents took me to the festivals. What is very important: This song contest has ___36___ nothing to do with commerce and marketing, as one otherwise ___37___ it from television.\nIt is only ___38___ having fun and singing! The romantic castle alone is worth a trip, even ___39___ you only want to listen to the other singers.\nLet me hear from you ___40___!\n\nSee you then, warm regards from Saarbrücken\nAstrid",
+      "vocabulary": [
+        {
+          "de": "der Wettbewerb",
+          "en": "the competition / contest"
+        },
+        {
+          "de": "die Erinnerung",
+          "en": "the memory"
+        },
+        {
+          "de": "die Vermarktung",
+          "en": "the marketing / commercialization"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 31,
+        "correct_answer": "j",
+        "explanation": "Präteritum von „müssen“ in der 1. Person Singular mit dem Infinitiv „denken“ am Ende: „...und musste gleich an euch ... denken.“"
+      },
+      {
+        "number": 32,
+        "correct_answer": "c",
+        "explanation": "Der Brief richtet sich an zwei Personen (Benny und Verena), daher: „an euch beide denken“."
+      },
+      {
+        "number": 33,
+        "correct_answer": "e",
+        "explanation": "Relativpronomen im Akkusativ Plural, bezogen auf „wunderbare Abende“: „Es waren doch wunderbare Abende, die wir im letzten Urlaub ... verbracht haben.“"
+      },
+      {
+        "number": 34,
+        "correct_answer": "l",
+        "explanation": "Die feste Wendung für einen Vorschlag lautet: „Wie wäre es, hättet ihr nicht mal Lust...?“ (Konjunktiv II von „sein“)."
+      },
+      {
+        "number": 35,
+        "correct_answer": "k",
+        "explanation": "Zur Betonung einer lange andauernden Zeitspanne mit „seit“: „schon seit meiner Kindheit“."
+      },
+      {
+        "number": 36,
+        "correct_answer": "o",
+        "explanation": "Verstärkung der Verneinung „nichts“: „überhaupt nichts“ (= gar nichts)."
+      },
+      {
+        "number": 37,
+        "correct_answer": "i",
+        "explanation": "3. Person Singular Präsens passend zum Subjekt „man“: „wie man es sonst aus dem Fernsehen kennt“."
+      },
+      {
+        "number": 38,
+        "correct_answer": "d",
+        "explanation": "Die feste Verbindung lautet „es geht darum, + Infinitiv mit zu“: „Es geht nur darum, Spaß zu haben und zu singen!“"
+      },
+      {
+        "number": 39,
+        "correct_answer": "m",
+        "explanation": "Konzessive Nebensatzkonjunktion „auch wenn“ (= selbst wenn): „auch wenn ihr nur den anderen Sängern zuhören wollt.“"
+      },
+      {
+        "number": 40,
+        "correct_answer": "b",
+        "explanation": "Feste Grußformel am Briefende: „Lasst bald was von euch hören!“"
+      }
+    ]
   },
   "hoerverstehen_teil_1": {
-    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören diese Texte nur einmal. Entscheiden Sie beim Hören, ob die Aussagen 41–45 richtig (+) oder falsch (-) sind.",
+    "instructions": "Sie hören die Meinungen von fünf Personen. Sie hören die Meinungen nur einmal. Entscheiden Sie beim Hören, ob die Aussagen 41–45 richtig (+) oder falsch (–) sind.",
     "transcripts": [
       {
         "number": 41,
-        "text": "Nummer 41: Ich gehe nach der Arbeit meistens direkt in den Supermarkt an der Ecke. Dort bekomme ich alles, was ich brauche, unter einem Dach und das Geschäft hat bis 22 Uhr geöffnet. Auf den Wochenmarkt schaffe ich es unter der Woche leider nie, weil ich bis abends im Büro sitze.",
-        "text_en": "Number 41: After work I usually go straight to the supermarket on the corner. There I get everything I need under one roof and the store is open until 10 p.m. Unfortunately, I never make it to the weekly market during the week because I'm at the office until the evening.",
+        "text": "Früher habe ich tatsächlich fast jeden Tag Fleisch gegessen, aber in letzter Zeit esse ich viel weniger davon. Ich merke, dass es mir besser geht, wenn ich mehr Gemüse und Obst esse. Fleisch gibt es jetzt nur noch selten bei mir zu Hause. Das ist eine gute Veränderung für mich.",
+        "text_en": "In the past I actually ate meat almost every day, but lately I eat much less of it. I notice that I feel better when I eat more vegetables and fruit. Meat is now only rarely served at my home. That is a good change for me.",
         "vocabulary": [
-          { "de": "unter einem Dach", "en": "under one roof" },
-          { "de": "unter der Woche", "en": "during the week" }
+          {
+            "de": "tatsächlich",
+            "en": "actually / indeed"
+          },
+          {
+            "de": "die Veränderung",
+            "en": "the change"
+          }
         ]
       },
       {
         "number": 42,
-        "text": "Nummer 42: Für mich gibt es nichts Schöneres, als am Samstagvormittag über den Wochenmarkt zu bummeln. Das Obst und Gemüse kommt direkt von den Bauern aus der Umgebung und ist viel frischer als im Supermarkt. Außerdem trifft man dort immer nette Leute zum Reden.",
-        "text_en": "Number 42: For me, there is nothing nicer than strolling through the weekly market on a Saturday morning. The fruit and vegetables come directly from local farmers and are much fresher than in the supermarket. Plus, you always meet nice people to chat with there.",
+        "text": "Ich gehe gerne im Supermarkt einkaufen, weil ich überzeugt bin, dass die Lebensmittel dort gut kontrolliert werden. Es gibt viele Regeln und die Produkte werden geprüft. Das gibt mir ein gutes Gefühl, wenn ich Obst, Gemüse oder andere Sachen einkaufe. Ich habe Vertrauen in die Qualität.",
+        "text_en": "I like shopping in the supermarket because I am convinced that the groceries there are well inspected. There are many rules and the products are checked. That gives me a good feeling when I buy fruit, vegetables, or other things. I have confidence in the quality.",
         "vocabulary": [
-          { "de": "bummeln", "en": "to stroll" },
-          { "de": "die Umgebung", "en": "surroundings / local area" }
+          {
+            "de": "überzeugt sein",
+            "en": "to be convinced"
+          },
+          {
+            "de": "kontrollieren / prüfen",
+            "en": "to inspect / check"
+          },
+          {
+            "de": "das Vertrauen",
+            "en": "the trust / confidence"
+          }
         ]
       },
       {
         "number": 43,
-        "text": "Nummer 43: Ich kaufe meine Lebensmittel seit einem Jahr nur noch im Bioladen. Das ist zwar etwas teurer, aber mir ist es sehr wichtig, dass Obst, Gemüse und Fleisch aus ökologischer Landwirtschaft stammen und keine chemischen Spritzmittel verwendet werden.",
-        "text_en": "Number 43: For a year now, I have only been buying my groceries at the organic store. It is a bit more expensive, but it is very important to me that fruit, vegetables, and meat come from organic farming and that no chemical pesticides are used.",
+        "text": "Eigentlich mache ich mir keine großen Sorgen um Krankheiten wegen der Lebensmittel. Ich denke, das meiste Essen in den Geschäften ist frisch und sicher. Ich hatte noch nie Probleme mit verdorbenen Sachen und vertraue darauf, dass alles in Ordnung ist. Angst habe ich deswegen nicht wirklich.",
+        "text_en": "Actually, I don't worry much about illnesses because of food. I think most of the food in the stores is fresh and safe. I have never had any problems with spoiled items and trust that everything is fine. So I'm not really afraid because of that.",
         "vocabulary": [
-          { "de": "der Bioladen", "en": "organic food store" },
-          { "de": "ökologische Landwirtschaft", "en": "organic farming" }
+          {
+            "de": "sich Sorgen machen",
+            "en": "to worry"
+          },
+          {
+            "de": "verdorben",
+            "en": "spoiled"
+          }
         ]
       },
       {
         "number": 44,
-        "text": "Nummer 44: Bei uns in der Familie muss es beim Einkaufen vor allem schnell und günstig gehen. Mit drei Kindern haben wir ein knappes Budget, deshalb kaufen wir fast alles beim Discounter. Auf große Marken legen wir keinen Wert, die Hausmarken schmecken genauso gut.",
-        "text_en": "Number 44: In our family, shopping above all has to be fast and cheap. With three children we have a tight budget, so we buy almost everything at the discount store. We don't care about big brands; the store brands taste just as good.",
+        "text": "Die Atmosphäre auf dem Wochenmarkt finde ich richtig schön. Es ist immer lebendig, die Leute sind freundlich und ich finde viele frische Produkte. Dort einzukaufen macht einfach mehr Spaß als im Supermarkt. Ich treffe auch oft Bekannte und genieße die Zeit beim Einkaufen draußen.",
+        "text_en": "I find the atmosphere at the weekly market really nice. It is always lively, the people are friendly, and I find many fresh products. Shopping there is simply more fun than in the supermarket. I also often meet acquaintances and enjoy the time shopping outdoors.",
         "vocabulary": [
-          { "de": "knappes Budget", "en": "tight budget" },
-          { "de": "Wert legen auf", "en": "to attach importance to" }
+          {
+            "de": "die Atmosphäre",
+            "en": "the atmosphere"
+          },
+          {
+            "de": "lebendig",
+            "en": "lively"
+          }
         ]
       },
       {
         "number": 45,
-        "text": "Nummer 45: Ich bestelle meine Lebensmittel inzwischen oft im Internet und lasse sie mir nach Hause liefern. Da ich kein Auto habe, muss ich so keine schweren Wasserkisten und Einkaufstaschen mehr in den vierten Stock tragen. Nur frisches Brot hole ich noch beim Bäcker.",
-        "text_en": "Number 45: Nowadays I often order my groceries online and have them delivered to my home. Since I don't have a car, I no longer have to carry heavy crates of water and shopping bags up to the fourth floor. Only fresh bread I still get from the bakery.",
+        "text": "Ich habe das Gefühl, dass viele Menschen viel zu viel Geld für unwichtige Dinge ausgeben. Überall sieht man neue Sachen, die man angeblich braucht, aber am Ende benutzt man sie kaum. Ich versuche nur das zu kaufen, was ich wirklich brauche. So spare ich Geld für wichtige Sachen.",
+        "text_en": "I have the feeling that many people spend far too much money on unimportant things. Everywhere you see new things that you supposedly need, but in the end you hardly use them. I try to buy only what I really need. That way I save money for important things.",
         "vocabulary": [
-          { "de": "liefern lassen", "en": "to have delivered" },
-          { "de": "die Wasserkiste", "en": "crate of water bottles" }
+          {
+            "de": "unwichtig",
+            "en": "unimportant"
+          },
+          {
+            "de": "angeblich",
+            "en": "supposedly / allegedly"
+          }
         ]
       }
     ],
     "questions": [
       {
         "number": 41,
-        "statement": "Der Sprecher kauft unter der Woche regelmäßig auf dem Wochenmarkt ein.",
-        "statement_en": "The speaker regularly shops at the weekly market during the week.",
-        "correct_answer": "-",
-        "explanation": "Er geht nach der Arbeit in den Supermarkt und schafft es unter der Woche nie auf den Wochenmarkt."
+        "statement": "Der Sprecher isst nicht mehr so viel Fleisch wie früher.",
+        "statement_en": "The speaker no longer eats as much meat as in the past.",
+        "correct_answer": "+",
+        "explanation": "Der Sprecher sagt: „Früher habe ich tatsächlich fast jeden Tag Fleisch gegessen, aber in letzter Zeit esse ich viel weniger davon.“"
       },
       {
         "number": 42,
-        "statement": "Die Sprecherin schätzt auf dem Wochenmarkt besonders die Frische der Produkte.",
-        "statement_en": "The speaker particularly appreciates the freshness of the products at the weekly market.",
+        "statement": "Die Sprecherin ist überzeugt, dass die Lebensmittel in den Supermärkten kontrolliert werden.",
+        "statement_en": "The speaker is convinced that the groceries in the supermarkets are inspected.",
         "correct_answer": "+",
-        "explanation": "Sie sagt, dass Obst und Gemüse direkt von den Bauern aus der Umgebung kommen und viel frischer sind."
+        "explanation": "Die Sprecherin sagt: „Ich gehe gerne im Supermarkt einkaufen, weil ich überzeugt bin, dass die Lebensmittel dort gut kontrolliert werden.“"
       },
       {
         "number": 43,
-        "statement": "Dem Sprecher sind niedrige Preise beim Einkaufen am wichtigsten.",
-        "statement_en": "Low prices are most important to the speaker when shopping.",
+        "statement": "Die Sprecherin hat Angst vor Krankheiten, weil die Lebensmittel so schlecht sind.",
+        "statement_en": "The speaker is afraid of illnesses because the food is so bad.",
         "correct_answer": "-",
-        "explanation": "Er kauft im Bioladen ein, obwohl es teurer ist, weil ihm ökologische Landwirtschaft wichtig ist."
+        "explanation": "Die Sprecherin sagt: „Eigentlich mache ich mir keine großen Sorgen um Krankheiten wegen der Lebensmittel. Ich denke, das meiste Essen in den Geschäften ist frisch und sicher... Angst habe ich deswegen nicht wirklich.“"
       },
       {
         "number": 44,
-        "statement": "Die Sprecherin achtet beim Lebensmitteleinkauf sehr auf den Preis.",
-        "statement_en": "The speaker pays close attention to price when buying groceries.",
+        "statement": "Dem Sprecher gefällt die Atmosphäre auf dem Wochenmarkt.",
+        "statement_en": "The speaker likes the atmosphere at the weekly market.",
         "correct_answer": "+",
-        "explanation": "Mit drei Kindern hat die Familie ein knappes Budget und kauft günstig beim Discounter ein."
+        "explanation": "Der Sprecher sagt: „Die Atmosphäre auf dem Wochenmarkt finde ich richtig schön.“"
       },
       {
         "number": 45,
-        "statement": "Der Sprecher bestellt sich seine Getränke und Lebensmittel im Internet.",
-        "statement_en": "The speaker orders his drinks and groceries on the Internet.",
+        "statement": "Der Sprecher findet, dass die meisten Menschen zu viel Geld für unwichtige Dinge ausgeben.",
+        "statement_en": "The speaker thinks that most people spend too much money on unimportant things.",
         "correct_answer": "+",
-        "explanation": "Er bestellt Lebensmittel und schwere Wasserkisten online und lässt sie nach Hause liefern."
+        "explanation": "Der Sprecher sagt: „Ich habe das Gefühl, dass viele Menschen viel zu viel Geld für unwichtige Dinge ausgeben.“"
       }
     ]
   },
   "hoerverstehen_teil_2": {
-    "instructions": "Sie hören nun ein Gespräch. Dazu sollen Sie zehn Aufgaben lösen. Sie hören das Gespräch zweimal. Entscheiden Sie beim Hören, ob die Aussagen 46–55 richtig (+) oder falsch (-) sind.",
+    "instructions": "Sie hören ein Gespräch. Sie hören das Gespräch zweimal. Entscheiden Sie beim Hören, ob die Aussagen 46–55 richtig (+) oder falsch (–) sind.",
     "interview_transcript": {
-      "text": "Moderator: Hallo zusammen! Immer mehr Unternehmen melden ihre Mitarbeiterinnen und Mitarbeiter zu sogenannten Firmenläufen an. Bei mir im Studio ist heute Lukas Weber, der in seiner Firma gerade ein Laufteam für den nächsten Stadtlauf über fünf Kilometer organisiert hat. Herr Weber, wie kam es dazu?\nLukas Weber: Hallo! Die Idee kam eigentlich von unserer Geschäftsführung. Viele von uns sitzen den ganzen Tag im Büro vor dem Computer und bewegen sich viel zu wenig. Da hat die Firma beschlossen, die Startgebühren und sogar einheitliche Laufshirts für alle zu bezahlen, die beim Firmenlauf mitmachen wollen.\nModerator: Und waren Ihre Kolleginnen und Kollegen sofort begeistert?\nLukas Weber: Am Anfang waren viele skeptisch. Einige meinten, sie seien völlig unsportlich und würden keine fünf Kilometer schaffen. Aber wir haben dann betont, dass es überhaupt nicht um Bestzeiten oder ums Gewinnen geht, sondern um den gemeinsamen Spaß. Man darf die Strecke sogar schnell gehen, also walken.\nModerator: Trainieren Sie denn auch zusammen?\nLukas Weber: Ja, wir treffen uns seit zwei Monaten jeden Mittwoch direkt nach Feierabend für eine Stunde im Park neben dem Bürogebäude. Ein Kollege, der früher Leichtathletik gemacht hat, leitet das Training ehrenamtlich. Er zeigt uns Aufwärmübungen und achtet darauf, dass niemand zu schnell läuft.\nModerator: Hat das gemeinsame Training auch etwas am Arbeitsklima verändert?\nLukas Weber: Auf jeden Fall! Beim Laufen lernt man Kollegen aus ganz anderen Abteilungen kennen, mit denen man sonst nur am Telefon oder per E-Mail zu tun hat. Sogar unser Abteilungsleiter läuft in Turnschuhen mit – da redet man plötzlich ganz ungezwungen miteinander.\nModerator: Und was passiert nach dem Lauf?\nLukas Weber: Im Zielbereich gibt es ein großes Festzelt für alle teilnehmenden Firmen mit Musik, alkoholfreiem Bier und einem gesunden Buffet. Darauf freuen sich die meisten fast noch mehr als auf den Lauf selbst!",
-      "text_en": "Host: Hello everyone! More and more companies are registering their employees for so-called corporate runs. With me in the studio today is Lukas Weber, who just organized a running team in his company for the next 5K city run. Mr. Weber, how did that come about?\nLukas Weber: Hello! The idea actually came from our management. Many of us sit in the office in front of the computer all day and get far too little exercise. So the company decided to pay the entry fees and even matching running shirts for everyone who wants to participate in the corporate run.\nHost: And were your colleagues immediately enthusiastic?\nLukas Weber: At the beginning many were skeptical. Some said they were completely unathletic and wouldn't manage five kilometers. But we emphasized that it's not at all about best times or winning, but about having fun together. You're even allowed to walk the route briskly.\nHost: Do you also train together?\nLukas Weber: Yes, for two months now we've been meeting every Wednesday right after work for an hour in the park next to the office building. A colleague who used to do track and field leads the training voluntarily. He shows us warm-up exercises and makes sure nobody runs too fast.\nHost: Has training together also changed the working atmosphere?\nLukas Weber: Definitely! While running, you get to know colleagues from completely different departments whom you otherwise only deal with by phone or email. Even our department head runs along in sneakers—suddenly you talk to each other very casually.\nHost: And what happens after the run?\nLukas Weber: In the finish area there is a big festival tent for all participating companies with music, non-alcoholic beer, and a healthy buffet. Most people are looking forward to that almost more than to the run itself!",
+      "text": "Moderator: Herzlich willkommen zu unserer heutigen Radiosendung. Heute sprechen wir über den berühmten JP-Morgan-Firmenlauf. Was macht diesen Lauf so besonders? Wer kann eigentlich teilnehmen und was erleben die Teilnehmer dort? Jasmin berichtet uns heute von ihren persönlichen Erfahrungen, gibt spannende Einblicke und erzählt, warum dieses Event für viele ein Highlight im Jahr ist. Jasmin, willkommen! Kannst du dich noch erinnern, wie es beim JP-Morgan-Firmenlauf war, als du das erste Mal mitgemacht hast?\n\nJasmin: Natürlich. Damals war ich ziemlich neugierig, denn ich habe so viele Kolleginnen und Kollegen getroffen, die ich vorher nie gesehen hatte. Für mich war das wirklich eine neue Erfahrung.\n\nModerator: Und waren dort Menschen aus unterschiedlichen Ländern am Start?\n\nJasmin: Es war echt beeindruckend. Man hat ganz verschiedene Sprachen gehört, weil viele Läuferinnen und Läufer aus anderen Ländern dabei waren, nicht nur aus Deutschland.\n\nModerator: Muss man eigentlich regelmäßig Sport machen, um teilnehmen zu können?\n\nJasmin: Es reicht vollkommen, wenn man einfach Lust auf Bewegung hat. Bei uns sind sogar Leute mitgelaufen, die sonst keinen Sport treiben. Es geht vor allem um den Spaß und das gemeinsame Erlebnis.\n\nModerator: Sag mal, war deine Tochter auch schon bei dem Lauf dabei?\n\nJasmin: Das war wirklich schön für mich, denn letztes Jahr stand ich plötzlich mit meiner Tochter am Start. Ihre Firma war ebenfalls angemeldet und wir konnten zusammen laufen. Das war ein besonderes Erlebnis.\n\nModerator: Weißt du noch, wie lange du schon dabei bist? Manche sagen, du wärst erst vor zwei Jahren eingestiegen.\n\nJasmin: Es kommt mir schon viel länger vor. Ich bin schon vor einigen Jahren zum ersten Mal mitgelaufen. Dazwischen habe ich nur ein Jahr Pause gemacht, als ich verletzt war.\n\nModerator: Wird dieser Firmenlauf eigentlich nur in Deutschland organisiert?\n\nJasmin: Ich glaube, das große Event gibt es hier, aber ich habe gehört, dass auch in anderen Ländern ähnliche Läufe stattfinden. Trotzdem ist Frankfurt ganz besonders, weil dort alles zusammenkommt.\n\nModerator: Hattest du nach deinem ersten Firmenlauf ein anderes Gefühl in der Firma?\n\nJasmin: Nach dem Lauf fühlte ich mich direkt viel mehr als Teil des Teams. Es war auf einmal viel leichter, auf Kollegen zuzugehen und Kontakte zu knüpfen. Das hat mir wirklich geholfen.\n\nModerator: Sind die Chefs immer mit dabei oder können die auch einfach nur zuschauen?\n\nJasmin: Bei uns hat der Chef meistens am Rand gestanden und uns angefeuert. Manche finden das Laufen toll, andere unterstützen lieber von außen. Jeder darf selbst entscheiden.\n\nModerator: Die T-Shirts mit dem Logo – erkennt man daran wirklich das eigene Team?\n\nJasmin: Die Firmen-T-Shirts waren für mich das Highlight. Es war sofort klar, wer alles zur eigenen Firma gehört. Das hat das Gemeinschaftsgefühl noch stärker gemacht.\n\nModerator: Und wie ist das mit den Kosten? Muss jeder sein Startgeld selbst bezahlen?\n\nJasmin: Bei dieser Veranstaltung muss jeder Teilnehmer die Startgebühr selbst bezahlen. Die Firmen übernehmen lediglich die Anmeldung, das T-Shirt, den Transport und einige organisatorische Leistungen. Die Bezahlung der Startgebühr liegt vollständig in der Verantwortung der Mitarbeitenden und das Unternehmen leistet hierfür keine Zahlung.\n\nModerator: Würdest du anderen so einen Firmenlauf empfehlen?\n\nJasmin: Ich finde, es lohnt sich auf jeden Fall. Man erlebt etwas Neues, bewegt sich an der frischen Luft und kommt mit vielen Leuten ins Gespräch. Für mich ist das jedes Jahr ein kleines Highlight.",
+      "text_en": "Host: Welcome to today's radio show. Today we are talking about the famous JP Morgan Corporate Challenge run. What makes this run so special? Who can actually participate and what do the participants experience there? Jasmin tells us today about her personal experiences, gives exciting insights, and explains why this event is a highlight of the year for many. Jasmin, welcome! Do you still remember what it was like at the JP Morgan Corporate Challenge run when you took part for the first time?\n\nJasmin: Of course. Back then I was quite curious, because I met so many colleagues whom I had never seen before. For me, that was really a new experience.\n\nHost: And were there people from different countries at the start?\n\nJasmin: It was really impressive. You heard very different languages because many runners from other countries were there, not just from Germany.\n\nHost: Do you actually have to do sports regularly to be able to participate?\n\nJasmin: It is completely enough if you simply feel like getting some exercise. At our company, even people who don't otherwise do sports ran along. It is mainly about fun and the shared experience.\n\nHost: Tell me, has your daughter also been at the run already?\n\nJasmin: That was really nice for me, because last year I suddenly stood at the starting line with my daughter. Her company was also registered and we were able to run together. That was a special experience.\n\nHost: Do you still remember how long you've been participating? Some say you only joined two years ago.\n\nJasmin: It feels much longer to me. I ran for the first time several years ago. In between I only took a one-year break when I was injured.\n\nHost: Is this corporate run actually only organized in Germany?\n\nJasmin: I think the big event is here, but I have heard that similar runs also take place in other countries. Nevertheless, Frankfurt is very special because everything comes together there.\n\nHost: Did you have a different feeling in the company after your first corporate run?\n\nJasmin: After the run I immediately felt much more like part of the team. Suddenly it was much easier to approach colleagues and make contacts. That really helped me.\n\nHost: Are the bosses always taking part or can they also just watch?\n\nJasmin: At our company, the boss mostly stood on the sidelines and cheered us on. Some think running is great, others prefer to support from the outside. Everyone is allowed to decide for themselves.\n\nHost: The T-shirts with the logo – can you really recognize your own team by them?\n\nJasmin: The company T-shirts were the highlight for me. It was immediately clear who belongs to one's own company. That made the sense of community even stronger.\n\nHost: And how is it with the costs? Does everyone have to pay their entry fee themselves?\n\nJasmin: At this event, every participant has to pay the entry fee themselves. The companies only take care of registration, the T-shirt, transport, and some organizational services. Paying the entry fee is completely the responsibility of the employees and the company makes no payment for this.\n\nHost: Would you recommend such a corporate run to others?\n\nJasmin: I think it is definitely worth it. You experience something new, get exercise in the fresh air, and get into conversation with many people. For me, it is a little highlight every year.",
       "vocabulary": [
-        { "de": "der Firmenlauf", "en": "corporate run / company race" },
-        { "de": "die Startgebühr", "en": "entry fee" },
-        { "de": "das Arbeitsklima", "en": "working atmosphere" },
-        { "de": "ungezwungen", "en": "casual / informal" }
+        {
+          "de": "der Firmenlauf",
+          "en": "the corporate run"
+        },
+        {
+          "de": "anfeuern",
+          "en": "to cheer on"
+        },
+        {
+          "de": "Kontakte knüpfen",
+          "en": "to make contacts"
+        },
+        {
+          "de": "das Erkennungszeichen",
+          "en": "the identifying mark / sign of recognition"
+        },
+        {
+          "de": "das Startgeld / die Startgebühr",
+          "en": "the entry fee"
+        }
       ]
     },
     "questions": [
       {
         "number": 46,
-        "statement": "Herr Weber hatte als Erster die Idee zur Teilnahme am Firmenlauf.",
-        "statement_en": "Mr. Weber was the first to have the idea to participate in the corporate run.",
-        "correct_answer": "-",
-        "explanation": "Die Idee kam von der Geschäftsführung der Firma."
+        "statement": "Beim JP-Morgan-Firmenlauf trifft man viele Kollegen zum ersten Mal.",
+        "statement_en": "At the JP Morgan Corporate Challenge run, you meet many colleagues for the first time.",
+        "correct_answer": "+",
+        "explanation": "Jasmin sagt: „...denn ich habe so viele Kolleginnen und Kollegen getroffen, die ich vorher nie gesehen hatte.“"
       },
       {
         "number": 47,
-        "statement": "Die Mitarbeiter müssen die Anmeldegebühr für den Lauf selbst bezahlen.",
-        "statement_en": "Employees have to pay the registration fee for the run themselves.",
-        "correct_answer": "-",
-        "explanation": "Die Firma bezahlt die Startgebühren und die Laufshirts für alle Teilnehmer."
+        "statement": "Die Läufer und Läuferinnen kommen aus dem In- und Ausland.",
+        "statement_en": "The runners come from Germany and abroad.",
+        "correct_answer": "+",
+        "explanation": "Jasmin sagt: „Man hat ganz verschiedene Sprachen gehört, weil viele Läuferinnen und Läufer aus anderen Ländern dabei waren, nicht nur aus Deutschland.“"
       },
       {
         "number": 48,
-        "statement": "Die Laufstrecke beim Firmenlauf ist fünf Kilometer lang.",
-        "statement_en": "The running route at the corporate run is five kilometers long.",
-        "correct_answer": "+",
-        "explanation": "Es handelt sich um einen Stadtlauf über fünf Kilometer."
+        "statement": "Nur wer aktiv Sport treibt, kann beim JP-Morgan-Firmenlauf mitmachen.",
+        "statement_en": "Only those who actively do sports can take part in the JP Morgan Corporate Challenge run.",
+        "correct_answer": "-",
+        "explanation": "Jasmin sagt: „Es reicht vollkommen, wenn man einfach Lust auf Bewegung hat. Bei uns sind sogar Leute mitgelaufen, die sonst keinen Sport treiben.“"
       },
       {
         "number": 49,
-        "statement": "Beim Firmenlauf dürfen nur gut trainierte Läufer mitmachen.",
-        "statement_en": "Only well-trained runners are allowed to participate in the corporate run.",
-        "correct_answer": "-",
-        "explanation": "Es geht nicht um Bestzeiten; auch Unsportliche können mitmachen und die Strecke sogar walken."
+        "statement": "Jasmins Tochter war bei dem Lauf auch schon dabei.",
+        "statement_en": "Jasmin's daughter has also already been at the run.",
+        "correct_answer": "+",
+        "explanation": "Jasmin erzählt: „...denn letztes Jahr stand ich plötzlich mit meiner Tochter am Start. Ihre Firma war ebenfalls angemeldet und wir konnten zusammen laufen.“"
       },
       {
         "number": 50,
-        "statement": "Das Laufteam trainiert einmal pro Woche nach der Arbeit.",
-        "statement_en": "The running team trains once a week after work.",
-        "correct_answer": "+",
-        "explanation": "Sie treffen sich jeden Mittwoch direkt nach Feierabend im Park."
+        "statement": "Jasmin hat vor zwei Jahren zum ersten Mal am JP-Morgan-Firmenlauf teilgenommen.",
+        "statement_en": "Jasmin took part in the JP Morgan Corporate Challenge run for the first time two years ago.",
+        "correct_answer": "-",
+        "explanation": "Jasmin sagt: „Ich bin schon vor einigen Jahren zum ersten Mal mitgelaufen. Dazwischen habe ich nur ein Jahr Pause gemacht, als ich verletzt war.“"
       },
       {
         "number": 51,
-        "statement": "Die Firma hat einen professionellen Fitnesstrainer von außerhalb bezahlt.",
-        "statement_en": "The company paid an outside professional fitness trainer.",
+        "statement": "Der JP-Morgan-Firmenlauf findet nur in Deutschland statt.",
+        "statement_en": "The JP Morgan Corporate Challenge run only takes place in Germany.",
         "correct_answer": "-",
-        "explanation": "Ein Kollege, der früher Leichtathletik gemacht hat, leitet das Training ehrenamtlich."
+        "explanation": "Jasmin sagt: „...aber ich habe gehört, dass auch in anderen Ländern ähnliche Läufe stattfinden.“"
       },
       {
         "number": 52,
-        "statement": "Durch das Training lernen sich Mitarbeiter aus verschiedenen Abteilungen besser kennen.",
-        "statement_en": "Through the training, employees from different departments get to know each other better.",
+        "statement": "Jasmin hat sich nach ihrem ersten Lauf nicht mehr so allein gefühlt.",
+        "statement_en": "Jasmin no longer felt so alone after her first run.",
         "correct_answer": "+",
-        "explanation": "Man lernt beim Laufen Kollegen aus anderen Abteilungen persönlich kennen."
+        "explanation": "Jasmin sagt: „Nach dem Lauf fühlte ich mich direkt viel mehr als Teil des Teams. Es war auf einmal viel leichter, auf Kollegen zuzugehen und Kontakte zu knüpfen.“"
       },
       {
         "number": 53,
-        "statement": "Der Abteilungsleiter lehnt den Firmenlauf ab und nimmt nicht teil.",
-        "statement_en": "The department head rejects the corporate run and does not participate.",
+        "statement": "Die Chefs müssen bei dem Lauf auch dabei sein.",
+        "statement_en": "The bosses also have to be present at the run.",
         "correct_answer": "-",
-        "explanation": "Sogar der Abteilungsleiter läuft beim Training mit."
+        "explanation": "Jasmin sagt: „Bei uns hat der Chef meistens am Rand gestanden und uns angefeuert... Jeder darf selbst entscheiden.“"
       },
       {
         "number": 54,
-        "statement": "Nach dem Lauf findet im Zielbereich eine gemeinsame Feier statt.",
-        "statement_en": "After the run, a joint celebration takes place in the finish area.",
+        "statement": "Die T-Shirts sind ein Erkennungszeichen.",
+        "statement_en": "The T-shirts are an identifying mark.",
         "correct_answer": "+",
-        "explanation": "Im Zielbereich gibt es ein großes Festzelt mit Musik, Getränken und Buffet."
+        "explanation": "Jasmin sagt: „Die Firmen-T-Shirts waren für mich das Highlight. Es war sofort klar, wer alles zur eigenen Firma gehört.“"
       },
       {
         "number": 55,
-        "statement": "Die Teilnehmer gehen direkt nach dem Zieleinlauf ohne Pause nach Hause.",
-        "statement_en": "Participants go straight home without a break right after crossing the finish line.",
+        "statement": "Die Firmen müssen das Startgeld bezahlen.",
+        "statement_en": "The companies have to pay the entry fee.",
         "correct_answer": "-",
-        "explanation": "Die meisten freuen sich auf das anschließende Fest im Zelt fast noch mehr als auf den Lauf."
+        "explanation": "Jasmin sagt: „Bei dieser Veranstaltung muss jeder Teilnehmer die Startgebühr selbst bezahlen... Die Bezahlung der Startgebühr liegt vollständig in der Verantwortung der Mitarbeitenden und das Unternehmen leistet hierfür keine Zahlung.“"
       }
     ]
   },
   "hoerverstehen_teil_3": {
-    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören jeden Text zweimal. Entscheiden Sie beim Hören, ob die Aussagen 56–60 richtig (+) oder falsch (-) sind.",
+    "instructions": "Sie hören fünf kurze Texte. Sie hören die Texte zweimal. Entscheiden Sie beim Hören, ob die Aussagen 56–60 richtig (+) oder falsch (–) sind.",
     "transcripts": [
       {
         "number": 56,
-        "text": "Nummer 56: Guten Tag, hier ist die Buchhandlung Schmitt in der Wilhelmstraße. Sie hatten bei uns das Kochbuch 'Italienische Küche' bestellt. Das Buch ist heute angekommen und liegt für Sie an der Kasse im Erdgeschoss bereit. Sie können es von Montag bis Samstag zwischen 9 und 19 Uhr abholen.",
-        "text_en": "Number 56: Hello, this is the Schmitt bookstore on Wilhelmstraße. You ordered the cookbook 'Italian Cuisine' from us. The book arrived today and is ready for you at the cash desk on the ground floor. You can pick it up Monday through Saturday between 9 a.m. and 7 p.m.",
+        "text": "Sie hören eine Durchsage für eine Buchhandlung im Radio. Das Buch, das Sie gestern bestellt haben, können Sie heute schon abholen. Die Buchhandlung ist ab dem Morgen geöffnet und die Mitarbeiter helfen Ihnen gerne weiter. Sie müssen nicht auf eine bestimmte Uhrzeit warten. Ihr Buch liegt schon bereit. Kommen Sie einfach vorbei und holen Sie es ab.",
+        "text_en": "You are listening to a radio announcement for a bookstore. You can already pick up the book you ordered yesterday today. The bookstore is open from the morning and the staff will be happy to help you. You don't have to wait for a specific time. Your book is already ready. Just drop by and pick it up.",
         "vocabulary": [
-          { "de": "die Buchhandlung", "en": "bookstore" },
-          { "de": "bereitliegen", "en": "to be ready for pickup" }
+          {
+            "de": "die Buchhandlung",
+            "en": "the bookstore"
+          },
+          {
+            "de": "abholen",
+            "en": "to pick up / collect"
+          },
+          {
+            "de": "bereitliegen",
+            "en": "to be ready / waiting"
+          }
         ]
       },
       {
         "number": 57,
-        "text": "Nummer 57: Eine Information für die Fahrgäste der Straßenbahnlinie 4: Wegen Bauarbeiten in der Wilhelmstraße fahren die Bahnen an diesem Wochenende nur bis zum Marktplatz. Vom Marktplatz bis zum Hauptbahnhof benutzen Sie bitte die Ersatzbusse an der Haltestelle gegenüber dem Rathaus.",
-        "text_en": "Number 57: Information for passengers on tram line 4: Due to construction work on Wilhelmstraße, trams are only running as far as Marktplatz this weekend. From Marktplatz to the main train station, please use the replacement buses at the stop opposite City Hall.",
+        "text": "Sie hören eine Durchsage über eine Firma im Radio. Wenn Sie unsere Firma suchen, finden Sie uns in der Wilhelmstraße. Unser Büro liegt direkt an der Straße, ganz in der Nähe der Bushaltestelle. Viele Besucher finden uns leicht. Falls Sie eine Wegbeschreibung brauchen, können Sie einfach anrufen. Unser Schild ist gut zu sehen. Sie werden uns schnell finden.",
+        "text_en": "You are listening to a radio announcement about a company. If you are looking for our company, you will find us on Wilhelmstraße. Our office is located right on the street, very close to the bus stop. Many visitors find us easily. If you need directions, you can simply call. Our sign is easy to see. You will find us quickly.",
         "vocabulary": [
-          { "de": "die Bauarbeiten", "en": "construction work" },
-          { "de": "der Ersatzbus", "en": "replacement bus" }
+          {
+            "de": "die Wegbeschreibung",
+            "en": "the directions"
+          },
+          {
+            "de": "das Schild",
+            "en": "the sign"
+          }
         ]
       },
       {
         "number": 58,
-        "text": "Nummer 58: Und hier das Wetter für morgen: Im Süden beginnt der Tag noch mit dichten Wolken und einzelnen Regenschauern bei maximal 14 Grad. Am Nachmittag setzt sich aber von Westen her die Sonne durch und am Sonntag erwartet uns überall strahlender Sonnenschein bei bis zu 22 Grad.",
-        "text_en": "Number 58: And here is the weather for tomorrow: In the south the day still begins with thick clouds and scattered rain showers at a maximum of 14 degrees. In the afternoon, however, the sun will break through from the west, and on Sunday bright sunshine at up to 22 degrees awaits us everywhere.",
+        "text": "Sie hören eine Durchsage über den heutigen Film im Kino im Radio. Heute Abend gibt es eine besondere Vorstellung im Kino. Der neue Film von Rainer Bölkow wird um 7 Uhr gezeigt. Wir wollen mit Freunden hingehen. Die Karten kann man online oder an der Kasse kaufen. Das Filmplakat hängt vor dem Kino. Wer nichts verpassen will, sollte rechtzeitig da sein.",
+        "text_en": "You are listening to a radio announcement about today's film at the cinema. Tonight there is a special screening at the cinema. The new film by Rainer Bölkow will be shown at 7 o'clock. We want to go with friends. Tickets can be bought online or at the box office. The movie poster hangs in front of the cinema. Anyone who doesn't want to miss anything should be there on time.",
         "vocabulary": [
-          { "de": "der Regenschauer", "en": "rain shower" },
-          { "de": "sich durchsetzen", "en": "to prevail / break through" }
+          {
+            "de": "die Vorstellung",
+            "en": "the screening / show"
+          },
+          {
+            "de": "rechtzeitig",
+            "en": "on time / in time"
+          }
         ]
       },
       {
         "number": 59,
-        "text": "Nummer 59: Liebe Kunden, beachten Sie heute unser besonderes Jubiläumsangebot in der Sportabteilung im zweiten Stock: Auf alle Laufschuhe und Trainingsanzüge erhalten Sie heute und morgen 20 Prozent Rabatt. Unsere Fachberater helfen Ihnen gern bei der Auswahl der passenden Größe.",
-        "text_en": "Number 59: Dear customers, please note our special anniversary offer today in the sports department on the second floor: Today and tomorrow you receive a 20 percent discount on all running shoes and tracksuits. Our specialist advisors will gladly help you choose the right size.",
+        "text": "Sie hören eine Durchsage im Bordrestaurant des Zuges. Im Zugrestaurant kann man leider keine Zeitung kaufen. Dort gibt es nur Essen und Getränke. Wenn Sie eine Zeitung möchten, müssen Sie sie am Bahnhof oder am Kiosk auf dem Bahnsteig kaufen. Im Restaurant gibt es meistens nur Speisekarten, Getränke und ein paar Snacks, aber keine Zeitungen.",
+        "text_en": "You are listening to an announcement in the train's on-board restaurant. Unfortunately, you cannot buy a newspaper in the train restaurant. There is only food and drinks there. If you would like a newspaper, you have to buy it at the train station or at the kiosk on the platform. In the restaurant there are usually only menus, drinks, and a few snacks, but no newspapers.",
         "vocabulary": [
-          { "de": "das Jubiläumsangebot", "en": "anniversary offer" },
-          { "de": "der Rabatt", "en": "discount" }
+          {
+            "de": "das Zugrestaurant / Bordrestaurant",
+            "en": "the dining car / on-board restaurant"
+          },
+          {
+            "de": "der Bahnsteig",
+            "en": "the platform"
+          }
         ]
       },
       {
         "number": 60,
-        "text": "Nummer 60: Hallo Nina, hier ist Markus. Du, wegen heute Abend: Das neue Restaurant in der Wilhelmstraße ist leider komplett ausgebucht, ich habe keinen Tisch mehr bekommen. Ich habe jetzt stattdessen für 20 Uhr beim Griechen am Stadtpark reserviert. Wir treffen uns dann direkt dort!",
-        "text_en": "Number 60: Hi Nina, this is Markus. Listen, about tonight: The new restaurant on Wilhelmstraße is unfortunately completely booked out, I couldn't get a table. Instead, I reserved for 8 p.m. at the Greek restaurant by the city park. We'll meet right there!",
+        "text": "Sie hören eine Durchsage im Bus auf dem Weg zur Universität. Vom Bahnhof zur Universität dauert es doch etwas länger. Zuerst muss man die U-Bahn nehmen, dann mit dem Bus weiterfahren. Die Fahrt dauert meistens mindestens 15 Minuten, bei Verkehr sogar noch länger. In 5 Minuten schafft man es auf keinen Fall dorthin.",
+        "text_en": "You are listening to an announcement on the bus on the way to the university. From the train station to the university it takes a bit longer after all. First you have to take the subway, then continue by bus. The trip usually takes at least 15 minutes, and even longer in traffic. There is no way you can make it there in 5 minutes.",
         "vocabulary": [
-          { "de": "ausgebucht", "en": "fully booked" },
-          { "de": "stattdessen", "en": "instead" }
+          {
+            "de": "weiterfahren",
+            "en": "to continue driving / riding"
+          },
+          {
+            "de": "auf keinen Fall",
+            "en": "under no circumstances / no way"
+          }
         ]
       }
     ],
     "questions": [
       {
         "number": 56,
-        "statement": "Sie können das bestellte Buch ab heute in der Buchhandlung abholen.",
-        "statement_en": "You can pick up the ordered book at the bookstore starting today.",
-        "correct_answer": "+",
-        "explanation": "Das Buch ist heute angekommen und liegt an der Kasse im Erdgeschoss bereit."
+        "statement": "Das Buch kann erst morgen ab 9 Uhr in der Buchhandlung abgeholt werden.",
+        "statement_en": "The book can only be picked up at the bookstore tomorrow starting at 9 a.m.",
+        "correct_answer": "-",
+        "explanation": "In der Durchsage heißt es: „Das Buch, das Sie gestern bestellt haben, können Sie heute schon abholen... Sie müssen nicht auf eine bestimmte Uhrzeit warten.“"
       },
       {
         "number": 57,
-        "statement": "Die Straßenbahnlinie 4 fährt am Wochenende wegen Bauarbeiten nicht bis zum Hauptbahnhof.",
-        "statement_en": "Tram line 4 does not run to the main station on the weekend due to construction work.",
+        "statement": "Die Firma ist in der Wilhelmstraße.",
+        "statement_en": "The company is on Wilhelmstraße.",
         "correct_answer": "+",
-        "explanation": "Die Bahnen fahren nur bis zum Marktplatz; weiter zum Hauptbahnhof fahren Ersatzbusse."
+        "explanation": "In der Durchsage heißt es direkt: „Wenn Sie unsere Firma suchen, finden Sie uns in der Wilhelmstraße.“"
       },
       {
         "number": 58,
-        "statement": "Morgen Vormittag scheint im Süden überall die Sonne.",
-        "statement_en": "Tomorrow morning the sun will shine everywhere in the south.",
-        "correct_answer": "-",
-        "explanation": "Im Süden beginnt der Tag mit dichten Wolken und Regenschauern; erst am Nachmittag kommt die Sonne."
+        "statement": "Sie können den Film von Rainer Bölkow heute Abend im Kino sehen.",
+        "statement_en": "You can see the film by Rainer Bölkow at the cinema tonight.",
+        "correct_answer": "+",
+        "explanation": "In der Durchsage heißt es: „Heute Abend gibt es eine besondere Vorstellung im Kino. Der neue Film von Rainer Bölkow wird um 7 Uhr gezeigt.“"
       },
       {
         "number": 59,
-        "statement": "In der Sportabteilung sind heute alle Laufschuhe reduziert.",
-        "statement_en": "In the sports department, all running shoes are discounted today.",
-        "correct_answer": "+",
-        "explanation": "Auf alle Laufschuhe und Trainingsanzüge gibt es heute und morgen 20 Prozent Rabatt."
+        "statement": "Sie können eine Zeitung im Zugrestaurant kaufen.",
+        "statement_en": "You can buy a newspaper in the train restaurant.",
+        "correct_answer": "-",
+        "explanation": "In der Durchsage wird gesagt: „Im Zugrestaurant kann man leider keine Zeitung kaufen. Dort gibt es nur Essen und Getränke.“"
       },
       {
         "number": 60,
-        "statement": "Markus hat für heute Abend einen Tisch im neuen Restaurant in der Wilhelmstraße reserviert.",
-        "statement_en": "Markus reserved a table for tonight at the new restaurant on Wilhelmstraße.",
+        "statement": "Vom Bahnhof zur Universität dauert es mit der U-Bahn und dem Bus nur 5 Minuten.",
+        "statement_en": "From the train station to the university it takes only 5 minutes by subway and bus.",
         "correct_answer": "-",
-        "explanation": "Das Restaurant in der Wilhelmstraße war ausgebucht; er hat stattdessen beim Griechen am Stadtpark reserviert."
+        "explanation": "In der Durchsage heißt es: „Die Fahrt dauert meistens mindestens 15 Minuten, bei Verkehr sogar noch länger. In 5 Minuten schafft man es auf keinen Fall dorthin.“"
       }
     ]
   }
