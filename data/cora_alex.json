@@ -1,5 +1,5 @@
 {
-  "title": "Cora und Alex",
+  "title": "CORA & ALEX",
   "leseverstehen_teil_1": {
     "headings": {
       "a": "Eltern trotz Kritik mit der Schule zufrieden",
@@ -28,205 +28,1182 @@
     "passages": [
       {
         "number": 1,
-        "text": "In vielen Großstädten fehlen an den Grund- und weiterführenden Schulen dringend Lehrkräfte. Um neue Pädagogen in die Region zu holen, hat die Stadtverwaltung nun ein besonderes Programm beschlossen: Wer sich verpflichtet, mindestens fünf Jahre an einer städtischen Schule zu unterrichten, erhält Unterstützung bei der Wohnungssuche sowie einen monatlichen Zuschuss zu den Fahrtkosten.",
-        "text_en": "In many large cities, elementary and secondary schools are urgently lacking teachers. To attract new educators to the region, the city administration has now passed a special program: anyone who commits to teaching at a municipal school for at least five years receives support in finding an apartment as well as a monthly subsidy for travel costs.",
-        "correct_answer": "j",
-        "explanation": "Wegen des Lehrermangels reagiert die Stadt mit einem Förderprogramm für neue Lehrkräfte.",
+        "text": "Sie haben Mitarbeiter, die gern mit dem Fahrrad zur Arbeit kommen? Warum dann nicht mehr E-Bikes leasen statt nur teure Firmenwagen? Gerade in Städten kommt man mit einem E-Bike schneller und bequemer ans Ziel als mit dem Auto. Und Parkplatzprobleme gibt es auch nicht. Sie fördern zudem die Gesundheit Ihrer Mitarbeiter und schonen die Umwelt, und dabei können Sie noch Steuern sparen. Bei der BikeLeasing GmbH bekommen Sie Angebote, die zu Ihnen passen. Melden Sie sich bei uns an, und wir kümmern uns um den Rest.",
+        "text_en": "Do you have employees who like to commute to work by bike? Then why not lease more e-bikes instead of just expensive company cars? Especially in cities, you reach your destination faster and more comfortably with an e-bike than by car. And there are no parking problems either. You also promote the health of your employees and protect the environment, while saving taxes at the same time. At BikeLeasing GmbH you get offers that suit you. Sign up with us and we'll take care of the rest.",
+        "correct_answer": "b",
+        "explanation": "Der Text wirbt dafür, dass Arbeitgeber für ihre Mitarbeiter E-Bikes leasen (Elektromobilität für Angestellte).",
         "vocabulary": [
-          { "de": "die Lehrkraft", "en": "teacher" },
-          { "de": "sich verpflichten", "en": "to commit oneself" },
-          { "de": "der Zuschuss", "en": "subsidy / allowance" }
+          {
+            "de": "der Firmenwagen",
+            "en": "company car"
+          },
+          {
+            "de": "die Umwelt schonen",
+            "en": "to protect/spare the environment"
+          },
+          {
+            "de": "Steuern sparen",
+            "en": "to save taxes"
+          }
         ]
       },
       {
         "number": 2,
-        "text": "Immer mehr Unternehmen stellen ihren Mitarbeiterinnen und Mitarbeitern für den Weg zur Arbeit und für Dienstfahrten Elektroautos oder E-Bikes zur Verfügung. Auf den Firmenparkplätzen werden dafür kostenlose Ladestationen eingerichtet. Damit wollen die Betriebe nicht nur einen Beitrag zum Klimaschutz leisten, sondern auch als moderne Arbeitgeber attraktiv sein.",
-        "text_en": "More and more companies are providing their employees with electric cars or e-bikes for commuting and business trips. Free charging stations are being set up in company parking lots for this purpose. In doing so, companies not only want to contribute to climate protection, but also be attractive as modern employers.",
-        "correct_answer": "b",
-        "explanation": "Firmen fördern Elektromobilität (Elektroautos und E-Bikes) für ihre Angestellten.",
+        "text": "Die Bahn erhöht dieses Jahr die Ticketpreise nicht. Dies soll die Bahn attraktiver machen, sodass mehr Menschen die Züge nutzen. Ob dies wirklich erfolgreich ist, bestreiten manche Experten. Sie argumentieren, dass das Auto in Deutschland zu beliebt ist. Günstiger werden außerdem die Tickets im öffentlichen Nahverkehr, weil dann nicht mehr so viele Berufstätige mit dem Auto zur Arbeit fahren. Ob diese Maßnahmen wirklich erfolgreich sind, wird sich zeigen. Experten sind sich einig: Ein Schritt in die richtige Richtung!",
+        "text_en": "The railway is not raising ticket prices this year. This is intended to make the railway more attractive so that more people use the trains. Some experts dispute whether this will really be successful. They argue that the car is too popular in Germany. In addition, tickets in local public transport are becoming cheaper so that not as many working people drive to work by car. Whether these measures are really successful remains to be seen. Experts agree: A step in the right direction!",
+        "correct_answer": "f",
+        "explanation": "Im Text geht es darum, dass die Bahn in diesem Jahr die Ticketpreise nicht erhöht und Nahverkehrstickets günstiger werden.",
         "vocabulary": [
-          { "de": "der Angestellte", "en": "employee" },
-          { "de": "zur Verfügung stellen", "en": "to make available / provide" },
-          { "de": "die Ladestation", "en": "charging station" }
+          {
+            "de": "erhöhen",
+            "en": "to raise / increase"
+          },
+          {
+            "de": "bestreiten",
+            "en": "to dispute / deny"
+          },
+          {
+            "de": "der Berufstätige",
+            "en": "working person / commuter"
+          }
         ]
       },
       {
         "number": 3,
-        "text": "Damit künftig mehr Pendler ihr Auto zu Hause stehen lassen, investiert das Land in den nächsten Jahren mehrere Milliarden Euro in den Ausbau des öffentlichen Nahverkehrs. Neue Bahnstrecken sollen gebaut, Bahnhöfe modernisiert und zusätzliche Buslinien auf dem Land eingerichtet werden, sodass Busse und Züge in Zukunft deutlich häufiger und pünktlicher fahren.",
-        "text_en": "So that more commuters leave their cars at home in the future, the state is investing several billion euros over the next few years in expanding public transport. New rail lines are to be built, stations modernized, and additional bus routes set up in rural areas so that buses and trains run much more frequently and punctually in the future.",
-        "correct_answer": "c",
-        "explanation": "Durch Milliardeninvestitionen und neue Linien werden Bus und Bahn gestärkt.",
+        "text": "Vergangenen Monat wurden etwa tausend Eltern von der Stiftung Schulqualität befragt, ob sie mit der Schule ihrer Kinder zufrieden sind. Dabei sagten 80%, dass die Schule gut oder sogar sehr gut sei. Und das, obwohl nur 40% der Eltern denken, dass die Kinder in der Schule auf den Beruf vorbereitet werden. Die Schülerinnen und Schüler sollten mehr über Ökonomie lernen. Außerdem sagten über 60%, dass das Thema Umweltschutz im Unterricht eine größere Rolle spielen sollte.",
+        "text_en": "Last month, around a thousand parents were surveyed by the School Quality Foundation about whether they are satisfied with their children's school. 80% said that the school is good or even very good. And this despite the fact that only 40% of parents think that children are prepared for a career at school. Students should learn more about economics. In addition, over 60% said that the topic of environmental protection should play a greater role in lessons.",
+        "correct_answer": "d",
+        "explanation": "Laut Lösungsschlüssel im PDF (S. 13) ist 'd' (Schule und Umweltschutz) angegeben, da sich über 60% der Eltern mehr Umweltschutz im Unterricht wünschen. Hinweis: Inhaltlich fasst Überschrift 'a' (Eltern trotz Kritik mit der Schule zufrieden) den gesamten Abschnitt noch genauer zusammen.",
         "vocabulary": [
-          { "de": "der Pendler", "en": "commuter" },
-          { "de": "der Ausbau", "en": "expansion" },
-          { "de": "der öffentliche Nahverkehr", "en": "local public transport" }
+          {
+            "de": "befragen",
+            "en": "to survey / question"
+          },
+          {
+            "de": "vorbereiten auf",
+            "en": "to prepare for"
+          },
+          {
+            "de": "eine Rolle spielen",
+            "en": "to play a role"
+          }
         ]
       },
       {
         "number": 4,
-        "text": "Am Goethe-Gymnasium steht in diesem Schuljahr das Thema Nachhaltigkeit auf dem Stundenplan. Die Schülerinnen und Schüler haben auf dem Schuldach eine eigene Solaranlage mitgeplant, trennen in allen Klassenzimmern konsequent den Müll und pflegen im Schulgarten eine Blumenwiese für Bienen. Für dieses Projekt wurde die Schule nun vom Umweltministerium ausgezeichnet.",
-        "text_en": "At Goethe High School, the topic of sustainability is on the timetable this school year. Students helped plan a solar system on the school roof, consistently separate waste in all classrooms, and maintain a flower meadow for bees in the school garden. The school has now received an award from the Ministry of the Environment for this project.",
-        "correct_answer": "d",
-        "explanation": "Der Abschnitt beschreibt ein Schulprojekt zum aktiven Umweltschutz.",
+        "text": "Berlin. In der Hauptstadt herrscht weiterhin Lehrermangel: Tausende Lehrkräfte fehlen. Mittlerweile unterrichten sogar schon Studierende die Schülerinnen und Schüler der Hauptstadt, weil sich nicht genügend ausgebildete Lehrkräfte finden. Die Unterrichtsqualität leidet stark. Daher plant der Berliner Senat eine Werbekampagne, um den Lehrerberuf attraktiver zu gestalten. Dabei sollen auch Menschen in anderen Berufen angesprochen werden, und man denkt über eine Erhöhung der Gehälter für Lehrerinnen und Lehrer nach.",
+        "text_en": "Berlin. There continues to be a shortage of teachers in the capital: thousands of teachers are missing. By now, even university students are teaching the capital's schoolchildren because not enough trained teachers can be found. The quality of instruction is suffering greatly. Therefore, the Berlin Senate is planning an advertising campaign to make the teaching profession more attractive. People in other professions are also to be addressed, and an increase in salaries for teachers is being considered.",
+        "correct_answer": "g",
+        "explanation": "Laut Lösungsschlüssel im PDF (S. 13) ist 'g' (Lehrerberuf wird immer attraktiver) angegeben, weil der Senat eine Kampagne plant, um den Lehrerberuf attraktiver zu gestalten. Hinweis: Überschrift 'j' (Zu wenig Lehrer – Stadt reagiert) passt inhaltlich ebenfalls sehr gut, da der Beruf erst attraktiver gemacht werden soll.",
         "vocabulary": [
-          { "de": "der Umweltschutz", "en": "environmental protection" },
-          { "de": "Müll trennen", "en": "to separate waste" },
-          { "de": "auszeichnen", "en": "to award / honor" }
+          {
+            "de": "der Lehrermangel",
+            "en": "teacher shortage"
+          },
+          {
+            "de": "die Werbekampagne",
+            "en": "advertising campaign"
+          },
+          {
+            "de": "das Gehalt",
+            "en": "salary"
+          }
         ]
       },
       {
         "number": 5,
-        "text": "Gute Nachrichten für alle Fahrgäste der städtischen Verkehrsbetriebe: Ab dem 1. Januar werden sowohl die Einzelfahrscheine als auch die Monatskarten im gesamten Stadtgebiet um durchschnittlich zehn Prozent billiger. Besonders günstig wird das neue Jahresticket für Schülerinnen, Schüler und Senioren. Die Stadt hofft, dass dadurch noch mehr Bürger auf öffentliche Verkehrsmittel umsteigen.",
-        "text_en": "Good news for all passengers of the municipal transport company: starting January 1, both single tickets and monthly passes across the entire city area will become an average of ten percent cheaper. The new annual ticket for students and seniors will be particularly affordable. The city hopes this will encourage even more citizens to switch to public transport.",
-        "correct_answer": "i",
-        "explanation": "Die Fahrkarten für Bus, Straßenbahn und U-Bahn werden ab Januar günstiger (Preissenkungen).",
+        "text": "NaturVerband ist der größte Umweltverband in Deutschland. Er engagiert sich für Umwelt- und Tierschutz. Sie wollen sich auch aktiv gegen Umweltverschmutzung einsetzen? Sie wollen sich für mehr Naturschutz engagieren? Dann sind Sie bei uns richtig. Wir haben regelmäßige Treffen und führen Informationsveranstaltungen zu verschiedenen aktuellen Themen durch, außerdem gibt es eine monatliche Mitgliederzeitschrift. Melden Sie sich einfach bei uns.",
+        "text_en": "NaturVerband is the largest environmental association in Germany. It is committed to environmental protection and animal welfare. Do you also want to actively campaign against environmental pollution? Do you want to get involved in more nature conservation? Then you have come to the right place. We hold regular meetings and information events on various current topics, and there is also a monthly member magazine. Simply get in touch with us.",
+        "correct_answer": "h",
+        "explanation": "Der Text stellt den größten deutschen Umweltverband vor und ruft dazu auf, sich aktiv für Natur- und Umweltschutz zu engagieren (Engagement für die Natur).",
         "vocabulary": [
-          { "de": "die Preissenkung", "en": "price reduction" },
-          { "de": "die Monatskarte", "en": "monthly pass" },
-          { "de": "umsteigen auf", "en": "to switch to" }
+          {
+            "de": "sich engagieren für",
+            "en": "to commit oneself to / get involved in"
+          },
+          {
+            "de": "die Umweltverschmutzung",
+            "en": "environmental pollution"
+          },
+          {
+            "de": "der Naturschutz",
+            "en": "nature conservation"
+          }
         ]
       }
     ]
   },
   "leseverstehen_teil_2": {
     "passage": {
-      "headline": "Freunde auf vier Pfoten",
-      "subheadline": "Wie Besuchshunde Abwechslung und Lebensfreude ins Seniorenheim bringen",
+      "headline": "Haustiere in Deutschland",
+      "subheadline": "Egal ob Hund, Katze oder Maus: Haustiere sind in Deutschland sehr beliebt. Markus Kleinoth aus der Freizeitredaktion hat sich mit diesem Thema beschäftigt.",
       "paragraphs": [
-        "Jeden Dienstagnachmittag wartet der 82-jährige Marius Klotz schon ungeduldig im Gemeinschaftsraum des Seniorenheims 'Abendfrieden'. Punkt 15 Uhr öffnet sich die Tür und Bettina Schröther kommt mit ihrem fünfjährigen Golden Retriever Balu herein. Sofort leuchten die Augen der Bewohnerinnen und Bewohner auf. Herr Klotz, der früher selbst einen Schäferhund besaß, nach dem Umzug ins Heim aber kein eigenes Tier mehr halten konnte, streichelt Balu begeistert über das weiche Fell und gibt ihm ein Leckerli.",
-        "Bettina Schröther engagiert sich bereits seit drei Jahren ehrenamtlich beim Verein 'Pfote sucht Hand'. Bevor sie mit Balu zum ersten Mal ein Seniorenheim besuchen durfte, mussten beide eine spezielle Ausbildung machen und eine Prüfung bestehen. Dabei wird getestet, ob der Hund ruhig bleibt, auch wenn es einmal laut wird, jemand mit einem Rollstuhl dicht an ihm vorbeifährt oder ältere Menschen sich unsicher bewegen.",
-        "Nach den Erfahrungen der Heimleitung wirken die tierischen Besuche oft wie eine Medizin: Senioren, die sonst kaum noch sprechen oder ihr Zimmer nur selten verlassen, blühen auf, beginnen von früher zu erzählen und machen sogar bei kleinen Ballspielen mit. Für Bettina Schröther ist die Dankbarkeit der alten Menschen der schönste Lohn für ihr Ehrenamt."
+        "In deutschen Haushalten gibt es rund 34 Millionen Haustiere. Besonders Katzen sind sehr beliebt, denn davon leben 14 Millionen in Deutschland. Und das, obwohl Deutschland als Land der Hundefans gilt. Insgesamt gibt es aber etwa 10 Millionen Hunde.",
+        "Für den Hund ist manchen Menschen nichts zu teuer. Eine Hundebesitzerin, die überdurchschnittlich viel Geld für ihren Liebling ausgibt, ist Bettina Schröther: „Morgens vor der Arbeit bringe ich meinen Hund in eine sehr gute Tagesbetreuung, in der es auch eine Hundeschule gibt. Aber wenn ich frei habe, sind wir immer zusammen, auch im Urlaub. Ich war mit ihm sogar schon in einem Wellnesshotel für Hunde.“",
+        "Der Hundeexperte Marius Klotz kennt solche Fälle, sieht das aber kritisch: „Viele Besitzer meinen es gut und tun zu viel für ihre Hunde. Hier sollte man aufpassen. Für einen Hund ist es sehr wichtig, eine gute Erziehung zu bekommen. Wichtig sind klare Regeln, die er verstehen kann. Außerdem braucht er viel Bewegung und unbedingt passendes Futter. Frisches Futter ist nicht unbedingt das beste, da sollte man sich gut informieren, am besten Fachleute fragen.“ Viele Menschen sehen ihre Katzen und Hunde als Teil der Familie. So auch Elli Herfeld, Hundebesitzerin aus Erfurt: „Unsere Familie feiert jedes Jahr mit unserem kleinen Schatz Geburtstag. Er bekommt einen Geburtstagshundekuchen, natürlich mit Kerzen, und auch ein Geschenk. Dieses Jahr haben wir außerdem seine Hundefreunde eingeladen.“",
+        "Auch in einigen Seniorenheimen sind mittlerweile Tiere erlaubt. Sandra Bärenweger ist Altenpflegerin in Hamburg: „Bei uns im Haus haben einige Senioren einen Hund oder eine Katze. Dadurch haben sie eine Aufgabe, denn sie müssen sich ja um ihr Tier kümmern, es füttern, oder mit ihm rausgehen, wenn es ein Hund ist. So haben sie jeden Tag eine sinnvolle Beschäftigung. Das tut den älteren Menschen gut; viele bleiben dadurch fit.“",
+        "Der tägliche Spaziergang mit dem Hund oder das Spielen mit der Katze bietet vielen Haustierbesitzern Ruhe und Entspannung, eine kleine Erholung vom Alltag. Das bestätigen auch Fachleute: „Haustiere können gerade bei Stress für viele Menschen ein guter Ausgleich sein. Die tägliche Beschäftigung mit seinem Haustier wie beispielsweise das Spazieren mit dem Hund und die Zuneigung, die man von ihm bekommt, spielen dabei eine wichtige Rolle.“ Das Haustier ist dabei auch viel mehr als ein Hobby, da es ein Lebewesen ist, das schnell zum Familienmitglied wird und das Leben bereichert."
       ],
-      "text_en": "Every Tuesday afternoon, 82-year-old Marius Klotz waits impatiently in the common room of the 'Abendfrieden' retirement home. At 3 p.m. sharp the door opens and Bettina Schröther comes in with her five-year-old Golden Retriever Balu. Immediately the residents' eyes light up. Mr. Klotz, who used to own a German Shepherd himself but could no longer keep a pet after moving into the home, enthusiastically strokes Balu's soft fur and gives him a treat. Bettina Schröther has been volunteering for three years with the association 'Paw Seeks Hand.' Before she and Balu were allowed to visit a retirement home for the first time, both had to complete special training and pass an exam. It tests whether the dog stays calm even when it gets loud, someone passes closely in a wheelchair, or elderly people move unsteadily. According to the home's management, the animal visits often act like medicine: seniors who otherwise hardly speak or rarely leave their rooms blossom, start telling stories about the past, and even join in small ball games.",
+      "text_en": "Whether dog, cat, or mouse: pets are very popular in Germany. Markus Kleinoth from the leisure editorial team looked into this topic. There are around 34 million pets in German households. Cats are especially popular, with 14 million living in Germany—even though Germany is considered a country of dog fans, with about 10 million dogs in total. For some people, nothing is too expensive for their dog. One dog owner who spends an above-average amount of money on her darling is Bettina Schröther: 'In the morning before work, I take my dog to a very good daycare that also has a dog school. But when I'm off work, we're always together, even on vacation. I've even been to a dog wellness hotel with him.' Dog expert Marius Klotz knows such cases but views them critically: 'Many owners mean well and do too much for their dogs. One should be careful here. It is very important for a dog to get good training with clear rules it can understand. It also needs plenty of exercise and suitable food. Fresh food is not necessarily the best; you should inform yourself well, ideally by asking experts.' Many people view their cats and dogs as part of the family, like Elli Herfeld from Erfurt: 'Every year our family celebrates our little darling's birthday. He gets a birthday dog cake with candles and a present, and this year we also invited his dog friends.' Pets are now also allowed in some retirement homes. Sandra Bärenweger, a geriatric nurse in Hamburg, says: 'In our home, some seniors have a dog or a cat. This gives them a task—feeding it or walking it—providing meaningful daily activity that keeps many of them fit.' Walking the dog or playing with the cat offers owners peace, relaxation, and recovery from everyday stress, which experts confirm.",
       "vocabulary": [
-        { "de": "das Seniorenheim", "en": "retirement / nursing home" },
-        { "de": "streicheln", "en": "to stroke / pet" },
-        { "de": "ehrenamtlich", "en": "voluntary / unpaid" },
-        { "de": "aufblühen", "en": "to blossom / perk up" }
+        {
+          "de": "überdurchschnittlich",
+          "en": "above average"
+        },
+        {
+          "de": "die Tagesbetreuung",
+          "en": "daycare"
+        },
+        {
+          "de": "die Erziehung",
+          "en": "upbringing / training"
+        },
+        {
+          "de": "der Ausgleich",
+          "en": "balance / compensation"
+        },
+        {
+          "de": "die Zuneigung",
+          "en": "affection"
+        }
       ]
     },
     "questions": [
       {
         "number": 6,
-        "question": "Marius Klotz freut sich auf den Dienstag, weil",
-        "question_en": "Marius Klotz looks forward to Tuesday because",
+        "question": "Bettina Schröther ...",
+        "question_en": "Bettina Schröther ...",
         "options": {
-          "a": "er an diesem Tag seinen eigenen Hund im Heim besuchen darf.",
-          "b": "Bettina Schröther mit ihrem Hund Balu ins Seniorenheim kommt.",
-          "c": "er mit Bettina Schröther im Park spazieren geht."
+          "a": "lässt ihren Hund in einer Hundeschule erziehen.",
+          "b": "macht mit ihrem Hund regelmäßig Wellnessurlaube.",
+          "c": "verbringt die ganze Freizeit mit ihrem Hund."
         },
         "options_en": {
-          "a": "he is allowed to visit his own dog at the home on that day.",
-          "b": "Bettina Schröther comes to the retirement home with her dog Balu.",
-          "c": "he goes for a walk in the park with Bettina Schröther."
+          "a": "has her dog trained at a dog school.",
+          "b": "regularly goes on wellness vacations with her dog.",
+          "c": "spends all her free time with her dog."
         },
-        "correct_answer": "b",
-        "explanation": "Jeden Dienstagnachmittag kommt Bettina Schröther mit ihrem Hund Balu zu Besuch ins Seniorenheim."
+        "correct_answer": "a",
+        "explanation": "Laut Lösungsschlüssel im PDF (S. 13) ist 'a' angegeben („bringe ich meinen Hund in eine sehr gute Tagesbetreuung, in der es auch eine Hundeschule gibt“). Hinweis: Inhaltlich ist eigentlich 'c' („Aber wenn ich frei habe, sind wir immer zusammen, auch im Urlaub“) die exakte Aussage des Textes, da die Tagesbetreuung lediglich auch eine Hundeschule hat."
       },
       {
         "number": 7,
-        "question": "Bettina Schröther",
-        "question_en": "Bettina Schröther",
+        "question": "Nach Meinung von Hundeexperte Marius Klotz sollte man",
+        "question_en": "According to dog expert Marius Klotz, one should",
         "options": {
-          "a": "arbeitet hauptberuflich als Pflegerin im Seniorenheim.",
-          "b": "bekommt für ihre Besuche mit dem Hund kein Geld.",
-          "c": "verkauft junge Hunde an ältere Menschen."
+          "a": "die Regeln bei der Hundeerziehung beachten.",
+          "b": "seinen Hund immer gut behandeln.",
+          "c": "sich zur Ernährung des Tiers beraten lassen."
         },
         "options_en": {
-          "a": "works full-time as a caregiver at the retirement home.",
-          "b": "receives no money for her visits with the dog.",
-          "c": "sells young dogs to elderly people."
+          "a": "follow the rules in dog training.",
+          "b": "always treat one's dog well.",
+          "c": "get advice on the animal's nutrition."
         },
-        "correct_answer": "b",
-        "explanation": "Im zweiten Absatz steht, dass sie sich ehrenamtlich engagiert und die Dankbarkeit der Menschen ihr schönster Lohn ist."
+        "correct_answer": "c",
+        "explanation": "Marius Klotz sagt über das Futter: „Frisches Futter ist nicht unbedingt das beste, da sollte man sich gut informieren, am besten Fachleute fragen.“"
       },
       {
         "number": 8,
-        "question": "Vor dem ersten Einsatz im Seniorenheim",
-        "question_en": "Before the first assignment in the retirement home",
+        "question": "Die Hundebesitzerin Elli Herfeld",
+        "question_en": "The dog owner Elli Herfeld",
         "options": {
-          "a": "mussten Bettina Schröther und ihr Hund einen Kurs und einen Test machen.",
-          "b": "musste Balu drei Jahre lang in einer Hundeschule leben.",
-          "c": "wurden die Bewohner des Heims von einem Arzt untersucht."
+          "a": "backt ihrem Hund zum Geburtstag einen Kuchen.",
+          "b": "feiert ihren Geburtstag immer mit ihrem Hund.",
+          "c": "sieht ihren Hund als festes Familienmitglied."
         },
         "options_en": {
-          "a": "Bettina Schröther and her dog had to complete a course and a test.",
-          "b": "Balu had to live at a dog school for three years.",
-          "c": "the residents of the home were examined by a doctor."
+          "a": "bakes her dog a cake for his birthday.",
+          "b": "always celebrates her birthday with her dog.",
+          "c": "sees her dog as a permanent family member."
         },
         "correct_answer": "a",
-        "explanation": "Beide mussten vor dem ersten Besuch eine spezielle Ausbildung machen und eine Prüfung bestehen."
+        "explanation": "Im Text heißt es: „Unsere Familie feiert jedes Jahr mit unserem kleinen Schatz Geburtstag. Er bekommt einen Geburtstagshundekuchen, natürlich mit Kerzen, und auch ein Geschenk.“ (Hinweis: Laut PDF-Lösungsschlüssel S. 13 ist 'a' richtig; im Satz davor steht zudem allgemein, dass viele Menschen – so auch Elli Herfeld – ihre Hunde als Teil der Familie sehen)."
       },
       {
         "number": 9,
-        "question": "Ein Besuchshund für Seniorenheime muss",
-        "question_en": "A therapy/visiting dog for retirement homes must",
+        "question": "In Seniorenheimen gibt es oft Tiere, damit",
+        "question_en": "In retirement homes there are often animals so that",
         "options": {
-          "a": "auch in ungewohnten Situationen ruhig und freundlich bleiben.",
-          "b": "besonders klein und leicht sein.",
-          "c": "die Rollstühle der Senioren ziehen können."
+          "a": "die Senioren etwas tun, was gut für sie ist.",
+          "b": "die Senioren mehr spazieren gehen.",
+          "c": "sie auf die älteren Menschen aufpassen."
         },
         "options_en": {
-          "a": "remain calm and friendly even in unfamiliar situations.",
-          "b": "be especially small and light.",
-          "c": "be able to pull the seniors' wheelchairs."
+          "a": "the seniors do something that is good for them.",
+          "b": "the seniors go for more walks.",
+          "c": "they watch over the older people."
         },
         "correct_answer": "a",
-        "explanation": "In der Prüfung wird getestet, ob der Hund ruhig bleibt, wenn es laut wird oder ein Rollstuhl dicht vorbeifährt."
+        "explanation": "Die Altenpflegerin erklärt: „So haben sie jeden Tag eine sinnvolle Beschäftigung. Das tut den älteren Menschen gut; viele bleiben dadurch fit.“"
       },
       {
         "number": 10,
-        "question": "Durch die Besuche des Hundes",
-        "question_en": "Through the dog's visits",
+        "question": "Fachleute meinen, dass",
+        "question_en": "Experts think that",
         "options": {
-          "a": "brauchen die Senioren überhaupt keine Medikamente mehr.",
-          "b": "haben die Pflegekräfte im Heim viel mehr Arbeit als sonst.",
-          "c": "werden viele ruhige Bewohner wieder aktiver und gesprächiger."
+          "a": "ein Haustier ein sinnvolles Hobby ist.",
+          "b": "man mit seinem Hund täglich spazieren gehen sollte.",
+          "c": "man sich durch sein Haustier erholen kann."
         },
         "options_en": {
-          "a": "the seniors no longer need any medication at all.",
-          "b": "the caregivers at the home have much more work than usual.",
-          "c": "many quiet residents become more active and talkative again."
+          "a": "a pet is a meaningful hobby.",
+          "b": "one should walk one's dog every day.",
+          "c": "one can relax and recover through one's pet."
         },
         "correct_answer": "c",
-        "explanation": "Senioren, die sonst kaum sprechen oder ihr Zimmer selten verlassen, blühen auf, erzählen von früher und spielen mit."
+        "explanation": "Im letzten Abschnitt steht: „Der tägliche Spaziergang mit dem Hund oder das Spielen mit der Katze bietet vielen Haustierbesitzern Ruhe und Entspannung, eine kleine Erholung vom Alltag. Das bestätigen auch Fachleute: Haustiere können gerade bei Stress für viele Menschen ein guter Ausgleich sein.“"
       }
     ]
   },
   "leseverstehen_teil_3": {
-    "advertisements": {},
-    "situations": []
+    "advertisements": {
+      "a": {
+        "title": "Café Simon",
+        "subtitle": "3 x in Passau – Ihr Konditor",
+        "lines": [
+          "1 = Rindermarkt 10, 2 = Ludwigsplatz 6, 3 = Donau-Passage",
+          "• Hausgemachte Pralinen",
+          "• Kuchen, Torten und Eis",
+          "• Kleiner Mittagstisch"
+        ],
+        "text_en": "Café Simon – 3 locations in Passau – Your pastry chef. Homemade pralines, cakes, tarts, and ice cream, small lunch menu.",
+        "vocabulary": [
+          {
+            "de": "der Konditor",
+            "en": "pastry chef / confectioner"
+          },
+          {
+            "de": "hausgemacht",
+            "en": "homemade"
+          }
+        ]
+      },
+      "b": {
+        "title": "Tourismusschulen",
+        "subtitle": "4190 Bad Leonfelden, Hagauer Str. 17, Tel. 07213/6595",
+        "lines": [
+          "Höhere Lehranstalt: 5 Jahre, Matura",
+          "FV-Kolleg: 4 Semester nach d. Matura",
+          "Hotelfachschule: 3 Jahre",
+          "Tourismusfachschule: 3 Jahre"
+        ],
+        "text_en": "Tourism Schools Bad Leonfelden: Secondary college (5 years, high school diploma), post-secondary college (4 semesters after diploma), hotel management school (3 years), tourism school (3 years).",
+        "vocabulary": [
+          {
+            "de": "die Lehranstalt",
+            "en": "educational institution / school"
+          },
+          {
+            "de": "die Matura",
+            "en": "high school exit exam (Austria)"
+          }
+        ]
+      },
+      "c": {
+        "title": "Liederbühne Robinson",
+        "subtitle": "KLEINKUNST VOM FEINSTEN",
+        "lines": [
+          "• Urgemütliche Gaststube • Idyllischer Biergarten",
+          "• Preiswerte Schmankerl • Vegetarische Spezialitäten",
+          "Seeweg 2 · 93486 Runding-Vierau, Tel. 09971-4651",
+          "geöffnet von Mi bis Sa von 17:00–1:00 Uhr, Sonn- und Feiertage ab 11:00 Uhr"
+        ],
+        "text_en": "Liederbühne Robinson – Cabaret at its finest. Very cozy dining room, idyllic beer garden, affordable delicacies, vegetarian specialties. Open Wed–Sat 5 PM–1 AM, Sun & holidays from 11 AM.",
+        "vocabulary": [
+          {
+            "de": "die Kleinkunst",
+            "en": "cabaret / stage entertainment"
+          },
+          {
+            "de": "urgemütlich",
+            "en": "very cozy"
+          },
+          {
+            "de": "vegetarische Spezialitäten",
+            "en": "vegetarian specialties"
+          }
+        ]
+      },
+      "d": {
+        "title": "Interkulturelle Arbeit",
+        "subtitle": "Paritätisches Bildungswerk",
+        "lines": [
+          "Berufsbegleitende Fortbildung für Fachkräfte in pädagogischen, sozialen und Gesundheitsberufen.",
+          "Jan. / Feb.",
+          "Paritätisches Bildungswerk, Tel.: 0421 / 174720"
+        ],
+        "text_en": "Intercultural Work – In-service further training for professionals in educational, social, and healthcare professions. Jan/Feb. Paritätisches Bildungswerk.",
+        "vocabulary": [
+          {
+            "de": "berufsbegleitend",
+            "en": "in-service / alongside work"
+          },
+          {
+            "de": "die Fortbildung",
+            "en": "further training"
+          },
+          {
+            "de": "die Fachkraft",
+            "en": "skilled professional"
+          }
+        ]
+      },
+      "e": {
+        "title": "Restaurant-Café CHESA – W. Pressl",
+        "subtitle": "Schweizer und bayerische Küche",
+        "lines": [
+          "Fischspezialitäten aus heimischen Gewässern",
+          "Römerplatz 3 (Hängebrücke), 94032 Passau, Tel. 0851/33331"
+        ],
+        "text_en": "Restaurant-Café CHESA W. Pressl – Swiss and Bavarian cuisine, fish specialties from local waters. Passau.",
+        "vocabulary": [
+          {
+            "de": "heimische Gewässer",
+            "en": "local waters"
+          }
+        ]
+      },
+      "f": {
+        "title": "BIZ – Berufsinformationszentrum",
+        "subtitle": "Sie stehen vor beruflichen Entscheidungen? Dann informieren Sie sich im BIZ",
+        "lines": [
+          "Öffnungszeiten: Mo, Di, Mi 8.00 bis 12.00 Uhr u. 14.00 bis 15.30 Uhr, Do 8.00 bis 12.00 Uhr u. 14.00 bis 18.00 Uhr, Fr 8.00 bis 12.00 Uhr",
+          "Sie finden dort ein breitgefächertes Angebot an Medien mit Informationen zu AUSBILDUNG + STUDIUM",
+          "Arbeitsamt Passau, Innstraße 30, Tel. 0851/508-390"
+        ],
+        "text_en": "Facing career decisions? Get informed at the BIZ Career Information Center. You will find a wide range of media with information on vocational training and university studies. Employment Office Passau.",
+        "vocabulary": [
+          {
+            "de": "das Berufsinformationszentrum",
+            "en": "career information center"
+          },
+          {
+            "de": "breitgefächert",
+            "en": "wide-ranging / diverse"
+          }
+        ]
+      },
+      "g": {
+        "title": "Keine Angst vor neuen Technologien – Abendkurs für Einsteiger",
+        "subtitle": "VHS Favoriten · Tel: 01-785342",
+        "lines": [
+          "Dieser Kurs spricht all diejenigen an, die sich bisher mit dem Computer noch gar nicht befasst haben.",
+          "Neben theoretischem Grundwissen wird ein praktischer Einstieg in die Betriebssysteme Windows und Linux vermittelt."
+        ],
+        "text_en": "No fear of new technologies – Evening course for beginners. This course addresses everyone who has not dealt with computers at all yet. Besides basic theory, it provides a practical introduction to the Windows and Linux operating systems. VHS Favoriten.",
+        "vocabulary": [
+          {
+            "de": "der Einsteiger",
+            "en": "beginner"
+          },
+          {
+            "de": "sich befassen mit",
+            "en": "to deal with / engage with"
+          },
+          {
+            "de": "das Betriebssystem",
+            "en": "operating system"
+          }
+        ]
+      },
+      "h": {
+        "title": "Café AQUARIUM",
+        "subtitle": "Unterer Sand 2, Passau",
+        "lines": [
+          "• täglich bis 18.00 Uhr: Kaffee so viel du willst – Eine Tasse Kaffee und dann wird ewig nachgeschenkt – nur 3,-",
+          "• täglich von 18.00 Uhr bis 21.00 Uhr: Beck's, Jever, Bitburger, Radeberger, Budweiser 0,33 l 3,-"
+        ],
+        "text_en": "Café Aquarium Passau: Daily until 6 PM: All the coffee you can drink – one cup of coffee and endless refills for only 3 Euros. Daily 6 PM–9 PM: various beers 0.33 l for 3 Euros.",
+        "vocabulary": [
+          {
+            "de": "nachschenken",
+            "en": "to refill / pour more"
+          }
+        ]
+      },
+      "i": {
+        "title": "Rathauskeller",
+        "subtitle": "Originelles Weinlokal",
+        "lines": [
+          "Originelles Weinlokal mit österreichischen, italienischen und französischen Qualitätsweinen sowie großer Auswahl am kalten und warmen Buffet.",
+          "Montag und Dienstag – Ruhetage",
+          "A 4785 Haibach/Freinberg, Tel.: 0043/7713/8104"
+        ],
+        "text_en": "Rathauskeller – Original wine tavern with Austrian, Italian, and French quality wines as well as a large selection at the cold and hot buffet. Closed Monday and Tuesday.",
+        "vocabulary": [
+          {
+            "de": "das Weinlokal",
+            "en": "wine tavern / bar"
+          },
+          {
+            "de": "der Ruhetag",
+            "en": "day off / closing day"
+          }
+        ]
+      },
+      "j": {
+        "title": "Internationales Studium",
+        "subtitle": "Euro Akademie Köln",
+        "lines": [
+          "Fremdsprachen + Betriebswirtschaft.",
+          "Staatlicher Uni-Abschluss B.A. in European Administration. 2 Jahre in Köln + 1 Jahr in England oder Frankreich.",
+          "Infos anfordern: Euro Akademie, Elsa-Brandström-Str. 8, 50668 Köln, (0221) 736074"
+        ],
+        "text_en": "International Studies: Foreign languages + business administration. State university degree B.A. in European Administration. 2 years in Cologne + 1 year in England or France. Euro Akademie Cologne.",
+        "vocabulary": [
+          {
+            "de": "die Betriebswirtschaft",
+            "en": "business administration"
+          },
+          {
+            "de": "anfordern",
+            "en": "to request"
+          }
+        ]
+      },
+      "k": {
+        "title": "USA-Aufenthalt für Schüler",
+        "subtitle": "fee-Sprachreisen Stuttgart",
+        "lines": [
+          "Ein Schuljahr an einer High School, sehr gute Gastfamilien, beste Betreuung.",
+          "Prospekte und ausführliches Video kostenlos von: fee-Sprachreisen, Leibnizstr. 3, 70193 Stuttgart, Tel. 0711/638048"
+        ],
+        "text_en": "USA stay for high school students: A school year at a high school, very good host families, best supervision. Free brochures and detailed video from fee-Sprachreisen Stuttgart.",
+        "vocabulary": [
+          {
+            "de": "die Gastfamilie",
+            "en": "host family"
+          },
+          {
+            "de": "die Betreuung",
+            "en": "supervision / support"
+          }
+        ]
+      },
+      "l": {
+        "title": "Bachls Kerzenstub'n",
+        "subtitle": "TANZEN + ESSEN – Live-Musik mit TANZ",
+        "lines": [
+          "Genießen Sie unsere herzhaften Fleischgerichte!",
+          "94136 Keilberg, Tel.: 08501/9111-0",
+          "Geöffnet: Di–Sa ab 17.00 Uhr, Übernachtung für Reisende"
+        ],
+        "text_en": "Bachls Kerzenstub'n: Dancing + Dining – Live music with dancing. Enjoy our hearty meat dishes! Open Tue–Sat from 5 PM, overnight accommodation for travelers.",
+        "vocabulary": [
+          {
+            "de": "herzhaft",
+            "en": "hearty / savory"
+          },
+          {
+            "de": "das Fleischgericht",
+            "en": "meat dish"
+          }
+        ]
+      }
+    },
+    "situations": [
+      {
+        "number": 11,
+        "situation": "Sie verbringen gern viele Stunden im Café, wollen aber nicht viel Geld ausgeben.",
+        "situation_en": "You like spending many hours in a café, but don't want to spend a lot of money.",
+        "correct_answer": "h",
+        "explanation": "Im Café Aquarium (Anzeige 'h') gibt es täglich bis 18 Uhr „Kaffee so viel du willst“ (ewig nachgeschenkt) für nur 3 Euro."
+      },
+      {
+        "number": 12,
+        "situation": "Sie haben gerade den Beruf gewechselt und brauchen für die neue Aufgabe Grundkenntnisse für die Arbeit am Computer.",
+        "situation_en": "You have just changed careers and need basic computer skills for your new job.",
+        "correct_answer": "g",
+        "explanation": "Anzeige 'g' bietet einen Abendkurs für Computer-Einsteiger (Theoretisches Grundwissen sowie Windows und Linux)."
+      },
+      {
+        "number": 13,
+        "situation": "Sie arbeiten in einem Krankenhaus und haben dort häufig mit Patienten aus aller Welt zu tun. Sie möchten für diese Arbeit noch besser qualifiziert sein.",
+        "situation_en": "You work in a hospital and frequently deal with patients from all over the world. You want to be even better qualified for this work.",
+        "correct_answer": "d",
+        "explanation": "Anzeige 'd' (Interkulturelle Arbeit) ist eine berufsbegleitende Fortbildung speziell für Fachkräfte in pädagogischen, sozialen und Gesundheitsberufen."
+      },
+      {
+        "number": 14,
+        "situation": "Sie möchten gern einen Tanzkurs für Anfänger besuchen. Sie haben nur abends Zeit.",
+        "situation_en": "You would like to attend a dance course for beginners. You only have time in the evening.",
+        "correct_answer": "x",
+        "explanation": "Keine Anzeige bietet einen Tanzkurs an (Anzeige 'l' ist ein Lokal zum Tanzen und Essen, aber keine Tanzschule)."
+      },
+      {
+        "number": 15,
+        "situation": "Sie möchten beruflich etwas mit Fremdsprachen machen. Deshalb wollen Sie im Ausland studieren, um später vielleicht auch dort zu arbeiten.",
+        "situation_en": "You want to work with foreign languages professionally. Therefore, you want to study abroad in order to perhaps work there later too.",
+        "correct_answer": "j",
+        "explanation": "Anzeige 'j' (Internationales Studium) kombiniert Fremdsprachen und Betriebswirtschaft mit einem Studienjahr in England oder Frankreich (Anzeige 'k' ist nur für Schüler an einer High School)."
+      },
+      {
+        "number": 16,
+        "situation": "Sie wollen mit einem Bekannten einen gemütlichen Nachmittag in der Stadt verbringen. Sie wissen, dass Ihr Bekannter am liebsten süße Sachen isst.",
+        "situation_en": "You want to spend a cozy afternoon in the city with an acquaintance. You know that your acquaintance likes eating sweet things best.",
+        "correct_answer": "a",
+        "explanation": "Das Café Simon (Anzeige 'a') ist eine Konditorei in Passau mit hausgemachten Pralinen, Kuchen, Torten und Eis."
+      },
+      {
+        "number": 17,
+        "situation": "Ihr Freund aus den USA ist zu Besuch. Er ist Weinkenner und möchte europäische Weine probieren.",
+        "situation_en": "Your friend from the USA is visiting. He is a wine connoisseur and would like to taste European wines.",
+        "correct_answer": "i",
+        "explanation": "Der Rathauskeller (Anzeige 'i') ist ein Weinlokal mit österreichischen, italienischen und französischen Qualitätsweinen."
+      },
+      {
+        "number": 18,
+        "situation": "In Ihrer Freizeit möchten Sie sich mit anderen Ländern, fremden Kulturen und Traditionen beschäftigen.",
+        "situation_en": "In your free time, you would like to engage with other countries, foreign cultures, and traditions.",
+        "correct_answer": "b",
+        "explanation": "Laut Lösungsschlüssel im PDF (S. 13) ist 'b' angegeben. Hinweis: Da Anzeige 'b' (Tourismusschulen Bad Leonfelden) eine mehrjährige Vollzeitschule/Ausbildung ist und kein Freizeitangebot für fremde Kulturen bietet, ist inhaltlich eigentlich 'x' (keine passende Anzeige) die logische Lösung."
+      },
+      {
+        "number": 19,
+        "situation": "Die Tochter Ihrer Freunde hat gerade Abitur gemacht und ist nicht sicher, was sie später machen will. Sie braucht Informationen und Beratung.",
+        "situation_en": "Your friends' daughter has just graduated from high school and isn't sure what she wants to do later. She needs information and advice.",
+        "correct_answer": "f",
+        "explanation": "Das Berufsinformationszentrum BIZ (Anzeige 'f') richtet sich an alle, die vor beruflichen Entscheidungen stehen, und informiert über Ausbildung und Studium."
+      },
+      {
+        "number": 20,
+        "situation": "Sie möchten mit Freunden in einem Lokal mit Unterhaltungsprogramm essen. Ihre Freunde essen aber weder Fleisch noch Fisch.",
+        "situation_en": "You want to eat with friends at a venue with an entertainment program. However, your friends eat neither meat nor fish.",
+        "correct_answer": "c",
+        "explanation": "Die Liederbühne Robinson (Anzeige 'c') bietet Kleinkunst (Unterhaltungsprogramm) und vegetarische Spezialitäten (während 'e' Fisch und 'l' Fleischgerichte serviert)."
+      }
+    ]
   },
   "sprachbausteine_teil_1": {
     "instructions": "Lesen Sie den Text und schließen Sie die Lücken 21–30. Welche Lösung (a, b oder c) ist jeweils richtig?",
     "passage": {
-      "text": ""
+      "text": "Schaffhausen, den ...\n\nHallo Isabelle,\n\nwie du ja weißt, ___21___ ich seit zwei Monaten in einem Altersheim ___22___ der Nähe von Schaffhausen. Die Arbeit in ___23___ Haus gefällt mir gut, obwohl es manchmal auch sehr stressig ist. Besonders schön ist der enge ___24___ zu einigen der alten Menschen. Eine Frau, Anna Ringier, mag ich ___25___ gern. Sie ist schon 96 Jahre alt und sitzt im Rollstuhl, aber sie ist immer fröhlich. Gestern hat sie mir ___26___ ganzes Leben erzählt. Sie hat bis zum 84. Lebensjahr ___27___ gearbeitet. Schon als achtjähriges Mädchen musste sie bei einem Bauern arbeiten, ___28___ ihre Eltern die neunköpfige Familie nicht ernähren konnten. Später arbeitete Anna als Schneiderin.\n\nNeben ihrer Arbeit hat Anna ___29___ auf eine Sache nie verzichtet: das Bergsteigen! Das war immer ihre große Leidenschaft. Diese Frau ist wirklich sehr beeindruckend!\n\nAber du ___30___ bestimmt auch viel erlebt. Ich würde mich sehr freuen, wenn du mir bald wieder einmal schreibst!\n\nHerzliche Grüße\ndeine Julie",
+      "text_en": "Schaffhausen, ...\n\nHello Isabelle,\n\nAs you know, I have been working for two months in a retirement home near Schaffhausen. I like the work in this house very much, even though it is sometimes very stressful. Especially nice is the close contact with some of the elderly people. I like one woman, Anna Ringier, particularly much. She is already 96 years old and sits in a wheelchair, but she is always cheerful. Yesterday she told me her whole life story. She worked hard until the age of 84. Already as an eight-year-old girl she had to work for a farmer because her parents could not feed the family of nine. Later Anna worked as a tailor.\n\nAlongside her work, however, Anna never gave up one thing: mountaineering! That was always her great passion. This woman is really very impressive!\n\nBut you have surely experienced a lot too. I would be very happy if you wrote to me again soon!\n\nWarm regards,\nyour Julie",
+      "vocabulary": [
+        {
+          "de": "das Altersheim",
+          "en": "retirement home"
+        },
+        {
+          "de": "der Rollstuhl",
+          "en": "wheelchair"
+        },
+        {
+          "de": "ernähren",
+          "en": "to feed / support"
+        },
+        {
+          "de": "die Schneiderin",
+          "en": "tailor / dressmaker"
+        },
+        {
+          "de": "verzichten auf",
+          "en": "to do without / give up"
+        }
+      ]
     },
-    "questions": []
+    "questions": [
+      {
+        "number": 21,
+        "options": {
+          "a": "arbeite",
+          "b": "arbeiten",
+          "c": "arbeiteten"
+        },
+        "options_en": {
+          "a": "work (1st person singular present)",
+          "b": "work (plural/infinitive)",
+          "c": "worked (plural past)"
+        },
+        "correct_answer": "a",
+        "explanation": "Für die 1. Person Singular Präsens („ich“) mit „seit zwei Monaten“ (Handlung dauert noch an) braucht man „arbeite“."
+      },
+      {
+        "number": 22,
+        "options": {
+          "a": "auf",
+          "b": "bei",
+          "c": "in"
+        },
+        "options_en": {
+          "a": "on",
+          "b": "at",
+          "c": "in"
+        },
+        "correct_answer": "c",
+        "explanation": "Der feste Ausdruck lautet „in der Nähe von“ (near / in the vicinity of)."
+      },
+      {
+        "number": 23,
+        "options": {
+          "a": "diesem",
+          "b": "diesen",
+          "c": "dieses"
+        },
+        "options_en": {
+          "a": "this (dative neuter)",
+          "b": "this (accusative masculine / dative plural)",
+          "c": "this (nominative/accusative/genitive neuter)"
+        },
+        "correct_answer": "a",
+        "explanation": "Nach der Präposition „in“ auf die Frage „wo?“ steht der Dativ; „das Haus“ wird im Dativ Neutrum zu „in diesem Haus“."
+      },
+      {
+        "number": 24,
+        "options": {
+          "a": "Kontakt",
+          "b": "Kontakte",
+          "c": "Kontakten"
+        },
+        "options_en": {
+          "a": "contact (singular)",
+          "b": "contacts (plural)",
+          "c": "contacts (dative plural)"
+        },
+        "correct_answer": "a",
+        "explanation": "Wegen des bestimmten Artikels im Nominativ Singular („der enge ...“) muss das Nomen im Singular stehen: „der enge Kontakt“."
+      },
+      {
+        "number": 25,
+        "options": {
+          "a": "besondere",
+          "b": "besonderes",
+          "c": "besonders"
+        },
+        "options_en": {
+          "a": "special (adjective)",
+          "b": "special (adjective neuter)",
+          "c": "especially / particularly (adverb)"
+        },
+        "correct_answer": "c",
+        "explanation": "Vor dem Adverb „gern“ steht das unflektierte Adverb „besonders“ („mag ich besonders gern“). (Hinweis: In der Lösungstabelle auf S. 13 des PDFs steht fälschlicherweise der Tippfehler 'b' „besonderes gern“)."
+      },
+      {
+        "number": 26,
+        "options": {
+          "a": "ihr",
+          "b": "ihre",
+          "c": "ihres"
+        },
+        "options_en": {
+          "a": "her (accusative neuter)",
+          "b": "her (feminine/plural)",
+          "c": "her (genitive neuter)"
+        },
+        "correct_answer": "a",
+        "explanation": "„das Leben“ ist Neutrum; im Akkusativ („hat sie mir ihr ganzes Leben erzählt“) hat das Possessivpronomen keine Endung: „ihr“."
+      },
+      {
+        "number": 27,
+        "options": {
+          "a": "hart",
+          "b": "harte",
+          "c": "härter"
+        },
+        "options_en": {
+          "a": "hard (adverb)",
+          "b": "hard (inflected adjective)",
+          "c": "harder (comparative)"
+        },
+        "correct_answer": "a",
+        "explanation": "Als Adverb zum Verb „gearbeitet“ wird „hart“ nicht dekliniert („hart gearbeitet“)."
+      },
+      {
+        "number": 28,
+        "options": {
+          "a": "daher",
+          "b": "deshalb",
+          "c": "weil"
+        },
+        "options_en": {
+          "a": "therefore",
+          "b": "therefore",
+          "c": "because"
+        },
+        "correct_answer": "c",
+        "explanation": "Der Nebensatz nennt den Grund und das konjugierte Verb („konnten“) steht am Ende, daher wird die Konjunktion „weil“ benötigt."
+      },
+      {
+        "number": 29,
+        "options": {
+          "a": "aber",
+          "b": "als",
+          "c": "weil"
+        },
+        "options_en": {
+          "a": "however / but",
+          "b": "as / when",
+          "c": "because"
+        },
+        "correct_answer": "a",
+        "explanation": "„aber“ drückt hier im Hauptsatz den Gegensatz aus: Trotz der harten Arbeit hat sie auf das Bergsteigen nie verzichtet."
+      },
+      {
+        "number": 30,
+        "options": {
+          "a": "bist",
+          "b": "hast",
+          "c": "wirst"
+        },
+        "options_en": {
+          "a": "are",
+          "b": "have",
+          "c": "will / become"
+        },
+        "correct_answer": "b",
+        "explanation": "Das Perfekt von „erleben“ wird mit dem Hilfsverb „haben“ gebildet: „du hast ... erlebt“."
+      }
+    ]
   },
   "sprachbausteine_teil_2": {
     "instructions": "Lesen Sie den Text und schließen Sie die Lücken 31–40. Benutzen Sie die Wörter a–o. Jedes Wort passt nur einmal.",
-    "word_bank": {},
-    "passage": {
-      "text": ""
+    "word_bank": {
+      "a": "AN",
+      "b": "BEKANNTE",
+      "c": "BEREITS",
+      "d": "DAFÜR",
+      "e": "DARÜBER",
+      "f": "DASS",
+      "g": "FAMILIE",
+      "h": "KANN",
+      "i": "MICH",
+      "j": "MIT",
+      "k": "MUSS",
+      "l": "OB",
+      "m": "SEHR",
+      "n": "WAS",
+      "o": "WELCHE"
     },
-    "questions": []
+    "word_bank_en": {
+      "a": "to (Fragen an)",
+      "b": "acquaintances",
+      "c": "already",
+      "d": "for that / for this purpose",
+      "e": "about that",
+      "f": "that (conjunction)",
+      "g": "family",
+      "h": "can",
+      "i": "myself (sich informieren)",
+      "j": "with",
+      "k": "must",
+      "l": "whether / if",
+      "m": "very",
+      "n": "what",
+      "o": "which"
+    },
+    "passage": {
+      "text": "Sehr geehrte Damen und Herren,\n\nnachdem ich Ihr Inserat gelesen habe, möchte ich ___31___ gern genauer über Ihr Restaurant informieren. In einem Monat feiere ich meinen 30. Geburtstag und möchte dazu viele Freunde und ___32___ einladen. ___33___ wäre Ihr Hotel sicher sehr gut geeignet. Deshalb noch einige Fragen ___34___ Sie: Ich rechne ungefähr mit 25 Personen. Wie hoch ist die Miete für den passenden Raum und ___35___ Gerichte können Sie mir empfehlen? Da fast alle Gäste mit dem Auto kommen werden, wäre es auch wichtig, ___36___ genügend Parkplätze vorhanden sind.\n\nEs wäre ___37___ freundlich von Ihnen, wenn Sie mir möglichst bald Bescheid geben könnten, damit ich die Einladungen verschicken ___38___. Bitte senden Sie mir einen Prospekt Ihres Hotels ___39___ genauer Wegbeschreibung. Sollten Ihre Räume für den Monat Mai ___40___ ausgebucht sein, geben Sie mir bitte umgehend Bescheid.\n\nMit freundlichen Grüßen\nBarbara Heuberger",
+      "text_en": "Dear Sir or Madam,\n\nAfter reading your advertisement, I would like to find out more details about your restaurant. In a month I am celebrating my 30th birthday and would like to invite many friends and acquaintances. Your hotel would certainly be very well suited for this. Therefore, a few more questions for you: I am expecting around 25 people. How much is the rent for a suitable room and which dishes can you recommend to me? Since almost all guests will come by car, it would also be important that enough parking spaces are available.\n\nIt would be very kind of you if you could let me know as soon as possible so that I can send out the invitations. Please send me a brochure of your hotel with detailed directions. Should your rooms already be fully booked for the month of May, please let me know immediately.\n\nSincerely,\nBarbara Heuberger",
+      "vocabulary": [
+        {
+          "de": "das Inserat",
+          "en": "advertisement"
+        },
+        {
+          "de": "rechnen mit",
+          "en": "to expect / count on"
+        },
+        {
+          "de": "die Wegbeschreibung",
+          "en": "directions"
+        },
+        {
+          "de": "ausgebucht",
+          "en": "fully booked"
+        },
+        {
+          "de": "umgehend",
+          "en": "immediately / promptly"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 31,
+        "correct_answer": "i",
+        "explanation": "Das Verb ist reflexiv: „sich über etwas informieren“ -> „möchte ich mich gern genauer über Ihr Restaurant informieren“."
+      },
+      {
+        "number": 32,
+        "correct_answer": "b",
+        "explanation": "Nach „viele Freunde und ...“ folgt im Plural ohne Artikel „Bekannte“ (für „Familie“ bräuchte man einen Artikel wie „meine Familie“)."
+      },
+      {
+        "number": 33,
+        "correct_answer": "d",
+        "explanation": "„geeignet sein für“ bildet das Pronominaladverb „dafür“ („Dafür wäre Ihr Hotel sicher sehr gut geeignet“)."
+      },
+      {
+        "number": 34,
+        "correct_answer": "a",
+        "explanation": "Man richtet „Fragen an jemanden“ (+ Akkusativ: „einige Fragen an Sie“)."
+      },
+      {
+        "number": 35,
+        "correct_answer": "o",
+        "explanation": "Vor dem Nomen im Plural („Gerichte“) fragt das Interrogativpronomen „welche“ nach der Auswahl („welche Gerichte können Sie mir empfehlen?“)."
+      },
+      {
+        "number": 36,
+        "correct_answer": "f",
+        "explanation": "Nach „wäre es auch wichtig,“ leitet die Konjunktion „dass“ den Inhaltssatz ein."
+      },
+      {
+        "number": 37,
+        "correct_answer": "m",
+        "explanation": "Vor dem Adjektiv „freundlich“ steht das steigernde Adverb „sehr“ („Es wäre sehr freundlich von Ihnen“)."
+      },
+      {
+        "number": 38,
+        "correct_answer": "h",
+        "explanation": "Im Finalsatz mit „damit“ drückt das Modalverb „kann“ die Möglichkeit aus („damit ich die Einladungen verschicken kann“)."
+      },
+      {
+        "number": 39,
+        "correct_answer": "j",
+        "explanation": "Die Präposition „mit“ (+ Dativ Femininum Singular: „mit genauer Wegbeschreibung“) gibt an, was dem Prospekt beiliegen soll."
+      },
+      {
+        "number": 40,
+        "correct_answer": "c",
+        "explanation": "„bereits ausgebucht“ bedeutet „schon ausgebucht“ (already fully booked)."
+      }
+    ]
   },
   "hoerverstehen_teil_1": {
     "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören diese Texte nur einmal. Entscheiden Sie beim Hören, ob die Aussagen 41–45 richtig (+) oder falsch (-) sind.",
-    "transcripts": [],
-    "questions": []
+    "transcripts": [
+      {
+        "number": 41,
+        "text": "Ich fahre jeden Tag mit dem Fahrrad zur Arbeit. Die Radwege in der Stadt machen das einfacher und sicherer. Ich komme schnell durch den Verkehr und muss mir keine Sorgen um Autos machen. Ohne die Wege würde ich wahrscheinlich nicht so oft Fahrrad fahren.",
+        "text_en": "I ride my bicycle to work every day. The bike paths in the city make that easier and safer. I get through traffic quickly and don't have to worry about cars. Without the paths, I probably wouldn't ride my bike as often.",
+        "vocabulary": [
+          {
+            "de": "der Radweg",
+            "en": "bike path / cycle lane"
+          },
+          {
+            "de": "sich Sorgen machen um",
+            "en": "to worry about"
+          }
+        ]
+      },
+      {
+        "number": 42,
+        "text": "Ich fahre nur am Wochenende Fahrrad, meistens im Park. In der Stadt nutze ich mein Auto. Die Radwege, die es schon gibt, reichen mir völlig aus. Ich finde, es ist nicht nötig, noch mehr zu bauen. Ich habe damit bisher keine Probleme gehabt.",
+        "text_en": "I only ride a bike on the weekend, mostly in the park. In the city I use my car. The bike paths that already exist are completely sufficient for me. I think it is not necessary to build even more. I haven't had any problems with that so far.",
+        "vocabulary": [
+          {
+            "de": "ausreichen",
+            "en": "to be sufficient / enough"
+          },
+          {
+            "de": "nötig",
+            "en": "necessary"
+          }
+        ]
+      },
+      {
+        "number": 43,
+        "text": "Ich finde Radwege sehr wichtig. Sie machen das Fahren viel sicherer, besonders für Kinder. Ohne Radwege fühlt man sich nicht wohl auf der Straße. Ich wünsche mir sogar, dass es noch mehr Radwege in der Stadt gibt. Das hilft wirklich allen Verkehrsteilnehmern.",
+        "text_en": "I find bike paths very important. They make riding much safer, especially for children. Without bike paths you don't feel comfortable on the road. I even wish there were more bike paths in the city. That really helps all road users.",
+        "vocabulary": [
+          {
+            "de": "der Verkehrsteilnehmer",
+            "en": "road user"
+          },
+          {
+            "de": "sich wohlfühlen",
+            "en": "to feel comfortable"
+          }
+        ]
+      },
+      {
+        "number": 44,
+        "text": "Wenn Fahrradfahrer auf der Straße fahren, wird der Verkehr oft langsamer. Ich habe das selbst schon erlebt. Es ist gefährlich für alle. Deshalb finde ich es besser, wenn Fahrräder einen eigenen Weg haben. Das macht alles sicherer und ordentlicher im Straßenverkehr.",
+        "text_en": "When cyclists ride on the road, traffic often becomes slower. I have experienced that myself. It is dangerous for everyone. Therefore I think it is better when bicycles have their own path. That makes everything safer and more orderly in road traffic.",
+        "vocabulary": [
+          {
+            "de": "der Straßenverkehr",
+            "en": "road traffic"
+          },
+          {
+            "de": "ordentlich",
+            "en": "orderly"
+          }
+        ]
+      },
+      {
+        "number": 45,
+        "text": "Ich fühle mich auf Radwegen viel sicherer. Auf der Straße habe ich oft Angst, besonders wenn Autos schnell fahren. Mit einem eigenen Weg für Fahrräder kann ich ruhiger fahren. Deshalb finde ich, Radwege machen das Radfahren deutlich sicherer für alle.",
+        "text_en": "I feel much safer on bike paths. On the road I am often afraid, especially when cars drive fast. With a dedicated path for bicycles I can ride more calmly. Therefore I think bike paths make cycling significantly safer for everyone.",
+        "vocabulary": [
+          {
+            "de": "deutlich",
+            "en": "significantly / clearly"
+          },
+          {
+            "de": "ruhig",
+            "en": "calm"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "number": 41,
+        "statement": "Für den Sprecher haben Radwege Vorteile.",
+        "statement_en": "For the speaker, bike paths have advantages.",
+        "correct_answer": "+",
+        "explanation": "Der Sprecher sagt: „Die Radwege in der Stadt machen das einfacher und sicherer. Ich komme schnell durch den Verkehr und muss mir keine Sorgen um Autos machen.“"
+      },
+      {
+        "number": 42,
+        "statement": "Die Sprecherin möchte mehr Radwege.",
+        "statement_en": "The speaker wants more bike paths.",
+        "correct_answer": "-",
+        "explanation": "Die Sprecherin sagt: „Die Radwege, die es schon gibt, reichen mir völlig aus. Ich finde, es ist nicht nötig, noch mehr zu bauen.“"
+      },
+      {
+        "number": 43,
+        "statement": "Die Sprecherin meint, dass Radwege unnötig sind.",
+        "statement_en": "The speaker thinks that bike paths are unnecessary.",
+        "correct_answer": "-",
+        "explanation": "Im Gegenteil: Sie sagt „Ich finde Radwege sehr wichtig“ und wünscht sich sogar noch mehr Radwege in der Stadt."
+      },
+      {
+        "number": 44,
+        "statement": "Der Sprecher denkt, dass Radfahrer auf der Straße den Verkehr behindern.",
+        "statement_en": "The speaker thinks that cyclists on the road obstruct traffic.",
+        "correct_answer": "+",
+        "explanation": "Er sagt: „Wenn Fahrradfahrer auf der Straße fahren, wird der Verkehr oft langsamer. Ich habe das selbst schon erlebt. Es ist gefährlich für alle.“"
+      },
+      {
+        "number": 45,
+        "statement": "Für den Sprecher machen Radwege das Radfahren sicherer.",
+        "statement_en": "For the speaker, bike paths make cycling safer.",
+        "correct_answer": "+",
+        "explanation": "Er sagt ausdrücklich: „Deshalb finde ich, Radwege machen das Radfahren deutlich sicherer für alle.“"
+      }
+    ]
   },
   "hoerverstehen_teil_2": {
     "instructions": "Sie hören nun ein Gespräch. Dazu sollen Sie zehn Aufgaben lösen. Sie hören das Gespräch zweimal. Entscheiden Sie beim Hören, ob die Aussagen 46–55 richtig (+) oder falsch (-) sind.",
     "interview_transcript": {
-      "text": ""
+      "text": "Moderator: Guten Tag, Frau Schäfer. Schön, dass Sie heute bei uns sind. Sie sind aktiv in einem neuen Verein tätig. Können Sie uns etwas über Ihre Arbeit erzählen?\nFrau Schäfer: Vielen Dank für die Einladung. Es freut mich, hier zu sein.\nModerator: Erzählen Sie doch bitte, was Ihr Verein genau macht.\nFrau Schäfer: Unser Verein heißt „Zukunft zu Hause“. Wir unterstützen Familien im Alltag, besonders ältere Menschen, Alleinerziehende und auch Kinder. Wir helfen bei der Hausarbeit, begleiten zu Arztterminen oder betreuen Kinder nach der Schule.\nModerator: Das klingt nach viel Arbeit. Sind Sie die Gründerin des Vereins?\nFrau Schäfer: Nein, ich bin nicht die Gründerin. Der Verein wurde von einer Gruppe engagierter Frauen gegründet. Ich bin später dazugestoßen. Inzwischen bin ich aber sehr aktiv dabei.\nModerator: Wie viele Mitglieder gibt es denn?\nFrau Schäfer: Aktuell sind es rund 40 Mitglieder. Die meisten kommen aus unserer Stadt und der direkten Umgebung. Wir arbeiten sehr lokal, nicht deutschlandweit.\nModerator: Gibt es bei Ihnen auch gemeinsame Feiern oder Feste?\nFrau Schäfer: Nein, nicht wirklich. Wir organisieren keine Feste für uns selbst. Unsere Energie konzentriert sich auf die Unterstützung anderer. Allerdings helfen wir oft bei der Organisation von Festen für Familien oder Senioren – Geburtstage, kleine Nachbarschaftsfeste oder Veranstaltungen in Altersheimen.\nModerator: Also übernehmen Sie die Planung solcher Feiern?\nFrau Schäfer: Genau. Wir sprechen mit den Familien, planen den Ablauf, helfen beim Dekorieren und manchmal auch beim Kochen oder Servieren.\nModerator: Sie haben gesagt, dass Sie auch mit Kindern arbeiten?\nFrau Schäfer: Ja, viele unserer Helferinnen betreuen Kinder. Manche holen die Kinder von der Schule ab oder helfen bei den Hausaufgaben. Das ist besonders wichtig für berufstätige Eltern, die wenig Zeit haben.\nModerator: Und wie reagieren ältere Menschen auf Ihre Hilfe?\nFrau Schäfer: Manche freuen sich sofort, aber andere sind am Anfang eher zurückhaltend. Viele ältere Menschen sind vorsichtig, wenn sie neue Personen treffen oder Hilfe von einem Verein bekommen sollen. Aber wenn das Vertrauen da ist, wird die Hilfe gerne angenommen.\nModerator: Wer kann bei Ihnen mitmachen? Gibt es bestimmte Voraussetzungen?\nFrau Schäfer: Wir nehmen nur Leute auf, die eine Ausbildung gemacht haben oder einen Beruf gelernt haben. Wir legen viel Wert auf Verlässlichkeit und Grundkenntnisse, besonders wenn es um Betreuung oder Hausarbeit geht.\nModerator: Bekommen die Helferinnen Geld für ihre Arbeit?\nFrau Schäfer: Nein, die meisten von uns arbeiten ehrenamtlich. Es geht nicht ums Geld, sondern um das Miteinander und darum, Menschen zu unterstützen, die Hilfe brauchen.\nModerator: Und wie sieht es mit Ihren Vereinsräumen aus? Können alle Mitglieder diese nutzen?\nFrau Schäfer: Nein, die Räume sind nur für offizielle Treffen und Planungen gedacht. Man braucht eine Erlaubnis, um sie zu verwenden. Es ist also kein offener Treffpunkt für alle.\nModerator: Frau Schäfer, vielen Dank für das Gespräch.\nFrau Schäfer: Sehr gerne. Danke Ihnen.",
+      "text_en": "Host: Good day, Ms. Schäfer. Nice to have you with us today. You are actively involved in a new association. Can you tell us something about your work?\nMs. Schäfer: Thank you very much for the invitation. I'm pleased to be here.\nHost: Please tell us what your association does exactly.\nMs. Schäfer: Our association is called 'Future at Home'. We support families in everyday life, especially older people, single parents, and children. We help with housework, accompany people to doctor's appointments, or look after children after school.\nHost: That sounds like a lot of work. Are you the founder of the association?\nMs. Schäfer: No, I am not the founder. The association was founded by a group of dedicated women. I joined later. Meanwhile, however, I am very actively involved.\nHost: How many members are there?\nMs. Schäfer: Currently there are around 40 members. Most come from our city and the immediate surroundings. We work very locally, not nationwide.\nHost: Do you also have joint celebrations or parties?\nMs. Schäfer: No, not really. We don't organize parties for ourselves. Our energy focuses on supporting others. However, we often help organize parties for families or seniors—birthdays, small neighborhood parties, or events in retirement homes.\nHost: So you take over the planning of such celebrations?\nMs. Schäfer: Exactly. We talk with the families, plan the schedule, help with decorating, and sometimes also with cooking or serving.\nHost: You said that you also work with children?\nMs. Schäfer: Yes, many of our helpers look after children. Some pick the children up from school or help with homework. That is especially important for working parents who have little time.\nHost: And how do older people react to your help?\nMs. Schäfer: Some are happy right away, but others are rather reserved at the beginning. Many older people are cautious when meeting new people or receiving help from an association. But once trust is there, the help is gladly accepted.\nHost: Who can join you? Are there specific requirements?\nMs. Schäfer: We only accept people who have completed vocational training or learned a profession. We place great value on reliability and basic skills, especially when it comes to care or housework.\nHost: Do the helpers get money for their work?\nMs. Schäfer: No, most of us work on a voluntary basis. It's not about money, but about togetherness and supporting people who need help.\nHost: And what about your association's rooms? Can all members use them?\nMs. Schäfer: No, the rooms are only intended for official meetings and planning. You need permission to use them. So it is not an open meeting place for everyone.\nHost: Ms. Schäfer, thank you very much for the conversation.\nMs. Schäfer: You're very welcome. Thank you.",
+      "vocabulary": [
+        {
+          "de": "dazustoßen",
+          "en": "to join later"
+        },
+        {
+          "de": "Alleinerziehende",
+          "en": "single parents"
+        },
+        {
+          "de": "zurückhaltend",
+          "en": "reserved / cautious"
+        },
+        {
+          "de": "die Verlässlichkeit",
+          "en": "reliability"
+        },
+        {
+          "de": "ehrenamtlich",
+          "en": "voluntary / unpaid"
+        }
+      ]
     },
-    "questions": []
+    "questions": [
+      {
+        "number": 46,
+        "statement": "Der Journalist spricht mit der Gründerin des neuen Vereins.",
+        "statement_en": "The journalist is speaking with the founder of the new association.",
+        "correct_answer": "-",
+        "explanation": "Frau Schäfer sagt: „Nein, ich bin nicht die Gründerin. Der Verein wurde von einer Gruppe engagierter Frauen gegründet. Ich bin später dazugestoßen.“"
+      },
+      {
+        "number": 47,
+        "statement": "Die Mitglieder des Vereins kommen aus ganz Deutschland.",
+        "statement_en": "The members of the association come from all over Germany.",
+        "correct_answer": "-",
+        "explanation": "Frau Schäfer erklärt: „Die meisten kommen aus unserer Stadt und der direkten Umgebung. Wir arbeiten sehr lokal, nicht deutschlandweit.“"
+      },
+      {
+        "number": 48,
+        "statement": "Die Vereinsmitglieder wissen über Hausarbeit gut Bescheid.",
+        "statement_en": "The association members are knowledgeable about housework.",
+        "correct_answer": "+",
+        "explanation": "Der Verein hilft bei der Hausarbeit und legt großen Wert auf Grundkenntnisse und eine abgeschlossene Ausbildung, besonders bei Betreuung und Hausarbeit."
+      },
+      {
+        "number": 49,
+        "statement": "Im Verein werden oft Feste gefeiert.",
+        "statement_en": "Parties are often celebrated in the association.",
+        "correct_answer": "-",
+        "explanation": "Auf die Frage nach gemeinsamen Feiern im Verein sagt Frau Schäfer: „Nein, nicht wirklich. Wir organisieren keine Feste für uns selbst.“"
+      },
+      {
+        "number": 50,
+        "statement": "Der Verein übernimmt auch die Organisation von Festen.",
+        "statement_en": "The association also takes on the organization of parties.",
+        "correct_answer": "+",
+        "explanation": "Frau Schäfer bestätigt, dass der Verein bei der Organisation und Planung von Festen für Familien oder Senioren (Geburtstage, Nachbarschaftsfeste) hilft."
+      },
+      {
+        "number": 51,
+        "statement": "Der Verein kümmert sich auch um Kinder und alte Menschen.",
+        "statement_en": "The association also looks after children and elderly people.",
+        "correct_answer": "+",
+        "explanation": "Frau Schäfer sagt: „Wir unterstützen Familien im Alltag, besonders ältere Menschen, Alleinerziehende und auch Kinder.“"
+      },
+      {
+        "number": 52,
+        "statement": "Laut Frau Schäfer vertrauen alte Menschen dem Verein nicht immer.",
+        "statement_en": "According to Ms. Schäfer, elderly people do not always trust the association.",
+        "correct_answer": "+",
+        "explanation": "Sie sagt, dass viele ältere Menschen am Anfang eher zurückhaltend und vorsichtig sind, wenn sie neue Personen treffen oder Hilfe von einem Verein bekommen sollen."
+      },
+      {
+        "number": 53,
+        "statement": "Vereinsmitglied kann nur werden, wer einen Beruf gelernt hat.",
+        "statement_en": "Only someone who has learned a profession can become an association member.",
+        "correct_answer": "+",
+        "explanation": "Frau Schäfer sagt ausdrücklich: „Wir nehmen nur Leute auf, die eine Ausbildung gemacht haben oder einen Beruf gelernt haben.“"
+      },
+      {
+        "number": 54,
+        "statement": "Die Mitarbeiterinnen bekommen für alle ihre Arbeiten 10 Euro pro Stunde.",
+        "statement_en": "The employees receive 10 Euros per hour for all their work.",
+        "correct_answer": "-",
+        "explanation": "Frau Schäfer verneint die Frage nach Bezahlung: „Nein, die meisten von uns arbeiten ehrenamtlich. Es geht nicht ums Geld.“"
+      },
+      {
+        "number": 55,
+        "statement": "Die Vereinsräume können von allen Mitgliedern genutzt werden.",
+        "statement_en": "The association's rooms can be used by all members.",
+        "correct_answer": "-",
+        "explanation": "Frau Schäfer sagt: „Nein, die Räume sind nur für offizielle Treffen und Planungen gedacht. Man braucht eine Erlaubnis, um sie zu verwenden. Es ist also kein offener Treffpunkt für alle.“"
+      }
+    ]
   },
   "hoerverstehen_teil_3": {
     "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören jeden Text zweimal. Entscheiden Sie beim Hören, ob die Aussagen 56–60 richtig (+) oder falsch (-) sind.",
-    "transcripts": [],
-    "questions": []
+    "transcripts": [
+      {
+        "number": 56,
+        "text": "Auf dem Stadtfest kann man viel erleben. Es gibt Musik aus verschiedenen Ländern und viele Essensstände. Ich habe z.B. etwas Indisches probiert. Auch türkische und italienische Musik war dabei. Solche Feste finde ich super. Man lernt neue Kulturen kennen und genießt leckeres Essen.",
+        "text_en": "You can experience a lot at the city festival. There is music from different countries and many food stalls. For example, I tried something Indian. Turkish and Italian music were also there. I think such festivals are great. You get to know new cultures and enjoy delicious food.",
+        "vocabulary": [
+          {
+            "de": "der Essensstand",
+            "en": "food stall"
+          },
+          {
+            "de": "genießen",
+            "en": "to enjoy"
+          }
+        ]
+      },
+      {
+        "number": 57,
+        "text": "Ich war heute Morgen in der Stadtbibliothek. Die Mitarbeiterin hat gesagt, dass mein Buch schon da ist. Ich habe es gleich abgeholt. Es war ganz einfach. Man bekommt eine E-Mail, wenn das Buch bereitliegt, und kann es noch am gleichen Tag mitnehmen.",
+        "text_en": "I was at the city library this morning. The employee said that my book is already there. I picked it up right away. It was very easy. You get an email when the book is ready and can take it with you on the very same day.",
+        "vocabulary": [
+          {
+            "de": "bereitliegen",
+            "en": "to be ready for pickup"
+          },
+          {
+            "de": "abholen",
+            "en": "to pick up"
+          }
+        ]
+      },
+      {
+        "number": 58,
+        "text": "In der U-Bahn-Station habe ich einen Mann gesehen, der geraucht hat. Ein anderer hat ihn darauf hingewiesen, dass das verboten ist. Es gibt überall Rauchverbotsschilder. Nur draußen vor dem Gebäude darf man rauchen, aber nicht im Bahnhofsbereich selbst.",
+        "text_en": "In the subway station I saw a man who was smoking. Someone else pointed out to him that it is forbidden. There are no-smoking signs everywhere. You are only allowed to smoke outside in front of the building, not in the station area itself.",
+        "vocabulary": [
+          {
+            "de": "hinweisen auf",
+            "en": "to point out"
+          },
+          {
+            "de": "das Rauchverbotsschild",
+            "en": "no-smoking sign"
+          }
+        ]
+      },
+      {
+        "number": 59,
+        "text": "Ich habe meinen Flug nach Berlin online gebucht. Der Preis war inklusive aller Gebühren. Ich musste nichts extra zahlen, auch nicht für den Flughafen. Das war alles im Endpreis enthalten. Ich finde das gut, weil man so besser planen kann.",
+        "text_en": "I booked my flight to Berlin online. The price included all fees. I didn't have to pay anything extra, not even for the airport. That was all included in the final price. I think that's good because you can plan better that way.",
+        "vocabulary": [
+          {
+            "de": "die Gebühr",
+            "en": "fee / charge"
+          },
+          {
+            "de": "im Endpreis enthalten",
+            "en": "included in the final price"
+          }
+        ]
+      },
+      {
+        "number": 60,
+        "text": "Ich war gestern im Kunstmuseum und habe die neue Ausstellung gesehen. Sie wurde schon letzte Woche eröffnet. Viele Leute waren da. In der Zeitung stand: „Sie beginnt nächste Woche.“ Aber das war wohl falsch. Zum Glück bin ich trotzdem hingegangen.",
+        "text_en": "Yesterday I was at the art museum and saw the new exhibition. It already opened last week. Many people were there. The newspaper said: 'It starts next week.' But that was apparently wrong. Luckily I went anyway.",
+        "vocabulary": [
+          {
+            "de": "die Ausstellung",
+            "en": "exhibition"
+          },
+          {
+            "de": "eröffnen",
+            "en": "to open / inaugurate"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "number": 56,
+        "statement": "Man kann z.B. Musik und Speisen aus verschiedenen Ländern kennenlernen.",
+        "statement_en": "You can, for example, get to know music and food from different countries.",
+        "correct_answer": "+",
+        "explanation": "Auf dem Stadtfest gibt es Musik aus verschiedenen Ländern (z.B. türkische und italienische Musik) und viele Essensstände (z.B. indisches Essen)."
+      },
+      {
+        "number": 57,
+        "statement": "Sie können das Buch schon heute abholen.",
+        "statement_en": "You can pick up the book already today.",
+        "correct_answer": "+",
+        "explanation": "Das Buch ist schon da; man bekommt eine E-Mail, wenn es bereitliegt, und kann es noch am gleichen Tag mitnehmen."
+      },
+      {
+        "number": 58,
+        "statement": "Rauchen darf man nur in den U-Bahn-Stationen.",
+        "statement_en": "Smoking is only allowed in the subway stations.",
+        "correct_answer": "-",
+        "explanation": "In der U-Bahn-Station ist Rauchen verboten; man darf nur draußen vor dem Gebäude rauchen."
+      },
+      {
+        "number": 59,
+        "statement": "Die Flughafengebühren muss man extra bezahlen.",
+        "statement_en": "You have to pay the airport fees extra.",
+        "correct_answer": "-",
+        "explanation": "Der Preis war inklusive aller Gebühren; man musste nichts extra für den Flughafen zahlen."
+      },
+      {
+        "number": 60,
+        "statement": "Die neue Ausstellung kann man ab nächster Woche sehen.",
+        "statement_en": "The new exhibition can be seen starting next week.",
+        "correct_answer": "-",
+        "explanation": "Die Ausstellung wurde schon letzte Woche eröffnet; die Meldung in der Zeitung („beginnt nächste Woche“) war falsch."
+      }
+    ]
   }
 }
