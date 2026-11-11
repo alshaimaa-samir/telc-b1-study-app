@@ -1,5 +1,5 @@
 {
-  "title": "Moritz",
+  "title": "MORITZ",
   "leseverstehen_teil_1": {
     "headings": {
       "a": "Bio-Gemüse direkt vom Bauernhof",
@@ -33,9 +33,18 @@
         "correct_answer": "b",
         "explanation": "Der Text beschreibt das Konzept von Unverpackt-Läden, in denen man ohne Plastik und Verpackungen einkauft.",
         "vocabulary": [
-          { "de": "der Verpackungsmüll", "en": "packaging waste" },
-          { "de": "der Stoffbeutel", "en": "cloth bag" },
-          { "de": "abfüllen", "en": "to fill / dispense" }
+          {
+            "de": "der Verpackungsmüll",
+            "en": "packaging waste"
+          },
+          {
+            "de": "der Stoffbeutel",
+            "en": "cloth bag"
+          },
+          {
+            "de": "abfüllen",
+            "en": "to fill / dispense"
+          }
         ]
       },
       {
@@ -45,9 +54,18 @@
         "correct_answer": "f",
         "explanation": "Es geht um einen Umwelt-Weihnachtsmarkt mit nachhaltigen, handgemachten Geschenkideen.",
         "vocabulary": [
-          { "de": "der Weihnachtsmarkt", "en": "Christmas market" },
-          { "de": "handgemacht", "en": "handmade" },
-          { "de": "fair gehandelt", "en": "fair-trade" }
+          {
+            "de": "der Weihnachtsmarkt",
+            "en": "Christmas market"
+          },
+          {
+            "de": "handgemacht",
+            "en": "handmade"
+          },
+          {
+            "de": "fair gehandelt",
+            "en": "fair-trade"
+          }
         ]
       },
       {
@@ -57,9 +75,18 @@
         "correct_answer": "j",
         "explanation": "Durch Wochenplanung und Einkaufslisten wirft man weniger Lebensmittel weg.",
         "vocabulary": [
-          { "de": "wegwerfen", "en": "to throw away" },
-          { "de": "die Mülltonne", "en": "trash bin" },
-          { "de": "die Einkaufsliste", "en": "shopping list" }
+          {
+            "de": "wegwerfen",
+            "en": "to throw away"
+          },
+          {
+            "de": "die Mülltonne",
+            "en": "trash bin"
+          },
+          {
+            "de": "die Einkaufsliste",
+            "en": "shopping list"
+          }
         ]
       },
       {
@@ -69,9 +96,18 @@
         "correct_answer": "a",
         "explanation": "Familien erhalten eine frische Bio-Gemüsekiste direkt vom Bauernhof geliefert.",
         "vocabulary": [
-          { "de": "der Bauernhof", "en": "farm" },
-          { "de": "der Landwirt", "en": "farmer" },
-          { "de": "die Jahreszeit", "en": "season" }
+          {
+            "de": "der Bauernhof",
+            "en": "farm"
+          },
+          {
+            "de": "der Landwirt",
+            "en": "farmer"
+          },
+          {
+            "de": "die Jahreszeit",
+            "en": "season"
+          }
         ]
       },
       {
@@ -81,9 +117,18 @@
         "correct_answer": "d",
         "explanation": "Kinder basteln in der Bibliothek eigenen Weihnachtsschmuck aus Naturmaterialien und Papier.",
         "vocabulary": [
-          { "de": "basteln", "en": "to do handicrafts / make" },
-          { "de": "der Weihnachtsschmuck", "en": "Christmas decorations" },
-          { "de": "der Tannenzapfen", "en": "pine cone" }
+          {
+            "de": "basteln",
+            "en": "to do handicrafts / make"
+          },
+          {
+            "de": "der Weihnachtsschmuck",
+            "en": "Christmas decorations"
+          },
+          {
+            "de": "der Tannenzapfen",
+            "en": "pine cone"
+          }
         ]
       }
     ]
@@ -99,10 +144,22 @@
       ],
       "text_en": "Actually, Svenja Peters's path in life was clearly mapped out: after successfully completing her law degree in Hamburg, she wanted to take an extended trip to Asia before starting as a lawyer at a large firm. Four weeks in Thailand followed by two weeks on the Indonesian island of Sumatra were planned. But on Sumatra she met diving instructor Ketut and fell head over heels in love with him. After the end of her trip, Svenja briefly returned to Germany, but only to give up her apartment, sell her furniture, and organize her move to Indonesia. Her parents were initially unenthusiastic and worried that her long and difficult studies had been completely in vain. On Sumatra, Svenja and Ketut first opened a small beach restaurant for tourists. Because more and more guests asked if they could also stay overnight, the two gradually built small bungalows. Today Svenja and her husband successfully run a cozy 36-room hotel right by the sea.",
       "vocabulary": [
-        { "de": "die Anwältin", "en": "female lawyer" },
-        { "de": "sich verlieben", "en": "to fall in love" },
-        { "de": "der Umzug", "en": "move / relocation" },
-        { "de": "umsonst", "en": "in vain / for nothing" }
+        {
+          "de": "die Anwältin",
+          "en": "female lawyer"
+        },
+        {
+          "de": "sich verlieben",
+          "en": "to fall in love"
+        },
+        {
+          "de": "der Umzug",
+          "en": "move / relocation"
+        },
+        {
+          "de": "umsonst",
+          "en": "in vain / for nothing"
+        }
       ]
     },
     "questions": [
@@ -194,8 +251,278 @@
     ]
   },
   "leseverstehen_teil_3": {
-    "advertisements": {},
-    "situations": []
+    "advertisements": {
+      "a": {
+        "title": "Garten-Service Grünwald",
+        "subtitle": "Haus & Garten",
+        "lines": [
+          "Keine Zeit für die Gartenarbeit?",
+          "Wir übernehmen Rasenmähen, Heckenschneiden und Baumpflege zuverlässig und preiswert.",
+          "Auch Urlaubsvertretung für Ihren Garten!"
+        ],
+        "text_en": "No time for gardening? We take care of lawn mowing, hedge trimming, and tree care reliably and inexpensively. Also holiday cover for your garden!",
+        "vocabulary": [
+          {
+            "de": "der Rasen",
+            "en": "lawn"
+          },
+          {
+            "de": "die Hecke",
+            "en": "hedge"
+          }
+        ]
+      },
+      "b": {
+        "title": "Gartencenter Blumenparadies",
+        "subtitle": "Haus & Garten",
+        "lines": [
+          "Großer Frühlingsmarkt!",
+          "Obstbäume, Rosen, Balkonpflanzen und Blumenerde zu Sonderpreisen.",
+          "Jeden Samstag kostenlose Beratung zur Pflanzenpflege."
+        ],
+        "text_en": "Big spring market! Fruit trees, roses, balcony plants, and potting soil at special prices. Free plant care advice every Saturday.",
+        "vocabulary": [
+          {
+            "de": "die Blumenerde",
+            "en": "potting soil"
+          }
+        ]
+      },
+      "c": {
+        "title": "Sprachschule LinguaViva",
+        "subtitle": "Bildung",
+        "lines": [
+          "Spanisch, Italienisch und Französisch für den Urlaub",
+          "Abendkurse in kleinen Gruppen (max. 8 Personen) ab nächster Woche.",
+          "Anmeldung unter Tel. 040-332211"
+        ],
+        "text_en": "Spanish, Italian, and French for vacation. Evening courses in small groups (max. 8 people) starting next week.",
+        "vocabulary": [
+          {
+            "de": "der Abendkurs",
+            "en": "evening course"
+          }
+        ]
+      },
+      "d": {
+        "title": "Übersetzungsbüro Dr. Rossi",
+        "subtitle": "Dienstleistungen",
+        "lines": [
+          "Beglaubigte Übersetzungen in 15 Sprachen (u.a. Spanisch, Italienisch, Englisch).",
+          "Schnelle Bearbeitung von Zeugnissen, Verträgen und Urkunden."
+        ],
+        "text_en": "Certified translations in 15 languages (including Spanish, Italian, English). Fast processing of certificates, contracts, and official documents.",
+        "vocabulary": [
+          {
+            "de": "beglaubigt",
+            "en": "certified"
+          },
+          {
+            "de": "die Urkunde",
+            "en": "official document / certificate"
+          }
+        ]
+      },
+      "e": {
+        "title": "Autohaus Nord – Mietwagen & Transporter",
+        "subtitle": "Auto & Verkehr",
+        "lines": [
+          "Sie ziehen um oder müssen sperrige Möbel transportieren?",
+          "Bei uns mieten Sie Kleintransporter und Lkw schon ab 39 Euro pro Tag!",
+          "Auch stundenweise am Wochenende."
+        ],
+        "text_en": "Moving house or need to transport bulky furniture? Rent vans and trucks from us starting at just 39 euros per day! Also by the hour on weekends.",
+        "vocabulary": [
+          {
+            "de": "sperrig",
+            "en": "bulky"
+          },
+          {
+            "de": "der Kleintransporter",
+            "en": "van"
+          }
+        ]
+      },
+      "f": {
+        "title": "Umzüge Blitz & Blank",
+        "subtitle": "Dienstleistungen",
+        "lines": [
+          "Komplett-Umzüge im In- und Ausland!",
+          "Unsere erfahrenen Mitarbeiter packen Ihre Kisten, bauen Ihre Möbel ab und wieder auf.",
+          "Kostenlose Besichtigung und Festpreisangebot."
+        ],
+        "text_en": "Complete moves domestically and abroad! Our experienced staff pack your boxes, disassemble your furniture, and reassemble it. Free inspection and fixed-price quote.",
+        "vocabulary": [
+          {
+            "de": "abbauen",
+            "en": "to disassemble / take down"
+          }
+        ]
+      },
+      "g": {
+        "title": "Fahrradwerkstatt & Verleih Pedalo",
+        "subtitle": "Freizeit & Sport",
+        "lines": [
+          "Reparaturen aller Art innerhalb von 24 Stunden!",
+          "Außerdem: Verleih von Tourenrädern, Kinderfahrrädern und E-Bikes für Ihren Wochenendausflug."
+        ],
+        "text_en": "Repairs of all kinds within 24 hours! Also: rental of touring bikes, children's bikes, and e-bikes for your weekend trip.",
+        "vocabulary": [
+          {
+            "de": "der Verleih",
+            "en": "rental shop"
+          }
+        ]
+      },
+      "h": {
+        "title": "Radsportverein Vorwärts",
+        "subtitle": "Freizeit & Sport",
+        "lines": [
+          "Gemeinsam radeln macht mehr Spaß!",
+          "Jeden Sonntag ab 10 Uhr geführte Fahrradtouren (40–60 km) durch das Umland.",
+          "Gäste und neue Mitglieder sind herzlich willkommen."
+        ],
+        "text_en": "Cycling together is more fun! Every Sunday from 10 a.m. guided bike tours (40–60 km) through the surrounding area. Guests and new members are warmly welcome.",
+        "vocabulary": [
+          {
+            "de": "das Umland",
+            "en": "surrounding countryside"
+          }
+        ]
+      },
+      "i": {
+        "title": "Tanzschule Schritt für Schritt",
+        "subtitle": "Kultur & Freizeit",
+        "lines": [
+          "Walzer, Tango, Salsa oder Discofox – neue Anfängerkurse für Paare und Singles!",
+          "Spezielle Wochenend-Crashkurse für Hochzeitsgäste und Brautpaare."
+        ],
+        "text_en": "Waltz, tango, salsa, or discofox – new beginner courses for couples and singles! Special weekend crash courses for wedding guests and engaged couples.",
+        "vocabulary": [
+          {
+            "de": "das Brautpaar",
+            "en": "bride and groom"
+          }
+        ]
+      },
+      "j": {
+        "title": "Fitnessstudio BodyFit",
+        "subtitle": "Sport & Gesundheit",
+        "lines": [
+          "Rückenschule, Yoga, Aerobic und modernes Gerätetraining.",
+          "Kinderbetreuung vormittags von 9 bis 12 Uhr kostenlos inklusive!"
+        ],
+        "text_en": "Back training, yoga, aerobics, and modern equipment training. Free childcare included in the mornings from 9 a.m. to 12 p.m.!",
+        "vocabulary": [
+          {
+            "de": "die Kinderbetreuung",
+            "en": "childcare"
+          }
+        ]
+      },
+      "k": {
+        "title": "Tierpension Sonnenhof",
+        "subtitle": "Tiere",
+        "lines": [
+          "Sie fahren in den Urlaub? Wir betreuen Ihren Hund oder Ihre Katze liebevoll in großen Zimmern mit Auslauf im Garten.",
+          "Tierärztliche Betreuung rund um die Uhr."
+        ],
+        "text_en": "Going on vacation? We lovingly care for your dog or cat in large rooms with garden access. Veterinary care around the clock.",
+        "vocabulary": [
+          {
+            "de": "der Auslauf",
+            "en": "outdoor run / exercise area"
+          }
+        ]
+      },
+      "l": {
+        "title": "Café & Konditorei Rosenkranz",
+        "subtitle": "Gastronomie",
+        "lines": [
+          "Hausgemachte Torten, Kuchen und feine Pralinen.",
+          "Wir backen auch mehrstöckige Festtagstorten für Ihre Hochzeit oder Ihren Geburtstag auf Bestellung!"
+        ],
+        "text_en": "Homemade layer cakes, cakes, and fine chocolates. We also bake multi-tiered celebration cakes for your wedding or birthday to order!",
+        "vocabulary": [
+          {
+            "de": "die Konditorei",
+            "en": "pastry shop"
+          }
+        ]
+      }
+    },
+    "situations": [
+      {
+        "number": 11,
+        "situation": "Sie haben sich ein neues Sofa gekauft und möchten einen kleinen Wagen mieten, um es selbst nach Hause zu fahren.",
+        "situation_en": "You bought a new sofa and want to rent a small van to drive it home yourself.",
+        "correct_answer": "e",
+        "explanation": "Anzeige 'e' (Autohaus Nord) vermietet Kleintransporter zum Transportieren sperriger Möbel."
+      },
+      {
+        "number": 12,
+        "situation": "Sie sind nächsten Monat zu einer Hochzeit eingeladen und möchten vorher an einem Wochenende noch schnell tanzen lernen.",
+        "situation_en": "You are invited to a wedding next month and want to quickly learn to dance on a weekend beforehand.",
+        "correct_answer": "i",
+        "explanation": "Anzeige 'i' (Tanzschule Schritt für Schritt) bietet spezielle Wochenend-Crashkurse für Hochzeitsgäste an."
+      },
+      {
+        "number": 13,
+        "situation": "Ihre Großeltern haben ein großes Grundstück, können aber aus gesundheitlichen Gründen den Rasen nicht mehr selbst mähen.",
+        "situation_en": "Your grandparents have a large property, but for health reasons can no longer mow the lawn themselves.",
+        "correct_answer": "a",
+        "explanation": "Anzeige 'a' (Garten-Service Grünwald) übernimmt Rasenmähen und Heckenschneiden."
+      },
+      {
+        "number": 14,
+        "situation": "Sie möchten für Ihre ausländischen Schulzeugnisse eine offizielle deutsche Übersetzung anfertigen lassen.",
+        "situation_en": "You want to have an official German translation made for your foreign school certificates.",
+        "correct_answer": "d",
+        "explanation": "Anzeige 'd' (Übersetzungsbüro Dr. Rossi) bietet beglaubigte Übersetzungen von Zeugnissen und Urkunden an."
+      },
+      {
+        "number": 15,
+        "situation": "Sie fahren am Sonntag gern mit dem Fahrrad, möchten aber nicht immer allein unterwegs sein.",
+        "situation_en": "You like riding your bike on Sundays, but don't always want to be out alone.",
+        "correct_answer": "h",
+        "explanation": "Anzeige 'h' (Radsportverein Vorwärts) organisiert jeden Sonntag geführte Fahrradtouren in der Gruppe."
+      },
+      {
+        "number": 16,
+        "situation": "Sie möchten vormittags Sport treiben und suchen ein Studio, in dem währenddessen Ihr zweijähriger Sohn betreut wird.",
+        "situation_en": "You want to exercise in the morning and are looking for a gym where your two-year-old son will be looked after in the meantime.",
+        "correct_answer": "j",
+        "explanation": "Anzeige 'j' (Fitnessstudio BodyFit) bietet vormittags von 9 bis 12 Uhr kostenlose Kinderbetreuung an."
+      },
+      {
+        "number": 17,
+        "situation": "Sie fliegen für zwei Wochen nach Spanien und suchen jemanden, der sich in dieser Zeit um Ihren Hund kümmert.",
+        "situation_en": "You are flying to Spain for two weeks and are looking for someone to take care of your dog during this time.",
+        "correct_answer": "k",
+        "explanation": "Anzeige 'k' (Tierpension Sonnenhof) betreut Hunde und Katzen während der Urlaubszeit."
+      },
+      {
+        "number": 18,
+        "situation": "Sie suchen für Ihren Sohn einen gebrauchten Schreibtisch für sein Kinderzimmer.",
+        "situation_en": "You are looking for a second-hand desk for your son's bedroom.",
+        "correct_answer": "x",
+        "explanation": "Keine der Anzeigen verkauft gebrauchte Möbel."
+      },
+      {
+        "number": 19,
+        "situation": "Sie möchten im Sommer nach Italien reisen und vorher abends noch ein wenig Italienisch lernen.",
+        "situation_en": "You want to travel to Italy in the summer and learn a little Italian in the evenings beforehand.",
+        "correct_answer": "c",
+        "explanation": "Anzeige 'c' (Sprachschule LinguaViva) bietet Abendkurse in Italienisch für den Urlaub an."
+      },
+      {
+        "number": 20,
+        "situation": "Das Fahrrad Ihrer Tochter ist kaputt und Sie suchen jemanden, der es schnell repariert.",
+        "situation_en": "Your daughter's bicycle is broken and you are looking for someone to repair it quickly.",
+        "correct_answer": "g",
+        "explanation": "Anzeige 'g' (Fahrradwerkstatt Pedalo) bietet Reparaturen aller Art innerhalb von 24 Stunden an."
+      }
+    ]
   },
   "sprachbausteine_teil_1": {
     "instructions": "Lesen Sie den Text und schließen Sie die Lücken 21–30. Welche Lösung (a, b oder c) ist jeweils richtig?",
@@ -203,68 +530,114 @@
       "text": "Liebe Katharina,\njetzt ___21___ wir uns schon seit über einem halben Jahr nicht mehr gesehen! Wie schnell die Zeit vergeht. Wir haben ___22___ sehr über deine Einladung nach München gefreut. Natürlich kommen wir dich ___23___ den Sommerferien sehr gern besuchen.\nDu ___24___ dir wegen unseres Besuchs aber keine große Arbeit machen. Für ___25___ lange Wochenende reicht uns ein kleines Gästezimmer völlig aus. Nur ___26___ unseres Hundes Bello wollte ich dich noch etwas fragen: Können wir ihn mitbringen oder müssen wir für ___27___ vier Tage eine andere ___28___ suchen?\nIch schicke dir mit ___29___ Brief auch schon mal eine CD mit den Urlaubsfotos vom letzten Jahr, auf der ich alle ___30___ Bilder gespeichert habe.\nHerzliche Grüße\ndein Moritz",
       "text_en": "Dear Katharina, now we haven't seen each other for over half a year! How quickly time flies. We were very happy about your invitation to Munich. Of course we would love to come visit you during the summer holidays. However, you don't have to go to a lot of trouble because of our visit. For the long weekend, a small guest room is completely sufficient for us. Just because of our dog Bello I wanted to ask you something: Can we bring him along or do we have to look for other accommodation for the four days? With my letter I am also sending you a CD with last year's vacation photos, on which I saved all the digital pictures. Warm regards, your Moritz",
       "vocabulary": [
-        { "de": "die Unterkunft", "en": "accommodation" },
-        { "de": "speichern", "en": "to save (data)" }
+        {
+          "de": "die Unterkunft",
+          "en": "accommodation"
+        },
+        {
+          "de": "speichern",
+          "en": "to save (data)"
+        }
       ]
     },
     "questions": [
       {
         "number": 21,
-        "options": { "a": "haben", "b": "hatten", "c": "sind" },
+        "options": {
+          "a": "haben",
+          "b": "hatten",
+          "c": "sind"
+        },
         "correct_answer": "a",
         "explanation": "Perfekt von 'sehen' im Präsensbezug ('seit über einem halben Jahr'): 'haben ... gesehen'."
       },
       {
         "number": 22,
-        "options": { "a": "euch", "b": "sich", "c": "uns" },
+        "options": {
+          "a": "euch",
+          "b": "sich",
+          "c": "uns"
+        },
         "correct_answer": "c",
         "explanation": "Reflexivpronomen 1. Person Plural zu 'Wir haben uns gefreut'."
       },
       {
         "number": 23,
-        "options": { "a": "am", "b": "in", "c": "zu" },
+        "options": {
+          "a": "am",
+          "b": "in",
+          "c": "zu"
+        },
         "correct_answer": "b",
         "explanation": "Temporale Präposition bei Ferien/Wochen: 'in den Sommerferien'."
       },
       {
         "number": 24,
-        "options": { "a": "musst", "b": "müsst", "c": "musste" },
+        "options": {
+          "a": "musst",
+          "b": "müsst",
+          "c": "musste"
+        },
         "correct_answer": "a",
         "explanation": "2. Person Singular Präsens passend zu 'Du': 'Du musst dir keine Arbeit machen'."
       },
       {
         "number": 25,
-        "options": { "a": "das", "b": "dem", "c": "den" },
+        "options": {
+          "a": "das",
+          "b": "dem",
+          "c": "den"
+        },
         "correct_answer": "a",
         "explanation": "Akkusativ Neutrum nach 'für': 'Für das lange Wochenende'."
       },
       {
         "number": 26,
-        "options": { "a": "trotz", "b": "während", "c": "wegen" },
+        "options": {
+          "a": "trotz",
+          "b": "während",
+          "c": "wegen"
+        },
         "correct_answer": "c",
         "explanation": "Kausale Präposition mit Genitiv: 'wegen unseres Hundes'."
       },
       {
         "number": 27,
-        "options": { "a": "den", "b": "der", "c": "die" },
+        "options": {
+          "a": "den",
+          "b": "der",
+          "c": "die"
+        },
         "correct_answer": "c",
         "explanation": "Akkusativ Plural nach 'für': 'für die vier Tage'."
       },
       {
         "number": 28,
-        "options": { "a": "Aufenthalt", "b": "Reise", "c": "Unterkunft" },
+        "options": {
+          "a": "Aufenthalt",
+          "b": "Reise",
+          "c": "Unterkunft"
+        },
         "correct_answer": "c",
         "explanation": "'eine andere Unterkunft suchen' (Übernachtungsmöglichkeit)."
       },
       {
         "number": 29,
-        "options": { "a": "meine", "b": "meinem", "c": "meinen" },
+        "options": {
+          "a": "meine",
+          "b": "meinem",
+          "c": "meinen"
+        },
         "correct_answer": "b",
         "explanation": "Dativ Maskulin nach 'mit': 'mit meinem Brief'."
       },
       {
         "number": 30,
-        "options": { "a": "digitale", "b": "digitalen", "c": "digitaler" },
+        "options": {
+          "a": "digitale",
+          "b": "digitalen",
+          "c": "digitaler"
+        },
         "correct_answer": "a",
         "explanation": "Akkusativ Plural: 'digitale Bilder'."
       }
@@ -272,89 +645,416 @@
   },
   "sprachbausteine_teil_2": {
     "instructions": "Lesen Sie den Text und schließen Sie die Lücken 31–40. Benutzen Sie die Wörter a–o. Jedes Wort passt nur einmal.",
-    "word_bank": {},
-    "passage": {
-      "text": ""
+    "word_bank": {
+      "a": "ABER",
+      "b": "BEVOR",
+      "c": "DAMIT",
+      "d": "DESHALB",
+      "e": "EIGENTLICH",
+      "f": "ERST",
+      "g": "GEBEN",
+      "h": "INTERESSE",
+      "i": "KÖNNEN",
+      "j": "LEIDER",
+      "k": "MÖGLICH",
+      "l": "NÄMLICH",
+      "m": "OB",
+      "n": "SCHON",
+      "o": "ÜBER"
     },
-    "questions": []
+    "word_bank_en": {
+      "a": "but / however",
+      "b": "before",
+      "c": "so that",
+      "d": "therefore",
+      "e": "actually",
+      "f": "only / not until",
+      "g": "to give",
+      "h": "interest",
+      "i": "can / to be able to",
+      "j": "unfortunately",
+      "k": "possible",
+      "l": "namely / you see",
+      "m": "whether / if",
+      "n": "already",
+      "o": "about / over"
+    },
+    "passage": {
+      "text": "Sehr geehrte Frau Schneider,\nvielen Dank für Ihre freundliche E-Mail und Ihr ___31___ an unserer Ferienwohnung am Bodensee. ___32___ muss ich Ihnen mitteilen, dass die Wohnung in den ersten beiden Augustwochen ___33___ vermietet ist.\nIch kann Ihnen ___34___ ein anderes Angebot machen: Ab dem 18. August ist die Wohnung wieder frei. Wenn es für Sie ___35___ ist, Ihren Urlaub um eine Woche zu verschieben, ___36___ Sie sehr gern bis Anfang September bei uns wohnen.\nIm Spätsommer ist es hier am See ___37___ besonders schön, weil dann nicht mehr so viele Touristen da sind. Bitte geben Sie mir kurz Bescheid, ___38___ Ihnen dieser Termin passt, ___39___ ich die Wohnung für Sie reservieren kann. Weitere Informationen ___40___ die Umgebung schicke ich Ihnen gern per Post zu.\nMit freundlichen Grüßen\nThomas Weber",
+      "text_en": "Dear Ms. Schneider,\nthank you very much for your kind email and your ___31___ in our holiday apartment at Lake Constance. ___32___ I must inform you that the apartment is ___33___ rented out in the first two weeks of August.\nI can ___34___ make you another offer: From August 18th the apartment is free again. If it is ___35___ for you to postpone your vacation by a week, you ___36___ very gladly stay with us until the beginning of September.\nIn late summer it is ___37___ especially nice here at the lake, because there are no longer so many tourists then. Please let me know briefly ___38___ this date suits you, ___39___ I can reserve the apartment for you. I will gladly send you further information ___40___ the surrounding area by mail.\nWith kind regards\nThomas Weber",
+      "vocabulary": [
+        {
+          "de": "die Ferienwohnung",
+          "en": "holiday apartment"
+        },
+        {
+          "de": "verschieben",
+          "en": "to postpone"
+        }
+      ]
+    },
+    "questions": [
+      {
+        "number": 31,
+        "correct_answer": "h",
+        "explanation": "'Ihr Interesse an unserer Ferienwohnung' (your interest in our holiday apartment)."
+      },
+      {
+        "number": 32,
+        "correct_answer": "j",
+        "explanation": "'Leider muss ich Ihnen mitteilen...' (Unfortunately I have to inform you...)."
+      },
+      {
+        "number": 33,
+        "correct_answer": "n",
+        "explanation": "'dass die Wohnung ... schon vermietet ist' (that the apartment is already rented out)."
+      },
+      {
+        "number": 34,
+        "correct_answer": "a",
+        "explanation": "'Ich kann Ihnen aber ein anderes Angebot machen' (However, I can make you another offer)."
+      },
+      {
+        "number": 35,
+        "correct_answer": "k",
+        "explanation": "'Wenn es für Sie möglich ist' (If it is possible for you)."
+      },
+      {
+        "number": 36,
+        "correct_answer": "i",
+        "explanation": "'können Sie sehr gern bis Anfang September bei uns wohnen' (you can gladly stay with us)."
+      },
+      {
+        "number": 37,
+        "correct_answer": "l",
+        "explanation": "'Im Spätsommer ist es hier am See nämlich besonders schön' (Because in late summer it is especially nice here)."
+      },
+      {
+        "number": 38,
+        "correct_answer": "m",
+        "explanation": "'Bitte geben Sie mir kurz Bescheid, ob Ihnen dieser Termin passt' (whether this date suits you)."
+      },
+      {
+        "number": 39,
+        "correct_answer": "c",
+        "explanation": "'damit ich die Wohnung für Sie reservieren kann' (so that I can reserve the apartment for you)."
+      },
+      {
+        "number": 40,
+        "correct_answer": "o",
+        "explanation": "'Informationen über die Umgebung' (information about the surrounding area)."
+      }
+    ]
   },
   "hoerverstehen_teil_1": {
     "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören diese Texte nur einmal. Entscheiden Sie beim Hören, ob die Aussagen 41–45 richtig (+) oder falsch (-) sind.",
-    "transcripts": [],
-    "questions": []
+    "transcripts": [
+      {
+        "number": 41,
+        "text": "Kinder sollten, denke ich, früh eine Fremdsprache lernen. Wenn sie jung sind, merken sie sich neue Wörter leichter. Ich finde, sie haben dann auch weniger Angst, Fehler zu machen. Später wird es, denke ich, schwieriger. Deshalb bin ich dafür, dass Kinder früh mit dem Sprachenlernen anfangen.",
+        "text_en": "Children should, I think, learn a foreign language early. When they are young, they remember new words more easily. I think they also have less fear of making mistakes then. Later, I think, it gets more difficult. That's why I'm in favor of children starting to learn languages early.",
+        "vocabulary": [
+          {
+            "de": "sich merken",
+            "en": "to remember / memorize"
+          }
+        ]
+      },
+      {
+        "number": 42,
+        "text": "Es ist, denke ich, nicht immer gut, wenn Kinder sehr früh eine Fremdsprache lernen. Manche Kinder sind, glaube ich, noch nicht bereit dafür und haben Probleme mit beiden Sprachen. Ich finde, sie sollten erst ihre Muttersprache gut können und dann eine neue Sprache lernen.",
+        "text_en": "It is, I think, not always good if children learn a foreign language very early. Some children are, I believe, not yet ready for it and have problems with both languages. I think they should first know their native language well and then learn a new language.",
+        "vocabulary": [
+          {
+            "de": "die Muttersprache",
+            "en": "the native language"
+          }
+        ]
+      },
+      {
+        "number": 43,
+        "text": "Ich finde, es ist nicht schlimm, wenn Kinder im Kindergarten keine Fremdsprache lernen. In diesem Alter ist Spielen, denke ich, wichtiger. Freundschaften schließen und Spaß haben sollten, glaube ich, im Vordergrund stehen. Eine neue Sprache kann man auch später in der Schule lernen.",
+        "text_en": "I think it's not bad if children don't learn a foreign language in kindergarten. At this age, I think playing is more important. Making friends and having fun should, I believe, be in the foreground. You can also learn a new language later in school.",
+        "vocabulary": [
+          {
+            "de": "im Vordergrund stehen",
+            "en": "to be the main focus / in the foreground"
+          }
+        ]
+      },
+      {
+        "number": 44,
+        "text": "Kinder sollten, denke ich, erst in der Schule mit einer Fremdsprache beginnen. Dort gibt es Lehrer, Bücher und klare Regeln, die, finde ich, das Lernen leichter machen. Im Kindergarten sollen Kinder frei spielen. Ich glaube, Schule ist der bessere Ort für das Sprachenlernen.",
+        "text_en": "Children should, I think, only start with a foreign language in school. There are teachers, books, and clear rules there, which, I find, make learning easier. In kindergarten, children should play freely. I believe school is the better place for learning languages.",
+        "vocabulary": [
+          {
+            "de": "die Regel",
+            "en": "the rule"
+          }
+        ]
+      },
+      {
+        "number": 45,
+        "text": "Ich sehe es kritisch, wenn Kinder schon im frühen Alter eine Fremdsprache lernen müssen. In diesem Alter sollten sie spielen und ihre Muttersprache festigen. Ich finde, das setzt sie unnötig unter Druck. Eine neue Sprache zu früh zu lernen, bringt mehr Stress als Nutzen, besonders in der Vorschule.",
+        "text_en": "I see it critically when children have to learn a foreign language at an early age. At this age, they should play and consolidate their native language. I think that puts them under unnecessary pressure. Learning a new language too early brings more stress than benefit, especially in preschool.",
+        "vocabulary": [
+          {
+            "de": "festigen",
+            "en": "to consolidate / strengthen"
+          },
+          {
+            "de": "unter Druck setzen",
+            "en": "to put under pressure"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "number": 41,
+        "statement": "Die Sprecherin ist dagegen, dass Kinder so früh eine Fremdsprache lernen.",
+        "statement_en": "The speaker is against children learning a foreign language so early.",
+        "correct_answer": "-",
+        "explanation": "She explicitly states 'Deshalb bin ich dafür, dass Kinder früh mit dem Sprachenlernen anfangen' (That's why I'm in favor of children starting to learn languages early)."
+      },
+      {
+        "number": 42,
+        "statement": "Die Sprecherin meint, dass das frühe Lernen einer Fremdsprache für viele Kinder Nachteile hat.",
+        "statement_en": "The speaker thinks that learning a foreign language early has disadvantages for many children.",
+        "correct_answer": "+",
+        "explanation": "She says 'Es ist, denke ich, nicht immer gut... Manche Kinder sind... noch nicht bereit dafür und haben Probleme mit beiden Sprachen' (It is not always good... Some have problems with both languages)."
+      },
+      {
+        "number": 43,
+        "statement": "Der Sprecher findet es schade, dass er im Kindergarten keine Fremdsprache lernen konnte.",
+        "statement_en": "The speaker thinks it's a pity that he couldn't learn a foreign language in kindergarten.",
+        "correct_answer": "-",
+        "explanation": "He says 'Ich finde, es ist nicht schlimm, wenn Kinder im Kindergarten keine Fremdsprache lernen' (I think it's not bad if children don't learn a foreign language in kindergarten)."
+      },
+      {
+        "number": 44,
+        "statement": "Die Sprecherin meint, dass das Fremdsprachenlernen erst in der Schule beginnen sollte.",
+        "statement_en": "The speaker thinks that learning a foreign language should only begin at school.",
+        "correct_answer": "+",
+        "explanation": "She confirms 'Kinder sollten, denke ich, erst in der Schule mit einer Fremdsprache beginnen' (Children should only start with a foreign language in school)."
+      },
+      {
+        "number": 45,
+        "statement": "Der Sprecher ist dagegen, dass Kinder schon früh Fremdsprache lernen.",
+        "statement_en": "The speaker is against children learning a foreign language at an early age.",
+        "correct_answer": "+",
+        "explanation": "He states 'Ich sehe es kritisch, wenn Kinder schon im frühen Alter eine Fremdsprache lernen müssen' (I see it critically when children have to learn a foreign language at an early age)."
+      }
+    ]
   },
   "hoerverstehen_teil_2": {
     "instructions": "Sie hören nun ein Gespräch. Dazu sollen Sie zehn Aufgaben lösen. Sie hören das Gespräch zweimal. Entscheiden Sie beim Hören, ob die Aussagen 46–55 richtig (+) oder falsch (-) sind.",
     "interview_transcript": {
-      "text": "Moderatorin: Guten Tag, liebe Hörerinnen und Hörer. Computer, Tablets und Smartphones gehören heute schon für die Kleinsten zum Alltag. Bei mir im Studio begrüße ich heute den Medienpädagogen Herrn Russo, der Eltern und Schulen zum Thema 'Kinder und Computer' berät. Herr Russo, ab welchem Alter sollten Kinder denn überhaupt an den Computer dürfen?\nHerr Russo: Guten Tag! Also, im Kindergartenalter bis etwa sechs Jahre brauchen Kinder eigentlich noch gar keinen Computer. In dieser Zeit ist es viel wichtiger, dass sie draußen spielen, klettern, malen und mit anderen Kindern direkt sprechen. Erst ab der Grundschule wird der Computer langsam interessant, zum Beispiel um erste Lernspiele zu machen oder etwas für die Schule nachzuschlagen.\nModeratorin: Viele Eltern kaufen ihren Kindern einen eigenen Computer fürs Kinderzimmer, damit sie dort für die Schule arbeiten können. Ist das sinnvoll?\nHerr Russo: Bei jüngeren Kindern bis etwa zwölf Jahre rate ich dringend davon ab, einen Computer mit Internetanschluss ins Kinderzimmer zu stellen. Der Computer sollte lieber im Wohnzimmer stehen. So bekommen die Eltern ganz selbstverständlich mit, was ihr Kind am Bildschirm macht, und können sofort helfen, wenn Fragen auftauchen oder wenn das Kind im Internet auf Seiten stößt, die für sein Alter nicht geeignet sind.\nModeratorin: Wie lange sollten Kinder denn täglich vor dem Bildschirm sitzen?\nHerr Russo: Das hängt natürlich vom Alter ab. Für Grundschulkinder reichen 30 bis 45 Minuten am Tag völlig aus. Bei Zwölf- bis Vierzehnjährigen kann es auch mal eine Stunde sein. Wichtig ist vor allem, dass Eltern klare Regeln mit ihren Kindern vereinbaren – und zwar gemeinsam, nicht einfach als Verbot von oben herab.\nModeratorin: Was halten Sie denn von Computerspielen? Viele Eltern machen sich Sorgen, dass ihre Kinder dadurch schlechter in der Schule werden.\nHerr Russo: Nicht jedes Computerspiel ist schlecht. Es gibt wunderbare Strategie- und Aufbauspiele, die das logische Denken und die Konzentration fördern. Problematisch wird es erst, wenn Kinder stundenlang gewalttätige Spiele spielen oder wegen des Computers ihre Hausaufgaben, den Sportverein und ihre Freunde vernachlässigen. Und noch ein Tipp: Eltern sollten sich ruhig mal neben ihr Kind setzen und sich ein Spiel erklären lassen – das schafft Vertrauen!",
-      "text_en": "Host: Good afternoon, dear listeners. Computers, tablets, and smartphones are part of everyday life even for the youngest children today. In the studio today I welcome media educator Mr. Russo, who advises parents and schools on the topic 'Children and Computers.' Mr. Russo, from what age should children be allowed to use a computer at all?\nMr. Russo: Hello! Well, at kindergarten age up to about six years old, children don't really need a computer at all yet. During this time it is much more important that they play outside, climb, paint, and talk directly with other children. Only starting in elementary school does the computer slowly become interesting, for example to play early learning games or look something up for school.\nHost: Many parents buy their children their own computer for their bedroom so they can work for school there. Does that make sense?\nMr. Russo: For younger children up to about twelve years old, I strongly advise against putting a computer with Internet access in the child's bedroom. The computer should rather be in the living room. That way parents naturally see what their child is doing on the screen and can help immediately if questions arise or if the child comes across websites not suitable for their age.\nHost: How long should children sit in front of the screen daily?\nMr. Russo: That depends on age, of course. For elementary school children, 30 to 45 minutes a day is completely sufficient. For twelve- to fourteen-year-olds, it can be an hour. Above all, it is important that parents agree on clear rules with their children—together, not just as a top-down ban.\nHost: What do you think of computer games? Many parents worry that their children will do worse in school because of them.\nMr. Russo: Not every computer game is bad. There are wonderful strategy and building games that promote logical thinking and concentration. It only becomes problematic when children play violent games for hours or neglect their homework, sports club, and friends because of the computer. And one more tip: parents should sit down next to their child sometime and have them explain a game—that builds trust!",
+      "text": "Moderator: Willkommen in unserer Sendung „Kinder und Computer“. Heute sprechen wir mit Herrn Russo, einem erfahrenen Pädagogen, über die Rolle von Medien im Alltag von Kindern.\nHerr Russo: Vielen Dank für die Einladung. Der Titel der Sendung trifft es gut: „Kinder und Computer“ – ein Thema, das viele Eltern heute beschäftigt.\nModerator: Wie hat sich Ihrer Meinung nach das Verhalten von Kindern im Umgang mit Medien verändert?\nHerr Russo: Nun, ich sehe oft, dass Kinder neugierig auf neue Geräte sind, aber ich persönlich finde nicht, dass jedes neue Interesse unbedingt gut ist. Es kommt darauf an, wie es begleitet wird.\nModerator: Wie war das in Ihrer eigenen Kindheit?\nHerr Russo: Das war ganz anders. Damals galt Lesen z.B. als gefährlich. Man sagte, dass Kinder, die zu viel lesen, sich von der Realität entfernen. Heute kaum vorstellbar, oder?\nModerator: Das stimmt. Viele Eltern vergleichen das heutige Verhalten ihrer Kinder mit ihrer eigenen Jugend. Denken Sie, dass das sinnvoll ist?\nHerr Russo: Eigentlich nicht. Die Zeiten haben sich stark verändert. Man kann nicht erwarten, dass Kinder genauso ticken wie wir damals. Und oft erinnern wir uns auch nur an die schönen Seiten unserer Jugend.\nModerator: Wie sollten Eltern denn reagieren, wenn ihre Kinder viel Zeit am Bildschirm verbringen?\nHerr Russo: Ich finde, Eltern sollten Computerspiele für ihre Kinder grundsätzlich verbieten. Es ist nicht gut, wenn Kinder stundenlang vor dem Bildschirm sitzen. Sie verlieren dabei das Zeitgefühl, vernachlässigen ihre Hausaufgaben und bewegen sich kaum noch.\nModerator: Einige Eltern empfinden neue Medien als unheimlich. Teilen Sie diese Sorge?\nHerr Russo: Nein, das sehe ich anders. Ich finde nicht, dass neue Medien per se beängstigend sind. Es geht vielmehr um den bewussten Umgang damit.\nModerator: Haben Sie feste Medienzeiten zu Hause?\nHerr Russo: Bei uns zu Hause gab es nie eine Regel wie: „Ab 19 Uhr darfst du spielen.“ Ich glaube, solche festen Uhrzeiten sind nicht immer realistisch. Wichtiger ist der gesunde Umgang.\nModerator: Was denken Sie über Chats und soziale Netzwerke für Kinder?\nHerr Russo: Ich bin da sehr vorsichtig. Ich halte nichts von Chats für Kinder. Sie sind oft überfordert und können die Gefahr nicht einschätzen. Eltern sollten das sehr ernst nehmen.\nModerator: Was empfehlen Sie stattdessen?\nHerr Russo: Ich empfehle, dass Kinder auch wieder mehr Bücher lesen. Das regt die Fantasie an und trainiert das Sprachgefühl.\nModerator: Lesen Ihre Kinder viel?\nHerr Russo: Ehrlich gesagt eher selten. Ich habe es oft empfohlen, aber sie greifen lieber zu anderen Medien. Bücher scheinen nicht mehr so spannend zu sein wie früher.\nModerator: Was erwartet unsere Zuhörer in der nächsten Sendung?\nHerr Russo: Da wird es um gesunde Ernährung für Kinder gehen – ein mindestens genauso wichtiges Thema. Ich freue mich schon darauf.\nModerator: Herr Russo, vielen Dank für das Gespräch.\nHerr Russo: Ich danke Ihnen.",
+      "text_en": "Host: Welcome to our program 'Children and Computers'. Today we are speaking with Mr. Russo, an experienced educator, about the role of media in children's everyday lives.\nMr. Russo: Thank you very much for the invitation. The title of the program hits the nail on the head: 'Children and Computers'—a topic that occupies many parents today.\nHost: In your opinion, how has children's behavior in dealing with media changed?\nMr. Russo: Well, I often see that children are curious about new devices, but personally I don't think that every new interest is necessarily good. It depends on how it is guided.\nHost: How was that in your own childhood?\nMr. Russo: That was completely different. Back then, reading, for example, was considered dangerous. People said that children who read too much distance themselves from reality. Hardly imaginable today, right?\nHost: That's true. Many parents compare their children's current behavior with their own youth. Do you think that makes sense?\nMr. Russo: Not really. Times have changed a lot. You cannot expect children to think and act the same way we did back then. And often we only remember the nice sides of our youth.\nHost: How should parents react when their children spend a lot of time in front of the screen?\nMr. Russo: I think parents should generally ban computer games for their children. It is not good when children sit in front of the screen for hours. They lose track of time, neglect their homework, and hardly get any exercise.\nHost: Some parents find new media uncanny. Do you share this concern?\nMr. Russo: No, I see that differently. I don't think new media are frightening per se. It's much more about using them consciously.\nHost: Do you have fixed media times at home?\nMr. Russo: At our home there was never a rule like: 'Starting at 7 p.m. you are allowed to play.' I believe such fixed times are not always realistic. A healthy approach is more important.\nHost: What do you think about chats and social networks for children?\nMr. Russo: I am very cautious about that. I don't think much of chats for children. They are often overwhelmed and cannot assess the danger. Parents should take that very seriously.\nHost: What do you recommend instead?\nMr. Russo: I recommend that children read more books again. That stimulates the imagination and trains their feel for language.\nHost: Do your children read a lot?\nMr. Russo: To be honest, rather rarely. I have recommended it often, but they prefer to reach for other media. Books don't seem to be as exciting as they used to be.\nHost: What awaits our listeners in the next program?\nMr. Russo: It will be about healthy nutrition for children—an at least equally important topic. I am already looking forward to it.\nHost: Mr. Russo, thank you very much for the conversation.\nMr. Russo: Thank you.",
       "vocabulary": [
-        { "de": "der Medienpädagoge", "en": "media educator" },
-        { "de": "abraten von", "en": "to advise against" },
-        { "de": "vereinbaren", "en": "to agree upon" },
-        { "de": "vernachlässigen", "en": "to neglect" }
+        {
+          "de": "begleiten",
+          "en": "to guide / accompany"
+        },
+        {
+          "de": "das Zeitgefühl",
+          "en": "sense of time"
+        },
+        {
+          "de": "vernachlässigen",
+          "en": "to neglect"
+        },
+        {
+          "de": "überfordert",
+          "en": "overwhelmed"
+        },
+        {
+          "de": "das Sprachgefühl",
+          "en": "feel for language"
+        }
       ]
     },
     "questions": [
       {
         "number": 46,
-        "statement": "Herr Russo empfiehlt, dass schon Kindergartenkinder täglich am Computer üben.",
-        "statement_en": "Mr. Russo recommends that kindergarten children already practice on the computer daily.",
-        "correct_answer": "-",
-        "explanation": "Kinder bis sechs Jahre brauchen laut Herrn Russo noch gar keinen Computer, sondern sollen draußen spielen."
+        "statement": "Die Sendung heißt „Kinder und Computer“.",
+        "statement_en": "The program is called 'Children and Computers'.",
+        "correct_answer": "+",
+        "explanation": "Sowohl der Moderator („Willkommen in unserer Sendung ‚Kinder und Computer‘“) als auch Herr Russo bestätigen den Titel der Sendung."
       },
       {
         "number": 47,
-        "statement": "Grundschulkinder können den Computer für Lernspiele nutzen.",
-        "statement_en": "Elementary school children can use the computer for educational games.",
-        "correct_answer": "+",
-        "explanation": "Ab der Grundschule wird der Computer sinnvoll für erste Lernspiele oder zum Nachschlagen."
+        "statement": "Herr Russo findet es gut, dass Kinder Interesse an Neuem haben.",
+        "statement_en": "Mr. Russo thinks it is good that children have an interest in new things.",
+        "correct_answer": "-",
+        "explanation": "Herr Russo sagt im Interview: „ich persönlich finde nicht, dass jedes neue Interesse unbedingt gut ist. Es kommt darauf an, wie es begleitet wird.“"
       },
       {
         "number": 48,
-        "statement": "Jüngere Kinder sollten keinen eigenen Computer mit Internet im Kinderzimmer haben.",
-        "statement_en": "Younger children should not have their own computer with Internet in their bedroom.",
+        "statement": "Früher hielt man das Lesen für gefährlich.",
+        "statement_en": "In the past, reading was considered dangerous.",
         "correct_answer": "+",
-        "explanation": "Herr Russo rät bei Kindern bis zwölf Jahren dringend davon ab und empfiehlt das Wohnzimmer."
+        "explanation": "Herr Russo sagt: „Damals galt Lesen z.B. als gefährlich. Man sagte, dass Kinder, die zu viel lesen, sich von der Realität entfernen.“"
       },
       {
         "number": 49,
-        "statement": "Eltern sollten ihre Kinder im Internet immer völlig allein suchen lassen.",
-        "statement_en": "Parents should always let their children search on the Internet completely alone.",
+        "statement": "Eltern kennen das Verhalten ihrer Kinder aus ihrer eigenen Jugend.",
+        "statement_en": "Parents know their children's behavior from their own youth.",
         "correct_answer": "-",
-        "explanation": "Eltern sollten im Wohnzimmer mitbekommen, was das Kind macht, und bei Fragen oder ungeeigneten Seiten helfen."
+        "explanation": "Herr Russo erklärt, dass sich die Zeiten stark verändert haben und man nicht erwarten kann, dass Kinder genauso ticken wie die Eltern damals."
       },
       {
         "number": 50,
-        "statement": "Für Grundschulkinder genügen 30 bis 45 Minuten Computerzeit pro Tag.",
-        "statement_en": "For elementary school children, 30 to 45 minutes of computer time per day is enough.",
+        "statement": "Eltern sollen Kindern Computerspiele verbieten.",
+        "statement_en": "Parents should forbid children from playing computer games.",
         "correct_answer": "+",
-        "explanation": "Er sagt ausdrücklich, dass für Grundschulkinder 30 bis 45 Minuten am Tag völlig ausreichen."
+        "explanation": "Im Interview sagt Herr Russo ausdrücklich: „Ich finde, Eltern sollten Computerspiele für ihre Kinder grundsätzlich verbieten.“"
       },
       {
         "number": 51,
-        "statement": "Eltern und Kinder sollten die Regeln für die Computernutzung gemeinsam festlegen.",
-        "statement_en": "Parents and children should establish the rules for computer use together.",
+        "statement": "Für viele Eltern sind die neuen Medien nach wie vor unheimlich.",
+        "statement_en": "For many parents, the new media are still uncanny.",
         "correct_answer": "+",
-        "explanation": "Eltern sollten klare Regeln gemeinsam mit den Kindern vereinbaren."
+        "explanation": "Der Moderator stellt fest, dass Eltern neue Medien als unheimlich empfinden (während Herr Russo selbst neue Medien nicht per se für beängstigend hält)."
       },
       {
         "number": 52,
-        "statement": "Nach Herrn Russos Meinung schaden alle Computerspiele der Konzentration.",
-        "statement_en": "In Mr. Russo's opinion, all computer games harm concentration.",
+        "statement": "Erst ab 19 Uhr sind elektronische Spielsachen bei Familie Russo erlaubt.",
+        "statement_en": "Electronic toys are only allowed starting at 7 p.m. in the Russo family.",
         "correct_answer": "-",
-        "explanation": "Gute Strategie- und Aufbauspiele fördern das logische Denken und die Konzentration."
+        "explanation": "Herr Russo sagt: „Bei uns zu Hause gab es nie eine Regel wie: ‚Ab 19 Uhr darfst du spielen.‘“"
       },
       {
         "number": 53,
-        "statement": "Durch den Computer dürfen Freunde und Hobbys nicht zu kurz kommen.",
-        "statement_en": "Friends and hobbies must not be neglected because of the computer.",
+        "statement": "Der Experte hält nichts von Chats für Kinder.",
+        "statement_en": "The expert thinks nothing of chats for children.",
         "correct_answer": "+",
-        "explanation": "Es wird problematisch, wenn Kinder wegen des Computers Hausaufgaben, Sportverein und Freunde vernachlässigen."
+        "explanation": "Herr Russo sagt wörtlich: „Ich halte nichts von Chats für Kinder. Sie sind oft überfordert und können die Gefahr nicht einschätzen.“"
       },
       {
         "number": 54,
-        "statement": "Eltern sollten sich niemals für die Computerspiele ihrer Kinder interessieren.",
-        "statement_en": "Parents should never take an interest in their children's computer games.",
+        "statement": "Herr Russo empfiehlt, dass Kinder mehr Bücher lesen sollten.",
+        "statement_en": "Mr. Russo recommends that children should read more books.",
+        "correct_answer": "+",
+        "explanation": "Herr Russo sagt: „Ich empfehle, dass Kinder auch wieder mehr Bücher lesen. Das regt die Fantasie an und trainiert das Sprachgefühl.“"
+      },
+      {
+        "number": 55,
+        "statement": "In der kommenden Sendung geht es um Ernährung.",
+        "statement_en": "The upcoming program will be about nutrition.",
+        "correct_answer": "+",
+        "explanation": "Auf die Frage nach der nächsten Sendung antwortet Herr Russo: „Da wird es um gesunde Ernährung für Kinder gehen.“"
+      }
+    ]
+  },
+  "hoerverstehen_teil_3": {
+    "instructions": "Sie hören nun fünf kurze Texte. Dazu sollen Sie fünf Aufgaben lösen. Sie hören jeden Text zweimal. Entscheiden Sie beim Hören, ob die Aussagen 56–60 richtig (+) oder falsch (-) sind.",
+    "transcripts": [
+      {
+        "number": 56,
+        "text": "Guten Tag. Der Fahrer des Wagens mit dem Kennzeichen HBD 256 wird gebeten, sofort ins Erdgeschoss zu kommen. Sein Auto steht im Halteverbot und blockiert einen wichtigen Zugang. Bitte kommen Sie schnell zur Information im Erdgeschoss, damit das Problem gelöst werden kann.",
+        "text_en": "Good afternoon. The driver of the car with license plate HBD 256 is requested to come to the ground floor immediately. His car is parked in a no-parking zone and is blocking an important entrance. Please come quickly to the information desk on the ground floor so that the problem can be solved.",
+        "vocabulary": [
+          {
+            "de": "blockieren",
+            "en": "to block"
+          },
+          {
+            "de": "der Zugang",
+            "en": "the entrance / access"
+          }
+        ]
+      },
+      {
+        "number": 57,
+        "text": "Guten Morgen. Ihre Möbelbestellung wird nicht am Dienstag, sondern erst am Donnerstag geliefert. Die Lieferung erfolgt zwischen 3 und 6 Uhr am Nachmittag. Bitte stellen Sie sicher, dass Sie am Donnerstag zu Hause sind, damit wir das Sofa ohne Probleme anliefern können.",
+        "text_en": "Good morning. Your furniture order will not be delivered on Tuesday, but on Thursday. The delivery will take place between 3 and 6 o'clock in the afternoon. Please make sure that you are at home on Thursday so that we can deliver the sofa without any problems.",
+        "vocabulary": [
+          {
+            "de": "anliefern",
+            "en": "to deliver"
+          }
+        ]
+      },
+      {
+        "number": 58,
+        "text": "Herzlich willkommen im Gasthof Lindner. Unser Gasthof liegt direkt neben einer großen Tankstelle am Stadtrand. Wir bieten Ihnen täglich frische Speisen, Frühstücksangebote und gemütliche Pausenmöglichkeiten für Reisende. Wir freuen uns sehr auf Ihren Besuch und wünschen eine gute Weiterreise.",
+        "text_en": "Welcome to Gasthof Lindner. Our inn is located right next to a large gas station on the outskirts of the city. We offer you fresh food daily, breakfast offers and cozy break options for travelers. We are very much looking forward to your visit and wish you a good onward journey.",
+        "vocabulary": [
+          {
+            "de": "der Stadtrand",
+            "en": "the outskirts"
+          }
+        ]
+      },
+      {
+        "number": 59,
+        "text": "Im Kino läuft aktuell der Film 'Komiker', der mehrmals am Tag gezeigt wird. Es gibt Vorstellungen am Vormittag, am Nachmittag und am Abend. Besonders beliebt sind die Abendvorstellungen am Wochenende, da sie für beste Unterhaltung und viele Lacher sorgen.",
+        "text_en": "The film 'Komiker' is currently showing in the cinema and is shown several times a day. There are performances in the morning, afternoon and evening. The evening performances on the weekend are particularly popular, as they provide top entertainment and lots of laughs.",
+        "vocabulary": [
+          {
+            "de": "der Vormittag",
+            "en": "the morning"
+          },
+          {
+            "de": "die Unterhaltung",
+            "en": "the entertainment"
+          }
+        ]
+      },
+      {
+        "number": 60,
+        "text": "Für heute Abend ist leider schlechtes Wetter angekündigt. Laut dem aktuellen Wetterbericht wird es starken Regen und Gewitter geben. Autofahrer sollten besonders vorsichtig sein. Denken Sie daran, einen Regenschirm mitzunehmen, wenn Sie heute Abend noch unterwegs sind.",
+        "text_en": "Unfortunately, bad weather is forecast for this evening. According to the current weather report, there will be heavy rain and thunderstorms. Drivers should be particularly careful. Remember to take an umbrella with you if you are still out this evening.",
+        "vocabulary": [
+          {
+            "de": "ankündigen",
+            "en": "to announce / forecast"
+          },
+          {
+            "de": "das Gewitter",
+            "en": "the thunderstorm"
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "number": 56,
+        "statement": "Der Fahrer des Wagens mit dem Kennzeichen HB-D 256 soll ins Erdgeschoss kommen.",
+        "statement_en": "The driver of the car with license plate HB-D 256 should come to the ground floor.",
+        "correct_answer": "+",
+        "explanation": "The audio confirms this: 'Der Fahrer des Wagens... wird gebeten, sofort ins Erdgeschoss zu kommen'."
+      },
+      {
+        "number": 57,
+        "statement": "Die Firma liefert das bestellte Sofa am Dienstagnachmittag zwischen drei und sechs Uhr.",
+        "statement_en": "The company will deliver the ordered sofa on Tuesday afternoon between three and six o'clock.",
         "correct_answer": "-",
-        "explanation": "Eltern sollten sich ruhig mal neben ihr Kind setzen und sich ein Spiel erklären lassen
+        "explanation": "The delivery is scheduled for Thursday, not Tuesday ('nicht am Dienstag, sondern erst am Donnerstag geliefert')."
+      },
+      {
+        "number": 58,
+        "statement": "Der Gasthof Lindner liegt neben einer Tankstelle.",
+        "statement_en": "The Gasthof Lindner is next to a gas station.",
+        "correct_answer": "+",
+        "explanation": "The audio states 'Unser Gasthof liegt direkt neben einer großen Tankstelle'."
+      },
+      {
+        "number": 59,
+        "statement": "Der Film Komiker wird mehrmals am Tag gezeigt.",
+        "statement_en": "The movie Komiker is shown several times a day.",
+        "correct_answer": "+",
+        "explanation": "The audio confirms this: 'der Film Komiker, der mehrmals am Tag gezeigt wird'."
+      },
+      {
+        "number": 60,
+        "statement": "Für den Abend wird kein Regen erwartet.",
+        "statement_en": "No rain is expected for the evening.",
+        "correct_answer": "-",
+        "explanation": "The weather report warns of strong rain and thunderstorms in the evening ('wird es starken Regen und Gewitter geben')."
+      }
+    ]
+  }
+}
