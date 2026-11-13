@@ -229,135 +229,302 @@
     "advertisements": {
       "a": {
         "title": "Musical Melissa",
-        "subtitle": "Kultur",
+        "subtitle": "Das Musikereignis in der Schweiz",
         "lines": [
-          "Das Musikalereignis in der Schweiz",
-          "Melissa",
+          "«...hat mich sehr bewegt. \"Melissa\" kann ich allen nur empfehlen.» Paul Rasser",
+          "Melissa – Musical",
           "City Halle Winterthur",
-          "Mittwoch 19.30 Uhr und So 17.00 Uhr"
+          "Mi bis Sa 19.30 Uhr und So 17.00 Uhr.",
+          "Bitte Ticket-Vorverkauf nutzen: Fastbox 0848 800 800"
         ],
         "image": "data/images/jan_ad_a.png",
-        "text_en": "The musical event in Switzerland: Melissa. City Halle Winterthur. Wednesday 7:30 pm and Sun 5:00 pm.",
-        "vocabulary": []
+        "text_en": "The musical event in Switzerland: Musical Melissa. '...moved me deeply. I can only recommend \"Melissa\" to everyone.' Paul Rasser. City Halle Winterthur. Wed to Sat 7:30 p.m. and Sun 5:00 p.m. Please use advance ticket sales: Fastbox 0848 800 800.",
+        "vocabulary": [
+          {
+            "de": "das Musikereignis",
+            "en": "musical event"
+          },
+          {
+            "de": "bewegen",
+            "en": "to move (emotionally)"
+          },
+          {
+            "de": "der Vorverkauf",
+            "en": "advance ticket sale"
+          }
+        ]
       },
       "b": {
         "title": "Crash-Kurse für Manager",
-        "subtitle": "Bildung",
+        "subtitle": "Sprachreisen",
         "lines": [
-          "Crash-Kurse für Manager",
-          "Sprachkurse für Urlaub und Beruf",
-          "High-School-Programm"
+          "Crash-Kurse für Manager.",
+          "Sprachkurse für Urlaub und Beruf.",
+          "High-School-Programme.",
+          "6 Sprachen, 17 Länder, mehr als 60 Kursorte."
         ],
         "image": "data/images/jan_ad_b.png",
-        "text_en": "Crash courses for managers. Language courses for holiday and profession. High-school program.",
-        "vocabulary": []
+        "text_en": "Language trips: Crash courses for managers. Language courses for vacation and profession. High school programs. 6 languages, 17 countries, more than 60 course locations.",
+        "vocabulary": [
+          {
+            "de": "der Beruf",
+            "en": "profession / career"
+          },
+          {
+            "de": "der Kursort",
+            "en": "course location"
+          }
+        ]
       },
       "c": {
-        "title": "Kirchenkonzert Zürich",
-        "subtitle": "Kultur",
+        "title": "Kammermusiksoirée",
+        "subtitle": "Konzert in Otelfingen und Zürich",
         "lines": [
-          "Rita Karin Meier, Hansjürg Leuthold, Ludvik Bozenta...",
-          "Sonntag 10. Januar 17:00 Uhr, Alte Mühle",
-          "Mittwoch 13. Januar 19:30 Uhr, Ref. Kirchengemeindehaus Zürich"
+          "Rita Karin Meier: Klarinette und Bassetthorn",
+          "Hansjürg Leuthold: Klarinette",
+          "Ludvik Bozenicar: Fagott",
+          "Peter Solomon: Klavier",
+          "Beethoven: Duo Nr. 3 · Glinka: Trio Pathétique · Kreutzer: Trio op. 43 · Mendelssohn: Konzertstück Nr. 2 d-moll op. 114 · Schumann: Fantasiestücke op. 73 · Ponchielli: Divertimento „Il Convegno“",
+          "Sonntag, 10. Januar, 17.00 Uhr, Alte Mühle Otelfingen",
+          "Mittwoch, 13. Januar, 19.30 Uhr, Ref. Kirchengemeindehaus Zürich-Enge, Bederstrasse 25 – 8002 Zürich",
+          "Eintritt frei – Kollekte"
         ],
         "image": "data/images/jan_ad_c.png",
-        "text_en": "Church concert Zurich. Sunday Jan 10th 5:00 p.m., Wednesday Jan 13th 7:30 p.m. Admission free - collection.",
-        "vocabulary": []
+        "text_en": "Chamber Music Soirée. Rita Karin Meier (clarinet and basset horn), Hansjürg Leuthold (clarinet), Ludvik Bozenicar (bassoon), Peter Solomon (piano). Works by Beethoven, Glinka, Kreutzer, Mendelssohn, Schumann, Ponchielli. Sunday, Jan 10, 5:00 p.m., Alte Mühle Otelfingen. Wednesday, Jan 13, 7:30 p.m., Ref. Kirchengemeindehaus Zürich-Enge, Bederstrasse 25 – 8002 Zurich. Free admission – collection.",
+        "vocabulary": [
+          {
+            "de": "die Kammermusik",
+            "en": "chamber music"
+          },
+          {
+            "de": "die Kollekte",
+            "en": "collection / voluntary donation"
+          }
+        ]
       },
       "d": {
-        "title": "THERME VALS",
-        "subtitle": "Reisen & Erholung",
+        "title": "Das Schweizer Spektakel – THERME VALS",
+        "subtitle": "Hotel Therme, Vals",
         "lines": [
-          "Das Schweizer Spektakel. THERME VALS.",
-          "Hoch vom Dachberg (3000m) einfach gleiten über tief verschneite Hänge...",
-          "Auskunft: Hotel Therme"
+          "Hoch vom Dachberg (3000m) einfach gleiten über tief verschneite Hänge und unten in der «Felsentherme» sich dem Urgefühl des Badens hingeben. In diesen Extremen findet der Mensch seine Natur.",
+          "Auskunft: Hotel Therme, CH-7132 Vals",
+          "Telefon 081 / 926 80 80"
         ],
         "image": "data/images/jan_ad_d.png",
-        "text_en": "The Swiss spectacle. THERME VALS. Glide high from the Dachberg over deep snow-covered slopes...",
-        "vocabulary": []
+        "text_en": "The Swiss Spectacle – THERME VALS. Glide down from high on the Dachberg (3000m) over deep snow-covered slopes and indulge in the primal feeling of bathing down below in the 'Felsentherme' (rock thermal bath). In these extremes, man finds his nature. Information: Hotel Therme, CH-7132 Vals, Tel. 081 / 926 80 80.",
+        "vocabulary": [
+          {
+            "de": "verschneit",
+            "en": "snow-covered"
+          },
+          {
+            "de": "der Hang",
+            "en": "slope / hillside"
+          },
+          {
+            "de": "sich hingeben",
+            "en": "to indulge in / devote oneself to"
+          }
+        ]
       },
       "e": {
         "title": "Singles reisen gemeinsam",
-        "subtitle": "Reisen",
+        "subtitle": "Reisepartner gesucht",
         "lines": [
-          "Singles reisen gemeinsam",
-          "Wer hat Lust auf Frankreich? Wir sind drei unternehmungslustige Singles und suchen für eine vierzehntägige Tour durch Südfrankreich..."
+          "Wer hat Lust auf Frankreich?",
+          "Wir sind drei reiselustige Schweizer und suchen für eine vierzehntägige Tour durch Südfrankreich noch Leute, die bei uns mitmachen wollen.",
+          "Zuschriften unter: Chiffre: 0123"
         ],
         "image": "data/images/jan_ad_e.png",
-        "text_en": "Singles travel together. Who fancies France? We are three enterprising singles looking for a fourteen-day tour through southern France...",
-        "vocabulary": []
+        "text_en": "Singles travel together. Who fancies France? We are three travel-loving Swiss people looking for more people to join us for a fourteen-day tour through southern France. Replies to: Box number (Chiffre) 0123.",
+        "vocabulary": [
+          {
+            "de": "reiselustig",
+            "en": "fond of traveling / adventurous"
+          },
+          {
+            "de": "vierzehntägig",
+            "en": "fourteen-day / two-week"
+          },
+          {
+            "de": "die Zuschrift",
+            "en": "written reply / letter"
+          }
+        ]
       },
       "f": {
-        "title": "TAKE OFF REISEN",
-        "subtitle": "Reisen",
+        "title": "Preiswerte Flüge weltweit",
+        "subtitle": "TAKE OFF REISEN",
         "lines": [
-          "Preiswerte Flüge weltweit",
-          "London ab 149.-, Bangkok ab 389.-, New York ab 239.-",
-          "TAKE OFF REISEN"
+          "London ab Euro 149,– · Johannesburg ab Euro 599,– · New York ab Euro 299,– · Sydney ab Euro 799,–",
+          "Flugpreise inkl. MwSt.",
+          "Telefon 0 71 31 / 25 91-0 · Fax 25 13 60",
+          "Hauptstr. 15 · 74081 Heilbronn",
+          "online im Internet: www.take-off-reisen.com"
         ],
         "image": "data/images/jan_ad_f.png",
-        "text_en": "Cheap flights worldwide. London from 149.-, Bangkok from 389.-, New York from 239.-. TAKE OFF TRAVEL.",
-        "vocabulary": []
+        "text_en": "Affordable flights worldwide – TAKE OFF REISEN. London from EUR 149, Johannesburg from EUR 599, New York from EUR 299, Sydney from EUR 799. Fares incl. VAT. Tel. 0 71 31 / 25 91-0, Fax 25 13 60, Hauptstr. 15, 74081 Heilbronn, online at www.take-off-reisen.com.",
+        "vocabulary": [
+          {
+            "de": "preiswert",
+            "en": "affordable / good value"
+          },
+          {
+            "de": "inkl. MwSt.",
+            "en": "including VAT (value-added tax)"
+          }
+        ]
       },
       "g": {
-        "title": "Ihre Wandertage in bester Alpenluft",
-        "subtitle": "Reisen & Sport",
+        "title": "Ihre Wandertage in bester Alpenluft!",
+        "subtitle": "Hotel Walder, Schenna b. Meran",
         "lines": [
-          "Ihre Wandertage in bester Alpenluft!",
-          "Wunderbare Fernsicht, Blick auf Meran...",
-          "Familie Walder"
+          "Wunderbare Fernsicht – Blick auf Meran.",
+          "Unverbaute, zentrale Panoramalage – kein Durchgangsverkehr! Nur 5 bequeme Gehminuten ins Dorfzentrum, Komfortzimmer mit Balkon, TV, Tel., Safe, Hallen- und Freibad, Liegewiese, Sauna, Solarium, Lift. Reichhaltiges Frühstücksbuffet – Menüwahl. Diät- und Schonkost möglich. Kinderermäßigung!",
+          "Im August 7 Tage HP ab Euro 299,–; Richtpreis bis Ende des J. HP p. Pers./Tg. Euro 49,–; Richtpreis bis 30.11. HP p. Pers./Tg. Euro 39,–",
+          "I-39017 SCHENNA b. Meran, Telefon 0039/0473/94 57 35 · Fax 0039/0473/94 57 34",
+          "Einfach anrufen und buchen! Wir freuen uns. Ihre Familie Walder"
         ],
         "image": "data/images/jan_ad_g.png",
-        "text_en": "Your hiking days in the best Alpine air! Wonderful distant view, view of Merano... Family Walder.",
-        "vocabulary": []
+        "text_en": "Your hiking days in the best Alpine air! Hotel Walder. Wonderful distant view – view of Merano. Unobstructed, central panoramic location – no through traffic! Only 5 easy walking minutes to the village center, comfort rooms with balcony, TV, phone, safe, indoor and outdoor pool, sunbathing lawn, sauna, solarium, elevator. Extensive breakfast buffet – menu choice. Diet and light meals available. Children's discount! In August 7 days half board from EUR 299; guide price until end of year HB per person/day EUR 49; until Nov 30 HB per person/day EUR 39. I-39017 Schenna near Merano, Tel. 0039/0473/94 57 35, Fax 0039/0473/94 57 34. Simply call and book! We look forward to seeing you. Your Walder Family.",
+        "vocabulary": [
+          {
+            "de": "die Fernsicht",
+            "en": "distant view / visibility"
+          },
+          {
+            "de": "der Durchgangsverkehr",
+            "en": "through traffic"
+          },
+          {
+            "de": "die Kinderermäßigung",
+            "en": "children's discount"
+          }
+        ]
       },
       "h": {
         "title": "DEUTSCHE UND ENGLISCHE BAROCKLIEDER",
-        "subtitle": "Kultur",
+        "subtitle": "Freunde des Liedes – Konservatorium Zürich",
         "lines": [
-          "DEUTSCHE UND ENGLISCHE BAROCKLIEDER",
-          "Georg Friedrich Händel",
-          "Montag, 18. Januar, 19:30 Uhr"
+          "Georg Friedrich Händel – Kantate: Vedendo Amor",
+          "Andreas Scholl Countertenor · Markus Märkl Cembalo · Karl Ernst Schröder Laute",
+          "Montag, 18. Januar, 19.30 Uhr",
+          "Konservatorium Zürich, gr. Saal",
+          "Vorverkauf: Jecklin (Rämistr., Tel. 253 76 76) und Musik Hug (Limmatquai, Tel. 259 41 00) oder an der Abendkasse Einzelbillette zu Fr. 32.– (mit Legi- + AIV-Ausweis Fr. 20.–)"
         ],
         "image": "data/images/jan_ad_h.png",
-        "text_en": "GERMAN AND ENGLISH BAROQUE SONGS. George Frideric Handel. Monday, January 18, 7:30 p.m.",
-        "vocabulary": []
+        "text_en": "GERMAN AND ENGLISH BAROQUE SONGS – Friends of Song. George Frideric Handel – Cantata: Vedendo Amor. Andreas Scholl (countertenor), Markus Märkl (harpsichord), Karl Ernst Schröder (lute). Monday, January 18, 7:30 p.m., Zurich Conservatory, large hall. Advance tickets: Jecklin and Musik Hug or single tickets at the box office for CHF 32.– (with student/unemployed ID CHF 20.–).",
+        "vocabulary": [
+          {
+            "de": "das Barocklied",
+            "en": "baroque song"
+          },
+          {
+            "de": "die Abendkasse",
+            "en": "box office (evening ticket desk)"
+          }
+        ]
       },
       "i": {
-        "title": "Euro-Schüler-Sprachreisen",
-        "subtitle": "Bildung & Reisen",
+        "title": "Das Sprachreisen-Reisebüro in Deutschland",
+        "subtitle": "Euro-Schüler-Sprachreisen",
         "lines": [
-          "Das Sprachreisen-Reisebüro in Deutschland",
-          "Angebote für mehr als 35 Veranstalter mit Kursorten in der ganzen Welt...",
-          "mit Sportmöglichkeiten. Euro-Schüler-Sprachreisen."
+          "Angebote von mehr als 35 Veranstaltern mit Kursorten in der ganzen Welt mit Sportmöglichkeiten. Umfassende, objektive und kostenlose Beratung zum Thema Schüler-Sprachferien, Summer-Schools und High-School-Jahr. Fordern Sie auch unseren Katalog für Erwachsene an!",
+          "Getestet und empfohlen von Ihrem Spezialisten: Euro-Schüler-Sprachreisen",
+          "Grillparzerstr. 46, 81675 München",
+          "Tel. 089/45 55 55 30 · Fax 089/45 55 55 33",
+          "e-mail: info@sprachreise.com",
+          "Es sind noch Plätze frei!"
         ],
         "image": "data/images/jan_ad_i.png",
-        "text_en": "The language travel agency in Germany. Offers for more than 35 organizers with course locations all over the world... with sports facilities. Euro-Schüler-Sprachreisen.",
-        "vocabulary": []
+        "text_en": "The Language Travel Agency in Germany – Euro-Schüler-Sprachreisen. Offers from more than 35 organizers with course locations worldwide including sports facilities. Comprehensive, objective, and free advice on student language holidays, summer schools, and high school years. Also request our catalog for adults! Tested and recommended by your specialist: Euro-Schüler-Sprachreisen, Grillparzerstr. 46, 81675 Munich, Tel. 089/45 55 55 30, Fax 089/45 55 55 33, e-mail: info@sprachreise.com. Places are still available!",
+        "vocabulary": [
+          {
+            "de": "der Veranstalter",
+            "en": "organizer / tour operator"
+          },
+          {
+            "de": "umfassend",
+            "en": "comprehensive / extensive"
+          }
+        ]
+      },
+      "j": {
+        "title": "Singen im Chor",
+        "subtitle": "Kammerchor in Zürich-Altstetten",
+        "lines": [
+          "Hast Du Lust, in unserem Kammerchor zu singen? Bei uns bist Du eine wichtige und tragende Stimme! Unser Dirigent ist David Haladjian. Er ist Komponist, und wir führen z.T. Werke auf, die er eigens für uns geschrieben hat.",
+          "Unser Repertoire ist zeitgenössische, anspruchsvolle Chormusik. Wir proben jeweils mittwochs von 18.00 bis zirka 20.30 Uhr im Altstetten ZH. Gesucht werden Stimmen aller Register. Herzlich willkommen!",
+          "Interessenten melden sich bitte bei Marcel Sigrist, Tel./Fax: 01 / 302 43 10."
+        ],
+        "image": "data/images/jan_ad_j.png",
+        "text_en": "Singing in a Choir. Do you feel like singing in our chamber choir? With us, you are an important and supporting voice! Our conductor is David Haladjian. He is a composer, and we perform some works that he wrote especially for us. Our repertoire is contemporary, sophisticated choral music. We rehearse every Wednesday from 6:00 p.m. to approx. 8:30 p.m. in Altstetten ZH. Voices of all registers wanted. Welcome! Interested persons please contact Marcel Sigrist, Tel./Fax: 01 / 302 43 10.",
+        "vocabulary": [
+          {
+            "de": "der Dirigent",
+            "en": "conductor"
+          },
+          {
+            "de": "aufführen",
+            "en": "to perform / stage"
+          },
+          {
+            "de": "proben",
+            "en": "to rehearse"
+          }
+        ]
       },
       "k": {
-        "title": "AUF IN'S ALLGÄU",
-        "subtitle": "Reisen & Sport",
+        "title": "AUF IN'S ALLGÄU …",
+        "subtitle": "Hotel König Ludwig, Schwangau",
         "lines": [
-          "AUF IN'S ALLGÄU",
-          "ÜBERN INKL. HP PR IM DZ",
-          "Aktivferien im Allgäu, Wandern..."
+          "… ein königliches Haus zum bürgerlichen Preis!",
+          "Winter-Pauschale 10. Januar–12. Februar: Euro 199,–",
+          "5 ÜBERN. INKL. HP P.P. IM DZ",
+          "Sauna, Schönheitsoase, medizin. Bäder- und Massageabteilung, Sauerstoffkur, Naturheilverfahren, Arzt im Haus.",
+          "Hotel König Ludwig, D-87645 Schwangau",
+          "Telefon 08362 / 8890 · Fax 81779"
         ],
         "image": "data/images/jan_ad_k.png",
-        "text_en": "OFF TO THE ALLGÄU. OVERNIGHT INCL. HB PER PERSON IN DOUBLE ROOM. Active holidays in the Allgäu, hiking...",
-        "vocabulary": []
+        "text_en": "OFF TO THE ALLGÄU … a royal house at a modest price! Winter package Jan 10–Feb 12: EUR 199. 5 nights incl. half board per person in a double room. Sauna, beauty oasis, medical bath and massage department, oxygen treatment, naturopathy, doctor in the house. Hotel König Ludwig, D-87645 Schwangau, Tel. 08362 / 8890, Fax 81779.",
+        "vocabulary": [
+          {
+            "de": "die Pauschale",
+            "en": "package deal / flat rate"
+          },
+          {
+            "de": "die Übernachtung",
+            "en": "overnight stay"
+          }
+        ]
       },
       "l": {
-        "title": "MIT SUPERLEARNING",
-        "subtitle": "Bildung",
+        "title": "MIT SUPERLEARNING ALS BERUFBEGLEITENDE LERNMETHODE",
+        "subtitle": "Sprechen! DIALOGICA – J. P. & E. Schirmer",
         "lines": [
-          "MIT SUPERLEARNING ALS BERUFSBEGLEITENDE LERNMETHODE",
-          "Englisch, Französisch, Spanisch in Zürich lernen...",
-          "sehr schnell Sprachen zu lernen."
+          "Englisch, Deutsch, Französisch, Russisch, Portugiesisch, Spanisch, Italienisch",
+          "Intensiv – 3 mal höheres Lerntempo",
+          "aktiver Unterricht mit nur 1–5 Lernenden",
+          "Stundenplan und Lerninhalt nach Bedarf",
+          "stressfreie Lernsituation",
+          "Die effizienteste und angenehmste Art sehr schnell Sprachen zu lernen",
+          "J. P. & E. Schirmer, Flüelastrasse 47, 8047 Zürich",
+          "Telefon 01 / 401 39 01 · Telefax 01 / 401 39 02",
+          "Zürich, Basel, Bern, Zug",
+          "http://dialogica.ch · e-mail: dialogica.zuerich@bluewin.ch"
         ],
         "image": "data/images/jan_ad_l.png",
-        "text_en": "WITH SUPERLEARNING AS AN OCCUPATIONAL LEARNING METHOD. Learn English, French, Spanish in Zurich... to learn languages very quickly.",
-        "vocabulary": []
+        "text_en": "WITH SUPERLEARNING AS AN OCCUPATIONAL LEARNING METHOD. English, German, French, Russian, Portuguese, Spanish, Italian. Intensive – 3 times faster learning pace, active lessons with only 1–5 learners, schedule and content as needed, stress-free learning environment. The most efficient and pleasant way to learn languages very quickly. J. P. & E. Schirmer, Flüelastrasse 47, 8047 Zurich, Tel. 01 / 401 39 01, Fax 01 / 401 39 02, Zurich, Basel, Bern, Zug, http://dialogica.ch, e-mail: dialogica.zuerich@bluewin.ch.",
+        "vocabulary": [
+          {
+            "de": "berufsbegleitend",
+            "en": "part-time alongside work / occupational"
+          },
+          {
+            "de": "das Lerntempo",
+            "en": "learning pace / speed"
+          }
+        ]
       }
     },
     "situations": [
@@ -366,70 +533,70 @@
         "situation": "Sie sind in der Schweiz und möchten sich ein paar Tage beim Baden erholen.",
         "situation_en": "You are in Switzerland and would like to relax for a few days while bathing.",
         "correct_answer": "d",
-        "explanation": "Ad 'd' (Therme Vals) offers thermal baths in Switzerland for relaxation."
+        "explanation": "Advertisement 'd' (Therme Vals / Hotel Therme in Vals, Switzerland) invites guests to relax and bathe in the thermal baths ('unten in der «Felsentherme» sich dem Urgefühl des Badens hingeben')."
       },
       {
         "number": 12,
         "situation": "Sie hören gerne klassische Musik, am liebsten Barocklieder. Sie möchten in ein Konzert gehen.",
         "situation_en": "You like listening to classical music, preferably baroque songs. You want to go to a concert.",
         "correct_answer": "h",
-        "explanation": "Ad 'h' advertises 'DEUTSCHE UND ENGLISCHE BAROCKLIEDER' (German and English baroque songs)."
+        "explanation": "Advertisement 'h' announces a concert of German and English Baroque songs ('DEUTSCHE UND ENGLISCHE BAROCKLIEDER', Georg Friedrich Händel) at the Konservatorium Zürich."
       },
       {
         "number": 13,
         "situation": "Ihr Sohn möchte gerne in den Schulferien seine Fremdsprachenkenntnisse verbessern. Er möchte auch Sport treiben.",
         "situation_en": "Your son would like to improve his foreign language skills during the school holidays. He also wants to do sports.",
         "correct_answer": "i",
-        "explanation": "Ad 'i' (Euro-Schüler-Sprachreisen) offers language trips for students including sports facilities ('mit Sportmöglichkeiten')."
+        "explanation": "Advertisement 'i' (Euro-Schüler-Sprachreisen) specializes in student language holidays ('Schüler-Sprachferien, Summer-Schools') worldwide that include sports facilities ('mit Sportmöglichkeiten')."
       },
       {
         "number": 14,
         "situation": "Sie reisen nicht gerne allein und suchen deshalb Reisepartner.",
         "situation_en": "You do not like to travel alone and are therefore looking for travel partners.",
         "correct_answer": "e",
-        "explanation": "Ad 'e' is titled 'Singles reisen gemeinsam' (Singles travel together) and looks for travel companions."
+        "explanation": "Advertisement 'e' ('Singles reisen gemeinsam') is from three Swiss travelers looking for companions to join them on a two-week tour through southern France."
       },
       {
         "number": 15,
         "situation": "Sie möchten am Donnerstag Abend mit Ihrer Bekannten eine Musikveranstaltung besuchen.",
         "situation_en": "You would like to attend a music event with your acquaintance on Thursday evening.",
         "correct_answer": "a",
-        "explanation": "Ad 'a' is for the Musical Melissa. Note: The official key maps to A, despite the ad saying Wednesday and Sunday. This is likely an error in the original exam's logic, but we follow the official key A."
+        "explanation": "Advertisement 'a' (Musical Melissa in Winterthur) has evening performances Wednesday through Saturday at 7:30 p.m. ('Mi bis Sa 19.30 Uhr'), which includes Thursday evening."
       },
       {
         "number": 16,
         "situation": "Ihre Familie möchte den nächsten Urlaub am Meer verbringen.",
         "situation_en": "Your family would like to spend their next vacation by the sea.",
         "correct_answer": "x",
-        "explanation": "None of the advertisements offer a holiday specifically by the sea."
+        "explanation": "None of the advertisements offer a beach or seaside holiday; the vacation hotels ('d', 'g', 'k') are all located in the mountains/Alps."
       },
       {
         "number": 17,
         "situation": "Sie leben in Zürich und möchten dort möglichst schnell Englisch lernen.",
         "situation_en": "You live in Zurich and want to learn English there as quickly as possible.",
         "correct_answer": "l",
-        "explanation": "Ad 'l' offers 'SUPERLEARNING' to learn languages very quickly ('sehr schnell') in Zurich."
+        "explanation": "Advertisement 'l' (Dialogica in Zurich) offers English courses using the 'Superlearning' method with a 3x faster learning pace ('Intensiv – 3 mal höheres Lerntempo', 'sehr schnell Sprachen zu lernen')."
       },
       {
         "number": 18,
         "situation": "Sie bekommen Besuch von Ihrer Freundin. Sie möchte gerne tanzen gehen.",
         "situation_en": "You get a visit from your friend. She would like to go dancing.",
         "correct_answer": "x",
-        "explanation": "There are no advertisements for a disco or a dance club."
+        "explanation": "None of the advertisements offer a disco, dance club, or dance event."
       },
       {
         "number": 19,
         "situation": "Sie möchten Freunde im Ausland besuchen und suchen ein Reisebüro.",
         "situation_en": "You want to visit friends abroad and are looking for a travel agency.",
         "correct_answer": "f",
-        "explanation": "Ad 'f' (TAKE OFF REISEN) offers cheap flights worldwide."
+        "explanation": "Advertisement 'f' (TAKE OFF REISEN) is a travel agency offering affordable flights worldwide ('Preiswerte Flüge weltweit', e.g. London, Johannesburg, New York, Sydney)."
       },
       {
         "number": 20,
         "situation": "Sie sind sportlich und möchten im Sommer in den Bergen wandern gehen.",
         "situation_en": "You are sporty and want to go hiking in the mountains in the summer.",
         "correct_answer": "g",
-        "explanation": "Ad 'g' offers 'Ihre Wandertage in bester Alpenluft' (Your hiking days in the best Alpine air) with family Walder. (The official key maps to F in OCR but the text matches G contextually. Wait, looking at the key: 19 F, 20 G. Let's use G)."
+        "explanation": "Advertisement 'g' (Hotel Walder in Schenna near Merano) advertises hiking days in the Alpine air ('Ihre Wandertage in bester Alpenluft!') with a summer offer in August ('Im August 7 Tage HP ab Euro 299,–')."
       }
     ]
   },
