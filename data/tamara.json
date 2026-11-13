@@ -226,116 +226,205 @@
   "leseverstehen_teil_3": {
     "advertisements": {
       "a": {
-        "title": "Doppelbett Couch",
+        "title": "Doppelbett-Couch",
         "subtitle": "Möbel",
         "lines": [
-          "Und wenn mal Besuch kommt...",
-          "Doppelbett Couch, Leder, schwarz, ausklappbar, mit Bettkasten, Fußteil und vier Kissen, neuwertig",
-          "650 Euro. Tel. 06323/981428"
+          "Und wenn mal Besuch kommt ...",
+          "Doppelbett-Couch, Leder, schwarz, ausklappbar, mit Bettkasten, Fußteil und vier Kissen, neuwertig",
+          "650 Euro",
+          "Tel. 06323/981428"
         ],
         "image": "data/images/tamara_ad_a.png",
-        "text_en": "And when visitors come... Double bed couch, leather, black, fold-out, with bed box, foot section and four pillows, as good as new. 650 Euro.",
-        "vocabulary": []
+        "text_en": "And when visitors come... Double-bed couch, leather, black, fold-out, with bed storage box, foot section and four cushions, as good as new. 650 Euros. Tel. 06323/981428.",
+        "vocabulary": [
+          {
+            "de": "ausklappbar",
+            "en": "fold-out"
+          },
+          {
+            "de": "neuwertig",
+            "en": "as good as new"
+          }
+        ]
       },
       "b": {
         "title": "ConCon Wohntextilien",
         "subtitle": "Einkaufen",
         "lines": [
           "ConCon Wohntextilien",
-          "Bietet Ihnen einfach alles in einer großen Auswahl schöne Bettwäsche, Kissen, edle Bettdecken, feine Tischwäsche, Teppiche, Gardinen und vieles mehr.",
-          "Grünwaldstr. 127, 77340 Andenstadt."
+          "bietet Ihnen einfach alles in einer großen Auswahl: schöne Bettwäsche, Kissen, edle Bettdecken, feine Tischwäsche, Teppiche, Gardinen und vieles mehr.",
+          "Kommen Sie vorbei, wir beraten Sie gern!",
+          "ConCon, Grünwaldstr. 127, 77340 Anderstadt, Tel.: 06750-762949, www.concon.de"
         ],
         "image": "data/images/tamara_ad_b.png",
-        "text_en": "ConCon home textiles. Offers you simply everything in a large selection of beautiful bed linen, pillows, noble duvets, fine table linen, carpets, curtains and much more.",
-        "vocabulary": []
+        "text_en": "ConCon home textiles offers you simply everything in a large selection: beautiful bed linen, pillows, fine duvets, fine table linen, carpets, curtains and much more. Come by, we are happy to advise you! ConCon, Grünwaldstr. 127, 77340 Anderstadt, Tel.: 06750-762949, www.concon.de.",
+        "vocabulary": [
+          {
+            "de": "die Bettwäsche",
+            "en": "bed linen"
+          },
+          {
+            "de": "die Gardine",
+            "en": "curtain"
+          }
+        ]
       },
       "c": {
         "title": "Doppelstöckiges Kinderbett",
         "subtitle": "Möbel",
         "lines": [
           "Doppelstöckiges Kinderbett",
-          "(fast neuwertig) mit Rost und Festgitter, aus Metall, braun. Kopf- und Fußteil mit Holz, sehr stabil.",
-          "Auch einzeln aufzustellen. Inklusive Matratzen.",
-          "Ladenpreis 400 Euro, jetzt zum halben Preis abzugeben."
+          "(fast neuwertig) mit Rück- und Frontgitter, aus Metall, braun, Kopf- und Fußteil mit hellem Holzeinsatz, sehr stabil,",
+          "auch einzeln aufzustellen, inklusive Metallroste,",
+          "Ladenpreis 400 Euro, jetzt zum halben Preis abzugeben.",
+          "Tel.: 06333 – 987 654"
         ],
         "image": "data/images/tamara_ad_c.png",
-        "text_en": "Bunk bed for children (almost as good as new) with slatted frame and fixed grille, made of metal, brown. Head and foot part with wood, very stable. Can also be set up individually. Mattresses included. Retail price 400 Euro, now for half price.",
-        "vocabulary": []
+        "text_en": "Bunk bed for children (almost as good as new) with back and front safety rails, made of metal, brown, head and foot sections with light wood insert, very sturdy, can also be set up as single beds, including metal slatted frames, retail price 400 Euros, now available for half price. Tel.: 06333 – 987 654.",
+        "vocabulary": [
+          {
+            "de": "doppelstöckig",
+            "en": "two-tiered / bunk"
+          },
+          {
+            "de": "zum halben Preis",
+            "en": "for half price"
+          }
+        ]
       },
       "d": {
-        "title": "Tankstelle Service",
+        "title": "Tankstelle – 24-Stunden Service",
         "subtitle": "Stellenangebote",
         "lines": [
-          "Tankstelle - 24-Stunden Service",
-          "Sucht für Waschanlage und Shop Aushilfskräfte",
-          "stundenweise, vorwiegend abends. Bitte melden bei Fr. Schneider."
+          "Tankstelle – 24-Stunden Service",
+          "Sucht für Waschanlage und Shop",
+          "Aushilfskräfte",
+          "stundenweise, vorwiegend abends",
+          "Bitte melden bei Fr. Schneider, Tel: 0621 17 98 05 78"
         ],
         "image": "data/images/tamara_ad_d.png",
-        "text_en": "Gas station - 24-hour service. Looking for temporary staff for car wash and shop, hourly, mainly in the evening.",
-        "vocabulary": []
+        "text_en": "Gas station – 24-hour service is looking for temporary staff for car wash and shop, by the hour, mainly in the evenings. Please contact Ms. Schneider, Tel: 0621 17 98 05 78.",
+        "vocabulary": [
+          {
+            "de": "die Aushilfskraft",
+            "en": "temporary / part-time helper"
+          },
+          {
+            "de": "vorwiegend",
+            "en": "mainly / predominantly"
+          }
+        ]
       },
       "e": {
-        "title": "Sonderpreis für Kurzentschlossene",
+        "title": "Sonderpreis für Kurzentschlossene – Bayr. Wald",
         "subtitle": "Reisen & Urlaub",
         "lines": [
           "Sonderpreis für Kurzentschlossene",
-          "1 Woche Vollpension 199 Euro/Person oder Halbpension 98 Euro/Person",
+          "1 Woche Vollpension 199 € / Person oder Halbpension 98 € / Person",
           "Bayr. Wald, schönes Haus, Hallenbad, Sauna, Massage, Kosmetik.",
-          "Wander- und Fahrradwege in direkter Umgebung."
+          "Wander- und Fahrradwege in direkter Umgebung",
+          "Bachmann Ferienwohnungen, Kallingstr. 2, 94535 Eging, Tel.: 08544-916044, www.ch-bachmann.de"
         ],
         "image": "data/images/tamara_ad_e.png",
-        "text_en": "Special price for last-minute deciders. 1 week full board 199 Euro/person or half board 98 Euro/person. Bavarian Forest, beautiful house, indoor pool, sauna... hiking and cycling paths in the immediate vicinity.",
-        "vocabulary": []
+        "text_en": "Special price for last-minute travelers: 1 week full board 199 € / person or half board 98 € / person. Bavarian Forest, nice house, indoor pool, sauna, massage, cosmetics. Hiking and cycling paths in the immediate vicinity. Bachmann Holiday Apartments, Kallingstr. 2, 94535 Eging, Tel.: 08544-916044, www.ch-bachmann.de.",
+        "vocabulary": [
+          {
+            "de": "Kurzentschlossene",
+            "en": "spontaneous / last-minute deciders"
+          },
+          {
+            "de": "die Vollpension",
+            "en": "full board"
+          }
+        ]
       },
       "f": {
         "title": "Urlaub auf dem Bauernhof",
         "subtitle": "Reisen & Urlaub",
         "lines": [
           "Urlaub auf dem Bauernhof",
-          "Große Apartments, EZ, DZ, 2-4 Betten...",
-          "Familie Scherer-Kiesling."
+          "große Apartments, EZ, DZ, 3–4 Bett-Zimmer, ÜF (Frühstücksbuffet) 19 Euro, HP (3-Gang-Abendmenü) 25 Euro,",
+          "50% Kinderermäßigung bis einschließlich 11 Jahre, großer Abenteuerspielplatz! Kinderklub! Tägliche Aktivitäten! Prospekt anfordern!",
+          "Familie Schmidt-Kreling, Bahnhofstr. 7, D-94239 Gotteszell/Zachenberg, Tel. + Fax: 09929-2323"
         ],
         "image": "data/images/tamara_ad_f.png",
-        "text_en": "Farm holiday. Large apartments, single rooms, double rooms, 2-4 beds...",
-        "vocabulary": []
+        "text_en": "Farm holiday: large apartments, single rooms, double rooms, 3–4 bed rooms, bed & breakfast (breakfast buffet) 19 Euros, half board (3-course evening menu) 25 Euros, 50% children's discount up to and including 11 years, large adventure playground! Kids' club! Daily activities! Request a brochure! Family Schmidt-Kreling, Bahnhofstr. 7, D-94239 Gotteszell/Zachenberg, Tel. + Fax: 09929-2323.",
+        "vocabulary": [
+          {
+            "de": "die Kinderermäßigung",
+            "en": "children's discount"
+          },
+          {
+            "de": "der Abenteuerspielplatz",
+            "en": "adventure playground"
+          }
+        ]
       },
       "g": {
         "title": "Ferienwhg. u. Häuser an der Nordsee",
         "subtitle": "Reisen & Urlaub",
         "lines": [
           "Ferienwhg. u. Häuser an der Nordsee",
-          "Winter- u. Frühjahrsangebote, noch Whg./Häuser frei mit direktem Zugang zum Strand.",
-          "Wangerland-Hooksiel."
+          "Winter- u. Frühjahrsangebote, noch Whg./Häuser frei mit direktem Zugang zum Strand",
+          "Wangerland-Hooksiel, Horumersiel-Schillig, Holger Dormann, Tel.: 08532/676567, Fax: 08532/676568, www.h.dormann.de"
         ],
         "image": "data/images/tamara_ad_g.png",
-        "text_en": "Holiday apartments and houses on the North Sea. Winter and spring offers, apartments/houses still available with direct access to the beach.",
-        "vocabulary": []
+        "text_en": "Holiday apartments and houses on the North Sea. Winter and spring offers, apartments/houses still available with direct access to the beach. Wangerland-Hooksiel, Horumersiel-Schillig, Holger Dormann, Tel.: 08532/676567, Fax: 08532/676568, www.h.dormann.de.",
+        "vocabulary": [
+          {
+            "de": "die Ferienwohnung",
+            "en": "holiday apartment"
+          },
+          {
+            "de": "der Zugang zum Strand",
+            "en": "access to the beach"
+          }
+        ]
       },
       "h": {
         "title": "Jugendcamp im Ostseebad GRÖMITZ",
         "subtitle": "Reisen & Urlaub",
         "lines": [
-          "gleich hinter den Ostseedünen",
-          "Jugendcamp im Ostseebad GRÖMITZ",
-          "Für Kinder u. Jugendliche von 8-15 Jahre",
-          "Sommerferien - ohne Eltern, viel Spaß haben, neue Freunde kennen lernen!!"
+          "... gleich hinter den Ostseedünen",
+          "Jugendcamp im Ostseebad GRÖMITZ – Für Kinder u. Jugendliche von 8–15 Jahre",
+          "Sommerferien ... ohne Eltern, viel Spaß haben, neue Freunde kennen lernen!! Individuell buchbarer Zeitraum: 20.06.–30.08.",
+          "Leistungen: • Übernachtung in Doppelwandzelten mit Holzböden (Schlafsack mitbringen!) • Vollpension (aktive Mithilfe beim Tisch- und Geschirrdienst erforderlich) • Sport- und Freizeitprogramm • Teambetreuer",
+          "Preis p.P./Tag: 19,– € · Mehr Information unter www.ostseejugendcamp.de"
         ],
         "image": "data/images/tamara_ad_h.png",
-        "text_en": "Youth camp in the Baltic seaside resort GRÖMITZ. For children and adolescents from 8-15 years. Summer holidays - without parents, have a lot of fun, get to know new friends!!",
-        "vocabulary": []
+        "text_en": "... right behind the Baltic Sea dunes: Youth camp in the Baltic seaside resort GRÖMITZ – For children and teenagers aged 8–15. Summer holidays... without parents, have lots of fun, meet new friends!! Individually bookable period: 20.06.–30.08. Services: Overnight stay in double-walled tents with wooden floors (bring a sleeping bag!), full board (active help with table and dish duty required), sports and leisure program, team counselors. Price p.p./day: 19 €.",
+        "vocabulary": [
+          {
+            "de": "die Düne",
+            "en": "the dune"
+          },
+          {
+            "de": "die Mithilfe",
+            "en": "assistance / helping out"
+          }
+        ]
       },
       "i": {
         "title": "Kieferhochbett",
         "subtitle": "Möbel",
         "lines": [
           "Kieferhochbett",
-          "Stabil, massiv, ca. 2 J.",
-          "Treppe, Rutsche, Vorhänge, nur für großes Kinderzimmer geeignet.",
-          "Neuwert: 800 Euro, Verkaufspreis jetzt 300 Euro."
+          "Stabil, massiv, ca. 2 J., Treppe, Rutsche, Vorhänge, nur für großes Kinderzimmer geeignet,",
+          "Neuwert: 800 €, Verkaufspreis jetzt 300 €",
+          "Tel.: 06897-7675"
         ],
         "image": "data/images/tamara_ad_i.png",
-        "text_en": "Pine loft bed. Stable, solid, approx. 2 years old. Stairs, slide, curtains, only suitable for a large children's room. Original value: 800 Euro, sales price now 300 Euro.",
-        "vocabulary": []
+        "text_en": "Pine loft bed. Sturdy, solid wood, approx. 2 years old, stairs, slide, curtains, only suitable for a large children's room. Original value: 800 €, selling price now 300 €. Tel.: 06897-7675.",
+        "vocabulary": [
+          {
+            "de": "das Hochbett",
+            "en": "loft bed / high sleeper"
+          },
+          {
+            "de": "die Rutsche",
+            "en": "the slide"
+          }
+        ]
       },
       "j": {
         "title": "Mit dem Rad durch die Lüneburger Heide",
@@ -343,34 +432,63 @@
         "lines": [
           "Mit dem Rad durch die Lüneburger Heide",
           "Wir sind ein kleiner Familienbetrieb mitten in der Heide. Rufen Sie uns an!",
-          "Wir senden Ihnen gern unseren Hausprospekt mit 20 ausgearbeiteten Vorschlägen (10-40 km pro Tag) zu. Abends Rücktransport möglich."
+          "Wir senden Ihnen gern unseren Hausprospekt mit 20 ausgearbeiteten Vorschlägen (10–40 km pro Tag) zu. Abends Rücktransport möglich.",
+          "Fam. Bevensen, Moosweg 3 · 21274 Undeloh, Tel./Fax: 04189–564534"
         ],
         "image": "data/images/tamara_ad_j.png",
-        "text_en": "By bike through the Lüneburg Heath. We are a small family business in the middle of the heath. We would be happy to send you our brochure with 20 elaborated proposals (10-40 km per day). Evening return transport possible.",
-        "vocabulary": []
+        "text_en": "By bike through the Lüneburg Heath. We are a small family business right in the middle of the heath. Call us! We will gladly send you our house brochure with 20 worked-out tour suggestions (10–40 km per day). Return transport possible in the evening. Fam. Bevensen, Moosweg 3, 21274 Undeloh, Tel./Fax: 04189–564534.",
+        "vocabulary": [
+          {
+            "de": "ausgearbeitet",
+            "en": "worked-out / prepared"
+          },
+          {
+            "de": "der Rücktransport",
+            "en": "return transport"
+          }
+        ]
       },
       "k": {
-        "title": "Restaurant RODENHOF",
-        "subtitle": "Stellenangebote",
+        "title": "Restaurant RODENHOF sucht Kellner/in",
+        "subtitle": "Stellenangebote Gastronomie",
         "lines": [
           "Restaurant RODENHOF mit Biergarten",
-          "sucht Kellner/in"
+          "Grülingsstr. 91, 66113 Saarbrücken",
+          "sucht Kellner/in (Vollzeitbeschäftigung)",
+          "Tel. 0681/4 45 48"
         ],
         "image": "data/images/tamara_ad_k.png",
-        "text_en": "Restaurant RODENHOF with beer garden seeks waiter/waitress.",
-        "vocabulary": []
+        "text_en": "Restaurant RODENHOF with beer garden, Grülingsstr. 91, 66113 Saarbrücken, is looking for a waiter/waitress (full-time employment). Tel. 0681/4 45 48.",
+        "vocabulary": [
+          {
+            "de": "die Vollzeitbeschäftigung",
+            "en": "full-time employment"
+          }
+        ]
       },
       "l": {
-        "title": "Fahrräder",
+        "title": "Neue und gebrauchte Fahrräder – WESTSPANGE",
         "subtitle": "Einkaufen & Dienstleistungen",
         "lines": [
           "Neue und gebrauchte Fahrräder",
-          "Fachhandel, Werkstatt, Reparaturdienst, Zubehör.",
-          "WESTSPANGE, St. Johanner Straße 80."
+          "• Fachhandel",
+          "• Werkstatt",
+          "• Reparaturdienst",
+          "• Zubehör",
+          "WESTSPANGE, St. Johanner Straße 60, 66 117 Saarbrücken, 0681 14 93 18"
         ],
         "image": "data/images/tamara_ad_l.png",
-        "text_en": "New and used bicycles. Specialist trade, workshop, repair service, accessories.",
-        "vocabulary": []
+        "text_en": "New and used bicycles: specialist retailer, workshop, repair service, accessories. WESTSPANGE, St. Johanner Straße 60, 66117 Saarbrücken, 0681 14 93 18.",
+        "vocabulary": [
+          {
+            "de": "die Werkstatt",
+            "en": "workshop / repair shop"
+          },
+          {
+            "de": "das Zubehör",
+            "en": "accessories"
+          }
+        ]
       }
     },
     "situations": [
@@ -379,70 +497,70 @@
         "situation": "Sie suchen für Ihre beiden Kinder neue Betten und möchten höchstens 200 Euro ausgeben.",
         "situation_en": "You are looking for new beds for your two children and want to spend a maximum of 200 euros.",
         "correct_answer": "c",
-        "explanation": "Ad 'c' offers a 'Doppelstöckiges Kinderbett' (bunk bed for children). It originally cost 400 Euro but is now 'zum halben Preis abzugeben' (for half price), which equals exactly 200 Euro."
+        "explanation": "Ad 'c' offers a two-bed bunk bed for children ('Doppelstöckiges Kinderbett, auch einzeln aufzustellen'). Its retail price was 400 Euros and it is now being sold for half price ('Ladenpreis 400 Euro, jetzt zum halben Preis abzugeben'), which is 200 Euros. (Ad 'i' is only one loft bed and costs 300 Euros)."
       },
       {
         "number": 12,
         "situation": "Sie haben Probleme mit dem Rücken und suchen ein Gesundheitsbett.",
-        "situation_en": "You have back problems and are looking for a health bed.",
+        "situation_en": "You have back problems and are looking for a health/orthopedic bed.",
         "correct_answer": "x",
-        "explanation": "None of the advertisements offer a health bed ('Gesundheitsbett') for back problems."
+        "explanation": "None of the advertisements offer an orthopedic or health bed ('Gesundheitsbett') for back problems."
       },
       {
         "number": 13,
         "situation": "Sie suchen ein schönes Sofa, das man auch als Gästebett benutzen kann.",
         "situation_en": "You are looking for a nice sofa that can also be used as a guest bed.",
         "correct_answer": "a",
-        "explanation": "Ad 'a' offers a 'Doppelbett Couch' (double bed couch) which is 'ausklappbar' (fold-out), ideal for guests."
+        "explanation": "Ad 'a' ('Und wenn mal Besuch kommt ...') offers a black leather fold-out double-bed couch ('Doppelbett-Couch, Leder, schwarz, ausklappbar, mit Bettkasten')."
       },
       {
         "number": 14,
         "situation": "Vor Ihre Urlaubsreise möchten Sie Ihr Fahrrad überprüfen lassen.",
-        "situation_en": "Before your holiday trip, you would like to have your bike checked.",
+        "situation_en": "Before your holiday trip, you would like to have your bicycle checked.",
         "correct_answer": "l",
-        "explanation": "Ad 'l' is a bicycle shop ('Fahrräder') with a workshop and repair service ('Werkstatt, Reparaturdienst')."
+        "explanation": "Ad 'l' ('WESTSPANGE – Neue und gebrauchte Fahrräder') has a bicycle workshop and repair service ('Werkstatt, Reparaturdienst')."
       },
       {
         "number": 15,
         "situation": "Ihre Freunde möchten eine organisierte Radtour machen und suchen ein geeignetes Angebot.",
         "situation_en": "Your friends would like to do an organized bike tour and are looking for a suitable offer.",
         "correct_answer": "j",
-        "explanation": "Ad 'j' offers organized bike tours through the Lüneburg Heath ('Mit dem Rad durch die Lüneburger Heide') with elaborated proposals and return transport."
+        "explanation": "Ad 'j' ('Mit dem Rad durch die Lüneburger Heide') offers a brochure with 20 worked-out daily bike tour proposals ('20 ausgearbeiteten Vorschlägen (10–40 km pro Tag)') and evening return transport."
       },
       {
         "number": 16,
         "situation": "Ihre Verwandten haben eine Woche Urlaub und suchen einen Ferienort am Meer.",
         "situation_en": "Your relatives have a week's holiday and are looking for a holiday resort by the sea.",
         "correct_answer": "g",
-        "explanation": "Ad 'g' offers holiday apartments and houses on the North Sea ('an der Nordsee') with direct access to the beach ('Zugang zum Strand')."
+        "explanation": "Ad 'g' offers holiday apartments and houses on the North Sea with direct access to the beach ('Ferienwhg. u. Häuser an der Nordsee ... mit direktem Zugang zum Strand'). (Ad 'h' on the Baltic Sea is only for children and teens without parents)."
       },
       {
         "number": 17,
         "situation": "Sie suchen für drei Vormittage pro Woche eine Stelle als Küchenhilfe.",
         "situation_en": "You are looking for a job as a kitchen helper for three mornings a week.",
         "correct_answer": "x",
-        "explanation": "There are no job advertisements for a kitchen helper ('Küchenhilfe')."
+        "explanation": "None of the advertisements offer a position as a kitchen helper ('Küchenhilfe')."
       },
       {
         "number": 18,
         "situation": "Sie suchen eine leichte Arbeit für abends, um sich noch etwas Geld dazuzuverdienen.",
         "situation_en": "You are looking for light work for the evening to earn some extra money.",
         "correct_answer": "d",
-        "explanation": "Ad 'd' is looking for temporary staff ('Aushilfskräfte') for a gas station car wash and shop, 'stundenweise, vorwiegend abends' (hourly, mainly in the evening)."
+        "explanation": "Ad 'd' ('Tankstelle – 24-Stunden Service') is looking for temporary helpers ('Aushilfskräfte') for its car wash and shop on an hourly basis, mainly in the evenings ('stundenweise, vorwiegend abends')."
       },
       {
         "number": 19,
         "situation": "Ihre Bekannte möchte als Bedienung in einer Gaststätte arbeiten.",
-        "situation_en": "Your acquaintance would like to work as a waitress in a restaurant.",
+        "situation_en": "Your acquaintance would like to work as a server/waitress in a restaurant.",
         "correct_answer": "k",
-        "explanation": "Ad 'k' is a restaurant ('Restaurant RODENHOF') looking for a waiter/waitress ('sucht Kellner/in')."
+        "explanation": "Ad 'k' ('Restaurant RODENHOF mit Biergarten') is looking for a full-time waiter/waitress ('sucht Kellner/in (Vollzeitbeschäftigung)')."
       },
       {
         "number": 20,
         "situation": "Ihre Freunde wollen Familienurlaub machen und suchen ein Angebot, das auch ein Kinderprogramm enthält.",
         "situation_en": "Your friends want to go on a family holiday and are looking for an offer that also includes a children's program.",
         "correct_answer": "f",
-        "explanation": "According to the official key, the answer is 'f' (Urlaub auf dem Bauernhof), as farm holidays typically cater to families with kids."
+        "explanation": "Ad 'f' ('Urlaub auf dem Bauernhof') offers family accommodations with a 50% children's discount, a large adventure playground, a kids' club, and daily activities ('großer Abenteuerspielplatz! Kinderklub! Tägliche Aktivitäten!')."
       }
     ]
   },
