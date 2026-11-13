@@ -227,135 +227,258 @@
   "leseverstehen_teil_3": {
     "advertisements": {
       "a": {
-        "title": "Mitarbeiter/innen am Empfang",
-        "subtitle": "Stellenangebote",
+        "title": "PRAKTIKANT/IN – TAPE Media Film GmbH",
+        "subtitle": "im Bereich Medien- und Veranstaltungstechnik gesucht",
         "lines": [
-          "Wir suchen für unsere sechs Hotelbetriebe",
-          "im gehobenen Bereich in München, Frankfurt und Berlin:",
-          "Mitarbeiter/innen am Empfang.",
-          "Wenn Sie bereits Rezeptionserfahrung haben...",
-          "Blattl's Hotels Zentralbüro, 80501 München."
+          "PRAKTIKANT/IN im Bereich Medien- und Veranstaltungstechnik gesucht",
+          "Unser Hauptaufgabengebiet ist die Durchführung von Pressekonferenzen und Themen-Events. Das Praktikum ist bezahlt und dauert 6 Monate. Sie arbeiten in einem namhaften Team und sammeln Ihre Erfahrungen da, wo sie entstehen, von der Konzeption bis zur Realisation.",
+          "Bewerbung per E-Mail an: TAPE Media Film GmbH, info@mediafilm.project"
         ],
-        "image": "data/images/thomas_ad_a.png",
-        "text_en": "Employees at the reception. We are looking for our six hotel businesses in the upscale area in Munich, Frankfurt and Berlin. If you already have reception experience... Blattl's Hotels.",
-        "vocabulary": []
+        "text_en": "INTERN wanted in the field of media and event technology. Our main area of responsibility is organizing press conferences and themed events. The internship is paid and lasts 6 months. You will work in a renowned team and gain experience right where things happen, from conception to realization. Apply by email to: TAPE Media Film GmbH, info@mediafilm.project.",
+        "vocabulary": [
+          {
+            "de": "das Hauptaufgabengebiet",
+            "en": "main area of responsibility"
+          },
+          {
+            "de": "namhaft",
+            "en": "renowned / well-known"
+          }
+        ],
+        "image": "data/images/thomas_ad_a.png"
       },
       "b": {
-        "title": "PSA-Zeitarbeit",
-        "subtitle": "Stellenangebote",
+        "title": "20:45 ARTE – THEMENABEND „Unsere Zukunft“",
+        "subtitle": "Neue Chancen auf dem Arbeitsmarkt",
         "lines": [
-          "Die PSA kooperiert mit über 500 unabhängigen Personaldienstleistern.",
-          "Wir suchen ständig: Studentische Unternehmensberater, Studenten für IT-Administration..."
+          "20:45 ARTE – Neue Chancen auf dem Arbeitsmarkt",
+          "THEMENABEND „Unsere Zukunft“",
+          "Wie kommen Arbeitsuchende in der Europäischen Union mit der Wirtschafts- und Bildungskrise zurecht? Hat uns die EU mehr Jobs gebracht?",
+          "TV-Abend mit Stefan Bröker und namhaften Gästen aus verschiedenen EU-Ländern",
+          "ARD 21:45 Uhr"
         ],
-        "image": "data/images/thomas_ad_b.png",
-        "text_en": "PSA temp work. We cooperate with over 500 independent personnel service providers. We are constantly looking for: Student management consultants, students for IT administration...",
-        "vocabulary": []
+        "text_en": "8:45 p.m. ARTE – New opportunities on the job market. THEME NIGHT 'Our Future'. How are job seekers in the European Union coping with the economic and education crisis? Has the EU brought us more jobs? TV evening with Stefan Bröker and renowned guests from various EU countries. ARD 9:45 p.m.",
+        "vocabulary": [
+          {
+            "de": "der Arbeitsmarkt",
+            "en": "job market / labor market"
+          },
+          {
+            "de": "zurechtkommen mit",
+            "en": "to cope with / manage"
+          }
+        ],
+        "image": "data/images/thomas_ad_b.png"
       },
       "c": {
-        "title": "Tatort (ARD)",
-        "subtitle": "Fernsehen",
+        "title": "Deutsche Bahn – Kundenbefragungen in unseren Zügen",
+        "subtitle": "Stellenangebote",
         "lines": [
-          "20.15 Tatort (ARD)",
-          "Nun kommen die Krimi-Fans wieder auf ihre Kosten: Horst Schimanski ermittelt.",
-          "Ihm zur Seite steht Denise Mercier. Die gebürtige Schweizerin spielt die Freundin..."
+          "Wir suchen engagierte MitarbeiterInnen für Kundenbefragungen in unseren Zügen, 10–15 Std./Woche. Wichtig sind sicheres Auftreten, zeitliche Flexibilität und Fremdsprachenkenntnisse (Engl., Frz.). Mehrjährige Berufserfahrung erwünscht.",
+          "Nähere Informationen unter: www.bahnreisenforschung.de",
+          "DB – Bewerbungen an: Deutsche Bahn, info@brf.kundenservice.de"
         ],
-        "image": "data/images/thomas_ad_c.png",
-        "text_en": "8:15 p.m. Tatort (ARD). Now thriller fans get their money's worth again. He is supported by Denise Mercier. The native Swiss plays the girlfriend...",
-        "vocabulary": []
+        "text_en": "We are looking for dedicated employees for customer surveys on our trains, 10–15 hrs/week. Confident demeanor, time flexibility, and foreign language skills (English, French) are important. Several years of professional experience desired. Further information at: www.bahnreisenforschung.de. Applications to: Deutsche Bahn, info@brf.kundenservice.de.",
+        "vocabulary": [
+          {
+            "de": "die Kundenbefragung",
+            "en": "customer survey"
+          },
+          {
+            "de": "sicheres Auftreten",
+            "en": "confident demeanor"
+          }
+        ],
+        "image": "data/images/thomas_ad_c.png"
       },
       "d": {
-        "title": "TAPE Media Film GmbH",
-        "subtitle": "Praktikum",
+        "title": "20.15 Tatort (ARD)",
+        "subtitle": "Fernsehen",
         "lines": [
-          "PRAKTIKANT/IN im Bereich Medien und Veranstaltungstechnik gesucht.",
-          "Bewerbung per E-Mail: info@mediafilm-project.de"
+          "20.15 Tatort (ARD) Nun kommen die Krimi-Fans wieder auf ihre Kosten: Horst Schimanski alias Götz George ermittelt. Ihm zur Seite steht Denise Mercier. Die gebürtige Schweizerin spielt die Freundin des rüden Ermittlers – eine Frau mit Stil, die Verständnis für Schimanskis Lebenswandel zeigt, sich aber auch in Szene zu setzen weiß. Mit dieser Rolle hofft sie, sich im deutschen Fernsehen etablieren zu können.",
+          "(bis 21:45 Uhr)"
         ],
-        "image": "data/images/thomas_ad_d.png",
-        "text_en": "INTERN wanted in the field of media and event technology. Application via email: info@mediafilm-project.de",
-        "vocabulary": []
+        "text_en": "8:15 p.m. Tatort (ARD). Now crime fans get their money's worth again: Horst Schimanski alias Götz George investigates. At his side is Denise Mercier. The native Swiss actress plays the girlfriend of the rough investigator—a woman with style who shows understanding for Schimanski's lifestyle, but also knows how to put herself in the spotlight. With this role she hopes to establish herself on German television. (until 9:45 p.m.)",
+        "vocabulary": [
+          {
+            "de": "ermitteln",
+            "en": "to investigate"
+          },
+          {
+            "de": "gebürtig",
+            "en": "native / by birth"
+          }
+        ],
+        "image": "data/images/thomas_ad_d.png"
       },
       "e": {
-        "title": "New Media GmbH",
+        "title": "Lukrative Halbtagstätigkeit – New Media GmbH",
         "subtitle": "Stellenangebote",
         "lines": [
           "Lukrative Halbtagstätigkeit:",
-          "Expandierendes High-Tech Unternehmen der Film- und Medienbranche sucht junge Mitarbeiterinnen für Empfang.",
-          "Gute Internet- und Fremdsprachenkenntnisse erforderlich!"
+          "Expandierendes High-Tech-Unternehmen der Film- und Medienbranche sucht junge MitarbeiterInnen für Empfang und Kundenbindung. Erfahrung mit PC, gute Internet- und Fremdsprachenkenntnisse erforderlich!",
+          "Interessenten wenden sich an New Media GmbH, Tel. 089/45 79 00, www.newmedia.de"
         ],
-        "image": "data/images/thomas_ad_e.png",
-        "text_en": "Lucrative part-time job: Expanding high-tech company in the film and media industry is looking for young female employees for the reception. Good internet and foreign language skills required!",
-        "vocabulary": []
+        "text_en": "Lucrative half-day job: Expanding high-tech company in the film and media industry is looking for young employees for reception and customer retention. PC experience, good internet and foreign language skills required! Interested parties please contact New Media GmbH, Tel. 089/45 79 00, www.newmedia.de.",
+        "vocabulary": [
+          {
+            "de": "die Halbtagstätigkeit",
+            "en": "half-day / part-time job"
+          },
+          {
+            "de": "die Kundenbindung",
+            "en": "customer retention / loyalty"
+          }
+        ],
+        "image": "data/images/thomas_ad_e.png"
       },
       "f": {
-        "title": "Kundenbefragungen",
-        "subtitle": "Stellenangebote",
+        "title": "20:15 3Sat LIVE – Diskussionsrunde: Drei Länder – ein Thema",
+        "subtitle": "TALK-SHOW",
         "lines": [
-          "Wir suchen engagierte Mitarbeiterinnen für Kundenbefragungen.",
-          "10-15 Std/Woche. Wichtig sind sicheres Auftreten..."
+          "20:15 3Sat LIVE – Diskussionsrunde: Drei Länder – ein Thema, TALK-SHOW",
+          "„Kommt die Öko-Diktatur? – Zündstoff Benzinpreis“. Wie begegnet man in Deutschland, der Schweiz und Österreich dem Verkehrskollaps? Wie retten wir die Umwelt?",
+          "(bis 21:30)"
         ],
-        "image": "data/images/thomas_ad_f.png",
-        "text_en": "We are looking for dedicated female employees for customer surveys. 10-15 hrs/week. Important are confident demeanor...",
-        "vocabulary": []
+        "text_en": "8:15 p.m. 3Sat LIVE – Discussion round: Three countries – one topic, TALK SHOW. 'Is the eco-dictatorship coming? – Explosive issue fuel prices'. How do Germany, Switzerland, and Austria deal with traffic collapse? How do we save the environment? (until 9:30 p.m.)",
+        "vocabulary": [
+          {
+            "de": "der Zündstoff",
+            "en": "explosive issue / source of conflict"
+          },
+          {
+            "de": "der Verkehrskollaps",
+            "en": "traffic collapse / gridlock"
+          }
+        ],
+        "image": "data/images/thomas_ad_f.png"
       },
       "g": {
-        "title": "3Sat LIVE - TALK-SHOW",
-        "subtitle": "Fernsehen",
+        "title": "Mitarbeiter/innen am Empfang – Blattl's Hotels",
+        "subtitle": "Bei uns wird Erfolg belohnt!",
         "lines": [
-          "20:15 Diskussionsrunde 3Sat LIVE",
-          "Drei Länder, ein Thema. TALK-SHOW.",
-          "Kommt die Öko-Diktatur?",
-          "Wie begegnet man dem Verkehrskollaps? Wie retten wir die Umwelt?"
+          "Bei uns wird Erfolg belohnt!",
+          "Wir suchen für unsere sechs Hotelbetriebe im gehobenen ***-Bereich in München, Frankfurt und Berlin",
+          "Mitarbeiter/innen am Empfang",
+          "Wenn Sie bereits Rezeptionserfahrung oder auch gerade ausgelernt haben, mind. 1 Fremdsprache (E) sprechen und EDV-erfahren sind, senden Sie bitte Ihre Bewerbung an:",
+          "Blattl's Hotels Zentralbüro, Geschäftsbereich Personal, Postfach 221144, 80501 München"
         ],
-        "image": "data/images/thomas_ad_g.png",
-        "text_en": "8:15 p.m. Discussion round 3Sat LIVE. Three countries, one topic. TALK SHOW. Is the eco-dictatorship coming? How do we save the environment?",
-        "vocabulary": []
+        "text_en": "With us, success is rewarded! For our six upscale 3-star hotels in Munich, Frankfurt, and Berlin, we are looking for receptionists. If you already have reception experience or have just completed your training, speak at least 1 foreign language (English), and have IT skills, please send your application to: Blattl's Hotels Central Office, HR Department, P.O. Box 221144, 80501 Munich.",
+        "vocabulary": [
+          {
+            "de": "der Empfang",
+            "en": "reception / front desk"
+          },
+          {
+            "de": "ausgelernt haben",
+            "en": "to have completed vocational training"
+          }
+        ],
+        "image": "data/images/thomas_ad_g.png"
       },
       "h": {
-        "title": "Stern TV-Countdown (VOX)",
+        "title": "PSA-Zeitarbeit",
+        "subtitle": "Stellenangebote",
+        "lines": [
+          "Die PSA kooperiert mit über 500 unabhängigen Personaldienstleistern und ist daher immer die erste Adresse, wenn es um Zeitarbeit geht. Unser Ziel ist es, den besten Mitarbeiter zur richtigen Zeit am richtigen Ort anbieten zu können.",
+          "Wir suchen ständig: Studentische Unternehmensberater, Studenten für IT-Administration und Schüler-Nachhilfe (Englisch, Französisch, Mathe), Messehostessen",
+          "PSA-Zeitarbeit, Tel. 089/74 68 91 93, www.PSA-zeitarbeit.de"
+        ],
+        "text_en": "PSA cooperates with over 500 independent personnel service providers and is therefore always the first address when it comes to temporary work. Our goal is to offer the best employee at the right time in the right place. We are constantly looking for: student management consultants, students for IT administration and school tutoring (English, French, Math), trade fair hostesses. PSA-Zeitarbeit, Tel. 089/74 68 91 93, www.PSA-zeitarbeit.de.",
+        "vocabulary": [
+          {
+            "de": "die Zeitarbeit",
+            "en": "temporary employment / temp work"
+          },
+          {
+            "de": "der Personaldienstleister",
+            "en": "personnel service provider / staffing agency"
+          }
+        ],
+        "image": "data/images/thomas_ad_h.png"
+      },
+      "i": {
+        "title": "22:55 Stern TV-Countdown (VOX)",
         "subtitle": "Fernsehen",
         "lines": [
           "22:55 Stern TV-Countdown (VOX)",
-          "In zehn Reportagen zeigt Spiegel TV-Mann Jörg Hafkemeyer, wie sich die ersten Monate der neuen Regierung gestalten."
+          "In zehn Reportagen zeigt „Spiegel TV“-Mann Jörg Hafkemeyer, wie sich die ersten Monate der neuen Regierung gestalten. Jetzt werden die Weichen für die Zukunft Deutschlands neu gestellt. (bis 23:50)"
         ],
-        "image": "data/images/thomas_ad_h.png",
-        "text_en": "10:55 p.m. Stern TV-Countdown (VOX). In ten reports, Spiegel TV man Jörg Hafkemeyer shows how the first months of the new government are shaping up.",
-        "vocabulary": []
+        "text_en": "10:55 p.m. Stern TV-Countdown (VOX). In ten reports, 'Spiegel TV' journalist Jörg Hafkemeyer shows how the first months of the new government are taking shape. Now the course is being set anew for Germany's future. (until 11:50 p.m.)",
+        "vocabulary": [
+          {
+            "de": "die Regierung",
+            "en": "government"
+          },
+          {
+            "de": "die Weichen stellen",
+            "en": "to set the course"
+          }
+        ],
+        "image": "data/images/thomas_ad_i.png"
       },
       "j": {
-        "title": "Max Frisch: Biedermann",
-        "subtitle": "Radio & Hörspiel",
+        "title": "Max Frisch: Biedermann und die Brandstifter",
+        "subtitle": "Hessischer Rundfunk – Hörspiel",
         "lines": [
           "Max Frisch: Biedermann und die Brandstifter",
-          "Samstag, 19. September, 20:10 Uhr, Hessischer Rundfunk.",
-          "Ein Lehrstück ohne Lehre nannte Frisch sein ursprünglich als Hörspiel gedachtes... Stück."
+          "Samstag, 19. September, 20:10–21:17 Uhr, Hessischer Rundfunk.",
+          "„Ein Lehrstück ohne Lehre“ nannte Frisch sein ursprünglich als Hörspiel gedachtes und dann für das Theater bearbeitetes Stück, das 1958 in Zürich uraufgeführt wurde. Man sah darin sowohl eine Warnung vor dem Kommunismus als auch vor dem Faschismus. (chw.)"
         ],
-        "image": "data/images/thomas_ad_j.png",
-        "text_en": "Max Frisch: Biedermann and the Arsonists. Saturday, Sept. 19, 8:10 p.m., Hessischer Rundfunk. Frisch called his piece, originally intended as a radio play, a didactic play without a lesson.",
-        "vocabulary": []
+        "text_en": "Max Frisch: Biedermann and the Arsonists. Saturday, September 19, 8:10–9:17 p.m., Hessischer Rundfunk. Frisch called his piece, originally intended as a radio play and then adapted for the theater (premiered in Zurich in 1958), 'a didactic play without a lesson'. It was seen as a warning against both communism and fascism.",
+        "vocabulary": [
+          {
+            "de": "das Hörspiel",
+            "en": "radio play"
+          },
+          {
+            "de": "uraufführen",
+            "en": "to premiere (a play/film)"
+          }
+        ],
+        "image": "data/images/thomas_ad_j.png"
       },
       "k": {
-        "title": "Transparent - Das Kulturstudio",
+        "title": "Transparent – Das Kulturstudio (22:15, Radio Wien)",
         "subtitle": "Radio",
         "lines": [
-          "Transparent - Das Kulturstudio",
-          "(22:15, Radio Wien)",
-          "Architekten sprechen über die Zukunft von Europas Metropolen."
+          "Transparent – Das Kulturstudio (22:15, Radio Wien)",
+          "Architekten sprechen über die Zukunft von Europas Metropolen. Weiters: Rückschau und Vorschau auf das Programm der „Wiener Schule für Dichtung“. Und ein Bericht über das Obdachlosen-Projekt „Wochenklausur“."
         ],
-        "image": "data/images/thomas_ad_k.png",
-        "text_en": "Transparent - The Culture Studio (10:15 p.m., Radio Vienna). Architects talk about the future of Europe's metropolises.",
-        "vocabulary": []
+        "text_en": "Transparent – The Culture Studio (10:15 p.m., Radio Vienna). Architects talk about the future of Europe's metropolises. Also: Review and preview of the program of the 'Vienna School for Poetry', and a report on the homeless project 'Wochenklausur'.",
+        "vocabulary": [
+          {
+            "de": "die Metropole",
+            "en": "metropolis / major city"
+          },
+          {
+            "de": "obdachlos",
+            "en": "homeless"
+          }
+        ],
+        "image": "data/images/thomas_ad_k.png"
       },
       "l": {
-        "title": "PRIMA-Werbung",
+        "title": "PRIMA-Werbung – Sie lieben den Umgang mit Menschen?",
         "subtitle": "Stellenangebote",
         "lines": [
           "Sie lieben den Umgang mit Menschen?",
-          "Sie sind außerdem auch dynamisch und ehrgeizig, dann sind Sie bei uns genau richtig.",
-          "Münchens bekannte PRIMA-Werbung bietet Ihnen..."
+          "Sie sind außerdem auch dynamisch und ehrgeizig, dann sind Sie bei uns genau richtig. Münchens bekannte PRIMA-Werbung bietet Ihnen neben einem tollen Team hervorragende Verdienst- u. Aufstiegsmöglichkeiten.",
+          "Wir brauchen Leute wie Sie! Rufen Sie an!",
+          "Tel. 0 89/2 35 55 43"
         ],
-        "image": "data/images/thomas_ad_l.png",
-        "text_en": "Do you love dealing with people? Are you also dynamic and ambitious, then you've come to the right place. Munich's well-known PRIMA-Werbung offers you...",
-        "vocabulary": []
+        "text_en": "Do you love dealing with people? If you are also dynamic and ambitious, then you are in exactly the right place with us. Munich's well-known PRIMA-Werbung offers you a great team as well as excellent earning and career advancement opportunities. We need people like you! Give us a call! Tel. 0 89/2 35 55 43.",
+        "vocabulary": [
+          {
+            "de": "ehrgeizig",
+            "en": "ambitious"
+          },
+          {
+            "de": "die Aufstiegsmöglichkeit",
+            "en": "opportunity for advancement / promotion"
+          }
+        ],
+        "image": "data/images/thomas_ad_l.png"
       }
     },
     "situations": [
@@ -363,71 +486,71 @@
         "number": 11,
         "situation": "Sie haben von einer Schweizer Schauspielerin gehört und möchten gern einen Film sehen.",
         "situation_en": "You have heard of a Swiss actress and would like to see a film.",
-        "correct_answer": "c",
-        "explanation": "Ad 'c' advertises the crime show 'Tatort' featuring Denise Mercier, a native Swiss ('gebürtige Schweizerin')."
+        "correct_answer": "d",
+        "explanation": "Ad 'd' advertises the TV crime film 'Tatort (ARD)' featuring Denise Mercier, a native Swiss actress ('gebürtige Schweizerin')."
       },
       {
         "number": 12,
         "situation": "Sie haben gerade Ihre Ausbildung beendet und suchen eine Stelle an der Rezeption.",
         "situation_en": "You have just finished your training and are looking for a job at the reception.",
-        "correct_answer": "a",
-        "explanation": "Ad 'a' is looking for 'Mitarbeiter/innen am Empfang' (Employees at the reception) with reception experience."
+        "correct_answer": "g",
+        "explanation": "Ad 'g' (Blattl's Hotels) is looking for receptionists ('Mitarbeiter/innen am Empfang') who either have reception experience or have just completed their training ('oder auch gerade ausgelernt haben')."
       },
       {
         "number": 13,
         "situation": "Sie interessieren sich für Umweltschutz und suchen eine passende Sendung.",
         "situation_en": "You are interested in environmental protection and are looking for a suitable program.",
-        "correct_answer": "g",
-        "explanation": "Ad 'g' advertises a talk show discussing 'Wie retten wir die Umwelt?' (How do we save the environment?)."
+        "correct_answer": "f",
+        "explanation": "Ad 'f' advertises a talk show on 3Sat LIVE discussing environmental topics: 'Kommt die Öko-Diktatur?' and 'Wie retten wir die Umwelt?' (How do we save the environment?)."
       },
       {
         "number": 14,
         "situation": "Ihr Freund, der am Institut für Film und Bild studiert, sucht einen geeigneten Praktikumsplatz.",
         "situation_en": "Your friend, who is studying at the Institute for Film and Image, is looking for a suitable internship.",
-        "correct_answer": "d",
-        "explanation": "Ad 'd' is looking for an intern ('PRAKTIKANT/IN') at TAPE Media Film GmbH."
+        "correct_answer": "a",
+        "explanation": "Ad 'a' (TAPE Media Film GmbH) is looking for a paid intern ('PRAKTIKANT/IN') in the field of media and event technology."
       },
       {
         "number": 15,
         "situation": "In einer Sendereihe wird im Fernsehen über die neue politische Entwicklung in Deutschland berichtet. Sie wollen sich informieren.",
         "situation_en": "A series on television reports on the new political developments in Germany. You want to inform yourself.",
-        "correct_answer": "h",
-        "explanation": "Ad 'h' advertises a TV report showing how the first months of the new government ('neuen Regierung') are shaping up."
+        "correct_answer": "i",
+        "explanation": "Ad 'i' (Stern TV-Countdown on VOX) features a series of ten reports ('In zehn Reportagen') showing how the first months of the new German government are taking shape."
       },
       {
         "number": 16,
         "situation": "Sie interessieren sich für Großstädte und ihre Entwicklung und suchen dazu eine Sendung im Rundfunk.",
         "situation_en": "You are interested in big cities and their development and are looking for a radio program on this.",
         "correct_answer": "k",
-        "explanation": "Ad 'k' on Radio Wien features architects talking about the future of Europe's metropolises ('Europas Metropolen')."
+        "explanation": "Ad 'k' advertises the radio program 'Transparent – Das Kulturstudio' on Radio Wien, where architects discuss the future of Europe's metropolises ('Zukunft von Europas Metropolen')."
       },
       {
         "number": 17,
         "situation": "Sie sind mit der Schule fertig und wollen bei der Deutschen Bahn eine Ausbildung machen.",
         "situation_en": "You have finished school and want to do an apprenticeship at Deutsche Bahn.",
         "correct_answer": "x",
-        "explanation": "There are no advertisements regarding an apprenticeship at Deutsche Bahn."
+        "explanation": "There is no matching advertisement for an apprenticeship at Deutsche Bahn. Ad 'c' from Deutsche Bahn is only a part-time job (10–15 hrs/week) for customer surveys requiring several years of work experience."
       },
       {
         "number": 18,
         "situation": "Sie interessieren sich für politisches Theater und möchten dazu am Wochenende etwas hören oder sehen.",
         "situation_en": "You are interested in political theater and would like to hear or see something about it on the weekend.",
         "correct_answer": "j",
-        "explanation": "Ad 'j' advertises a radio play ('Hörspiel') of Max Frisch's theater piece on a Saturday ('Samstag')."
+        "explanation": "Ad 'j' broadcasts Max Frisch's political play 'Biedermann und die Brandstifter' (a warning against communism and fascism) on Saturday ('Samstag') on Hessischer Rundfunk."
       },
       {
         "number": 19,
         "situation": "Sie arbeiten gern mit anderen zusammen und suchen eine Tätigkeit bei einer Werbefirma.",
         "situation_en": "You like working with others and are looking for a job at an advertising agency.",
         "correct_answer": "l",
-        "explanation": "Ad 'l' is a job offer from PRIMA-Werbung (advertising agency) looking for people who enjoy dealing with people."
+        "explanation": "Ad 'l' from the advertising company 'PRIMA-Werbung' seeks people who enjoy working with others ('Sie lieben den Umgang mit Menschen?') to join their team."
       },
       {
         "number": 20,
         "situation": "Sie wollen mehr über das Thema Arbeiten in Europa erfahren.",
         "situation_en": "You want to find out more about working in Europe.",
-        "correct_answer": "x",
-        "explanation": "There are no advertisements regarding working in Europe."
+        "correct_answer": "b",
+        "explanation": "Ad 'b' (ARTE Themenabend 'Neue Chancen auf dem Arbeitsmarkt') discusses how job seekers in the European Union cope and whether the EU has brought more jobs."
       }
     ]
   },
