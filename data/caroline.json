@@ -228,137 +228,311 @@
   "leseverstehen_teil_3": {
     "advertisements": {
       "a": {
-        "title": "Institut Grünberger",
-        "subtitle": "Bildung",
-        "lines": [
-          "Institut Grünberger",
-          "Wien, direkt beim Hauptbahnhof",
-          "Tel. 061-810-010"
-        ],
-        "image": "data/images/caroline_ad_a.png",
-        "text_en": "Grünberger Institute. Vienna, directly at the main train station.",
-        "vocabulary": []
-      },
-      "b": {
-        "title": "Bayrische Spezialitäten",
-        "subtitle": "Gastronomie",
-        "lines": [
-          "Bayrische Spezialitäten",
-          "Genießen Sie unsere Küche."
-        ],
-        "image": "data/images/caroline_ad_b.png",
-        "text_en": "Bavarian specialties. Enjoy our cuisine.",
-        "vocabulary": []
-      },
-      "c": {
-        "title": "Käse aus Bayern",
-        "subtitle": "Einkaufen",
-        "lines": [
-          "Käsespezialitäten direkt vom Bauernhof."
-        ],
-        "image": "data/images/caroline_ad_c.png",
-        "text_en": "Cheese specialties directly from the farm.",
-        "vocabulary": []
-      },
-      "d": {
-        "title": "Fischspezialitäten",
-        "subtitle": "Gastronomie",
-        "lines": [
-          "Fischspezialitäten",
-          "Das Restaurant mit gepflegter Gastlichkeit in der Altstadt."
-        ],
-        "image": "data/images/caroline_ad_d.png",
-        "text_en": "Fish specialties. The restaurant with cultivated hospitality in the old town.",
-        "vocabulary": []
-      },
-      "e": {
-        "title": "Amadeus",
-        "subtitle": "Kultur",
-        "lines": [
-          "Amadeus",
-          "Klavierkonzert",
-          "Freitag und Samstag"
-        ],
-        "image": "data/images/caroline_ad_e.png",
-        "text_en": "Amadeus. Piano concert. Friday and Saturday.",
-        "vocabulary": []
-      },
-      "f": {
-        "title": "Museum Füssen",
+        "title": "Museum der Stadt Füssen & Staatsgalerie",
         "subtitle": "Museum",
         "lines": [
-          "Museum Füssen",
-          "Geöffnet Montag bis Sonntag."
+          "MUSEUM DER STADT FÜSSEN",
+          "Lechhalde 3 · 87629 Füssen",
+          "Tel. (08362) 50 53 - 45 u. 43",
+          "STAATSGALERIE IM HOHEN SCHLOSS FÜSSEN",
+          "Magnusplatz 10 · 87629 Füssen",
+          "Tel. (08362) 50 53 - 64",
+          "Öffnungszeiten:",
+          "April bis Oktober: Di.–So. 11.00–16.00 Uhr, Mo. geschlossen",
+          "November bis März: Di.–So. 14.00–16.00 Uhr, Mo. geschlossen"
+        ],
+        "image": "data/images/caroline_ad_a.png",
+        "text_en": "Museum of the City of Füssen (Lechhalde 3, 87629 Füssen) & State Gallery in the High Castle of Füssen (Magnusplatz 10, 87629 Füssen). Opening hours: April to October: Tue–Sun 11:00 a.m.–4:00 p.m., closed Mondays. November to March: Tue–Sun 2:00 p.m.–4:00 p.m., closed Mondays.",
+        "vocabulary": [
+          {
+            "de": "die Öffnungszeiten",
+            "en": "the opening hours"
+          },
+          {
+            "de": "geschlossen",
+            "en": "closed"
+          }
+        ]
+      },
+      "b": {
+        "title": "Franziskaner Stüberl",
+        "subtitle": "Gastronomie",
+        "lines": [
+          "Franziskaner Stüberl",
+          "87629 Füssen – Eingang Fußgängerzone",
+          "Kemptener Straße 1 – Im Herzen der Stadt",
+          "Telefon (08362) 37124",
+          "Inh. Bernd Zienteck",
+          "Gutbürgerliche Allgäuer und Bayerische Küche",
+          "Der beliebte Treffpunkt in gemütlicher Atmosphäre",
+          "Sonntag Ruhetag",
+          "Auf Ihren Besuch freut sich Bernd Zienteck mit Team"
+        ],
+        "image": "data/images/caroline_ad_b.png",
+        "text_en": "Franziskaner Stüberl, 87629 Füssen – Pedestrian zone entrance, Kemptener Straße 1 – In the heart of the city. Tel. (08362) 37124. Owner: Bernd Zienteck. Traditional Allgäu and Bavarian cuisine. The popular meeting place in a cozy atmosphere. Closed on Sundays.",
+        "vocabulary": [
+          {
+            "de": "gutbürgerlich",
+            "en": "traditional / home-style (cuisine)"
+          },
+          {
+            "de": "der Ruhetag",
+            "en": "the day off / closing day"
+          }
+        ]
+      },
+      "c": {
+        "title": "Sennerei-Genossenschaft Bayern",
+        "subtitle": "Einkaufen",
+        "lines": [
+          "SENNEREI-GENOSSENSCHAFT BAYERN",
+          "Hopferau – Lehern 15 – Telefon (08362) 37124",
+          "Frisch vom Erzeuger:",
+          "• Allgäuer Emmentaler",
+          "• Allgäuer Bergkäse",
+          "• Tilsiter",
+          "• Frisch-Milch",
+          "• eigene Butterherstellung",
+          "ÖFFNUNGSZEITEN:",
+          "Wochentags 7.30–12.00 u. 16.30–18.30 Uhr",
+          "Sa. u. Feiertag 7.30–10.30 u. 17.00–18.30 Uhr"
+        ],
+        "image": "data/images/caroline_ad_c.png",
+        "text_en": "Dairy Cooperative Bavaria, Hopferau – Lehern 15 – Tel. (08362) 37124. Fresh from the producer: Allgäu Emmental, Allgäu mountain cheese, Tilsiter, fresh milk, own butter production. Opening hours: Weekdays 7:30 a.m.–12:00 p.m. & 4:30 p.m.–6:30 p.m., Sat & public holidays 7:30 a.m.–10:30 a.m. & 5:00 p.m.–6:30 p.m.",
+        "vocabulary": [
+          {
+            "de": "der Erzeuger",
+            "en": "the producer"
+          },
+          {
+            "de": "die Butterherstellung",
+            "en": "the butter production"
+          }
+        ]
+      },
+      "d": {
+        "title": "Sprachcaffe Reisen – Sprachen lernen & Leute treffen",
+        "subtitle": "Bildung & Reisen",
+        "lines": [
+          "Sprachen lernen & Leute treffen",
+          "Bildungsurlaub für Erwachsene in England, Malta, Frankreich, Spanien, Italien und Kalifornien",
+          "Fordern Sie heute unseren 56-seitigen Katalog an; ein Exemplar des Sprachtests schicken wir Ihnen gleich mit, selbstverständlich kostenlos.",
+          "Tel: 069-61 09 120 | Fax: 069-6 03 13 95",
+          "Morgensternstr. 180 · 60596 Frankfurt",
+          "SPRACHCAFFE REISEN GMBH"
+        ],
+        "image": "data/images/caroline_ad_d.png",
+        "text_en": "Learn languages & meet people. Educational leave for adults in England, Malta, France, Spain, Italy, and California. Request our 56-page catalog today; we will send you a copy of the language test right away, free of charge of course. Tel: 069-61 09 120, Morgensternstr. 180, 60596 Frankfurt. SPRACHCAFFE REISEN GMBH.",
+        "vocabulary": [
+          {
+            "de": "der Bildungsurlaub",
+            "en": "the educational leave"
+          },
+          {
+            "de": "das Exemplar",
+            "en": "the copy"
+          }
+        ]
+      },
+      "e": {
+        "title": "Jahreskonzert Füssen",
+        "subtitle": "Kultur",
+        "lines": [
+          "Jahreskonzert Füssen",
+          "Wolfgang Amadeus Mozart",
+          "Klavierkonzert Nr. 21 in C-Dur",
+          "Pianist: Hanno Porter",
+          "Leitung: Stadtmusikdirektor Robert Maul",
+          "Karten bei der Kurverwaltung Füssen und an der Abendkasse"
+        ],
+        "image": "data/images/caroline_ad_e.png",
+        "text_en": "Füssen Annual Concert. Wolfgang Amadeus Mozart: Piano Concerto No. 21 in C major. Pianist: Hanno Porter. Conductor: City Music Director Robert Maul. Tickets at the Füssen Spa Administration and at the box office.",
+        "vocabulary": [
+          {
+            "de": "das Klavierkonzert",
+            "en": "the piano concert"
+          },
+          {
+            "de": "die Abendkasse",
+            "en": "the box office (evening ticket desk)"
+          }
+        ]
+      },
+      "f": {
+        "title": "Das Heimatmuseum Füssen",
+        "subtitle": "Museum",
+        "lines": [
+          "Das Heimatmuseum Füssen lädt zum Besuch ein",
+          "Öffnungszeiten:",
+          "Montag bis Freitag 10.00–12.00 Uhr und 14.00–16.45 Uhr",
+          "Samstag und Sonntag 10.00–12.00 Uhr",
+          "In der Instrumentensammlung sind wertvolle Geigen von Mittenwalder Meistern ausgestellt. Außerdem kann man in einer besonders eingerichteten Werkstatt dem Geigenbauer bei der Arbeit zuschauen.",
+          "Außerhalb der Öffnungszeiten sind Gruppen ab 20 Personen nach Voranmeldung willkommen.",
+          "Telefon (0 83 62) 25 11"
         ],
         "image": "data/images/caroline_ad_f.png",
-        "text_en": "Füssen Museum. Open Monday to Sunday.",
-        "vocabulary": []
+        "text_en": "The Füssen Local History Museum invites you to visit. Opening hours: Monday to Friday 10:00 a.m.–12:00 p.m. and 2:00 p.m.–4:45 p.m., Saturday and Sunday 10:00 a.m.–12:00 p.m. Valuable violins by Mittenwald masters are exhibited in the instrument collection. You can also watch the violin maker at work in a specially furnished workshop. Outside opening hours, groups of 20 or more are welcome by prior arrangement. Tel. (0 83 62) 25 11.",
+        "vocabulary": [
+          {
+            "de": "das Heimatmuseum",
+            "en": "the local history museum"
+          },
+          {
+            "de": "die Voranmeldung",
+            "en": "the prior registration / appointment"
+          }
+        ]
       },
       "g": {
-        "title": "Sprachkurs CD",
-        "subtitle": "Bildung",
+        "title": "bonCas Spezialitätenkäserei",
+        "subtitle": "Einkaufen",
         "lines": [
-          "Sprachkurs auf CD",
-          "Lernen Sie zu Hause."
+          "bonCas",
+          "Spezialitätenkäserei",
+          "P. und U. Moser-Kolb",
+          "Hessenbühlstraße 14",
+          "CH-8512 Lustdorf",
+          "Schweiz",
+          "E-Mail: bocheese@bluewin.ch"
         ],
         "image": "data/images/caroline_ad_g.png",
-        "text_en": "Language course on CD. Learn at home.",
-        "vocabulary": []
+        "text_en": "bonCas Specialty Cheese Dairy. P. and U. Moser-Kolb, Hessenbühlstraße 14, CH-8512 Lustdorf, Switzerland. E-Mail: bocheese@bluewin.ch.",
+        "vocabulary": [
+          {
+            "de": "die Käserei",
+            "en": "the cheese dairy"
+          }
+        ]
       },
       "h": {
         "title": "Alfa Sprachreisen",
-        "subtitle": "Reisen",
+        "subtitle": "Bildung & Reisen",
         "lines": [
           "Alfa Sprachreisen",
-          "Sprachreisen weltweit."
+          "Crash-Kurse für Manager,",
+          "Sprachkurse und High-School-Programme für 12- bis 18-Jährige.",
+          "Englisch, Französisch, Spanisch, 17 Länder, mehr als 60 Kursorte.",
+          "Fordern Sie unsere kostenl. Broschüre an!",
+          "Alfa-Sprachreisen GmbH",
+          "Rotebühlplatz 15 · 70178 Stuttgart",
+          "Tel. 0711-61 55 300 · Fax 0711-61 55 3010",
+          "http://www.alfa-sprachreisen.de"
         ],
         "image": "data/images/caroline_ad_h.png",
-        "text_en": "Alfa Language Travel. Language trips worldwide.",
-        "vocabulary": []
+        "text_en": "Alfa Language Travel. Crash courses for managers, language courses and high school programs for 12- to 18-year-olds. English, French, Spanish, 17 countries, more than 60 course locations. Request our free brochure! Alfa-Sprachreisen GmbH, Rotebühlplatz 15, 70178 Stuttgart.",
+        "vocabulary": [
+          {
+            "de": "die Sprachreise",
+            "en": "the language trip / study abroad"
+          },
+          {
+            "de": "die Broschüre",
+            "en": "the brochure"
+          }
+        ]
       },
       "i": {
-        "title": "Fremdsprachen für Kinder",
-        "subtitle": "Kurse",
+        "title": "Café · Bistro Amadeus",
+        "subtitle": "Gastronomie & Veranstaltungen",
         "lines": [
-          "Fremdsprachen für Kinder",
-          "Ferienkurse ab 10 Jahren."
+          "4. APRIL »Deutsche Schlagernacht«",
+          "13. APRIL Ostersonntag: 70er/80er Jahre Party",
+          "NEU: Schnitzel-Woche",
+          "Café · Bistro Amadeus",
+          "Tiroler Straße 19",
+          "87459 PFRONTEN-DORF · Tel. 08363/474"
         ],
         "image": "data/images/caroline_ad_i.png",
-        "text_en": "Foreign languages for children. Holiday courses from 10 years.",
-        "vocabulary": []
+        "text_en": "April 4: 'German Schlager Night'. April 13 (Easter Sunday): 70s/80s Party. NEW: Schnitzel Week. Café · Bistro Amadeus, Tiroler Straße 19, 87459 Pfronten-Dorf, Tel. 08363/474.",
+        "vocabulary": [
+          {
+            "de": "der Ostersonntag",
+            "en": "Easter Sunday"
+          }
+        ]
       },
       "j": {
-        "title": "Deutschkurs Wien",
-        "subtitle": "Kurse",
+        "title": "Free-System – Institut Grünberger",
+        "subtitle": "Kurse & Bildung",
         "lines": [
-          "Deutschkurs in Wien",
-          "Alle Niveaus."
+          "Free-System",
+          "Englisch, Französisch, Italienisch, Spanisch, Deutsch für Ausländer",
+          "Maschinenschreiben/Steno",
+          "• Sie bestimmen die Unterrichtszeit",
+          "• Sie lernen, so rasch Sie wollen",
+          "• Intensivkurse, Einzel-/Privat- und Kleingruppen (1–5 Teilnehmer)",
+          "• Intensive Crash Courses",
+          "• Brush up and Business",
+          "• Sprachkurse für Manager",
+          "• English for Secretaries",
+          "• Firmenkurse (intern/extern)",
+          "• First/Proficiency/TOEFL/GMAT Alliance Française",
+          "Kursbeginn jetzt!",
+          "Institut Grünberger",
+          "Wien, direkt beim Hauptbahnhof"
         ],
         "image": "data/images/caroline_ad_j.png",
-        "text_en": "German course in Vienna. All levels.",
-        "vocabulary": []
+        "text_en": "Free-System: English, French, Italian, Spanish, German for foreigners, typing/shorthand. You determine the class time; you learn as quickly as you want. Intensive courses, individual/private and small groups (1–5 participants). Courses start now! Grünberger Institute, Vienna, directly at the main train station.",
+        "vocabulary": [
+          {
+            "de": "rasch",
+            "en": "quickly / fast"
+          },
+          {
+            "de": "die Kleingruppe",
+            "en": "the small group"
+          }
+        ]
       },
       "k": {
-        "title": "Fischrestaurant am See",
+        "title": "Ritterstub'n – Fischspezialitäten",
         "subtitle": "Gastronomie",
         "lines": [
-          "Fischrestaurant am See",
-          "Täglich frischer Fisch."
+          "Ritterstub'n",
+          "Fischspezialitäten",
+          "Das Restaurant mit gepflegter Gastlichkeit im Herzen der Altstadt",
+          "geöffnet von 11.00–14.00 Uhr und 17.00–24.00 Uhr",
+          "Montag Ruhetag",
+          "Warme Küche bis 22.00 Uhr",
+          "Ritterstraße 4 · 87629 Füssen · Tel. 08362/7759",
+          "Fam. Roth-Winter freuen sich auf Ihren Besuch"
         ],
         "image": "data/images/caroline_ad_k.png",
-        "text_en": "Seafood restaurant by the lake. Fresh fish daily.",
-        "vocabulary": []
+        "text_en": "Ritterstub'n – Fish Specialties. The restaurant with refined hospitality in the heart of the old town. Open from 11:00 a.m.–2:00 p.m. and 5:00 p.m.–12:00 a.m. Closed Mondays. Hot food until 10:00 p.m. Ritterstraße 4, 87629 Füssen, Tel. 08362/7759.",
+        "vocabulary": [
+          {
+            "de": "die Gastlichkeit",
+            "en": "the hospitality"
+          },
+          {
+            "de": "die Altstadt",
+            "en": "the old town"
+          }
+        ]
       },
       "l": {
-        "title": "Restaurant & Hotel",
-        "subtitle": "Gastronomie",
+        "title": "Hotel-Restaurant Alpenschloßle",
+        "subtitle": "Gastronomie & Hotel",
         "lines": [
-          "Feiern und Übernachten",
-          "Das ideale Restaurant für Ihre Geburtstagsfeier inklusive Hotelzimmer."
+          "Wollen Sie fein essen gehen?",
+          "Füssen-Bad Faulenbach",
+          "Tel. (08362) 4017",
+          "Hotel-Restaurant Alpenschloßle",
+          "Auf Ihren Besuch freut sich Familie Hummel",
+          "Hotel · Café · Pension"
         ],
         "image": "data/images/caroline_ad_l.png",
-        "text_en": "Restaurant & Hotel. Celebrate and stay overnight. The ideal restaurant for your birthday party including hotel room.",
-        "vocabulary": []
+        "text_en": "Do you want to go out for fine dining? Füssen-Bad Faulenbach, Tel. (08362) 4017. Hotel-Restaurant Alpenschloßle. The Hummel family looks forward to your visit. Hotel · Café · Guesthouse.",
+        "vocabulary": [
+          {
+            "de": "fein essen",
+            "en": "to dine finely / eat out nicely"
+          },
+          {
+            "de": "die Pension",
+            "en": "the guesthouse / bed and breakfast"
+          }
+        ]
       }
     },
     "situations": [
@@ -367,70 +541,70 @@
         "situation": "Sie wollen am Wochenende gerne in ein Klavierkonzert gehen.",
         "situation_en": "You would like to go to a piano concert on the weekend.",
         "correct_answer": "e",
-        "explanation": "Ad 'e' advertises an Amadeus 'Klavierkonzert' (piano concert) on Friday and Saturday (weekend)."
+        "explanation": "Ad 'e' ('Jahreskonzert Füssen') advertises Wolfgang Amadeus Mozart's 'Klavierkonzert Nr. 21 in C-Dur' (Piano Concerto No. 21)."
       },
       {
         "number": 12,
         "situation": "Sie sind in Füssen und wollen am Montag ins Museum gehen.",
         "situation_en": "You are in Füssen and want to go to the museum on Monday.",
         "correct_answer": "f",
-        "explanation": "Ad 'f' is for the 'Museum Füssen' and explicitly states it is open Monday to Sunday."
+        "explanation": "Ad 'f' ('Das Heimatmuseum Füssen') is open 'Montag bis Freitag 10.00–12.00 Uhr und 14.00–16.45 Uhr', whereas the museums in ad 'a' are closed on Mondays ('Mo. geschlossen')."
       },
       {
         "number": 13,
         "situation": "Sie sind in Süddeutschland im Urlaub und möchten gerne eine bayerische Spezialität essen.",
         "situation_en": "You are on vacation in southern Germany and would like to eat a Bavarian specialty.",
         "correct_answer": "b",
-        "explanation": "Ad 'b' is a restaurant offering typical Bavarian food ('Bayrische Spezialitäten')."
+        "explanation": "Ad 'b' ('Franziskaner Stüberl' in Füssen) offers 'Gutbürgerliche Allgäuer und Bayerische Küche' (traditional Allgäu and Bavarian cuisine)."
       },
       {
         "number": 14,
         "situation": "Sie haben sich mit Bekannten zu einem Fischessen verabredet.",
         "situation_en": "You have arranged to meet friends for a fish dinner.",
         "correct_answer": "k",
-        "explanation": "Ad 'k' is a seafood restaurant ('Fischrestaurant')."
+        "explanation": "Ad 'k' ('Ritterstub'n') is a restaurant specializing in fish dishes ('Fischspezialitäten')."
       },
       {
         "number": 15,
         "situation": "Sie sind in Bayern und wollen Käsespezialitäten einkaufen.",
         "situation_en": "You are in Bavaria and want to buy cheese specialties.",
         "correct_answer": "c",
-        "explanation": "Ad 'c' advertises cheese specialties ('Käsespezialitäten')."
+        "explanation": "Ad 'c' ('Sennerei-Genossenschaft Bayern') sells Bavarian/Allgäu cheeses ('Allgäuer Emmentaler, Allgäuer Bergkäse, Tilsiter') fresh from the producer, whereas ad 'g' ('bonCas') is in Switzerland."
       },
       {
         "number": 16,
         "situation": "Sie möchten einen Deutschkurs in Wien besuchen.",
         "situation_en": "You want to attend a German course in Vienna.",
         "correct_answer": "j",
-        "explanation": "Ad 'j' offers German courses in Vienna ('Deutschkurs Wien')."
+        "explanation": "Ad 'j' ('Institut Grünberger – Wien, direkt beim Hauptbahnhof') offers 'Deutsch für Ausländer' (German for foreigners) in Vienna."
       },
       {
         "number": 17,
         "situation": "Ihr 16-jähriger Sohn soll in den Ferien im Ausland Englisch lernen.",
         "situation_en": "Your 16-year-old son should learn English abroad during the holidays.",
         "correct_answer": "h",
-        "explanation": "Ad 'h' refers to 'Sprachreisen' (Language travel)."
+        "explanation": "Ad 'h' ('Alfa Sprachreisen') offers 'Sprachkurse und High-School-Programme für 12- bis 18-Jährige' in English across 17 countries (whereas ad 'd' is only for adults)."
       },
       {
         "number": 18,
         "situation": "Sie interessieren sich für einen Sprachkurs auf CD.",
         "situation_en": "You are interested in a language course on CD.",
         "correct_answer": "x",
-        "explanation": "There are no suitable ads matching this perfectly according to the official key."
+        "explanation": "None of the advertisements offer a language course on CD. Therefore, the correct answer is 'x'."
       },
       {
         "number": 19,
         "situation": "Sie wollen, dass Ihre 10-jährige Tochter in den Ferien eine Fremdsprache lernt.",
         "situation_en": "You want your 10-year-old daughter to learn a foreign language during the holidays.",
         "correct_answer": "x",
-        "explanation": "According to the official key, no appropriate ad fulfills these specific constraints."
+        "explanation": "Ad 'h' only offers language courses for 12- to 18-year-olds ('für 12- bis 18-Jährige') and ad 'd' is only for adults ('für Erwachsene'). No advertisement offers holiday language courses for a 10-year-old child."
       },
       {
         "number": 20,
         "situation": "Eine Bekannte will ihren Geburtstag in einem Restaurant feiern und dort auch übernachten.",
         "situation_en": "An acquaintance wants to celebrate her birthday in a restaurant and also stay overnight there.",
         "correct_answer": "l",
-        "explanation": "Ad 'l' specifically offers a restaurant for birthday celebrations that includes hotel rooms ('Feiern und Übernachten')."
+        "explanation": "Ad 'l' ('Hotel-Restaurant Alpenschloßle') offers fine dining ('Wollen Sie fein essen gehen?') combined with overnight accommodation ('Hotel · Café · Pension')."
       }
     ]
   },
