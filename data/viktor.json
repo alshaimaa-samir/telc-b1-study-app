@@ -229,159 +229,281 @@
   "leseverstehen_teil_3": {
     "advertisements": {
       "a": {
-        "title": "Schreib- und Literaturwerkstatt",
-        "subtitle": "Bildung",
+        "title": "VOLKSHOCHSCHULE: Schreib- und Literaturwerkstatt",
+        "subtitle": "Bildung & Kurse",
         "lines": [
           "VOLKSHOCHSCHULE: Schreib- und Literaturwerkstatt",
-          "Schreiben ist nicht schwer! Wir wollen das vermitteln.",
-          "Es wird eigenständiges Schreiben geübt. Außerdem werden wir aktuelle Texte und Bücher lesen und diskutieren.",
-          "Ab 26. Februar freitags... gebührenfrei."
+          "Schreiben ist nicht leicht. Wir wollen das verändern!",
+          "Es wird eigenständiges Schreiben erprobt. Außerdem werden wir aktuelle Texte und Bücher lesen und diskutieren.",
+          "Kurs 52 M 595",
+          "Ab 25. Feb. immer freitags, vierzehntägig 16:00 bis 17:30 Uhr, 12 Termine, 24 Stunden, Helene-Kaisen-Weg 1",
+          "• gebührenfrei •"
         ],
         "image": "data/images/viktor_ad_a.png",
-        "text_en": "ADULT EDUCATION CENTER: Writing and Literature Workshop. Writing is not difficult! We want to convey that. Independent writing is practiced. In addition, we will read and discuss current texts and books.",
-        "vocabulary": []
+        "text_en": "ADULT EDUCATION CENTER: Writing and Literature Workshop. Writing is not easy. We want to change that! Independent writing is practiced. In addition, we will read and discuss current texts and books. Course 52 M 595. From Feb 25 every Friday, biweekly 4:00 to 5:30 p.m., 12 sessions, 24 hours, Helene-Kaisen-Weg 1 • free of charge •",
+        "vocabulary": [
+          {
+            "de": "eigenständig",
+            "en": "independent"
+          },
+          {
+            "de": "gebührenfrei",
+            "en": "free of charge / no fee"
+          }
+        ]
       },
       "b": {
         "title": "Antik- u. Sammlermarkt",
-        "subtitle": "Märkte",
+        "subtitle": "Märkte & Verkauf",
         "lines": [
           "Antik- u. Sammlermarkt",
-          "am kommenden Sonntag, Parkhaus frei von 10 bis 16 Uhr.",
-          "Mit einem Spitzenangebot schönster Antiquitäten, alter Möbel, Kunst...",
-          "Auf zwei Verkaufsebenen im Isenburg-Zentrum."
+          "am kommenden Sonntag Parkhaus frei von 10 bis 18 Uhr",
+          "Mit einem Spitzenangebot schönster Antiquitäten, alter Möbel, Kunst und auserlesener Kostbarkeiten. Von preisgünstigen Objekten bis zu wertvollen Sammlerstücken.",
+          "Auf zwei Verkaufsebenen im: Isenburg-Zentrum, www.interantik.de"
         ],
         "image": "data/images/viktor_ad_b.png",
-        "text_en": "Antique and collectors market this coming Sunday... With a top offer of beautiful antiques, old furniture, art... On two sales levels in the Isenburg-Zentrum.",
-        "vocabulary": []
+        "text_en": "Antique and collectors' market this coming Sunday, parking garage free from 10 a.m. to 6 p.m. With a top selection of the finest antiques, old furniture, art and exquisite treasures. From reasonably priced items to valuable collector's pieces. On two sales levels at: Isenburg-Zentrum, www.interantik.de.",
+        "vocabulary": [
+          {
+            "de": "die Antiquität",
+            "en": "the antique"
+          },
+          {
+            "de": "das Sammlerstück",
+            "en": "collector's item"
+          }
+        ]
       },
       "c": {
-        "title": "Walter GmbH",
-        "subtitle": "Dienstleistungen",
+        "title": "Walter GmbH – Sanitär & Wasserleitungen",
+        "subtitle": "Dienstleistungen & Handwerk",
         "lines": [
-          "Defekte Wasserleitungen? Wasserschaden?",
-          "Heizung W... Probleme mit dem Waschmaschinenanschluss?",
-          "Ihr Fachmann vor Ort. Walter GmbH."
+          "• Defekte Wasserleitungen?",
+          "• Wasserschaden?",
+          "• Rostiges Wasser?",
+          "• Probleme mit dem Waschmaschinenanschluss?",
+          "Ihr Fachmann weiß Rat: Walter GmbH",
+          "Hauptstr. 23, D-79227 Schallstadt-Mengen, Tel: 07664-2090 · Fax 07664-1470"
         ],
         "image": "data/images/viktor_ad_c.png",
-        "text_en": "Defective water pipes? Water damage? Heating... Problems with the washing machine connection? Your local specialist. Walter GmbH.",
-        "vocabulary": []
+        "text_en": "Defective water pipes? Water damage? Rusty water? Problems with the washing machine connection? Your specialist knows what to do: Walter GmbH, Hauptstr. 23, D-79227 Schallstadt-Mengen, Tel: 07664-2090 · Fax 07664-1470.",
+        "vocabulary": [
+          {
+            "de": "die Wasserleitung",
+            "en": "water pipe"
+          },
+          {
+            "de": "der Wasserschaden",
+            "en": "water damage"
+          }
+        ]
       },
       "d": {
-        "title": "auspuff sucht Euch!",
-        "subtitle": "Praktikum",
+        "title": "auspuff sucht Euch – Redaktionspraktikanten",
+        "subtitle": "Praktikum & Medien",
         "lines": [
-          "auspuff sucht Euch!",
-          "Schüler + Studenten, mit Interesse daran alle Aufgaben rund um die Zeitung von 'auspuff'...",
-          "als Redaktionspraktikanten.",
-          "Mit Interesse an Themen wie Musik, Ausbildung, Veranstaltungen..."
+          "auspuff sucht Euch",
+          "Von flexiblen Arbeitszeiten konntet Ihr bisher nur träumen. Und ein Job mit Perspektive hat Euch auch schon immer gereizt. Dann könnte es ja was mit uns werden. auspuff – das rhein-main-magazin für junge Leute sucht:",
+          "Schüler und Studenten, mit Interesse daran, alle Aufgaben rund um die Zeitung von Grund auf kennenzulernen, als",
+          "Redaktionspraktikanten",
+          "Mit Interesse an Themen wie Musik, Ausbildung, Veranstaltungen und mehr.",
+          "Schriftliche Bewerbungen an: auspuff – das rhein-main-magazin, Berner Str. 38, 60437 Frankfurt"
         ],
         "image": "data/images/viktor_ad_d.png",
-        "text_en": "'auspuff' is looking for you! Pupils + students, with an interest in all tasks relating to the 'auspuff' newspaper... as editorial interns. With an interest in topics such as music, training, events...",
-        "vocabulary": []
+        "text_en": "auspuff is looking for you! Until now you could only dream of flexible working hours. And a job with prospects has always appealed to you. Then things could work out with us. auspuff – the Rhine-Main magazine for young people is looking for: high school and university students interested in learning all tasks around the newspaper from the ground up, as editorial interns, with interest in topics like music, education, events and more. Written applications to: auspuff, Berner Str. 38, 60437 Frankfurt.",
+        "vocabulary": [
+          {
+            "de": "der Redaktionspraktikant",
+            "en": "editorial intern"
+          },
+          {
+            "de": "von Grund auf",
+            "en": "from the ground up"
+          }
+        ]
       },
       "e": {
-        "title": "THERMOKOMFORT",
-        "subtitle": "Dienstleistungen",
+        "title": "THERMOKOMFORT – Alles aus einer Hand",
+        "subtitle": "Heizung & Dienstleistungen",
         "lines": [
           "Alles aus einer Hand",
-          "Irgendwann ist Ihre Heizung dran...",
-          "Von der Planung über Angebot, Montage bis Wartung.",
-          "Wir haben für Sie Thermo Komfort.",
-          "Zuverlässige Lieferung, Fachgerechte Montage, Regelmäßige Wartung."
+          "Irgendwann ist eine neue Heizung fällig. Dann beginnen die Probleme. Von der Finanzierung, über Auswahl und Montage bis zur Wartung. Wir haben die richtige Lösung für Sie. ThermoKomfort bietet den Komplettservice rund um die Heizung:",
+          "– Zuverlässige Lieferung",
+          "– Fachgerechte Montage",
+          "– Regelmäßige Wartung",
+          "– 24-Stunden-Service",
+          "Wollen Sie noch mehr wissen? Rufen Sie uns an: Telefon: 0800-55590020, oder kommen Sie einfach vorbei, Sögestraße/Ecke Wall, montags bis freitags von 9:00 bis 18:00 Uhr · THERMOKOMFORT"
         ],
         "image": "data/images/viktor_ad_e.png",
-        "text_en": "Everything from a single source. Sometime it will be your heating's turn... From planning to offer, installation to maintenance. We have Thermo Comfort for you.",
-        "vocabulary": []
+        "text_en": "Everything from a single source. Eventually a new heating system is due. Then the problems begin. From financing, selection and installation to maintenance. We have the right solution for you. ThermoKomfort offers complete heating service: reliable delivery, professional installation, regular maintenance, 24-hour service. Tel: 0800-55590020, Sögestraße/corner of Wall, Mon–Fri 9:00 a.m. to 6:00 p.m.",
+        "vocabulary": [
+          {
+            "de": "die Heizung",
+            "en": "heating system"
+          },
+          {
+            "de": "die Wartung",
+            "en": "maintenance"
+          }
+        ]
       },
       "f": {
-        "title": "Lagerverkauf",
+        "title": "Lagerverkauf Jukebox",
         "subtitle": "Einkaufen",
         "lines": [
-          "Lagerverkauf",
-          "Jukebox, Schallplatten + CDs, Comics + Romane",
-          "donnerstags von 15.00-18.00 Uhr",
-          "66132 Bischmisheim"
+          "Lagerverkauf Jukebox",
+          "Schallplatten + CDs, Comics + Romane",
+          "donnerstags von 15.00–18.00 Uhr",
+          "Hauptstr. 14, 66132 Bischmisheim, Tel. 0681/33093"
         ],
         "image": "data/images/viktor_ad_f.png",
-        "text_en": "Warehouse sale. Jukebox, records + CDs, comics + novels. Thursdays from 3 p.m. to 6 p.m.",
-        "vocabulary": []
+        "text_en": "Warehouse sale Jukebox: Vinyl records + CDs, comics + novels. Thursdays from 3:00 to 6:00 p.m. Hauptstr. 14, 66132 Bischmisheim, Tel. 0681/33093.",
+        "vocabulary": [
+          {
+            "de": "der Lagerverkauf",
+            "en": "warehouse sale"
+          },
+          {
+            "de": "die Schallplatte",
+            "en": "vinyl record"
+          }
+        ]
       },
       "g": {
-        "title": "Wir machen Häuser trocken!",
-        "subtitle": "Dienstleistungen",
+        "title": "Wir machen Häuser trocken! – Fa. Peter Hinz",
+        "subtitle": "Dienstleistungen & Handwerk",
         "lines": [
           "Wir machen Häuser trocken!",
-          "Nasse Wände, feuchte Keller?",
-          "Salpeter, Schimmel, Pilzbefall...",
-          "Trocknung aller Mauern! Abdichtung mit Garantie!",
-          "Fa. Peter Hinz."
+          "• Nasse Wände, feuchte Keller?",
+          "• Salpeter, Schimmel, Pilzbefall?",
+          "• Wohnklimaplatten gegen Schimmel!",
+          "• Trocknung aller Mauern!",
+          "• Abdichtung mit Garantie!",
+          "Fa. Peter Hinz, INFO-Telefon: 0611 / 1359384"
         ],
         "image": "data/images/viktor_ad_g.png",
-        "text_en": "We make houses dry! Wet walls, damp basements? Saltpeter, mold, fungal attack... Drying of all walls! Waterproofing with guarantee! Fa. Peter Hinz.",
-        "vocabulary": []
+        "text_en": "We make houses dry! Wet walls, damp basements? Saltpeter, mold, fungal infestation? Indoor climate panels against mold! Drying of all walls! Waterproofing with guarantee! Fa. Peter Hinz, INFO phone: 0611 / 1359384.",
+        "vocabulary": [
+          {
+            "de": "feucht",
+            "en": "damp / moist"
+          },
+          {
+            "de": "der Schimmel",
+            "en": "mold"
+          }
+        ]
       },
       "h": {
-        "title": "SCHNEIDERN FÜR ALLE",
-        "subtitle": "Kurse",
+        "title": "Volkshochschule: SCHNEIDERN FÜR ALLE",
+        "subtitle": "Bildung & Kurse",
         "lines": [
           "Volkshochschule: SCHNEIDERN FÜR ALLE",
-          "Wir lernen schneidern, nähen und einsäumen mit allen Stoffen. Besonders Kinderkleidung.",
-          "Ab 21. Feb. immer montags..."
+          "Kurs in Kooperation mit dem „Haus der Familie“ in Osterholz-Tenever.",
+          "Wir lernen schneiden, nähen und einsäumen mit allen Stoffen. Besonders Kinderkleidung.",
+          "Kurs 52 E 684",
+          "Ab 21. Feb. immer montags 14:00 bis 16:15 Uhr, 12 Termine, 36 Stunden",
+          "„Haus der Familie“ Osterholz-Tenever, Pirmasenser Straße 24/26 · • Euro 15 •"
         ],
         "image": "data/images/viktor_ad_h.png",
-        "text_en": "Adult Education Center: TAILORING FOR EVERYONE. We learn to tailor, sew and hem with all fabrics. Especially children's clothing.",
-        "vocabulary": []
+        "text_en": "Adult Education Center: TAILORING FOR EVERYONE. Course in cooperation with the 'House of the Family' in Osterholz-Tenever. We learn cutting, sewing and hemming with all fabrics. Especially children's clothing. Course 52 E 684. Starting Feb 21 every Monday 2:00 to 4:15 p.m., 12 sessions, 36 hours, Pirmasenser Straße 24/26 · Euro 15.",
+        "vocabulary": [
+          {
+            "de": "schneidern",
+            "en": "to tailor / make clothes"
+          },
+          {
+            "de": "nähen",
+            "en": "to sew"
+          }
+        ]
       },
       "i": {
-        "title": "Pianos und Flügel",
+        "title": "Pianos und Flügel – MUSIKHAUS ARTHUR KNOPP",
         "subtitle": "Musikinstrumente",
         "lines": [
           "Pianos und Flügel",
-          "BECHSTEIN - YAMAHA - SEILER - ZIMMERMANN",
-          "Auch gebrauchte Klaviere.",
-          "Mietkauf, Finanzierung. MUSIKHAUS ARTHUR KNOPP."
+          "BECHSTEIN · YAMAHA · SEILER · ZIMMERMANN",
+          "Auch gebrauchte Klaviere",
+          "Mietkauf + Finanzierung",
+          "MUSIKHAUS ARTHUR KNOPP, Fuhrerstr. 4, Tel. 4058911"
         ],
         "image": "data/images/viktor_ad_i.png",
-        "text_en": "Pianos and grand pianos. BECHSTEIN - YAMAHA - SEILER - ZIMMERMANN. Also used pianos. Hire purchase, financing. MUSIKHAUS ARTHUR KNOPP.",
-        "vocabulary": []
+        "text_en": "Upright and grand pianos: BECHSTEIN, YAMAHA, SEILER, ZIMMERMANN. Also used pianos. Hire purchase + financing. MUSIKHAUS ARTHUR KNOPP, Fuhrerstr. 4, Tel. 4058911.",
+        "vocabulary": [
+          {
+            "de": "der Flügel",
+            "en": "grand piano"
+          },
+          {
+            "de": "der Mietkauf",
+            "en": "hire purchase / rent-to-own"
+          }
+        ]
       },
       "j": {
-        "title": "Telefonmarketing",
+        "title": "Telefonmarketing Telefonservice – Kuck und Schmidt",
         "subtitle": "Dienstleistungen",
         "lines": [
-          "Telefonmarketing, Telefonservice",
+          "Telefonmarketing · Telefonservice",
           "Wir sind für Sie und Ihre Kunden da!",
           "Wir telefonieren für Ihren Erfolg.",
-          "Kuck und Schmidt, 20440 Hamburg."
+          "040-460046",
+          "Kuck und Schmidt, 20440 Hamburg"
         ],
         "image": "data/images/viktor_ad_j.png",
-        "text_en": "Telemarketing, telephone service. We are there for you and your customers! We make calls for your success.",
-        "vocabulary": []
+        "text_en": "Telemarketing & telephone service: We are there for you and your customers! We make phone calls for your success. 040-460046, Kuck und Schmidt, 20440 Hamburg.",
+        "vocabulary": [
+          {
+            "de": "der Erfolg",
+            "en": "success"
+          }
+        ]
       },
       "k": {
-        "title": "Einführung in das Saz-Spiel",
-        "subtitle": "Kurse",
+        "title": "VOLKSHOCHSCHULE: Einführung in das Saz-Spiel",
+        "subtitle": "Musik & Kurse",
         "lines": [
           "VOLKSHOCHSCHULE: Einführung in das Saz-Spiel",
-          "Deutschen und ausländischen Teilnehmern, sowohl Anfängern wie Fortgeschrittenen, wird das klassische asiatische Saiteninstrument Saz mit Theorie... beigebracht.",
-          "Gleichzeitig lernen Sie orientalische Volkslieder."
+          "Deutschen und ausländischen Teilnehmern, sowohl Anfängern wie Fortgeschrittenen, wird das klassische asiatische Saiteninstrument Saz mit Theorie (nach Noten!) und praktisch beigebracht. Gleichzeitig lernen Sie orientalische Volkslieder.",
+          "Kurs 52 S 560",
+          "Ab 27. Feb. immer sonntags, 15:30 bis 17:00 Uhr, 12 Termine, 24 Stunden, Helene-Kaisen-Weg 1 · • Euro 15 •"
         ],
         "image": "data/images/viktor_ad_k.png",
-        "text_en": "ADULT EDUCATION CENTER: Introduction to playing the Saz. German and foreign participants... will be taught the classic Asian string instrument Saz...",
-        "vocabulary": []
+        "text_en": "ADULT EDUCATION CENTER: Introduction to playing the Saz. German and foreign participants, both beginners and advanced learners, are taught the classic Asian string instrument Saz in theory (reading sheet music!) and practice. At the same time you will learn Oriental folk songs. Course 52 S 560. Starting Feb 27 every Sunday, 3:30 to 5:00 p.m., 12 sessions, 24 hours, Helene-Kaisen-Weg 1 · Euro 15.",
+        "vocabulary": [
+          {
+            "de": "das Saiteninstrument",
+            "en": "string instrument"
+          },
+          {
+            "de": "beibringen",
+            "en": "to teach"
+          }
+        ]
       },
       "l": {
         "title": "Miele Waschmaschinen",
-        "subtitle": "Einkaufen",
+        "subtitle": "Einkaufen & Kundendienst",
         "lines": [
           "Miele Waschmaschinen",
-          "Ausstellung, Beratung, Verkauf.",
-          "Montag bis Freitag geöffnet...",
-          "Werkkundendienst. Ganz in Ihrer Nähe."
+          "Ausstellung, Beratung, Verkauf",
+          "Montag bis Freitag geöffnet von 8:00 bis 18:00 Uhr",
+          "Vertriebszentrum Rhein-Main, Mielestr. 2 (Industriegebiet Süd), 61169 Friedberg · Tel.: 06031-9350",
+          "Werkkundendienst – Ganz in Ihrer Nähe · 0800-2244666"
         ],
         "image": "data/images/viktor_ad_l.png",
-        "text_en": "Miele washing machines. Exhibition, consultation, sale. Open Monday to Friday...",
-        "vocabulary": []
+        "text_en": "Miele washing machines: showroom, consultation, sales. Open Monday to Friday from 8:00 a.m. to 6:00 p.m. Distribution Center Rhein-Main, Mielestr. 2, 61169 Friedberg, Tel.: 06031-9350. Factory customer service right near you: 0800-2244666.",
+        "vocabulary": [
+          {
+            "de": "die Beratung",
+            "en": "consultation / advice"
+          },
+          {
+            "de": "der Kundendienst",
+            "en": "customer service"
+          }
+        ]
       }
     },
     "situations": [
@@ -390,70 +512,70 @@
         "situation": "Sie interessiert sich für eine neue Waschmaschine.",
         "situation_en": "You are interested in a new washing machine.",
         "correct_answer": "l",
-        "explanation": "Ad 'l' advertises 'Miele Waschmaschinen' (Miele washing machines) including exhibition, consultation, and sale."
+        "explanation": "Ad 'l' ('Miele Waschmaschinen') offers a showroom, consultation, and sales ('Ausstellung, Beratung, Verkauf') for new washing machines."
       },
       {
         "number": 12,
         "situation": "Ihr Freund sucht einen Praktikumsplatz bei einer Zeitung.",
         "situation_en": "Your friend is looking for an internship at a newspaper.",
         "correct_answer": "d",
-        "explanation": "Ad 'd' seeks editorial interns ('Redaktionspraktikanten') for the newspaper 'auspuff'."
+        "explanation": "Ad 'd' ('auspuff sucht Euch') is looking for high school and university students as editorial interns ('Redaktionspraktikanten') to learn all tasks around the newspaper."
       },
       {
         "number": 13,
         "situation": "Sie wollen ein neues Musikinstrument spielen lernen.",
         "situation_en": "You want to learn to play a new musical instrument.",
         "correct_answer": "k",
-        "explanation": "Ad 'k' offers an introductory course to playing the Saz ('Einführung in das Saz-Spiel'), an Asian string instrument."
+        "explanation": "Ad 'k' ('VOLKSHOCHSCHULE: Einführung in das Saz-Spiel') teaches beginners and advanced learners how to play the classic Asian string instrument Saz."
       },
       {
         "number": 14,
         "situation": "In Ihrer Wohnung gibt es Probleme mit dem Wasser in Bad und Küche und Sie wollen das verändern.",
-        "situation_en": "There are problems with the water in the bathroom and kitchen in your apartment and you want to change that.",
+        "situation_en": "There are problems with the water in the bathroom and kitchen in your apartment and you want to fix that.",
         "correct_answer": "c",
-        "explanation": "Ad 'c' offers services for 'Defekte Wasserleitungen? Wasserschaden?' (defective water pipes, water damage)."
+        "explanation": "Ad 'c' ('Walter GmbH') specializes in defective water pipes, water damage, rusty water, and washing machine connections ('Defekte Wasserleitungen? Wasserschaden? Rostiges Wasser?')."
       },
       {
         "number": 15,
         "situation": "Ihre Wohnung ist immer zu kalt und Sie wollen das ändern.",
         "situation_en": "Your apartment is always too cold and you want to change that.",
         "correct_answer": "e",
-        "explanation": "Ad 'e' from 'THERMOKOMFORT' provides services for heating ('Irgendwann ist Ihre Heizung dran...')."
+        "explanation": "Ad 'e' ('THERMOKOMFORT – Alles aus einer Hand') provides complete service for new heating systems, including delivery, installation, and maintenance ('Irgendwann ist eine neue Heizung fällig...')."
       },
       {
         "number": 16,
         "situation": "Sie suchen einen Klavierlehrer für Ihre Tochter.",
         "situation_en": "You are looking for a piano teacher for your daughter.",
         "correct_answer": "x",
-        "explanation": "Ad 'i' sells pianos, but there are no ads for a piano teacher ('Klavierlehrer')."
+        "explanation": "Ad 'i' sells new and used pianos ('Pianos und Flügel'), but none of the ads offer piano lessons or a piano teacher ('Klavierlehrer')."
       },
       {
         "number": 17,
         "situation": "Sie möchten lernen Kleider selber zu machen.",
         "situation_en": "You want to learn to make clothes yourself.",
         "correct_answer": "h",
-        "explanation": "Ad 'h' offers a course 'SCHNEIDERN FÜR ALLE' (tailoring for everyone) where you learn to sew and tailor clothes."
+        "explanation": "Ad 'h' ('Volkshochschule: SCHNEIDERN FÜR ALLE') is a tailoring course where participants learn cutting, sewing, and hemming with all fabrics ('Wir lernen schneiden, nähen und einsäumen mit allen Stoffen')."
       },
       {
         "number": 18,
         "situation": "In Ihrer Wohnung gibt es Probleme mit feuchten Wänden.",
         "situation_en": "There are problems with damp walls in your apartment.",
         "correct_answer": "g",
-        "explanation": "Ad 'g' advertises 'Wir machen Häuser trocken! Nasse Wände, feuchte Keller?' (We make houses dry! Wet walls, damp basements?)."
+        "explanation": "Ad 'g' ('Fa. Peter Hinz – Wir machen Häuser trocken!') treats wet walls, damp basements, and mold ('Nasse Wände, feuchte Keller? ... Trocknung aller Mauern!')."
       },
       {
         "number": 19,
         "situation": "Sie möchten einen schönen, alten Schrank kaufen.",
-        "situation_en": "You want to buy a beautiful, old closet/wardrobe.",
+        "situation_en": "You want to buy a beautiful, old wardrobe/cabinet.",
         "correct_answer": "b",
-        "explanation": "Ad 'b' is an Antique market ('Antik- u. Sammlermarkt') selling 'alter Möbel' (old furniture)."
+        "explanation": "Ad 'b' ('Antik- u. Sammlermarkt') offers a wide selection of antiques and old furniture ('Mit einem Spitzenangebot schönster Antiquitäten, alter Möbel, Kunst...')."
       },
       {
         "number": 20,
         "situation": "Sie wollen lernen, wie man kleine Geschichten auf Deutsch schreibt und suchen einen passenden Kurs.",
-        "situation_en": "You want to learn how to write small stories in German and are looking for a suitable course.",
+        "situation_en": "You want to learn how to write short stories in German and are looking for a suitable course.",
         "correct_answer": "a",
-        "explanation": "Ad 'a' offers a 'Schreib- und Literaturwerkstatt' (writing and literature workshop) practicing independent writing."
+        "explanation": "Ad 'a' ('VOLKSHOCHSCHULE: Schreib- und Literaturwerkstatt') practices independent writing ('Es wird eigenständiges Schreiben erprobt'). (Note: The PDF's typed key table lists 'X' because the workshop is a general literature workshop rather than a German-as-a-foreign-language course, though 'a' is the direct writing course match)."
       }
     ]
   },
