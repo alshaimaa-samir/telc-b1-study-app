@@ -228,153 +228,281 @@
   "leseverstehen_teil_3": {
     "advertisements": {
       "a": {
-        "title": "Koch und Küchenhelfer",
-        "subtitle": "Gastronomie",
+        "title": "Klostergasthof Andechs – Koch und Küchenhelfer",
+        "subtitle": "Stellenangebote Gastronomie",
         "lines": [
-          "kafeine Andechs - Genuss für Leib und Seele",
+          "KLOSTER Andechs seit 1455 – Genuss für Leib und Seele –",
+          "Für unseren „Klostergasthof Andechs“ suchen wir zur Verstärkung unseres Teams zur Festanstellung und zum baldmöglichsten Eintritt",
           "Koch und Küchenhelfer",
-          "Klostergasthof Andechs",
-          "Bergstraße 2",
-          "82346 Andechs"
+          "Kost und Wohnen im Haus möglich. Bitte setzen Sie sich mit Herrn Urban in Verbindung.",
+          "Klostergasthof Andechs, Bergstraße 2 · 82346 Andechs, Telefon 08152/9309-0"
         ],
         "image": "data/images/sophie_ad_a.png",
-        "text_en": "Cook and kitchen helper wanted for Klostergasthof Andechs.",
-        "vocabulary": []
+        "text_en": "Monastery Andechs since 1455 – Pleasure for body and soul – For our 'Klostergasthof Andechs' we are looking to strengthen our team for permanent employment and the earliest possible start: Cook and kitchen helper. Board and lodging in the house possible. Please contact Mr. Urban. Klostergasthof Andechs, Bergstraße 2, 82346 Andechs, Phone 08152/9309-0.",
+        "vocabulary": [
+          {
+            "de": "die Festanstellung",
+            "en": "permanent employment"
+          },
+          {
+            "de": "Kost und Wohnen",
+            "en": "board and lodging"
+          }
+        ]
       },
       "b": {
-        "title": "Eine Woche lang",
-        "subtitle": "Reisen",
+        "title": "Programmkino Valentin – Spielfilme aus Nordafrika",
+        "subtitle": "Kino & Film",
         "lines": [
-          "Eine Woche lang...",
-          "Tunesien und Libyen",
-          "www.valentin.de"
+          "Eine Woche lang zeigen wir Spielfilme aus Nordafrika.",
+          "Sie geben das Leben in Algerien, Marokko, Tunesien und Libyen wieder.",
+          "www.valentin.de",
+          "PROGRAMMKINO VALENTIN, SCHWABING"
         ],
         "image": "data/images/sophie_ad_b.png",
-        "text_en": "For a week... Tunisia and Libya. www.valentin.de",
-        "vocabulary": []
+        "text_en": "For one week we are showing feature films from North Africa. They portray life in Algeria, Morocco, Tunisia and Libya. www.valentin.de, PROGRAMMKINO VALENTIN, SCHWABING.",
+        "vocabulary": [
+          {
+            "de": "der Spielfilm",
+            "en": "feature film / movie"
+          },
+          {
+            "de": "wiedergeben",
+            "en": "to portray / reflect"
+          }
+        ]
       },
       "c": {
-        "title": "WIR SUCHEN GESCHÄFTSFÜHRER/-IN",
-        "subtitle": "Stellenangebote",
+        "title": "Starnberg – Seniorentreff",
+        "subtitle": "Veranstaltungen & Freizeit",
         "lines": [
-          "WIR SUCHEN GESCHÄFTSFÜHRER/-IN",
-          "RESTAURANT-FACHMANN/FRAU",
-          "TEAM WORK freundliche Damen und Herren",
-          "Haupt- oder nebenberufliche..."
+          "Starnberg – Seniorentreff, kommenden Mittwoch:",
+          "9 Uhr, Treffen am Hallenbad-Parkplatz zum Skilanglauf (Informationen unter 08151 / 21714);",
+          "13.30 Uhr, offener Spielenachmittag;",
+          "14.30 Uhr, Englisch für Fortgeschrittene;",
+          "17 Uhr, Spanischkurs;",
+          "ab 19 Uhr, Oldie-Disko!!"
         ],
         "image": "data/images/sophie_ad_c.png",
-        "text_en": "WE ARE LOOKING FOR MANAGER, RESTAURANT SPECIALIST, TEAM WORK friendly ladies and gentlemen. Full-time or part-time...",
-        "vocabulary": []
+        "text_en": "Starnberg – Seniors' meeting, coming Wednesday: 9 a.m., meeting at the indoor pool parking lot for cross-country skiing (information under 08151 / 21714); 1:30 p.m., open games afternoon; 2:30 p.m., English for advanced learners; 5 p.m., Spanish course; from 7 p.m., Oldie Disco!!",
+        "vocabulary": [
+          {
+            "de": "der Seniorentreff",
+            "en": "seniors' meeting / club"
+          },
+          {
+            "de": "der Skilanglauf",
+            "en": "cross-country skiing"
+          }
+        ]
       },
       "d": {
-        "title": "Reisebüro sucht REISELEITER",
+        "title": "Reisebüro sucht REISELEITER FÜR BUSREISEN",
         "subtitle": "Stellenangebote",
         "lines": [
           "Reisebüro sucht für Juli und August",
           "junge, unabhängige Leute als",
-          "FÜR BUSREISEN",
-          "REISELEITER"
+          "REISELEITER FÜR BUSREISEN",
+          "Fremdsprachenkenntnisse von Vorteil.",
+          "Weitere Auskünfte: Schneider-Reisen, Frau Hagmann, Tel. 089/87 00 35 von 9–16 Uhr"
         ],
         "image": "data/images/sophie_ad_d.png",
-        "text_en": "Travel agency is looking for young, independent people as TOUR GUIDES FOR BUS TRIPS for July and August.",
-        "vocabulary": []
+        "text_en": "Travel agency is looking for July and August for young, independent people as TOUR GUIDES FOR BUS TRIPS. Foreign language skills are an advantage. Further information: Schneider-Reisen, Ms. Hagmann, Tel. 089/87 00 35 from 9 a.m. to 4 p.m.",
+        "vocabulary": [
+          {
+            "de": "unabhängig",
+            "en": "independent"
+          },
+          {
+            "de": "der Reiseleiter",
+            "en": "tour guide"
+          }
+        ]
       },
       "e": {
         "title": "Tanzschule Bäulke",
-        "subtitle": "Kurse",
+        "subtitle": "Tanzkurse",
         "lines": [
-          "Walzer",
-          "Tango",
-          "Foxtrott",
-          "wer seine Füße im Takt... bewegt",
-          "Tanzschule Bäulke"
+          "Walzer · Tango · Foxtrott",
+          "wer seine Füße im Takt und nach den richtigen Schritten bewegt ...",
+          "Zu Beginn der Ballsaison bieten wir wieder unsere beliebten Kurse in den Gesellschaftstänzen an.",
+          "Spezielle Anfänger- und Auffrischungskurse.",
+          "Tanzschule Bäulke, Wolfstrasse 12, 82404 Pullach"
         ],
         "image": "data/images/sophie_ad_e.png",
-        "text_en": "Waltz, Tango, Foxtrot. For those who move their feet to the beat. Dance school Bäulke.",
-        "vocabulary": []
+        "text_en": "Waltz, Tango, Foxtrot – whoever moves their feet to the beat and with the right steps... At the start of the ball season we are once again offering our popular courses in ballroom dances. Special beginner and refresher courses. Dance school Bäulke, Wolfstrasse 12, 82404 Pullach.",
+        "vocabulary": [
+          {
+            "de": "der Gesellschaftstanz",
+            "en": "ballroom dance / social dance"
+          },
+          {
+            "de": "der Auffrischungskurs",
+            "en": "refresher course"
+          }
+        ]
       },
       "f": {
-        "title": "FILMVORFÜHRER",
+        "title": "Waldwirtschaft Großhesselohe sucht GESCHÄFTSFÜHRER/-IN",
+        "subtitle": "Stellenangebote Gastronomie",
+        "lines": [
+          "WIR SUCHEN für das Restaurant-, Bankett- und Terrassengeschäft der Waldwirtschaft Großhesselohe eine(n)",
+          "GESCHÄFTSFÜHRER/-IN",
+          "RESTAURANT-FACHMANN/FRAU",
+          "Sie sind eine gefestigte Persönlichkeit mit Verantwortungsbewusstsein und überdurchschnittlicher Einsatzbereitschaft!",
+          "• Zufriedene Gäste sind unser oberstes Prinzip •",
+          "Bewerbung mit ausführlichem Lebenslauf senden Sie bitte an: Waldwirtschaft Großhesselohe, z.Hd. Herrn Sepp Krätz oder Frau Carola Schuchardt, Georg-Kalb-Str. 3, 82049 Großhesselohe/München"
+        ],
+        "image": "data/images/sophie_ad_f.png",
+        "text_en": "WE ARE LOOKING FOR a MANAGER / RESTAURANT SPECIALIST for the restaurant, banquet and terrace business of Waldwirtschaft Großhesselohe. You are a well-grounded personality with a sense of responsibility and above-average commitment! Satisfied guests are our top principle. Please send your application with a detailed CV to: Waldwirtschaft Großhesselohe, Georg-Kalb-Str. 3, 82049 Großhesselohe/Munich.",
+        "vocabulary": [
+          {
+            "de": "der Geschäftsführer",
+            "en": "manager / managing director"
+          },
+          {
+            "de": "die Einsatzbereitschaft",
+            "en": "commitment / readiness for action"
+          }
+        ]
+      },
+      "g": {
+        "title": "Fa. TEAM WORK sucht freundliche Damen und Herren",
+        "subtitle": "Stellenangebote Verkauf",
+        "lines": [
+          "Fa. TEAM WORK in Landsberg/Lech sucht dringend für verschiedene Gebiete in Bayern",
+          "freundliche Damen und Herren",
+          "für den Verkauf von hochwertigen Natur-Spielwaren im Kindergartenbereich oder Direktverkauf.",
+          "Haupt- oder nebenberufliche Tätigkeit möglich.",
+          "Vergütung auf Provisionsbasis.",
+          "Bitte sprechen Sie mit Herrn Turtenwald: Tel. 0 81 91 / 942 942"
+        ],
+        "image": "data/images/sophie_ad_g.png",
+        "text_en": "Company TEAM WORK in Landsberg/Lech is urgently looking for friendly ladies and gentlemen for various areas in Bavaria for the sale of high-quality natural toys in the kindergarten sector or direct sales. Full-time or part-time work possible. Remuneration on a commission basis. Please speak with Mr. Turtenwald: Tel. 0 81 91 / 942 942.",
+        "vocabulary": [
+          {
+            "de": "nebenberuflich",
+            "en": "part-time / as a side job"
+          },
+          {
+            "de": "die Vergütung",
+            "en": "remuneration / compensation"
+          }
+        ]
+      },
+      "h": {
+        "title": "Kindergarten Tatzelwurm",
+        "subtitle": "Kinderbetreuung",
+        "lines": [
+          "Tatzelwurm",
+          "hat noch freie Plätze für Drei- bis Vierjährige. In unserem Kindergarten fühlen sich Ihre Kinder wohl:",
+          "• langjährige Erfahrung",
+          "• professionelle Betreuung",
+          "• großer Garten",
+          "• Vollwertküche",
+          "Nähere Informationen bei Frau Hammerschmidt, Dietrich-Allee, 51429 Berg-Gladbach, Tel. 087 709 18 67"
+        ],
+        "image": "data/images/sophie_ad_h.png",
+        "text_en": "Tatzelwurm still has free places for three- to four-year-olds. Your children will feel comfortable in our kindergarten: many years of experience, professional care, large garden, wholefood kitchen. Further information from Ms. Hammerschmidt, Dietrich-Allee, 51429 Berg-Gladbach, Tel. 087 709 18 67.",
+        "vocabulary": [
+          {
+            "de": "freie Plätze",
+            "en": "available / free places"
+          },
+          {
+            "de": "die Betreuung",
+            "en": "care / supervision"
+          }
+        ]
+      },
+      "i": {
+        "title": "Tanzschule Wernicke sucht TANZLEHRER/-IN",
+        "subtitle": "Stellenangebote",
+        "lines": [
+          "Tanzschule Wernicke sucht ab sofort",
+          "TANZLEHRER/-IN",
+          "für Tango, Rumba, Samba, Lambada, Salsa, Cha-Cha-Cha.",
+          "Bewerber/-in sollte mehrjährige Erfahrung speziell mit Anfängerkursen haben, wenn möglich auch Turniererfahrung.",
+          "Bewerbungen unter Chiffre: 17296"
+        ],
+        "image": "data/images/sophie_ad_i.png",
+        "text_en": "Dance school Wernicke is looking immediately for a DANCE TEACHER for Tango, Rumba, Samba, Lambada, Salsa, Cha-Cha-Cha. Applicant should have several years of experience especially with beginner courses, if possible also tournament experience. Applications under box number: 17296.",
+        "vocabulary": [
+          {
+            "de": "ab sofort",
+            "en": "immediately / effective immediately"
+          },
+          {
+            "de": "die Turniererfahrung",
+            "en": "tournament experience"
+          }
+        ]
+      },
+      "j": {
+        "title": "FILMVORFÜHRER für Filmkunstkino gesucht",
         "subtitle": "Stellenangebote",
         "lines": [
           "Technisch versierter, zuverlässiger",
           "FILMVORFÜHRER",
-          "für Filmkunstkino ab sofort gesucht."
-        ],
-        "image": "data/images/sophie_ad_f.png",
-        "text_en": "Technically savvy, reliable projectionist wanted immediately for art house cinema.",
-        "vocabulary": []
-      },
-      "g": {
-        "title": "TANZLEHRER/-IN",
-        "subtitle": "Stellenangebote",
-        "lines": [
-          "Tanzschule Wernicke",
-          "TANZLEHRER/-IN",
-          "Tango Rumba Samba Lambada..."
-        ],
-        "image": "data/images/sophie_ad_g.png",
-        "text_en": "Dance school Wernicke. DANCE TEACHER. Tango Rumba Samba Lambada...",
-        "vocabulary": []
-      },
-      "h": {
-        "title": "Blickpunkt Orient",
-        "subtitle": "Veranstaltungen",
-        "lines": [
-          "Blickpunkt Orient:",
-          "Im Rahmen der Fotoausstellung Kairo-uralte Metropole am Nil",
-          "liest die ägyptische Schriftstellerin Salwa Bakr",
-          "über das Leben von Frauen... Kairo"
-        ],
-        "image": "data/images/sophie_ad_h.png",
-        "text_en": "Focus on the Orient: As part of the photo exhibition Cairo - Ancient Metropolis on the Nile, the Egyptian writer Salwa Bakr reads about the life of women in Cairo.",
-        "vocabulary": []
-      },
-      "i": {
-        "title": "New York aus der Perspektive",
-        "subtitle": "Ausstellungen",
-        "lines": [
-          "New York aus der Perspektive der Starfotografin Helen Levit",
-          "Schwarzweiß Ansichten...",
-          "Ausstellungen sind täglich... zu sehen"
-        ],
-        "image": "data/images/sophie_ad_i.png",
-        "text_en": "New York from the perspective of star photographer Helen Levit. Black and white views. Exhibitions can be seen daily.",
-        "vocabulary": []
-      },
-      "j": {
-        "title": "Nette Lehrerin sucht Partner",
-        "subtitle": "Kontaktanzeigen",
-        "lines": [
-          "Nette Lehrerin sucht Partner:",
-          "Ich bin über dreißig, aber unter vierzig, meine Hobbys sind Reiten und Wandern.",
-          "Ich suche einen humorvollen, intelligenten Enddreißiger"
+          "für Filmkunstkino • ab sofort gesucht •",
+          "Telefonische Anfragen Montag–Freitag, nur 10–11 Uhr, unter: 089-2 71 36 78"
         ],
         "image": "data/images/sophie_ad_j.png",
-        "text_en": "Nice female teacher seeks partner. Over 30, under 40. Looking for an intelligent man in his late 30s.",
-        "vocabulary": []
+        "text_en": "Technically savvy, reliable PROJECTIONIST wanted immediately for art house cinema. Telephone inquiries Monday–Friday, 10–11 a.m. only, at: 089-2 71 36 78.",
+        "vocabulary": [
+          {
+            "de": "der Filmvorführer",
+            "en": "film projectionist"
+          },
+          {
+            "de": "zuverlässig",
+            "en": "reliable"
+          }
+        ]
       },
       "k": {
-        "title": "Tatzelwurm",
-        "subtitle": "Gastronomie",
+        "title": "Blickpunkt Orient: Lesung Salwa Bakr",
+        "subtitle": "Veranstaltungen & Literatur",
         "lines": [
-          "Tatzelwurm"
+          "Blickpunkt Orient:",
+          "Im Rahmen der Fotoausstellung „Kairo – uralte Metropole am Nil“ liest die ägyptische Schriftstellerin Salwa Bakr aus ihrem Roman „Der goldene Wagen fährt nicht zum Himmel“",
+          "und berichtet über das Leben von Frauen, die in der Millionenstadt Kairo ihren Alltag bewältigen müssen.",
+          "20 Uhr, Seidlvilla, Nikolaiplatz 1b."
         ],
         "image": "data/images/sophie_ad_k.png",
-        "text_en": "Tatzelwurm (Restaurant / event location).",
-        "vocabulary": []
+        "text_en": "Focus on the Orient: As part of the photo exhibition 'Cairo – Ancient Metropolis on the Nile', the Egyptian writer Salwa Bakr reads from her novel 'The Golden Chariot Does Not Ascend to Heaven' and reports on the lives of women who have to cope with everyday life in the metropolis of Cairo. 8 p.m., Seidlvilla, Nikolaiplatz 1b.",
+        "vocabulary": [
+          {
+            "de": "die Schriftstellerin",
+            "en": "the (female) writer / author"
+          },
+          {
+            "de": "den Alltag bewältigen",
+            "en": "to cope with everyday life"
+          }
+        ]
       },
       "l": {
-        "title": "Stadtverwaltung Erbach",
-        "subtitle": "Information",
+        "title": "Fotoausstellung Helen Levitt & Münchner Schule",
+        "subtitle": "Ausstellungen",
         "lines": [
-          "Stadtverwaltung Erbach",
-          "Abteilung Sport",
-          "Informationsbroschüre mit den Anschriften aller Vereine"
+          "New York aus der Perspektive der Starfotografin Helen Levitt – noch bis Sonntag, 10. Januar, sind ihre Schwarzweiß-Ansichten in der Villa Stuck zu sehen.",
+          "Auch die Ausstellung „Viehweide und Glaspalast“, Aquarelle und Zeichnungen der „Münchner Schule“, im Lenbachhaus endet an diesem Sonntag.",
+          "Beide Ausstellungen sind täglich von 10 bis 17 Uhr geöffnet.",
+          "SZ Extra Redaktion 098 / 2183-9256, Fax 098 / 2183-9397, Anzeigen 098 / 2183-398, Fax 098 / 2193-8711"
         ],
         "image": "data/images/sophie_ad_l.png",
-        "text_en": "City administration Erbach, Sports department. Information brochure with addresses of all clubs.",
-        "vocabulary": []
+        "text_en": "New York from the perspective of star photographer Helen Levitt – her black-and-white views can be seen at Villa Stuck until Sunday, January 10. The exhibition 'Viehweide und Glaspalast', watercolors and drawings of the 'Munich School', at the Lenbachhaus also ends this Sunday. Both exhibitions are open daily from 10 a.m. to 5 p.m.",
+        "vocabulary": [
+          {
+            "de": "die Perspektive",
+            "en": "the perspective"
+          },
+          {
+            "de": "die Ausstellung",
+            "en": "the exhibition"
+          }
+        ]
       }
     },
     "situations": [
@@ -383,70 +511,70 @@
         "situation": "Sie möchten als Student nebenbei Geld verdienen. Sie reisen gern.",
         "situation_en": "You want to earn money on the side as a student. You like to travel.",
         "correct_answer": "d",
-        "explanation": "You like to travel and need a side job. Ad 'd' is looking for young, independent tour guides (Reiseleiter) for bus trips."
+        "explanation": "Ad 'd' is from a travel agency looking for young, independent people for July and August as tour guides for bus trips ('Reisebüro sucht für Juli und August junge, unabhängige Leute als REISELEITER FÜR BUSREISEN')."
       },
       {
         "number": 12,
         "situation": "Sie interessieren sich für Literatur aus arabischen Ländern.",
         "situation_en": "You are interested in literature from Arab countries.",
-        "correct_answer": "h",
-        "explanation": "You want Arabic literature. Ad 'h' features an Egyptian writer (ägyptische Schriftstellerin) reading from her work. (Note: The provided answer key says K, but H is the objectively correct match based on the text. I will output H based on logic, but note the key discrepancy)."
+        "correct_answer": "k",
+        "explanation": "Ad 'k' ('Blickpunkt Orient') announces a reading by the Egyptian writer Salwa Bakr from her novel 'Der goldene Wagen fährt nicht zum Himmel'."
       },
       {
         "number": 13,
         "situation": "Ihr Freund möchte gerne in einem Kino arbeiten.",
         "situation_en": "Your friend would like to work in a cinema.",
-        "correct_answer": "f",
-        "explanation": "Ad 'f' is looking for a projectionist (Filmvorführer) for a cinema. (Note: Key says J, which is another mismatch in the OCR grid vs original test)."
+        "correct_answer": "j",
+        "explanation": "Ad 'j' is looking for a projectionist for an art house cinema ('FILMVORFÜHRER für Filmkunstkino • ab sofort gesucht •')."
       },
       {
         "number": 14,
         "situation": "Sie wollen in einem Restaurant arbeiten und dort auch wohnen.",
         "situation_en": "You want to work in a restaurant and live there too.",
         "correct_answer": "a",
-        "explanation": "Ad 'a' is looking for a cook and kitchen helper for a monastery inn ('Klostergasthof'), which often implies boarding."
+        "explanation": "Ad 'a' ('Klostergasthof Andechs') is looking for a cook and kitchen helper ('Koch und Küchenhelfer') and explicitly states that board and lodging on-site are possible ('Kost und Wohnen im Haus möglich')."
       },
       {
         "number": 15,
         "situation": "Ihre Freundin sucht einen Kindergartenplatz für ihren kleinen Sohn.",
         "situation_en": "Your friend is looking for a kindergarten place for her little son.",
-        "correct_answer": "x",
-        "explanation": "None of the ads provided are offering kindergarten placements."
+        "correct_answer": "h",
+        "explanation": "Ad 'h' ('Tatzelwurm') offers available kindergarten places for three- to four-year-olds ('hat noch freie Plätze für Drei- bis Vierjährige. In unserem Kindergarten fühlen sich Ihre Kinder wohl')."
       },
       {
         "number": 16,
         "situation": "Sie möchten am nächsten Wochenende in eine Diskothek gehen.",
         "situation_en": "You want to go to a disco next weekend.",
         "correct_answer": "x",
-        "explanation": "There are no ads for a disco."
+        "explanation": "Ad 'c' mentions an 'Oldie-Disko!!' from 7 p.m., but it takes place on Wednesday ('kommenden Mittwoch') as part of a seniors' meeting, not on the weekend. Thus, no ad matches ('x')."
       },
       {
         "number": 17,
         "situation": "Sie möchten tanzen lernen.",
         "situation_en": "You want to learn to dance.",
         "correct_answer": "e",
-        "explanation": "Ad 'e' is for 'Tanzschule Bäulke' (Dance school Bäulke), teaching Waltz, Tango, Foxtrot."
+        "explanation": "Ad 'e' ('Tanzschule Bäulke') offers ballroom dance courses including special beginner courses ('Spezielle Anfänger- und Auffrischungskurse'). (Note: Ad 'i' is a job advertisement looking for a dance teacher, though the PDF answer key table erroneously lists 'I')."
       },
       {
         "number": 18,
         "situation": "Sie haben große Berufserfahrung in Gaststätten. Jetzt möchten Sie ein Restaurant leiten.",
         "situation_en": "You have extensive professional experience in restaurants. Now you want to manage a restaurant.",
-        "correct_answer": "c",
-        "explanation": "Ad 'c' is looking for a 'Geschäftsführer/-in' (Manager) and 'Restaurant-Fachmann' (Restaurant specialist)."
+        "correct_answer": "f",
+        "explanation": "Ad 'f' ('Waldwirtschaft Großhesselohe') is looking for a manager / restaurant specialist ('GESCHÄFTSFÜHRER/-IN RESTAURANT-FACHMANN/FRAU') for its restaurant, banquet, and terrace business."
       },
       {
         "number": 19,
         "situation": "Sie möchten Filme aus afrikanischen Ländern sehen.",
         "situation_en": "You want to see films from African countries.",
         "correct_answer": "b",
-        "explanation": "Ad 'b' advertises trips to Tunisia and Libya ('Tunesien und Libyen'), not films. However, the answer key says B. This might be due to a jumbled ad."
+        "explanation": "Ad 'b' ('PROGRAMMKINO VALENTIN, SCHWABING') is showing feature films from North Africa ('Spielfilme aus Nordafrika') portraying life in Algeria, Morocco, Tunisia, and Libya."
       },
       {
         "number": 20,
         "situation": "Sie möchten einen Fotografiekurs besuchen und haben nur abends Zeit.",
         "situation_en": "You want to take a photography course and only have time in the evenings.",
         "correct_answer": "x",
-        "explanation": "There are ads for photo exhibitions (h, i), but no evening photography courses."
+        "explanation": "Ads 'k' and 'l' mention photo exhibitions ('Fotoausstellung'), but none of the ads offer a photography course ('Fotografiekurs')."
       }
     ]
   },
