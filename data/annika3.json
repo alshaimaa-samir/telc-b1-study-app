@@ -226,154 +226,306 @@
   "leseverstehen_teil_3": {
     "advertisements": {
       "a": {
-        "title": "DAS ASCHENPUTTEL",
-        "subtitle": "Kultur",
-        "lines": [
-          "Cinderella, Cenerentola, Aschenputtel",
-          "KULTURTIPP",
-          "Die Schriftstellerin Elke Heidenreich",
-          "präsentiert zusammen mit der Basel Sinfonietta den bekannten Märchenstoff auf der Bühne.",
-          "Theaterhalle Bern, 20:30 Uhr."
-        ],
-        "image": "data/images/annika3_ad_a.png",
-        "text_en": "Cinderella. CULTURE TIP. The writer Elke Heidenreich presents the well-known fairy tale material on stage together with the Basel Sinfonietta. Theaterhalle Bern, 8:30 p.m.",
-        "vocabulary": []
-      },
-      "b": {
         "title": "OBER-GOMS: Wandern im Wallis",
-        "subtitle": "Reisen & Sport",
+        "subtitle": "Hotel Walser, Ulrichen",
         "lines": [
-          "Wandern im Wallis",
-          "Geführte Wanderungen mit geprüften Bergführern.",
+          "06.–10. Juni Fr. 425",
+          "18.–25. August Fr. 750",
+          "22.–29. September Fr. 750",
+          "Halbpension/Führungen/Wanderungen/Klettertouren mit geprüften Bergführern",
           "Hotel Walser, 3988 Ulrichen",
+          "Tel.: 027 / 973 21 22 · Fax: 027 / 973 21 29",
           "www.goms.ch/hotel-walser"
         ],
+        "image": "data/images/annika3_ad_a.png",
+        "text_en": "OBER-GOMS: Hiking in Valais. June 6–10 CHF 425; August 18–25 CHF 750; September 22–29 CHF 750. Half board / guided tours / hikes / climbing tours with certified mountain guides. Hotel Walser, 3988 Ulrichen, Tel.: 027 / 973 21 22, Fax: 027 / 973 21 29, www.goms.ch/hotel-walser.",
+        "vocabulary": [
+          {
+            "de": "die Halbpension",
+            "en": "half board (breakfast and dinner)"
+          },
+          {
+            "de": "geprüft",
+            "en": "certified / tested"
+          },
+          {
+            "de": "der Bergführer",
+            "en": "mountain guide"
+          }
+        ]
+      },
+      "b": {
+        "title": "Ausstellung „Märchen – Mythen – Erzählungen“",
+        "subtitle": "Ausstellung in Thun",
+        "lines": [
+          "Acht Künstlerinnen zeigen ihre Arbeiten vom 2. bis 30. Juni in Thun",
+          "Die Arbeiten werden in der Zeit vom 2. bis 30. Juni in Schaufenstern der Innenstadt gezeigt.",
+          "Vernissage: 2. Juni, 19.30 Uhr",
+          "Schibenstrasse 21 – Thun",
+          "Tel. 033 222 02 47"
+        ],
         "image": "data/images/annika3_ad_b.png",
-        "text_en": "OBER-GOMS: Hiking in Valais. Guided hikes with certified mountain guides. Hotel Walser.",
-        "vocabulary": []
+        "text_en": "Exhibition 'Fairy Tales – Myths – Stories'. Eight female artists show their works from June 2 to 30 in Thun. The works will be displayed from June 2 to 30 in shop windows in the city center. Opening reception (Vernissage): June 2, 7:30 p.m., Schibenstrasse 21 – Thun, Tel. 033 222 02 47.",
+        "vocabulary": [
+          {
+            "de": "das Märchen",
+            "en": "fairy tale"
+          },
+          {
+            "de": "das Schaufenster",
+            "en": "shop window / display window"
+          }
+        ]
       },
       "c": {
         "title": "Chocolat-Werbung",
-        "subtitle": "Ausstellungen",
+        "subtitle": "KULTURTIPP",
         "lines": [
-          "Im Rahmen der Ausstellung",
-          "Die Geschichte der Schokolade...",
-          "präsentieren... Chocolat-Tobler"
+          "Im Rahmen der Ausstellung „Chocolat-Tobler: Die Geschichte der Schokolade von 1899 bis heute“ präsentieren und kommentieren Christian Jacquet und Fritz Kobi im Kornhausforum alte und neue Chocolat-Tobler-Werbefilme.",
+          "Bern: Kornhausforum, 19 Uhr",
+          "Mehr Ausgehtipps in der „Berner Woche“ und im Internet unter www.BernerWoche.ch"
         ],
         "image": "data/images/annika3_ad_c.png",
-        "text_en": "Chocolate advertising. As part of the exhibition 'The History of Chocolate'.",
-        "vocabulary": []
+        "text_en": "Chocolate Advertising – CULTURE TIP. As part of the exhibition 'Chocolat-Tobler: The History of Chocolate from 1899 to Today', Christian Jacquet and Fritz Kobi present and comment on old and new Chocolat-Tobler commercials at the Kornhausforum. Bern: Kornhausforum, 7 p.m. More tips for going out in 'Berner Woche' and online at www.BernerWoche.ch.",
+        "vocabulary": [
+          {
+            "de": "im Rahmen",
+            "en": "as part of / within the framework of"
+          },
+          {
+            "de": "der Werbefilm",
+            "en": "commercial / advertising film"
+          }
+        ]
       },
       "d": {
-        "title": "Ausstellung Märchen - Mythen - Erzählungen",
-        "subtitle": "Ausstellungen",
+        "title": "Sarazena Zermatt",
+        "subtitle": "Ferienhotel in Zermatt",
         "lines": [
-          "Acht Künstlerinnen zeigen ihre Arbeiten.",
-          "Vom 2. bis 30. Juni in Thun.",
-          "Schulhausstrasse 21, Thun."
+          "Herzlich willkommen in unserem gemütlichen Ferienhotel in zentraler Lage!",
+          "Perfekt ausgestattete Zimmer mit allem Komfort, Fitnessraum, Tennishalle, Schwimmbad, reichhaltiges Frühstücksbuffet.",
+          "Bruno & Catherine Wyrsch-Zurniwen",
+          "Tel. 027 / 967 44 41 · Fax 027 / 967 63 25",
+          "Internet: www.hotel-sarazena.ch",
+          "E-Mail: sarazena.zermatt@bluewin.ch"
         ],
         "image": "data/images/annika3_ad_d.png",
-        "text_en": "Exhibition Fairy Tales - Myths - Stories. Eight female artists show their work.",
-        "vocabulary": []
+        "text_en": "Sarazena Zermatt. Welcome to our cozy holiday hotel in a central location! Perfectly equipped rooms with every comfort, gym, indoor tennis court, swimming pool, extensive breakfast buffet. Bruno & Catherine Wyrsch-Zurniwen, Tel. 027 / 967 44 41, Fax 027 / 967 63 25, www.hotel-sarazena.ch, sarazena.zermatt@bluewin.ch.",
+        "vocabulary": [
+          {
+            "de": "gemütlich",
+            "en": "cozy / comfortable"
+          },
+          {
+            "de": "reichhaltig",
+            "en": "extensive / rich / plentiful"
+          }
+        ]
       },
       "e": {
-        "title": "SCHWEIZER FERIENORT ZERMATT",
-        "subtitle": "Gastronomie & Hotel",
+        "title": "DAS ASCHENPUTTEL",
+        "subtitle": "KULTURTIPP",
         "lines": [
-          "Erholung pur im Naturfreunde-Hotel Zermatt."
+          "Cinderella, Cenerentola, Aschenputtel – einmal erzählt, einmal gespielt:",
+          "Die Schriftstellerin Elke Seidenreich präsentiert zusammen mit der Basel Sinfonietta den bekannten Märchenstoff auf der Bühne",
+          "Theaterhalle Bern, 20.30 Uhr"
         ],
         "image": "data/images/annika3_ad_e.png",
-        "text_en": "SWISS HOLIDAY RESORT ZERMATT. Pure relaxation in the Naturfreunde-Hotel Zermatt.",
-        "vocabulary": []
+        "text_en": "CINDERELLA (Das Aschenputtel) – CULTURE TIP. Cinderella, Cenerentola, Aschenputtel – once told, once performed: The writer Elke Seidenreich, together with the Basel Sinfonietta, presents the well-known fairy tale material on stage. Theaterhalle Bern, 8:30 p.m.",
+        "vocabulary": [
+          {
+            "de": "die Schriftstellerin",
+            "en": "female writer / author"
+          },
+          {
+            "de": "die Bühne",
+            "en": "stage"
+          }
+        ]
       },
       "f": {
-        "title": "Tierpark Goldau",
-        "subtitle": "Freizeit",
+        "title": "SCHWEIZER FERIENORT ZERMATT",
+        "subtitle": "Naturfreunde-Hotel Zermatt",
         "lines": [
-          "Ein Besuch, der sich lohnt!",
-          "Abenteuerspielplatz, Restaurant.",
-          "365 Tage im Jahr geöffnet.",
-          "www.tierpark.ch"
+          "Erholung pur im Naturfreunde-Hotel Zermatt",
+          "• Herrliche Wanderwege in den Bergen",
+          "• Vorzügliche Küche",
+          "• Eigener Bahnanschluss",
+          "NATURFREUNDE-HOTEL ZERMATT",
+          "Daniela + René Zimmermann",
+          "Tel. 027 967 27 88 · Fax 967 50 29",
+          "zermatt@spectraweb.ch"
         ],
         "image": "data/images/annika3_ad_f.png",
-        "text_en": "Goldau Animal Park. A visit that is worthwhile! Adventure playground, restaurant. Open 365 days a year.",
-        "vocabulary": []
+        "text_en": "SWISS HOLIDAY RESORT ZERMATT. Pure relaxation at the Naturfreunde-Hotel Zermatt: Magnificent hiking trails in the mountains, excellent cuisine, own rail connection. Naturfreunde-Hotel Zermatt, Daniela + René Zimmermann, Tel. 027 967 27 88, Fax 967 50 29, zermatt@spectraweb.ch.",
+        "vocabulary": [
+          {
+            "de": "die Erholung",
+            "en": "relaxation / recreation"
+          },
+          {
+            "de": "vorzüglich",
+            "en": "excellent / exquisite"
+          },
+          {
+            "de": "der Bahnanschluss",
+            "en": "rail / train connection"
+          }
+        ]
       },
       "g": {
-        "title": "Hotel Sarazena Zermatt",
-        "subtitle": "Gastronomie & Hotel",
+        "title": "Tierpark Goldau",
+        "subtitle": "… ein Besuch, der sich lohnt!",
         "lines": [
-          "Gemütliches Ferienhotel in zentraler Lage!",
-          "Perfekt ausgestattete Zimmer mit allem Komfort.",
-          "Tennishalle, Schwimmbad...",
-          "www.hotel-sarazena.ch"
+          "• Freilaufzone",
+          "• Abenteuerspielplatz",
+          "• Restaurant",
+          "• 365 Tage im Jahr offen",
+          "Eintritt frei für Begleitpersonen von Gruppen ab 12 Personen",
+          "Tel. 041-855 50 00",
+          "www.tierpark.ch"
         ],
         "image": "data/images/annika3_ad_g.png",
-        "text_en": "Hotel Sarazena Zermatt. Cozy holiday hotel in a central location! Perfectly equipped rooms with every comfort. Indoor tennis court, swimming pool...",
-        "vocabulary": []
+        "text_en": "Goldau Animal Park – a visit that is worthwhile! Free-roaming zone, adventure playground, restaurant, open 365 days a year. Free admission for accompanying persons of groups of 12 or more. Tel. 041-855 50 00, www.tierpark.ch.",
+        "vocabulary": [
+          {
+            "de": "sich lohnen",
+            "en": "to be worthwhile"
+          },
+          {
+            "de": "die Begleitperson",
+            "en": "accompanying person"
+          }
+        ]
       },
       "h": {
         "title": "DER FEURIGE ELIAS",
-        "subtitle": "Museum",
+        "subtitle": "Bahnmuseum WORB",
         "lines": [
-          "Historische Lokomotiven und Waggons,",
-          "jetzt ausgestellt im Bahnmuseum WORB.",
-          "Führungen für Kinder und Erwachsene.",
-          "Jeden Samstag und Sonntag 11:00 und 16:00 Uhr."
+          "Historische Lokomotiven und Waggons, jetzt ausgestellt im Bahnmuseum WORB",
+          "Führungen für Kinder und Erwachsene: Jeden Samstag und Sonntag 11:00 Uhr und 16:00 Uhr",
+          "Infos: RBS, 3048 Worb",
+          "Telefon: (031) 925 55 55"
         ],
         "image": "data/images/annika3_ad_h.png",
-        "text_en": "THE FIERY ELIAS. Historical locomotives and wagons, now exhibited in the WORB railway museum. Guided tours for children and adults.",
-        "vocabulary": []
+        "text_en": "THE FIERY ELIAS. Historical locomotives and wagons, now exhibited at the WORB Railway Museum. Guided tours for children and adults: Every Saturday and Sunday at 11:00 a.m. and 4:00 p.m. Info: RBS, 3048 Worb, Tel.: (031) 925 55 55.",
+        "vocabulary": [
+          {
+            "de": "ausgestellt",
+            "en": "exhibited / on display"
+          },
+          {
+            "de": "die Führung",
+            "en": "guided tour"
+          }
+        ]
       },
       "i": {
-        "title": "TANZ IMPULSE",
-        "subtitle": "Kurse",
+        "title": "ANDREAS TIERWELT",
+        "subtitle": "Tierfachgeschäft in Solothurn",
         "lines": [
-          "Schule für zeitgenössischen Tanz",
-          "Klassisches Ballett, Modern Dance.",
-          "Offene Gruppen, Kinder, Jugendliche und Erwachsene."
+          "Geöffnet: Mo.–Fr. 9.00–19.00 Uhr · Sa. 9.00–14.00 Uhr",
+          "• Vögel – Nager – Pflanzen",
+          "• Warm- und Kaltwasserfische",
+          "• Futter und Zubehör für alle Tierarten",
+          "• Aquarien und Terrarien",
+          "• Fachberatung",
+          "Kreuzgasse 14, CH 4500 Solothurn",
+          "Tel. 032 622 20 20 · Fax 032 621 52 32"
         ],
         "image": "data/images/annika3_ad_i.png",
-        "text_en": "DANCE IMPULSES. School for contemporary dance. Classical ballet, modern dance.",
-        "vocabulary": []
+        "text_en": "ANDREAS ANIMAL WORLD. Open Mon–Fri 9:00 a.m.–7:00 p.m., Sat 9:00 a.m.–2:00 p.m. Birds – rodents – plants, warm and cold water fish, food and accessories for all animal species, aquariums and terrariums, expert advice. Kreuzgasse 14, CH 4500 Solothurn, Tel. 032 622 20 20, Fax 032 621 52 32.",
+        "vocabulary": [
+          {
+            "de": "der Nager",
+            "en": "rodent"
+          },
+          {
+            "de": "das Zubehör",
+            "en": "accessories / supplies"
+          },
+          {
+            "de": "die Fachberatung",
+            "en": "expert advice"
+          }
+        ]
       },
       "j": {
-        "title": "ANDREAS TIERWELT",
-        "subtitle": "Tiere",
+        "title": "TANZ IMPULSE",
+        "subtitle": "Schule für zeitgenössischen Tanz, klassisches Ballett, Malen und Tanz",
         "lines": [
-          "Vögel - Nager - Pflanzen.",
-          "Warm- und Kaltwasserfische.",
-          "Futter und Zubehör für alle Tierarten.",
-          "Fachberatung."
+          "Laufendes Kursangebot für Anfänger und Fortgeschrittene, Einführungskurse zum Kennenlernen, ganzheitliche Bewegungsschule.",
+          "Offene Gruppen für Kinder, Jugendliche und Erwachsene, max. 10 TeilnehmerInnen.",
+          "Information und Beratung: tanz impulse",
+          "Tel. 027 967 18 18",
+          "www.tanz-impulse-bern.ch"
         ],
         "image": "data/images/annika3_ad_j.png",
-        "text_en": "ANDREAS ANIMAL WORLD. Birds - rodents - plants. Warm and cold water fish. Food and accessories for all animal species.",
-        "vocabulary": []
+        "text_en": "DANCE IMPULSES. School for contemporary dance, classical ballet, painting and dance. Ongoing courses for beginners and advanced learners, introductory courses to get to know us, holistic movement school. Open groups for children, teenagers, and adults, max. 10 participants. Information and advice: tanz impulse, Tel. 027 967 18 18, www.tanz-impulse-bern.ch.",
+        "vocabulary": [
+          {
+            "de": "zeitgenössisch",
+            "en": "contemporary"
+          },
+          {
+            "de": "Fortgeschrittene",
+            "en": "advanced learners"
+          }
+        ]
       },
       "k": {
-        "title": "JAGGI BUCHHANDLUNG",
-        "subtitle": "Veranstaltungen",
+        "title": "JÄGGI BUCHHANDLUNG",
+        "subtitle": "INGRID NOLL (Live im Loeb)",
         "lines": [
-          "Dienstag 8.5., 20 Uhr.",
+          "Dienstag 8.5., 20 Uhr",
           "INGRID NOLL (Live im Loeb)",
-          "Die erfolgreichste und ungewöhnlichste deutsche Krimiautorin liest aus ihrem Werk.",
-          "Eintritt Fr. 10.00."
+          "die erfolgreichste und ungewöhnlichste deutsche Krimiautorin liest aus ihrem unheimlichen Werk „Selige Witwen“.",
+          "Eintritt Fr. 10.00",
+          "TiketCorner.ch 0848 800 800",
+          "Vorverkauf 2. UG im Loeb Bern, Telefon 031 320 20 20",
+          "Eingang Spitalgasse, Türöffnung 30 Min. vor Beginn"
         ],
         "image": "data/images/annika3_ad_k.png",
-        "text_en": "JAGGI BOOKSTORE. Tuesday 8.5., 8 p.m. INGRID NOLL. The most successful and unusual German crime writer reads from her work.",
-        "vocabulary": []
+        "text_en": "JÄGGI BOOKSTORE. Tuesday May 8, 8 p.m. INGRID NOLL (Live at Loeb): the most successful and unusual German crime writer reads from her eerie work 'Selige Witwen'. Admission CHF 10.00. TiketCorner.ch 0848 800 800, advance ticket sales 2nd basement level at Loeb Bern, Tel. 031 320 20 20. Entrance Spitalgasse, doors open 30 min. before start.",
+        "vocabulary": [
+          {
+            "de": "die Krimiautorin",
+            "en": "female crime / thriller writer"
+          },
+          {
+            "de": "unheimlich",
+            "en": "eerie / uncanny"
+          },
+          {
+            "de": "der Vorverkauf",
+            "en": "advance ticket sale"
+          }
+        ]
       },
       "l": {
         "title": "Viking-Tours",
-        "subtitle": "Reisen",
+        "subtitle": "Flussfahrten auf der Aare",
         "lines": [
-          "Flussfahrten auf der Aare.",
-          "Tägliche Fahrten von Mai bis September.",
-          "Spezialangebote."
+          "tägliche Fahrten von Mai bis Sep.",
+          "Abfahrt der Schiffe: 11 Uhr, 14 Uhr, 16 Uhr",
+          "Treffpunkt: Thun/Schwäbis Schiffssteg",
+          "Preise: 43 Franken",
+          "Spezialangebot: Abendfahrten (Rückkehr 23 Uhr), Tanz an Bord, Spezialangebote für Senioren",
+          "Tel. 01 434 33 66 · Fax: 01 434 33 44",
+          "viking@viking.ch · www.viking.ch"
         ],
         "image": "data/images/annika3_ad_l.png",
-        "text_en": "Viking-Tours. River cruises on the Aare. Daily trips from May to September. Special offers.",
-        "vocabulary": []
+        "text_en": "Viking-Tours – River cruises on the Aare. Daily trips from May to Sept. Departure of ships: 11 a.m., 2 p.m., 4 p.m. Meeting point: Thun/Schwäbis pier. Price: 43 CHF. Special offer: Evening cruises (return 11 p.m.), dancing on board, special offers for seniors. Tel. 01 434 33 66, Fax: 01 434 33 44, viking@viking.ch, www.viking.ch.",
+        "vocabulary": [
+          {
+            "de": "die Flussfahrt",
+            "en": "river cruise / trip"
+          },
+          {
+            "de": "der Schiffssteg",
+            "en": "pier / landing stage"
+          }
+        ]
       }
     },
     "situations": [
@@ -382,70 +534,70 @@
         "situation": "Sie lieben Krimis und möchten daher einer Krimiautorin beim Vorlesen zuhören.",
         "situation_en": "You love thrillers and would therefore like to listen to a crime writer reading aloud.",
         "correct_answer": "k",
-        "explanation": "Ad 'k' features Ingrid Noll, a famous 'Krimiautorin' (crime writer), reading from her work."
+        "explanation": "Advertisement 'k' (Jäggi Buchhandlung) invites visitors to a live reading by German crime writer ('Krimiautorin') Ingrid Noll from her book 'Selige Witwen'."
       },
       {
         "number": 12,
         "situation": "Ihr Bekannter würde gerne am Wochenende ein Boot mieten.",
         "situation_en": "Your acquaintance would like to rent a boat on the weekend.",
         "correct_answer": "x",
-        "explanation": "There are no ads for boat rentals. Ad 'l' offers river cruises, but not boat rentals."
+        "explanation": "None of the advertisements offer boat rentals. Advertisement 'l' (Viking-Tours) only offers scheduled passenger river cruises on the Aare."
       },
       {
         "number": 13,
         "situation": "Sie möchten sich in einem Hotel in den Bergen erholen und mit dem Zug anreisen.",
         "situation_en": "You want to relax in a hotel in the mountains and travel by train.",
         "correct_answer": "f",
-        "explanation": "According to the official key, the answer is 'f'. In actual match logic, G or E makes more sense, but we follow the official key provided for this test."
+        "explanation": "Advertisement 'f' (Naturfreunde-Hotel Zermatt) offers pure relaxation ('Erholung pur') in the mountains with its own rail connection ('Eigener Bahnanschluss')."
       },
       {
         "number": 14,
         "situation": "Sie möchten sich eine Märchenvorstellung im Theater ansehen.",
         "situation_en": "You want to watch a fairy tale performance in the theater.",
         "correct_answer": "e",
-        "explanation": "According to the official key, the answer is 'e'. Ad 'a' is actually the Cinderella play, indicating another OCR grid displacement."
+        "explanation": "Advertisement 'e' ('DAS ASCHENPUTTEL') presents the well-known fairy tale ('den bekannten Märchenstoff') on stage at the Theaterhalle Bern."
       },
       {
         "number": 15,
         "situation": "Ihre Freundin sucht ein angenehmes Hotel, in dem man auch Sport treiben kann.",
         "situation_en": "Your friend is looking for a pleasant hotel where you can also do sports.",
         "correct_answer": "d",
-        "explanation": "According to the official key, the answer is 'd'. The actual sports hotel is 'g' (Hotel Sarazena)."
+        "explanation": "Advertisement 'd' (Hotel Sarazena Zermatt) is a cozy holiday hotel ('gemütliches Ferienhotel') offering a gym, indoor tennis court, and swimming pool ('Fitnessraum, Tennishalle, Schwimmbad')."
       },
       {
         "number": 16,
         "situation": "Am Sonntag wollen Sie einen kleinen Ausflug mit Kindern machen. Die Kinder mögen Tiere.",
         "situation_en": "On Sunday you want to go on a short trip with children. The children like animals.",
         "correct_answer": "g",
-        "explanation": "According to the official key, the answer is 'g'. The animal park is actually 'f' (Tierpark Goldau)."
+        "explanation": "Advertisement 'g' (Tierpark Goldau) is an animal park with a free-roaming zone and adventure playground, open 365 days a year (including Sundays). Advertisement 'i' is a pet shop closed on Sundays."
       },
       {
         "number": 17,
         "situation": "Ihre Bekannten möchten gerne im Mai eine Schiffsfahrt machen.",
         "situation_en": "Your acquaintances would like to take a boat trip in May.",
         "correct_answer": "l",
-        "explanation": "Ad 'l' (Viking-Tours) offers river cruises ('Flussfahrten') starting from May."
+        "explanation": "Advertisement 'l' (Viking-Tours) offers daily river cruises on the Aare from May to September ('tägliche Fahrten von Mai bis Sep.')."
       },
       {
         "number": 18,
         "situation": "Sie möchten gerne am Wochenende tanzen gehen und suchen eine tolle Disco.",
         "situation_en": "You would like to go dancing on the weekend and are looking for a great disco.",
         "correct_answer": "x",
-        "explanation": "There are no advertisements for discos."
+        "explanation": "None of the advertisements are for a disco. Advertisement 'j' (Tanz Impulse) is a dance school for ballet and contemporary dance."
       },
       {
         "number": 19,
         "situation": "Der kleine Sohn von Freunden ist begeistert von der Eisenbahn. Sie möchten am Wochenende mit ihm etwas Interessantes machen.",
         "situation_en": "A friends' little son is enthusiastic about trains. You want to do something interesting with him on the weekend.",
-        "correct_answer": "x",
-        "explanation": "According to the official key, the answer is 'x'. Ad 'h' is for the WORB railway museum, but the key ignores it."
+        "correct_answer": "h",
+        "explanation": "Advertisement 'h' ('DER FEURIGE ELIAS') exhibits historical locomotives and wagons at the WORB Railway Museum with guided tours for children and adults every Saturday and Sunday."
       },
       {
         "number": 20,
         "situation": "Sie möchten im August eine Woche in den Bergen wandern und brauchen eine erfahrene Person, die mit Ihnen geht.",
         "situation_en": "You want to hike in the mountains for a week in August and need an experienced person to go with you.",
-        "correct_answer": "h",
-        "explanation": "According to the official key, the answer is 'h'. The actual hiking ad is 'b'."
+        "correct_answer": "a",
+        "explanation": "Advertisement 'a' ('OBER-GOMS: Wandern im Wallis') offers a one-week mountain hiking package in August ('18.–25. August') led by certified mountain guides ('mit geprüften Bergführern')."
       }
     ]
   },
@@ -543,8 +695,8 @@
           "b": "neben",
           "c": "vor"
         },
-        "correct_answer": "b",
-        "explanation": "According to the official key, the answer is 'neben'. ('Unter den richtigen Zahlen' would be more idiomatic, but the key requires B)."
+        "correct_answer": "a",
+        "explanation": "'unter den richtigen Zahlen sein' means 'to be among the winning/correct numbers'."
       },
       {
         "number": 29,
