@@ -232,145 +232,278 @@
         "title": "Meine Welt ist Beethoven",
         "subtitle": "Kontaktanzeigen",
         "lines": [
-          "Jung gebliebener Rentner,",
-          "ehemaliger Musiklehrer (Gymnasium),",
-          "Beethovenfan, besucht (fast) alle",
-          "Beethovenkonzerte und Opern auf der ganzen Welt",
-          "Suche kultur- und musikbegeisterte Begleiterin über 50."
+          "Jung gebliebener Rentner, ehemaliger Musiklehrer (Gymnasium), Beethovenfan, besucht (fast) alle Beethovenkonzerte und Opern auf der ganzen Welt.",
+          "Suche kultur- und musikbegeisterte Begleiterin über 50.",
+          "Zuschriften unter A/B 5813 an diese Zeitung."
         ],
         "image": "data/images/eva1_ad_a.png",
-        "text_en": "Young-at-heart pensioner, former music teacher, Beethoven fan, looking for a culture and music enthusiastic female companion over 50.",
-        "vocabulary": []
+        "text_en": "My world is Beethoven: Young-at-heart retiree, former high school music teacher, Beethoven fan, attends (almost) all Beethoven concerts and operas around the world. Seeking a culture- and music-loving female companion over 50. Replies under A/B 5813 to this newspaper.",
+        "vocabulary": [
+          {
+            "de": "jung geblieben",
+            "en": "young at heart"
+          },
+          {
+            "de": "die Begleiterin",
+            "en": "female companion"
+          },
+          {
+            "de": "die Zuschrift",
+            "en": "written reply / letter"
+          }
+        ]
       },
       "b": {
-        "title": "Richtig bewerben",
-        "subtitle": "Bücher",
+        "title": "Richtig bewerben – Bewerbungen richtig gestalten",
+        "subtitle": "von Hans Müller",
         "lines": [
-          "Bewerbungen richtig gestalten",
           "Das 11-Punkte-Programm zur erfolgreichen Bewerbung",
+          "aus dem Milleniums-Verlag, mit vielen Musterbeispielen und Checklisten hilft Ihnen, Bewerbung und Bewerbungsgespräch erfolgreich zu bestehen.",
           "Jetzt neu in Ihrer Buchhandlung!"
         ],
         "image": "data/images/eva1_ad_b.png",
-        "text_en": "Apply correctly - design applications correctly. The 11-point program for a successful application. Now new in your bookstore!",
-        "vocabulary": []
+        "text_en": "Applying Properly – Designing Applications Correctly by Hans Müller: The 11-point program for a successful application from Milleniums-Verlag, with many sample examples and checklists to help you successfully master your application and job interview. Now new in your bookstore!",
+        "vocabulary": [
+          {
+            "de": "das Musterbeispiel",
+            "en": "sample / model example"
+          },
+          {
+            "de": "das Bewerbungsgespräch",
+            "en": "job interview"
+          },
+          {
+            "de": "bestehen",
+            "en": "to pass / master"
+          }
+        ]
       },
       "c": {
         "title": "Rezeptionisten / Rezeptionistin",
-        "subtitle": "Stellenangebote",
+        "subtitle": "Hotel Vier Jahreszeiten",
         "lines": [
-          "Wir suchen zum nächstmöglichen Termin:",
-          "Rezeptionisten / Rezeptionistin",
-          "Sie sind: zeitlich flexibel, sympathisch und freundlich, zwischen 20 und 35 Jahre alt",
-          "Hotel Vier Jahreszeiten"
+          "Wir suchen zum nächstmöglichen Termin eine/n Rezeptionisten / Rezeptionistin.",
+          "Sie sind: zeitlich flexibel, sympathisch und freundlich, zwischen 20 und 35 Jahre alt.",
+          "Wir bieten: überdurchschnittliche Bezahlung, festes Arbeitsverhältnis (ganzjährig), gute Arbeitsatmosphäre.",
+          "Wir erwarten: Ihre Bewerbungsunterlagen.",
+          "Hotel Vier Jahreszeiten, Postfach 12345"
         ],
         "image": "data/images/eva1_ad_c.png",
-        "text_en": "We are looking for receptionists. You are flexible, friendly, 20-35 years old. Hotel Vier Jahreszeiten.",
-        "vocabulary": []
+        "text_en": "Receptionist wanted as soon as possible. You are: flexible with time, personable and friendly, between 20 and 35 years old. We offer: above-average pay, permanent employment (year-round), good working atmosphere. We expect: your application documents. Hotel Vier Jahreszeiten, P.O. Box 12345.",
+        "vocabulary": [
+          {
+            "de": "zum nächstmöglichen Termin",
+            "en": "at the earliest possible date"
+          },
+          {
+            "de": "überdurchschnittlich",
+            "en": "above-average"
+          },
+          {
+            "de": "das Arbeitsverhältnis",
+            "en": "employment relationship"
+          }
+        ]
       },
       "d": {
-        "title": "Ratgeber Au-pair",
-        "subtitle": "Bücher",
+        "title": "»Ratgeber Au-pair«",
+        "subtitle": "Neuerscheinung zur Buchmesse – von Erika und Justus Meier-Krause",
         "lines": [
-          "Neuerscheinung zum Thema",
-          "Suche und Auswahl des richtigen Au-pair Mädchens",
-          "Vertragsbestimmungen"
+          "aus dem Inhalt:",
+          "• Suche und Auswahl des richtigen Au-pair-Mädchens",
+          "• Vertragsbestimmungen",
+          "• Wie hoch ist das passende Gehalt?",
+          "• Was müssen Sie beachten? uvm.",
+          "MILLENIUMS-VERLAG · HAMBURG"
         ],
         "image": "data/images/eva1_ad_d.png",
-        "text_en": "New publication on the subject: Guide Au-pair. Search and selection of the right au-pair girl.",
-        "vocabulary": []
+        "text_en": "New publication for the book fair: 'Au-pair Guide' by Erika and Justus Meier-Krause. Contents include: Finding and selecting the right au pair girl, contract terms, what is the appropriate salary, what do you need to consider, and much more. Milleniums-Verlag Hamburg.",
+        "vocabulary": [
+          {
+            "de": "die Neuerscheinung",
+            "en": "new publication / release"
+          },
+          {
+            "de": "die Vertragsbestimmung",
+            "en": "contract provision / term"
+          }
+        ]
       },
       "e": {
-        "title": "Jugendtrainer gesucht",
-        "subtitle": "Sport",
+        "title": "Jugendtrainer für unsere Vereinsjugend",
+        "subtitle": "Sportclub Erbach",
         "lines": [
-          "Wir sind ein Sportclub mit engagierten Mitgliedern",
-          "suchen für die nächste Saison einen neuen",
-          "Jugendtrainer für unsere Vereinsjugend.",
-          "Sportclub Erbach"
+          "Wir sind ein Sportclub mit engagierten Mitgliedern und suchen für die nächste Saison einen neuen Jugendtrainer für unsere Vereinsjugend.",
+          "Schwerpunkte: Handball, Volleyball, Basketball, Fußball",
+          "2 Nachmittage pro Woche (je 3 Stunden)",
+          "Sportclub Erbach, Tel.: 01233 / 56744"
         ],
         "image": "data/images/eva1_ad_e.png",
-        "text_en": "Youth coach wanted for our club youth. Sports club Erbach.",
-        "vocabulary": []
+        "text_en": "We are a sports club with dedicated members looking for a new youth coach for our club youth for next season. Focus areas: handball, volleyball, basketball, soccer. 2 afternoons per week (3 hours each). Sportclub Erbach, Tel.: 01233 / 56744.",
+        "vocabulary": [
+          {
+            "de": "der Schwerpunkt",
+            "en": "focus / main area"
+          },
+          {
+            "de": "die Vereinsjugend",
+            "en": "club youth"
+          }
+        ]
       },
       "f": {
-        "title": "Lehrerin sucht Partner",
+        "title": "Nette Lehrerin sucht Partner",
         "subtitle": "Kontaktanzeigen",
         "lines": [
-          "Nette Lehrerin sucht Partner:",
-          "Ich bin über dreißig, aber unter vierzig, meine Hobbys sind Reiten und Wandern.",
-          "Ich suche einen humorvollen, intelligenten Enddreißiger"
+          "Ich bin über dreißig, aber unter vierzig; meine Hobbys sind Reiten und Wandern.",
+          "Ich suche einen humorvollen, intelligenten Enddreißiger, der mit mir zu Fuß oder zu Pferd ferne Gegenden erkundet und immer ein offenes Ohr für mich hat.",
+          "Z/B 2240"
         ],
         "image": "data/images/eva1_ad_f.png",
-        "text_en": "Nice female teacher seeks partner. Over 30, under 40. Looking for an intelligent man in his late 30s.",
-        "vocabulary": []
+        "text_en": "Nice female teacher seeks partner: I am over thirty, but under forty; my hobbies are horseback riding and hiking. I am looking for a humorous, intelligent man in his late thirties to explore distant places with me on foot or on horseback and who always has an open ear for me. Box Z/B 2240.",
+        "vocabulary": [
+          {
+            "de": "der Enddreißiger",
+            "en": "man in his late thirties"
+          },
+          {
+            "de": "erkunden",
+            "en": "to explore"
+          },
+          {
+            "de": "ein offenes Ohr haben",
+            "en": "to have a sympathetic ear"
+          }
+        ]
       },
       "g": {
-        "title": "Immer Ärger mit der Autowerkstatt?",
-        "subtitle": "Bücher",
+        "title": "Automechaniker / Autoschlosser",
+        "subtitle": "Autohaus Robert & Sohn",
         "lines": [
-          "Machen Sie es selbst!",
-          "HANDBUCH AUTO",
-          "detaillierte Anleitungen für viele Reparaturarbeiten am eigenen Auto"
+          "Wir stellen ein: Automechaniker / Autoschlosser",
+          "Sie haben eine abgeschlossene Berufsausbildung und viel Freude an Ihrem Beruf? Dann schwimmen Sie mit uns auf der Erfolgswelle.",
+          "Bewerbungsunterlagen an: Autohaus Robert & Sohn, Postfach, 33378 Rheda-Wiedenbrück"
         ],
         "image": "data/images/eva1_ad_g.png",
-        "text_en": "Always trouble with the car workshop? Do it yourself! MANUAL CAR with detailed instructions for car repairs.",
-        "vocabulary": []
+        "text_en": "We are hiring: Car mechanic / auto locksmith. Do you have completed vocational training and enjoy your profession? Then ride the wave of success with us. Send applications to: Autohaus Robert & Sohn, P.O. Box, 33378 Rheda-Wiedenbrück.",
+        "vocabulary": [
+          {
+            "de": "die Berufsausbildung",
+            "en": "vocational training"
+          },
+          {
+            "de": "die Erfolgswelle",
+            "en": "wave of success"
+          }
+        ]
       },
       "h": {
-        "title": "Kindergarten Hokuspokus",
-        "subtitle": "Stellenangebote",
+        "title": "Großes Modehaus sucht junge Models",
+        "subtitle": "Modehaus Schwärzinger",
         "lines": [
-          "sucht neue Mitarbeiterin zum 1. September.",
-          "Sie sind: kinderlieb, temperamentvoll, kreativ und geduldig!"
+          "Großes Modehaus sucht junge Models (männlich/weiblich) für Modeschauen in ganz Deutschland und Österreich in den Monaten Juli und August.",
+          "Wir bieten gute Bezahlung bei freier Reise, Kost und Logis.",
+          "Bewerbungen mit Foto an: Modehaus Schwärzinger, Marketing-Abteilung, Postfach, 76530 Baden-Baden"
         ],
         "image": "data/images/eva1_ad_h.png",
-        "text_en": "Kindergarten Hokuspokus seeks a new female employee by September 1st.",
-        "vocabulary": []
+        "text_en": "Large fashion house seeks young models (male/female) for fashion shows throughout Germany and Austria in the months of July and August. We offer good pay with free travel, room, and board. Applications with photo to: Modehaus Schwärzinger, Marketing Department, P.O. Box, 76530 Baden-Baden.",
+        "vocabulary": [
+          {
+            "de": "die Modeschau",
+            "en": "fashion show"
+          },
+          {
+            "de": "Kost und Logis",
+            "en": "room and board"
+          }
+        ]
       },
       "i": {
-        "title": "russisches Au-pair-Mädchen",
-        "subtitle": "Stellenangebote",
+        "title": "Kindergarten „Hokuspokus“",
+        "subtitle": "sucht neue Mitarbeiterin zum 1. September",
         "lines": [
-          "Für meine 2 und 4 jährigen Töchter suche ich",
-          "ein russisches Au-pair-Mädchen"
+          "Sie sind: kinderlieb, temperamentvoll, kreativ und geduldig!",
+          "Dann bieten wir Ihnen einen Job in einem dynamischen, jungen Team mit guter Bezahlung!",
+          "Bewerbung an: Hokuspokus, Gartenstr. 19, Karlsruhe"
         ],
         "image": "data/images/eva1_ad_i.png",
-        "text_en": "For my 2 and 4 year old daughters I am looking for a Russian au-pair girl.",
-        "vocabulary": []
+        "text_en": "Kindergarten 'Hokuspokus' seeks a new female employee starting September 1. You are: fond of children, lively, creative, and patient! Then we offer you a job in a dynamic, young team with good pay! Apply to: Hokuspokus, Gartenstr. 19, Karlsruhe.",
+        "vocabulary": [
+          {
+            "de": "kinderlieb",
+            "en": "fond of children"
+          },
+          {
+            "de": "geduldig",
+            "en": "patient"
+          }
+        ]
       },
       "j": {
-        "title": "Automechaniker / Autoschlosser",
-        "subtitle": "Stellenangebote",
+        "title": "Stadtverwaltung Erbach – Abteilung Sport",
+        "subtitle": "Die Broschüre „SPORTVEREINE BEI UNS“",
         "lines": [
-          "Wir stellen ein:",
-          "Automechaniker / Autoschlosser",
-          "Sie haben eine abgeschlossene Berufsausbildung..."
+          "Um den Bürgerinnen und Bürgern die Wahl des richtigen Sportvereins zu erleichtern, haben wir eine Informationsbroschüre mit den Anschriften aller Vereine zusammengestellt.",
+          "Die Broschüre „SPORTVEREINE BEI UNS“ ist ab sofort kostenlos im Rathaus, im Bürgerbüro und bei allen Banken und Sparkassen erhältlich."
         ],
         "image": "data/images/eva1_ad_j.png",
-        "text_en": "We are hiring: Car mechanic.",
-        "vocabulary": []
+        "text_en": "City Administration Erbach – Sports Department: To make it easier for citizens to choose the right sports club, we have compiled an information brochure with the addresses of all clubs. The brochure 'SPORTS CLUBS NEAR US' is now available free of charge at City Hall, the citizens' office, and all banks.",
+        "vocabulary": [
+          {
+            "de": "die Anschrift",
+            "en": "address"
+          },
+          {
+            "de": "zusammenstellen",
+            "en": "to compile / put together"
+          }
+        ]
       },
       "k": {
-        "title": "SPORTVEREINE BEI UNS",
-        "subtitle": "Information",
+        "title": "Immer Ärger mit der Autowerkstatt?",
+        "subtitle": "HANDBUCH AUTO – von Heribert Pause",
         "lines": [
-          "Stadtverwaltung Erbach, Abteilung Sport",
-          "Informationsbroschüre mit den Anschriften aller Vereine"
+          "Reparaturen zu teuer und schlecht gemacht? Machen Sie es doch selbst!",
+          "In dem Standardwerk HANDBUCH AUTO von Heribert Pause finden Sie – reich bebildert – detaillierte Anleitungen für viele Reparaturarbeiten am eigenen Auto.",
+          "Milleniums-Verlag – Hamburg"
         ],
         "image": "data/images/eva1_ad_k.png",
-        "text_en": "Information brochure with addresses of all sports clubs in Erbach.",
-        "vocabulary": []
+        "text_en": "Always trouble with the auto repair shop? Repairs too expensive and poorly done? Do it yourself! In the standard reference work CAR MANUAL by Heribert Pause you will find—richly illustrated—detailed instructions for many repair jobs on your own car. Milleniums-Verlag Hamburg.",
+        "vocabulary": [
+          {
+            "de": "reich bebildert",
+            "en": "richly illustrated"
+          },
+          {
+            "de": "die Anleitung",
+            "en": "instruction / guide"
+          }
+        ]
       },
       "l": {
-        "title": "Großes Modehaus sucht Models",
-        "subtitle": "Stellenangebote",
+        "title": "russisches Au-pair-Mädchen gesucht",
+        "subtitle": "Dr. Igor Kafelnikow, Berlin",
         "lines": [
-          "Großes Modehaus sucht junge Models",
-          "(männlich/weiblich)"
+          "Für meine 2 und 4-jährigen Töchter suche ich ab kommenden Winter nettes, kreatives russisches Au-pair-Mädchen für die Betreuung der Kinder und leichte Hausarbeiten.",
+          "Voraussetzungen: mindestens 21 Jahre alt, Studentin, gute Referenzen, mit meinen zweisprachig aufwachsenden Töchtern ausschließlich Russisch sprechen.",
+          "Bewerbung an: Dr. Igor Kafelnikow, Stettiner Str. 17, 10178 Berlin"
         ],
         "image": "data/images/eva1_ad_l.png",
-        "text_en": "Large fashion house seeks young models.",
-        "vocabulary": []
+        "text_en": "For my 2- and 4-year-old daughters, I am looking for a nice, creative Russian au pair girl starting next winter for childcare and light housework. Requirements: at least 21 years old, university student, good references, speak exclusively Russian with my bilingually raised daughters. Apply to: Dr. Igor Kafelnikow, Stettiner Str. 17, 10178 Berlin.",
+        "vocabulary": [
+          {
+            "de": "die Voraussetzung",
+            "en": "requirement / prerequisite"
+          },
+          {
+            "de": "zweisprachig",
+            "en": "bilingual"
+          },
+          {
+            "de": "ausschließlich",
+            "en": "exclusively"
+          }
+        ]
       }
     },
     "situations": [
@@ -379,70 +512,70 @@
         "situation": "Ihr Bekannter ist Sportlehrer und sucht eine Nebenbeschäftigung in einem Verein.",
         "situation_en": "Your acquaintance is a sports teacher and is looking for a side job in a club.",
         "correct_answer": "e",
-        "explanation": "He is a sports teacher looking for club work. Ad 'e' is looking for a youth sports coach ('Jugendtrainer')."
+        "explanation": "Anzeige e (Sportclub Erbach) sucht einen Jugendtrainer für 2 Nachmittage pro Woche (je 3 Stunden) – ideal als Nebenbeschäftigung."
       },
       {
         "number": 12,
         "situation": "Ein guter Bekannter (39) sucht eine Partnerin. Er ist reiselustig und geht spazieren.",
         "situation_en": "A good acquaintance (39) is looking for a female partner. He loves to travel and go for walks.",
         "correct_answer": "f",
-        "explanation": "He is 39 and looking for a partner. Ad 'f' is a female teacher looking for an 'Enddreißiger' (late 30s man) who likes to hike ('Wandern')."
+        "explanation": "In Anzeige f sucht eine Lehrerin einen „Enddreißiger, der mit mir zu Fuß oder zu Pferd ferne Gegenden erkundet“."
       },
       {
         "number": 13,
         "situation": "Ihre Freundin ist besonders hübsch, Studentin und sucht für die Semesterferien im Sommer einen Job.",
-        "situation_en": "Your friend is particularly pretty, a student and is looking for a job for the summer semester break.",
-        "correct_answer": "l",
-        "explanation": "Ad 'l' is looking for young models, which fits the 'pretty' friend looking for work. The answer key marks 'H', which is a mismatch in the OCR grid."
+        "situation_en": "Your friend is particularly pretty, a student, and is looking for a job for the summer semester break.",
+        "correct_answer": "h",
+        "explanation": "Anzeige h (Modehaus Schwärzinger) sucht junge Models für Modeschauen in den Sommermonaten Juli und August bei guter Bezahlung."
       },
       {
         "number": 14,
         "situation": "Sie suchen für das kommende Wochenende eine Konzertkarte.",
         "situation_en": "You are looking for a concert ticket for the coming weekend.",
         "correct_answer": "x",
-        "explanation": "None of the ads sell concert tickets."
+        "explanation": "Keine der Anzeigen verkauft Konzertkarten (Anzeige a ist eine private Kontaktanzeige eines Rentners)."
       },
       {
         "number": 15,
         "situation": "Ihre 30-jährige Freundin hat in einem Hotel in Spanien gearbeitet und sucht jetzt eine ähnliche Arbeit in Deutschland.",
         "situation_en": "Your 30-year-old friend worked in a hotel in Spain and is now looking for a similar job in Germany.",
         "correct_answer": "c",
-        "explanation": "She is 30 and wants hotel work. Ad 'c' seeks a receptionist for a hotel, aged 20-35."
+        "explanation": "Anzeige c (Hotel Vier Jahreszeiten) sucht eine Rezeptionistin im Alter zwischen 20 und 35 Jahren."
       },
       {
         "number": 16,
         "situation": "Ihre 55-jährige Nachbarin sucht jemanden, mit dem sie reisen und klassische Konzerte besuchen kann.",
-        "situation_en": "Your 55-year-old neighbor is looking for someone to travel with and attend classical concerts.",
+        "situation_en": "Your 55-year-old neighbor is looking for someone with whom she can travel and attend classical concerts.",
         "correct_answer": "a",
-        "explanation": "Ad 'a' is placed by a senior Beethoven fan looking for a female companion over 50."
+        "explanation": "In Anzeige a sucht ein pensionierter Musiklehrer und Beethovenfan eine kultur- und musikbegeisterte Begleiterin über 50 für Konzert- und Opernreisen."
       },
       {
         "number": 17,
         "situation": "Sie möchten lernen, wie Sie kleinere Reparaturen an Ihrem Auto selbst machen können.",
         "situation_en": "You want to learn how to do minor repairs on your car yourself.",
-        "correct_answer": "g",
-        "explanation": "Ad 'g' advertises a book with detailed instructions for DIY car repairs. Answer key indicates K."
+        "correct_answer": "k",
+        "explanation": "Anzeige k wirbt für das Standardwerk „HANDBUCH AUTO“ mit detaillierten Anleitungen für viele Reparaturarbeiten am eigenen Auto."
       },
       {
         "number": 18,
         "situation": "Die Tochter Ihrer russischen Bekannten sucht eine Au-pair-Stelle in Deutschland. Sie ist erst 18 Jahre alt.",
         "situation_en": "The daughter of your Russian acquaintance is looking for an au pair position in Germany. She is only 18 years old.",
         "correct_answer": "x",
-        "explanation": "Ad 'i' wants a Russian au-pair, but usually these have age restrictions. The answer key indicates 'x'."
+        "explanation": "Anzeige l sucht zwar ein russisches Au-pair-Mädchen, nennt aber als Voraussetzung „mindestens 21 Jahre alt, Studentin“. Da sie erst 18 ist, passt keine Anzeige (x)."
       },
       {
         "number": 19,
         "situation": "Ihre 21-jährige Bekannte sucht eine Stelle als Kindergärtnerin.",
         "situation_en": "Your 21-year-old acquaintance is looking for a job as a kindergarten teacher.",
-        "correct_answer": "h",
-        "explanation": "Ad 'h' is from a kindergarten looking for a new employee. Answer key indicates I."
+        "correct_answer": "i",
+        "explanation": "Anzeige i (Kindergarten „Hokuspokus“ in Karlsruhe) sucht eine neue Mitarbeiterin zum 1. September."
       },
       {
         "number": 20,
         "situation": "Eine Freundin braucht ein paar Ratschläge, wie sie erfolgreich eine neue Arbeit finden kann.",
         "situation_en": "A friend needs some advice on how to successfully find a new job.",
         "correct_answer": "b",
-        "explanation": "Ad 'b' is a book offering an 11-point program for a successful job application."
+        "explanation": "Anzeige b stellt das Buch „Richtig bewerben“ (Das 11-Punkte-Programm zur erfolgreichen Bewerbung mit Musterbeispielen und Checklisten) vor."
       }
     ]
   },
