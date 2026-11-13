@@ -227,207 +227,361 @@
   "leseverstehen_teil_3": {
     "advertisements": {
       "a": {
-        "title": "Mitarbeiter/innen am Empfang",
-        "subtitle": "Stellenangebote",
+        "title": "DAS MUSIKERLEBNIS",
+        "subtitle": "Münchner Philharmonie",
         "lines": [
-          "Wir suchen für unsere sechs Hotelbetriebe",
-          "im gehobenen Bereich in München, Frankfurt und Berlin:",
-          "Mitarbeiter/innen am Empfang.",
-          "Wenn Sie bereits Rezeptionserfahrung haben...",
-          "Blattl's Hotels Zentralbüro, 80501 München."
+          "DAS MUSIKERLEBNIS",
+          "Wann: Donnerstag, 17.6., 20 Uhr",
+          "Wo: Münchner Philharmonie, Prinzregentenplatz 3",
+          "Haydn Symphonie Hob. I:82 „Der Bär“",
+          "Beethoven Chorfantasie, c-Moll, op. 80, Symphonie Nr. 1, C-Dur, op. 21",
+          "Es singen: Rieko Koyama, Sopran 1, Ji-Young Jon, Sopran 2, Svitlana Podolskaya, Mezzosopran, Markus Zapp, Tenor, Thomas Bauer, Bass, Martin Schmidt, Bass; begleitet von Matthias Kirschnereit am Klavier",
+          "Leitung: Hanns-Martin Schneidt",
+          "Euro 85,– / 75,– / 65,– / 55,– / 45,– / 35,– Tonhalle"
         ],
-        "image": "data/images/thomas_ad_a.png",
-        "text_en": "Employees at the reception. We are looking for our six hotel businesses in the upscale area in Munich, Frankfurt and Berlin. If you already have reception experience... Blattl's Hotels.",
-        "vocabulary": []
+        "image": "data/images/sonja3_ad_a.png",
+        "text_en": "THE MUSICAL EXPERIENCE. When: Thursday, June 17, 8:00 p.m. Where: Munich Philharmonic, Prinzregentenplatz 3. Haydn Symphony Hob. I:82 'The Bear'; Beethoven Choral Fantasy in C minor, op. 80, Symphony No. 1 in C major, op. 21. Featuring vocal soloists Rieko Koyama, Ji-Young Jon, Svitlana Podolskaya, Markus Zapp, Thomas Bauer, Martin Schmidt; accompanied by Matthias Kirschnereit on piano. Conductor: Hanns-Martin Schneidt. Tickets: Euro 85 / 75 / 65 / 55 / 45 / 35.",
+        "vocabulary": [
+          {
+            "de": "begleitet von",
+            "en": "accompanied by"
+          },
+          {
+            "de": "die Leitung",
+            "en": "direction / conducting"
+          }
+        ]
       },
       "b": {
-        "title": "PSA-Zeitarbeit",
-        "subtitle": "Stellenangebote",
+        "title": "SPICK – Die Zeitschrift für Schülerinnen und Schüler",
+        "subtitle": "Herzlichen Glückwunsch!",
         "lines": [
-          "Die PSA kooperiert mit über 500 unabhängigen Personaldienstleistern.",
-          "Wir suchen ständig: Studentische Unternehmensberater, Studenten für IT-Administration..."
+          "Herzlichen Glückwunsch!",
+          "Kinder haben immer etwas zu feiern.",
+          "Und das schönste Geschenk hält ein Jahr:",
+          "SPICK – DIE ZEITSCHRIFT FÜR SCHÜLERINNEN UND SCHÜLER",
+          "Bestellen Sie ein Probeheft oder – noch besser – gleich ein Abonnement, ganz einfach per Telefon 01 404 63 80 oder E-Mail: abo-service@spick.ch"
         ],
-        "image": "data/images/thomas_ad_b.png",
-        "text_en": "PSA temp work. We cooperate with over 500 independent personnel service providers. We are constantly looking for: Student management consultants, students for IT administration...",
-        "vocabulary": []
+        "image": "data/images/sonja3_ad_b.png",
+        "text_en": "Congratulations! Children always have something to celebrate. And the nicest gift lasts a whole year: SPICK – THE MAGAZINE FOR SCHOOLGIRLS AND SCHOOLBOYS. Order a trial issue or—even better—a subscription right away, easily by phone at 01 404 63 80 or email: abo-service@spick.ch.",
+        "vocabulary": [
+          {
+            "de": "das Probeheft",
+            "en": "trial issue"
+          },
+          {
+            "de": "das Abonnement",
+            "en": "subscription"
+          }
+        ]
       },
       "c": {
-        "title": "Tatort (ARD)",
-        "subtitle": "Fernsehen",
+        "title": "KOREA PAVILLON",
+        "subtitle": "Echt koreanische Spezialitäten",
         "lines": [
-          "20.15 Tatort (ARD)",
-          "Nun kommen die Krimi-Fans wieder auf ihre Kosten: Horst Schimanski ermittelt.",
-          "Ihm zur Seite steht Denise Mercier. Die gebürtige Schweizerin spielt die Freundin..."
+          "KOREA PAVILLON",
+          "Jeden Mittwoch und Samstag:",
+          "Buffet à discrétion ab 18.30 Uhr",
+          "Unser Personal bedient Sie in original koreanischer Nationaltracht",
+          "Eigene Parkplätze • Klimatisierte Räume",
+          "Echt koreanische Spezialitäten",
+          "Badenerstraße 457 • Telefon (01) 492 33 32"
         ],
-        "image": "data/images/thomas_ad_c.png",
-        "text_en": "8:15 p.m. Tatort (ARD). Now thriller fans get their money's worth again. He is supported by Denise Mercier. The native Swiss plays the girlfriend...",
-        "vocabulary": []
+        "image": "data/images/sonja3_ad_c.png",
+        "text_en": "KOREA PAVILLON. Every Wednesday and Saturday: All-you-can-eat buffet starting at 6:30 p.m. Our staff serves you in original Korean national costume. Private parking, air-conditioned rooms. Authentic Korean specialties. Badenerstraße 457, Tel. (01) 492 33 32.",
+        "vocabulary": [
+          {
+            "de": "die Nationaltracht",
+            "en": "national costume / traditional dress"
+          },
+          {
+            "de": "klimatisiert",
+            "en": "air-conditioned"
+          }
+        ]
       },
       "d": {
-        "title": "TAPE Media Film GmbH",
-        "subtitle": "Praktikum",
+        "title": "Im Saalbau: Das Casal Quartett",
+        "subtitle": "CH-5000 Aarau, Schweiz",
         "lines": [
-          "PRAKTIKANT/IN im Bereich Medien und Veranstaltungstechnik gesucht.",
-          "Bewerbung per E-Mail: info@mediafilm-project.de"
+          "CH-5000 Aarau, Schweiz",
+          "Im Saalbau:",
+          "Samstag, 30. Januar, 17.00 Uhr",
+          "Das Casal Quartett spielt Werke von",
+          "Ludwig van Beethoven, Georg Crumb, Antonín Dvořák",
+          "Vorverkauf: Info Aarau 062 822 75 22"
         ],
-        "image": "data/images/thomas_ad_d.png",
-        "text_en": "INTERN wanted in the field of media and event technology. Application via email: info@mediafilm-project.de",
-        "vocabulary": []
+        "image": "data/images/sonja3_ad_d.png",
+        "text_en": "CH-5000 Aarau, Switzerland. At the Saalbau: Saturday, January 30, 5:00 p.m. The Casal Quartet plays works by Ludwig van Beethoven, Georg Crumb, and Antonín Dvořák. Advance tickets: Info Aarau 062 822 75 22.",
+        "vocabulary": [
+          {
+            "de": "der Vorverkauf",
+            "en": "advance ticket sales"
+          }
+        ]
       },
       "e": {
-        "title": "New Media GmbH",
-        "subtitle": "Stellenangebote",
+        "title": "Cantino – Das Restaurant im Museum für Musikinstrumente",
+        "subtitle": "Restaurant mit Sonnenterrasse",
         "lines": [
-          "Lukrative Halbtagstätigkeit:",
-          "Expandierendes High-Tech Unternehmen der Film- und Medienbranche sucht junge Mitarbeiterinnen für Empfang.",
-          "Gute Internet- und Fremdsprachenkenntnisse erforderlich!"
+          "Cantino – Das Restaurant im Museum für Musikinstrumente",
+          "Restaurant mit Sonnenterrasse",
+          "Montag–Freitag 12:00 bis 15:00 Uhr und 18:00 bis 23:00 Uhr",
+          "Samstag ab 18:00 Uhr",
+          "Sonntag TAPAS-Brunch 12:00 bis 15:00 Uhr – Essen Sie Tapas, so viele Sie wollen!",
+          "Modern gestalteter Innenraum. Eingang direkt neben der Museumskasse."
         ],
-        "image": "data/images/thomas_ad_e.png",
-        "text_en": "Lucrative part-time job: Expanding high-tech company in the film and media industry is looking for young female employees for the reception. Good internet and foreign language skills required!",
-        "vocabulary": []
+        "image": "data/images/sonja3_ad_e.png",
+        "text_en": "Cantino – The restaurant in the Museum of Musical Instruments. Restaurant with sun terrace. Monday–Friday 12:00 to 3:00 p.m. and 6:00 to 11:00 p.m., Saturday from 6:00 p.m., Sunday TAPAS Brunch 12:00 to 3:00 p.m. – Eat as many tapas as you want! Modern interior design. Entrance right next to the museum ticket desk.",
+        "vocabulary": [
+          {
+            "de": "die Sonnenterrasse",
+            "en": "sun terrace"
+          },
+          {
+            "de": "die Museumskasse",
+            "en": "museum ticket desk"
+          }
+        ]
       },
       "f": {
-        "title": "Kundenbefragungen",
-        "subtitle": "Stellenangebote",
+        "title": "GALAKONZERT – Stadtharmonie Zürich Oerlikon-Seebach",
+        "subtitle": "Zürich Grosser Saal",
         "lines": [
-          "Wir suchen engagierte Mitarbeiterinnen für Kundenbefragungen.",
-          "10-15 Std/Woche. Wichtig sind sicheres Auftreten..."
+          "Zürich Grosser Saal",
+          "Donnerstag, 17. Juli, 19.30 Uhr",
+          "GALAKONZERT",
+          "Symphonisches Blasorchester Stadtharmonie Zürich Oerlikon-Seebach",
+          "Leitung: Eric Conus",
+          "mit Werken von Carl Maria von Weber, Edvard Grieg, Peter Iljitsch Tschaikowsky, Dmitri Schostakowitsch, Franco Cesarini, Alfred Reed, Philip Sparke",
+          "Karten zu Fr. 19.–, 27.– und 35.– erhältlich bei: Billett-Service Migros (City Shopping), Tel. 01 221 16 71; Billettzentrale Tel. 01 221 22 83; Musikhaus Bucher, 8050 Zürich, Tel. 01 312 58 43",
+          "Abendkasse am Konzerttag ab 18.00 Uhr"
         ],
-        "image": "data/images/thomas_ad_f.png",
-        "text_en": "We are looking for dedicated female employees for customer surveys. 10-15 hrs/week. Important are confident demeanor...",
-        "vocabulary": []
+        "image": "data/images/sonja3_ad_f.png",
+        "text_en": "Zurich Great Hall. Thursday, July 17, 7:30 p.m. GALA CONCERT. Symphonic Wind Orchestra Stadtharmonie Zürich Oerlikon-Seebach, conducted by Eric Conus, with works by Weber, Grieg, Tchaikovsky, Shostakovich, Cesarini, Reed, and Sparke. Tickets at CHF 19, 27, and 35. Box office on the day of the concert from 6:00 p.m.",
+        "vocabulary": [
+          {
+            "de": "das Blasorchester",
+            "en": "wind orchestra / brass band"
+          },
+          {
+            "de": "die Abendkasse",
+            "en": "evening box office"
+          }
+        ]
       },
       "g": {
-        "title": "3Sat LIVE - TALK-SHOW",
-        "subtitle": "Fernsehen",
+        "title": "Gastland NORWEGEN – KULINARISCHE Märchen aus Fjordlachs",
+        "subtitle": "Flughafenrestaurants",
         "lines": [
-          "20:15 Diskussionsrunde 3Sat LIVE",
-          "Drei Länder, ein Thema. TALK-SHOW.",
-          "Kommt die Öko-Diktatur?",
-          "Wie begegnet man dem Verkehrskollaps? Wie retten wir die Umwelt?"
+          "Gastland NORWEGEN",
+          "KULINARISCHE Märchen aus Fjordlachs",
+          "VOM 26. MAI BIS 22. JUNI",
+          "Frisch aus Norwegen und köstlich zubereitet.",
+          "Lassen Sie sich von unseren sommerlichen Lachskreationen überraschen.",
+          "Flughafenrestaurants TOP AIR, ASIA COFFEE SHOP, BINARIO UNO und BRASSERIE",
+          "Reservation 01-816 60 60"
         ],
-        "image": "data/images/thomas_ad_g.png",
-        "text_en": "8:15 p.m. Discussion round 3Sat LIVE. Three countries, one topic. TALK SHOW. Is the eco-dictatorship coming? How do we save the environment?",
-        "vocabulary": []
+        "image": "data/images/sonja3_ad_g.png",
+        "text_en": "Guest Country NORWAY – CULINARY Fairy Tales made of Fjord Salmon. FROM MAY 26 TO JUNE 22. Fresh from Norway and deliciously prepared. Let yourself be surprised by our summery salmon creations. Airport restaurants TOP AIR, ASIA COFFEE SHOP, BINARIO UNO, and BRASSERIE. Reservation: 01-816 60 60.",
+        "vocabulary": [
+          {
+            "de": "der Lachs",
+            "en": "salmon"
+          },
+          {
+            "de": "köstlich zubereitet",
+            "en": "deliciously prepared"
+          }
+        ]
       },
       "h": {
-        "title": "Stern TV-Countdown (VOX)",
-        "subtitle": "Fernsehen",
+        "title": "Alpenklänge – Die andere Schweizer Volksmusik",
+        "subtitle": "HOFKONZERTE Winterthur",
         "lines": [
-          "22:55 Stern TV-Countdown (VOX)",
-          "In zehn Reportagen zeigt Spiegel TV-Mann Jörg Hafkemeyer, wie sich die ersten Monate der neuen Regierung gestalten."
+          "Alpenklänge – Die andere Schweizer Volksmusik",
+          "Do 17. Juli 20 Uhr Oberwalliser Spillit, Gast: Sina (Paul Locher, Geige; Elmar Schmid, Klarinette; Klaus Schmid, Klarinette; Oswald Bumann, Bassgeige; Sabine Gertschen, Hackbrett; Marcel Volken, Schwyzerörgeli; Edmund Volken, Hackbrett)",
+          "Do 24. Juli 20 Uhr Roots of Communication, Gast: Erika Stucky (Robert Morgenthaler, Posaune, Alphorn, Didgeridoo; Jean-Jacques Pedretti, Alphorn, Posaune; Lukas Niggli, Schlagzeug, Perkussion)",
+          "HOFKONZERTE – Zentrum am Obertor 8, Winterthur",
+          "Vorverkauf: Zentrum am Obertor, Tel. 052 213 88 88; Tourist-Service, Tel. 052 269 26 66",
+          "Bei schlechter Witterung: Neuwiesenhof-Saal, Wartstr. 17, Auskunft am Veranstaltungstag über Nr. 1600"
         ],
-        "image": "data/images/thomas_ad_h.png",
-        "text_en": "10:55 p.m. Stern TV-Countdown (VOX). In ten reports, Spiegel TV man Jörg Hafkemeyer shows how the first months of the new government are shaping up.",
-        "vocabulary": []
+        "image": "data/images/sonja3_ad_h.png",
+        "text_en": "Alpine Sounds – The other Swiss folk music. Thu July 17, 8:00 p.m.: Oberwalliser Spillit, guest: Sina. Thu July 24, 8:00 p.m.: Roots of Communication, guest: Erika Stucky. COURTYARD CONCERTS – Zentrum am Obertor 8, Winterthur. In case of bad weather: Neuwiesenhof-Saal, Wartstr. 17.",
+        "vocabulary": [
+          {
+            "de": "die Volksmusik",
+            "en": "folk music"
+          },
+          {
+            "de": "die Witterung",
+            "en": "weather conditions"
+          }
+        ]
+      },
+      "i": {
+        "title": "Hiltl. Vegetarisch nach Lust und Laune",
+        "subtitle": "Kochbuch – WERDERVERLAG",
+        "lines": [
+          "Hiltl. Vegetarisch nach Lust und Laune",
+          "Vegetarische Küche liegt im Trend!",
+          "Zum Jubiläum des Hiltl in Zürich, des ersten vegetarischen Restaurants in Europa, veröffentlicht Rolf Hiltl über 60 der beliebtesten Rezepte zum Nachkochen.",
+          "Hiltl. Vegetarisch nach Lust und Laune",
+          "168 Seiten, 120 farbige Abbildungen, gebunden, Fr. 59.–",
+          "WERDERVERLAG, Postfach, 8021 Zürich, Tel. 0846 860 560, Fax 01 / ...",
+          "Internet www.werderverlag.ch – Jetzt im Buchhandel erhältlich"
+        ],
+        "image": "data/images/sonja3_ad_i.png",
+        "text_en": "Hiltl. Vegetarian as You Please. Vegetarian cuisine is trending! For the anniversary of Hiltl in Zurich, the first vegetarian restaurant in Europe, Rolf Hiltl publishes over 60 of the most popular recipes to cook at home. 168 pages, 120 color illustrations, hardcover, CHF 59. Available now in bookstores.",
+        "vocabulary": [
+          {
+            "de": "das Rezept zum Nachkochen",
+            "en": "recipe to cook at home"
+          },
+          {
+            "de": "gebunden",
+            "en": "hardcover / bound"
+          }
+        ]
       },
       "j": {
-        "title": "Max Frisch: Biedermann",
-        "subtitle": "Radio & Hörspiel",
+        "title": "Konzert für Orchester, Trompeten und Flöten",
+        "subtitle": "András Adorján, Uwe Komischke, Friedemann Winklhofer",
         "lines": [
-          "Max Frisch: Biedermann und die Brandstifter",
-          "Samstag, 19. September, 20:10 Uhr, Hessischer Rundfunk.",
-          "Ein Lehrstück ohne Lehre nannte Frisch sein ursprünglich als Hörspiel gedachtes... Stück."
+          "András Adorján, Flöte",
+          "Uwe Komischke, Trompete",
+          "Friedemann Winklhofer, Cembalo und Leitung",
+          "Konzert für Orchester, Trompeten und Flöten",
+          "Di., 22.6., 20 Uhr",
+          "(Bei schlechtem Wetter im Herkulessaal)"
         ],
-        "image": "data/images/thomas_ad_j.png",
-        "text_en": "Max Frisch: Biedermann and the Arsonists. Saturday, Sept. 19, 8:10 p.m., Hessischer Rundfunk. Frisch called his piece, originally intended as a radio play, a didactic play without a lesson.",
-        "vocabulary": []
+        "image": "data/images/sonja3_ad_j.png",
+        "text_en": "András Adorján (flute), Uwe Komischke (trumpet), Friedemann Winklhofer (harpsichord and conducting). Concert for Orchestra, Trumpets, and Flutes. Tue, June 22, 8:00 p.m. (In case of bad weather in the Herkulessaal).",
+        "vocabulary": [
+          {
+            "de": "das Cembalo",
+            "en": "harpsichord"
+          }
+        ]
       },
       "k": {
-        "title": "Transparent - Das Kulturstudio",
-        "subtitle": "Radio",
+        "title": "SCHWEIZER HEIMATWERK – Geschenke von hier, von heute, von Hand",
+        "subtitle": "Traditionelles Kunsthandwerk und Trachten",
         "lines": [
-          "Transparent - Das Kulturstudio",
-          "(22:15, Radio Wien)",
-          "Architekten sprechen über die Zukunft von Europas Metropolen."
+          "SCHWEIZER HEIMATWERK – Geschenke von hier, von heute, von Hand",
+          "Hier finden Sie das optimale Geschenk für jede und jeden!",
+          "Traditionelles Kunsthandwerk und Trachten, Panorama-Poster.",
+          "jetzt neu: große Auswahl an CDs verschiedenster Schweizer Künstler",
+          "Genf • Aarau • St. Gallen • Zürich, Tel. 01 211 57 80 • http://www.heimatwerk.ch"
         ],
-        "image": "data/images/thomas_ad_k.png",
-        "text_en": "Transparent - The Culture Studio (10:15 p.m., Radio Vienna). Architects talk about the future of Europe's metropolises.",
-        "vocabulary": []
+        "image": "data/images/sonja3_ad_k.png",
+        "text_en": "SCHWEIZER HEIMATWERK – Gifts from here, from today, handmade. Here you will find the ideal gift for everyone! Traditional handicrafts and traditional costumes, panorama posters. Now new: large selection of CDs by various Swiss artists. Geneva, Aarau, St. Gallen, Zurich, Tel. 01 211 57 80, http://www.heimatwerk.ch.",
+        "vocabulary": [
+          {
+            "de": "das Kunsthandwerk",
+            "en": "handicrafts / arts and crafts"
+          },
+          {
+            "de": "die Tracht",
+            "en": "traditional costume"
+          }
+        ]
       },
       "l": {
-        "title": "PRIMA-Werbung",
-        "subtitle": "Stellenangebote",
+        "title": "Neuburger – Am Wochenende griechische Spezialitäten",
+        "subtitle": "Gastronomie",
         "lines": [
-          "Sie lieben den Umgang mit Menschen?",
-          "Sie sind außerdem auch dynamisch und ehrgeizig, dann sind Sie bei uns genau richtig.",
-          "Münchens bekannte PRIMA-Werbung bietet Ihnen..."
+          "Neuburger",
+          "Genießen Sie unsere Gastfreundschaft und die sagenhafte Auswahl!",
+          "Am Wochenende griechische Spezialitäten",
+          "Hopfenstraße 19, bei ...",
+          "Telefon 01 ...",
+          "Mo.–Fr.: 11:30–14:00 ... Samstag/Sonntag ..."
         ],
-        "image": "data/images/thomas_ad_l.png",
-        "text_en": "Do you love dealing with people? Are you also dynamic and ambitious, then you've come to the right place. Munich's well-known PRIMA-Werbung offers you...",
-        "vocabulary": []
+        "image": "data/images/sonja3_ad_l.png",
+        "text_en": "Neuburger. Enjoy our hospitality and fabulous selection! On the weekend: Greek specialties. Hopfenstraße 19. Open Mon–Fri and Saturday/Sunday.",
+        "vocabulary": [
+          {
+            "de": "die Gastfreundschaft",
+            "en": "hospitality"
+          },
+          {
+            "de": "sagenhaft",
+            "en": "fabulous / legendary"
+          }
+        ]
       }
     },
     "situations": [
       {
         "number": 11,
-        "situation": "Sie haben von einer Schweizer Schauspielerin gehört und möchten gern einen Film sehen.",
-        "situation_en": "You have heard of a Swiss actress and would like to see a film.",
-        "correct_answer": "c",
-        "explanation": "Ad 'c' advertises the crime show 'Tatort' featuring Denise Mercier, a native Swiss ('gebürtige Schweizerin')."
+        "situation": "Während Ihres Sommerurlaubs in der Schweiz möchten Sie ein Konzert besuchen. Sie interessieren sich für die traditionelle Musik dieses Landes.",
+        "situation_en": "During your summer vacation in Switzerland, you would like to attend a concert. You are interested in the traditional music of this country.",
+        "correct_answer": "h",
+        "explanation": "Ad 'h' ('Alpenklänge – Die andere Schweizer Volksmusik') offers summer courtyard concerts in July in Winterthur, Switzerland, featuring traditional Swiss folk music instruments such as the Alphorn, Hackbrett, and Schwyzerörgeli."
       },
       {
         "number": 12,
-        "situation": "Sie haben gerade Ihre Ausbildung beendet und suchen eine Stelle an der Rezeption.",
-        "situation_en": "You have just finished your training and are looking for a job at the reception.",
-        "correct_answer": "a",
-        "explanation": "Ad 'a' is looking for 'Mitarbeiter/innen am Empfang' (Employees at the reception) with reception experience."
+        "situation": "Ein Freund von Ihnen interessiert sich für Norwegen. Sie wollen ihm ein passendes Buch schenken.",
+        "situation_en": "A friend of yours is interested in Norway. You want to give him a suitable book.",
+        "correct_answer": "x",
+        "explanation": "There is no advertisement for a book about Norway. Ad 'g' ('Gastland NORWEGEN – KULINARISCHE Märchen aus Fjordlachs') is an advertisement for salmon dishes at airport restaurants, not a book, and ad 'i' is a vegetarian cookbook."
       },
       {
         "number": 13,
-        "situation": "Sie interessieren sich für Umweltschutz und suchen eine passende Sendung.",
-        "situation_en": "You are interested in environmental protection and are looking for a suitable program.",
-        "correct_answer": "g",
-        "explanation": "Ad 'g' advertises a talk show discussing 'Wie retten wir die Umwelt?' (How do we save the environment?)."
+        "situation": "Sie möchten gerne in einem Restaurant mit Live-Musik essen.",
+        "situation_en": "You would like to eat in a restaurant with live music.",
+        "correct_answer": "x",
+        "explanation": "None of the restaurants advertised offers live music. Ad 'e' ('Cantino') is located inside the Museum of Musical Instruments, but does not offer live music during meals."
       },
       {
         "number": 14,
-        "situation": "Ihr Freund, der am Institut für Film und Bild studiert, sucht einen geeigneten Praktikumsplatz.",
-        "situation_en": "Your friend, who is studying at the Institute for Film and Image, is looking for a suitable internship.",
-        "correct_answer": "d",
-        "explanation": "Ad 'd' is looking for an intern ('PRAKTIKANT/IN') at TAPE Media Film GmbH."
+        "situation": "Sie suchen ein Geschenk für die 12-jährige Tochter Ihrer Schweizer Freunde.",
+        "situation_en": "You are looking for a gift for the 12-year-old daughter of your Swiss friends.",
+        "correct_answer": "b",
+        "explanation": "Ad 'b' advertises a gift subscription to 'SPICK – DIE ZEITSCHRIFT FÜR SCHÜLERINNEN UND SCHÜLER' (the Swiss magazine for schoolgirls and schoolboys): 'Und das schönste Geschenk hält ein Jahr'."
       },
       {
         "number": 15,
-        "situation": "In einer Sendereihe wird im Fernsehen über die neue politische Entwicklung in Deutschland berichtet. Sie wollen sich informieren.",
-        "situation_en": "A series on television reports on the new political developments in Germany. You want to inform yourself.",
-        "correct_answer": "h",
-        "explanation": "Ad 'h' advertises a TV report showing how the first months of the new government ('neuen Regierung') are shaping up."
+        "situation": "Sie suchen für Ihre Freunde ein passendes Geschenk. Ihre Freunde kochen gern selbst und probieren oft neue Rezepte.",
+        "situation_en": "You are looking for a suitable gift for your friends. Your friends like to cook for themselves and often try new recipes.",
+        "correct_answer": "i",
+        "explanation": "Ad 'i' advertises the cookbook 'Hiltl. Vegetarisch nach Lust und Laune', which contains over 60 popular vegetarian recipes to cook at home ('über 60 der beliebtesten Rezepte zum Nachkochen')."
       },
       {
         "number": 16,
-        "situation": "Sie interessieren sich für Großstädte und ihre Entwicklung und suchen dazu eine Sendung im Rundfunk.",
-        "situation_en": "You are interested in big cities and their development and are looking for a radio program on this.",
-        "correct_answer": "k",
-        "explanation": "Ad 'k' on Radio Wien features architects talking about the future of Europe's metropolises ('Europas Metropolen')."
+        "situation": "Sie möchten am Samstagabend griechisch essen gehen.",
+        "situation_en": "You would like to go out for Greek food on Saturday evening.",
+        "correct_answer": "l",
+        "explanation": "Ad 'l' ('Neuburger') offers Greek specialties on the weekend ('Am Wochenende griechische Spezialitäten', open Saturday/Sunday)."
       },
       {
         "number": 17,
-        "situation": "Sie sind mit der Schule fertig und wollen bei der Deutschen Bahn eine Ausbildung machen.",
-        "situation_en": "You have finished school and want to do an apprenticeship at Deutsche Bahn.",
-        "correct_answer": "x",
-        "explanation": "There are no advertisements regarding an apprenticeship at Deutsche Bahn."
+        "situation": "Sie suchen ein Restaurant, in dem Sie draußen sitzen können.",
+        "situation_en": "You are looking for a restaurant where you can sit outside.",
+        "correct_answer": "e",
+        "explanation": "Ad 'e' ('Cantino') is a restaurant with a sun terrace ('Restaurant mit Sonnenterrasse') where guests can sit outdoors."
       },
       {
         "number": 18,
-        "situation": "Sie interessieren sich für politisches Theater und möchten dazu am Wochenende etwas hören oder sehen.",
-        "situation_en": "You are interested in political theater and would like to hear or see something about it on the weekend.",
-        "correct_answer": "j",
-        "explanation": "Ad 'j' advertises a radio play ('Hörspiel') of Max Frisch's theater piece on a Saturday ('Samstag')."
+        "situation": "Sie sind im Juni in München und möchten ein Konzert mit Gesang besuchen.",
+        "situation_en": "You are in Munich in June and would like to attend a concert with vocals.",
+        "correct_answer": "a",
+        "explanation": "Ad 'a' ('DAS MUSIKERLEBNIS') takes place on Thursday, June 17 ('17.6.') at the Münchner Philharmonie in Munich and includes Beethoven's Choral Fantasy with vocal soloists ('Es singen: ...'). Ad 'j' is only an instrumental concert."
       },
       {
         "number": 19,
-        "situation": "Sie arbeiten gern mit anderen zusammen und suchen eine Tätigkeit bei einer Werbefirma.",
-        "situation_en": "You like working with others and are looking for a job at an advertising agency.",
-        "correct_answer": "l",
-        "explanation": "Ad 'l' is a job offer from PRIMA-Werbung (advertising agency) looking for people who enjoy dealing with people."
+        "situation": "Sie sind in der Schweiz und suchen ein Souvenir für Ihre Freunde.",
+        "situation_en": "You are in Switzerland and are looking for a souvenir for your friends.",
+        "correct_answer": "k",
+        "explanation": "Ad 'k' ('SCHWEIZER HEIMATWERK – Geschenke von hier, von heute, von Hand') offers traditional Swiss handicrafts, traditional costumes, panorama posters, and CDs by Swiss artists across several Swiss cities."
       },
       {
         "number": 20,
-        "situation": "Sie wollen mehr über das Thema Arbeiten in Europa erfahren.",
-        "situation_en": "You want to find out more about working in Europe.",
-        "correct_answer": "x",
-        "explanation": "There are no advertisements regarding working in Europe."
+        "situation": "Sie sind am Flughafen und möchten etwas essen.",
+        "situation_en": "You are at the airport and would like to eat something.",
+        "correct_answer": "g",
+        "explanation": "Ad 'g' advertises salmon specialties at the airport restaurants ('Flughafenrestaurants TOP AIR, ASIA COFFEE SHOP, BINARIO UNO und BRASSERIE')."
       }
     ]
   },
