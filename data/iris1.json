@@ -233,165 +233,311 @@
   "leseverstehen_teil_3": {
     "advertisements": {
       "a": {
-        "title": "Pizza Avanti",
-        "subtitle": "Gastronomie",
-        "lines": [
-          "Pizza AVANTI",
-          "Heimservice gut und frisch.",
-          "Chicken-Chips-Menü, Chicken-Wings-Menü.",
-          "Firmen-Menü...",
-          "Mo-Fr 10-23 Uhr."
-        ],
-        "image": "data/images/iris1_ad_a.png",
-        "text_en": "Pizza AVANTI. Home service good and fresh. Chicken menus. Mon-Fri 10am-11pm.",
-        "vocabulary": []
-      },
-      "b": {
-        "title": "Spanisch lernen am Atlantik",
+        "title": "Academia Atlantika – Spanisch lernen",
         "subtitle": "Bildung & Reisen",
         "lines": [
-          "Spanisch lernen",
-          "Andalusien: Sevilla / Conil.",
-          "Equador: Quito.",
-          "Kombiangebot: Kurs plus Unterkunft.",
-          "www.atlantika.net"
+          "••• Spanisch lernen •••",
+          "Andalusien: Sevilla/Conil",
+          "Equador: Quito",
+          "Kombiangebot: Kurs plus Unterkunft",
+          "• ganzjährig, alle Niveaus",
+          "• Bildungsurlaub",
+          "2 Wochen ab 280 Euro",
+          "ACADEMIA ATLANTIKA",
+          "seit 1984",
+          "Elbbecken 7 · 22299 Hamburg",
+          "Tel. 040/477587 · Fax 040/477539",
+          "www.atlantika.net · E-mail: spanisch@atlantika.net"
         ],
-        "image": "data/images/iris1_ad_b.png",
-        "text_en": "Learn Spanish. Andalusia. Ecuador. Combo offer: Course plus accommodation.",
-        "vocabulary": []
+        "image": "data/images/iris1_ad_a.png",
+        "text_en": "Learn Spanish. Andalusia: Seville/Conil. Ecuador: Quito. Combo offer: course plus accommodation. Year-round, all levels, educational leave. 2 weeks from 280 Euros. ACADEMIA ATLANTIKA, since 1984, Elbbecken 7, 22299 Hamburg.",
+        "vocabulary": [
+          {
+            "de": "die Unterkunft",
+            "en": "the accommodation"
+          },
+          {
+            "de": "ganzjährig",
+            "en": "year-round"
+          }
+        ]
       },
-      "c": {
-        "title": "Autoreparatur",
-        "subtitle": "Dienstleistungen",
-        "lines": [
-          "Autoreparatur",
-          "Schnell und günstig.",
-          "Rufen Sie uns an.",
-          "FASS"
-        ],
-        "image": "data/images/iris1_ad_c.png",
-        "text_en": "Car repair. Fast and cheap. Call us.",
-        "vocabulary": []
-      },
-      "d": {
+      "b": {
         "title": "Can Ribes",
         "subtitle": "Bildung & Reisen",
         "lines": [
           "Can Ribes",
-          "Spanischkurse, Urlaub, Seminare."
+          "Spanischkurse • Urlaub • Seminare",
+          "Spanischkurse mit Kinderbetreuung",
+          "Kurse für Schüler",
+          "in altem Landhaus in Katalonien",
+          "Kontakt:",
+          "Ch. Eckhardt, Dellstr. 13, 47051 Duisburg",
+          "Telefon: (0203) 287588 · Fax: (0203) 21715"
         ],
-        "image": "data/images/iris1_ad_d.png",
-        "text_en": "Can Ribes. Spanish courses, holidays, seminars.",
-        "vocabulary": []
+        "image": "data/images/iris1_ad_b.png",
+        "text_en": "Can Ribes. Spanish courses, vacation, seminars. Spanish courses with childcare. Courses for school students in an old country house in Catalonia. Contact: Ch. Eckhardt, Dellstr. 13, 47051 Duisburg.",
+        "vocabulary": [
+          {
+            "de": "die Kinderbetreuung",
+            "en": "the childcare"
+          },
+          {
+            "de": "das Landhaus",
+            "en": "the country house"
+          }
+        ]
       },
-      "e": {
-        "title": "Schrott- und Unfall-Autos",
-        "subtitle": "Dienstleistungen",
-        "lines": [
-          "Schrott- und Unfall-Autos.",
-          "Wir erledigen alles für Sie:",
-          "ANKAUF, ABHOLEN, ABMELDEN."
-        ],
-        "image": "data/images/iris1_ad_e.png",
-        "text_en": "Scrap and accident cars. We take care of everything for you: buying, picking up, deregistering.",
-        "vocabulary": []
-      },
-      "f": {
+      "c": {
         "title": "Einmal was erleben!",
-        "subtitle": "Reisen",
+        "subtitle": "Reisen & Freizeit",
         "lines": [
           "Einmal was erleben!",
-          "Wir organisieren Sie die komplette Tour."
+          "Wenn Sie mit Ihrer Klasse Abenteuer, Romantik, Natur pur und Gemeinschaftssport erleben wollen, dann sollten Sie mit uns Kanu fahren.",
+          "• wir organisieren für Sie die komplette Tour",
+          "• Versicherungsschutz auf dem Wasser durch uns",
+          "• Betreuung der Tour durch einen erfahrenen Kanuten",
+          "Anmeldung und ausführliche Information:",
+          "Am Sportplatz 70 · 49459 Lembruch",
+          "Tel.: 05447-525 · Fax: 05447-1772"
         ],
-        "image": "data/images/iris1_ad_f.png",
-        "text_en": "Experience something for once! We organize the complete tour for you.",
-        "vocabulary": []
+        "image": "data/images/iris1_ad_c.png",
+        "text_en": "Experience something for once! If you want to experience adventure, romance, pure nature, and team sports with your class, you should go canoeing with us. We organize the complete tour for you, insurance coverage on the water through us, tour supervision by an experienced canoeist. Am Sportplatz 70, 49459 Lembruch.",
+        "vocabulary": [
+          {
+            "de": "das Abenteuer",
+            "en": "the adventure"
+          },
+          {
+            "de": "der Versicherungsschutz",
+            "en": "the insurance coverage"
+          }
+        ]
       },
-      "g": {
-        "title": "SCHMIDT & MÜLLER",
+      "d": {
+        "title": "Autoreparatur Fa. ASS",
+        "subtitle": "Dienstleistungen",
+        "lines": [
+          "Autoreparatur",
+          "schnell und günstig",
+          "Auspuff · Bremsen · AU",
+          "Kupplung · TÜV · Unfall",
+          "kaum Wartezeit",
+          "Rufen Sie uns an:",
+          "Fa. ASS",
+          "Landsberger Str. 328",
+          "Telefon 54 64 47 33"
+        ],
+        "image": "data/images/iris1_ad_d.png",
+        "text_en": "Car repair – fast and affordable. Exhaust, brakes, emissions inspection (AU), clutch, technical inspection (TÜV), accident repair. Hardly any waiting time. Call us: Fa. ASS, Landsberger Str. 328, Tel. 54 64 47 33.",
+        "vocabulary": [
+          {
+            "de": "die Bremsen",
+            "en": "the brakes"
+          },
+          {
+            "de": "die Wartezeit",
+            "en": "the waiting time"
+          }
+        ]
+      },
+      "e": {
+        "title": "Schrott-Autos / Unfall-Autos",
+        "subtitle": "Dienstleistungen",
+        "lines": [
+          "Schrott-Autos",
+          "Unfall-Autos",
+          "Wir erledigen alles für Sie:",
+          "▪ ANKAUF",
+          "▪ ABHOLEN",
+          "▪ ABMELDEN",
+          "Tel. (089) 8 63 39 75, 9–18 Uhr"
+        ],
+        "image": "data/images/iris1_ad_e.png",
+        "text_en": "Scrap cars, accident cars. We take care of everything for you: purchasing, picking up, deregistering. Tel. (089) 8 63 39 75, 9 a.m.–6 p.m.",
+        "vocabulary": [
+          {
+            "de": "der Ankauf",
+            "en": "the purchase / buying"
+          },
+          {
+            "de": "abmelden",
+            "en": "to deregister"
+          }
+        ]
+      },
+      "f": {
+        "title": "Radio- und Fernsehtechnik GmbH SCHMIDT & MÜLLER",
         "subtitle": "Dienstleistungen",
         "lines": [
           "Radio- und Fernsehtechnik GmbH",
           "SCHMIDT & MÜLLER",
-          "TV - HiFi - Video",
-          "Reparaturen, Kabelanschlüsse..."
+          "TV – HiFi – Video",
+          "Reparaturen, Kabelanschlüsse, Antennenbau, Satellitenanlagen",
+          "Limesstraße 103",
+          "81243 München",
+          "Tel. 089-8 71 20 20",
+          "Mail: Fernseh-Schmidt@muenchen.de"
+        ],
+        "image": "data/images/iris1_ad_f.png",
+        "text_en": "Radio and Television Technology GmbH SCHMIDT & MÜLLER. TV – HiFi – Video. Repairs, cable connections, antenna construction, satellite systems. Limesstraße 103, 81243 Munich, Tel. 089-8 71 20 20.",
+        "vocabulary": [
+          {
+            "de": "die Reparatur",
+            "en": "the repair"
+          },
+          {
+            "de": "der Kabelanschluss",
+            "en": "the cable connection"
+          }
+        ]
+      },
+      "g": {
+        "title": "Harlachinger Kinderladen",
+        "subtitle": "Einkaufen & Dienstleistungen",
+        "lines": [
+          "Liebevolle Geschenkideen für Klein und Groß im",
+          "Harlachinger Kinderladen",
+          "Puppendoktor – Wir reparieren Puppen und Stofftiere jeder Art",
+          "Heigelstr. 1 · Ecke Naupliastraße",
+          "Telefon 089-644838"
         ],
         "image": "data/images/iris1_ad_g.png",
-        "text_en": "Radio and television technology. TV - HiFi - Video. Repairs, cable connections...",
-        "vocabulary": []
+        "text_en": "Lovely gift ideas for young and old at the Harlachinger Children's Shop. Doll doctor – we repair dolls and stuffed animals of all kinds. Heigelstr. 1, corner of Naupliastraße, Tel. 089-644838.",
+        "vocabulary": [
+          {
+            "de": "das Stofftier",
+            "en": "the stuffed animal / soft toy"
+          }
+        ]
       },
       "h": {
-        "title": "Harlachinger Kinderladen",
-        "subtitle": "Dienstleistungen",
-        "lines": [
-          "Liebevolle Geschenkideen für Klein und Groß",
-          "Harlachinger Kinderladen.",
-          "Puppendoktor - Wir reparieren Puppen und Stofftiere jeder Art."
-        ],
-        "image": "data/images/iris1_ad_h.png",
-        "text_en": "Lovely gift ideas for young and old. Harlachinger Kinderladen. Doll doctor - we repair dolls and stuffed animals of all kinds.",
-        "vocabulary": []
-      },
-      "i": {
-        "title": "MÜNCHENSTIFT",
-        "subtitle": "Dienstleistungen",
-        "lines": [
-          "MÜNCHENSTIFT",
-          "Pflege zu Hause.",
-          "Ambulanter Dienst in Laim/Pasing."
-        ],
-        "image": "data/images/iris1_ad_i.png",
-        "text_en": "MÜNCHENSTIFT. Care at home. Outpatient service in Laim/Pasing.",
-        "vocabulary": []
-      },
-      "j": {
         "title": "FACHHANDEL GRÜN",
         "subtitle": "Einkaufen",
         "lines": [
           "FACHHANDEL GRÜN",
-          "Haushaltsgeräte, Einbauküchen",
-          "Haushaltswaren, Bestecke",
-          "Porzellan und Glaswaren, Geschenke..."
+          "Haushaltsgeräte · Einbauküchen",
+          "Haushaltswaren · Bestecke",
+          "Porzellan und Glaswaren",
+          "Geschenke · Geschenkgutscheine und Hochzeitslisten",
+          "Leiblstraße 9",
+          "82166 Lochham/München",
+          "Tel. 089-87 53 23"
         ],
-        "image": "data/images/iris1_ad_j.png",
-        "text_en": "FACHHANDEL GRÜN. Household appliances, fitted kitchens, household goods, cutlery, porcelain and glassware, gifts...",
-        "vocabulary": []
+        "image": "data/images/iris1_ad_h.png",
+        "text_en": "FACHHANDEL GRÜN. Household appliances, fitted kitchens, household goods, cutlery, porcelain and glassware, gifts, gift vouchers, and wedding registries. Leiblstraße 9, 82166 Lochham/Munich, Tel. 089-87 53 23.",
+        "vocabulary": [
+          {
+            "de": "die Haushaltswaren",
+            "en": "the household goods"
+          },
+          {
+            "de": "das Besteck",
+            "en": "the cutlery"
+          }
+        ]
       },
-      "k": {
-        "title": "Pizza Avanti",
-        "subtitle": "Gastronomie",
-        "lines": [
-          "Pizza AVANTI",
-          "Heimservice gut und frisch.",
-          "Menü...",
-          "Tel. 89 66 90 99"
-        ],
-        "image": "data/images/iris1_ad_k.png",
-        "text_en": "Pizza AVANTI. Home service good and fresh.",
-        "vocabulary": []
-      },
-      "l": {
+      "i": {
         "title": "Praxis Dr. W. Penners",
         "subtitle": "Gesundheit",
         "lines": [
           "Praxis Dr. W. Penners",
-          "Orthopäde, Chirurgie, Sportmedizin."
+          "Orthopäde · Chirotherapie · Sportmedizin",
+          "Rothenfelderstraße 4 · München-Neuaubing",
+          "geöffnet von Montag bis Donnerstag 8–18 Uhr",
+          "Termine nach Vereinbarung",
+          "Telefon 87 04 01",
+          "Vertretung in dringenden Notfällen:",
+          "Dr. Heyn · Telefon 8344025"
         ],
-        "image": "data/images/iris1_ad_l.png",
-        "text_en": "Practice Dr. W. Penners. Orthopedist, surgery, sports medicine.",
-        "vocabulary": []
+        "image": "data/images/iris1_ad_i.png",
+        "text_en": "Practice Dr. W. Penners. Orthopedist, chirotherapy, sports medicine. Rothenfelderstraße 4, Munich-Neuaubing. Open Monday to Thursday 8 a.m.–6 p.m., appointments by arrangement. Tel. 87 04 01. Substitute in urgent emergencies: Dr. Heyn, Tel. 8344025.",
+        "vocabulary": [
+          {
+            "de": "die Sportmedizin",
+            "en": "sports medicine"
+          },
+          {
+            "de": "die Vereinbarung",
+            "en": "the appointment / agreement"
+          }
+        ]
       },
-      "m": {
-        "title": "Essen auf Rädern",
+      "j": {
+        "title": "MÜNCHENSTIFT – Pflege zu Hause",
+        "subtitle": "Dienstleistungen & Pflege",
+        "lines": [
+          "Gemeinnützige Gesellschaft der Landeshauptstadt mbH",
+          "MÜNCHENSTIFT",
+          "wohnen und pflegen in der Stadt",
+          "Pflege zu Hause",
+          "Ambulanter Dienst in Laim/Pasing:",
+          "Alfons-Hoffmann-Haus",
+          "Agnes-Bernauer-Straße 185, 80687 München",
+          "Telefon (089) 5 46 47-230"
+        ],
+        "image": "data/images/iris1_ad_j.png",
+        "text_en": "Non-profit company of the state capital mbH MÜNCHENSTIFT – living and care in the city. Care at home. Outpatient service in Laim/Pasing: Alfons-Hoffmann-Haus, Agnes-Bernauer-Straße 185, 80687 Munich, Tel. (089) 5 46 47-230.",
+        "vocabulary": [
+          {
+            "de": "die Pflege",
+            "en": "the care / nursing"
+          }
+        ]
+      },
+      "k": {
+        "title": "Pizza AVANTI",
+        "subtitle": "Gastronomie",
+        "lines": [
+          "Pizza AVANTI",
+          "HEIMSERVICE GUT UND FRISCH",
+          "CHICKEN-AKTION",
+          "• Chicken-Chips-Menü",
+          "• Chicken-Wings-Menü",
+          "jeweils mit gem. Salat und Getränk 6,20 Euro",
+          "• Firmen-Menü, Pizza n. Wahl",
+          "mit gem. Salat und Getränk 7,20 Euro",
+          "Tel. 89 66 90 99",
+          "Landsberger Straße 487 bei der Offenbachstr.,",
+          "Mo.–Fr. 10–23 Uhr · Sa./So./Feiertag 11–23 Uhr",
+          "Pizza AVANTI – Heimservice mit Stehimbiss"
+        ],
+        "image": "data/images/iris1_ad_k.png",
+        "text_en": "Pizza AVANTI – Home delivery service, good and fresh. Chicken special: Chicken-Chips-Menu, Chicken-Wings-Menu, each with mixed salad and drink 6.20 Euros. Company menu, pizza of choice with mixed salad and drink 7.20 Euros. Tel. 89 66 90 99, Landsberger Straße 487. Mon–Fri 10 a.m.–11 p.m., Sat/Sun/Holidays 11 a.m.–11 p.m.",
+        "vocabulary": [
+          {
+            "de": "der Heimservice",
+            "en": "the home delivery service"
+          }
+        ]
+      },
+      "l": {
+        "title": "Caritas-Zentrum Menzing – Essen auf Rädern",
         "subtitle": "Gastronomie & Dienstleistungen",
         "lines": [
-          "Nein! Danke! - so warmes Essen",
-          "Wir bringen zu Ihnen ins Haus werktags eine warme Mahlzeit.",
-          "Normalkost, Schonkost, vegetarisch..."
+          "Allein Kochen?? Nein! Danke!",
+          "auch Sa + So warmes Essen",
+          "Wir bringen zu Ihnen ins Haus:",
+          "• Werktags eine warme Mahlzeit (mit oder ohne Suppe)",
+          "• an Samstagen, Sonntagen, Feiertagen auf Wunsch tiefgefroren",
+          "• Normalkost, Schonkost, Diät, vegetarisch oder LUXUS – à la carte",
+          "• weit über 100 abwechslungsreiche Menüs",
+          "Telefon 89 11 66-17 oder 89 11 66-18",
+          "Caritas-Zentrum Menzing – Ökumenische Sozialstation",
+          "Pippinger Str. 97/Nähe Verdistraße"
         ],
-        "image": "data/images/iris1_ad_m.png",
-        "text_en": "No! Thanks! We bring a warm meal to your house on weekdays. Normal diet, light diet, vegetarian...",
-        "vocabulary": []
+        "image": "data/images/iris1_ad_l.png",
+        "text_en": "Cooking alone?? No! Thanks! Warm food on Sat + Sun too. We bring to your home: on weekdays a warm meal (with or without soup); on Saturdays, Sundays, holidays deep-frozen on request; normal diet, light diet (Schonkost), special diet, vegetarian or LUXURY – à la carte; well over 100 varied menus. Tel. 89 11 66-17 or -18. Caritas-Zentrum Menzing.",
+        "vocabulary": [
+          {
+            "de": "die Schonkost",
+            "en": "the light / bland diet (for recovery)"
+          },
+          {
+            "de": "werktags",
+            "en": "on weekdays"
+          }
+        ]
       }
     },
     "situations": [
@@ -400,70 +546,70 @@
         "situation": "Ihre Freunde wollen einen Sprachkurs in Spanien machen und ihre Kinder mitnehmen.",
         "situation_en": "Your friends want to do a language course in Spain and take their children with them.",
         "correct_answer": "b",
-        "explanation": "Ad 'b' offers Spanish courses in Spain (Andalusia) with accommodation. Note: The official key says B."
+        "explanation": "Ad 'b' ('Can Ribes') offers Spanish courses in Catalonia, Spain, specifically including childcare ('Spanischkurse mit Kinderbetreuung'), whereas ad 'a' does not mention childcare."
       },
       {
         "number": 12,
         "situation": "Ihr Auto ist kaputt und Sie brauchen jemanden, der es repariert.",
         "situation_en": "Your car is broken and you need someone to repair it.",
         "correct_answer": "d",
-        "explanation": "Ad 'c' is 'Autoreparatur' (car repair), but the official key marks D. This indicates an OCR image layout shift."
+        "explanation": "Ad 'd' ('Autoreparatur Fa. ASS') offers fast and affordable car repairs ('Auspuff · Bremsen · AU · Kupplung · TÜV · Unfall'), whereas ad 'e' only buys and scraps old/accident cars."
       },
       {
         "number": 13,
         "situation": "Sie wollen mit einem Videoprogramm Deutsch lernen.",
         "situation_en": "You want to learn German with a video program.",
         "correct_answer": "x",
-        "explanation": "There are no advertisements for video programs teaching German."
+        "explanation": "None of the advertisements offer a video program for learning German. Therefore, the answer is 'x'."
       },
       {
         "number": 14,
         "situation": "Sie wollen Ihrer Kursleiterin eine Kursabschlussreise vorschlagen.",
         "situation_en": "You want to suggest a course completion trip to your instructor.",
         "correct_answer": "c",
-        "explanation": "Ad 'f' ('Einmal was erleben! Wir organisieren... die komplette Tour') fits best for organizing a trip. The official key marks C."
+        "explanation": "Ad 'c' ('Einmal was erleben!') organizes complete canoeing tours for classes and groups ('Wenn Sie mit Ihrer Klasse Abenteuer, Romantik, Natur pur und Gemeinschaftssport erleben wollen... wir organisieren für Sie die komplette Tour')."
       },
       {
         "number": 15,
         "situation": "Ihr Fernseher ist kaputt. Sie wollen ihn reparieren lassen.",
         "situation_en": "Your television is broken. You want to have it repaired.",
         "correct_answer": "f",
-        "explanation": "Ad 'g' ('Radio- und Fernsehtechnik... Reparaturen') fits repairing a TV. The official key marks F."
+        "explanation": "Ad 'f' ('Radio- und Fernsehtechnik GmbH SCHMIDT & MÜLLER') repairs televisions, HiFi, and video equipment ('TV – HiFi – Video · Reparaturen')."
       },
       {
         "number": 16,
         "situation": "Eine Bekannte hat eine neue Wohnung. Sie möchten ihr etwas für die Küche schenken.",
         "situation_en": "An acquaintance has a new apartment. You want to give her a gift for the kitchen.",
         "correct_answer": "h",
-        "explanation": "Ad 'j' ('FACHHANDEL GRÜN... Haushaltswaren, Geschenke') fits kitchen gifts. The official key marks H."
+        "explanation": "Ad 'h' ('FACHHANDEL GRÜN') sells kitchen and household items, cutlery, porcelain, glassware, and gifts ('Haushaltsgeräte · Einbauküchen · Haushaltswaren · Bestecke · Porzellan und Glaswaren · Geschenke')."
       },
       {
         "number": 17,
         "situation": "Sie suchen ein Geschenk für ein 6-jähriges Kind.",
         "situation_en": "You are looking for a gift for a 6-year-old child.",
         "correct_answer": "g",
-        "explanation": "Ad 'h' ('Kinderladen... Geschenkideen für Klein und Groß') fits a gift for a child. The official key marks G."
+        "explanation": "Ad 'g' ('Harlachinger Kinderladen') offers gift ideas for children ('Liebevolle Geschenkideen für Klein und Groß im Harlachinger Kinderladen')."
       },
       {
         "number": 18,
         "situation": "Ihr Kind ist krank. Sie suchen einen Kinderarzt.",
         "situation_en": "Your child is sick. You are looking for a pediatrician.",
         "correct_answer": "x",
-        "explanation": "There is an orthopedist (Dr. Penners), but no pediatrician ('Kinderarzt'). The official key correctly marks X."
+        "explanation": "Ad 'i' is an orthopedist and sports medicine doctor ('Orthopäde · Chirotherapie · Sportmedizin'), not a pediatrician ('Kinderarzt'). No advertisement offers a pediatrician, so the answer is 'x'."
       },
       {
         "number": 19,
         "situation": "Ihre Tante ist operiert worden. Jetzt ist sie wieder zu Hause und braucht spezielles Essen.",
         "situation_en": "Your aunt has had surgery. Now she is back home and needs special food.",
         "correct_answer": "l",
-        "explanation": "Ad 'm' ('Wir bringen zu Ihnen ins Haus... Schonkost') fits delivering special diet food at home. The official key marks L."
+        "explanation": "Ad 'l' ('Caritas-Zentrum Menzing') delivers warm meals to the home, including special recovery and medical diets ('Normalkost, Schonkost, Diät, vegetarisch')."
       },
       {
         "number": 20,
         "situation": "Sie haben sich beim Tennis den Fuß verletzt und brauchen einen Arzt.",
         "situation_en": "You injured your foot playing tennis and need a doctor.",
         "correct_answer": "i",
-        "explanation": "Ad 'l' ('Orthopäde, Sportmedizin') fits a sports injury to the foot. The official key marks I."
+        "explanation": "Ad 'i' ('Praxis Dr. W. Penners') is a specialist for orthopedics and sports medicine ('Orthopäde · Chirotherapie · Sportmedizin'), which matches a tennis foot injury."
       }
     ]
   },
