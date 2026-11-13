@@ -227,149 +227,254 @@
   "leseverstehen_teil_3": {
     "advertisements": {
       "a": {
-        "title": "Studenteneigentum",
-        "subtitle": "Immobilien",
+        "title": "Feiern im Café-Restaurant WEBERKNECHT",
+        "subtitle": "Gastronomie & Events",
         "lines": [
-          "A. 1030 Wien - Hangmayerstraße",
-          "1-2 Zimmer Wohnung, Kü., Bad, Blk., 29 m2, ruhige Lage, sof. anrufen",
-          "KP 50.000 Euro"
+          "Feiern im Café-Restaurant WEBERKNECHT",
+          "Großer Festsaal (bis zu 100 Gäste) mit Musikanlage, Buffet und Getränken, alles inklusive ab 190 Euro.",
+          "Bei mitgebrachten Speisen und Getränken zahlen Sie nur die Saalmiete!",
+          "Nähere Informationen unter: 313 43 56"
         ],
         "image": "data/images/petra_ad_a.png",
-        "text_en": "Student property. A. 1030 Vienna - Hangmayerstraße. 1-2 room apartment, kitchen, bath, balcony, 29 sqm, quiet location. Purchase price 50,000 Euro.",
+        "text_en": "Celebrate at Café-Restaurant WEBERKNECHT: Large banquet hall (up to 100 guests) with sound system, buffet and drinks, all-inclusive from 190 Euros. If you bring your own food and drinks, you only pay the hall rental! Further information at: 313 43 56.",
         "vocabulary": [
           {
-            "de": "das Eigentum",
-            "en": "the property / ownership"
+            "de": "der Festsaal",
+            "en": "banquet hall / party room"
+          },
+          {
+            "de": "die Saalmiete",
+            "en": "hall rental fee"
           }
         ]
       },
       "b": {
-        "title": "KINO UNTER STERNEN",
-        "subtitle": "Kino & Film",
-        "lines": [
-          "OPEN AIR IM AUGARTEN",
-          "Der Film heute: MEET ME IN ST. LOUIS",
-          "Musical über die 4 Jahreszeiten einer Familie, mit Judy Garland / 21.30"
-        ],
-        "image": "data/images/petra_ad_b.png",
-        "text_en": "CINEMA UNDER THE STARS. OPEN AIR IN AUGARTEN. Today's film: MEET ME IN ST. LOUIS. Musical about the 4 seasons of a family, with Judy Garland / 9:30 pm.",
-        "vocabulary": []
-      },
-      "c": {
-        "title": "Feiern im Cafe Rastad",
-        "subtitle": "Gastronomie & Events",
-        "lines": [
-          "WEBERKNECHT",
-          "Feiern für 100 Gäste",
-          "Tel. 313 43 56"
-        ],
-        "image": "data/images/petra_ad_c.png",
-        "text_en": "Celebrate in Cafe Rastad. WEBERKNECHT. Celebrations for 100 guests. Tel. 313 43 56",
-        "vocabulary": []
-      },
-      "d": {
         "title": "Privatkindergarten BAMBI!!!",
         "subtitle": "Kinderbetreuung",
         "lines": [
-          "Pädagogisches Top Team",
+          "Noch 3 freie Plätze im",
+          "Privatkindergarten BAMBI!!!",
+          "Pädagogisches Top-Team",
           "Helle, kindergerechte Räume",
+          "Eigene Spielwiese",
           "Ganzjährig geöffnet",
-          "Tel: 533 12 43"
+          "Betreuung Mo–Fr 6–18 Uhr",
+          "Wir freuen uns auf Ihren Liebling! Tel: 533 12 43"
         ],
-        "image": "data/images/petra_ad_d.png",
-        "text_en": "Private kindergarten BAMBI!!! Top educational team. Bright, child-friendly rooms. Open all year round. Tel: 533 12 43",
-        "vocabulary": []
+        "image": "data/images/petra_ad_b.png",
+        "text_en": "Still 3 free places at Private Kindergarten BAMBI!!! Top educational team, bright child-friendly rooms, own play meadow, open all year round, care Mon–Fri 6 a.m.–6 p.m. We look forward to welcoming your little darling! Tel: 533 12 43.",
+        "vocabulary": [
+          {
+            "de": "kindergerecht",
+            "en": "child-friendly"
+          },
+          {
+            "de": "ganzjährig",
+            "en": "all year round"
+          }
+        ]
       },
-      "e": {
+      "c": {
         "title": "KINO-CENTER",
         "subtitle": "Kino & Film",
         "lines": [
-          "312 45 89",
-          "Saal 1, Saal 2, Saal 3, Saal 4"
+          "KINO-CENTER · 312 45 89",
+          "Saal 1, 15.30, 19.00: Shrek 2 (in englischer Originalversion)",
+          "Saal 2, 16.00, 20.15: Das Komplott (österr. Thriller)",
+          "Saal 3, 14.30: Mäusejagd (ab 6 Jahren)",
+          "Saal 4, 20.15: Besser geht's nicht (Oscar-Gewinner!)"
         ],
-        "image": "data/images/petra_ad_e.png",
-        "text_en": "CINEMA-CENTER. 312 45 89. Room 1, Room 2, Room 3, Room 4.",
-        "vocabulary": []
+        "image": "data/images/petra_ad_c.png",
+        "text_en": "KINO-CENTER · 312 45 89. Hall 1, 3:30 p.m., 7:00 p.m.: Shrek 2 (in original English version). Hall 2, 4:00 p.m., 8:15 p.m.: Das Komplott (Austrian thriller). Hall 3, 2:30 p.m.: Mouse Hunt (for ages 6 and up). Hall 4, 8:15 p.m.: As Good as It Gets (Oscar winner!).",
+        "vocabulary": [
+          {
+            "de": "die Originalversion",
+            "en": "original language version"
+          }
+        ]
       },
-      "f": {
-        "title": "AirPlus",
+      "d": {
+        "title": "Partyservice!",
+        "subtitle": "Gastronomie & Catering",
+        "lines": [
+          "Sie wollen ein unvergessliches Fest feiern? Dann holen Sie den",
+          "Partyservice!",
+          "Wir kümmern uns um Speisen und Getränke für jedes Fest, Geburtstag, Hochzeit, Kinderparties, etc.",
+          "Reservierungen spätestens 4 Wochen vor dem Fest!",
+          "Tel: 214 34 65, Frau Kern"
+        ],
+        "image": "data/images/petra_ad_d.png",
+        "text_en": "Do you want to celebrate an unforgettable party? Then get the Party Service! We take care of food and drinks for every party, birthday, wedding, children's parties, etc. Reservations at least 4 weeks before the party! Tel: 214 34 65, Ms. Kern.",
+        "vocabulary": [
+          {
+            "de": "unvergesslich",
+            "en": "unforgettable"
+          },
+          {
+            "de": "sich kümmern um",
+            "en": "to take care of"
+          }
+        ]
+      },
+      "e": {
+        "title": "AirPlus sucht Sachbearbeiter(in) für Kundendienst",
         "subtitle": "Stellenangebote",
         "lines": [
-          "(Austrian Airs Diners Club)",
-          "Sachbearbeiter(in) für Kundendienst"
+          "AirPlus (Austrian Airlines/Diners Club Kreditkarte) sucht",
+          "Sachbearbeiter(in) für Kundendienst",
+          "22- bis 26-Jährige mit Maturaniveau und Berufserfahrung (Computer-Kenntnisse)",
+          "Sind Sie genau und zuverlässig und haben Interesse an telefonischem Kontakt mit unseren Kunden, dann sollten Sie uns Ihre Bewerbungsunterlagen mit Foto rasch zusenden.",
+          "AirPlus, A-1107 Wien, Fontanastraße 1, (01) 1766/3661"
+        ],
+        "image": "data/images/petra_ad_e.png",
+        "text_en": "AirPlus (Austrian Airlines/Diners Club credit card) is looking for a customer service clerk: 22- to 26-year-olds with high school diploma level (Matura) and work experience (computer skills). If you are accurate and reliable and interested in telephone contact with our customers, please send us your application documents with photo promptly. AirPlus, A-1107 Vienna, Fontanastraße 1, (01) 1766/3661.",
+        "vocabulary": [
+          {
+            "de": "der Sachbearbeiter",
+            "en": "clerk / officer"
+          },
+          {
+            "de": "der Kundendienst",
+            "en": "customer service"
+          }
+        ]
+      },
+      "f": {
+        "title": "23-jährige Psychologiestudentin – Kinderbetreuung",
+        "subtitle": "Kinderbetreuung",
+        "lines": [
+          "23-jährige Psychologiestudentin, kinderliebend, zeitlich flexibel und im Umgang mit Kindern erfahren,",
+          "kümmert sich stundenweise gerne um Ihre Kinder!",
+          "10 Euro / Stunde!",
+          "Ich freue mich auf Ihren Anruf: Lisa, Tel: 312 04 23"
         ],
         "image": "data/images/petra_ad_f.png",
-        "text_en": "AirPlus (Austrian Airs Diners Club). Customer service agent wanted.",
-        "vocabulary": []
+        "text_en": "23-year-old psychology student, child-loving, flexible with time and experienced in dealing with children, is happy to look after your children by the hour! 10 Euros / hour! I look forward to your call: Lisa, Tel: 312 04 23.",
+        "vocabulary": [
+          {
+            "de": "kinderliebend",
+            "en": "child-loving / fond of children"
+          },
+          {
+            "de": "stundenweise",
+            "en": "by the hour"
+          }
+        ]
       },
       "g": {
         "title": "Studentenhit in Wien!",
         "subtitle": "Immobilien",
         "lines": [
-          "1-Zimmer Wohnung, 30 m2, Bad, WC, Uni-Nähe, keine Ablöse, befristet für 1 Jahr, monatl.",
-          "300 Euro inkl. Betriebskosten"
+          "Studentenhit in Wien!",
+          "1-Zimmer-Wohnung, 30 m², Bad, WC, Uni-Nähe, keine Ablöse, befristet für 1 Jahr, monatl. 300 Euro inkl. Betriebskosten",
+          "Uni-Real, 5533-0"
         ],
         "image": "data/images/petra_ad_g.png",
-        "text_en": "Student hit in Vienna! 1-room apartment, 30 sqm, bath, toilet, near university, no transfer fee, limited to 1 year, monthly. 300 Euros incl. operating costs.",
-        "vocabulary": []
+        "text_en": "Student hit in Vienna! 1-room apartment, 30 m², bath, WC, near university, no transfer fee, fixed term for 1 year, monthly 300 Euros incl. operating costs. Uni-Real, 5533-0.",
+        "vocabulary": [
+          {
+            "de": "befristet",
+            "en": "fixed-term / limited in time"
+          },
+          {
+            "de": "die Betriebskosten",
+            "en": "operating / utility costs"
+          }
+        ]
       },
       "h": {
-        "title": "Studenteneigentum",
+        "title": "Studenteneigentum A-1030 Wien",
         "subtitle": "Immobilien",
         "lines": [
-          "A-1030 Wien: Hangmayerstr",
-          "1-Z-Wohnung. Kü., Bad, Blk.",
-          "KP 50.000 Euro"
+          "Studenteneigentum",
+          "A-1030 Wien · Hangmayerstrasse",
+          "1-Zi.-Wohnung, Kü., Bad, Blk., 29 m², ruhige Lage, sof. anrufen, KP 50.000 Euro",
+          "Tel. 38 80 44"
         ],
         "image": "data/images/petra_ad_h.png",
-        "text_en": "Student property. A-1030 Vienna: Hangmayerstr. 1-room apartment. Kitchen, bath, balcony. Purchase price 50,000 Euro.",
-        "vocabulary": []
+        "text_en": "Student property for sale: A-1030 Vienna, Hangmayerstrasse. 1-room apartment, kitchen, bath, balcony, 29 m², quiet location, call immediately, purchase price 50,000 Euros. Tel. 38 80 44.",
+        "vocabulary": [
+          {
+            "de": "das Eigentum",
+            "en": "property / ownership"
+          }
+        ]
       },
       "i": {
-        "title": "KINO UNTER STERNEN",
+        "title": "KINO UNTER STERNEN – OPEN AIR IM AUGARTEN",
         "subtitle": "Kino & Film",
         "lines": [
+          "KINO UNTER STERNEN",
           "OPEN AIR IM AUGARTEN",
           "Der Film heute: MEET ME IN ST. LOUIS",
-          "Musical über die Jahreszeiten einer Familie, mit Judy Garland / 21.30"
+          "Musical über die 4 Jahreszeiten einer Familie, mit Judy Garland / 21.30"
         ],
         "image": "data/images/petra_ad_i.png",
-        "text_en": "CINEMA UNDER THE STARS. OPEN AIR IN AUGARTEN. Today's film: MEET ME IN ST. LOUIS. Musical about the seasons of a family, with Judy Garland / 9:30 pm.",
-        "vocabulary": []
+        "text_en": "CINEMA UNDER THE STARS – OPEN AIR IN AUGARTEN. Today's film: MEET ME IN ST. LOUIS. Musical about the 4 seasons of a family, with Judy Garland / 9:30 p.m.",
+        "vocabulary": [
+          {
+            "de": "unter Sternen",
+            "en": "under the stars"
+          }
+        ]
       },
       "j": {
-        "title": "STADTKINO sucht",
+        "title": "STADTKINO sucht junge MitarbeiterInnen",
         "subtitle": "Stellenangebote",
         "lines": [
-          "für die Sommermonate Juli - September junge Mitarbeiterinnen für den Kartenverkauf und das Buffet, 10 Stunden/Woche, abends, guter Verdienst."
+          "STADTKINO sucht",
+          "für die Sommermonate Juli – September junge MitarbeiterInnen für den Kartenverkauf und das Buffet,",
+          "10 Stunden / Woche, abends, guter Verdienst,",
+          "nähere Auskünfte: Karin Moor, Tel.: 712 6276"
         ],
         "image": "data/images/petra_ad_j.png",
-        "text_en": "STADTKINO is looking for young female employees for ticket sales and the buffet for the summer months of July - September, 10 hours/week, evenings, good earnings.",
-        "vocabulary": []
+        "text_en": "STADTKINO is looking for the summer months July – September for young employees for ticket sales and the buffet, 10 hours / week, evenings, good pay. Further information: Karin Moor, Tel.: 712 6276.",
+        "vocabulary": [
+          {
+            "de": "der Kartenverkauf",
+            "en": "ticket sales"
+          },
+          {
+            "de": "der Verdienst",
+            "en": "earnings / pay"
+          }
+        ]
       },
       "k": {
-        "title": "Volkshochschule Simmering",
+        "title": "Volkshochschule Simmering – berufsorientierte PC-Kurse",
         "subtitle": "Bildung & Kurse",
         "lines": [
-          "\"PC-Kenntnisse notwendig\" - stand das auch in der Anzeige",
-          "Für Ihren Traumberuf kein Problem.",
-          "berufsorientierte PC-Kurse"
+          "„PC-Kenntnisse notwendig“ – steht das auch in der Anzeige für Ihren Traumjob? Kein Problem!",
+          "Die Volkshochschule Simmering bietet",
+          "berufsorientierte PC-Kurse",
+          "(Abend- und Wochenendkurse)"
         ],
         "image": "data/images/petra_ad_k.png",
-        "text_en": "Adult Education Center Simmering. 'PC skills required' - was that also in the ad? Not a problem for your dream job. Profession-oriented PC courses.",
-        "vocabulary": []
+        "text_en": "'PC skills required' – does it say that in the ad for your dream job too? No problem! Volkshochschule Simmering offers career-oriented PC courses (evening and weekend courses).",
+        "vocabulary": [
+          {
+            "de": "berufsorientiert",
+            "en": "career-oriented"
+          }
+        ]
       },
       "l": {
         "title": "Familie sucht Babysitterin bzw. Kindermädchen",
         "subtitle": "Stellenangebote",
         "lines": [
+          "Familie sucht Babysitterin bzw. Kindermädchen",
           "(zuverlässig, erfahren, freundlich)",
-          "Arbeitszeit nach Absprache",
+          "Arbeitszeit nach Absprache.",
           "Familie Hock, Tel. 217 354"
         ],
         "image": "data/images/petra_ad_l.png",
-        "text_en": "Family seeks babysitter or nanny (reliable, experienced, friendly). Working hours by arrangement. Family Hock, Tel. 217 354",
-        "vocabulary": []
+        "text_en": "Family is looking for a babysitter or nanny (reliable, experienced, friendly). Working hours by arrangement. Family Hock, Tel. 217 354.",
+        "vocabulary": [
+          {
+            "de": "nach Absprache",
+            "en": "by arrangement"
+          }
+        ]
       }
     },
     "situations": [
@@ -378,70 +483,70 @@
         "situation": "Sie möchten für ein Jahr in Wien Psychologie studieren und suchen daher eine günstige Mietwohnung.",
         "situation_en": "You want to study psychology in Vienna for a year and are therefore looking for an affordable rental apartment.",
         "correct_answer": "g",
-        "explanation": "You are looking for an affordable apartment to rent for one year. Ad 'g' offers a '1-Zimmer Wohnung' for '300 Euro' that is 'befristet für 1 Jahr' (limited to 1 year)."
+        "explanation": "Ad 'g' ('Studentenhit in Wien!') offers a 1-room apartment near the university for 300 Euros/month including utilities, fixed-term for 1 year ('befristet für 1 Jahr, monatl. 300 Euro inkl. Betriebskosten'). (Ad 'h' is for buying an apartment for 50,000 Euros)."
       },
       {
         "number": 12,
         "situation": "Sie möchten am Abend ins Kino gehen und suchen daher eine verlässliche Person, die auf Ihr Kind aufpasst.",
         "situation_en": "You want to go to the cinema in the evening and are therefore looking for a reliable person to look after your child.",
         "correct_answer": "f",
-        "explanation": "Note: According to the official key, the answer is F. (In standard matching, L would fit 'babysitter', but we follow the official key provided for this specific exam version)."
+        "explanation": "Ad 'f' is from Lisa, a 23-year-old psychology student experienced with children who offers hourly babysitting ('kümmert sich stundenweise gerne um Ihre Kinder! 10 Euro / Stunde!')."
       },
       {
         "number": 13,
         "situation": "Sie möchten in den Sommerferien nebenbei ein wenig Geld dazu verdienen und suchen daher einen passenden Job.",
         "situation_en": "You would like to earn a little extra money on the side during the summer holidays and are therefore looking for a suitable job.",
         "correct_answer": "j",
-        "explanation": "You are looking for a summer job. Ad 'j' is from a cinema seeking young employees specifically for the summer months ('Sommermonate Juli - September')."
+        "explanation": "Ad 'j' ('STADTKINO sucht') is looking for young employees for ticket sales and the buffet during the summer months July–September ('für die Sommermonate Juli – September ... 10 Stunden / Woche, abends, guter Verdienst')."
       },
       {
         "number": 14,
         "situation": "Sie möchten ein Geburtstagfest organisieren und brauchen dafür einen Raum. Um das Essen und die Getränke für die Gäste möchten Sie sich selbst kümmern.",
         "situation_en": "You want to organize a birthday party and need a room for it. You want to take care of the food and drinks for the guests yourself.",
         "correct_answer": "a",
-        "explanation": "Note: According to the official key, the answer is A. (This might be a misalignment in the OCR vs. the original exam options)."
+        "explanation": "Ad 'a' ('Feiern im Café-Restaurant WEBERKNECHT') has a large party hall and explicitly states that if you bring your own food and drinks, you only pay the hall rental ('Bei mitgebrachten Speisen und Getränken zahlen Sie nur die Saalmiete!')."
       },
       {
         "number": 15,
         "situation": "Ihre Bekannten aus Deutschland müssen aus beruflichen Gründen nach Salzburg umziehen und haben Sie gebeten, eine Mietwohnung für Sie suchen.",
         "situation_en": "Your acquaintances from Germany have to move to Salzburg for professional reasons and have asked you to look for a rental apartment for them.",
         "correct_answer": "x",
-        "explanation": "You are looking for a rental apartment in Salzburg. All real estate ads provided are for apartments located in Vienna ('Wien'). Therefore, the answer is 'x'."
+        "explanation": "Both real estate advertisements ('g' and 'h') are for apartments in Vienna ('Wien'), not Salzburg. Therefore, no ad matches ('x')."
       },
       {
         "number": 16,
         "situation": "Ihre 23-jährige Freundin hat soeben einen Computerkurs abgeschlossen und sucht einen Job.",
         "situation_en": "Your 23-year-old friend has just completed a computer course and is looking for a job.",
         "correct_answer": "e",
-        "explanation": "Note: According to the official key, the answer is E. (Again, this points to a misalignment in the OCR ad grid)."
+        "explanation": "Ad 'e' ('AirPlus') is looking for a customer service clerk aged 22 to 26 with computer skills ('Sachbearbeiter(in) für Kundendienst, 22- bis 26-Jährige mit Maturaniveau und Berufserfahrung (Computer-Kenntnisse)')."
       },
       {
         "number": 17,
         "situation": "Ihr 12-jährige Sohn wünscht sich zum Geburtstag Buch über Sterne.",
         "situation_en": "Your 12-year-old son wants a book about stars for his birthday.",
         "correct_answer": "x",
-        "explanation": "You are looking for a book about stars. None of the advertisements provided are from a bookstore. Thus, the answer is 'x'."
+        "explanation": "None of the advertisements offer books about stars (Ad 'i' is an open-air cinema called 'Kino unter Sternen', not a book)."
       },
       {
         "number": 18,
         "situation": "Ihre Kinder möchten am Nachmittag ins Kino gehen. Sie suchen einen passenden Film für Kinder.",
         "situation_en": "Your children want to go to the cinema in the afternoon. You are looking for a suitable film for children.",
         "correct_answer": "c",
-        "explanation": "Note: According to the official key, the answer is C."
+        "explanation": "Ad 'c' ('KINO-CENTER') shows the children's film 'Mäusejagd (ab 6 Jahren)' in the afternoon at 2:30 p.m. ('Saal 3, 14.30: Mäusejagd (ab 6 Jahren)'). (Shrek 2 in Saal 1 is in the original English version)."
       },
       {
         "number": 19,
         "situation": "Sie möchten mit Freunden gern ins Kino gehen. Da es ein sehr warmer Sommerabend ist, suchen Sie nach einer Vorstellung im Ferien.",
-        "situation_en": "You would like to go to the cinema with friends. Since it is a very warm summer evening, you are looking for a showing outdoors.",
+        "situation_en": "You would like to go to the cinema with friends. Since it is a very warm summer evening, you are looking for an outdoor showing.",
         "correct_answer": "i",
-        "explanation": "You want an open-air cinema. Ad 'i' is for 'KINO UNTER STERNEN - OPEN AIR'."
+        "explanation": "Ad 'i' ('KINO UNTER STERNEN – OPEN AIR IM AUGARTEN') offers an open-air evening screening at 9:30 p.m. ('Der Film heute: MEET ME IN ST. LOUIS ... / 21.30')."
       },
       {
         "number": 20,
         "situation": "Ihre Freundin ist Erzieherin und zur Zeit arbeitslos. Sie möchte daher als Kindermädchen bei einer Familie arbeiten.",
         "situation_en": "Your friend is an educator and currently unemployed. She would therefore like to work as a nanny for a family.",
         "correct_answer": "l",
-        "explanation": "Your friend wants to work as a nanny. Ad 'l' is placed by a family actively seeking a babysitter or nanny."
+        "explanation": "Ad 'l' ('Familie Hock') is a family looking for a reliable, experienced babysitter or nanny ('Familie sucht Babysitterin bzw. Kindermädchen (zuverlässig, erfahren, freundlich)')."
       }
     ]
   },
