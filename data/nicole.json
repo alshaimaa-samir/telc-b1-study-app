@@ -227,17 +227,115 @@
   "leseverstehen_teil_3": {
     "advertisements": {
       "a": {
-        "title": "Tiergarten Schönbrunn",
-        "subtitle": "Freizeit",
+        "title": "ADESSA – Mode für die ganze Familie",
+        "subtitle": "Einkaufen & Mode",
         "lines": [
-          "Tag der offenen Tür im Tiergarten Schönbrunn",
-          "Sonntag, 14. Oktober",
-          "Sonderfütterungen das neue Land der Affen, Elefantenbaby...",
-          "Ganztägige Kinderbetreuung.",
-          "Gratis Eintritt für Groß und Klein!"
+          "Eröffnungsangebote bei",
+          "ADESSA",
+          "Mode für die ganze Familie",
+          "Adessa-Moden bietet günstige Herbst- und Wintermode, hochwertige Qualität und höchsten Service!",
+          "Unsere gut geschulten Mitarbeiter beraten Sie und Ihre Familie gern!",
+          "Besuchen Sie unsere neu eröffnete Filiale:",
+          "tolle Eröffnungsangebote noch bis Samstag!",
+          "Adessa-Moden, 7., Mariahilferstr. 34",
+          "Wir freuen uns auf Ihren Besuch!"
         ],
         "image": "data/images/nicole_ad_a.png",
-        "text_en": "Open day at Tiergarten Schönbrunn (Zoo). Sunday, October 14th. Special feedings, the new land of monkeys, baby elephant... All-day childcare. Free entry for young and old!",
+        "text_en": "Opening offers at ADESSA – Fashion for the whole family. Adessa-Moden offers affordable autumn and winter fashion, high quality, and top service! Our well-trained staff will gladly advise you and your family! Visit our newly opened branch: great opening offers until Saturday! Adessa-Moden, 7., Mariahilferstr. 34.",
+        "vocabulary": [
+          {
+            "de": "das Eröffnungsangebot",
+            "en": "the opening offer"
+          },
+          {
+            "de": "die Filiale",
+            "en": "the branch / store"
+          }
+        ]
+      },
+      "b": {
+        "title": "Schischule Hochkönig – Schilehrer gesucht!",
+        "subtitle": "Stellenangebote & Sport",
+        "lines": [
+          "Schischule",
+          "Schilehrer gesucht!",
+          "sucht für kommende Schisaison",
+          "3 SchilehrerInnen",
+          "für folgende Kurse:",
+          "• Kinder (3–6 Jahre)",
+          "• Anfänger",
+          "• Fortgeschrittene",
+          "Bewerbungen an:",
+          "Schischule Hochkönig / Frau Mar, 5453 Werfenweng"
+        ],
+        "image": "data/images/nicole_ad_b.png",
+        "text_en": "Ski School – Ski instructors wanted! Looking for 3 ski instructors for the upcoming ski season for the following courses: Children (3–6 years), Beginners, Advanced. Applications to: Schischule Hochkönig / Ms. Mar, 5453 Werfenweng.",
+        "vocabulary": [
+          {
+            "de": "der Schilehrer",
+            "en": "the ski instructor"
+          },
+          {
+            "de": "die Fortgeschrittenen",
+            "en": "the advanced learners"
+          }
+        ]
+      },
+      "c": {
+        "title": "Fashion – Das neue Modemagazin",
+        "subtitle": "Zeitschriften & Mode",
+        "lines": [
+          "Fashion – das neue Modemagazin mit allen Modetipps und neuesten Trends!",
+          "Bestellen Sie noch heute das Jahresabo zum Sensationspreis von nur 35 € (1 Zeitschrift / Monat):",
+          "Fashion, PR-Verlag, Postfach 2000, 1150 Wien"
+        ],
+        "image": "data/images/nicole_ad_c.png",
+        "text_en": "Fashion – the new fashion magazine with all fashion tips and latest trends! Order the annual subscription today at the sensational price of only 35 € (1 magazine / month): Fashion, PR-Verlag, Postfach 2000, 1150 Vienna.",
+        "vocabulary": [
+          {
+            "de": "das Jahresabo",
+            "en": "the annual subscription"
+          },
+          {
+            "de": "die Zeitschrift",
+            "en": "the magazine"
+          }
+        ]
+      },
+      "d": {
+        "title": "Ötztal Information – Kinderschikurs",
+        "subtitle": "Sport & Freizeit",
+        "lines": [
+          "Der Schi-Ort Ötz im Tiroler Ötztal bietet Kindern bis 6 Jahren in Begleitung ihrer Eltern bei einem Aufenthalt von mindestens sieben Tagen einen kostenlosen Kinderschikurs.",
+          "Nähere Informationen erhalten Sie bei der Ötztal Information: 05252/2269"
+        ],
+        "image": "data/images/nicole_ad_d.png",
+        "text_en": "The ski resort Ötz in the Tyrolean Ötztal offers children up to 6 years old, accompanied by their parents during a stay of at least seven days, a free children's ski course. Further information available at Ötztal Information: 05252/2269.",
+        "vocabulary": [
+          {
+            "de": "kostenlos",
+            "en": "free of charge"
+          },
+          {
+            "de": "die Begleitung",
+            "en": "the accompaniment"
+          }
+        ]
+      },
+      "e": {
+        "title": "Tiergarten Schönbrunn – Tag der offenen Tür",
+        "subtitle": "Freizeit",
+        "lines": [
+          "„Tag der offenen Tür“",
+          "im Tiergarten Schönbrunn",
+          "Sonntag, 14. Oktober",
+          "Sonderführungen in das neue Aquarium und das Affenhaus! Fütterung von Elefantenbaby Abu!",
+          "Ganztägige Kinderbetreuung!",
+          "Gratis Eintritt für Groß und Klein!",
+          "Der Zoo ist täglich von 9–18 Uhr geöffnet."
+        ],
+        "image": "data/images/nicole_ad_e.png",
+        "text_en": "'Open Day' at Tiergarten Schönbrunn (Zoo) on Sunday, October 14th. Special guided tours of the new aquarium and the monkey house! Feeding of baby elephant Abu! All-day childcare! Free admission for young and old! The zoo is open daily from 9 a.m. to 6 p.m.",
         "vocabulary": [
           {
             "de": "die Fütterung",
@@ -249,91 +347,60 @@
           }
         ]
       },
-      "b": {
-        "title": "Schweinchen Babe",
+      "f": {
+        "title": "Schweinchen Babe in der großen Stadt",
         "subtitle": "Kino & Film",
         "lines": [
-          "Heute im Apollo",
-          "Schweinchen Babe in der großen Stadt",
-          "Ein kleines Schwein hat gemeinsam mit seinen Freunden... den Menschen.",
-          "Für Kinder ab 6 Jahren geeignet.",
-          "Um 15.30, 18.00, 20.00 Uhr."
+          "Heute im Kino:",
+          "„Schweinchen Babe in der großen Stadt“:",
+          "Ein kleines Schwein erobert gemeinsam mit seinen Freunden dem Hund, der Katze, dem Schaf und Huhn die Welt und die Herzen der Menschen.",
+          "Für Kinder ab 6 Jahren geeignet!",
+          "Kolosseum-Saal 1: 15.30, 17.00, 19.00 Uhr",
+          "Karten unter 310 33 30, e-mail: kolo@yahoo.at"
         ],
-        "image": "data/images/nicole_ad_b.png",
-        "text_en": "Today in Apollo: Babe the Pig in the Big City. A small pig, together with its friends... Suitable for children from 6 years. At 3:30 p.m., 6:00 p.m., 8:00 p.m.",
+        "image": "data/images/nicole_ad_f.png",
+        "text_en": "Today in the cinema: 'Babe: Pig in the City': A little pig conquers the world and the hearts of people together with its friends the dog, the cat, the sheep, and the chicken. Suitable for children from 6 years! Kolosseum Hall 1: 3:30 p.m., 5:00 p.m., 7:00 p.m. Tickets at 310 33 30, e-mail: kolo@yahoo.at.",
         "vocabulary": [
           {
             "de": "das Schweinchen",
-            "en": "the little piglet"
-          }
-        ]
-      },
-      "c": {
-        "title": "Schifahren und Freizeitspaß",
-        "subtitle": "Sport & Freizeit",
-        "lines": [
-          "Schifahren und Freizeitspaß in den Bergen:",
-          "Für Jung und Alt bieten wir... Snowboarden von Mitte März...",
-          "Mitte April in die Berge.",
-          "www.dachstein.at"
-        ],
-        "image": "data/images/nicole_ad_c.png",
-        "text_en": "Skiing and leisure fun in the mountains: For young and old we offer... snowboarding from mid-March... mid-April to the mountains. www.dachstein.at",
-        "vocabulary": [
-          {
-            "de": "das Schifahren",
-            "en": "skiing"
-          }
-        ]
-      },
-      "d": {
-        "title": "Ötztal Information",
-        "subtitle": "Sport & Freizeit",
-        "lines": [
-          "Der Ski-Hit... Ötztal...",
-          "Bietet Kindern bis 7 Jahren in Begleitung ihrer Eltern",
-          "bei einem Aufenthalt von mindestens sieben Tagen",
-          "einen kostenlosen Kinderschikurs.",
-          "Ötztal Information: 05252/2268"
-        ],
-        "image": "data/images/nicole_ad_d.png",
-        "text_en": "The ski hit... Ötztal... Offers children up to 7 years accompanied by their parents a free children's ski course for a stay of at least seven days. Ötztal Information: 05252/2268.",
-        "vocabulary": [
-          {
-            "de": "kostenlos",
-            "en": "free"
+            "en": "the little pig"
           },
           {
-            "de": "die Begleitung",
-            "en": "the accompaniment"
+            "de": "erobern",
+            "en": "to conquer"
           }
         ]
       },
-      "e": {
-        "title": "TOP CENTER WIEN",
-        "subtitle": "Kino & Film",
+      "g": {
+        "title": "Spaß & Urlaub – Schifahren in den Bergen",
+        "subtitle": "Sport & Freizeit",
         "lines": [
-          "TOP CENTER WIEN",
-          "FILME DER WOCHE",
-          "Top 1: Im Netz der Spinne",
-          "Ötzi, der Mann aus dem Eis",
-          "The Winslow Boy"
+          "Spaß & Urlaub",
+          "Schifahren und Freizeitspaß in den Bergen:",
+          "Musikgruppen und Sportwettbewerbe locken Schifahrer und Snowboarder von Mitte März bis Mitte April in die Berge.",
+          "Nähere Infos unter",
+          "www.dachstein.at"
         ],
-        "image": "data/images/nicole_ad_e.png",
-        "text_en": "TOP CENTER VIENNA FILMS OF THE WEEK. Top 1: Along Came a Spider. Ötzi, the Iceman. The Winslow Boy.",
-        "vocabulary": []
+        "image": "data/images/nicole_ad_g.png",
+        "text_en": "Fun & Vacation – Skiing and leisure fun in the mountains: Music groups and sports competitions attract skiers and snowboarders to the mountains from mid-March to mid-April. More info at www.dachstein.at.",
+        "vocabulary": [
+          {
+            "de": "der Sportwettbewerb",
+            "en": "the sports competition"
+          }
+        ]
       },
-      "f": {
-        "title": "Spenden Sie zum Schutz der Tiere!",
-        "subtitle": "Spenden",
+      "h": {
+        "title": "Spenden Sie zum Schutz der Tiere! (WWF)",
+        "subtitle": "Tierschutz & Spenden",
         "lines": [
           "Spenden Sie zum Schutz der Tiere!",
-          "Braunbären werden wieder in Sloweniens Wäldern angesiedelt.",
-          "Die Tiere können dort frei leben und werden nicht länger im Zoo gehalten.",
-          "Helfen Sie dem WWF..."
+          "Braunbären werden wieder in Sloweniens Wäldern angesiedelt. Die Tiere können dort frei leben und werden nicht länger im Zoo gehalten.",
+          "Helfen Sie dem WWF mit einer Spende unter „Braunbären“,",
+          "PSK Kontonummer 12.33.9000"
         ],
-        "image": "data/images/nicole_ad_f.png",
-        "text_en": "Donate to protect animals! Brown bears are being reintroduced in Slovenia's forests. The animals can live freely there and are no longer kept in the zoo. Help the WWF...",
+        "image": "data/images/nicole_ad_h.png",
+        "text_en": "Donate to protect animals! Brown bears are being reintroduced into Slovenia's forests. The animals can live freely there and are no longer kept in the zoo. Help the WWF with a donation under 'Brown Bears', PSK account number 12.33.9000.",
         "vocabulary": [
           {
             "de": "spenden",
@@ -345,57 +412,94 @@
           }
         ]
       },
-      "g": {
-        "title": "COLOMBO",
+      "i": {
+        "title": "Zirkus COLOMBO",
         "subtitle": "Veranstaltungen",
         "lines": [
+          "Letzte Vorstellung am Sonntag!",
           "COLOMBO",
           "Besuchen Sie mit Ihren Kindern auch unseren Streichelzoo, wo man viel über das Leben der Tiere im Zirkus erfahren kann!",
-          "Nur noch eine Vorstellung!!",
-          "Beginn: 15:00 h, Jesuitenwiese."
+          "Nur noch eine Vorstellung!!!",
+          "Beginn: 12:00 h, Jesuitenwiese"
         ],
-        "image": "data/images/nicole_ad_g.png",
-        "text_en": "COLOMBO. Visit our petting zoo with your children, where you can learn a lot about the life of animals in the circus! Only one performance left!! Start: 3:00 p.m., Jesuitenwiese.",
+        "image": "data/images/nicole_ad_i.png",
+        "text_en": "Last performance on Sunday! COLOMBO. Also visit our petting zoo with your children, where you can learn a lot about the life of animals in the circus! Only one performance left!!! Start: 12:00 p.m., Jesuitenwiese.",
         "vocabulary": [
+          {
+            "de": "die Vorstellung",
+            "en": "the performance / show"
+          },
           {
             "de": "der Streichelzoo",
             "en": "the petting zoo"
           }
         ]
       },
-      "h": {
-        "title": "Großer Abverkauf INTERSPORT",
-        "subtitle": "Einkaufen",
+      "j": {
+        "title": "TOP CENTER WIEN – Filme der Woche",
+        "subtitle": "Kino & Film",
         "lines": [
-          "Großer Abverkauf",
-          "INTERSPORT",
-          "50% Ermäßigung auf modische Sportjacken, Laufhosen und Schianzüge für Damen.",
-          "INTERSPORT im Donauzentrum."
+          "TOP CENTER WIEN",
+          "FILME DER WOCHE:",
+          "Top 1 – 20.00 Uhr: Im Netz der Spinne (ab 16 Jahre)",
+          "Top 2 – 16.30 Uhr: Ötzi, der Mann aus dem Eis (ab 14 Jahre)",
+          "Top 3 – 19.30 Uhr: The Winslow Boy (ab 14 Jahre, in englischer Sprache)",
+          "Kartenreservierung unter: 533 43 43 oder <top@aon.at>"
         ],
-        "image": "data/images/nicole_ad_h.png",
-        "text_en": "Big clearance sale INTERSPORT. 50% discount on fashionable sports jackets, running pants and ski suits for women. INTERSPORT in the Donauzentrum.",
+        "image": "data/images/nicole_ad_j.png",
+        "text_en": "TOP CENTER VIENNA – FILMS OF THE WEEK: Top 1 (8:00 p.m.): Along Came a Spider (16+ years). Top 2 (4:30 p.m.): Ötzi, the Iceman (14+ years). Top 3 (7:30 p.m.): The Winslow Boy (14+ years, in English language). Ticket reservation at: 533 43 43 or <top@aon.at>.",
         "vocabulary": [
           {
-            "de": "der Abverkauf",
-            "en": "the clearance sale"
+            "de": "die Kartenreservierung",
+            "en": "the ticket reservation"
           }
         ]
       },
       "k": {
-        "title": "Boutique MODE-CLAIRE",
+        "title": "Boutique MODE-CLAIRE – Verkäuferin gesucht",
         "subtitle": "Stellenangebote",
         "lines": [
           "GESCHÄFT IN WIENER INNENSTADT SUCHT:",
-          "erfahrene, modebewusste, freundliche Verkäuferin",
+          "erfahrene, modebewusste, freundliche",
+          "Verkäuferin",
           "für 20 Stunden/Woche.",
-          "Boutique MODE-CLAIRE"
+          "Zeiteinteilung und Gehalt nach Absprache.",
+          "Bewerbungen an:",
+          "Boutique „MODE-CLAIRE“",
+          "Frau Gerti Langer, Weihburggasse 3, 1010 Wien"
         ],
         "image": "data/images/nicole_ad_k.png",
-        "text_en": "SHOP IN VIENNA CITY CENTER SEEKS: experienced, fashion-conscious, friendly saleswoman for 20 hours/week. Boutique MODE-CLAIRE.",
+        "text_en": "SHOP IN VIENNA CITY CENTER SEEKS: experienced, fashion-conscious, friendly saleswoman for 20 hours/week. Schedule and salary by arrangement. Applications to: Boutique 'MODE-CLAIRE', Ms. Gerti Langer, Weihburggasse 3, 1010 Vienna.",
         "vocabulary": [
           {
             "de": "die Verkäuferin",
             "en": "the saleswoman"
+          },
+          {
+            "de": "modebewusst",
+            "en": "fashion-conscious"
+          }
+        ]
+      },
+      "l": {
+        "title": "Großer Abverkauf bei INTERSPORT",
+        "subtitle": "Einkaufen & Sport",
+        "lines": [
+          "Großer Abverkauf bei INTERSPORT",
+          "50% Ermäßigung auf",
+          "modische Sportjacken, Laufhosen und Schianzüge für Damen",
+          "INTERSPORT im Donauzentrum"
+        ],
+        "image": "data/images/nicole_ad_l.png",
+        "text_en": "Big clearance sale at INTERSPORT. 50% discount on fashionable sports jackets, running pants, and ski suits for women. INTERSPORT in the Donauzentrum.",
+        "vocabulary": [
+          {
+            "de": "der Abverkauf",
+            "en": "the clearance sale"
+          },
+          {
+            "de": "die Ermäßigung",
+            "en": "the discount"
           }
         ]
       }
@@ -406,70 +510,70 @@
         "situation": "Sie suchen für Ihren 5-jährigen Sohn einen Schikurs.",
         "situation_en": "You are looking for a ski course for your 5-year-old son.",
         "correct_answer": "d",
-        "explanation": "Ad 'd' offers a free 'Kinderschikurs' (children's ski course) in Ötztal for children up to 7 years old."
+        "explanation": "Ad 'd' ('Ötztal Information') offers a free children's ski course for children up to 6 years old ('bietet Kindern bis 6 Jahren... einen kostenlosen Kinderschikurs')."
       },
       {
         "number": 12,
         "situation": "Sie möchten am Wochenende in den Zoo gehen.",
         "situation_en": "You want to go to the zoo on the weekend.",
-        "correct_answer": "a",
-        "explanation": "Ad 'a' is for the 'Tiergarten Schönbrunn' (Zoo) and advertises an open day on Sunday (weekend). Note: The provided key says E, but logically and structurally it corresponds to 'a'."
+        "correct_answer": "e",
+        "explanation": "Ad 'e' ('Tiergarten Schönbrunn') advertises an Open Day on Sunday, October 14th, with free entry, and states the zoo is open daily from 9 a.m. to 6 p.m."
       },
       {
         "number": 13,
         "situation": "Sie suchen eine Zeitschrift für Ihre Freundin, die sich für Mode interessiert.",
         "situation_en": "You are looking for a magazine for your friend who is interested in fashion.",
-        "correct_answer": "x",
-        "explanation": "There are no advertisements for fashion magazines. (Key indicates C)."
+        "correct_answer": "c",
+        "explanation": "Ad 'c' ('Fashion – das neue Modemagazin') offers a monthly fashion magazine subscription with fashion tips and trends."
       },
       {
         "number": 14,
         "situation": "Ihre Bekannte sucht einen Job in einem Modegeschäft.",
         "situation_en": "Your acquaintance is looking for a job in a fashion store.",
         "correct_answer": "k",
-        "explanation": "Ad 'k' is a job offer for a saleswoman ('Verkäuferin') in a fashion boutique ('Boutique MODE-CLAIRE')."
+        "explanation": "Ad 'k' ('Boutique MODE-CLAIRE') is looking for a saleswoman ('Verkäuferin für 20 Stunden/Woche') for a fashion shop in downtown Vienna."
       },
       {
         "number": 15,
         "situation": "Sie möchten Ihre Freunde am Montagabend in den Zirkus einladen.",
         "situation_en": "You want to invite your friends to the circus on Monday evening.",
         "correct_answer": "x",
-        "explanation": "Ad 'g' is for a circus ('COLOMBO Zirkus'), but the performance starts at 15:00 (afternoon), not in the evening. Therefore, the answer is 'x'."
+        "explanation": "Ad 'i' ('COLOMBO') states that the very last circus performance is on Sunday at 12:00 p.m. ('Letzte Vorstellung am Sonntag! Nur noch eine Vorstellung!!! Beginn: 12:00 h'). Therefore, going on Monday evening is not possible ('x')."
       },
       {
         "number": 16,
         "situation": "Ihre 10-jährige Tochter möchte sich gern einen Tierfilm ansehen.",
         "situation_en": "Your 10-year-old daughter would like to watch an animal film.",
-        "correct_answer": "b",
-        "explanation": "Ad 'b' is for the movie 'Schweinchen Babe' (Babe the Pig), an animal film suitable for children from 6 years. (Key indicates J)."
+        "correct_answer": "f",
+        "explanation": "Ad 'f' shows the animal movie 'Schweinchen Babe in der großen Stadt' (about a little pig and its animal friends), which is suitable for children aged 6 and older ('Für Kinder ab 6 Jahren geeignet!')."
       },
       {
         "number": 17,
         "situation": "Sie möchten für Ihre Familie billige Winterkleidung kaufen.",
         "situation_en": "You want to buy cheap winter clothes for your family.",
-        "correct_answer": "x",
-        "explanation": "Ad 'h' offers a 50% discount on winter/sports clothing, but explicitly only 'für Damen' (for women), not for the whole family. Therefore, 'x'."
+        "correct_answer": "a",
+        "explanation": "Ad 'a' ('ADESSA – Mode für die ganze Familie') offers affordable autumn and winter clothing for the whole family ('bietet günstige Herbst- und Wintermode'), whereas ad 'l' ('INTERSPORT') only discounts women's sportswear ('für Damen')."
       },
       {
         "number": 18,
         "situation": "Sie möchten einen Schikurs machen und sich dafür Schier leihen.",
         "situation_en": "You want to take a ski course and rent skis for it.",
         "correct_answer": "x",
-        "explanation": "Ad 'c' mentions skiing, but there is no mention of a ski course with ski rental. The answer is 'x'. (Key indicates B)."
+        "explanation": "None of the ads offer an adult ski course with ski rental: ad 'b' is a job ad looking to hire ski instructors ('Schilehrer gesucht!'), ad 'd' is only for children up to 6 years old, and ad 'g' advertises mountain events without ski courses or rental."
       },
       {
         "number": 19,
         "situation": "Sie machen in Österreich Urlaub und möchten sich einen Film im englischen Original ansehen.",
         "situation_en": "You are on vacation in Austria and would like to watch a film in the English original.",
-        "correct_answer": "x",
-        "explanation": "Ad 'e' lists English movie titles ('The Winslow Boy'), but does not state it is in the original English language ('OV' / 'OmU'). Therefore, 'x'."
+        "correct_answer": "j",
+        "explanation": "Ad 'j' ('TOP CENTER WIEN') screens 'The Winslow Boy (ab 14 Jahre, in englischer Sprache)' at 19:30 in Vienna, Austria."
       },
       {
         "number": 20,
         "situation": "Sie interessieren sich für Tiere und möchten ihnen helfen.",
         "situation_en": "You are interested in animals and want to help them.",
-        "correct_answer": "f",
-        "explanation": "Ad 'f' is a donation appeal to protect animals ('Spenden Sie zum Schutz der Tiere!'). (Key indicates H)."
+        "correct_answer": "h",
+        "explanation": "Ad 'h' ('Spenden Sie zum Schutz der Tiere!') calls for donations to the WWF to help reintroduce brown bears into the wild."
       }
     ]
   },
