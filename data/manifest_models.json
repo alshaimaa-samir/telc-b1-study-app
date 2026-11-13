@@ -162,7 +162,15 @@
       "description": "",
       "audio_count": 0,
       "has_audio": false
-    }
+    },
+    {
+      "id": "corina",
+      "filename": "corina.json",
+      "title": "CORINA",
+      "description": "",
+      "audio_count": 0,
+      "has_audio": false
+    },
   ],
   "total_models": 16,
   "total_audio_files": 840
