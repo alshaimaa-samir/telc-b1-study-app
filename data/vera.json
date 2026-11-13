@@ -226,77 +226,341 @@
     ]
   },
   "leseverstehen_teil_3": {
-    "advertisements": {},
+    "advertisements": {
+      "a": {
+        "title": "PRAKTIKANT/IN – TAPE Media Film GmbH",
+        "subtitle": "Im Bereich Medien- und Veranstaltungstechnik gesucht",
+        "lines": [
+          "PRAKTIKANT/IN",
+          "Im Bereich Medien- und Veranstaltungstechnik gesucht",
+          "Praktikumszeit: mind. 6 Monate",
+          "Kurze schriftliche Bewerbung an: TAPE Media Film GmbH, Heidemannstr. 17, 80939 München"
+        ],
+        "image": "data/images/vera_ad_a.png",
+        "text_en": "INTERN wanted in the field of media and event technology. Internship duration: min. 6 months. Short written application to: TAPE Media Film GmbH, Heidemannstr. 17, 80939 Munich.",
+        "vocabulary": [
+          {
+            "de": "die Veranstaltungstechnik",
+            "en": "event technology"
+          },
+          {
+            "de": "die Praktikumszeit",
+            "en": "internship duration"
+          }
+        ]
+      },
+      "b": {
+        "title": "20.45 ARTE Themenabend – „UNSERE ZUKUNFT“",
+        "subtitle": "Was ist mit unserer Jugend los?",
+        "lines": [
+          "ARTE Themenabend",
+          "20.45 Was ist mit unserer Jugend los?",
+          "„UNSERE ZUKUNFT“",
+          "Wie kommen Jugendliche in Deutschland und Frankreich mit der Wirtschafts- und Bildungspolitik zurecht?",
+          "bis 23.45 | 771-665"
+        ],
+        "image": "data/images/vera_ad_b.png",
+        "text_en": "ARTE Theme Night. 8:45 p.m. What is going on with our youth? 'OUR FUTURE'. How are young people in Germany and France coping with economic and educational policies? (until 11:45 p.m.)",
+        "vocabulary": [
+          {
+            "de": "die Bildungspolitik",
+            "en": "educational policy"
+          },
+          {
+            "de": "zurechtkommen mit",
+            "en": "to cope with / manage"
+          }
+        ]
+      },
+      "c": {
+        "title": "rb Bahnreisenforschung – Freiberufliche Nebentätigkeit",
+        "subtitle": "Wir suchen junge Mitarbeiter für eine freiberufliche Nebentätigkeit",
+        "lines": [
+          "Wir suchen junge Mitarbeiter für eine freiberufliche Nebentätigkeit",
+          "(telefonische Absprache und Planung von Interviewer-Einsätzen, 15–25 Std./Woche). Spezielle Vorkenntnisse sind nicht erforderlich, wichtig ist uns sicheres Auftreten am Telefon.",
+          "Nähere Informationen unter Tel. (089) 92 23-421",
+          "rb Bahnreisenforschung, Arabellastr. 33, 81925 München"
+        ],
+        "image": "data/images/vera_ad_c.png",
+        "text_en": "We are looking for young employees for a freelance side job (telephone coordination and planning of interviewer assignments, 15–25 hrs/week). No special prior knowledge required; what matters to us is a confident manner on the phone. Further information at Tel. (089) 92 23-421, rb Bahnreisenforschung, Arabellastr. 33, 81925 Munich.",
+        "vocabulary": [
+          {
+            "de": "freiberuflich",
+            "en": "freelance"
+          },
+          {
+            "de": "die Nebentätigkeit",
+            "en": "side job / secondary employment"
+          }
+        ]
+      },
+      "d": {
+        "title": "20.15 Tatort aus Münster",
+        "subtitle": "Fernsehen",
+        "lines": [
+          "20.15 Tatort aus Münster",
+          "Nun kommen die Fans von Frank Thiel wieder auf ihre Kosten: Frank Thiel alias Axel Prahl ermittelt. Ihm zur Seite steht Denise Mercier. Die Schweizerin spielt die Freundin des rüden Ermittlers – eine Frau mit Stil, die Verständnis für Thiels Lebenswandel zeigt, sich aber auch in Szene zu setzen weiß. Mit dieser Rolle hofft sie, im deutschen Fernsehen bekannt zu werden.",
+          "(bis 21.45 Uhr)"
+        ],
+        "image": "data/images/vera_ad_d.png",
+        "text_en": "8:15 p.m. Tatort from Münster. Now fans of Frank Thiel get their money's worth again: Frank Thiel alias Axel Prahl investigates. At his side is Denise Mercier. The Swiss actress plays the girlfriend of the rough investigator—a woman with style who shows understanding for Thiel's lifestyle, but also knows how to put herself in the spotlight. With this role she hopes to become known on German television. (until 9:45 p.m.)",
+        "vocabulary": [
+          {
+            "de": "auf seine Kosten kommen",
+            "en": "to get one's money's worth"
+          },
+          {
+            "de": "der Ermittler",
+            "en": "investigator / detective"
+          }
+        ]
+      },
+      "e": {
+        "title": "Lukrative Halbtagstätigkeit – Leewe New Media GmbH",
+        "subtitle": "Stellenangebote",
+        "lines": [
+          "Lukrative Halbtagstätigkeit",
+          "Expandierendes High-Tech-Unternehmen sucht für Empfang und einfache Büroarbeiten Aushilfe, MS-Office- und Englischkenntnisse erforderlich!",
+          "Interessenten wenden sich an Leewe New Media GmbH, Tel. 089 / 45 79 00"
+        ],
+        "image": "data/images/vera_ad_e.png",
+        "text_en": "Lucrative half-day job: Expanding high-tech company is looking for temporary help for reception and simple office tasks; MS Office and English skills required! Interested parties please contact Leewe New Media GmbH, Tel. 089 / 45 79 00.",
+        "vocabulary": [
+          {
+            "de": "die Aushilfe",
+            "en": "temporary help / assistant"
+          },
+          {
+            "de": "erforderlich",
+            "en": "required / necessary"
+          }
+        ]
+      },
+      "f": {
+        "title": "3Sat 20.15 LIVE – Drei Länder – ein Thema",
+        "subtitle": "TALK-SHOW",
+        "lines": [
+          "3Sat 20.15 LIVE",
+          "Drei Länder – ein Thema",
+          "TALK-SHOW",
+          "„Kommt die Öko-Diktatur – Zündstoff Benzinpreis“. Wie begegnet man in Deutschland, der Schweiz und Österreich dem Verkehrskollaps? Wie retten wir die Umwelt?",
+          "bis 21.30 | 65-437-662"
+        ],
+        "image": "data/images/vera_ad_f.png",
+        "text_en": "3Sat 8:15 p.m. LIVE. Three countries – one topic. TALK SHOW. 'Is the eco-dictatorship coming – Explosive issue fuel prices'. How do Germany, Switzerland, and Austria deal with traffic collapse? How do we save the environment? (until 9:30 p.m.)",
+        "vocabulary": [
+          {
+            "de": "der Zündstoff",
+            "en": "explosive issue / source of conflict"
+          },
+          {
+            "de": "der Verkehrskollaps",
+            "en": "traffic collapse / gridlock"
+          }
+        ]
+      },
+      "g": {
+        "title": "Mitarbeiter/innen am Empfang – Blattl's Hotels",
+        "subtitle": "Bei uns wird Erfolg belohnt!",
+        "lines": [
+          "Bei uns wird Erfolg belohnt!",
+          "Wir suchen für unsere 6 Hotelbetriebe im gehobenen ***-Bereich in München, Frankfurt und Berlin",
+          "Mitarbeiter/innen am Empfang",
+          "Wenn Sie bereits Rezeptionserfahrung oder auch gerade ausgelernt haben, mind. eine Fremdsprache (E) sprechen und EDV-erfahren sind, senden Sie bitte Ihre Bewerbung an:",
+          "Blattl's Hotels Zentralbüro, Geschäftsbereich Personal, Postfach 22 11 44, 80501 München"
+        ],
+        "image": "data/images/vera_ad_g.png",
+        "text_en": "With us, success is rewarded! For our 6 upscale 3-star hotels in Munich, Frankfurt, and Berlin, we are looking for receptionists. If you already have reception experience or have just completed your training, speak at least one foreign language (English), and have IT skills, please send your application to: Blattl's Hotels Central Office, HR Department, P.O. Box 22 11 44, 80501 Munich.",
+        "vocabulary": [
+          {
+            "de": "die Rezeptionserfahrung",
+            "en": "reception experience"
+          },
+          {
+            "de": "ausgelernt haben",
+            "en": "to have completed vocational training"
+          }
+        ]
+      },
+      "h": {
+        "title": "Vermittlungsagentur Gerdsschwager",
+        "subtitle": "Wir suchen ständig",
+        "lines": [
+          "Wir suchen ständig:",
+          "• Studenten für Schüler-Nachhilfeunterricht: Englisch, Französisch, Mathematik",
+          "• Messehostessen",
+          "• Babysitter / Tiersitter",
+          "Std.-Lohn ca. 13,00 EUR",
+          "Vermittlungsagentur Gerdsschwager, Tel. 089 / 74 68 91 93"
+        ],
+        "image": "data/images/vera_ad_h.png",
+        "text_en": "We are constantly looking for: Students for school tutoring (English, French, Mathematics), trade fair hostesses, babysitters / pet sitters. Hourly wage approx. 13.00 EUR. Placement Agency Gerdsschwager, Tel. 089 / 74 68 91 93.",
+        "vocabulary": [
+          {
+            "de": "der Nachhilfeunterricht",
+            "en": "tutoring lessons"
+          },
+          {
+            "de": "der Stundenlohn (Std.-Lohn)",
+            "en": "hourly wage"
+          }
+        ]
+      },
+      "i": {
+        "title": "22.55 Stern TV-Countdown (VOX)",
+        "subtitle": "Fernsehen",
+        "lines": [
+          "22.55 Stern TV-Countdown (VOX)",
+          "In zehn Reportagen zeigt „Spiegel TV“-Mann Jörg Hafkemeyer, wie sich die ersten Monate der neuen Regierung gestalten. Jetzt werden Weichen für die Zukunft Deutschlands gestellt.",
+          "(bis 21.45 Uhr)"
+        ],
+        "image": "data/images/vera_ad_i.png",
+        "text_en": "10:55 p.m. Stern TV-Countdown (VOX). In ten reports, 'Spiegel TV' journalist Jörg Hafkemeyer shows how the first months of the new government are taking shape. Now the course is being set for Germany's future.",
+        "vocabulary": [
+          {
+            "de": "die Reportage",
+            "en": "report / documentary feature"
+          },
+          {
+            "de": "die Regierung",
+            "en": "government"
+          }
+        ]
+      },
+      "j": {
+        "title": "Max Frisch: Biedermann und die Brandstifter",
+        "subtitle": "HR2 – Hörspiel",
+        "lines": [
+          "Max Frisch: Biedermann und die Brandstifter;",
+          "Samstag, 19. September, 20.10–21.17 Uhr, HR2.",
+          "„Ein Lehrstück ohne Lehre“ nannte Frisch sein ursprünglich als Hörspiel gedachtes und dann für das Theater bearbeitetes Stück, das 1958 in Zürich uraufgeführt wurde. Man sah darin sowohl eine Warnung vor dem Kommunismus wie vor dem Faschismus. (chw.)"
+        ],
+        "image": "data/images/vera_ad_j.png",
+        "text_en": "Max Frisch: Biedermann and the Arsonists; Saturday, September 19, 8:10–9:17 p.m., HR2. Frisch called his piece, originally intended as a radio play and then adapted for the theater (premiered in Zurich in 1958), 'a didactic play without a lesson'. It was seen as a warning against both communism and fascism.",
+        "vocabulary": [
+          {
+            "de": "der Brandstifter",
+            "en": "arsonist"
+          },
+          {
+            "de": "das Lehrstück",
+            "en": "didactic play"
+          }
+        ]
+      },
+      "k": {
+        "title": "22.15 Radio Bremen – Städtische Freiräume",
+        "subtitle": "Radio",
+        "lines": [
+          "22.15 Radio Bremen",
+          "Bei einem internationalen Kongress präsentierten vergangenes Wochenende in Bremen Architekten ihre Projekte zum Thema „Städtische Freiräume“. Weiterhin: Rückschau und Vorschau auf das Programm der „Bremer Schule für Dichtung“. Und ein Bericht über die Obdachlosen-Betreuung „Wochenklausur“."
+        ],
+        "image": "data/images/vera_ad_k.png",
+        "text_en": "10:15 p.m. Radio Bremen. At an international congress in Bremen last weekend, architects presented their projects on the topic of 'Urban Open Spaces'. Also: Review and preview of the program of the 'Bremen School for Poetry', and a report on the homeless care project 'Wochenklausur'.",
+        "vocabulary": [
+          {
+            "de": "der Freiraum",
+            "en": "open space"
+          },
+          {
+            "de": "die Rückschau",
+            "en": "review / retrospective"
+          }
+        ]
+      },
+      "l": {
+        "title": "PRIMA-Werbung – Lieben Sie den Umgang mit Menschen?",
+        "subtitle": "Stellenangebote",
+        "lines": [
+          "Lieben Sie den Umgang mit Menschen?",
+          "Sind Sie obendrein auch noch dynamisch und ehrgeizig, dann sind Sie bei uns richtig.",
+          "Münchens bekannte PRIMA-Werbung bietet Ihnen neben einem tollen Team hervorragende Verdienst- und Aufstiegsmöglichkeiten.",
+          "Wir brauchen Leute wie Sie! Rufen Sie sie an!"
+        ],
+        "image": "data/images/vera_ad_l.png",
+        "text_en": "Do you love dealing with people? If on top of that you are also dynamic and ambitious, then you are in the right place with us. Munich's well-known PRIMA-Werbung offers you a great team as well as excellent earning and career advancement opportunities. We need people like you! Give them a call!",
+        "vocabulary": [
+          {
+            "de": "obendrein",
+            "en": "on top of that / besides"
+          },
+          {
+            "de": "die Aufstiegsmöglichkeit",
+            "en": "opportunity for advancement"
+          }
+        ]
+      }
+    },
     "situations": [
       {
         "number": 11,
         "situation": "Sie haben von einer noch unbekannten Schauspielerin gehört und möchten gern einen Film sehen.",
         "situation_en": "You have heard of a still unknown actress and would like to see a film.",
-        "correct_answer": "x",
-        "explanation": "The advertisements for this section were not provided in the source material."
+        "correct_answer": "d",
+        "explanation": "Ad 'd' advertises the TV crime film 'Tatort aus Münster' featuring Swiss actress Denise Mercier, who hopes to become known on German television with this role ('Mit dieser Rolle hofft sie, im deutschen Fernsehen bekannt zu werden')."
       },
       {
         "number": 12,
         "situation": "Sie haben bereits in einem Hotel gearbeitet und suchen wieder eine neue interessante Stelle.",
         "situation_en": "You have already worked in a hotel and are looking for a new interesting job.",
-        "correct_answer": "x",
-        "explanation": "The advertisements for this section were not provided in the source material."
+        "correct_answer": "g",
+        "explanation": "Ad 'g' (Blattl's Hotels) is looking for receptionists for its 6 upscale hotels who already have reception experience ('Wenn Sie bereits Rezeptionserfahrung... haben')."
       },
       {
         "number": 13,
         "situation": "Sie interessieren sich für Umweltschutz und suchen eine passende Sendung.",
         "situation_en": "You are interested in environmental protection and are looking for a suitable program.",
-        "correct_answer": "x",
-        "explanation": "The advertisements for this section were not provided in the source material."
+        "correct_answer": "f",
+        "explanation": "Ad 'f' advertises a live talk show on 3Sat discussing environmental protection: 'Kommt die Öko-Diktatur – Zündstoff Benzinpreis' and 'Wie retten wir die Umwelt?'."
       },
       {
         "number": 14,
         "situation": "Ihr Freund, der am Institut für Film und Bild studiert, sucht einen geeigneten Praktikumsplatz.",
         "situation_en": "Your friend, who is studying at the Institute for Film and Image, is looking for a suitable internship.",
-        "correct_answer": "x",
-        "explanation": "The advertisements for this section were not provided in the source material."
+        "correct_answer": "a",
+        "explanation": "Ad 'a' (TAPE Media Film GmbH) is looking for an intern ('PRAKTIKANT/IN') for at least 6 months in the field of media and event technology."
       },
       {
         "number": 15,
         "situation": "In einer Sendereihe wird im Fernsehen über die neue politische Entwicklung in Deutschland berichtet. Sie wollen sich informieren.",
         "situation_en": "A series on television reports on the new political developments in Germany. You want to inform yourself.",
-        "correct_answer": "x",
-        "explanation": "The advertisements for this section were not provided in the source material."
+        "correct_answer": "i",
+        "explanation": "Ad 'i' (Stern TV-Countdown on VOX) broadcasts a series of ten reports ('In zehn Reportagen') about how the first months of the new German government are taking shape."
       },
       {
         "number": 16,
-        "situation": "Sie interessieren sich für Großstädte und ihre Entwicklung und suchen dazu eine Sendung im Rundfunk.",
-        "situation_en": "You are interested in big cities and their development and are looking for a radio program on this.",
-        "correct_answer": "x",
-        "explanation": "The advertisements for this section were not provided in the source material."
+        "situation": "Sie interessieren sich für moderne Stadtentwicklung und suchen dazu eine Sendung im Rundfunk.",
+        "situation_en": "You are interested in modern urban development and are looking for a radio program on this.",
+        "correct_answer": "k",
+        "explanation": "Ad 'k' on Radio Bremen reports on an international congress where architects presented their projects on the topic of urban open spaces ('Städtische Freiräume')."
       },
       {
         "number": 17,
         "situation": "Sie wollen bei der Deutschen Bahn eine Ausbildung machen.",
         "situation_en": "You want to do an apprenticeship at Deutsche Bahn.",
         "correct_answer": "x",
-        "explanation": "The advertisements for this section were not provided in the source material."
+        "explanation": "There is no advertisement for an apprenticeship at Deutsche Bahn. Ad 'c' (rb Bahnreisenforschung) only offers a freelance side job coordinating interviewer assignments by phone."
       },
       {
         "number": 18,
         "situation": "Sie interessieren sich für politisches Theater und möchten am Wochenende dazu etwas hören oder sehen.",
         "situation_en": "You are interested in political theater and would like to hear or see something about it on the weekend.",
-        "correct_answer": "x",
-        "explanation": "The advertisements for this section were not provided in the source material."
+        "correct_answer": "j",
+        "explanation": "Ad 'j' broadcasts Max Frisch's political play 'Biedermann und die Brandstifter' (a warning against communism and fascism) on Saturday ('Samstag') on HR2."
       },
       {
         "number": 19,
         "situation": "Sie arbeiten gern mit anderen zusammen und suchen eine Tätigkeit bei einer Werbefirma.",
         "situation_en": "You like working with others and are looking for a job at an advertising agency.",
-        "correct_answer": "x",
-        "explanation": "The advertisements for this section were not provided in the source material."
+        "correct_answer": "l",
+        "explanation": "Ad 'l' from the advertising agency 'PRIMA-Werbung' seeks people who enjoy working with others ('Lieben Sie den Umgang mit Menschen?') to join their team."
       },
       {
         "number": 20,
         "situation": "Sie studieren Fremdsprachen und suchen einen Job, bei dem Sie mit Kindern arbeiten können.",
         "situation_en": "You study foreign languages and are looking for a job where you can work with children.",
-        "correct_answer": "x",
-        "explanation": "The advertisements for this section were not provided in the source material."
+        "correct_answer": "h",
+        "explanation": "Ad 'h' (Vermittlungsagentur Gerdsschwager) is looking for university students to tutor school children in English and French ('Studenten für Schüler-Nachhilfeunterricht: Englisch, Französisch, Mathematik') as well as babysitters."
       }
     ]
   },
